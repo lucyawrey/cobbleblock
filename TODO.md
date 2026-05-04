@@ -17,6 +17,7 @@
   - Comment on strange non-pokemon fish.
 - Update spawn table.
   - Manually fill in remaining spawn data for non-legendary and non-fossil Pokémon.
+- Add TMs (especially ones that have no level up move equivilent) to loot tables and shops.
 - Update drop table.
   - Modify drop tables to add important drops for progression.
 - Legendary Summoning Shrines.

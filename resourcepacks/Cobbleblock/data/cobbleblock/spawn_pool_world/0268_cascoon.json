@@ -4,8 +4,8 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "silcoon-1",
-      "pokemon": "silcoon",
+      "id": "cascoon-1",
+      "pokemon": "cascoon",
       "type": "pokemon",
       "bucket": "common",
       "weight": 2,
@@ -22,8 +22,10 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "#minecraft:flowers",
-          "minecraft:vine"
+          "#minecraft:jungle_logs",
+          "minecraft:jungle_leaves",
+          "minecraft:vine",
+          "minecraft:sand"
         ]
       }
     }

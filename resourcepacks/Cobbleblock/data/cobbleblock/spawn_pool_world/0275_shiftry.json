@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "silcoon-1",
-      "pokemon": "silcoon",
+      "id": "shiftry-1",
+      "pokemon": "shiftry",
       "type": "pokemon",
       "bucket": "common",
-      "weight": 2,
-      "level": "7-21",
+      "weight": 0.03,
+      "level": "29-48",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -22,8 +22,7 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "#minecraft:flowers",
-          "minecraft:vine"
+          "#cobblemon:trees"
         ]
       }
     }

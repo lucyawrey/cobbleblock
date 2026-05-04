@@ -89,6 +89,10 @@ file = "config/rctmod-server.toml"
 hash = "b07ddf107e2d79e78cfbdab7fd5f0b8f2fd9fce45ad4ee7c0fd0f0a6c7c469c2"
 
 [[files]]
+file = "config/simpletms/main.json"
+hash = "57a4c6eeacad279a4501c23e4c15f209ca28661cad017bd5b555aa3b70ee4fc1"
+
+[[files]]
 file = "config/skyblockbuilder/client.json5"
 hash = "234dcee4146f621111db7f1a78a4ed44cdffbef678f469397bc3f19adc1a61c9"
 
@@ -4542,11 +4546,15 @@ hash = "21d0f55a1c92b7625403b1c6e9c02552189e0e38001232a66e07b7c19ac54c74"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/models/block/lugia_pedestal.json"
-hash = "091c94f6a1a651bfb1370a056ae0418020fff23b62fc8a009e50a9dff14a9b0f"
+hash = "a88f54e6e6d4dce2266fe6e592f4f2e9be23664f054850dda646af237f58efd6"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/models/block/meteor_beacon.json"
 hash = "95e8a7cefa1f15e3928ca1876cf6819c6f6eae0e18f05d49b065e37debcacac8"
+
+[[files]]
+file = "kubejs/assets/cobbleblock/models/block/mew_pedestal.json"
+hash = "75cea2677ac6fad619e00e5a8267f5482f1f19f7bcff624c71c5d1cc17fe7391"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/models/block/moltres_pedestal.json"
@@ -4566,7 +4574,7 @@ hash = "78ed7bb6c5f4683fa94900f63e6a7ef003ab5046c18ee1e600cde67b84d8087e"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/block/lugia_pedestal.png"
-hash = "bb56a28a613188e6901ad751496e7deaa9fe145fcfaa386b998a52202bc05e72"
+hash = "d1ab1a0dd671cd6755eec91478b5096b03e3a12212630013f6ffb79831ad2e1b"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/block/lugia_pedestal_water.png"
@@ -4575,6 +4583,10 @@ hash = "109dc8b18a8fea983083b2f361c650f507d0ec26418b8ac0eef29b6f257030ab"
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/block/meteor_beacon.png"
 hash = "dbc7321e8d5074077d9ed77d5fa7a5ec20fa064c6e5c4bd20d95d586aa0cbf3a"
+
+[[files]]
+file = "kubejs/assets/cobbleblock/textures/block/mew_pedestal.png"
+hash = "326106aba48eccbb5bf25d1809ccab9251d5634b83a2d052681027e43a531c79"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/block/moltres_pedestal.png"
@@ -5064,6 +5076,11 @@ hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
 metafile = true
 
 [[files]]
+file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
+hash = "307a39080394cbe930be57e67fb8dae37601e8f0842da10da10977d261dac07d"
+metafile = true
+
+[[files]]
 file = "mods/sky-guis.pw.toml"
 hash = "fc0235b31e61f94cd7dc86b4cd358c9bea3adbe16c66879cf61ddfded60be3ed"
 metafile = true
@@ -5257,6 +5274,10 @@ hash = "03f5786e73ecb6a4ed739b4e8869a0f10a38a32dc70e65e2287f0743deebe67d"
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/dragon_gem.json"
 hash = "f3792dd1efea1a6317d4b9d4e4a4df1791ccd3ce69cd725f63c12ec9e992802f"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/echo_shard.json"
+hash = "5c2bff676832e967aa61a3f8fd4329917b7cdb230b71e161035e85607d51d69d"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/electric_gem.json"
@@ -6936,7 +6957,7 @@ hash = "e064b932acb2099163a5796ddb04ef5cf16ea7ff52480cab60732b158e7ee05a"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0266_silcoon.json"
-hash = "7328def7af1f94c5291315a779f2c75afc21572c858fdc788ff3f16a67f71f94"
+hash = "83127f1729045c95ff6cd8dbe031fea3deca917bd1bed2a8b12023482d3001d7"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0267_beautifly.json"
@@ -6945,6 +6966,42 @@ hash = "e59787599669d686d78e7b7bd1395c6e097f02e2d1967a573db823cc9bf4db2c"
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0267_beautifly_valencian.json"
 hash = "dc681d9d96ef2076509563e379977888bbd5703bfca323f7101a38c50df3480e"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0268_cascoon.json"
+hash = "fe3d127a59e98d1db19ef2ef644968e116f6bf1f13850ffb65802776fe80e779"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0269_dustox.json"
+hash = "9d36b8f26f1e56f8e7e7a7f731eab5ce0d5179bc67ca5ef6b8b549495a4a6410"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0269_dustox_valencian.json"
+hash = "5abffda7b6ea3c25c7fc4982078124bf437148137d09d8922bd349f630c7b6b2"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0270_lotad.json"
+hash = "0642fd43f9f4d84c35cb22d00cba08d4d5757c260b443642d869241a07b8c9e0"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0271_lombre.json"
+hash = "47d18dd7247b70a3cd40c2b846089c59023974b16341ae31c2b8243a3da96aa7"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0272_ludicolo.json"
+hash = "1741f4c3e9b807bd84f2c0283011240a4444213c7dd6f2160b6a8c3cb0931e39"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0273_seedot.json"
+hash = "5cee25bc9458f96322554bde255e7a29d5fb36fc1d2c86430d3e4e6a0f5d91cc"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0274_nuzleaf.json"
+hash = "809e7c6d0eb169d42b46eb2fbf733252dfb9596a2ccf6cfc6e9fa630d8b8f6c7"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0275_shiftry.json"
+hash = "f1634a45112e6172344e5bb9891a75eacd283b18b647e067a4386e8f9c9b62b4"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0299_nosepass.json"
