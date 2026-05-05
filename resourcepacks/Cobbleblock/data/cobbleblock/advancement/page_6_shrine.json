@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": "A torn page that appeared at a legendary Pokémon shrine",
+        "description": "You found a torn page from Professor Acacia's research journal while trying to summon a legendary Pokémon. This one seems very important.",
+        "icon": {
+            "id": "cobbleblock:torn_page"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "cobbleblock:research_journal",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": "cobbleblock:torn_page",
+                    "components": {
+                        "minecraft:custom_data": {
+                            "torn_page_id": "page_6_shrine"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

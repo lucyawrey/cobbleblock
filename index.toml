@@ -5210,6 +5210,22 @@ file = "patchouli_books/research_journal/en_us/entries/introduction/page_2_fishi
 hash = "7c89733d79d0cebff5ec66cf304ace99ccb0ac748e6aea6c3ec409311b9e356f"
 
 [[files]]
+file = "patchouli_books/research_journal/en_us/entries/introduction/page_3_archaeology.json"
+hash = "88d372135fd25e66f1c2561ee72ee9a2ae1f125bb4d66844b7df53e5acee8fe6"
+
+[[files]]
+file = "patchouli_books/research_journal/en_us/entries/introduction/page_4_trader.json"
+hash = "d17d70f75117f76289db953d7dc2e8649cedc5ba0942e2f29ca4c35a33287728"
+
+[[files]]
+file = "patchouli_books/research_journal/en_us/entries/introduction/page_5_meteor.json"
+hash = "6aebb021db4a621906774d9aaebe4f3de0b785c840efbcc40d42f466ef6b16ac"
+
+[[files]]
+file = "patchouli_books/research_journal/en_us/entries/introduction/page_6_shrine.json"
+hash = "a84b2c50367663d373025129e28e96df3e74b1a5dfc230c632ebd70f1a54c312"
+
+[[files]]
 file = "resourcepacks/Cobbleblock/assets/cobbleblock/lang/en_us.json"
 hash = "dd14e9ed37f90109f194c4aa1423b712dd945f1912e7bcf8f8731b4be744fa12"
 
@@ -5242,6 +5258,22 @@ file = "resourcepacks/Cobbleblock/data/cobbleblock/advancement/page_2_fishing.js
 hash = "12efd704e62a710edacdaa71344f1fcc700f9797da3b1ef139cc9fc3cb861894"
 
 [[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/advancement/page_3_archaeology.json"
+hash = "be24680f18c7de58967ac5138db016b899b6f4d329e96b3f5ea995efa5b5fbfc"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/advancement/page_4_trader.json"
+hash = "6f492e833cb8619fec39810b6cb79f38d2cccdcebe2da0bc86d7c049543e30ec"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/advancement/page_5_meteor.json"
+hash = "8a7e0131dbf4058783d770b3192bac3d258fea1d7b30f327cc85ff4c804ca79f"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/advancement/page_6_shrine.json"
+hash = "064e00169501f7439dc44ddde28c8f066f8d656fe0d42a75adb011b6c9237330"
+
+[[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/advancement/research_journal.json"
 hash = "2f65f95f6d6bb4ca78044442a5dc03c609da3e444ed936de76d35c50922279bb"
 
@@ -5259,7 +5291,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/loot_table/archaeology/suspicious_gravel.json"
-hash = "a0dd237638ccc1a07c7bcd98fb5aaffe68896b026d641bb0bfde0242c71356e9"
+hash = "74849128af95605b9862bc961383917b4d6ff32d36887f461b6971e4935526cc"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/loot_table/archaeology/suspicious_sand.json"

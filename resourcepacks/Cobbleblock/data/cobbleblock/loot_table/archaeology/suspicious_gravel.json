@@ -6,6 +6,22 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "torn_page_id": "page_3_archaeology"
+                },
+                "minecraft:item_name": "'Torn Page #3 (Archaeology)'"
+              }
+            }
+          ],
+          "name": "cobbleblock:torn_page",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:angler_pottery_sherd",
           "weight": 1
         },

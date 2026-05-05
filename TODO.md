@@ -1,18 +1,20 @@
 # Cobbleblock Todo
 
 ## Normal Priority
+- Fix pack not working on windows at all.
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.
   - Verify licence of all mods in modpack.
   - Ask for permission to use mods in modpack if they are not explicitly open licensed (example: Mega Showdown).
 - Create Lore!
-  - Add more torn pages.
+  - Create script to generate book json book entries from markdown files.
+  - Add methods to obtain more torn pages (Meteor, Trader, Shrine).
   - Secondary lore items that also get added to the research journal, such as the mewtwo research book or a note from a parent to a child.
   - Legendary Tablets should require translation information (an advancement/journal entry) before they can be read.
   - Instructions for how to summon gym leaders.
   - Comment on strange non-pokemon fish.
 - Update spawn table.
-  - Manually fill in remaining spawn data for non-legendary and non-fossil Pokémon.
+  - Manually fill in remaining spawn data for non-legendary Pokémon.
 - Add TMs (especially ones that have no level up move equivilent) to loot tables and shops.
 - Update drop table.
   - Modify drop tables to add important drops for progression.
@@ -35,7 +37,6 @@
   - https://modrinth.com/mod/cobblemon-journey-mounts, figure out how to make it work with AllTheMons x Mega Showdown
 - Create stat soda mod. Bottle cap (expensive and made of metal and gems) honey + Sugar + EV Berry + water bottle in cobblemon camp cooking pot.
 - Continue tweaking Radical Trainers teams for doubles format.
-- Create list of all modpack features, especially ones totally new to this pack (spawning mechanics, meteors).
 - Change entity death sounds and visuals to look like phasing out of reality instead of dying.
 - More Difficult Plate Recipes
 - Occassionally spawn legendary Pokémon that cannot be caught or battled that fly around (Ho-Oh, Giritina)
@@ -51,14 +52,6 @@
 - More interesting and difficult fossil machine recipes to obtain Type: Null and Genesect.
   - Current methods from ATMxMSD https://docs.google.com/document/d/1nPZxD0zWqaCsulp_RCRTiQS5YxUrdoE6xv8rsMoWSYs/edit?tab=t.rvlm7mgw1drd.
 - Secret Giritina dungeon underneath world spawn. Will need to make certain blocks like doors and buttons interactable at spawn in Skyblock config.
-
-## Lore Books/Tablets
-
-- Archaeology loot (probably gravel only)
-- Meteor (specific meteor with hidden chest in center)
-- Any Summoning (first time only)
-- Lugia Summoning (first time only)
-- Wandering trader
 
 ## Important Drops
 

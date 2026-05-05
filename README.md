@@ -1,9 +1,11 @@
 # Cobbleblock - Cobblemon Skyblock (Early Access)
+
 Welcome to Cobbleblock, a Skyblock modpack focused on the Cobblemon mod (which, if you somehow are not aware, adds Pokémon to Minecraft). The pack includes all generational gimmicks and all 1025 Pokémon! Pokémon spawn rules and a lot of recipes are also redone to be more fitting for a Skyblock. Also features some automation, and a lot of quality of life mods.
 
 This modpack is in early access and still undergoing heavy development. A lot is unfinished and there may be breaking changes in the future. The main purpose of this early release is to get feedback and suggestions!
 
 ## 📦 Modpack Features
+
 - Built for Minecraft 1.21.1 and includes the newest Cobblemon version (1.7).
 - Start on a classic Skyblock island with only a block of ice, a lava bucket, and a single Apricorn tree.
 - ...plus the tools of a trainer: a starter Pokémon, a Pokédex, a Pokénav, and a Trainer Card.
@@ -27,26 +29,46 @@ This modpack is in early access and still undergoing heavy development. A lot is
 - And lore to uncover about why exactly you find yourself floating in a sea of nothingness...
 - And more!
 
-# Modlist
+## Mods
+- NEED TO FINISH
 
+## Utility + Library Mods
+
+- [Accessories](https://modrinth.com/mod/accessories)
+- [Advanced Loot Info](https://modrinth.com/mod/advanced-loot-info)
+- [Architectury API](https://modrinth.com/mod/architectury-api)
+- [Athena](https://modrinth.com/mod/athena-ctm)
+- [Balm](https://modrinth.com/mod/balm)
+- [Better Advancements](https://modrinth.com/mod/better-advancements)
+- [Bookshelf](https://modrinth.com/mod/bookshelf-lib)
+- [Catch Indicator](https://modrinth.com/mod/catch-indicator)
+- [Clear Void](https://modrinth.com/mod/clear-void)
+- [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures)
+
+## Resourcepacks and Datapacks
+
+- [AllTheMons x Mega Showdown](https://modrinth.com/datapack/allthemons-x-mega-showdown-legacy)
 
 ---
 
-***License**: This modpack's source code and assets are licensed under the Mozilla Public License 2.0. This only includes code and assets original to the modpack, and not any of the content from other mods included in the modpack. All included mods are property of their original authors.*
+**\*License**: This modpack's source code and assets are licensed under the Mozilla Public License 2.0. This only includes code and assets original to the modpack, and not any of the content from other mods included in the modpack. All included mods are property of their original authors.\*
 
-***Cobbleblock is not affiliated with Pokémon nor Minecraft.***
+**_Cobbleblock is not affiliated with Pokémon nor Minecraft._**
 
-*Minecraft is a trademark of Mojang Synergies AB ｜ Pokémon is a trademark of Nintendo, Creatures Inc. and GAME FREAK inc.*
+_Minecraft is a trademark of Mojang Synergies AB ｜ Pokémon is a trademark of Nintendo, Creatures Inc. and GAME FREAK inc._
 
 ---
 
 ## Development
+
 ### Generate Data and Serve Development Server
+
 ```sh
 bun run --cwd scripts generate && packwiz refresh && packwiz serve
 ```
 
 ### MultiMC Pre-launch Command
+
 ```
 $INST_JAVA -jar $INST_DIR/packwiz-installer-bootstrap.jar http://localhost:8080/pack.toml
 ```

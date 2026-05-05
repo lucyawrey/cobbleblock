@@ -10,15 +10,38 @@ const targetSand = `https://docs.google.com/spreadsheets/d/1FWfVOOkkR-UtFYkn13Po
 const gravelSequence = "cobbleblock:archaeology/suspicious_gravel";
 const sandSequence = "cobbleblock:archaeology/suspicious_sand";
 
-const baseLoot: any[] = [];
+const baseGravelLoot = [
+  {
+    type: "minecraft:item",
+    functions: [
+      {
+        function: "minecraft:set_components",
+        components: {
+          "minecraft:custom_data": {
+            torn_page_id: "page_3_archaeology",
+          },
+          "minecraft:item_name": "'Torn Page #3 (Archaeology)'",
+        },
+      },
+    ],
+    name: "cobbleblock:torn_page",
+    weight: 1,
+  },
+];
 
-generateArcheologyLoot(gravelOutPath, targetGravel, gravelSequence);
-generateArcheologyLoot(sandOutPath, targetSand, sandSequence);
+generateArcheologyLoot(
+  gravelOutPath,
+  targetGravel,
+  gravelSequence,
+  baseGravelLoot,
+);
+generateArcheologyLoot(sandOutPath, targetSand, sandSequence, []);
 
 async function generateArcheologyLoot(
   outPath: string,
   target: string,
   sequence: string,
+  baseLoot: any[] = [],
 ) {
   const data: any[] = parse(await pullCsv(target), {
     columns: true,
