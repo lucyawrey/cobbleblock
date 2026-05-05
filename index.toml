@@ -45,8 +45,12 @@ file = "config/cobbreeding/main.json"
 hash = "444b12a455b859cd7c3afdc48126cffabce18b5b71d09a3177c4b4135533c747"
 
 [[files]]
-file = "config/default-server.properties"
-hash = "80a10786f39ef19ce2ac7bded1e2367987de603ac01f1dd924d4e36ae445898a"
+file = "config/defaultoptions/keybindings.txt"
+hash = "835c273979bb78f37ae04cf048aa51e0f3b150a380a1a04d04c1329a3378540a"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "588df0fa9e56a56a9171ceaf93afd3812cc18faef21486a6883c44cbdae9d84f"
 
 [[files]]
 file = "config/defaultworldtype/client-config.toml"
@@ -163,6 +167,10 @@ hash = "efcd93220d2e6598f5ece801593e84cd59786da2a4c075f3ce8d8522597bbd2d"
 [[files]]
 file = "config/skyblockbuilder/world.json5"
 hash = "3a684f77a688bfadfb079d40540b67e976e334e26c026c015d364686a5e746ff"
+
+[[files]]
+file = "config/sodiumextras-client.toml"
+hash = "862eef7aef9785a85e2aa88809eac970fb9142662a76b322d83bd127863471ce"
 
 [[files]]
 file = "datapacks/CobbleblockStubAll/data/cobblemon/spawn_pool_world/0000_pidgey_herd.json"
@@ -4876,11 +4884,6 @@ metafile = true
 [[files]]
 file = "mods/default-options.pw.toml"
 hash = "bd005d9f92131c7c4a88a081aa5368c482eec2cb410d14ab245a2f081e9e1ffb"
-metafile = true
-
-[[files]]
-file = "mods/default-server-properties.pw.toml"
-hash = "6d1b481897d6572f68f28fa887efdd9de1765e10f4c3eb88377421fffd98c8af"
 metafile = true
 
 [[files]]
@@ -20061,3 +20064,7 @@ metafile = true
 file = "resourcepacks/rct-trainer-textures-plus.pw.toml"
 hash = "a958030f95997d32191ffd80d656314b86747c46adfb16a3a128389d6a3ff6c9"
 metafile = true
+
+[[files]]
+file = "server.properties"
+hash = "b005db53dfbe33c7e3cad2a1aef02c589e80aace3b9ce88e898cb8f82ee46b9b"
