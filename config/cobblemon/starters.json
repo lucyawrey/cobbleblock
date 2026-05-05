@@ -1,0 +1,105 @@
+{
+  "allowStarterOnJoin": true,
+  "promptStarterOnceOnly": true,
+  "useConfigStarters": false,
+  "starters": [
+    {
+      "name": "Kanto",
+      "displayName": "cobblemon.starterselection.category.kanto",
+      "pokemon": [
+        "Bulbasaur level=10 min_perfect_ivs=3",
+        "Charmander level=10 min_perfect_ivs=3",
+        "Squirtle level=10 min_perfect_ivs=3"
+      ]
+    },
+    {
+      "name": "LetsGo",
+      "displayName": "Let's Go",
+      "pokemon": [
+        "Pikachu level=10 min_perfect_ivs=3",
+        "Eevee level=10 min_perfect_ivs=3"
+      ]
+    },
+    {
+      "name": "Johto",
+      "displayName": "cobblemon.starterselection.category.johto",
+      "pokemon": [
+        "Chikorita level=10 min_perfect_ivs=3",
+        "Cyndaquil level=10 min_perfect_ivs=3",
+        "Totodile level=10 min_perfect_ivs=3"
+      ]
+    },
+    {
+      "name": "Hoenn",
+      "displayName": "cobblemon.starterselection.category.hoenn",
+      "pokemon": [
+        "Treecko level=10 min_perfect_ivs=3",
+        "Torchic level=10 min_perfect_ivs=3",
+        "Mudkip level=10 min_perfect_ivs=3"
+      ]
+    },
+    {
+      "name": "Sinnoh",
+      "displayName": "cobblemon.starterselection.category.sinnoh",
+      "pokemon": [
+        "Turtwig level=10 min_perfect_ivs=3",
+        "Chimchar level=10 min_perfect_ivs=3",
+        "Piplup level=10 min_perfect_ivs=3"
+      ]
+    },
+    {
+      "name": "Unova",
+      "displayName": "cobblemon.starterselection.category.unova",
+      "pokemon": [
+        "Snivy level=10 min_perfect_ivs=3",
+        "Tepig level=10 min_perfect_ivs=3",
+        "Oshawott level=10 min_perfect_ivs=3"
+      ]
+    },
+    {
+      "name": "Kalos",
+      "displayName": "cobblemon.starterselection.category.kalos",
+      "pokemon": [
+        "Chespin level=10 min_perfect_ivs=3",
+        "Fennekin level=10 min_perfect_ivs=3",
+        "Froakie level=10 min_perfect_ivs=3"
+      ]
+    },
+    {
+      "name": "Alola",
+      "displayName": "cobblemon.starterselection.category.alola",
+      "pokemon": [
+        "Rowlet level=10 min_perfect_ivs=3",
+        "Litten level=10 min_perfect_ivs=3",
+        "Popplio level=10 min_perfect_ivs=3"
+      ]
+    },
+    {
+      "name": "Galar",
+      "displayName": "cobblemon.starterselection.category.galar",
+      "pokemon": [
+        "Grookey level=10 min_perfect_ivs=3",
+        "Scorbunny level=10 min_perfect_ivs=3",
+        "Sobble level=10 min_perfect_ivs=3"
+      ]
+    },
+    {
+      "name": "Hisui Bias",
+      "displayName": "cobblemon.starterselection.category.hisui_bias",
+      "pokemon": [
+        "Rowlet region_bias=hisui level=10 min_perfect_ivs=3 pokeball=ancient_poke_ball",
+        "Cyndaquil region_bias=hisui level=10 min_perfect_ivs=3 pokeball=ancient_poke_ball",
+        "Oshawott region_bias=hisui level=10 min_perfect_ivs=3 pokeball=ancient_poke_ball"
+      ]
+    },
+    {
+      "name": "Paldea",
+      "displayName": "cobblemon.starterselection.category.paldea",
+      "pokemon": [
+        "Sprigatito level=10 min_perfect_ivs=3",
+        "Fuecoco level=10 min_perfect_ivs=3",
+        "Quaxly level=10 min_perfect_ivs=3"
+      ]
+    }
+  ]
+}

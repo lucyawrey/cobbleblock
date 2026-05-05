@@ -18,11 +18,15 @@ hash = "4e15949f900f62b0fcbffeae52ee251351c94fa649e9c09c982e2c357ac3820c"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "e866d419348c098844a363302cc0790e8ab0d34ce5b1f7b1993f9c00f68c1392"
+hash = "5a571aaec8500cae18fdc52df95855450f32451bf1e6447b1ca60f29751528f7"
 
 [[files]]
 file = "config/cobblemon/spawning/best-spawner-config.json"
 hash = "3a4f64178d063a9f06a1d20af956ad1e343fc256c245c360b8a44141a37dd22b"
+
+[[files]]
+file = "config/cobblemon/starters.json"
+hash = "b932e0a9cbb80d626f35587a35cf80561a9fb548c3036902709b24a6709f430b"
 
 [[files]]
 file = "config/cobblenav/client-config.json"

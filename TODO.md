@@ -8,7 +8,6 @@
   - Create proper credits list for all used mods and include in readme and description.
   - Verify licence of all mods in modpack.
   - Ask for permission to use mods in modpack if they are not explicitly open licensed (example: Mega Showdown).
-- Pikachu and Evee starter support.
 - Create Lore!
   - Add more torn pages.
   - Secondary lore items that also get added to the research journal, such as the mewtwo research book or a note from a parent to a child.
@@ -41,6 +40,7 @@
 - Continue tweaking Radical Trainers teams for doubles format.
 - Create list of all modpack features, especially ones totally new to this pack (spawning mechanics, meteors).
 - Change entity death sounds and visuals to look like phasing out of reality instead of dying.
+- Allow picking two starters?
 - Replace current villagers and default Radical Trainers trainers with unified NPC system. (Large Task)
   - Look into how cobblemon and Radical Trainers handle NPCs.
   - NPCs should spawn automatically but not immediately once you build a proper enviornment for them.
