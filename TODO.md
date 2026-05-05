@@ -37,7 +37,8 @@
 - Continue tweaking Radical Trainers teams for doubles format.
 - Create list of all modpack features, especially ones totally new to this pack (spawning mechanics, meteors).
 - Change entity death sounds and visuals to look like phasing out of reality instead of dying.
-- Allow picking two starters?
+- More Difficult Plate Recipes
+- Occassionally spawn legendary Pokémon that cannot be caught or battled that fly around (Ho-Oh, Giritina)
 - Replace current villagers and default Radical Trainers trainers with unified NPC system. (Large Task)
   - Look into how cobblemon and Radical Trainers handle NPCs.
   - NPCs should spawn automatically but not immediately once you build a proper enviornment for them.
@@ -46,7 +47,7 @@
   - NPCs can be Social, Trainers, or Merchants.
   - All NPCs have chat dialogue.
   - No NPCs look like minecraft vilagers.
-- More Difficult Plate Recipes
+  - Pokémon partners for NPCs
 - More interesting and difficult fossil machine recipes to obtain Type: Null and Genesect.
   - Current methods from ATMxMSD https://docs.google.com/document/d/1nPZxD0zWqaCsulp_RCRTiQS5YxUrdoE6xv8rsMoWSYs/edit?tab=t.rvlm7mgw1drd.
 - Secret Giritina dungeon underneath world spawn. Will need to make certain blocks like doors and buttons interactable at spawn in Skyblock config.
@@ -76,8 +77,6 @@
 - Wing Item Sprites (Arctic Wing, Charged Wing, Molten Wing)
 - Orb Item Sprites (Articuno Orb, Zapdos Orb, Moltres Orb)
 - Fragile Ocarina Sprite (see Pokémon 2000)
-- Lugia Pedestal
-- Mew Pedestal
 - Ancient DNA (test tube)
 - Ancient Fossil Dust
 - Ancient Fossil (mew)
@@ -87,12 +86,9 @@
 
 - Evaluate KubeJs script performance and reliability (Villager Spawns, Meteors, Legendary Monuments).
 - Install and setup FancyMenu for custom home menu and loading screen.
-- Rename pack to Cobbleblock.
 - Changed ores generated from bedrock at deepslate levels to actualy be deepslate ores.
-- Consider adding a minimap with good default settings (minimap toggle key, minimap not in the way of Battle UI) and the xaeroscobblemon resourcepack.
 - Add option for users to enable vanilla mob spawning, currently impossible due to the datapack used to disable mob spawning.
 - Rebuild Wild Loot into Cobblehelpers, an alternative to Cobbleworkers.
-- Spawn traders and villagers with partner pokemon.
 - Add End dimensiopn support.
   - Craftable End Portals
   - Disable generation for default end return portal.

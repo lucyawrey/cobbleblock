@@ -27,6 +27,9 @@ This modpack is in early access and still undergoing heavy development. A lot is
 - And lore to uncover about why exactly you find yourself floating in a sea of nothingness...
 - And more!
 
+# Modlist
+
+
 ---
 
 ***License**: This modpack's source code and assets are licensed under the Mozilla Public License 2.0. This only includes code and assets original to the modpack, and not any of the content from other mods included in the modpack. All included mods are property of their original authors.*
