@@ -1,9 +1,9 @@
-*.md
-*.mrpack
-*.DS_STORE
+**.md
+**.mrpack
+**.DS_STORE
 reference_data
 scripts
-*.csv
+**.csv
 **/node_modules
 working_notes.txt
 dev_mods

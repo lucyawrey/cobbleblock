@@ -50,7 +50,7 @@ hash = "835c273979bb78f37ae04cf048aa51e0f3b150a380a1a04d04c1329a3378540a"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "588df0fa9e56a56a9171ceaf93afd3812cc18faef21486a6883c44cbdae9d84f"
+hash = "1becaf79986f78225b429b287bb5ad19e5e8afbba88957db9efbdd139d69fb5b"
 
 [[files]]
 file = "config/defaultworldtype/client-config.toml"
@@ -6613,14 +6613,6 @@ hash = "a458fd14330d3aaca5480c0871c14bdd7e42036e1e34c5fd11cd7fb63afad402"
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0200_misdreavus.json"
 hash = "62868cdb2f36a15c0a9f62acc8df7581ab415e9071cef2ae7b2ef30672e68873"
-
-[[files]]
-file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0201_unown_character_!.json"
-hash = "648b85e2a628eb6a85257f91c432ec390a3d7335cf93713f1e1ae4a847bf2e17"
-
-[[files]]
-file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0201_unown_character_?.json"
-hash = "43921b5a8da32f0f18bbdc74e2c6b6a0c71999acdf4af894104db48458c3db01"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0201_unown_character_a.json"
@@ -20075,4 +20067,4 @@ metafile = true
 
 [[files]]
 file = "server.properties"
-hash = "b005db53dfbe33c7e3cad2a1aef02c589e80aace3b9ce88e898cb8f82ee46b9b"
+hash = "0431e0344461412d6ca49b33947a6c01a0a19c6ecbdbd0602073598d0c2672da"
