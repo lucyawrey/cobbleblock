@@ -1,9 +1,6 @@
 # Cobbleblock Todo
 
 ## Normal Priority
-- Setup default client configuration and controls
-  - Client side mod settings
-  - defaultoptions config. Remove and start over
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.
   - Verify licence of all mods in modpack.

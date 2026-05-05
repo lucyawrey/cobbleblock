@@ -49,14 +49,6 @@ file = "config/default-server.properties"
 hash = "80a10786f39ef19ce2ac7bded1e2367987de603ac01f1dd924d4e36ae445898a"
 
 [[files]]
-file = "config/defaultoptions/keybindings.txt"
-hash = "30746af7cea00d7898241249fb8d68c3c6c6b19e9f41fe4f160ebecad5722d9a"
-
-[[files]]
-file = "config/defaultoptions/options.txt"
-hash = "e6edc6e6c785ca09ab92eb996a5a00590eaf6cdc96824e0ea53617e323d25b3e"
-
-[[files]]
 file = "config/defaultworldtype/client-config.toml"
 hash = "a2125ad6e5d29679bf96bd986be4c17a4bd825af74364f2f1114d30ad6099ee6"
 
@@ -4609,20 +4601,52 @@ file = "kubejs/assets/cobbleblock/textures/block/zapdos_pedestal.png"
 hash = "9bbe33a80d393f251584c52b9815aa83e2fc8b9146ccf9fff32c888a3bef348c"
 
 [[files]]
+file = "kubejs/assets/cobbleblock/textures/item/ancient_dna.png"
+hash = "e8b1698a3af2df2d430084cfb2594ebd54b9a62130a9f3948890c80bf38bc348"
+
+[[files]]
+file = "kubejs/assets/cobbleblock/textures/item/ancient_fossil.png"
+hash = "e8b1698a3af2df2d430084cfb2594ebd54b9a62130a9f3948890c80bf38bc348"
+
+[[files]]
+file = "kubejs/assets/cobbleblock/textures/item/ancient_fossil_dust.png"
+hash = "e8b1698a3af2df2d430084cfb2594ebd54b9a62130a9f3948890c80bf38bc348"
+
+[[files]]
+file = "kubejs/assets/cobbleblock/textures/item/ancient_fossil_piece.png"
+hash = "e8b1698a3af2df2d430084cfb2594ebd54b9a62130a9f3948890c80bf38bc348"
+
+[[files]]
 file = "kubejs/assets/cobbleblock/textures/item/arctic_wing.png"
 hash = "44f4431e387a4024f05759ddda4609ccea5f7f6ad16f4c5eb4a194dec59ddd9a"
+
+[[files]]
+file = "kubejs/assets/cobbleblock/textures/item/articuno_orb.png"
+hash = "e8b1698a3af2df2d430084cfb2594ebd54b9a62130a9f3948890c80bf38bc348"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/item/charged_wing.png"
 hash = "9e160afd5447eab4de1c6187efafabcc2dd9319f425594a8b767e26b26aef6c0"
 
 [[files]]
+file = "kubejs/assets/cobbleblock/textures/item/fragile_ocarina.png"
+hash = "e8b1698a3af2df2d430084cfb2594ebd54b9a62130a9f3948890c80bf38bc348"
+
+[[files]]
 file = "kubejs/assets/cobbleblock/textures/item/molten_wing.png"
 hash = "d1a89a89ab85dca1e4086fbbe231658451a66840ac8ea4a4b10a89eeb5a853c5"
 
 [[files]]
+file = "kubejs/assets/cobbleblock/textures/item/moltres_orb.png"
+hash = "e8b1698a3af2df2d430084cfb2594ebd54b9a62130a9f3948890c80bf38bc348"
+
+[[files]]
 file = "kubejs/assets/cobbleblock/textures/item/torn_page.png"
 hash = "2f49da2ebe00ea4be03618b60f778c55c7bc096fc048deaeb69161bd95dc25d9"
+
+[[files]]
+file = "kubejs/assets/cobbleblock/textures/item/zapdos_orb.png"
+hash = "e8b1698a3af2df2d430084cfb2594ebd54b9a62130a9f3948890c80bf38bc348"
 
 [[files]]
 file = "kubejs/assets/mega_showdown/models/block/pedestal.json"
