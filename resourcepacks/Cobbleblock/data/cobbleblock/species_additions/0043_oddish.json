@@ -1,7 +1,7 @@
 {
   "target": "cobblemon:oddish",
   "drops": {
-    "amount": 6,
+    "amount": 7,
     "entries": [
       {
         "item": "cobblemon:absorb_bulb",
@@ -10,6 +10,10 @@
       {
         "item": "cobblemon:pecha_berry",
         "percentage": 2.5
+      },
+      {
+        "item": "minecraft:jungle_sapling",
+        "quantityRange": "0-1"
       },
       {
         "item": "mega_showdown:grass_tera_shard",

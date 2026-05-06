@@ -12,7 +12,7 @@
       },
       {
         "item": "minecraft:acacia_sapling",
-        "percentage": 20
+        "quantityRange": "0-1"
       },
       {
         "item": "mega_showdown:normal_tera_shard",

@@ -1,12 +1,12 @@
 name = "Cobbleblock"
 author = "LucyAzalea"
-version = "0.1.2"
+version = "0.1.3"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "af9fb1719dde3b69352e71eb0c8685b95cae8e7ffa9baa86ca03210d7083c86b"
+hash = "a3714ac960fab92059d8c05ee7f8f8ffcc0028e73cbbfa530e363367b36a2bfb"
 
 [versions]
 minecraft = "1.21.1"

@@ -1,8 +1,12 @@
 {
   "target": "cobblemon:vileplume",
   "drops": {
-    "amount": 6,
+    "amount": 8,
     "entries": [
+      {
+        "item": "minecraft:honey_bottle",
+        "quantityRange": "0-1"
+      },
       {
         "item": "cobblemon:absorb_bulb",
         "percentage": 10
@@ -10,6 +14,10 @@
       {
         "item": "cobblemon:pecha_berry",
         "percentage": 10
+      },
+      {
+        "item": "minecraft:jungle_sapling",
+        "quantityRange": "0-1"
       },
       {
         "item": "mega_showdown:grass_tera_shard",

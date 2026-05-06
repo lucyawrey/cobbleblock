@@ -1,11 +1,11 @@
 {
   "target": "cobblemon:gloom",
   "drops": {
-    "amount": 7,
+    "amount": 8,
     "entries": [
       {
         "item": "minecraft:honey_bottle",
-        "quantityRange": "0-2"
+        "quantityRange": "0-1"
       },
       {
         "item": "cobblemon:absorb_bulb",
@@ -14,6 +14,10 @@
       {
         "item": "cobblemon:pecha_berry",
         "percentage": 5
+      },
+      {
+        "item": "minecraft:jungle_sapling",
+        "quantityRange": "0-1"
       },
       {
         "item": "mega_showdown:grass_tera_shard",

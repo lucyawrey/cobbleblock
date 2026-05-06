@@ -7318,6 +7318,10 @@ file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0703_carbink
 hash = "602bfec518d18e13a958880832d24c5d8e3e55aab60bfb73faf7ef394659881c"
 
 [[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0775_komala.json"
+hash = "a24d38ba760afc92bb3db9d927eee3a47bfbef5eacf508cdd3bb71eb167880d8"
+
+[[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0831_wooloo.json"
 hash = "388c71ff3fc2948b02e2f048d89e1f54267e808c2d4bc7012769e4a69f029e5a"
 
@@ -7507,15 +7511,15 @@ hash = "17643bc66c2d919e2cd4553739ea19ac34cc116409276085836e765ac9e6fc26"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0043_oddish.json"
-hash = "affd4354760bb76158585a29e8127c109542f9c76ca5eddc56eac45364dda9c4"
+hash = "51fdda2d506878203b4ca71f9a5d885a99ad37122f75ad0e2fac4c72447b2e52"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0044_gloom.json"
-hash = "163980b88387f7f487aa1859f7b88ba89150ddbd727de46eb0c7e34e4909a7ff"
+hash = "4f6393d4a9a2e4a21a303f796ec58233282441d75d0fb27a3109c8d090b6726f"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0045_vileplume.json"
-hash = "8c39fa6c6400c07794b3e68eb3590a55d495064094ffc9999ad5e6b09d41de3c"
+hash = "72dd987aa66fa8c736ee4a0ddc9c2a8d13c524ba23ef8b7f3330e4d719429aae"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0046_paras.json"
@@ -7539,7 +7543,7 @@ hash = "f25f3fe404c5f9b2d484d97879736adf89cfeea4b8200cba249393ab3f9461fc"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0051_dugtrio.json"
-hash = "9f70ceda6f2bda6f3960e1085bf98e407d27decb3521f7fd9162e9c9292d1fd8"
+hash = "f353e791312922c8e58a10ee370b1a1f2023df8bfffd510b67f0c8fd4fe3c315"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0052_meowth.json"
@@ -8427,15 +8431,15 @@ hash = "126b109191ad9f38a45bdcf0fdf3e128706fc0abbe2cc938667e726f7f38aff2"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0273_seedot.json"
-hash = "d0bb8e572e26c7b19844ff73ff3c6c3af7c8d17e1c89794c8954e07f616cf92e"
+hash = "c8430f22c3122ee214bb9858abeccc647965a1d5d860b043e462f0a1b8ae36cf"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0274_nuzleaf.json"
-hash = "32c089473bb08e970c6747e8960efe9480a585b6ff705311690ed17229d8bbfb"
+hash = "2e968d9f54ed3ce511cdfd1961becfe0a23740fc81fcaa116f69f2b9e4dd8cec"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0275_shiftry.json"
-hash = "e54633d7e957b731e8a25673939087bebcb0d389aa622b5d2d3da438d8eb2800"
+hash = "916ac5aa91a09f7ef4d88e1f0c0e1198ce87b8679189d610249535c599202e3e"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0276_taillow.json"
@@ -10435,7 +10439,7 @@ hash = "d2d1966986fa15ddea564d8a2e1f073e70d071f90e30ce98ade6449652c0cd34"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0775_komala.json"
-hash = "c175dd08346245abb64457c6ff39648c7162aa590f284eb2746bf1a69d0a24f3"
+hash = "8c7aa77de9a41e8d2ea022c8ae7e9ec4a097149c8a481fcbdcb29ab57800d1bb"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0776_turtonator.json"
@@ -11471,31 +11475,31 @@ hash = "5d117c0fe1e681bbce427a8a02c31a64bffb980fe4688187374bc6a3d12a64e7"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobblemon/loot_table/blocks/black_apricorn.json"
-hash = "9eaaf3db774927ccd5a29251e6bc1b0c6dfbc5e27f691448533990dd2890395b"
+hash = "f68929377ed6615b5287cccf7e3e5bda200337889f72239a5c6dac510e089852"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobblemon/loot_table/blocks/blue_apricorn.json"
-hash = "23299de2f897b8eae14b784c68c6cfda9bbd9aedf034fd2ab5ac6a2cc19e852f"
+hash = "c367ea2c4af3d7b0e4104ca18a5e6d49e085863591783576d5be666c471dbfb2"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobblemon/loot_table/blocks/green_apricorn.json"
-hash = "42068ff37a339cfc6da5ab83e859e1a5c05afa5d9df59ab2b9bf96281af56cc4"
+hash = "ce186c420a91d3319a8a38327f36d9b539007ca9c093711be4ad38f98b2c3798"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobblemon/loot_table/blocks/pink_apricorn.json"
-hash = "f5b6a3b6585171e53f5a493a8105f243a20d183ea2eb5d3a2e25ae5911d88a07"
+hash = "6573c892229d542e7719a6dab5d676a883084c98775823628c02c5c2e5a19030"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobblemon/loot_table/blocks/red_apricorn.json"
-hash = "5a0341c5a3b628842f717975e7d0838bbda7cae30e5ce1430e50cd42e3ab930f"
+hash = "911ad3d6375d9850aecd7f1f6890e472b1ea7895d95f969df6849188124d2189"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobblemon/loot_table/blocks/white_apricorn.json"
-hash = "7c103a3e2253b47b16d179db561808c4460ea607e72bc275d96118f5fbafc289"
+hash = "b5162cad6debc6d4ad7731af1498291400e9d86c475ae910df4651b18bc2dfd8"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobblemon/loot_table/blocks/yellow_apricorn.json"
-hash = "cc74847120f5a3899a1ae1e7303a647ef82f2a40d03d3db4f95f7a8cf2e6f4cd"
+hash = "f25e8706150b12a3dd253881c120359fec70ed55f4b7fd05657354fe1514e7d8"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobblemon/recipe/ancient_azure_ball.json"

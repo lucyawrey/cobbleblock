@@ -59,8 +59,8 @@
 
 - Max Mushrooms (Pokemon, Red Mushroom Colonies, Wandering Trader)
 - Moss Blocks
-- Green, Pink, and White apricorn seeds.
-- Saplings
+- Pink and White apricorn seeds.
+- Saplings (Oak, Spruce, Birch, Acacia, Cherry)
 - Kelp
 - Ice Block: add to more pokemon drops.
 - Tree Bark from Create Log Cutting Recipes

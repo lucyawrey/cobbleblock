@@ -1,7 +1,7 @@
 {
   "target": "cobblemon:shiftry",
   "drops": {
-    "amount": 6,
+    "amount": 7,
     "entries": [
       {
         "item": "minecraft:dark_oak_sapling",
@@ -10,6 +10,10 @@
       {
         "item": "cobblemon:tanga_berry",
         "percentage": 10
+      },
+      {
+        "item": "cobblemon:green_apricorn_seed",
+        "percentage": 30
       },
       {
         "item": "mega_showdown:grass_tera_shard",
