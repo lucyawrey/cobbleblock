@@ -20,8 +20,8 @@ enable_builtin = []
 
 [datapacks]
 required = [
-	"resourcepacks/ATM x MSD [v3.5.0].zip",
-	"datapacks/CobbleblockStubAll",
 	"resourcepacks/Cobbleblock",
+	"datapacks/CobbleblockStubAll",
+	"resourcepacks/ATM x MSD [v3.5.0].zip",
 ]
 enable_builtin = []

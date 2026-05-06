@@ -70,7 +70,7 @@ hash = "dc2e9db0782129f436d0e548f71ce73cb2b1b2726028439d3a0ab1d988766272"
 
 [[files]]
 file = "config/global_packs.toml"
-hash = "16361cd581e2872045a4d76ccb64acdd654aa9f78364de3d3b9e2f051e14fcd2"
+hash = "ab5565ff871ea00d06c796f3ccc03e5183edf53cf96186ea6b2421700ad285b8"
 
 [[files]]
 file = "config/mega_showdown/config.json"
