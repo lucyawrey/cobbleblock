@@ -32,9 +32,6 @@
 - Configure CobbleDollars merchant stock, CobbleDollars bank.
   - Tech: Pokédexes, Pokénavs, Trainer Card
 - More meteor templates (inclduing meteor with just evo stones and lore book, sculk meteor, shadow meteor).
-- Skyblock Builder Fixes
-  - Spawn protection not preventing harvesting berries and taking items from display cases.
-  - Home island spawn in waterfall for some reason.
 - More ridable Pokémon
   - https://modrinth.com/mod/cobblemon-journey-mounts, figure out how to make it work with AllTheMons x Mega Showdown
 - Create stat soda mod. Bottle cap (expensive and made of metal and gems) honey + Sugar + EV Berry + water bottle in cobblemon camp cooking pot.
@@ -54,6 +51,7 @@
 - More interesting and difficult fossil machine recipes to obtain Type: Null and Genesect.
   - Current methods from ATMxMSD https://docs.google.com/document/d/1nPZxD0zWqaCsulp_RCRTiQS5YxUrdoE6xv8rsMoWSYs/edit?tab=t.rvlm7mgw1drd.
 - Secret Giritina dungeon underneath world spawn. Will need to make certain blocks like doors and buttons interactable at spawn in Skyblock config.
+- Proper world protection mod
 
 ## Important Drops
 
