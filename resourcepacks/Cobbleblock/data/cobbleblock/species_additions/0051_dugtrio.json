@@ -1,7 +1,7 @@
 {
   "target": "cobblemon:dugtrio",
   "drops": {
-    "amount": 6,
+    "amount": 7,
     "entries": [
       {
         "item": "minecraft:dirt",
@@ -18,6 +18,10 @@
       {
         "item": "cobblemon:soft_sand",
         "percentage": 5
+      },
+      {
+        "item": "minecraft:raw_iron",
+        "percentage": 50
       },
       {
         "item": "mega_showdown:ground_tera_shard",

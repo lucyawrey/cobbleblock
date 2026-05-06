@@ -1,8 +1,8 @@
 # Cobbleblock Todo
 
 ## Normal Priority
-- Fix server datapack priority (and maybe on new client worlds too?)
-- Fix pack not working on windows at all.
+- Add more blocks to #cobblemon:gemstones
+- Method to obtain ferns
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.
   - Verify licence of all mods in modpack.

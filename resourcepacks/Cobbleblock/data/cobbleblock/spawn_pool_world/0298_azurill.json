@@ -1,0 +1,64 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "azurill-1",
+      "pokemon": "azurill",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 9,
+      "level": "1-19",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "azurill-2",
+      "pokemon": "azurill",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 9,
+      "level": "1-19",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:water",
+          "#minecraft:flowers"
+        ]
+      }
+    },
+    {
+      "id": "azurill-3",
+      "pokemon": "azurill",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 9,
+      "level": "1-19",
+      "spawnablePositionType": "surface",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:water",
+          "#minecraft:flowers"
+        ]
+      }
+    }
+  ]
+}
