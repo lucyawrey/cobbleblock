@@ -5322,6 +5322,10 @@ file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/bug_ge
 hash = "95fb033cb88ae85cb229a571474adfd43f7eb51632ac12d534256025284887d5"
 
 [[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/canvas.json"
+hash = "d2cb57cb4ef531f28f9fb70ba3f38ae38b7848907c2965088349a25f8a9ff8ce"
+
+[[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/charged_wing.json"
 hash = "7887232ca1ab0ecc3140e03fcf4d5532ef760eddf5b6e5f0b9e2296a995037d6"
 
@@ -7627,15 +7631,15 @@ hash = "17643bc66c2d919e2cd4553739ea19ac34cc116409276085836e765ac9e6fc26"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0043_oddish.json"
-hash = "51fdda2d506878203b4ca71f9a5d885a99ad37122f75ad0e2fac4c72447b2e52"
+hash = "ff01aa926305e2b7a9013691a7246d9bca47a7ced2902517193ef4c293d24b5d"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0044_gloom.json"
-hash = "4f6393d4a9a2e4a21a303f796ec58233282441d75d0fb27a3109c8d090b6726f"
+hash = "54c7f01a71f5bc298eec76eb411f20e72b6264f291aa67d5da4f91b494ab1517"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0045_vileplume.json"
-hash = "72dd987aa66fa8c736ee4a0ddc9c2a8d13c524ba23ef8b7f3330e4d719429aae"
+hash = "51ad08760d2b4bd2f920a2b89a6c045b2f1ddf51e81f4d49924406c91c73ed12"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0046_paras.json"
@@ -8547,15 +8551,15 @@ hash = "126b109191ad9f38a45bdcf0fdf3e128706fc0abbe2cc938667e726f7f38aff2"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0273_seedot.json"
-hash = "c8430f22c3122ee214bb9858abeccc647965a1d5d860b043e462f0a1b8ae36cf"
+hash = "1b10bc51d7488f775a1f6878f5f94f71c79d57860f555783f2e875698bf527cb"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0274_nuzleaf.json"
-hash = "2e968d9f54ed3ce511cdfd1961becfe0a23740fc81fcaa116f69f2b9e4dd8cec"
+hash = "bceda0abd3810a39174335b34915172991e9ebcf2d66d0fb9dc62498846b032c"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0275_shiftry.json"
-hash = "916ac5aa91a09f7ef4d88e1f0c0e1198ce87b8679189d610249535c599202e3e"
+hash = "2f87e7fe9b336d354c43c1f884a2b36212809208f1998aa96aecd87a72c50ea2"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0276_taillow.json"
