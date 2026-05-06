@@ -8,7 +8,7 @@
       },
       {
         "item": "minecraft:bone_meal",
-        "percentage": 10
+        "quantityRange": "0-1"
       },
       {
         "item": "mega_showdown:rock_tera_shard",

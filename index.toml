@@ -70,7 +70,7 @@ hash = "dc2e9db0782129f436d0e548f71ce73cb2b1b2726028439d3a0ab1d988766272"
 
 [[files]]
 file = "config/global_packs.toml"
-hash = "ab5565ff871ea00d06c796f3ccc03e5183edf53cf96186ea6b2421700ad285b8"
+hash = "22c404473d214c5db9954144cceb561dbde82952e47262842ba8f4fb6bb1a033"
 
 [[files]]
 file = "config/mega_showdown/config.json"
@@ -7815,11 +7815,11 @@ hash = "c70fdbcd1ad3270faedecf9f11c930398fe7fd6631d195bcd398ac3b7ba634b1"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0118_goldeen.json"
-hash = "294b6fa0fee14e30e566e8c0743b86a391d4f88b90dca2c710bc2252cc21db70"
+hash = "d38a63aa97eb7fe1e296935a4b3f32f720bff230ee1d24389aca2e5979ccf3fd"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0119_seaking.json"
-hash = "be90645a0b9b0a92ce1ccdc91bcecb3f8a1b81f4aecfcaf17442c6dfd64bae34"
+hash = "bf46c5b658c2b55d06f2d83bada94be61e7d5bad6d7347614c98165050be0988"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0120_staryu.json"
@@ -7859,11 +7859,11 @@ hash = "e48212b9877e1301f525fc98185d35fa9564a9936857354bfba10218c8abda23"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0129_magikarp.json"
-hash = "3ae464a27e341fe62c6b70e79aad143fd2d68b4a1b5068fb00f09f55457f60ca"
+hash = "aaf9dc908e1e24db5d05a58be182272acc07f26a80ac70d1cab646e48e063b54"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0130_gyarados.json"
-hash = "2f300fc186d2d35253030b32f4efa872c0f5fc235045d08e08ad9d941c866316"
+hash = "5f5377a258b06550bd2b845f06d6eb5990845b89fd12a80c7d12ecff8d57238b"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0131_lapras.json"
@@ -7895,19 +7895,19 @@ hash = "b85cab8ff8a22a089f52218ea19a894aad6a5f3ac02d2def63520931c71f7883"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0138_omanyte.json"
-hash = "2808d108253aaa9f9afa71db7af5615b3e3888e8cc1c92dc9d28a1780282283d"
+hash = "0fe71d61c9dc9ab4391fa0f91a4889d8a3df172fad86c063016569c0f24bf98c"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0139_omastar.json"
-hash = "9442c3c25ff6b840977d02bfa2152c516b7bbbccb383c5443dea333c3a55b017"
+hash = "7647fd5df260924ed79624b5ba9617fcdbbd27ca8cf3ad2250d96d8aa4c7ff3e"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0140_kabuto.json"
-hash = "49cf2e57d124853e3513a28cd4d8c385b86a558edaf6906f11a420c587f5d706"
+hash = "b672110e9513f29248979a174c2c83e5c4050178b9a916bbd9304b04e31d5fd8"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0141_kabutops.json"
-hash = "797459a72c0ed8b2bb79b4a0e3fc418c85480a4f26b233994fba3a3faf4a7f15"
+hash = "122a560ea578e998c1a8cec98f74b33a5197f2ad438380eab29476ccaf85c0bc"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0142_aerodactyl.json"
@@ -8215,11 +8215,11 @@ hash = "efa7f10eb79c5ccabe6e37e2c8c91e34c08b73fd503c3300492670141299e9dd"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0218_slugma.json"
-hash = "f585beb21cd639b907d2295f36e256096c7c3849c7dc97ca863c3972f63a4252"
+hash = "9eae2b0f2ee4517edeb0bd0778a7d5a2e444b5be89df1cf2cccddabde3e1e96a"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0219_magcargo.json"
-hash = "19870827a32a7efa75fbcd3a54a970fe5a87db0478c4e01ae6d9ec59b1a6835d"
+hash = "4a3f9ffccc3ad59e4fb611f89f5756695505bc6236db7143edd39f289981b93f"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0220_swinub.json"
@@ -8235,11 +8235,11 @@ hash = "b14fc96eb603e5458fe6fef1889687857e42c0c0546b73ab9bc0041454069932"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0223_remoraid.json"
-hash = "dea157d620bcba57f34b7d85c9f56e988a3361de9b2852485d7761f34883c482"
+hash = "04c4de3eafac08a93b139b20110288bafd3246df7739923fafb47d76c5819ab3"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0224_octillery.json"
-hash = "090fd7bcf29a23b448d3a3d7e303c7f53280bc56a12de7aabccf6ae7acdec856"
+hash = "e0efdf5773dd9e4965f03f43bde93bb034ff722a76105ef18b5308ba3b1105ed"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0225_delibird.json"
@@ -11679,7 +11679,7 @@ hash = "54291a60fdf79cc4580727f431275ce2cee35f529dc05707abd9101609241442"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/minecraft/loot_table/gameplay/fishing/junk.json"
-hash = "24768a09f1b1fa710f5d6e8a92016de61b48be6dd189567b30db59a64823274e"
+hash = "adfe4c0b0f55cb66b2b5c639c15a65dbff1f2a9eebfe1d9b24213facb0f1d24f"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/minecraft/loot_table/gameplay/fishing/treasure.json"

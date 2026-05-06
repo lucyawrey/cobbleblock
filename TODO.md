@@ -61,7 +61,6 @@
 - Moss Blocks
 - Pink and White apricorn seeds.
 - Saplings (Oak, Spruce, Birch, Acacia, Cherry)
-- Kelp
 - Ice Block: add to more pokemon drops.
 - Tree Bark from Create Log Cutting Recipes
 - More organic compost recipes
