@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "spoink-1",
+      "pokemon": "spoink",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 5.4,
+      "level": "8-33",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:tall_grass",
+          "minecraft:short_grass"
+        ]
+      }
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pancham-1",
-      "pokemon": "pancham",
+      "id": "gulpin-1",
+      "pokemon": "gulpin",
       "type": "pokemon",
-      "bucket": "uncommon",
-      "weight": 7,
-      "level": "20-35",
+      "bucket": "common",
+      "weight": 7.6,
+      "level": "15-27",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -21,9 +21,10 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "minecraft:bamboo_block",
-          "minecraft:bamboo",
-          "#cobblemon:trees"
+          "minecraft:lily_pad",
+          "minecraft:vine",
+          "minecraft:water",
+          "minecraft:cake"
         ]
       }
     }

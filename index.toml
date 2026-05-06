@@ -70,7 +70,7 @@ hash = "dc2e9db0782129f436d0e548f71ce73cb2b1b2726028439d3a0ab1d988766272"
 
 [[files]]
 file = "config/global_packs.toml"
-hash = "22c404473d214c5db9954144cceb561dbde82952e47262842ba8f4fb6bb1a033"
+hash = "ab5565ff871ea00d06c796f3ccc03e5183edf53cf96186ea6b2421700ad285b8"
 
 [[files]]
 file = "config/mega_showdown/config.json"
@@ -7210,6 +7210,62 @@ file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0312_minun.j
 hash = "c56838356f4b9cc9466dcf92d0428af4554c45e0cad5ba7d60d24662b7931251"
 
 [[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0313_volbeat.json"
+hash = "afaef79848382769de7e8263f75b6494dd4876f686ef670fccf0df7cd2fadc13"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0314_illumise.json"
+hash = "23138ffd1269c85f93ee9f58fa3430fb871212b1dc4642c8befd1b56a5242451"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0315_roselia.json"
+hash = "03b00017d61fcfb8e7a7fa0fc02a20975c647ac61515eb2554d7933da45d4fc9"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0316_gulpin.json"
+hash = "fe7ec0619378c9740877272ad7bc7178c067ff5fcd72a2d632ed9903cde39a57"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0317_swalot.json"
+hash = "d99ee414369d99e12262f913634b27f4a6cba2db2f7c79315ea85513b2c30d0a"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0318_carvanha.json"
+hash = "8564f023c6431f09a01ecf2d78995e1f84c7883fea5457a78348478334ca9d98"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0319_sharpedo.json"
+hash = "a2dd1298d8f9557ff731e950cd355feec2d412469a041cef9812d381074e63c7"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0320_wailmer.json"
+hash = "d19ab589285280e9d666f7a4ce75ed856e3b946f6075f5f1c778588231db1db9"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0321_wailord.json"
+hash = "cdb2cea31aebc5012faa8b9509d3d62feaf34530b6c77c1e88d2ccb776f239d2"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0322_numel.json"
+hash = "d2b213c3661011f4085ccc484099c8b16311943de436f0a3b181ef762e4ac4b2"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0323_camerupt.json"
+hash = "021eced67fed9b9c37061589e3ec08a1af8f4d1c7c29da89d75e61014d222ce5"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0324_torkoal.json"
+hash = "bfbb16e11f3e0890e1aa9c0f31ccc7be3afab543919c8519fb106d6534fc16b3"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0325_spoink.json"
+hash = "afb63115089894010c68bb33a807464bde805987d1a79c2cfdede102edb7b883"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0326_grumpig.json"
+hash = "09f7e87daace55e4583d984d16ec2f7a3340b8454f724aa62c432963dad735d3"
+
+[[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0327_spinda.json"
 hash = "da10d12c9ac1d42ad7eed8e5c89175ac2dc2266ed0e36b9faffee3ab16aa9f7f"
 
@@ -7228,6 +7284,50 @@ hash = "a0ab115bdabca869bd4ca895192a161011465addc1f429e66fc7fd332fece1f5"
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0327_spinda_special_spots_4_face_spots_none_face_spots2_none.json"
 hash = "7e75451bbbf23fa1df3ec5cc78d492c3ca6dcee95f3a33ff37fde942d8b044c3"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0328_trapinch.json"
+hash = "85206287026ddbcee9001a1091d4c03a16e9b1c22e2d35b1091979867753e93f"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0329_vibrava.json"
+hash = "f932e715afa77ee8056e5ad7fff3d783e063d05f23f2e485af3b8c7cee4bf6e6"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0330_flygon.json"
+hash = "670636eb86280742af446f416deb21c1c832a907e5a2948c94d1e1ae65ba8b2c"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0331_cacnea.json"
+hash = "23169d2e65e1f1416d654c9a187c388a8830439c2959392fefa594d0043e7622"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0332_cacturne.json"
+hash = "884b94d75e47e488b898f05cf49b72713815a6025a46c45537298a8056b66888"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0333_swablu.json"
+hash = "d276dbe2919ea80e6cef909bd623422f30ac898e8a04b4638fd1cb51ee006f84"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0334_altaria.json"
+hash = "fc51aa757c7aa5d005c0f9597e3581e663ba7efe80ca12368700f7b7994022de"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0335_zangoose.json"
+hash = "56f386805c1cfc3383ca422fed9018525cc2745ec9a98e62b814e4a1b6fbb7d5"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0336_seviper.json"
+hash = "fe32ee2d4eeca15b80f9c8ede756945109a555c6b256d3943a92526e7f2a65bb"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0337_lunatone.json"
+hash = "42938d647399d9c3e1da04d3e7fbc2801f47fef5a724f73b4740e7b1030b2503"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0338_solrock.json"
+hash = "0af22edc57422290081ea2f76779cd2ed38ee84014a7a157d9e3331200f41bcb"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0415_combee.json"
@@ -7311,7 +7411,7 @@ hash = "57093cb2bdfccdadae69f594e8d0160fa32f961891758a4130055c04f82c3278"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0674_pancham.json"
-hash = "b74abe9cfd843aaaa55c9f75f031bfc0c1c93ff88e87373b8d629040990561bd"
+hash = "f1ecfaaeb405ba95e07d1b1e05bde20e7579e0fcb297bd16f089fb7b63f599aa"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0675_pangoro.json"
@@ -7334,6 +7434,10 @@ file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0832_dubwool
 hash = "6690782f0d79b0fa7664374eb2a65c50aea2525ecdfef7a4019313b469e201d9"
 
 [[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0884_duraludon.json"
+hash = "a1e90eb3cb7aadce370cd4c52e3bc65e4df8f11dee836e3a7739ef3e2b5a0c91"
+
+[[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0935_charcadet.json"
 hash = "1b4e638bdd035020a9050194aa96bb43379d316c4a1ce7f1375cad48c698eabc"
 
@@ -7344,6 +7448,14 @@ hash = "6d7d49423dfb2aac25d363574371cbdd2b03dda9f4f4013b67a58e06404aff98"
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0937_ceruledge.json"
 hash = "1c2f34df7facdfc03d0b041f29a02f200683042cd3a419e00f8c05766f680145"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/1018_archaludon.json"
+hash = "05774c86ce36c84a008d173ac3e71c7df9170544cb7530ea16ab951b1875e2e4"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/1019_hydrapple.json"
+hash = "8e131e2f41fd31d6c3babcadc9b4f39d81496dc94cfad18d71b5f5f57f1d653a"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0001_bulbasaur.json"

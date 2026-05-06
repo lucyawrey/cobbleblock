@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pancham-1",
-      "pokemon": "pancham",
+      "id": "vibrava-1",
+      "pokemon": "vibrava",
       "type": "pokemon",
-      "bucket": "uncommon",
-      "weight": 7,
-      "level": "20-35",
+      "bucket": "rare",
+      "weight": 2.25,
+      "level": "35-40",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -20,10 +20,11 @@
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
+        "isRaining": true,
         "neededNearbyBlocks": [
-          "minecraft:bamboo_block",
-          "minecraft:bamboo",
-          "#cobblemon:trees"
+          "minecraft:sandstone",
+          "minecraft:dead_bush",
+          "minecraft:cactus"
         ]
       }
     }

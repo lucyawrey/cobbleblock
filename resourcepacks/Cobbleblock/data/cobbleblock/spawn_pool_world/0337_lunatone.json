@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pancham-1",
-      "pokemon": "pancham",
+      "id": "lunatone-1",
+      "pokemon": "lunatone",
       "type": "pokemon",
       "bucket": "uncommon",
-      "weight": 7,
-      "level": "20-35",
+      "weight": 10,
+      "level": "21-46",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -18,12 +18,14 @@
         "dimensions": [
           "minecraft:overworld"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
+        "timeRange": "night",
+        "canSeeSky": true,
         "neededNearbyBlocks": [
-          "minecraft:bamboo_block",
-          "minecraft:bamboo",
-          "#cobblemon:trees"
+          "minecraft:dripstone_block",
+          "minecraft:pointed_dripstone",
+          "minecraft:mud",
+          "cobblemon:moon_stone_block",
+          "#cobblemon:moon_stone_ores"
         ]
       }
     }

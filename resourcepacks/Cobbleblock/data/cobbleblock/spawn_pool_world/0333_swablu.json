@@ -4,15 +4,16 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pancham-1",
-      "pokemon": "pancham",
+      "id": "swablu-1",
+      "pokemon": "swablu",
       "type": "pokemon",
       "bucket": "uncommon",
-      "weight": 7,
-      "level": "20-35",
+      "weight": 8.4,
+      "level": "6-31",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
+          "#minecraft:leaves",
           "#cobblemon:natural"
         ],
         "dimensions": [
@@ -21,9 +22,9 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "minecraft:bamboo_block",
-          "minecraft:bamboo",
-          "#cobblemon:trees"
+          "#c:fences",
+          "#cobblemon:gemstones",
+          "#minecraft:wool"
         ]
       }
     }

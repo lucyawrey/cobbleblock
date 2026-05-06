@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pancham-1",
-      "pokemon": "pancham",
+      "id": "archaludon-1",
+      "pokemon": "archaludon",
       "type": "pokemon",
-      "bucket": "uncommon",
-      "weight": 7,
-      "level": "20-35",
+      "bucket": "ultra-rare",
+      "weight": 1,
+      "level": "50-79",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -18,12 +18,11 @@
         "dimensions": [
           "minecraft:overworld"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "minecraft:bamboo_block",
-          "minecraft:bamboo",
-          "#cobblemon:trees"
+          "minecraft:iron_block",
+          "minecraft:iron_bars",
+          "#minecraft:iron_ores",
+          "minecraft:iron_door"
         ]
       }
     }

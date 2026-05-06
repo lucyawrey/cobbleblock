@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pancham-1",
-      "pokemon": "pancham",
+      "id": "seviper-1",
+      "pokemon": "seviper",
       "type": "pokemon",
       "bucket": "uncommon",
-      "weight": 7,
-      "level": "20-35",
+      "weight": 2,
+      "level": "25-62",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -21,9 +21,9 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "minecraft:bamboo_block",
-          "minecraft:bamboo",
-          "#cobblemon:trees"
+          "minecraft:short_grass",
+          "minecraft:tall_grass",
+          "minecraft:gravel"
         ]
       }
     }

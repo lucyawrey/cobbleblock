@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pancham-1",
-      "pokemon": "pancham",
+      "id": "flygon-1",
+      "pokemon": "flygon",
       "type": "pokemon",
-      "bucket": "uncommon",
-      "weight": 7,
-      "level": "20-35",
+      "bucket": "rare",
+      "weight": 0.25,
+      "level": "45-52",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -20,10 +20,11 @@
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
+        "isRaining": true,
         "neededNearbyBlocks": [
-          "minecraft:bamboo_block",
-          "minecraft:bamboo",
-          "#cobblemon:trees"
+          "minecraft:sandstone",
+          "minecraft:dead_bush",
+          "minecraft:cactus"
         ]
       }
     }

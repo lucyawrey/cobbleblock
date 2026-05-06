@@ -1,0 +1,45 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "wailord-1",
+      "pokemon": "wailord",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 0.32,
+      "level": "40-50",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:seagrass",
+          "minecraft:kelp_plant",
+          "minecraft:sea_pickle",
+          "#minecraft:coral_blocks",
+          "#minecraft:corals"
+        ]
+      }
+    },
+    {
+      "id": "wailord-2",
+      "pokemon": "wailord",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 0.32,
+      "level": "40-50",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}
