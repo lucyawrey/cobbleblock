@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "spinda-1",
+      "pokemon": "spinda",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 9.9,
+      "level": "11-36",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:bamboo_block",
+          "minecraft:tall_grass",
+          "minecraft:short_grass",
+          "minecraft:bamboo"
+        ]
+      }
+    }
+  ]
+}

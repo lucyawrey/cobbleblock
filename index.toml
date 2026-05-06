@@ -7210,6 +7210,26 @@ file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0312_minun.j
 hash = "c56838356f4b9cc9466dcf92d0428af4554c45e0cad5ba7d60d24662b7931251"
 
 [[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0327_spinda.json"
+hash = "da10d12c9ac1d42ad7eed8e5c89175ac2dc2266ed0e36b9faffee3ab16aa9f7f"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0327_spinda_special_spots_1_face_spots_none_face_spots2_none.json"
+hash = "ab4f17e46b8d59eca211130c2727d0258bdaad1eec3855323ac9248c58b9df73"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0327_spinda_special_spots_2_face_spots_none_face_spots2_none.json"
+hash = "083ca4b7292562768ded02a31358ad697cf3dd4158e334ed59561dda2446c262"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0327_spinda_special_spots_3_face_spots_none_face_spots2_none.json"
+hash = "a0ab115bdabca869bd4ca895192a161011465addc1f429e66fc7fd332fece1f5"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0327_spinda_special_spots_4_face_spots_none_face_spots2_none.json"
+hash = "7e75451bbbf23fa1df3ec5cc78d492c3ca6dcee95f3a33ff37fde942d8b044c3"
+
+[[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0415_combee.json"
 hash = "8d1204e249705a98261ac91c39670d78c5c8973497a6631d07d6b3d5fb73c796"
 
@@ -7284,6 +7304,14 @@ hash = "dcde6fe9cf8ff58f92132532729ac1e53672d141ced40aa9dfb7bf4462e65134"
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0609_chandelure.json"
 hash = "57093cb2bdfccdadae69f594e8d0160fa32f961891758a4130055c04f82c3278"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0674_pancham.json"
+hash = "b74abe9cfd843aaaa55c9f75f031bfc0c1c93ff88e87373b8d629040990561bd"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0675_pangoro.json"
+hash = "795c715e7a74ee447f73256a6307c356c57ebca98606cfb356b744aeeda62ce8"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0703_carbink.json"

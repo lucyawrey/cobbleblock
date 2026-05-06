@@ -1,6 +1,7 @@
 # Cobbleblock Todo
 
 ## Normal Priority
+- Fix diglet drops not generating
 - Add more blocks to #cobblemon:gemstones
 - Method to obtain ferns
 - Permissions and Credits
