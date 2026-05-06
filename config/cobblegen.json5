@@ -63,15 +63,15 @@
 				},
 				{
 					"id": "minecraft:gold_ore",
-					"weight": 2.0
+					"weight": 1.0
 				},
 				{
 					"id": "create:zinc_ore",
-					"weight": 5.0
+					"weight": 3.0
 				},
 				{
 					"id": "minecraft:calcite",
-					"weight": 5.0
+					"weight": 4.0
 				},
 				{
 					"id": "minecraft:iron_ore",
@@ -83,19 +83,19 @@
 				},
 				{
 					"id": "minecraft:copper_ore",
-					"weight": 5.0
+					"weight": 4.0
 				},
 				{
 					"id": "minecraft:diorite",
-					"weight": 10.0
+					"weight": 8.0
 				},
 				{
 					"id": "minecraft:andesite",
-					"weight": 10.0
+					"weight": 8.0
 				},
 				{
 					"id": "minecraft:granite",
-					"weight": 10.0
+					"weight": 8.0
 				},
 				{
 					"id": "cobbleblock:suspicious_cobblestone",
@@ -103,7 +103,7 @@
 				},
 				{
 					"id": "minecraft:cobblestone",
-					"weight": 32.5
+					"weight": 43.5
 				}
 			],
 			"cobbleblock:suspicious_cobblestone": [

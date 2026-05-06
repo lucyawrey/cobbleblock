@@ -6,7 +6,7 @@ hash = "82060adfe2227bb9539ef2da32bd00a55dfa74c49925f17c7f896c62bbe1788f"
 
 [[files]]
 file = "config/cobblegen.json5"
-hash = "94c253aa8adb18c960dd7714f28b6ff5ec99850aa4c1286fe548d5a986a53a67"
+hash = "99116e709d8dd7dfd2742016c6fdc2504a91c6f254c4ebba53906c50599a224f"
 
 [[files]]
 file = "config/cobblemon-battle-extras-server.json"
