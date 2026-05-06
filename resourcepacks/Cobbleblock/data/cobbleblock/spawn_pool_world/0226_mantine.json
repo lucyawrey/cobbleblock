@@ -20,7 +20,7 @@
         "minY": 1,
         "neededNearbyBlocks": [
           "minecraft:seagrass",
-          "minecraft:kelp",
+          "minecraft:kelp_plant",
           "minecraft:sea_pickle",
           "#minecraft:coral_blocks",
           "#minecraft:corals"

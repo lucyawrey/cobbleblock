@@ -23,7 +23,8 @@
         "neededNearbyBlocks": [
           "#minecraft:beds",
           "minecraft:cake",
-          "#cobblemon:berries"
+          "#cobblemon:saccharine_trees",
+          "minecraft:honey_block"
         ]
       }
     }

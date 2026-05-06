@@ -1,8 +1,12 @@
 {
   "target": "cobblemon:rattata",
   "drops": {
-    "amount": 3,
+    "amount": 4,
     "entries": [
+      {
+        "item": "cobblemon:oran_berry",
+        "quantityRange": "0-1"
+      },
       {
         "item": "cobblemon:chilan_berry",
         "percentage": 5

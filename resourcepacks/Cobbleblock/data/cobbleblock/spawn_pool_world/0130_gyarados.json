@@ -19,7 +19,7 @@
         "canSeeSky": true,
         "neededNearbyBlocks": [
           "minecraft:seagrass",
-          "minecraft:kelp"
+          "minecraft:kelp_plant"
         ]
       }
     },
@@ -39,7 +39,7 @@
         "canSeeSky": true,
         "neededNearbyBlocks": [
           "minecraft:seagrass",
-          "minecraft:kelp"
+          "minecraft:kelp_plant"
         ]
       }
     },

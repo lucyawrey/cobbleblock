@@ -21,7 +21,7 @@
         "canSeeSky": true,
         "neededNearbyBlocks": [
           "minecraft:seagrass",
-          "minecraft:kelp",
+          "minecraft:kelp_plant",
           "#cobblemon:gemstones"
         ]
       }
@@ -42,7 +42,7 @@
         "canSeeSky": true,
         "neededNearbyBlocks": [
           "minecraft:seagrass",
-          "minecraft:kelp",
+          "minecraft:kelp_plant",
           "#cobblemon:gemstones"
         ]
       }

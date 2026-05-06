@@ -5,7 +5,7 @@
     "entries": [
       {
         "item": "minecraft:turtle_scute",
-        "quantityRange": "0-2"
+        "quantityRange": "0-1"
       },
       {
         "item": "cobblemon:mystic_water",

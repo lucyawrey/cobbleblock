@@ -4,29 +4,27 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "wingull-1",
-      "pokemon": "wingull",
+      "id": "munchlax-1",
+      "pokemon": "munchlax",
       "type": "pokemon",
-      "bucket": "common",
-      "weight": 9,
-      "level": "2-27",
+      "bucket": "rare",
+      "weight": 7.5,
+      "level": "24-39",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
-          "#minecraft:leaves",
           "#cobblemon:natural"
         ],
         "dimensions": [
           "minecraft:overworld"
         ],
-        "timeRange": "day",
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "minecraft:sand",
-          "minecraft:sugar_cane",
-          "minecraft:seagrass",
-          "minecraft:kelp_plant"
+          "#minecraft:beds",
+          "minecraft:cake",
+          "#cobblemon:saccharine_trees",
+          "minecraft:honey_block"
         ]
       }
     }

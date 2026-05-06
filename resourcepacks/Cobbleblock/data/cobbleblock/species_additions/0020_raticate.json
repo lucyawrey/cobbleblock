@@ -1,11 +1,15 @@
 {
   "target": "cobblemon:raticate",
   "drops": {
-    "amount": 3,
+    "amount": 4,
     "entries": [
       {
+        "item": "cobblemon:oran_berry",
+        "quantityRange": "0-2"
+      },
+      {
         "item": "cobblemon:chilan_berry",
-        "percentage": 5
+        "percentage": 10
       },
       {
         "item": "mega_showdown:normal_tera_shard",
