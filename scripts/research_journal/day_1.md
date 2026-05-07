@@ -1,12 +1,14 @@
 # Day 1
-## By Professor Acacia
-icon = minecraft:writable_book
-category = journal_entries
-advancement
-order = 1
----
+
+| property    | value                   |
+| ----------- | ----------------------- |
+| icon        | minecraft:writable_book |
+| category    | journal_entries         |
+| advancement |                         |
+| sortnum     | 1                       |
 
 Shopping list:
+
 - Milk
 - Eggs
 - Potato mochi
@@ -25,8 +27,8 @@ NO. Tested by looking over the edge. Fear is still very real. It's only the one 
 Found a Caterpie on the tree. No idea where they came from. They definitely weren't here before.
 
 With nothing better to do, I picked the apricorns and started carving them (see, Dad, hobbies can be useful!). One of them had a seed. That might be useful if I had somewhere to plant another tree.
-I'm not getting hungry. Actually, I'm not getting thirsty, either. I've been here for hours, and the sun is setting (very interested to see if it actually sets without a horizon). I should be feeling something. My lips aren't dry. Does this place remove the need for eating and drinking? Not complaining about that! No more forgetting to eat! Also there's no food or water so their absence won't kill me, yay. Still weird, though. I'll need to investigate it further. 
+I'm not getting hungry. Actually, I'm not getting thirsty, either. I've been here for hours, and the sun is setting (very interested to see if it actually sets without a horizon). I should be feeling something. My lips aren't dry. Does this place remove the need for eating and drinking? Not complaining about that! No more forgetting to eat! Also there's no food or water so their absence won't kill me, yay. Still weird, though. I'll need to investigate it further.
 
-Investigation will have to wait until tomorrow. We're losing light, and I do not want to walk off the edge by accident. Maybe I can make a fence with sticks wood from the nearby tree? A bed might be a better use of time. Or a blanket. As is, I'm sleeping on the grass. At least I've got the two of them to keep me company. 
+Investigation will have to wait until tomorrow. We're losing light, and I do not want to walk off the edge by accident. Maybe I can make a fence with sticks wood from the nearby tree? A bed might be a better use of time. Or a blanket. As is, I'm sleeping on the grass. At least I've got the two of them to keep me company.
 
 The stars are beautiful. I don't think I've ever seen so many before. The full moon is actually giving off enough light for me to write. This place is actually kind of nice? I still don't know what this place is or why I'm here, but I'm looking forward to figuring it out.
