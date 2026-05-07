@@ -1,7 +1,7 @@
 {
     "name": "Research Journal",
     "subtitle": "By Professor Acacia",
-    "landing_text": "  G'day! Welcome to the world of Pokemon and this odd little place. My name is Acacia. I'm a Pokemon professor, and now also a professor of strange sky islands! I'm the leading authority on the matter, so I get to say that. $(l:patchouli:introduction/introduction)(Continue)$()",
+    "landing_text": "  G'day! Welcome to the world of Pokemon and this odd little place. My name is Acacia. I'm a Pokemon professor, and now also a professor of strange sky islands! I'm the leading authority on the matter, so I get to say that. $(l:patchouli:journal_entries/introduction)(Continue)$()",
     "version": 0,
     "creative_tab": "cobbleblock:cobbleblock"
 }

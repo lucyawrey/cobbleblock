@@ -5183,7 +5183,7 @@ metafile = true
 
 [[files]]
 file = "patchouli_books/research_journal/book.json"
-hash = "427f641f193e22f2b2193236e20b5a7b83e40c17412ea5b9f564449281018da8"
+hash = "b8cb10372339e374ca37cf63d3d33d21ba5da210e7a2b10adf1363f297433443"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/categories/guides.json"
@@ -5198,31 +5198,31 @@ file = "patchouli_books/research_journal/en_us/categories/torn_journal_entries.j
 hash = "8257cd2f6e3ca33664ad16372b5407fd3f8459e59f6a064e9100be734747142f"
 
 [[files]]
-file = "patchouli_books/research_journal/en_us/entries/introduction/introduction.json"
+file = "patchouli_books/research_journal/en_us/entries/journal_entries/introduction.json"
 hash = "0b53c34e962f9d353f669c381f5db5e8a19b8f0ae3fb9da5a39237b7ad8311cb"
 
 [[files]]
-file = "patchouli_books/research_journal/en_us/entries/introduction/page_1_nether.json"
+file = "patchouli_books/research_journal/en_us/entries/journal_entries/page_1_nether.json"
 hash = "4c00d1a7430f4e4f26b1c2ffdd040499a1b1eef8d054cfc4d658c8edd361c2f9"
 
 [[files]]
-file = "patchouli_books/research_journal/en_us/entries/introduction/page_2_fishing.json"
+file = "patchouli_books/research_journal/en_us/entries/journal_entries/page_2_fishing.json"
 hash = "7c89733d79d0cebff5ec66cf304ace99ccb0ac748e6aea6c3ec409311b9e356f"
 
 [[files]]
-file = "patchouli_books/research_journal/en_us/entries/introduction/page_3_archaeology.json"
+file = "patchouli_books/research_journal/en_us/entries/journal_entries/page_3_archaeology.json"
 hash = "88d372135fd25e66f1c2561ee72ee9a2ae1f125bb4d66844b7df53e5acee8fe6"
 
 [[files]]
-file = "patchouli_books/research_journal/en_us/entries/introduction/page_4_trader.json"
+file = "patchouli_books/research_journal/en_us/entries/journal_entries/page_4_trader.json"
 hash = "d17d70f75117f76289db953d7dc2e8649cedc5ba0942e2f29ca4c35a33287728"
 
 [[files]]
-file = "patchouli_books/research_journal/en_us/entries/introduction/page_5_meteor.json"
+file = "patchouli_books/research_journal/en_us/entries/journal_entries/page_5_meteor.json"
 hash = "6aebb021db4a621906774d9aaebe4f3de0b785c840efbcc40d42f466ef6b16ac"
 
 [[files]]
-file = "patchouli_books/research_journal/en_us/entries/introduction/page_6_shrine.json"
+file = "patchouli_books/research_journal/en_us/entries/journal_entries/page_6_shrine.json"
 hash = "a84b2c50367663d373025129e28e96df3e74b1a5dfc230c632ebd70f1a54c312"
 
 [[files]]
