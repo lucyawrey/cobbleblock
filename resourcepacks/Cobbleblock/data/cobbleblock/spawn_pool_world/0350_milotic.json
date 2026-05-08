@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "milotic-1",
+      "pokemon": "milotic",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.3,
+      "level": "15-54",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ]
+      }
+    }
+  ]
+}

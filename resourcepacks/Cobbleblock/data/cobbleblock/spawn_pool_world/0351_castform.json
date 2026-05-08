@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "baltoy-1",
-      "pokemon": "baltoy",
+      "id": "castform-1",
+      "pokemon": "castform",
       "type": "pokemon",
-      "bucket": "uncommon",
-      "weight": 5.04,
-      "level": "5-30",
+      "bucket": "rare",
+      "weight": 10,
+      "level": "23-48",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -18,13 +18,11 @@
         "dimensions": [
           "minecraft:overworld"
         ],
-        "minLight": 0,
-        "maxLight": 7,
-        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "#minecraft:terracotta",
-          "minecraft:clay",
-          "minecraft:decorated_pot"
+          "#minecraft:sand",
+          "minecraft:dead_bush"
         ]
       }
     }

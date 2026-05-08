@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "baltoy-1",
-      "pokemon": "baltoy",
+      "id": "lileep-1",
+      "pokemon": "lileep",
       "type": "pokemon",
-      "bucket": "uncommon",
-      "weight": 5.04,
-      "level": "5-30",
+      "bucket": "ultra-rare",
+      "weight": 6,
+      "level": "11-36",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -22,9 +22,14 @@
         "maxLight": 7,
         "canSeeSky": true,
         "neededNearbyBlocks": [
-          "#minecraft:terracotta",
-          "minecraft:clay",
-          "minecraft:decorated_pot"
+          "minecraft:azalea",
+          "minecraft:flowering_azalea",
+          "minecraft:azalea_leaves",
+          "minecraft:flowering_azalea_leaves",
+          "minecraft:hanging_roots",
+          "minecraft:moss_block",
+          "minecraft:big_dripleaf",
+          "minecraft:small_dripleaf"
         ]
       }
     }
