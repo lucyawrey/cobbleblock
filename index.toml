@@ -90,7 +90,7 @@ hash = "2a1efa0a9ea23673047ceadc82b048c60e030b4385042c26eaa3df488178610d"
 
 [[files]]
 file = "config/rctmod-server.toml"
-hash = "b07ddf107e2d79e78cfbdab7fd5f0b8f2fd9fce45ad4ee7c0fd0f0a6c7c469c2"
+hash = "f9eb295367bed3881fd0c8ea69eb2a0f89ffd8cc08e33b85b9a409cb551df744"
 
 [[files]]
 file = "config/simpletms/main.json"

@@ -3,7 +3,7 @@
 	#A global factor that determines if a spawn attempt for a trainer is made.
 	# Default: 0.85
 	# Range: 0.0 ~ 1.0
-	globalSpawnChance = 0.5
+	globalSpawnChance = 0.85
 	#━━━━━━━━━━
 	#The chance for a trainer to spawn will shrink towards this value based of how many
 	#trainers are already spawned in for a player. For example if a player has 0 trainers
@@ -13,14 +13,12 @@
 	#Set to any value equal to or above globalSpawnChance to disable (e.g. 1.0).
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
-	# 10%
 	globalSpawnChanceMinimum = 0.1
 	#━━━━━━━━━━
 	#The interval in ticks at which a spawn attempt is made per player.
 	# Default: 180
 	# Range: 1 ~ 2147483646
-	# 2 minutes.
-	spawnIntervalTicks = 2400
+	spawnIntervalTicks = 180
 	#━━━━━━━━━━
 	#The spawn interval ticks will grow towards this value based of how many trainers are already
 	#spawned in for a player. For example if a player has 0 trainers spawned for them the spawn
@@ -30,8 +28,7 @@
 	#spawnIntervalTicks to disable (e.g. 0).
 	# Default: 2400
 	# Range: 0 ~ 2147483646
-	# 6 minutes.
-	spawnIntervalTicksMaximum = 7200
+	spawnIntervalTicksMaximum = 2400
 	#━━━━━━━━━━
 	#(Non persistent) trainers will despawn if they have no line of sight to any player for the configured amount of ticks.
 	#Set to a negative value to disable this feature (trainers may only despawn if they chunk becomes unloaded in that case).
@@ -60,13 +57,13 @@
 	#Spawn cap of trainers per player.
 	# Default: 12
 	# Range: 0 ~ 2147483646
-	maxTrainersPerPlayer = 4
+	maxTrainersPerPlayer = 12
 	#━━━━━━━━━━
 	#Total trainer spawn cap. This value may be increased for servers with higher expected
 	#player numbers (> 4), for example (|players| + 1)*maxTrainersPerPlayer.
 	# Default: 60
 	# Range: 0 ~ 2147483646
-	maxTrainersTotal = 64
+	maxTrainersTotal = 60
 	#━━━━━━━━━━
 	#The maximum level difference between the strongest pokemon in the team of a
 	#player (at or below that players level cap) and the strongest pokemon in the
@@ -83,7 +80,7 @@
 	#The spawn weight decreases with a higher level difference.
 	# Default: 25
 	# Range: 0 ~ 100
-	maxLevelDiff = 20
+	maxLevelDiff = 25
 	#━━━━━━━━━━
 	#If enabled trainers will only spawn naturally around players that have a trainer card
 	#in their inventory (does not affect trainer spawners).
@@ -93,7 +90,7 @@
 	#card and have either not started a series or completed their current series. One may also spawn nearby
 	#any player in proximity to a village (at least 3 occupied beds and a village center). These can
 	#spawn everywhere but will respect the 'dimensionBlacklist' and 'dimensionWhitelist' settings.
-	spawnTrainerAssociation = false
+	spawnTrainerAssociation = true
 	#━━━━━━━━━━
 	#A comma separated list of dimensions (e.g. ["multiworld:spawn", "minecraft:the_end"]).
 	#In these dimensions trainers will never spawn.
@@ -117,7 +114,7 @@
 	#━━━━━━━━━━
 	#Determines if trainers may force players into a battle if they look at each other for
 	#a certain amount if time.
-	forceBattleOnSight = false
+	forceBattleOnSight = true
 	#━━━━━━━━━━
 	#Max distance in blocks at which trainers may start a battle on sight.
 	# Default: 8.0
@@ -144,7 +141,7 @@
 	#for the first trainer of a series (you may use 'relativeLevelCap' for that).
 	# Default: 15
 	# Range: 1 ~ 2147483646
-	initialLevelCap = 20
+	initialLevelCap = 15
 	#━━━━━━━━━━
 	#The level cap of a player is based of the strongest pokemon from the party of their next
 	#required trainer in a series. The relativeLevelCap is added to the resulting value. For
@@ -156,7 +153,7 @@
 	#this value may also be set to one of the special series ids "empty" (i.e. no series) or "freeroam".
 	#Note that when setting the initial series to "freeroam" it is usually a good idea to also disable
 	#'freeroamRequiresCompletedSeries'.
-	initialSeries = "cobbleblock"
+	initialSeries = "empty"
 	#━━━━━━━━━━
 	#The freeroam series will grant a level cap of 100 and allows players to pause the progression of their
 	#current series. If this option is enabled, players must have completed any other series first to gain
