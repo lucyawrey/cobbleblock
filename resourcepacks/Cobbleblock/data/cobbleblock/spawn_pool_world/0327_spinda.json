@@ -8,7 +8,7 @@
       "pokemon": "spinda",
       "type": "pokemon",
       "bucket": "common",
-      "weight": 5.5,
+      "weight": 5.2,
       "level": "11-36",
       "spawnablePositionType": "grounded",
       "condition": {

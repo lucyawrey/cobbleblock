@@ -4,6 +4,14 @@ const outPath = "./patchouli_books/research_journal/en_us/entries";
 const inPath = "./scripts/research_journal";
 
 const glob = new Glob("**/*.md");
+const br = "$(br)";
+const f = "$()";
+const l = "$(l)";
+const o = "$(o)";
+const m = "$(m)";
+const indent = "  ";
+const firstPageCharLimit = 392;
+const subsequentPageCharLimit = 464;
 
 for (let filePath of glob.scanSync(inPath)) {
   try {
@@ -11,11 +19,12 @@ for (let filePath of glob.scanSync(inPath)) {
       .text()
       .catch(() => null);
 
-    let data: Record<string, any> = { pages: [] };
+    let data: Record<string, any> = {};
     let inPropertyBlock = false;
-    let page = "";
+    let body = "";
+    let category = "";
 
-    let remainder = Bun.markdown.render(content || "", {
+    Bun.markdown.render(content || "", {
       heading: (text) => {
         data.name = text;
         return "";
@@ -28,28 +37,63 @@ for (let filePath of glob.scanSync(inPath)) {
         if (inPropertyBlock) {
           const [key, value] = text.split("=").map((part) => part.trim());
           if (key && value) {
-            data[key] = value;
+            if (key === "order") {
+              data.sortnum = parseInt(value);
+            } else if (key === "category") {
+              data.category = "patchouli:" + value;
+              category = value;
+            } else {
+              data[key] = value;
+            }
           }
         } else {
-          page += "  " + text + "$(br)";
+          body += indent + text + br;
         }
         return "";
       },
       listItem: (text) => {
-        page += " - " + text + "$(br)";
+        body += " - " + text + br;
         return "";
+      },
+      strong: (text) => {
+        body += l + text + f;
+      },
+      emphasis: (text) => {
+        body += o + text + f;
+      },
+      strikethrough: (text) => {
+        body += m + text + f;
       },
     });
 
-    // Flush any remaining page content
-    if (page) {
-      page = page.trim().replace(/\$\(br\)$/, ""); // Remove trailing line breaks
-      data.pages.push({ type: "patchouli:text", text: page });
+    // Handle body
+    if (body) {
+      data.pages = [];
+      let page = "";
+      let first = true;
+      for (let line of body.split(br)) {
+        if (!line.trim()) continue; // Skip empty lines
+        let charLimit = first ? firstPageCharLimit : subsequentPageCharLimit;
+        if ((page + line).length > charLimit) {
+          data.pages.push({
+            type: "patchouli:text",
+            text: page.replace(new RegExp(br + "$", "g"), ""),
+          });
+          first = false;
+          page = line + br;
+        } else {
+          page += line + br;
+        }
+      }
+      data.pages.push({
+        type: "patchouli:text",
+        text: page.replace(new RegExp(br + "$", "g"), ""),
+      });
     }
 
     filePath = filePath.replace(".md", ".json");
     let json = JSON.stringify(data, null, 2);
-    await Bun.write(`${outPath}/${filePath}`, json);
+    await Bun.write(`${outPath}/${category}/${filePath}`, json);
     console.log(`Modified file: ${filePath}`);
   } catch (error) {
     console.error(`Error processing file ${filePath}:`, error);

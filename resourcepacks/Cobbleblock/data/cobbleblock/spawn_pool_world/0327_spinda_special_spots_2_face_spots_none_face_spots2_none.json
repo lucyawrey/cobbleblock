@@ -8,7 +8,7 @@
       "pokemon": "spinda special_spots=2 face_spots=none face_spots2=none",
       "type": "pokemon",
       "bucket": "common",
-      "weight": 0.025,
+      "weight": 0.1,
       "level": "11-36",
       "spawnablePositionType": "grounded",
       "condition": {
