@@ -4618,15 +4618,15 @@ hash = "8f54bfd66435184da0ff091d317993f15e466b7f230da00fa5ef86847ccb0915"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/item/ancient_fossil.png"
-hash = "e8b1698a3af2df2d430084cfb2594ebd54b9a62130a9f3948890c80bf38bc348"
+hash = "82efb326453f107610fb2a0cb1156a37b866a2db81c9b586ed9e491ea74bde22"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/item/ancient_fossil_dust.png"
-hash = "e8b1698a3af2df2d430084cfb2594ebd54b9a62130a9f3948890c80bf38bc348"
+hash = "75e016e5670c26c953ce6c3af357069b6c377d145935731ee07e3a718390911a"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/item/ancient_fossil_piece.png"
-hash = "e8b1698a3af2df2d430084cfb2594ebd54b9a62130a9f3948890c80bf38bc348"
+hash = "3aa40236b240e96f230c1ad335367fba04c03f7c0ad65c351190687a3e49d852"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/item/arctic_wing.png"
