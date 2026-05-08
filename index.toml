@@ -4634,7 +4634,7 @@ hash = "44f4431e387a4024f05759ddda4609ccea5f7f6ad16f4c5eb4a194dec59ddd9a"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/item/articuno_orb.png"
-hash = "e8b1698a3af2df2d430084cfb2594ebd54b9a62130a9f3948890c80bf38bc348"
+hash = "032d4bb98cef10a11f0a07f95a57c63506f25d9e3f2b317a1a3bfa5a2702b2cf"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/item/charged_wing.png"
@@ -4642,7 +4642,7 @@ hash = "9e160afd5447eab4de1c6187efafabcc2dd9319f425594a8b767e26b26aef6c0"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/item/fragile_ocarina.png"
-hash = "e8b1698a3af2df2d430084cfb2594ebd54b9a62130a9f3948890c80bf38bc348"
+hash = "0289cac4d71c5a6d4e9855c90be9a638796291c0510cc24ed56b09bfe4c5d0ba"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/item/molten_wing.png"
@@ -4650,7 +4650,7 @@ hash = "d1a89a89ab85dca1e4086fbbe231658451a66840ac8ea4a4b10a89eeb5a853c5"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/item/moltres_orb.png"
-hash = "e8b1698a3af2df2d430084cfb2594ebd54b9a62130a9f3948890c80bf38bc348"
+hash = "306e9248f701d1052e027c16cb4ff9aa6beebda129c541d915e7d54c72967c50"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/item/torn_page.png"
@@ -4658,7 +4658,7 @@ hash = "2f49da2ebe00ea4be03618b60f778c55c7bc096fc048deaeb69161bd95dc25d9"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/item/zapdos_orb.png"
-hash = "e8b1698a3af2df2d430084cfb2594ebd54b9a62130a9f3948890c80bf38bc348"
+hash = "982460efbbfd2262f7d96f6a9549bcc449d498acc4eb493b7298ac3141b334cc"
 
 [[files]]
 file = "kubejs/assets/mega_showdown/models/block/pedestal.json"
@@ -5372,6 +5372,10 @@ hash = "a0f493f67dc22cd70b2f0f53cdd268609ff23e6642366010624825558541389e"
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/flying_gem.json"
 hash = "f8334f429a84d88bf9ba5b08eccbd3932df7aec1c3db45217cf86f57d3f14b26"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/fragile_ocarina.json"
+hash = "b80855b594a73f11b9064f20a703501da260c1aa643932bf636e3ca4141d0ad2"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/ghost_gem.json"
