@@ -7,7 +7,7 @@
       "id": "spinda-special-spots-3-face-spots-none-face-spots2-none-1",
       "pokemon": "spinda special_spots=3 face_spots=none face_spots2=none",
       "type": "pokemon",
-      "bucket": "uncommon",
+      "bucket": "common",
       "weight": 0.025,
       "level": "11-36",
       "spawnablePositionType": "grounded",

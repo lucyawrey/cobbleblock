@@ -1,16 +1,8 @@
 {
   "target": "cobblemon:scorbunny",
   "drops": {
-    "amount": 5,
+    "amount": 3,
     "entries": [
-      {
-        "item": "_hide",
-        "quantityRange": "0-1"
-      },
-      {
-        "item": "_foot",
-        "percentage": 5
-      },
       {
         "item": "cobblemon:charcoal_stick",
         "percentage": 5

@@ -1,16 +1,8 @@
 {
   "target": "cobblemon:diggersby",
   "drops": {
-    "amount": 8,
+    "amount": 6,
     "entries": [
-      {
-        "item": "_hide",
-        "quantityRange": "0-2"
-      },
-      {
-        "item": "_foot",
-        "percentage": 5
-      },
       {
         "item": "minecraft:carrot",
         "percentage": 5

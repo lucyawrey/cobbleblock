@@ -1,16 +1,8 @@
 {
   "target": "cobblemon:bunnelby",
   "drops": {
-    "amount": 6,
+    "amount": 4,
     "entries": [
-      {
-        "item": "_hide",
-        "quantityRange": "0-1"
-      },
-      {
-        "item": "_foot",
-        "percentage": 2.5
-      },
       {
         "item": "minecraft:carrot",
         "percentage": 2.5

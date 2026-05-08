@@ -5198,6 +5198,10 @@ file = "patchouli_books/research_journal/en_us/categories/torn_journal_entries.j
 hash = "8257cd2f6e3ca33664ad16372b5407fd3f8459e59f6a064e9100be734747142f"
 
 [[files]]
+file = "patchouli_books/research_journal/en_us/entries/day_1.json"
+hash = "63b0c32a0aac165f5d2576239418428466125c4d68f1445e1df1124a81bedbc6"
+
+[[files]]
 file = "patchouli_books/research_journal/en_us/entries/journal_entries/introduction.json"
 hash = "0b53c34e962f9d353f669c381f5db5e8a19b8f0ae3fb9da5a39237b7ad8311cb"
 
@@ -7271,23 +7275,23 @@ hash = "09f7e87daace55e4583d984d16ec2f7a3340b8454f724aa62c432963dad735d3"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0327_spinda.json"
-hash = "da10d12c9ac1d42ad7eed8e5c89175ac2dc2266ed0e36b9faffee3ab16aa9f7f"
+hash = "f8800c5968be73e4974ff874ed2205d5264b90041cd2dd71472f9beca39ee031"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0327_spinda_special_spots_1_face_spots_none_face_spots2_none.json"
-hash = "ab4f17e46b8d59eca211130c2727d0258bdaad1eec3855323ac9248c58b9df73"
+hash = "f760d182dfae7d5ea3f390fb61e374d240e2ab3f3fd595cc632d3829013c7ca3"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0327_spinda_special_spots_2_face_spots_none_face_spots2_none.json"
-hash = "083ca4b7292562768ded02a31358ad697cf3dd4158e334ed59561dda2446c262"
+hash = "968d5eb44f2fff213796b4215e29736f6671c3da8a4eb981669a3f365cbc3292"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0327_spinda_special_spots_3_face_spots_none_face_spots2_none.json"
-hash = "a0ab115bdabca869bd4ca895192a161011465addc1f429e66fc7fd332fece1f5"
+hash = "d7f5db72ed95efca866700280d2660777a477f62f052a8f95bfe317ce6ba0b7b"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0327_spinda_special_spots_4_face_spots_none_face_spots2_none.json"
-hash = "7e75451bbbf23fa1df3ec5cc78d492c3ca6dcee95f3a33ff37fde942d8b044c3"
+hash = "030a026fd29464e6a7905512d857356c3630a981e42bcab0a2b121872c5124e3"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0328_trapinch.json"
@@ -7332,6 +7336,34 @@ hash = "42938d647399d9c3e1da04d3e7fbc2801f47fef5a724f73b4740e7b1030b2503"
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0338_solrock.json"
 hash = "0af22edc57422290081ea2f76779cd2ed38ee84014a7a157d9e3331200f41bcb"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0339_barboach.json"
+hash = "8b9f8dd07e85babba221c61811a00bc0a885beedc52860ad536c6437f7a10d19"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0340_whiscash.json"
+hash = "9a28e1d08964cff7e01553c0767ed8b015a770d20f62225df26d8b3ee5c1051d"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0340_whiscash_whiscash_nero_true.json"
+hash = "143ed96ca665ea999a0c8c05356f44f005bb0bdf329ba8f6e544fb5b2028b82d"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0341_corphish.json"
+hash = "59ef2fdc4291d888da7c298b600513a0535dcdaf9519259297085715e05df592"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0342_crawdaunt.json"
+hash = "f3b4dca146a34700543f136c73f159783519655c60fb87be480585fcb6693758"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0343_baltoy.json"
+hash = "531b69a128cf5a511aab81a4422b5f59e5042558c699bd0ed9ae107fd442be08"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0344_claydol.json"
+hash = "cb7a13bd160399533bbe4b6c61d5517ae57bcbf415e27e73bc9bed6548fc5962"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0415_combee.json"
@@ -8767,7 +8799,7 @@ hash = "c324a39f4e2d43b83b55e0825c5bb9b900a0d6d5653cf03e0e5e54d5e0a18e07"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0327_spinda.json"
-hash = "864bb8d43debc31b51484f3dcf3b9fb42b6fab96a6117405ea7ce27d258992b1"
+hash = "b2c4754ef55bbe3bc20186f1baa7843e56f0b6a8a79403c35be0d4c160bd17f0"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0328_trapinch.json"
@@ -9167,11 +9199,11 @@ hash = "a8b76729bbd0cf12f98f15dfb20eb44c22319bdb3e956d39ae33a419e3f67720"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0427_buneary.json"
-hash = "228ce138175c06a51a46885669fd86c6c9ebed175c2cf1d6eeda7ce25509511b"
+hash = "c6e85c87e8d11f1f9a420580dfa685ad449349c295c220ef49f86f69f193ad81"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0428_lopunny.json"
-hash = "e31a6da9f8c69be3431e84bb9fc1e1c2e42e28414b204a447b8545716429a4ae"
+hash = "e258072c3a18d40060cc5c00749e769e34499796a454a4fad67d9bd51f787794"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0429_mismagius.json"
@@ -10095,11 +10127,11 @@ hash = "b46282bc0c1c52df2dea4fd4bc53225d64330ae2e49c508e8a85fea318631272"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0659_bunnelby.json"
-hash = "b8ad8ae6fcf49902fe59f68aea6552e3ae334960f95dd29fb270932386527c91"
+hash = "fd2e0b32eb218377f32493b8a6cdb9a30cf8de11d98f3dff16ac1d00fbb43ce2"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0660_diggersby.json"
-hash = "271293c4c8a1715a14024f425a5d76a51dc1defb59b1ffeabd1e28650772d213"
+hash = "595b2b779dc0516c5829e23403f71444d1ccf617ee817144c58cdde47cdf3834"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0661_fletchling.json"
@@ -10711,15 +10743,15 @@ hash = "3afb8784d755ff5d4d953eadc08bd2781ddc72333b4e4fcac86a97ff3849cae6"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0813_scorbunny.json"
-hash = "2df46f94d8f2d611a14469580664e287e5154ae637a8b8d0d679d892ee9cffe0"
+hash = "c412b4573c850a5c3978dc7e5700129969d7e3c7c50bccebf1de8e265297346e"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0814_raboot.json"
-hash = "5c762e3c5ffe171836deee11b811f949ecd6bce91f6d0bdfc8e6faa9f78320bd"
+hash = "b506e763d565da48bfbb7552f374806f0c2c68bb6fa35745a5bd915567003e76"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0815_cinderace.json"
-hash = "7d889a6700a4c56202b307849fd850b130c58bd33ed05121c95417ddbabe10a2"
+hash = "28ba4157cb1e24e4f8cf5d66b6a644416f590b58be467f7ae57d348276b76635"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0816_sobble.json"
