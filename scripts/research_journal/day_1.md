@@ -1,11 +1,14 @@
 # Day 1
 
-| property    | value                   |
-| ----------- | ----------------------- |
-| icon        | minecraft:writable_book |
-| category    | journal_entries         |
-| advancement |                         |
-| sortnum     | 1                       |
+---
+
+icon = minecraft:writable_book
+
+category = journal_entries
+
+sortnum = 1
+
+---
 
 Shopping list:
 

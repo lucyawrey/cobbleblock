@@ -10,17 +10,45 @@ for (let filePath of glob.scanSync(inPath)) {
     const content = await Bun.file(`${inPath}/${filePath}`)
       .text()
       .catch(() => null);
-    let json = `{${Bun.markdown
-      .render(content || "", {
-        heading: (text, level) => {
-          return `"name": "${text}",`;
-        },
-      })
-      .replace(/,$/, "")}}`;
-    console.log(json);
+
+    let data: Record<string, any> = { pages: [] };
+    let inPropertyBlock = false;
+    let page = "";
+
+    let remainder = Bun.markdown.render(content || "", {
+      heading: (text) => {
+        data.name = text;
+        return "";
+      },
+      hr: () => {
+        inPropertyBlock = !inPropertyBlock;
+        return "";
+      },
+      paragraph: (text) => {
+        if (inPropertyBlock) {
+          const [key, value] = text.split("=").map((part) => part.trim());
+          if (key && value) {
+            data[key] = value;
+          }
+        } else {
+          page += "  " + text + "$(br)";
+        }
+        return "";
+      },
+      listItem: (text) => {
+        page += " - " + text + "$(br)";
+        return "";
+      },
+    });
+
+    // Flush any remaining page content
+    if (page) {
+      page = page.trim().replace(/\$\(br\)$/, ""); // Remove trailing line breaks
+      data.pages.push({ type: "patchouli:text", text: page });
+    }
 
     filePath = filePath.replace(".md", ".json");
-    json = JSON.stringify(JSON.parse(json), null, 2);
+    let json = JSON.stringify(data, null, 2);
     await Bun.write(`${outPath}/${filePath}`, json);
     console.log(`Modified file: ${filePath}`);
   } catch (error) {
