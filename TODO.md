@@ -6,7 +6,6 @@
   - Verify licence of all mods in modpack.
   - Ask for permission to use mods in modpack if they are not explicitly open licensed (example: Mega Showdown).
 - Create Lore!
-  - Create script to generate book json book entries from markdown files.
   - Add methods to obtain more torn pages (Meteor, Trader, Shrine).
   - Secondary lore items that also get added to the research journal, such as the mewtwo research book or a note from a parent to a child.
   - Legendary Tablets should require translation information (an advancement/journal entry) before they can be read.
@@ -52,24 +51,14 @@
 
 ## Important Drops
 
+- Saplings (Oak, Spruce, Birch, Acacia, Cherry)
 - Max Mushrooms (Pokemon, Red Mushroom Colonies, Wandering Trader)
 - Moss Blocks
 - Pink and White apricorn seeds.
-- Saplings (Oak, Spruce, Birch, Acacia, Cherry)
 - Ice Block: add to more pokemon drops.
 - Tree Bark from Create Log Cutting Recipes
 - More organic compost recipes
 - Evo stones from cobblegen (dripstone moon stone).
-
-## Assets
-
-- Wing Item Sprites (Arctic Wing, Charged Wing, Molten Wing)
-- Orb Item Sprites (Articuno Orb, Zapdos Orb, Moltres Orb)
-- Fragile Ocarina Sprite (see Pokémon 2000)
-- Ancient DNA (test tube)
-- Ancient Fossil Dust
-- Ancient Fossil (mew)
-- Ancient Fossil Piece (1/4 ancient fossil)
 
 ## Low Priority
 
