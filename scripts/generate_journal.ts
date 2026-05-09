@@ -10,8 +10,8 @@ const l = "$(l)";
 const o = "$(o)";
 const m = "$(m)";
 const indent = "  ";
-const firstPageCharLimit = 392;
-const subsequentPageCharLimit = 464;
+const firstPageCharLimit = 395;
+const subsequentPageCharLimit = 470;
 const regex = /\$\(br\)$/;
 
 for (let filePath of glob.scanSync(inPath)) {
@@ -58,13 +58,20 @@ for (let filePath of glob.scanSync(inPath)) {
       },
       strong: (text) => {
         body += l + text + f;
+        return "";
       },
       emphasis: (text) => {
         body += o + text + f;
+        return "";
       },
       strikethrough: (text) => {
         body += m + text + f;
+        return "";
       },
+      link: (href, title) => {
+        body += `$(l:patchouli:${href})${title}$()`;
+        return "";
+      }
     });
 
     // Handle body
