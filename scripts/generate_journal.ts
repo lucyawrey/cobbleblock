@@ -12,6 +12,7 @@ const m = "$(m)";
 const indent = "  ";
 const firstPageCharLimit = 392;
 const subsequentPageCharLimit = 464;
+const regex = /\$\(br\)$/;
 
 for (let filePath of glob.scanSync(inPath)) {
   try {
@@ -77,7 +78,7 @@ for (let filePath of glob.scanSync(inPath)) {
         if ((page + line).length > charLimit) {
           data.pages.push({
             type: "patchouli:text",
-            text: page.replace(new RegExp(br + "$", "g"), ""),
+            text: page.replace(regex, ""),
           });
           first = false;
           page = line + br;
@@ -87,13 +88,13 @@ for (let filePath of glob.scanSync(inPath)) {
       }
       data.pages.push({
         type: "patchouli:text",
-        text: page.replace(new RegExp(br + "$", "g"), ""),
+        text: page.replace(regex, ""),
       });
     }
 
     filePath = filePath.replace(".md", ".json");
     let json = JSON.stringify(data, null, 2);
-    await Bun.write(`${outPath}/${category}/${filePath}`, json);
+    await Bun.write(`${outPath}/${filePath}`, json);
     console.log(`Modified file: ${filePath}`);
   } catch (error) {
     console.error(`Error processing file ${filePath}:`, error);

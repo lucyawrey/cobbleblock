@@ -1,11 +1,15 @@
 {
   "target": "cobblemon:seedot",
   "drops": {
-    "amount": 5,
+    "amount": 6,
     "entries": [
       {
         "item": "minecraft:dark_oak_sapling",
-        "quantityRange": "0-2"
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:oak_sapling",
+        "quantityRange": "0-1"
       },
       {
         "item": "cobblemon:tanga_berry",

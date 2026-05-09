@@ -90,7 +90,7 @@ hash = "2a1efa0a9ea23673047ceadc82b048c60e030b4385042c26eaa3df488178610d"
 
 [[files]]
 file = "config/rctmod-server.toml"
-hash = "f9eb295367bed3881fd0c8ea69eb2a0f89ffd8cc08e33b85b9a409cb551df744"
+hash = "1c4f95498f9ed5fa55a108cf9536a29ba72f26f5eacc8df8520e42c387306171"
 
 [[files]]
 file = "config/simpletms/main.json"
@@ -7514,6 +7514,42 @@ file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0376_metagro
 hash = "714e51ed800d442043c7e1b46a87ee7d1510c54af3af6ff25592b031aef0e1b5"
 
 [[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0387_turtwig.json"
+hash = "abcda9ec67afb51c02b09d226001ea44f9095162c3600ed4deae5a6c6cdfde10"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0388_grotle.json"
+hash = "85a3ff45a58ff71473e729c9c445e13c663158bd002884d1b977a026a78a0ccd"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0389_torterra.json"
+hash = "7728403051016df573f738f61c4525e6f0297e6aaf44b298645ff94341846fb5"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0390_chimchar.json"
+hash = "899bb5aad2f3dc3a18a18907cc511736fabf506a7da9d9c6902904615675b869"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0391_monferno.json"
+hash = "ac1e203496324d0830af612ed3ef2fabdf6bc93d0e9a5acbeec8f7fd10bcab5a"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0392_infernape.json"
+hash = "634495a07c58fb5364610bdbd777e4f6c85b772264f4b6024282f429e03ae230"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0393_piplup.json"
+hash = "87bae59ee9c5e3bc7771a18e9e44f23ea096061535269f4b09d0f06c30fa8340"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0394_prinplup.json"
+hash = "8f431ec5b7afab0667709ef6dab73e3d3817b023d8ebc44172f8a4f32b113753"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0395_empoleon.json"
+hash = "366648f6f3dc6b8c76a38bd941ea3515e04785668a23fb7e68097a8fe464e337"
+
+[[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0415_combee.json"
 hash = "8d1204e249705a98261ac91c39670d78c5c8973497a6631d07d6b3d5fb73c796"
 
@@ -8731,15 +8767,15 @@ hash = "126b109191ad9f38a45bdcf0fdf3e128706fc0abbe2cc938667e726f7f38aff2"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0273_seedot.json"
-hash = "1b10bc51d7488f775a1f6878f5f94f71c79d57860f555783f2e875698bf527cb"
+hash = "6c63d805d250aac82dbcab1c370cbd58a499dcd090ed10e30bf3920cc14782d3"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0274_nuzleaf.json"
-hash = "bceda0abd3810a39174335b34915172991e9ebcf2d66d0fb9dc62498846b032c"
+hash = "2278771f5cc653f26d7ee850074190cc09f7d3f2fcb2f4fc1f19cbe4de5e3dd1"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0275_shiftry.json"
-hash = "2f87e7fe9b336d354c43c1f884a2b36212809208f1998aa96aecd87a72c50ea2"
+hash = "8ab7c93f74817f44228cce7828078ca42bf4ded2e0868da3a99e09c2513ffae4"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0276_taillow.json"

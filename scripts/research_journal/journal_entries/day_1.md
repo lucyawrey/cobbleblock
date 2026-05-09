@@ -36,3 +36,5 @@ I'm not getting hungry. Actually, I'm not getting thirsty, either. I've been her
 Investigation will have to wait until tomorrow. We're losing light, and I do not want to walk off the edge by accident. Maybe I can make a fence with sticks and wood from the nearby tree? A bed might be a better use of time. Or a blanket. As is, I'm sleeping on the grass. At least I've got the two of them to keep me company.
 
 The stars are beautiful. I don't think I've ever seen so many before. The full moon is actually giving off enough light for me to write. This place is actually kind of nice? I still don't know what this place is or why I'm here, but I'm looking forward to figuring it out.
+
+- A

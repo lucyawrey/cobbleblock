@@ -1,11 +1,15 @@
 {
   "target": "cobblemon:shiftry",
   "drops": {
-    "amount": 7,
+    "amount": 8,
     "entries": [
       {
         "item": "minecraft:dark_oak_sapling",
-        "quantityRange": "0-4"
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:oak_sapling",
+        "quantityRange": "0-2"
       },
       {
         "item": "cobblemon:tanga_berry",
