@@ -10,8 +10,8 @@ const l = "$(l)";
 const o = "$(o)";
 const m = "$(m)";
 const indent = "  ";
-const firstPageCharLimit = 395;
-const subsequentPageCharLimit = 470;
+const firstPageCharLimit = 390;
+const subsequentPageCharLimit = 485;
 const regex = /\$\(br\)$/;
 
 for (let filePath of glob.scanSync(inPath)) {
@@ -36,15 +36,17 @@ for (let filePath of glob.scanSync(inPath)) {
       },
       paragraph: (text) => {
         if (inPropertyBlock) {
-          const [key, value] = text.split("=").map((part) => part.trim());
-          if (key && value) {
-            if (key === "order") {
-              data.sortnum = parseInt(value);
-            } else if (key === "category") {
-              data.category = "patchouli:" + value;
-              category = value;
-            } else {
-              data[key] = value;
+          for (let line of text.split("\n")) {
+            const [key, value] = line.split("=").map((part) => part.trim());
+            if (key && value) {
+              if (key === "order") {
+                data.sortnum = parseInt(value);
+              } else if (key === "category") {
+                data.category = "patchouli:" + value;
+                category = value;
+              } else {
+                data[key] = value;
+              }
             }
           }
         } else {
@@ -57,21 +59,17 @@ for (let filePath of glob.scanSync(inPath)) {
         return "";
       },
       strong: (text) => {
-        body += l + text + f;
-        return "";
+        return l + text + f;
       },
       emphasis: (text) => {
-        body += o + text + f;
-        return "";
+        return o + text + f;
       },
       strikethrough: (text) => {
-        body += m + text + f;
-        return "";
+        return m + text + f;
       },
-      link: (href, title) => {
-        body += `$(l:patchouli:${href})${title}$()`;
-        return "";
-      }
+      link: (text, meta) => {
+        return `$(l:patchouli:${meta.href})${text}$()`;
+      },
     });
 
     // Handle body

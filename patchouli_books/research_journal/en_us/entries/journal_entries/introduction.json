@@ -1,20 +1,20 @@
 {
-    "name": "Introduction Continued",
-    "icon": "minecraft:writable_book",
-    "category": "patchouli:journal_entries",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "  This here is a skyblock. I call it that 'cause it's a block island in the sky.$(br)  Now, I'll wager you're pretty darn confused right about now. That's perfectly normal. I was too, believe me. I don't have much in the way of answers yet, but we're gonna figure it out.$(br)  To that end, I'll be leaving behind bits of my journal for you to follow. Kinda like breadcrumbs."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "  I can't say I know when you'll get here, so I might be real far ahead of you. But that's okay! Any discoveries I make, I'll jot down, and you'll be able to catch up that much faster. $(m)And plus, it'll help keep me sane$() Scratch that, I'll be fine. I made it through grad school!$(br)  Everything you need to get started is in this here bin. Yes, the lava, too. It's important. Really. The bucket won't burn you, but the lava will. The lava is lava. No idea how that works."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "  Anyways, keep calm, don't panic, and I hope to see you on the road ahead! Best of luck to ya!$(br)  -A"
-        }
-    ]
+  "name": "Introduction Continued",
+  "icon": "minecraft:writable_book",
+  "category": "patchouli:journal_entries",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "  This here is a skyblock. I call it that 'cause it's a block island in the sky.$(br)  Now, I'll wager you're pretty darn confused right about now. That's perfectly normal. I was too, believe me. I don't have much in the way of answers yet, but we're gonna figure it out.$(br)  To that end, I'll be leaving behind bits of my journal for you to follow. Kinda like breadcrumbs."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "  I can't say I know when you'll get here, so I might be real far ahead of you. But that's okay! Any discoveries I make, I'll jot down, and you'll be able to catch up that much faster. $(m)And plus, it'll help keep me sane$() Scratch that, I'll be fine. I made it through grad school!$(br)  Everything you need to get started is in this here bin. Yes, the lava, too. It's important. Really. The bucket won't burn you, but the lava will. The lava is lava. No idea how that works."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "  Anyways, keep calm, don't panic, and I hope to see you on the road ahead! Best of luck to ya!$(br) - A$(br)  $(l:patchouli:journal_entries/day_1)(Go to day 1)$()"
+    }
+  ]
 }

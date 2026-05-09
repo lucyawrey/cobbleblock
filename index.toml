@@ -5203,11 +5203,11 @@ hash = "8257cd2f6e3ca33664ad16372b5407fd3f8459e59f6a064e9100be734747142f"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/journal_entries/day_1.json"
-hash = "28dec4a3332ea78668f975ad56fd311d70ee8291becb27282f95fe6aaa1f2dcb"
+hash = "e967f1e292f9c183350248b730573fd84198a8fd4e09837655bd98e5e724bef3"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/journal_entries/introduction.json"
-hash = "0b53c34e962f9d353f669c381f5db5e8a19b8f0ae3fb9da5a39237b7ad8311cb"
+hash = "ac13a86fbd76b82d4b3ab35e43f7f97c67ebe43f647c5e184bd35101e4c0af4b"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/torn_journal_entries/page_1_nether.json"
