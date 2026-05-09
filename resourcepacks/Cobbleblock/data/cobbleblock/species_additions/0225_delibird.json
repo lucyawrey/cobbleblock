@@ -1,11 +1,15 @@
 {
   "target": "cobblemon:delibird",
   "drops": {
-    "amount": 6,
+    "amount": 7,
     "entries": [
       {
         "item": "minecraft:feather",
         "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:fern",
+        "quantityRange": "0-1"
       },
       {
         "item": "cobblemon:charti_berry",

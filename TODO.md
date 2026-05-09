@@ -1,9 +1,6 @@
 # Cobbleblock Todo
 
 ## Normal Priority
-- Fix diglet drops not generating
-- Add more blocks to #cobblemon:gemstones
-- Method to obtain ferns
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.
   - Verify licence of all mods in modpack.

@@ -1,15 +1,23 @@
 {
   "target": "cobblemon:stantler",
   "drops": {
-    "amount": 4,
+    "amount": 6,
     "entries": [
       {
         "item": "minecraft:leather",
         "quantityRange": "0-1"
       },
       {
+        "item": "minecraft:fern",
+        "percentage": 25
+      },
+      {
+        "item": "minecraft:large_fern",
+        "percentage": 25
+      },
+      {
         "item": "cobblemon:persim_berry",
-        "percentage": 2.5
+        "percentage": 5
       },
       {
         "item": "mega_showdown:normal_tera_shard",

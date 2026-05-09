@@ -4,12 +4,12 @@
     "amount": 7,
     "entries": [
       {
-        "item": "minecraft:string",
-        "quantityRange": "0-2"
+        "item": "minecraft:raw_iron",
+        "quantityRange": "0-1"
       },
       {
         "item": "cobblemon:occa_berry",
-        "percentage": 5
+        "percentage": 10
       },
       {
         "item": "cobblemon:iron_ball",

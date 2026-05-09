@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "minecraft:diamond_block",
+            "required": true
+        },
+        {
+            "id": "minecraft:emerald_block",
+            "required": true
+        }
+    ]
+}

@@ -4,12 +4,12 @@
     "amount": 5,
     "entries": [
       {
-        "item": "minecraft:string",
+        "item": "minecraft:spruce_sapling",
         "quantityRange": "0-1"
       },
       {
         "item": "cobblemon:occa_berry",
-        "percentage": 2.5
+        "percentage": 5
       },
       {
         "item": "cobblemon:iron_ball",

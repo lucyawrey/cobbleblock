@@ -5203,7 +5203,7 @@ hash = "8257cd2f6e3ca33664ad16372b5407fd3f8459e59f6a064e9100be734747142f"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/journal_entries/day_1.json"
-hash = "05c9b320fd69b6dd58ee79d362706ba9177abd33a40374f473198139d0dc090f"
+hash = "28dec4a3332ea78668f975ad56fd311d70ee8291becb27282f95fe6aaa1f2dcb"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/journal_entries/introduction.json"
@@ -8491,11 +8491,11 @@ hash = "3564b493532c4cc18245a1e4cb6a8ad4a933553726a091414e50173361da9d74"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0204_pineco.json"
-hash = "33ebba52da3e4cddaa282b00a792cfeed6fe102963e49abbe5502c40c2fb5c03"
+hash = "f28078518d7f606ef101b9b5ae24dba38329e212573c9eabba630287b6965faa"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0205_forretress.json"
-hash = "6b6a79ed74f3f808d2164257bfbc28b97874e256335fc5ffcf9acc911e6234c5"
+hash = "476140a5efd42346a3683f3ccf05880a8df1402f544b0641cbf497fcfb3155be"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0206_dunsparce.json"
@@ -8575,7 +8575,7 @@ hash = "e0efdf5773dd9e4965f03f43bde93bb034ff722a76105ef18b5308ba3b1105ed"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0225_delibird.json"
-hash = "4ad57a1f8a3c1e8c9e5c53876214f53247c1665109475d7220b15723b5032350"
+hash = "754bca676ef1fef896fc94cf7d15d25fbf335fd210a21727924fad56a611f4bc"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0226_mantine.json"
@@ -8611,7 +8611,7 @@ hash = "a367aa6bf352fbf2e25da0e1fd474017c8087d40baddf0ca5cfe63d94d269d6a"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0234_stantler.json"
-hash = "b41957205ddd2ebd019cef964c4e0908f7be61c2e9731b913b67421e60e19345"
+hash = "c8bda316e328e303e97f567ab6a72b7f0bc8e561571b6bcd05b8918a04b8d549"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0235_smeargle.json"
@@ -11964,6 +11964,10 @@ hash = "634d133418d6fb64a14e0c48da55761c87c0f4d7cd41d35df0c050fd948a2dde"
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobblemon/species_additions/1022_ironboulder.json"
 hash = "cafdb20f380e8dc082d06d30a3890ec9b6cf08f5e90c4343fa60ec806b9e3c73"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobblemon/tags/block/gemstones.json"
+hash = "7c5ce887539a546cc12c6673c24432a8c3fefb5fd7bbd73aea19d3b36b6f45c0"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobblemon/tags/block/natural.json"
