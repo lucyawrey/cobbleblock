@@ -49,6 +49,9 @@
 - Secret Giritina dungeon underneath world spawn. Will need to make certain blocks like doors and buttons interactable at spawn in Skyblock config.
 - Proper world protection mod
 
+## Create Tutorials
+- Cobblestone Generator, Bedrock Cobblestone Generator
+
 ## Important Drops
 
 - Saplings (Oak, Spruce, Birch, Acacia, Cherry)
