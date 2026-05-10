@@ -4,12 +4,12 @@
     "amount": 4,
     "entries": [
       {
-        "item": "minecraft:string",
+        "item": "minecraft:moss_block",
         "quantityRange": "0-1"
       },
       {
         "item": "cobblemon:occa_berry",
-        "percentage": 2.5
+        "percentage": 5
       },
       {
         "item": "mega_showdown:bug_tera_shard",

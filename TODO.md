@@ -1,6 +1,7 @@
 # Cobbleblock Todo
 
 ## Normal Priority
+- FIX SUS GRAVEL FROM HAMMER
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.
   - Verify licence of all mods in modpack.

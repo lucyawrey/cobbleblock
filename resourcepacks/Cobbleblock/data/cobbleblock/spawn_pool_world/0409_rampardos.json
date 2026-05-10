@@ -1,0 +1,36 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "rampardos-1",
+      "pokemon": "rampardos",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 4,
+      "level": "30-50",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:azalea",
+          "minecraft:flowering_azalea",
+          "minecraft:azalea_leaves",
+          "minecraft:flowering_azalea_leaves",
+          "minecraft:hanging_roots",
+          "minecraft:moss_block",
+          "minecraft:big_dripleaf",
+          "minecraft:small_dripleaf"
+        ]
+      }
+    }
+  ]
+}

@@ -9,15 +9,15 @@
       },
       {
         "item": "minecraft:nether_star",
-        "percentage": 15
-      },
-      {
-        "item": "cobblemon:ability_capsule",
         "percentage": 25
       },
       {
+        "item": "cobblemon:ability_capsule",
+        "percentage": 50
+      },
+      {
         "item": "cobblemon:ability_patch",
-        "percentage": 10
+        "percentage": 25
       },
       {
         "item": "mega_showdown:psychic_tera_shard",
