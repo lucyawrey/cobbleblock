@@ -51,6 +51,9 @@
 
 ## Create Tutorials
 - Cobblestone Generator, Bedrock Cobblestone Generator
+- Suspicious cobble
+- Crushing things
+- 
 
 ## Important Drops
 
