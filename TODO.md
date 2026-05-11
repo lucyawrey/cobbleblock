@@ -1,7 +1,7 @@
 # Cobbleblock Todo
 
 ## Normal Priority
-- FIX SUS GRAVEL FROM HAMMER
+- Fix minecraft:dripstone_block crushing, milling, cutting board hammering
 - Remove farmers delight dough
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.
