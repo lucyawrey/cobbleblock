@@ -5498,14 +5498,6 @@ file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/milling/crimsite.json"
 hash = "ac9811b0b9aac8200ca0d4c94d526edb68ac6752c2784509b0441bd51cdae32a"
 
 [[files]]
-file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/milling/dripstone_block.json"
-hash = "fa961e9547c1a3526964ae734d719a3cb0d6c1329e9cd345b28451cb25efa0f3"
-
-[[files]]
-file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/milling/pointed_dripstone.json"
-hash = "048c31b1918a1e42fe7c49f7e9d6130cda33a170c5fce2b99345c4af97e4ddb3"
-
-[[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/milling/suspicious_gravel.json"
 hash = "1bc9abf3fb5d49dd1e09e28ea9b8cf84acca971a5d8d8ce82dce2b7bcce46f1a"
 
@@ -12098,8 +12090,16 @@ file = "resourcepacks/Cobbleblock/data/create/recipe/milling/dirt.json"
 hash = "8576aa1a94a32c5eb3618d98aee11fd55dbd2f7f43434b45fb08f2899414c70c"
 
 [[files]]
+file = "resourcepacks/Cobbleblock/data/create/recipe/milling/dripstone_block.json"
+hash = "fa961e9547c1a3526964ae734d719a3cb0d6c1329e9cd345b28451cb25efa0f3"
+
+[[files]]
 file = "resourcepacks/Cobbleblock/data/create/recipe/milling/gravel.json"
 hash = "a64f5f1841637855bad1ff83d2c76ec819a6a46cff48f8a7c6107af862074b98"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/create/recipe/milling/pointed_dripstone.json"
+hash = "048c31b1918a1e42fe7c49f7e9d6130cda33a170c5fce2b99345c4af97e4ddb3"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/farmersdelight/loot_table/blocks/red_mushroom_colony.json"

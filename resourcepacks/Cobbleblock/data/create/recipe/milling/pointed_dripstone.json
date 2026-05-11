@@ -2,7 +2,7 @@
     "type": "create:milling",
     "ingredients": [
         {
-            "item": "minecraft:dripstone_block"
+            "item": "minecraft:pointed_dripstone"
         }
     ],
     "processing_time": 250,
