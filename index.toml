@@ -4686,7 +4686,7 @@ hash = "ce5cb4bd2d4e3a3d06461954da7f62543363a03ce025ba5342fb159b2e01a3be"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "d22a14f8a5211968e306645a6e6a5d8ae7be188e9a5cbfe758eaf292138fe763"
+hash = "3d94dffaf045034cd7856b2300d1d446bb32655965c28b551882a0e8a834678e"
 
 [[files]]
 file = "kubejs/server_scripts/villagers.js"
@@ -5246,6 +5246,10 @@ file = "resourcepacks/Cobbleblock/assets/sophisticatedstorage/lang/en_us.json"
 hash = "2fa19cc7d467e0bbe89f78c40108608230a5111fbb8b5e361b4afe22c31c7d20"
 
 [[files]]
+file = "resourcepacks/Cobbleblock/data/c/tags/item/hammers.json"
+hash = "2451f6d158595cbaf2bfeaa6ac32439c523170141d8137bd1454858d90567327"
+
+[[files]]
 file = "resourcepacks/Cobbleblock/data/c/tags/item/ropes.json"
 hash = "17414fe86a0f49b88d559f31dde634e8b0da641d28a3e2056af9d444cf2d69cb"
 
@@ -5476,6 +5480,14 @@ hash = "da9941b2bde4aba47d99bc81cb615707ffb01ed0e6a88d9a38aa1e88c1ad7188"
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/crafting_shapeless/organic_compost_from_sticks.json"
 hash = "5c038d93b62f965894974ec580182e19f10bc12caf6160d6db3a00bf894d35a3"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/cutting/suspicious_cobblestone.json"
+hash = "12aafd46166d98a54c3bfdcf4d73177f05820e74f1ce32ec8bb014818005bfd6"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/cutting/suspicious_gravel.json"
+hash = "2c08308d7634b7465b37a5e233a73f02fad1afcf6308a22d46e02d309f961f06"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/milling/ancient_fossil_dust.json"

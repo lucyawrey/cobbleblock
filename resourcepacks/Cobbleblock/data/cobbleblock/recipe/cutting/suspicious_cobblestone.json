@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "cobbleblock:suspicious_cobblestone"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "minecraft:suspicious_gravel",
+        "components": {
+          "minecraft:block_entity_data": {
+            "id": "minecraft:suspicious_gravel",
+            "LootTable": "cobbleblock:archaeology/suspicious_gravel"
+          }
+        }
+      }
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
+    },
+    {
+      "tag": "c:hammers"
+    }
+  ]
+}

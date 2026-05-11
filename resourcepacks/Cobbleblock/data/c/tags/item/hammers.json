@@ -1,0 +1,29 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "#onlyhammers:wooden_hammers",
+            "required": true
+        },
+        {
+            "id": "#onlyhammers:stone_hammers",
+            "required": true
+        },
+        {
+            "id": "#onlyhammers:iron_hammers",
+            "required": true
+        },
+        {
+            "id": "#onlyhammers:gold_hammers",
+            "required": true
+        },
+        {
+            "id": "#onlyhammers:diamond_hammers",
+            "required": true
+        },
+        {
+            "id": "#onlyhammers:netherite_hammers",
+            "required": true
+        }
+    ]
+}

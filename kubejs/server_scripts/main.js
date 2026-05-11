@@ -16,7 +16,12 @@ ServerEvents.recipes((event) => {
     let ingredients = JSON.parse(
       recipe.getOriginalRecipeIngredients()[0].toJson(),
     ).item;
-    if (!ingredients) {
+    console.log(ingredients);
+    if (
+      !ingredients ||
+      ingredients === "cobbleblock:suspicious_cobblestone" ||
+      ingredients === "minecraft:suspicious_gravel"
+    ) {
       return;
     }
     let result = [
@@ -27,14 +32,7 @@ ServerEvents.recipes((event) => {
     ];
     event.recipes.farmersdelight.cutting(
       ingredients,
-      [
-        "#onlyhammers:wooden_hammers",
-        "#onlyhammers:stone_hammers",
-        "#onlyhammers:iron_hammers",
-        "#onlyhammers:gold_hammers",
-        "#onlyhammers:diamond_hammers",
-        "#onlyhammers:netherite_hammers",
-      ],
+      "#c:hammers",
       result,
     );
   });
