@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forretress-1",
-      "pokemon": "forretress",
+      "id": "shellos-sea-east-1",
+      "pokemon": "shellos sea=east",
       "type": "pokemon",
-      "bucket": "common",
-      "weight": 1,
-      "level": "31-47",
+      "bucket": "uncommon",
+      "weight": 8.4,
+      "level": "8-33",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -20,11 +20,15 @@
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
+        "isRaining": true,
         "neededNearbyBlocks": [
-          "minecraft:fern",
-          "minecraft:large_fern",
-          "minecraft:sweet_berry_bush",
-          "#cobblemon:trees"
+          "minecraft:sand",
+          "minecraft:sugar_cane",
+          "minecraft:seagrass",
+          "minecraft:kelp_plant",
+          "minecraft:sea_pickle",
+          "#minecraft:coral_blocks",
+          "#minecraft:corals"
         ]
       }
     }

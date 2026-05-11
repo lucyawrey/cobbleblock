@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forretress-1",
-      "pokemon": "forretress",
+      "id": "cherrim-blossom-form-sunshine-1",
+      "pokemon": "cherrim blossom_form=sunshine",
       "type": "pokemon",
       "bucket": "common",
       "weight": 1,
-      "level": "31-47",
+      "level": "25-39",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -18,13 +18,17 @@
         "dimensions": [
           "minecraft:overworld"
         ],
+        "timeRange": "day",
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "neededNearbyBlocks": [
           "minecraft:fern",
           "minecraft:large_fern",
           "minecraft:sweet_berry_bush",
-          "#cobblemon:trees"
+          "#minecraft:spruce_logs",
+          "minecraft:spruce_leaves",
+          "#minecraft:cherry_logs",
+          "minecraft:cherry_leaves"
         ]
       }
     }

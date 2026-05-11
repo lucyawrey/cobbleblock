@@ -6791,11 +6791,11 @@ hash = "522b950e398b5c764025d5fde6ab6dd9e16554d00c934885e095f55e7178695a"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0204_pineco.json"
-hash = "cf87c8c8d1ac8591ad4b559514802a67259004e4d21a7038679e9edee9af34d7"
+hash = "53693c40c5f8b7b4656c9097deec709c690251a090aa067a92d2ca650ebdb6d4"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0205_forretress.json"
-hash = "31f461473c36f718b8867833d5d9be9004b3e3dbd336f169a2e18cc972923a56"
+hash = "9d1facb4250b3300864c6f94bb154800a87629c6de8978a5477428b208a6b883"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0206_dunsparce.json"
@@ -7660,6 +7660,70 @@ hash = "8d1204e249705a98261ac91c39670d78c5c8973497a6631d07d6b3d5fb73c796"
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0416_vespiquen.json"
 hash = "1b1b017f6258ba9cf3a71202c1d692f75d8e89f11cecce6753f9cf53a314003e"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0417_pachirisu.json"
+hash = "55556b918b232687cd1741a4144850a335dfb9aa1aa0c7d3ce72fd04261d29b7"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0418_buizel.json"
+hash = "74d773f35474a7620475a1d8611ddbce72f8568f4d3f223a461ef6ce5a98e3b5"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0419_floatzel.json"
+hash = "7a66ff643ece55b91f0c826f6d08c34cfe46f4bc52a7c6c0f5b436241854a1d9"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0420_cherubi.json"
+hash = "6bb021d02894b296c1104741401eb38fd785da8b6b3acc4c4836586e8455dcbb"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0421_cherrim.json"
+hash = "ce046892c2c508cbc620245cfccb35879869a6115697e4963e1683e1ad03bc6c"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0421_cherrim_blossom_form_overcast.json"
+hash = "00909108a7f37e1f953f824236aa344afeab026321216c987d1141f71f607e8e"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0421_cherrim_blossom_form_sunshine.json"
+hash = "d1ab9021c2f688e18c3d2555a761ec05c945791f463ac21f42550c11f130bffc"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0422_shellos.json"
+hash = "efb4cb9e5db18df88a050f836138d8698c0692e0f9c0c9f31a31bc013800138d"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0422_shellos_sea_east.json"
+hash = "0fef5b13a6a69346576ffeb352c37f302b01112ae44936e9ebf8f951298ee77a"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0422_shellos_sea_west.json"
+hash = "8638d634b4a629d8c9d69e413d1a202a3f883d34ae2723d00d3d415a7a8edfc1"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0423_gastrodon.json"
+hash = "ad2fd9a3dcbd24fc1a28fceadd9805e1c423e4403841fd280de45d4588d56f73"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0423_gastrodon_sea_east.json"
+hash = "8ee6f09e330fed75e1e1ae11f5a90359da985c2b16a376dfd50f1b032cdec4d1"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0423_gastrodon_sea_west.json"
+hash = "4ac038804229c6559060632194d6c75c96e7db144fa0bbafe73b8df10237709a"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0424_ambipom.json"
+hash = "5bcb2fef647cd35c04511e08a6c178710a5a55ad6c51551ae1795a4385dd9dee"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0425_drifloon.json"
+hash = "ef4394dc4a2662023c4b66330264990494aa1de294a9471ca5e1ecace287ea34"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0426_drifblim.json"
+hash = "88bc47536046e99e24086571a789b1a6bef41951d42e2a87279f825f179b59ba"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0440_happiny.json"
@@ -9459,11 +9523,11 @@ hash = "0daa844885e3cf2815a30514fe80e20a022ab7a71f179dd9c801b0103bef4da2"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0420_cherubi.json"
-hash = "3c8d7fca0b28131dfda2d6394e67ab6a5adaba4f2aafce088224f19e867730bd"
+hash = "e56daed892e5af5675c334c3c2f9330697ba099a04bf0c570be16ec4f4d2dffc"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0421_cherrim.json"
-hash = "dabb7ccd7815be6901dccd495129b009f5ace19cecc7d3a51f7e987fef917f9b"
+hash = "de8777f050d1bcc92d26d3407211cafe03385013723da248201149306e157ef2"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0422_shellos.json"
@@ -12099,7 +12163,7 @@ hash = "a64f5f1841637855bad1ff83d2c76ec819a6a46cff48f8a7c6107af862074b98"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/create/recipe/milling/pointed_dripstone.json"
-hash = "048c31b1918a1e42fe7c49f7e9d6130cda33a170c5fce2b99345c4af97e4ddb3"
+hash = "53266c63dd72a596918b6ed49877e83d070e0997f29d9b2b2dfb39824d9aac37"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/farmersdelight/loot_table/blocks/red_mushroom_colony.json"

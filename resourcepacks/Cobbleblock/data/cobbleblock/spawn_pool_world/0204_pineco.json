@@ -25,8 +25,7 @@
           "minecraft:fern",
           "minecraft:large_fern",
           "minecraft:sweet_berry_bush",
-          "#minecraft:spruce_logs",
-          "minecraft:spruce_leaves"
+          "#cobblemon:trees"
         ]
       }
     }
