@@ -2,6 +2,7 @@
 
 ## Normal Priority
 - FIX SUS GRAVEL FROM HAMMER
+- Remove farmers delight dough
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.
   - Verify licence of all mods in modpack.
@@ -59,8 +60,6 @@
 ## Important Drops
 
 - Saplings (Oak, Spruce, Birch, Acacia, Cherry)
-- Max Mushrooms (Pokemon, Red Mushroom Colonies, Wandering Trader)
-- Moss Blocks
 - Pink and White apricorn seeds.
 - Ice Block: add to more pokemon drops.
 - Tree Bark from Create Log Cutting Recipes

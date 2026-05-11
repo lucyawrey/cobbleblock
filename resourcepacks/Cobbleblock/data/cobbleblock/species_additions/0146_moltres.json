@@ -5,11 +5,11 @@
     "entries": [
       {
         "item": "cobblemon:rare_candy",
-        "quantityRange": "0-2"
+        "quantityRange": "0-1"
       },
       {
         "item": "minecraft:iron_ingot",
-        "percentage": 25
+        "quantityRange": "0-3"
       },
       {
         "item": "cobblemon:ability_capsule",

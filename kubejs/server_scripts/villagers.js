@@ -213,5 +213,10 @@ MoreJS.wandererTrades((event) => {
     Item.of("minecraft:emerald", 4),
     "cobblemon:white_apricorn_seed",
   );
+  event.addTrade(
+    1,
+    Item.of("minecraft:emerald", 2),
+    "mega_showdown:max_mushroom",
+  );
   event.addTrade(1, Item.of("minecraft:emerald", 5), "cobblemon:revival_herb");
 });

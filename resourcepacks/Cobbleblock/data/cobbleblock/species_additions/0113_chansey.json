@@ -1,7 +1,7 @@
 {
   "target": "cobblemon:chansey",
   "drops": {
-    "amount": 5,
+    "amount": 6,
     "entries": [
       {
         "item": "cobblemon:lucky_egg",
@@ -13,7 +13,11 @@
       },
       {
         "item": "minecraft:egg",
-        "percentage": 50
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:sitrus_berry",
+        "percentage": 5
       },
       {
         "item": "mega_showdown:normal_tera_shard",

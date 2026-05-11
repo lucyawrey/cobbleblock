@@ -1,15 +1,22 @@
 {
   "target": "cobblemon:grotle",
   "drops": {
-    "amount": 4,
+    "amount": 6,
     "entries": [
       {
-        "item": "minecraft:sweet_berries",
-        "quantityRange": "2-4"
+        "item": "minecraft:oak_sapling"
       },
       {
         "item": "cobblemon:miracle_seed",
         "percentage": 10
+      },
+      {
+        "item": "minecraft:apple",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:moss_block",
+        "quantityRange": "0-1"
       },
       {
         "item": "mega_showdown:grass_tera_shard",
