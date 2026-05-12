@@ -3,6 +3,174 @@
     {
       "item": "minecraft:emerald",
       "price": 750
+    },
+    {
+      "item": "cobblemon:relic_coin",
+      "price": 100
+    },
+    {
+      "item": "cobblemon:relic_coin_pouch",
+      "price": 900
+    },
+    {
+      "item": "cobblemon:relic_coin_sack",
+      "price": 8100
+    },
+    {
+      "item": "cobblemon:poke_ball",
+      "price": 75
+    },
+    {
+      "item": "cobblemon:citrine_ball",
+      "price": 75
+    },
+    {
+      "item": "cobblemon:verdant_ball",
+      "price": 75
+    },
+    {
+      "item": "cobblemon:azure_ball",
+      "price": 75
+    },
+    {
+      "item": "cobblemon:roseate_ball",
+      "price": 75
+    },
+    {
+      "item": "cobblemon:slate_ball",
+      "price": 75
+    },
+    {
+      "item": "cobblemon:premier_ball",
+      "price": 75
+    },
+    {
+      "item": "cobblemon:great_ball",
+      "price": 150
+    },
+    {
+      "item": "cobblemon:ultra_ball",
+      "price": 350
+    },
+    {
+      "item": "cobblemon:safari_ball",
+      "price": 300
+    },
+    {
+      "item": "cobblemon:fast_ball",
+      "price": 300
+    },
+    {
+      "item": "cobblemon:level_ball",
+      "price": 300
+    },
+    {
+      "item": "cobblemon:lure_ball",
+      "price": 300
+    },
+    {
+      "item": "cobblemon:heavy_ball",
+      "price": 300
+    },
+    {
+      "item": "cobblemon:love_ball",
+      "price": 300
+    },
+    {
+      "item": "cobblemon:friend_ball",
+      "price": 300
+    },
+    {
+      "item": "cobblemon:moon_ball",
+      "price": 300
+    },
+    {
+      "item": "cobblemon:sport_ball",
+      "price": 300
+    },
+    {
+      "item": "cobblemon:park_ball",
+      "price": 300
+    },
+    {
+      "item": "cobblemon:net_ball",
+      "price": 400
+    },
+    {
+      "item": "cobblemon:dive_ball",
+      "price": 400
+    },
+    {
+      "item": "cobblemon:nest_ball",
+      "price": 400
+    },
+    {
+      "item": "cobblemon:repeat_ball",
+      "price": 500
+    },
+    {
+      "item": "cobblemon:timer_ball",
+      "price": 500
+    },
+    {
+      "item": "cobblemon:luxury_ball",
+      "price": 600
+    },
+    {
+      "item": "cobblemon:dusk_ball",
+      "price": 500
+    },
+    {
+      "item": "cobblemon:heal_ball",
+      "price": 400
+    },
+    {
+      "item": "cobblemon:quick_ball",
+      "price": 500
+    },
+    {
+      "item": "cobblemon:dream_ball",
+      "price": 500
+    },
+    {
+      "item": "cobblemon:beast_ball",
+      "price": 1000
+    },
+    {
+      "item": "cobblemon:cherish_ball",
+      "price": 1000
+    },
+    {
+      "item": "cobblemon:master_ball",
+      "price": 10000
+    },
+    {
+      "item": "cobblemon:ancient_origin_ball",
+      "price": 10000
+    },
+    {
+      "item": "cobblemon:exp_candy_xs",
+      "price": 50
+    },
+    {
+      "item": "cobblemon:exp_candy_s",
+      "price": 300
+    },
+    {
+      "item": "cobblemon:exp_candy_m",
+      "price": 900
+    },
+    {
+      "item": "cobblemon:exp_candy_l",
+      "price": 2700
+    },
+    {
+      "item": "cobblemon:exp_candy_xl",
+      "price": 8100
+    },
+    {
+      "item": "cobblemon:exp_share",
+      "price": 2000
     }
   ]
 }

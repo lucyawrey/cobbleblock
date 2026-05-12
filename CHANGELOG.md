@@ -1,6 +1,6 @@
-0.1.6
-- Rebalanced some pokemon drops
+0.1.7
 - Added more spawns for Sinnoh pokemon
-- Fixed hammer + cutting board suspicious recipes
-- Fixed All crushing recipes for dripstone blocks to properly create pointed dripstone
-- Added methods to obtain moss, Max Mushrooms
+- Updated Xaeros World Map
+- Made farming copper, iron and zinc easier by adding milling recipes for their stone types
+- Support for asurine cobblestone generators
+- New Cobbledollars merchant stock, new Cobbledollars purchases

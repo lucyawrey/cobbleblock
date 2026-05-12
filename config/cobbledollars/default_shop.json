@@ -124,7 +124,7 @@
         },
         {
           "item": "cobblemon:cherish_ball",
-          "price": 6000
+          "price": 10000
         }
       ]
     },
@@ -159,7 +159,123 @@
     {
       "TMs": [
         {
+          "item": "simpletms:tm_alluringvoice",
+          "price": 10000
+        },
+        {
           "item": "simpletms:tm_blastburn",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_burningjealousy",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_chillingwater",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_coaching",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_dracometeor",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_dragoncheer",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_firepledge",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_focusblast",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_frenzyplant",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_grasspledge",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_grassyglide",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_hardpress",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_hydrocannon",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_lashout",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_meteorbeam",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_mistyexplosion",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_poltergeist",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_pounce",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_protect",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_psychicnoise",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_scorchingsands",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_steelbeam",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_supercellslam",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_terablast",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_temperflare",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_trailblaze",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_tripleaxel",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_upperhand",
+          "price": 10000
+        },
+        {
+          "item": "simpletms:tm_waterpledge",
           "price": 10000
         }
       ]

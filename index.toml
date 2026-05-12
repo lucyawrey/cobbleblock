@@ -5,8 +5,12 @@ file = "config/CobblemonWildLoot.json"
 hash = "82060adfe2227bb9539ef2da32bd00a55dfa74c49925f17c7f896c62bbe1788f"
 
 [[files]]
+file = "config/accessories.json5"
+hash = "9ca14293603e6665aaa4605ec208e63f5ea139340495f8e793aa04cad8417df8"
+
+[[files]]
 file = "config/cobbledollars/bank.json"
-hash = "3ae8312dc740d0be6b043f11cbf2761e8b3fbfbc6e49ab36650157351e758c8d"
+hash = "659cd370b846c699d8cf1710749dbb1f890e735c62624bb42f782908bcb3cbf7"
 
 [[files]]
 file = "config/cobbledollars/client.json"
@@ -18,7 +22,7 @@ hash = "bdfebb3e876789d0640d89b25410baff2aa96d2bdd58293c4730af37c1628ec5"
 
 [[files]]
 file = "config/cobbledollars/default_shop.json"
-hash = "1bc66386e15b2a6ac0075b424bd391ce72cfd74e5b991700b398966f475b9f93"
+hash = "5f532edd93673c98f3e1b53274c6c1f61bcab877512eb27215a590165abfcc28"
 
 [[files]]
 file = "config/cobblegen.json5"
@@ -7848,6 +7852,10 @@ hash = "6d7d49423dfb2aac25d363574371cbdd2b03dda9f4f4013b67a58e06404aff98"
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0937_ceruledge.json"
 hash = "1c2f34df7facdfc03d0b041f29a02f200683042cd3a419e00f8c05766f680145"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0999_gimmighoul_roaming.json"
+hash = "06d517b4d25190be8d8db682de49aae8816dcbc1e9e78cffd431644dbdb836a6"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/1018_archaludon.json"

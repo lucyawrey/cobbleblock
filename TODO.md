@@ -1,6 +1,7 @@
 # Cobbleblock Todo
 
 ## Normal Priority
+- Craftable gimmighoul, proper non chest gimmeghoul coin drop rate, craftable relic coins, melt down relic coins
 - Remove farmers delight dough
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.
