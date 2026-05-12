@@ -1,6 +1,7 @@
 # Cobbleblock Todo
 
 ## Normal Priority
+- Consider alternate create/cobblemon mod 
 - Craftable gimmighoul, proper non chest gimmeghoul coin drop rate, craftable relic coins, melt down relic coins
 - Remove farmers delight dough
 - Permissions and Credits
