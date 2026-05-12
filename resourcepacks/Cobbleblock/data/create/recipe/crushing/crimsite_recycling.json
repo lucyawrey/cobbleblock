@@ -1,8 +1,8 @@
 {
-    "type": "create:milling",
+    "type": "create:crushing",
     "ingredients": [
         {
-            "item": "create:crimsite"
+            "tag": "create:stone_types/crimsite"
         }
     ],
     "processing_time": 250,

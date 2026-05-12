@@ -8,12 +8,12 @@
   "processing_time": 250,
   "results": [
     {
-      "chance": 0.8,
-      "id": "create:crushed_raw_copper"
+      "chance": 0.4,
+      "id": "create:crushed_raw_iron"
     },
     {
-      "chance": 0.8,
-      "id": "create:copper_nugget"
+      "chance": 0.4,
+      "id": "minecraft:iron_nugget"
     },
     {
       "chance": 0.02,

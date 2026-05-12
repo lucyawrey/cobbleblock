@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "create:stone_types/crimsite"
+        }
+    ],
+    "processing_time": 250,
+    "results": [
+        {
+            "chance": 0.3,
+            "id": "create:crushed_raw_iron"
+        },
+        {
+            "chance": 0.02,
+            "id": "mega_showdown:mega_meteorid_block"
+        }
+    ]
+}

@@ -5,8 +5,24 @@ file = "config/CobblemonWildLoot.json"
 hash = "82060adfe2227bb9539ef2da32bd00a55dfa74c49925f17c7f896c62bbe1788f"
 
 [[files]]
+file = "config/cobbledollars/bank.json"
+hash = "3ae8312dc740d0be6b043f11cbf2761e8b3fbfbc6e49ab36650157351e758c8d"
+
+[[files]]
+file = "config/cobbledollars/client.json"
+hash = "7f772dbb3202da636736ea98587e32da7b4755cde1ec86917d56070c296cea8c"
+
+[[files]]
+file = "config/cobbledollars/common.json"
+hash = "bdfebb3e876789d0640d89b25410baff2aa96d2bdd58293c4730af37c1628ec5"
+
+[[files]]
+file = "config/cobbledollars/default_shop.json"
+hash = "1bc66386e15b2a6ac0075b424bd391ce72cfd74e5b991700b398966f475b9f93"
+
+[[files]]
 file = "config/cobblegen.json5"
-hash = "99116e709d8dd7dfd2742016c6fdc2504a91c6f254c4ebba53906c50599a224f"
+hash = "218a61638ee9627e6319cf6f678fd87acbe8e2ac5410db8049659af917504a59"
 
 [[files]]
 file = "config/cobblemon-battle-extras-server.json"
@@ -5177,7 +5193,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "192a4685f8a182d1fa2fae67e2fad8b74ba547726beecfe8868174b4172d76a8"
+hash = "ac287f392613eddfa285620dcecb3fea25ee6232a201009cde5c5511b6a39fb9"
 metafile = true
 
 [[files]]
@@ -5492,10 +5508,6 @@ hash = "2c08308d7634b7465b37a5e233a73f02fad1afcf6308a22d46e02d309f961f06"
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/milling/ancient_fossil_dust.json"
 hash = "e686a3ead66d907abbb65755702084e1f88045883fe32b430f558ed1e2292531"
-
-[[files]]
-file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/milling/crimsite.json"
-hash = "ac9811b0b9aac8200ca0d4c94d526edb68ac6752c2784509b0441bd51cdae32a"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/milling/suspicious_gravel.json"
@@ -12147,7 +12159,27 @@ hash = "89aa933e8ce518fa5a05a7eee572c790518da45ee1dc367769b7f61c74a32f5c"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/create/recipe/crushing/crimsite.json"
-hash = "5ff2b5fa8aa6d69004e9f74bb88c7f2b4e46f627438875cb63bba7c723379c38"
+hash = "0f949f02bdeea2eb214ff6fa41d6a9e7aed80faf99a2ba621100d3009da45d85"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/create/recipe/crushing/crimsite_recycling.json"
+hash = "0eedaac11b755f514bbf22cb965d182f009abd0e9f9cc5daca8f7e2780d5e93a"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/create/recipe/milling/asurine.json"
+hash = "cd6de1917e4e03cf72ebafbc5b6aa5768e6ef52a09f140e5c6daae5f647571cc"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/create/recipe/milling/asurine_recycling.json"
+hash = "5224fdf4d631b690e2a39d1bab2fba75dac2ed4def0ccfd7b82b66431d78c9e0"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/create/recipe/milling/crimsite.json"
+hash = "73a2a702e0b08209104df680066ee2e20085daf657324df419f7082f456efd65"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/create/recipe/milling/crimsite_recycling.json"
+hash = "feb3453d389f837dd6c97c7b65fc8b783fd1d15a85796e40d04de9f3f1de48c8"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/create/recipe/milling/dirt.json"
@@ -12164,6 +12196,14 @@ hash = "a64f5f1841637855bad1ff83d2c76ec819a6a46cff48f8a7c6107af862074b98"
 [[files]]
 file = "resourcepacks/Cobbleblock/data/create/recipe/milling/pointed_dripstone.json"
 hash = "53266c63dd72a596918b6ed49877e83d070e0997f29d9b2b2dfb39824d9aac37"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/create/recipe/milling/veridium.json"
+hash = "45f0e7032aca762833a1fbf6c31f969aa3ed5c5af21e475d040898e429a42600"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/create/recipe/milling/veridium_recycling.json"
+hash = "1c563e74b2cf5f75458c373adeb83943ce13dbc4b4250e387304f8cd1bdafd62"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/farmersdelight/loot_table/blocks/red_mushroom_colony.json"

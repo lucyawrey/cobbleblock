@@ -134,6 +134,12 @@
 					"weight": 100.0
 				}
 			],
+			"create:zinc_block": [
+				{
+					"id": "create:asurine",
+					"weight": 100.0
+				}
+			],
 			"minecraft:mud": [
 				{
 					"id": "minecraft:dripstone_block",
