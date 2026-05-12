@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "skitty-1",
-      "pokemon": "skitty",
+      "id": "bonsly-1",
+      "pokemon": "bonsly",
       "type": "pokemon",
-      "bucket": "common",
-      "weight": 9,
-      "level": "1-35",
+      "bucket": "uncommon",
+      "weight": 5.04,
+      "level": "4-29",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -18,9 +18,10 @@
         "dimensions": [
           "minecraft:overworld"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "minecraft:dead_bush",
-          "#minecraft:flowers"
+          "#cobblemon:trees"
         ]
       }
     }

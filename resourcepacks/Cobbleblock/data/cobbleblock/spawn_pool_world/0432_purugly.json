@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "skitty-1",
-      "pokemon": "skitty",
+      "id": "purugly-1",
+      "pokemon": "purugly",
       "type": "pokemon",
       "bucket": "common",
-      "weight": 9,
-      "level": "1-35",
+      "weight": 1,
+      "level": "38-45",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -18,9 +18,11 @@
         "dimensions": [
           "minecraft:overworld"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "minecraft:dead_bush",
-          "#minecraft:flowers"
+          "#minecraft:sand",
+          "minecraft:dead_bush"
         ]
       }
     }

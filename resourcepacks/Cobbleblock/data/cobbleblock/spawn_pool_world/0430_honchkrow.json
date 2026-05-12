@@ -4,23 +4,30 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "skitty-1",
-      "pokemon": "skitty",
+      "id": "honchkrow-1",
+      "pokemon": "honchkrow",
       "type": "pokemon",
       "bucket": "common",
-      "weight": 9,
-      "level": "1-35",
+      "weight": 0.5,
+      "level": "36-51",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
+          "#minecraft:leaves",
           "#cobblemon:natural"
         ],
         "dimensions": [
           "minecraft:overworld"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "minecraft:dead_bush",
-          "#minecraft:flowers"
+          "#minecraft:dark_oak_logs",
+          "minecraft:dark_oak_leaves",
+          "minecraft:peony",
+          "minecraft:lilac",
+          "minecraft:rose_bush",
+          "#cobblemon:mansion_blocks"
         ]
       }
     }

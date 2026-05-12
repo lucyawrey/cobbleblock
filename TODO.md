@@ -1,7 +1,7 @@
 # Cobbleblock Todo
 
 ## Normal Priority
-- Consider alternate create/cobblemon mod 
+- Consider alternate create/cobblemon mod
 - Craftable gimmighoul, proper non chest gimmeghoul coin drop rate, craftable relic coins, melt down relic coins
 - Remove farmers delight dough
 - Permissions and Credits
@@ -11,9 +11,13 @@
 - Create Lore!
   - Add methods to obtain more torn pages (Meteor, Trader, Shrine).
   - Secondary lore items that also get added to the research journal, such as the mewtwo research book or a note from a parent to a child.
-  - Legendary Tablets should require translation information (an advancement/journal entry) before they can be read.
-  - Instructions for how to summon gym leaders.
+  - Write lore entries.
+  - Legendary tablets that require translation information (an advancement/journal entry) before they can be read in the research journal.
   - Comment on strange non-pokemon fish.
+- Create Guides for the Research Journal
+  - Instructions for how to trainers and gym leaders.
+  - Cobblestone Generator, Bedrock Cobblestone Generator
+  - Crushing things (sand, gravel, suspicious cobble)
 - Update spawn table.
   - Manually fill in remaining spawn data for non-legendary Pokémon.
 - Add TMs (especially ones that have no level up move equivilent) to loot tables and shops.
@@ -51,12 +55,6 @@
   - Current methods from ATMxMSD https://docs.google.com/document/d/1nPZxD0zWqaCsulp_RCRTiQS5YxUrdoE6xv8rsMoWSYs/edit?tab=t.rvlm7mgw1drd.
 - Secret Giritina dungeon underneath world spawn. Will need to make certain blocks like doors and buttons interactable at spawn in Skyblock config.
 - Proper world protection mod
-
-## Create Tutorials
-- Cobblestone Generator, Bedrock Cobblestone Generator
-- Suspicious cobble
-- Crushing things
-- 
 
 ## Important Drops
 

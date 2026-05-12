@@ -25,6 +25,28 @@
           "#cobblemon:concrete_blocks"
         ]
       }
+    },
+    {
+      "id": "machoke-2",
+      "pokemon": "machoke",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.57,
+      "level": "28-41",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": false,
+        "neededNearbyBlocks": [
+          "#minecraft:wool",
+          "#cobblemon:concrete_blocks"
+        ]
+      }
     }
   ]
 }

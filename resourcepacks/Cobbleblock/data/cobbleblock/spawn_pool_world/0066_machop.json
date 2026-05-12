@@ -25,6 +25,28 @@
           "#cobblemon:concrete_blocks"
         ]
       }
+    },
+    {
+      "id": "machop-2",
+      "pokemon": "machop",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 5.4,
+      "level": "6-31",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": false,
+        "neededNearbyBlocks": [
+          "#minecraft:wool",
+          "#cobblemon:concrete_blocks"
+        ]
+      }
     }
   ]
 }

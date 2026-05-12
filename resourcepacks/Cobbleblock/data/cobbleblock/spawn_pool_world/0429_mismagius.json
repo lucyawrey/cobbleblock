@@ -4,23 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "skitty-1",
-      "pokemon": "skitty",
+      "id": "mismagius-1",
+      "pokemon": "mismagius",
       "type": "pokemon",
       "bucket": "common",
-      "weight": 9,
-      "level": "1-35",
+      "weight": 0.3,
+      "level": "39-50",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
           "#cobblemon:natural"
         ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
         "neededNearbyBlocks": [
-          "minecraft:dead_bush",
-          "#minecraft:flowers"
+          "#minecraft:dark_oak_logs",
+          "minecraft:dark_oak_leaves",
+          "minecraft:peony",
+          "minecraft:lilac",
+          "minecraft:rose_bush",
+          "#cobblemon:mansion_blocks"
         ]
       }
     }

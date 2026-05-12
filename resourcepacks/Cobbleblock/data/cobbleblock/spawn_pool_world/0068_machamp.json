@@ -25,6 +25,28 @@
           "#cobblemon:concrete_blocks"
         ]
       }
+    },
+    {
+      "id": "machamp-2",
+      "pokemon": "machamp",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.03,
+      "level": "36-51",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": false,
+        "neededNearbyBlocks": [
+          "#minecraft:wool",
+          "#cobblemon:concrete_blocks"
+        ]
+      }
     }
   ]
 }

@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "skitty-1",
-      "pokemon": "skitty",
+      "id": "lopunny-1",
+      "pokemon": "lopunny",
       "type": "pokemon",
       "bucket": "common",
-      "weight": 9,
-      "level": "1-35",
+      "weight": 0.6,
+      "level": "30-48",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -18,9 +18,15 @@
         "dimensions": [
           "minecraft:overworld"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "minecraft:dead_bush",
-          "#minecraft:flowers"
+          "minecraft:tall_grass",
+          "minecraft:short_grass",
+          "minecraft:fern",
+          "minecraft:large_fern",
+          "#minecraft:spruce_logs",
+          "minecraft:spruce_leaves"
         ]
       }
     }

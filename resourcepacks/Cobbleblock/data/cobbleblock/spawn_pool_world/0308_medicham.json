@@ -25,6 +25,28 @@
           "#minecraft:wool"
         ]
       }
+    },
+    {
+      "id": "medicham-2",
+      "pokemon": "medicham",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.2,
+      "level": "37-41",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": false,
+        "neededNearbyBlocks": [
+          "#c:stones",
+          "#minecraft:wool"
+        ]
+      }
     }
   ]
 }
