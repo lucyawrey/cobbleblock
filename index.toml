@@ -5258,6 +5258,22 @@ file = "resourcepacks/Cobbleblock/assets/cobbleblock/lang/en_us.json"
 hash = "dd14e9ed37f90109f194c4aa1423b712dd945f1912e7bcf8f8731b4be744fa12"
 
 [[files]]
+file = "resourcepacks/Cobbleblock/assets/create/models/block/blaze_burner/blaze_rods_large.obj"
+hash = "6801a3e7a07f6621fbc96f1f8b29e22c628cb58292a0e446930182c96c8287a9"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/assets/create/models/block/blaze_burner/blaze_rods_small.obj"
+hash = "6801a3e7a07f6621fbc96f1f8b29e22c628cb58292a0e446930182c96c8287a9"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/assets/create/textures/block/blaze_idle.png"
+hash = "ff6768143efbc5484708aad55fc44d4cb3060d09b9c5afb298aab9043116c925"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/assets/create/textures/block/blaze_inert.png"
+hash = "46ed125be4e47dd0a8f4f888187ba655c281d6dc51e07523c9d2174437fb960c"
+
+[[files]]
 file = "resourcepacks/Cobbleblock/assets/createcobblemonintegrations/lang/en_us.json"
 hash = "4773b527752981d503158c747e6249c82647049ced4489938b60d8aafa0f1353"
 
