@@ -8,7 +8,7 @@
       "pokemon": "lampent",
       "type": "pokemon",
       "bucket": "common",
-      "weight": 0.19,
+      "weight": 0.5,
       "level": "41-46",
       "spawnablePositionType": "grounded",
       "condition": {
@@ -17,7 +17,9 @@
         ],
         "neededNearbyBlocks": [
           "#minecraft:candles",
-          "minecraft:lantern"
+          "minecraft:lantern",
+          "minecraft:soul_soil",
+          "minecraft:soul_sand"
         ]
       }
     }

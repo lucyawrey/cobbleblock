@@ -5258,8 +5258,12 @@ file = "resourcepacks/Cobbleblock/assets/cobbleblock/lang/en_us.json"
 hash = "dd14e9ed37f90109f194c4aa1423b712dd945f1912e7bcf8f8731b4be744fa12"
 
 [[files]]
+file = "resourcepacks/Cobbleblock/assets/createcobblemonintegrations/lang/en_us.json"
+hash = "4773b527752981d503158c747e6249c82647049ced4489938b60d8aafa0f1353"
+
+[[files]]
 file = "resourcepacks/Cobbleblock/assets/minecraft/lang/en_us.json"
-hash = "9a54dd8fd0b5e203d1adcfb5ab4ef430b6210bd78b4609852d124badc70b0bd9"
+hash = "7c6318db579f985682a09f14b65a0fb44a5b3325892a46e1973872f9f4158d14"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/assets/sophisticatedstorage/lang/en_us.json"
@@ -5311,7 +5315,7 @@ hash = "2f65f95f6d6bb4ca78044442a5dc03c609da3e444ed936de76d35c50922279bb"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/burner_species/default.json"
-hash = "aada4ff41fc91e2d69c8080e3376caea8bb59cda2b387fb50dc258c05e547978"
+hash = "4ff226f5cd0908237d540323b3c1b753512859f10a410cf5951afea106907025"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/function/load.mcfunction"
@@ -6871,7 +6875,7 @@ hash = "b63ed7ad77a59b7053e5b7e403b8654277d8d38c48e0de70b1693bc304e23902"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0218_slugma.json"
-hash = "abd7a8be24baaecda24466d38fa5cd4785624cf54e81529f766234f4ce3defd0"
+hash = "b55936a90c615edb1b53dabf8f498fb54a8bcc73e14291d47e2b29ba287594ca"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0219_magcargo.json"
@@ -7855,15 +7859,15 @@ hash = "0e8ab038f6e2e34f4cd586b7c284d2a649e2515a5f606246e5240f9c946bd64e"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0607_litwick.json"
-hash = "005ad08f3cb1812f89e89434eb9150fd29b6b1da43e3b21683870c7f4c05e805"
+hash = "c92e6fd28c5e23fb41a397758934fc6e2bac0365123d65e0ebd90d9413ec2db4"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0608_lampent.json"
-hash = "dcde6fe9cf8ff58f92132532729ac1e53672d141ced40aa9dfb7bf4462e65134"
+hash = "ad2798618ed3e51dccea9fc028d03f1a06736da45d3928152f0d35e3b2f860f1"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0609_chandelure.json"
-hash = "57093cb2bdfccdadae69f594e8d0160fa32f961891758a4130055c04f82c3278"
+hash = "fadeb2eee448dc599606ecdcc51eb9d1c0b7cc13ad06a6f1a49ff9faf217d92d"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0674_pancham.json"

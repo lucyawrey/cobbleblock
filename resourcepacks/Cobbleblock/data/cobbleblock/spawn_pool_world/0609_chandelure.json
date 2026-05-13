@@ -8,7 +8,7 @@
       "pokemon": "chandelure",
       "type": "pokemon",
       "bucket": "common",
-      "weight": 0.01,
+      "weight": 0.05,
       "level": "41-52",
       "spawnablePositionType": "grounded",
       "condition": {
@@ -17,7 +17,9 @@
         ],
         "neededNearbyBlocks": [
           "#minecraft:candles",
-          "minecraft:lantern"
+          "minecraft:lantern",
+          "minecraft:soul_soil",
+          "minecraft:soul_sand"
         ]
       }
     }

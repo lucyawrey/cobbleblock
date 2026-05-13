@@ -8,7 +8,7 @@
       "pokemon": "slugma",
       "type": "pokemon",
       "bucket": "common",
-      "weight": 5.4,
+      "weight": 6,
       "level": "1-25",
       "spawnablePositionType": "grounded",
       "condition": {
@@ -28,7 +28,7 @@
       "pokemon": "slugma",
       "type": "pokemon",
       "bucket": "common",
-      "weight": 5.4,
+      "weight": 6,
       "level": "1-25",
       "spawnablePositionType": "surface",
       "condition": {
