@@ -3,13 +3,14 @@ console.info("Loaded KubeJs server scripts.");
 
 ServerEvents.recipes((event) => {
   // Remove recepes for rare materials
-  event.remove({ id: "mega_showdown:deoxys_meteorite" });
+  event.remove({ output: "mega_showdown:deoxys_meteorite" });
 
   // Hammer on cutting board handling
-  event.remove({ id: "onlyhammers:emerald_hammer" });
-  event.remove({ id: "onlyhammers:lapis_hammer" });
-  event.remove({ id: "onlyhammers:redstone_hammer" });
-  event.remove({ id: "onlyhammers:obsidian_hammer" });
+  event.remove({ output: "onlyhammers:emerald_hammer" });
+  event.remove({ output: "onlyhammers:lapis_hammer" });
+  event.remove({ output: "onlyhammers:redstone_hammer" });
+  event.remove({ output: "onlyhammers:obsidian_hammer" });
+  event.remove({ output: "farmersdelight:wheat_dough" });
 
   event.forEachRecipe({ type: "create:milling" }, (recipe) => {
     // TODO figure out why ingredient.item is undefined instead of a block ID
@@ -30,11 +31,7 @@ ServerEvents.recipes((event) => {
         id: recipe.originalRecipeResult.id,
       },
     ];
-    event.recipes.farmersdelight.cutting(
-      ingredients,
-      "#c:hammers",
-      result,
-    );
+    event.recipes.farmersdelight.cutting(ingredients, "#c:hammers", result);
   });
 
   // Shovel on cutting board handling
@@ -81,21 +78,6 @@ ServerEvents.recipes((event) => {
     ],
     "minecraft:blackstone",
   );
-
-  //// Debug output item and tag IDs for development
-  // const BuiltInRegistries = Java.loadClass(
-  //   "net.minecraft.core.registries.BuiltInRegistries",
-  // );
-  // const blockRegistry = BuiltInRegistries.ITEM;
-  // const blocks = blockRegistry.keySet();
-  // blocks.forEach((id) => {
-  //   let block = blockRegistry.get(id);
-  //   // let tags = block.tags.toArray();
-  //   // console.info(id);
-  //   // tags.forEach((tag) => {
-  //   //   console.info("#" + tag);
-  //   // });
-  // });
 });
 
 RecipeViewerEvents.removeEntries("item", (event) => {
@@ -104,4 +86,5 @@ RecipeViewerEvents.removeEntries("item", (event) => {
   event.remove("onlyhammers:lapis_hammer");
   event.remove("onlyhammers:redstone_hammer");
   event.remove("onlyhammers:obsidian_hammer");
+  event.remove("farmersdelight:wheat_dough");
 });

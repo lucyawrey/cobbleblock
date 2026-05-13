@@ -4706,7 +4706,7 @@ hash = "ce5cb4bd2d4e3a3d06461954da7f62543363a03ce025ba5342fb159b2e01a3be"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "3d94dffaf045034cd7856b2300d1d446bb32655965c28b551882a0e8a834678e"
+hash = "d1b92dd07c0ea789c42e59fc680a819d65eb85736c4f33ecb7bcb4a60c103c48"
 
 [[files]]
 file = "kubejs/server_scripts/villagers.js"
@@ -5358,6 +5358,10 @@ file = "resourcepacks/Cobbleblock/data/cobbleblock/loot_table/archaeology/suspic
 hash = "d9ddb8dc234263fea9e089a1d00d1a8540d5e41855f5d9ef62b9f735dcc64fcf"
 
 [[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/blasting/relic_coin.json"
+hash = "660c678822b9d58719d5fba537d9d5cc6497f11c0d8944ee76cac0f82c6179dd"
+
+[[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/campfire_pot/ancient_dna.json"
 hash = "4dc663d8759db6352e4bd7c4a17600d0618e39b0b745d523ea87f8cd70c94e14"
 
@@ -5526,6 +5530,10 @@ file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/crafting_shapeless/org
 hash = "5c038d93b62f965894974ec580182e19f10bc12caf6160d6db3a00bf894d35a3"
 
 [[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/crafting_shapeless/relic_coin.json"
+hash = "dc8cde2fc4ce439c5e4d27ab3d09e5c7cfb5f6065c728855a6cb6bc7d27a3602"
+
+[[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/cutting/suspicious_cobblestone.json"
 hash = "12aafd46166d98a54c3bfdcf4d73177f05820e74f1ce32ec8bb014818005bfd6"
 
@@ -5548,6 +5556,10 @@ hash = "d10724c308335f94ea537f3f8a48ac0416c8864ce24675a5e4e9e22c197ecee7"
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/milling/veridium.json"
 hash = "da59fefdc46a64d0ecf451b7358069ae247a9a1d1d55eeb84caa81b8f269c138"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/smelting/relic_coin.json"
+hash = "7feb381d7454cc4ccd4577088bdafdd83b178d9f3801e80814aafac59f3623f7"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0001_bulbasaur.json"
