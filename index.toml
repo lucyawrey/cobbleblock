@@ -5258,12 +5258,8 @@ file = "resourcepacks/Cobbleblock/assets/cobbleblock/lang/en_us.json"
 hash = "dd14e9ed37f90109f194c4aa1423b712dd945f1912e7bcf8f8731b4be744fa12"
 
 [[files]]
-file = "resourcepacks/Cobbleblock/assets/create/models/block/blaze_burner/blaze_rods_large.obj"
-hash = "6801a3e7a07f6621fbc96f1f8b29e22c628cb58292a0e446930182c96c8287a9"
-
-[[files]]
-file = "resourcepacks/Cobbleblock/assets/create/models/block/blaze_burner/blaze_rods_small.obj"
-hash = "6801a3e7a07f6621fbc96f1f8b29e22c628cb58292a0e446930182c96c8287a9"
+file = "resourcepacks/Cobbleblock/assets/create/models/block/blaze_burner/item.obj"
+hash = "590c162ac3a3ce61723077c447fa4966669f96a71c96239d82227a5ef1b5eed8"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/assets/create/textures/block/blaze_idle.png"

@@ -1,7 +1,7 @@
 # Cobbleblock Todo
 
 ## Normal Priority
-- Update Model for Poké Infuser and Burner.
+- Update Model for Poké Infuser.
 - Consider alternate create/cobblemon mod
 - Craftable gimmighoul, proper non chest gimmeghoul coin drop rate, craftable relic coins, melt down relic coins
 - Remove farmers delight dough
