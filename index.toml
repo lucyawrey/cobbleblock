@@ -7838,8 +7838,52 @@ file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0440_happiny
 hash = "ea3a05d8c4f123b887a8c192857be4bb9f3f88b3abf17cbc242d6fe837a98644"
 
 [[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0441_chatot.json"
+hash = "12e6aec40594420ace73a775f3b223e05c48386a128f9fa55c3f45d498d49318"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0442_spiritomb.json"
+hash = "fd4f338296e76abc46136039097b2e8f8746c239cbb84071de41ad391df500d4"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0443_gible.json"
+hash = "71af2de790bf39067181f1569ccb63fedb8c1ccd88d7ce617f6eb57b7d90bbbd"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0444_gabite.json"
+hash = "f1ab40ec1206bc7975382b43c37fce15efd23627164c7881d60db3f5742bb8ce"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0445_garchomp.json"
+hash = "ba8ba86fcf248aedcb9f8de4b3aafdef4a62878b56b8988cca96e82231e13422"
+
+[[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0446_munchlax.json"
 hash = "638411f9aa2f37b0169f2fa6e3cb9a4ef4b7066f30846dfee1f0f6a5ed8e7753"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0447_riolu.json"
+hash = "1afeb1f619d94d27922c84327610aa0597aa8264c2c9b7f60219ff775360daea"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0448_lucario.json"
+hash = "496fd0c41b6e465414e8e17da97fbc277bfbe81b63af6747325e72815c0c5921"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0449_hippopotas.json"
+hash = "f1c9372b86d3af3ddf47b3c84b15527132c057f1bdf64e902d7420751cb08ac5"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0450_hippowdon.json"
+hash = "3cba28fe1ed3a58911e425f0bc5e0f321c11656f6cb551512ebfdf81f78bb3f6"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0451_skorupi.json"
+hash = "b9dcf1d4bda2bbaecf3d86a43bb6126b0472654f199bb13edc4d0fa3ff181fb1"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0452_drapion.json"
+hash = "a9cc626c7087ef262de17b7800a40e5b14dc3ab7381d34e20f0a03db9f417b28"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0474_porygonz.json"
