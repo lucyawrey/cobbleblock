@@ -5274,6 +5274,14 @@ file = "resourcepacks/Cobbleblock/assets/createcobblemonintegrations/lang/en_us.
 hash = "4773b527752981d503158c747e6249c82647049ced4489938b60d8aafa0f1353"
 
 [[files]]
+file = "resourcepacks/Cobbleblock/assets/createcobblemonintegrations/models/item/infuser.json"
+hash = "9c962216548a1ae4c4129dde2fd9c94dda814e5d6eaea6567340c2f331829029"
+
+[[files]]
+file = "resourcepacks/Cobbleblock/assets/createcobblemonintegrations/textures/block/infuser_ball.png"
+hash = "ff6768143efbc5484708aad55fc44d4cb3060d09b9c5afb298aab9043116c925"
+
+[[files]]
 file = "resourcepacks/Cobbleblock/assets/minecraft/lang/en_us.json"
 hash = "7c6318db579f985682a09f14b65a0fb44a5b3325892a46e1973872f9f4158d14"
 
