@@ -5275,7 +5275,7 @@ hash = "4773b527752981d503158c747e6249c82647049ced4489938b60d8aafa0f1353"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/assets/createcobblemonintegrations/models/item/infuser.json"
-hash = "9c962216548a1ae4c4129dde2fd9c94dda814e5d6eaea6567340c2f331829029"
+hash = "9ded93ad047e39fd020a86916e3a24e873f3ae44431edfc7ac1d34acf177235b"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/assets/createcobblemonintegrations/textures/block/infuser_ball.png"
