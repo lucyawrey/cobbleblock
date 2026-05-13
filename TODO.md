@@ -1,7 +1,6 @@
 # Cobbleblock Todo
 
 ## Normal Priority
-- Craftable gimmighoul, proper non chest gimmeghoul coin drop rate.
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.
   - Verify licence of all mods in modpack.

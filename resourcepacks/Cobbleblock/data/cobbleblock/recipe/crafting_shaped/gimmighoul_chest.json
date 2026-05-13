@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "cobblemon:ghost_gem"
+    },
+    "S": {
+      "item": "cobblemon:relic_coin_sack"
+    },
+    "C": {
+      "tag": "cobblemon:gilded_chests"
+    }
+  },
+  "pattern": [
+    "G  ",
+    "S  ",
+    "C  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemon:gimmighoul_chest"
+  }
+}

@@ -5434,6 +5434,10 @@ file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/ghost_
 hash = "a2230f582e5dadf25c28342f7070514da75c0f4733f9b48af2a5df3095bbbed2"
 
 [[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/gimmighoul_chest.json"
+hash = "cc8e3fcb66121fdffc0139cd57d052f480715f0100cce6680816ad09235a3774"
+
+[[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/grass_gem.json"
 hash = "25cb168dd6a313275349a9ccd3846f49bdb478a6e1a213da5796127d00f7371e"
 
@@ -11947,7 +11951,7 @@ hash = "2e7e55d218aced9519a10dcaf34054a4c2319ac70ddfaf0de69ed20e0e95d140"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/0999_gimmighoul.json"
-hash = "10ba3fd560bb5cd5172b89084536b4e65d56d48fd2e3fdda336c2d5617066d38"
+hash = "9b25801acefba313dc093f688c578a716b7997fa03ee9b2daf6abf0db1c3397e"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/species_additions/1000_gholdengo.json"
