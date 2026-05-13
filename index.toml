@@ -4806,11 +4806,6 @@ hash = "418e00920f24ef960858eec94feaa9ea7361ca2b53dda230efee45c2fbd50576"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-create-industries.pw.toml"
-hash = "1293a640844bb49123c1784e6744989c2ac903860b6e869ef1d313ff61632237"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-emi.pw.toml"
 hash = "1d530d3cefe90b67c56aa9fe1759a96e89276cc9d5a9be033f8b1ef2abe9942f"
 metafile = true
@@ -4883,6 +4878,11 @@ metafile = true
 [[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "ad0d3c199591934bc2d2acdfb4e0008ec212a1c222c0d8bb6c8c6b8903519f16"
+metafile = true
+
+[[files]]
+file = "mods/create-cobblemon-integrations.pw.toml"
+hash = "7759c4a7c91c913c70c7af11ea76e66051689ad98a085b99c15b82e67fc50dd8"
 metafile = true
 
 [[files]]
@@ -5310,6 +5310,10 @@ file = "resourcepacks/Cobbleblock/data/cobbleblock/advancement/research_journal.
 hash = "2f65f95f6d6bb4ca78044442a5dc03c609da3e444ed936de76d35c50922279bb"
 
 [[files]]
+file = "resourcepacks/Cobbleblock/data/cobbleblock/burner_species/default.json"
+hash = "aada4ff41fc91e2d69c8080e3376caea8bb59cda2b387fb50dc258c05e547978"
+
+[[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/function/load.mcfunction"
 hash = "85653b2acc525bf99128a1a120bf3cf01a0b9eb18fc83bcd71682f24c4de28c2"
 
@@ -5344,10 +5348,6 @@ hash = "57d81a946798adaca118ab52223a73c147f153f11bc1ca3c009f5bdc9a67637c"
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/bell.json"
 hash = "e786257a1d0246efa0d2dfd9c5623e58085ab4f443f81f1d1f6a70866899dabb"
-
-[[files]]
-file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/blaze_burner.json"
-hash = "8cf2a126650e3cc5aba8f2754ef56054570582fe04a41bed58aa750293a18bf7"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/bug_gem.json"

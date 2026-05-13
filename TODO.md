@@ -1,6 +1,7 @@
 # Cobbleblock Todo
 
 ## Normal Priority
+- Update Name and Model for Blaze Burner and Infuser to Poké Burner and Poké Infuser.
 - Consider alternate create/cobblemon mod
 - Craftable gimmighoul, proper non chest gimmeghoul coin drop rate, craftable relic coins, melt down relic coins
 - Remove farmers delight dough

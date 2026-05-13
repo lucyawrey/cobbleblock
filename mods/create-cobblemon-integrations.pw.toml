@@ -1,0 +1,13 @@
+name = "Create : Cobblemon Integrations"
+filename = "create-cobblemon-integrations-0.3.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WvxHOun5/versions/jHAJ4IDF/create-cobblemon-integrations-0.3.6.jar"
+hash-format = "sha512"
+hash = "fbf44bde84782c4d1176adb3a9cfb428edd02fcee3d8c80e39c4685b11d5cded7ea7fd654bdff0d8bd394a7c31be41e15db3ac53418b9740fc0bceb0d308e6bd"
+
+[update]
+[update.modrinth]
+mod-id = "WvxHOun5"
+version = "jHAJ4IDF"
