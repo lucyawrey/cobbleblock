@@ -59,7 +59,6 @@
 - Pink and White apricorn seeds.
 - Ice Block: add to more pokemon drops.
 - Tree Bark from Create Log Cutting Recipes
-- More evolution stones such as from from cobblegen (dripstone moon stone), netherrack fire stone, etc.
 - Terracotta cobblegen.
 
 ## Low Priority

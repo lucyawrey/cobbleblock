@@ -42,6 +42,30 @@
 		"cobbleGen": {
 			"minecraft:bedrock": [
 				{
+					"id": "cobblemon:dawn_stone_ore",
+					"weight": 0.2
+				},
+				{
+					"id": "cobblemon:dusk_stone_ore",
+					"weight": 0.2
+				},
+				{
+					"id": "cobblemon:ice_stone_ore",
+					"weight": 0.2
+				},
+				{
+					"id": "cobblemon:leaf_stone_ore",
+					"weight": 0.2
+				},
+				{
+					"id": "cobblemon:shiny_stone_ore",
+					"weight": 0.2
+				},
+				{
+					"id": "cobblemon:thunder_stone_ore",
+					"weight": 0.2
+				},
+				{
 					"id": "minecraft:tuff",
 					"weight": 0.5
 				},
@@ -103,7 +127,7 @@
 				},
 				{
 					"id": "minecraft:cobblestone",
-					"weight": 43.5
+					"weight": 42.3
 				}
 			],
 			"cobbleblock:suspicious_cobblestone": [
@@ -318,6 +342,30 @@
 		"stoneGen": {
 			"minecraft:bedrock": [
 				{
+					"id": "cobblemon:dawn_stone_ore",
+					"weight": 0.2
+				},
+				{
+					"id": "cobblemon:dusk_stone_ore",
+					"weight": 0.2
+				},
+				{
+					"id": "cobblemon:ice_stone_ore",
+					"weight": 0.2
+				},
+				{
+					"id": "cobblemon:leaf_stone_ore",
+					"weight": 0.2
+				},
+				{
+					"id": "cobblemon:shiny_stone_ore",
+					"weight": 0.2
+				},
+				{
+					"id": "cobblemon:thunder_stone_ore",
+					"weight": 0.2
+				},
+				{
 					"id": "minecraft:tuff",
 					"weight": 0.5
 				},
@@ -375,7 +423,7 @@
 				},
 				{
 					"id": "minecraft:stone",
-					"weight": 39.5
+					"weight": 38.3
 				}
 			],
 			"minecraft:mud": [
