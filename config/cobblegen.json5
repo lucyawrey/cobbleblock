@@ -116,34 +116,122 @@
 					"weight": 80.0
 				}
 			],
+			"minecraft:mud": [
+				{
+					"id": "minecraft:dripstone_block",
+					"weight": 100.0
+				}
+			],
+			"minecraft:copper_block": [
+				{
+					"id": "create:veridium",
+					"weight": 48.0
+				},
+				{
+					"id": "cobbleblock:suspicious_cobblestone",
+					"weight": 2.0
+				},
+				{
+					"id": "minecraft:cobblestone",
+					"weight": 50.0
+				}
+			],
+			"minecraft:exposed_copper": [
+				{
+					"id": "create:veridium",
+					"weight": 48.0
+				},
+				{
+					"id": "cobbleblock:suspicious_cobblestone",
+					"weight": 2.0
+				},
+				{
+					"id": "minecraft:cobblestone",
+					"weight": 50.0
+				}
+			],
 			"minecraft:weathered_copper": [
 				{
 					"id": "create:veridium",
-					"weight": 100.0
+					"weight": 48.0
+				},
+				{
+					"id": "cobbleblock:suspicious_cobblestone",
+					"weight": 2.0
+				},
+				{
+					"id": "minecraft:cobblestone",
+					"weight": 50.0
 				}
 			],
 			"minecraft:oxidized_copper": [
 				{
 					"id": "create:veridium",
-					"weight": 100.0
+					"weight": 48.0
+				},
+				{
+					"id": "cobbleblock:suspicious_cobblestone",
+					"weight": 2.0
+				},
+				{
+					"id": "minecraft:cobblestone",
+					"weight": 50.0
 				}
 			],
 			"minecraft:iron_block": [
 				{
 					"id": "create:crimsite",
-					"weight": 100.0
+					"weight": 48.0
+				},
+				{
+					"id": "cobbleblock:suspicious_cobblestone",
+					"weight": 2.0
+				},
+				{
+					"id": "minecraft:cobblestone",
+					"weight": 50.0
 				}
 			],
 			"create:zinc_block": [
 				{
 					"id": "create:asurine",
-					"weight": 100.0
+					"weight": 48.0
+				},
+				{
+					"id": "cobbleblock:suspicious_cobblestone",
+					"weight": 2.0
+				},
+				{
+					"id": "minecraft:cobblestone",
+					"weight": 50.0
 				}
 			],
-			"minecraft:mud": [
+			"create:gold_block": [
 				{
-					"id": "minecraft:dripstone_block",
-					"weight": 100.0
+					"id": "create:ochrum",
+					"weight": 48.0
+				},
+				{
+					"id": "cobbleblock:suspicious_cobblestone",
+					"weight": 2.0
+				},
+				{
+					"id": "minecraft:cobblestone",
+					"weight": 50.0
+				}
+			],
+			"minecraft:tuff": [
+				{
+					"id": "minecraft:tuff",
+					"weight": 48.0
+				},
+				{
+					"id": "cobbleblock:suspicious_cobblestone",
+					"weight": 2.0
+				},
+				{
+					"id": "minecraft:cobblestone",
+					"weight": 50.0
 				}
 			],
 			"minecraft:diorite": [
@@ -192,27 +280,150 @@
 		"stoneGen": {
 			"minecraft:bedrock": [
 				{
-					"id": "minecraft:stone",
-					"weight": 25.0
+					"id": "minecraft:tuff",
+					"weight": 0.5
+				},
+				{
+					"id": "minecraft:diamond_ore",
+					"weight": 0.5
+				},
+				{
+					"id": "minecraft:emerald_ore",
+					"weight": 0.5
+				},
+				{
+					"id": "minecraft:redstone_ore",
+					"weight": 1.0
+				},
+				{
+					"id": "minecraft:lapis_ore",
+					"weight": 1.0
+				},
+				{
+					"id": "minecraft:gold_ore",
+					"weight": 1.0
+				},
+				{
+					"id": "create:zinc_ore",
+					"weight": 3.0
+				},
+				{
+					"id": "minecraft:calcite",
+					"weight": 4.0
+				},
+				{
+					"id": "minecraft:iron_ore",
+					"weight": 6.0
+				},
+				{
+					"id": "minecraft:coal_ore",
+					"weight": 6.0
+				},
+				{
+					"id": "minecraft:copper_ore",
+					"weight": 4.0
 				},
 				{
 					"id": "minecraft:diorite",
-					"weight": 25.0
+					"weight": 10.0
 				},
 				{
 					"id": "minecraft:andesite",
-					"weight": 25.0
+					"weight": 10.0
 				},
 				{
 					"id": "minecraft:granite",
-					"weight": 25.0
+					"weight": 10.0
+				},
+				{
+					"id": "minecraft:stone",
+					"weight": 39.5
+				}
+			],
+			"minecraft:mud": [
+				{
+					"id": "minecraft:dripstone_block",
+					"weight": 100.0
+				}
+			],
+			"minecraft:copper_block": [
+				{
+					"id": "create:veridium",
+					"weight": 80.0
+				},
+				{
+					"id": "minecraft:stone",
+					"weight": 20.0
+				}
+			],
+			"minecraft:exposed_copper": [
+				{
+					"id": "create:veridium",
+					"weight": 80.0
+				},
+				{
+					"id": "minecraft:stone",
+					"weight": 20.0
+				}
+			],
+			"minecraft:weathered_copper": [
+				{
+					"id": "create:veridium",
+					"weight": 80.0
+				},
+				{
+					"id": "minecraft:stone",
+					"weight": 20.0
+				}
+			],
+			"minecraft:oxidized_copper": [
+				{
+					"id": "create:veridium",
+					"weight": 80.0
+				},
+				{
+					"id": "minecraft:stone",
+					"weight": 20.0
+				}
+			],
+			"minecraft:iron_block": [
+				{
+					"id": "create:crimsite",
+					"weight": 80.0
+				},
+				{
+					"id": "minecraft:stone",
+					"weight": 20.0
+				}
+			],
+			"create:zinc_block": [
+				{
+					"id": "create:asurine",
+					"weight": 80.0
+				},
+				{
+					"id": "minecraft:stone",
+					"weight": 20.0
+				}
+			],
+			"create:gold_block": [
+				{
+					"id": "create:ochrum",
+					"weight": 80.0
+				},
+				{
+					"id": "minecraft:stone",
+					"weight": 20.0
 				}
 			],
 			"minecraft:tuff": [
 				{
 					"id": "minecraft:tuff",
-					"weight": 100.0,
-					"maxY": 0
+					"weight": 80.0
+				},
+				{
+					"id": "minecraft:stone",
+					"weight": 20.0
 				}
 			],
 			"minecraft:diorite": [
