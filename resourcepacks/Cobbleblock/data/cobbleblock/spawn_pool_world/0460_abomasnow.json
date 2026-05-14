@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "snorlax-1",
-      "pokemon": "snorlax",
+      "id": "abomasnow-1",
+      "pokemon": "abomasnow",
       "type": "pokemon",
-      "bucket": "rare",
-      "weight": 2.5,
-      "level": "34-54",
+      "bucket": "uncommon",
+      "weight": 5,
+      "level": "40-25",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -18,15 +18,13 @@
         "dimensions": [
           "minecraft:overworld"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "#minecraft:beds",
-          "minecraft:cake",
-          "#cobblemon:saccharine_trees",
-          "minecraft:honey_block",
-          "minecraft:beehive",
-          "minecraft:bee_nest"
+          "minecraft:fern",
+          "minecraft:large_fern",
+          "#minecraft:spruce_logs",
+          "minecraft:spruce_leaves",
+          "minecraft:snow",
+          "minecraft:snow_block"
         ]
       }
     }

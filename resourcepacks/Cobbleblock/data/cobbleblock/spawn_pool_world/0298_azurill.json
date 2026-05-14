@@ -8,7 +8,7 @@
       "pokemon": "azurill",
       "type": "pokemon",
       "bucket": "common",
-      "weight": 9,
+      "weight": 7,
       "level": "1-19",
       "spawnablePositionType": "fishing",
       "condition": {
@@ -23,7 +23,7 @@
       "pokemon": "azurill",
       "type": "pokemon",
       "bucket": "common",
-      "weight": 9,
+      "weight": 7,
       "level": "1-19",
       "spawnablePositionType": "grounded",
       "condition": {
@@ -45,7 +45,7 @@
       "pokemon": "azurill",
       "type": "pokemon",
       "bucket": "common",
-      "weight": 9,
+      "weight": 7,
       "level": "1-19",
       "spawnablePositionType": "surface",
       "condition": {

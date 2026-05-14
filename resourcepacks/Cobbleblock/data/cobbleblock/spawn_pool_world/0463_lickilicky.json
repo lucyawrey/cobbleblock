@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "snorlax-1",
-      "pokemon": "snorlax",
+      "id": "lickilicky-1",
+      "pokemon": "lickilicky",
       "type": "pokemon",
-      "bucket": "rare",
-      "weight": 2.5,
-      "level": "34-54",
+      "bucket": "uncommon",
+      "weight": 0.32,
+      "level": "34-52",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -21,12 +21,10 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "#minecraft:beds",
-          "minecraft:cake",
-          "#cobblemon:saccharine_trees",
-          "minecraft:honey_block",
-          "minecraft:beehive",
-          "minecraft:bee_nest"
+          "#minecraft:wool",
+          "#cobblemon:concrete_blocks",
+          "minecraft:tall_grass",
+          "minecraft:short_grass"
         ]
       }
     }

@@ -1,10 +1,14 @@
 {
   "target": "cobblemon:tangrowth",
   "drops": {
-    "amount": 4,
+    "amount": 5,
     "entries": [
       {
         "item": "minecraft:vine",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:jungle_sapling",
         "quantityRange": "0-2"
       },
       {

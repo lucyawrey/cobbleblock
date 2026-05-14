@@ -1,7 +1,7 @@
 # Cobbleblock Todo
 
 ## Normal Priority
-- More smooth stone generators (replicate all cobblestone options)
+- Finish Medicines shop (prices, more medicine, bank).
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.
   - Verify licence of all mods in modpack.
@@ -18,7 +18,6 @@
   - Crushing things (sand, gravel, suspicious cobble)
 - Update spawn table.
   - Manually fill in remaining spawn data for non-legendary Pokémon.
-- Add TMs (especially ones that have no level up move equivilent) to loot tables and shops.
 - Update drop table.
   - Modify drop tables to add important drops for progression.
 - Legendary Summoning Shrines.
@@ -56,12 +55,12 @@
 
 ## Important Drops
 
-- Saplings (Oak, Spruce, Birch, Acacia, Cherry)
+- Saplings (Birch, Acacia, Cherry)
 - Pink and White apricorn seeds.
 - Ice Block: add to more pokemon drops.
 - Tree Bark from Create Log Cutting Recipes
-- More organic compost recipes
-- Evo stones from cobblegen (dripstone moon stone), netherrack fire stone, etc.
+- More evolution stones such as from from cobblegen (dripstone moon stone), netherrack fire stone, etc.
+- Terracotta cobblegen.
 
 ## Low Priority
 

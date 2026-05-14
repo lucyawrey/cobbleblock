@@ -8,7 +8,7 @@
       "pokemon": "skitty",
       "type": "pokemon",
       "bucket": "common",
-      "weight": 9,
+      "weight": 7,
       "level": "1-35",
       "spawnablePositionType": "grounded",
       "condition": {

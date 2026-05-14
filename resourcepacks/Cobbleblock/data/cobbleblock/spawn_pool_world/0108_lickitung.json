@@ -22,7 +22,9 @@
         "maxSkyLight": 15,
         "neededNearbyBlocks": [
           "#minecraft:wool",
-          "#cobblemon:concrete_blocks"
+          "#cobblemon:concrete_blocks",
+          "minecraft:tall_grass",
+          "minecraft:short_grass"
         ]
       }
     }

@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "mega_showdown:tera_shard"
+        },
+        {
+            "tag": "mega_showdown:tera_shard"
+        },
+        {
+            "tag": "mega_showdown:tera_shard"
+        },
+        {
+            "tag": "mega_showdown:tera_shard"
+        },
+        {
+            "tag": "mega_showdown:tera_shard"
+        },
+        {
+            "tag": "mega_showdown:tera_shard"
+        },
+        {
+            "tag": "mega_showdown:tera_shard"
+        },
+        {
+            "tag": "mega_showdown:tera_shard"
+        },
+        {
+            "tag": "mega_showdown:tera_shard"
+        }
+    ],
+    "result": {
+        "id": "mega_showdown:stellar_tera_shard",
+        "count": 1
+    }
+}

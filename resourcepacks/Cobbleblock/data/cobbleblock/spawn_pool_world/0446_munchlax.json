@@ -24,7 +24,9 @@
           "#minecraft:beds",
           "minecraft:cake",
           "#cobblemon:saccharine_trees",
-          "minecraft:honey_block"
+          "minecraft:honey_block",
+          "minecraft:beehive",
+          "minecraft:bee_nest"
         ]
       }
     }

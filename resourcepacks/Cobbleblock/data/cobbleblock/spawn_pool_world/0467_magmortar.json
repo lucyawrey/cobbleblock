@@ -4,24 +4,22 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "aron-1",
-      "pokemon": "aron",
+      "id": "magmortar-1",
+      "pokemon": "magmortar",
       "type": "pokemon",
       "bucket": "common",
-      "weight": 7,
-      "level": "8-33",
+      "weight": 0.05,
+      "level": "45-54",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
           "#cobblemon:natural"
         ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
         "neededNearbyBlocks": [
-          "#minecraft:iron_ores",
-          "minecraft:stone",
-          "minecraft:iron_block"
+          "minecraft:lava",
+          "minecraft:magma_block",
+          "minecraft:basalt",
+          "minecraft:netherrack"
         ]
       }
     }

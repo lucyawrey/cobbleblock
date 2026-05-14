@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "snorlax-1",
-      "pokemon": "snorlax",
+      "id": "togekiss-1",
+      "pokemon": "togekiss",
       "type": "pokemon",
       "bucket": "rare",
-      "weight": 2.5,
-      "level": "34-54",
+      "weight": 0.125,
+      "level": "36-55",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -18,15 +18,12 @@
         "dimensions": [
           "minecraft:overworld"
         ],
+        "timeRange": "day",
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "#minecraft:beds",
-          "minecraft:cake",
-          "#cobblemon:saccharine_trees",
-          "minecraft:honey_block",
-          "minecraft:beehive",
-          "minecraft:bee_nest"
+          "#minecraft:flowers",
+          "#cobblemon:gemstones"
         ]
       }
     }

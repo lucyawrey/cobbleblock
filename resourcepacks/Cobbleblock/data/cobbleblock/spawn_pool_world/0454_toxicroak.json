@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "snorlax-1",
-      "pokemon": "snorlax",
+      "id": "toxicroak-1",
+      "pokemon": "toxicroak",
       "type": "pokemon",
-      "bucket": "rare",
-      "weight": 2.5,
-      "level": "34-54",
+      "bucket": "common",
+      "weight": 0.2,
+      "level": "37-49",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -21,12 +21,12 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "#minecraft:beds",
-          "minecraft:cake",
-          "#cobblemon:saccharine_trees",
-          "minecraft:honey_block",
-          "minecraft:beehive",
-          "minecraft:bee_nest"
+          "#minecraft:jungle_logs",
+          "minecraft:jungle_leaves",
+          "minecraft:vine",
+          "minecraft:lily_pad",
+          "minecraft:composter",
+          "farmersdelight:organic_compost"
         ]
       }
     }
