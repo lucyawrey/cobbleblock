@@ -10,7 +10,7 @@ hash = "9ca14293603e6665aaa4605ec208e63f5ea139340495f8e793aa04cad8417df8"
 
 [[files]]
 file = "config/cobbledollars/bank.json"
-hash = "659cd370b846c699d8cf1710749dbb1f890e735c62624bb42f782908bcb3cbf7"
+hash = "ca5f81a7009ecf42c3edc619b8e7bf08d7caffbcfc39352bfa6ee684c1be160a"
 
 [[files]]
 file = "config/cobbledollars/client.json"
@@ -22,7 +22,7 @@ hash = "bdfebb3e876789d0640d89b25410baff2aa96d2bdd58293c4730af37c1628ec5"
 
 [[files]]
 file = "config/cobbledollars/default_shop.json"
-hash = "c24f3953bfa6a04c735fa63af6ad85c3fda493118d8f53607f7457a4ed799e35"
+hash = "77a3ded19da0f3719a875842c85ff3b6cb2204896a5c65d6c0374934d28a4d20"
 
 [[files]]
 file = "config/cobblegen.json5"

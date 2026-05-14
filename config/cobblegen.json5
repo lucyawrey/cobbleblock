@@ -118,8 +118,12 @@
 			],
 			"minecraft:mud": [
 				{
+					"id": "cobblemon:dripstone_moon_stone_ore",
+					"weight": 0.5
+				},
+				{
 					"id": "minecraft:dripstone_block",
-					"weight": 100.0
+					"weight": 99.5
 				}
 			],
 			"minecraft:copper_block": [
@@ -224,6 +228,40 @@
 				{
 					"id": "minecraft:tuff",
 					"weight": 48.0
+				},
+				{
+					"id": "cobbleblock:suspicious_cobblestone",
+					"weight": 2.0
+				},
+				{
+					"id": "minecraft:cobblestone",
+					"weight": 50.0
+				}
+			],
+			"minecraft:terracotta": [
+				{
+					"id": "cobblemon:terracotta_sun_stone_ore",
+					"weight": 0.5
+				},
+				{
+					"id": "minecraft:terracotta",
+					"weight": 11.5
+				},
+				{
+					"id": "minecraft:terracotta",
+					"weight": 9.0
+				},
+				{
+					"id": "minecraft:terracotta",
+					"weight": 9.0
+				},
+				{
+					"id": "minecraft:terracotta",
+					"weight": 9.0
+				},
+				{
+					"id": "minecraft:terracotta",
+					"weight": 9.0
 				},
 				{
 					"id": "cobbleblock:suspicious_cobblestone",
@@ -342,8 +380,12 @@
 			],
 			"minecraft:mud": [
 				{
+					"id": "cobblemon:dripstone_moon_stone_ore",
+					"weight": 0.5
+				},
+				{
 					"id": "minecraft:dripstone_block",
-					"weight": 100.0
+					"weight": 99.5
 				}
 			],
 			"minecraft:copper_block": [
@@ -426,6 +468,32 @@
 					"weight": 20.0
 				}
 			],
+			"minecraft:terracotta": [
+				{
+					"id": "cobblemon:terracotta_sun_stone_ore",
+					"weight": 0.5
+				},
+				{
+					"id": "minecraft:terracotta",
+					"weight": 23.5
+				},
+				{
+					"id": "minecraft:terracotta",
+					"weight": 19.0
+				},
+				{
+					"id": "minecraft:terracotta",
+					"weight": 19.0
+				},
+				{
+					"id": "minecraft:terracotta",
+					"weight": 19.0
+				},
+				{
+					"id": "minecraft:terracotta",
+					"weight": 19.0
+				}
+			],
 			"minecraft:diorite": [
 				{
 					"id": "minecraft:diorite",
@@ -447,6 +515,13 @@
 		},
 		"basaltGen": {
 			"minecraft:bedrock": [
+				{
+					"id": "cobblemon:nether_fire_stone_ore",
+					"weight": 0.25,
+					"dimensions": [
+						"minecraft:the_nether"
+					]
+				},
 				{
 					"id": "minecraft:glowstone",
 					"weight": 2.0,
@@ -470,7 +545,7 @@
 				},
 				{
 					"id": "minecraft:blackstone",
-					"weight": 78.0,
+					"weight": 77.5,
 					"dimensions": [
 						"minecraft:the_nether"
 					]

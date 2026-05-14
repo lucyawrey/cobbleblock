@@ -1,7 +1,6 @@
 # Cobbleblock Todo
 
 ## Normal Priority
-- Finish Medicines shop (prices, more medicine, bank).
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.
   - Verify licence of all mods in modpack.
@@ -55,6 +54,7 @@
 
 ## Important Drops
 
+- Energy root
 - Saplings (Birch, Acacia, Cherry)
 - Pink and White apricorn seeds.
 - Ice Block: add to more pokemon drops.

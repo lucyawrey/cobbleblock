@@ -6,15 +6,15 @@
     },
     {
       "item": "cobblemon:relic_coin",
-      "price": 100
+      "price": 50
     },
     {
       "item": "cobblemon:relic_coin_pouch",
-      "price": 900
+      "price": 450
     },
     {
       "item": "cobblemon:relic_coin_sack",
-      "price": 8100
+      "price": 4050
     },
     {
       "item": "cobblemon:poke_ball",
@@ -171,6 +171,138 @@
     {
       "item": "cobblemon:exp_share",
       "price": 2000
+    },
+    {
+      "item": "cobblemon:potion",
+      "price": 75
+    },
+    {
+      "item": "cobblemon:super_potion",
+      "price": 150
+    },
+    {
+      "item": "cobblemon:hyper_potion",
+      "price": 300
+    },
+    {
+      "item": "cobblemon:max_potion",
+      "price": 400
+    },
+    {
+      "item": "cobblemon:full_restore",
+      "price": 600
+    },
+    {
+      "item": "cobblemon:antidote",
+      "price": 75
+    },
+    {
+      "item": "cobblemon:awakening",
+      "price": 75
+    },
+    {
+      "item": "cobblemon:burn_heal",
+      "price": 75
+    },
+    {
+      "item": "cobblemon:ice_heal",
+      "price": 75
+    },
+    {
+      "item": "cobblemon:paralyze_heal",
+      "price": 75
+    },
+    {
+      "item": "cobblemon:full_heal",
+      "price": 150
+    },
+    {
+      "item": "cobblemon:ether",
+      "price": 150
+    },
+    {
+      "item": "cobblemon:max_ether",
+      "price": 200
+    },
+    {
+      "item": "cobblemon:elixer",
+      "price": 300
+    },
+    {
+      "item": "cobblemon:max_elixer",
+      "price": 400
+    },
+    {
+      "item": "cobblemon:revive",
+      "price": 300
+    },
+    {
+      "item": "cobblemon:max_revive",
+      "price": 700
+    },
+    {
+      "item": "cobblemon:x_attack",
+      "price": 222
+    },
+    {
+      "item": "cobblemon:x_defense",
+      "price": 222
+    },
+    {
+      "item": "cobblemon:x_special_attack",
+      "price": 222
+    },
+    {
+      "item": "cobblemon:x_special_defence",
+      "price": 222
+    },
+    {
+      "item": "cobblemon:x_speed",
+      "price": 222
+    },
+    {
+      "item": "cobblemon:x_accuracy",
+      "price": 222
+    },
+    {
+      "item": "cobblemon:dire_hit",
+      "price": 222
+    },
+    {
+      "item": "cobblemon:guard_spec",
+      "price": 222
+    },
+    {
+      "item": "cobblemon:pp_up",
+      "price": 300
+    },
+    {
+      "item": "cobblemon:pp_max",
+      "price": 900
+    },
+    {
+      "item": "cobblemon:hp_up",
+      "price": 600
+    },
+    {
+      "item": "cobblemon:protein",
+      "price": 600
+    },
+    {
+      "item": "cobblemon:iron",
+      "price": 600
+    },
+    {
+      "item": "cobblemon:calcium",
+      "price": 600
+    },
+    {
+      "item": "cobblemon:zinc",
+      "price": 600
+    },
+    {
+      "item": "cobblemon:carbos",
+      "price": 600
     }
   ]
 }
