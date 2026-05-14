@@ -1,6 +1,7 @@
 # Cobbleblock Todo
 
 ## Normal Priority
+- More smooth stone generators (replicate all cobblestone options)
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.
   - Verify licence of all mods in modpack.
@@ -60,7 +61,7 @@
 - Ice Block: add to more pokemon drops.
 - Tree Bark from Create Log Cutting Recipes
 - More organic compost recipes
-- Evo stones from cobblegen (dripstone moon stone).
+- Evo stones from cobblegen (dripstone moon stone), netherrack fire stone, etc.
 
 ## Low Priority
 
