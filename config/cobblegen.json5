@@ -496,7 +496,7 @@
 					"weight": 20.0
 				}
 			],
-			"create:gold_block": [
+			"minecraft:gold_block": [
 				{
 					"id": "create:ochrum",
 					"weight": 80.0
