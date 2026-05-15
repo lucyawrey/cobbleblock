@@ -38,7 +38,7 @@ hash = "4e15949f900f62b0fcbffeae52ee251351c94fa649e9c09c982e2c357ac3820c"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "5a571aaec8500cae18fdc52df95855450f32451bf1e6447b1ca60f29751528f7"
+hash = "af29ea54e61f773088bdde3e77d8584cea93643599401c49d1d5fc8cba186977"
 
 [[files]]
 file = "config/cobblemon/spawning/best-spawner-config.json"
@@ -110,7 +110,7 @@ hash = "2a1efa0a9ea23673047ceadc82b048c60e030b4385042c26eaa3df488178610d"
 
 [[files]]
 file = "config/rctmod-server.toml"
-hash = "1c4f95498f9ed5fa55a108cf9536a29ba72f26f5eacc8df8520e42c387306171"
+hash = "c861d4d2ff61007c4d33621d1bf1bdfa36e9ef30484b3f8dfe7313c7be8d4fcd"
 
 [[files]]
 file = "config/simpletms/main.json"
