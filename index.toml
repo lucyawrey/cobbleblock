@@ -26,7 +26,7 @@ hash = "77a3ded19da0f3719a875842c85ff3b6cb2204896a5c65d6c0374934d28a4d20"
 
 [[files]]
 file = "config/cobblegen.json5"
-hash = "0be0922595f478ab692b86b1e22565579b195c3ac5037957ca3abb9f3e3e2a28"
+hash = "31812bd9f829246fd4265baf72f762f301c0961b403f69c74b9af80a6e7da553"
 
 [[files]]
 file = "config/cobblemon-battle-extras-server.json"
@@ -6583,11 +6583,11 @@ hash = "818d0f53a9022931fab57fb9ea3fb91ea53b3e1726107afec727cb03045716fd"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0170_chinchou.json"
-hash = "b68ade5ef5943ef084abb94088c4ee1c93f734f2403b1e3fc0fdd42aa06d91f7"
+hash = "6a718b7d7b8321e1606d54fdf5b7ab0c08bfc4779d9e8134226e32a1f85b6661"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0171_lanturn.json"
-hash = "a51617b767ce4c62a6394a79dfdf9e4a37aa06b439d0c544e59a4f47037fa244"
+hash = "70e93b0e4961ae3d16904662da71312b6cef972caadf2550db6a8fd68e61029c"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0172_pichu.json"
@@ -7459,11 +7459,11 @@ hash = "0216407b1de2ba4acf697e53d9e5ca67e08bf03a06ebdf9abde540e5768482b4"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0349_feebas.json"
-hash = "7f36b752b74452797e8863acdd6b48cd0fd6d4afcba2fc2966f275aa4ff321a1"
+hash = "b73bfed7702c16445d30c87666f61f216c44987d06d818106596f899e9e9099b"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0350_milotic.json"
-hash = "b5e9c01d2565756fd125405148681c7e75d93f3ae2a12886206565e14834ba40"
+hash = "4abcbe815f73e1117a0fd4dfa6c6e0b8fb6a398610912cd2eec129d4b109b3d9"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0351_castform.json"
@@ -7539,7 +7539,7 @@ hash = "7ea4fea3ad96bc767073cef5a523ab7d4f8de93ddeacfcb95d895e4b970470d0"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0366_clamperl.json"
-hash = "1ffe26180d24405e46ea462fb11e0e19dad5ed7f8e4930f041606922a9506415"
+hash = "706772ffb16eebcf563cb5fa2a1ed62baf630fb20eea2a2008ee885c8af6512c"
 
 [[files]]
 file = "resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0367_huntail.json"

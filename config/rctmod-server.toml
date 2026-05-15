@@ -3,7 +3,7 @@
 	#A global factor that determines if a spawn attempt for a trainer is made.
 	# Default: 0.85
 	# Range: 0.0 ~ 1.0
-	globalSpawnChance = 0.85
+	globalSpawnChance = 0.5
 	#━━━━━━━━━━
 	#The chance for a trainer to spawn will shrink towards this value based of how many
 	#trainers are already spawned in for a player. For example if a player has 0 trainers
@@ -57,7 +57,7 @@
 	#Spawn cap of trainers per player.
 	# Default: 12
 	# Range: 0 ~ 2147483646
-	maxTrainersPerPlayer = 12
+	maxTrainersPerPlayer = 6
 	#━━━━━━━━━━
 	#Total trainer spawn cap. This value may be increased for servers with higher expected
 	#player numbers (> 4), for example (|players| + 1)*maxTrainersPerPlayer.

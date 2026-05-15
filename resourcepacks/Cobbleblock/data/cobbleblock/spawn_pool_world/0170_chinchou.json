@@ -16,11 +16,7 @@
         "dimensions": [
           "minecraft:overworld"
         ],
-        "canSeeSky": true,
-        "neededNearbyBlocks": [
-          "minecraft:seagrass",
-          "minecraft:kelp_plant"
-        ]
+        "canSeeSky": true
       }
     },
     {

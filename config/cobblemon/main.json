@@ -23,7 +23,7 @@
   "spawningZoneDiameter": 10,
   "spawningZoneHeight": 16,
   "ticksBetweenSpawnAttempts": 20.0,
-  "minimumSpawningZoneDistanceFromPlayer": 8.0,
+  "minimumSpawningZoneDistanceFromPlayer": 6.0,
   "maximumSpawningZoneDistanceFromPlayer": 64.0,
   "maximumSpawnsPerPass": 8,
   "exportSpawnConfig": true,
