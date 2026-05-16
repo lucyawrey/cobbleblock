@@ -70,10 +70,10 @@ function villageCheck(player, level, blockRadius) {
   let traders = 0;
 
   let minX = player.x - blockRadius;
-  let minY = player.y - blockRadius;
+  let minY = player.y - blockRadius / 4;
   let minZ = player.z - blockRadius;
   let maxX = player.x + blockRadius;
-  let maxY = player.y + blockRadius;
+  let maxY = player.y + blockRadius / 4;
   let maxZ = player.z + blockRadius;
   for (let x = minX; x <= maxX; x++) {
     for (let y = minY; y <= maxY; y++) {
