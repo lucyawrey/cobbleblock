@@ -10,7 +10,7 @@ type SpawnType =
   | "lava";
 
 const outPath =
-  "../resourcepacks/Cobbleblock/data/cobbleblock/spawn_pool_world";
+  "../config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world";
 
 const presets: Record<
   SpawnType,

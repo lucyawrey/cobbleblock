@@ -1,7 +1,7 @@
 import { parse } from "csv-parse/sync";
 
 const outPath =
-  "../resourcepacks/Cobbleblock/data/cobbleblock/species_additions";
+  "../config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions";
 
 // Pull CSV from Google Sheets
 const target = `https://docs.google.com/spreadsheets/d/1FWfVOOkkR-UtFYkn13PoNO_Y5szipLEBCEys_gZecF0/gviz/tq?tqx=out:csv&sheet=drops`;

@@ -2,9 +2,9 @@ import { parse } from "csv-parse/sync";
 import { pullCsv } from "./lib";
 
 const gravelOutPath =
-  "../resourcepacks/Cobbleblock/data/cobbleblock/loot_table/archaeology/suspicious_gravel.json";
+  "../config/paxi/datapacks/Cobbleblock/data/cobbleblock/loot_table/archaeology/suspicious_gravel.json";
 const sandOutPath =
-  "../resourcepacks/Cobbleblock/data/cobbleblock/loot_table/archaeology/suspicious_sand.json";
+  "../config/paxi/datapacks/Cobbleblock/data/cobbleblock/loot_table/archaeology/suspicious_sand.json";
 const targetGravel = `https://docs.google.com/spreadsheets/d/1FWfVOOkkR-UtFYkn13PoNO_Y5szipLEBCEys_gZecF0/gviz/tq?tqx=out:csv&sheet=sus_gravel`;
 const targetSand = `https://docs.google.com/spreadsheets/d/1FWfVOOkkR-UtFYkn13PoNO_Y5szipLEBCEys_gZecF0/gviz/tq?tqx=out:csv&sheet=sus_sand`;
 const gravelSequence = "cobbleblock:archaeology/suspicious_gravel";
