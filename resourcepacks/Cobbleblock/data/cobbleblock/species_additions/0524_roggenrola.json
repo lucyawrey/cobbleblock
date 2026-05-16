@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:roggenrola",
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:raw_copper",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:hard_stone",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:everstone",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:black_augurite",
+        "percentage": 2.5
+      },
+      {
+        "item": "mega_showdown:rock_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:rock_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

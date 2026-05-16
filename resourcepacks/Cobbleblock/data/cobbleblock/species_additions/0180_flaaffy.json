@@ -1,0 +1,23 @@
+{
+  "target": "cobblemon:flaaffy",
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:white_wool"
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:electric_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:electric_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

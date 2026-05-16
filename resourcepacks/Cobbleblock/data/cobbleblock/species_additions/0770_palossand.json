@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:palossand",
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:sand",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:soft_sand",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:passho_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:ghost_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:ground_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:ghost_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:ground_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

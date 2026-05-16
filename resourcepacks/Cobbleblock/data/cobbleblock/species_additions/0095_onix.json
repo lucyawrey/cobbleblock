@@ -1,0 +1,40 @@
+{
+  "target": "cobblemon:onix",
+  "drops": {
+    "amount": 8,
+    "entries": [
+      {
+        "item": "minecraft:stone",
+        "quantityRange": "1-3"
+      },
+      {
+        "item": "cobblemon:hard_stone",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:lagging_tail",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:passho_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "mega_showdown:rock_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:ground_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:rock_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:ground_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

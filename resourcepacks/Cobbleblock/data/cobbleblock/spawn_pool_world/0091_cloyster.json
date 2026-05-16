@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cloyster-1",
+      "pokemon": "cloyster",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.5,
+      "level": "26-53",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

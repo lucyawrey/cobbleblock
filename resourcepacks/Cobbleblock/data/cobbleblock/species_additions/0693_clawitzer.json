@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:clawitzer",
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "mega_showdown:water_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:water_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

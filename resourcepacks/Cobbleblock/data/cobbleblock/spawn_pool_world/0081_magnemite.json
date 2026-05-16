@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "magnemite-1",
+      "pokemon": "magnemite",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 84,
+      "level": "8-33",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:lightning_rod",
+          "minecraft:iron_block",
+          "minecraft:copper_block",
+          "minecraft:exposed_copper",
+          "minecraft:weathered_copper",
+          "minecraft:oxidized_copper"
+        ]
+      }
+    }
+  ]
+}

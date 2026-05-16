@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:corviknight",
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:metal_coat",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:wacan_berry",
+        "percentage": 10
+      },
+      {
+        "item": "mega_showdown:flying_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:steel_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:flying_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:steel_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

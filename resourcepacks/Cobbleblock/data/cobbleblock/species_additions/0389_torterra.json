@@ -1,0 +1,39 @@
+{
+  "target": "cobblemon:torterra",
+  "drops": {
+    "amount": 8,
+    "entries": [
+      {
+        "item": "minecraft:oak_sapling"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 25
+      },
+      {
+        "item": "minecraft:apple",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:moss_block",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "mega_showdown:grass_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:ground_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:grass_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:ground_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

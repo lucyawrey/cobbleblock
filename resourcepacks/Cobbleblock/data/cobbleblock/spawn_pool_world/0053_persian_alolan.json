@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "persian-alolan-1",
+      "pokemon": "persian alolan",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 6,
+      "level": "28-44",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:sand",
+          "minecraft:sugar_cane"
+        ]
+      }
+    }
+  ]
+}

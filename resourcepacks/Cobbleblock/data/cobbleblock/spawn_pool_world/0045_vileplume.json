@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "vileplume-1",
+      "pokemon": "vileplume",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.05,
+      "level": "35-49",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "#minecraft:jungle_logs",
+          "minecraft:jungle_leaves",
+          "minecraft:vine",
+          "minecraft:podzol",
+          "minecraft:short_grass",
+          "minecraft:tall_grass"
+        ]
+      }
+    }
+  ]
+}

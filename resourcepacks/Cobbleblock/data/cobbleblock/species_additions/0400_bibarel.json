@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:bibarel",
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:stick",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:normal_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:water_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:normal_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:water_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "gardevoir-1",
+      "pokemon": "gardevoir",
+      "type": "pokemon",
+      "bucket": "rare",
+      "weight": 0.1875,
+      "level": "30-52",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#cobblemon:gemstones",
+          "minecraft:fern",
+          "minecraft:large_fern",
+          "#minecraft:spruce_logs",
+          "minecraft:spruce_leaves"
+        ]
+      }
+    }
+  ]
+}

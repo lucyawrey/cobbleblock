@@ -1,0 +1,20 @@
+{
+  "target": "cobblemon:kecleon",
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:normal_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:normal_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

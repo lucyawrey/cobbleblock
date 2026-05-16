@@ -1,0 +1,40 @@
+{
+  "target": "cobblemon:gardevoir",
+  "drops": {
+    "amount": 8,
+    "entries": [
+      {
+        "item": "minecraft:ender_pearl",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:dawn_stone",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:twisted_spoon",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:kasib_berry",
+        "percentage": 10
+      },
+      {
+        "item": "mega_showdown:psychic_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:fairy_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:psychic_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:fairy_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

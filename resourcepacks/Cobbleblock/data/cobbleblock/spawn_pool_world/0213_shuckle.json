@@ -1,0 +1,79 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "shuckle-1",
+      "pokemon": "shuckle",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 10,
+      "level": "16-51",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:azalea",
+          "minecraft:flowering_azalea",
+          "minecraft:azalea_leaves",
+          "minecraft:flowering_azalea_leaves",
+          "minecraft:hanging_roots",
+          "minecraft:moss_block",
+          "minecraft:big_dripleaf",
+          "minecraft:small_dripleaf"
+        ]
+      }
+    },
+    {
+      "id": "shuckle-2",
+      "pokemon": "shuckle",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 10,
+      "level": "16-51",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "shuckle-3",
+      "pokemon": "shuckle",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 10,
+      "level": "16-51",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": false,
+        "neededNearbyBlocks": [
+          "minecraft:azalea",
+          "minecraft:flowering_azalea",
+          "minecraft:azalea_leaves",
+          "minecraft:flowering_azalea_leaves",
+          "minecraft:hanging_roots",
+          "minecraft:moss_block",
+          "minecraft:big_dripleaf",
+          "minecraft:small_dripleaf"
+        ]
+      }
+    }
+  ]
+}

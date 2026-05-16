@@ -1,0 +1,28 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "qwilfish-hisuian-1",
+      "pokemon": "qwilfish hisuian",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 8.4,
+      "level": "19-44",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:sea_pickle",
+          "#minecraft:coral_blocks",
+          "#minecraft:corals"
+        ]
+      }
+    }
+  ]
+}

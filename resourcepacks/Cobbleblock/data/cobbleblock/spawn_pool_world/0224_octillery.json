@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "octillery-1",
+      "pokemon": "octillery",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 1,
+      "level": "25-48",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

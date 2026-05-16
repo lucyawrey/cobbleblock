@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:igglybuff",
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "cobblemon:moon_stone",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:air_balloon",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "mega_showdown:normal_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:fairy_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:normal_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:fairy_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

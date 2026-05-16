@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "marowak-alolan-1",
+      "pokemon": "marowak alolan",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.6,
+      "level": "28-43",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:basalt",
+          "minecraft:magma_block"
+        ]
+      }
+    },
+    {
+      "id": "marowak-alolan-2",
+      "pokemon": "marowak alolan",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.6,
+      "level": "28-43",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:basalt",
+          "minecraft:magma_block"
+        ]
+      }
+    }
+  ]
+}

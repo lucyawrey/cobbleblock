@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:glimmet",
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "cobblemon:shuca_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:float_stone",
+        "percentage": 2.5
+      },
+      {
+        "item": "minecraft:amethyst_shard",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "mega_showdown:rock_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:poison_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:rock_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:poison_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

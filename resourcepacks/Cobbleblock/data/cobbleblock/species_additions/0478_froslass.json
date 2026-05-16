@@ -1,0 +1,40 @@
+{
+  "target": "cobblemon:froslass",
+  "drops": {
+    "amount": 8,
+    "entries": [
+      {
+        "item": "minecraft:snowball",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:dawn_stone",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:never_melt_ice",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:babiri_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:ice_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:ghost_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:ice_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:ghost_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

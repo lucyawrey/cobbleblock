@@ -1,0 +1,24 @@
+{
+  "target": "cobblemon:grapploct",
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:ink_sac",
+        "quantityRange": "2-4"
+      },
+      {
+        "item": "cobblemon:pinap_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:fighting_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:fighting_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

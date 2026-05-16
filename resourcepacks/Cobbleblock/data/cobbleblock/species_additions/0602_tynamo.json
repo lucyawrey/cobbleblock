@@ -1,0 +1,20 @@
+{
+  "target": "cobblemon:tynamo",
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "mega_showdown:electric_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:electric_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

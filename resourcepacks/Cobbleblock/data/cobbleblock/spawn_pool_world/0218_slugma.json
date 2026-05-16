@@ -1,0 +1,39 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "slugma-1",
+      "pokemon": "slugma",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 6,
+      "level": "1-25",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:basalt",
+          "minecraft:magma_block",
+          "minecraft:netherrack",
+          "minecraft:lava"
+        ]
+      }
+    },
+    {
+      "id": "slugma-2",
+      "pokemon": "slugma",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 6,
+      "level": "1-25",
+      "spawnablePositionType": "surface",
+      "condition": {
+        "fluid": "#minecraft:lava"
+      }
+    }
+  ]
+}

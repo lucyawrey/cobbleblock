@@ -1,0 +1,20 @@
+{
+  "target": "cobblemon:rampardos",
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "mega_showdown:rock_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:rock_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

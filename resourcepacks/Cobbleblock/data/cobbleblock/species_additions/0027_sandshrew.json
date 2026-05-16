@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:sandshrew",
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:armadillo_scute",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:grip_claw",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:quick_claw",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:soft_sand",
+        "percentage": 2.5
+      },
+      {
+        "item": "mega_showdown:ground_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:ground_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

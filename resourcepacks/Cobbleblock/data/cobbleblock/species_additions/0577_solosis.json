@@ -1,0 +1,24 @@
+{
+  "target": "cobblemon:solosis",
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "mega_showdown:psychic_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:psychic_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

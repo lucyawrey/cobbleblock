@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ekans-snake-pattern-classic-1",
+      "pokemon": "ekans snake_pattern=classic",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 4.05,
+      "level": "4-29",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#minecraft:sand",
+          "minecraft:dead_bush"
+        ]
+      }
+    }
+  ]
+}

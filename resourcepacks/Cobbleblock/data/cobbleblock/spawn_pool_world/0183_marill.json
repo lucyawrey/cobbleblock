@@ -1,0 +1,66 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "marill-1",
+      "pokemon": "marill",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.9,
+      "level": "14-25",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:water",
+          "#minecraft:flowers"
+        ]
+      }
+    },
+    {
+      "id": "marill-2",
+      "pokemon": "marill",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.9,
+      "level": "14-25",
+      "spawnablePositionType": "surface",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:water",
+          "#minecraft:flowers"
+        ]
+      }
+    },
+    {
+      "id": "marill-3",
+      "pokemon": "marill",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.9,
+      "level": "14-25",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

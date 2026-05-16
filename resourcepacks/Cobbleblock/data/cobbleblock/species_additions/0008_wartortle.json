@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:wartortle",
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:turtle_scute",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:sugar_cane",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:lily_pad",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:prismarine_shard",
+        "percentage": 10
+      },
+      {
+        "item": "mega_showdown:water_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:water_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

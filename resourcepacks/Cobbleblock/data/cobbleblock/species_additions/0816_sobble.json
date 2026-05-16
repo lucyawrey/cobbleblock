@@ -1,0 +1,20 @@
+{
+  "target": "cobblemon:sobble",
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:water_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:water_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

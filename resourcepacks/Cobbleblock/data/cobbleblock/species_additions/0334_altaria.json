@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:altaria",
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:white_wool",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:dragon_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:flying_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:dragon_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:flying_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

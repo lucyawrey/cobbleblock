@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "wooper-wooper-heart-true-1",
+      "pokemon": "wooper wooper_heart=true",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 10,
+      "level": "1-21",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

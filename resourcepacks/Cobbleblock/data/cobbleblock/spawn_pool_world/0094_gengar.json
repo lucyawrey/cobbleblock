@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "gengar-1",
+      "pokemon": "gengar",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.05,
+      "level": "36-50",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:dark_oak_logs",
+          "minecraft:dark_oak_leaves",
+          "minecraft:peony",
+          "minecraft:lilac",
+          "minecraft:rose_bush",
+          "#cobblemon:mansion_blocks",
+          "minecraft:netherrack"
+        ]
+      }
+    }
+  ]
+}

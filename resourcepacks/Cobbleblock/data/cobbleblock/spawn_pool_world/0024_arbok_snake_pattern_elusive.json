@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "arbok-snake-pattern-elusive-1",
+      "pokemon": "arbok snake_pattern=elusive",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.03,
+      "level": "22-45",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#minecraft:sand",
+          "minecraft:dead_bush"
+        ]
+      }
+    }
+  ]
+}

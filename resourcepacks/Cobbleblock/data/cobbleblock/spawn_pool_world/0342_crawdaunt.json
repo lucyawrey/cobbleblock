@@ -1,0 +1,46 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "crawdaunt-1",
+      "pokemon": "crawdaunt",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.6,
+      "level": "30-47",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#minecraft:sand",
+          "minecraft:tall_grass",
+          "minecraft:short_grass"
+        ]
+      }
+    },
+    {
+      "id": "crawdaunt-2",
+      "pokemon": "crawdaunt",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.6,
+      "level": "30-47",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

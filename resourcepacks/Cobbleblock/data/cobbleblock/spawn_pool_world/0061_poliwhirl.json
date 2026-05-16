@@ -1,0 +1,67 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "poliwhirl-1",
+      "pokemon": "poliwhirl",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.95,
+      "level": "25-39",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isRaining": true,
+        "neededNearbyBlocks": [
+          "minecraft:lily_pad",
+          "minecraft:vine"
+        ]
+      }
+    },
+    {
+      "id": "poliwhirl-2",
+      "pokemon": "poliwhirl",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.95,
+      "level": "25-39",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:lily_pad",
+          "minecraft:vine"
+        ]
+      }
+    },
+    {
+      "id": "poliwhirl-3",
+      "pokemon": "poliwhirl",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.95,
+      "level": "25-39",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "isRaining": true
+      }
+    }
+  ]
+}

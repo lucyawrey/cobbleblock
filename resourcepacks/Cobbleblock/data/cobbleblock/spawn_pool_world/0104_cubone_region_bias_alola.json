@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cubone-region-bias-alola-1",
+      "pokemon": "cubone region_bias=alola",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 5.4,
+      "level": "7-32",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:basalt",
+          "minecraft:magma_block"
+        ]
+      }
+    },
+    {
+      "id": "cubone-region-bias-alola-2",
+      "pokemon": "cubone region_bias=alola",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 5.4,
+      "level": "7-32",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:basalt",
+          "minecraft:magma_block"
+        ]
+      }
+    }
+  ]
+}

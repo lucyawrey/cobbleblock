@@ -1,0 +1,24 @@
+{
+  "target": "cobblemon:falinks",
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:golden_helmet",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:nanab_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:fighting_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:fighting_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

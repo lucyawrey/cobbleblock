@@ -1,0 +1,35 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "skarmory-1",
+      "pokemon": "skarmory",
+      "type": "pokemon",
+      "bucket": "rare",
+      "weight": 10,
+      "level": "22-47",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:red_sand",
+          "#minecraft:terracotta",
+          "minecraft:dead_bush",
+          "minecraft:cactus",
+          "minecraft:iron_block",
+          "minecraft:iron_bars"
+        ]
+      }
+    }
+  ]
+}

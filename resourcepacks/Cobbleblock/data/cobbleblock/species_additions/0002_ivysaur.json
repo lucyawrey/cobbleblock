@@ -1,0 +1,44 @@
+{
+  "target": "cobblemon:ivysaur",
+  "drops": {
+    "amount": 9,
+    "entries": [
+      {
+        "item": "minecraft:melon_seeds",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:wheat_seeds",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:revival_herb",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:vivichoke_seeds",
+        "percentage": 10
+      },
+      {
+        "item": "mega_showdown:grass_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:poison_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:grass_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:poison_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

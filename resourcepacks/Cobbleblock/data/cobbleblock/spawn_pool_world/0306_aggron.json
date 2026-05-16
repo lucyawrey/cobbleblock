@@ -1,0 +1,28 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "aggron-1",
+      "pokemon": "aggron",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.1,
+      "level": "42-53",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:iron_ores",
+          "minecraft:iron_block"
+        ]
+      }
+    }
+  ]
+}

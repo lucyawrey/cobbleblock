@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:heracross",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:coba_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:bug_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:fighting_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:bug_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:fighting_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

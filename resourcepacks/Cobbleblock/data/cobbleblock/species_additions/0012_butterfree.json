@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:butterfree",
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "cobblemon:silver_powder",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:shed_shell",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:wepear_berry",
+        "percentage": 15
+      },
+      {
+        "item": "mega_showdown:bug_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:flying_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:bug_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:flying_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

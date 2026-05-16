@@ -1,0 +1,24 @@
+{
+  "target": "cobblemon:jolteon",
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "cobblemon:thunder_stone",
+        "percentage": 25
+      },
+      {
+        "item": "cobblemon:magnet",
+        "percentage": 10
+      },
+      {
+        "item": "mega_showdown:electric_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:electric_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

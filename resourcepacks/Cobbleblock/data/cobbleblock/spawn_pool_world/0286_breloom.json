@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "breloom-1",
+      "pokemon": "breloom",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.2,
+      "level": "23-46",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:mycelium",
+          "minecraft:brown_mushroom",
+          "minecraft:red_mushroom",
+          "minecraft:mushroom_stem",
+          "minecraft:brown_mushroom_block",
+          "minecraft:red_mushroom_block"
+        ]
+      }
+    }
+  ]
+}

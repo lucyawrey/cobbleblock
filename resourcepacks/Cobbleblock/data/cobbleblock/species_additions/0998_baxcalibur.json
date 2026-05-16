@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:baxcalibur",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 10
+      },
+      {
+        "item": "mega_showdown:dragon_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:ice_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:dragon_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:ice_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

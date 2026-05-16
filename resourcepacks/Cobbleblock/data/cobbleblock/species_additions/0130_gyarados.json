@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:gyarados",
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:kelp",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:wacan_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:water_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:flying_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:water_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:flying_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

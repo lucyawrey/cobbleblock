@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "meowth-alolan-1",
+      "pokemon": "meowth alolan",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 54,
+      "level": "4-29",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:sand",
+          "minecraft:sugar_cane"
+        ]
+      }
+    }
+  ]
+}

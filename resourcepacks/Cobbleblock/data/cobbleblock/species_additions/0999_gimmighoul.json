@@ -1,0 +1,20 @@
+{
+  "target": "cobblemon:gimmighoul",
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:relic_coin",
+        "quantityRange": "14-38"
+      },
+      {
+        "item": "mega_showdown:ghost_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:ghost_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

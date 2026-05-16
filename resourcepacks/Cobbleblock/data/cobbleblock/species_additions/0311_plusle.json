@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:plusle",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:magnet",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:cell_battery",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:electric_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:electric_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

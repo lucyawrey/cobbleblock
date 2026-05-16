@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "miltank-mooshtank-brown-1",
+      "pokemon": "miltank mooshtank=brown",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.1,
+      "level": "24-49",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:mycelium",
+          "minecraft:brown_mushroom",
+          "minecraft:mushroom_stem",
+          "minecraft:brown_mushroom_block"
+        ]
+      }
+    }
+  ]
+}

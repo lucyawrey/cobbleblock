@@ -1,0 +1,40 @@
+{
+  "target": "cobblemon:combee",
+  "drops": {
+    "amount": 8,
+    "entries": [
+      {
+        "item": "minecraft:honey_bottle",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:honeycomb",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:charti_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "mega_showdown:bug_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:flying_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:bug_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:flying_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

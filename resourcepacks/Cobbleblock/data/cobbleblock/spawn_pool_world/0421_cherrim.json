@@ -1,0 +1,35 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cherrim-1",
+      "pokemon": "cherrim",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.25,
+      "level": "25-49",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:fern",
+          "minecraft:large_fern",
+          "minecraft:sweet_berry_bush",
+          "#minecraft:spruce_logs",
+          "minecraft:spruce_leaves",
+          "#minecraft:cherry_logs",
+          "minecraft:cherry_leaves"
+        ]
+      }
+    }
+  ]
+}

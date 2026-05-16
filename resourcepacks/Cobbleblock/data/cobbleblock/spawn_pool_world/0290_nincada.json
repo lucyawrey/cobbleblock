@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "nincada-1",
+      "pokemon": "nincada",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 10,
+      "level": "2-27",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minLight": 0,
+        "maxLight": 7,
+        "canSeeSky": true,
+        "minY": 1,
+        "neededNearbyBlocks": [
+          "#minecraft:jungle_logs",
+          "minecraft:jungle_leaves",
+          "minecraft:vine"
+        ]
+      }
+    }
+  ]
+}

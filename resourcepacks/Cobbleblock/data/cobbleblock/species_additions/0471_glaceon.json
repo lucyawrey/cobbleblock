@@ -1,0 +1,24 @@
+{
+  "target": "cobblemon:glaceon",
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "cobblemon:ice_stone",
+        "percentage": 25
+      },
+      {
+        "item": "cobblemon:never_melt_ice",
+        "percentage": 10
+      },
+      {
+        "item": "mega_showdown:ice_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:ice_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

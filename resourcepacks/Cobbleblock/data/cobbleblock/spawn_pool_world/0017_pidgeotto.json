@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pidgeotto-1",
+      "pokemon": "pidgeotto",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.9,
+      "level": "18-35",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#minecraft:leaves",
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#cobblemon:trees",
+          "#c:fences"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "target": "cobblemon:delphox",
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:stick"
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 25
+      },
+      {
+        "item": "mega_showdown:fire_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:psychic_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:fire_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:psychic_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "snover-1",
+      "pokemon": "snover",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 7,
+      "level": "7-32",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:fern",
+          "minecraft:large_fern",
+          "#minecraft:spruce_logs",
+          "minecraft:spruce_leaves",
+          "minecraft:snow",
+          "minecraft:snow_block"
+        ]
+      }
+    }
+  ]
+}

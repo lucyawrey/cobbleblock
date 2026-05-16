@@ -1,0 +1,27 @@
+{
+  "target": "cobblemon:genesect",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:metal_coat"
+      },
+      {
+        "item": "mega_showdown:bug_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:steel_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:bug_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:steel_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cherrim-blossom-form-sunshine-1",
+      "pokemon": "cherrim blossom_form=sunshine",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 1,
+      "level": "25-39",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:fern",
+          "minecraft:large_fern",
+          "minecraft:sweet_berry_bush",
+          "#minecraft:spruce_logs",
+          "minecraft:spruce_leaves",
+          "#minecraft:cherry_logs",
+          "minecraft:cherry_leaves"
+        ]
+      }
+    }
+  ]
+}

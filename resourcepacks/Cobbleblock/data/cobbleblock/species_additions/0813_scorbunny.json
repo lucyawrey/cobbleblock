@@ -1,0 +1,20 @@
+{
+  "target": "cobblemon:scorbunny",
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:fire_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:fire_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

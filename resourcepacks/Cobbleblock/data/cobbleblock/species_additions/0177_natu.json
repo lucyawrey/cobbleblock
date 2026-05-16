@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:natu",
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:wise_glasses",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "mega_showdown:psychic_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:flying_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:psychic_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:flying_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

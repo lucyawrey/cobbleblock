@@ -1,0 +1,52 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "farfetchd-1",
+      "pokemon": "farfetchd",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 10,
+      "level": "13-38",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#minecraft:leaves",
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "cobblemon:medicinal_leek"
+        ]
+      }
+    },
+    {
+      "id": "farfetchd-2",
+      "pokemon": "farfetchd",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 10,
+      "level": "13-38",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "cobblemon:medicinal_leek"
+        ]
+      }
+    }
+  ]
+}

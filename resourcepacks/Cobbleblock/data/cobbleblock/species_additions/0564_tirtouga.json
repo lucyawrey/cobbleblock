@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:tirtouga",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:turtle_scute",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "mega_showdown:water_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:rock_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:water_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:rock_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

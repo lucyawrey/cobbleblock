@@ -1,0 +1,48 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "graveler-alolan-1",
+      "pokemon": "graveler alolan",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.95,
+      "level": "25-39",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:iron_ores"
+        ]
+      }
+    },
+    {
+      "id": "graveler-alolan-2",
+      "pokemon": "graveler alolan",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.95,
+      "level": "25-39",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": false,
+        "neededNearbyBlocks": [
+          "#minecraft:iron_ores"
+        ]
+      }
+    }
+  ]
+}

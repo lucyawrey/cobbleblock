@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:golett",
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:clay_ball",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:light_clay",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:colbur_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "mega_showdown:ground_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:ghost_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:ground_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:ghost_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "munchlax-1",
+      "pokemon": "munchlax",
+      "type": "pokemon",
+      "bucket": "rare",
+      "weight": 7.5,
+      "level": "24-39",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#minecraft:beds",
+          "minecraft:cake",
+          "#cobblemon:saccharine_trees",
+          "minecraft:honey_block",
+          "minecraft:beehive",
+          "minecraft:bee_nest"
+        ]
+      }
+    }
+  ]
+}

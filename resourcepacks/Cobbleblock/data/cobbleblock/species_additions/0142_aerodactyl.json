@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:aerodactyl",
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:rocky_helmet",
+        "percentage": 10
+      },
+      {
+        "item": "mega_showdown:rock_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:flying_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:rock_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:flying_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

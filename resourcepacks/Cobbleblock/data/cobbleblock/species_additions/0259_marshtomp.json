@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:marshtomp",
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:clay_ball",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 10
+      },
+      {
+        "item": "mega_showdown:water_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:ground_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:water_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:ground_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

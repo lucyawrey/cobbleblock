@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:horsea",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:ink_sac",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:dragon_scale",
+        "percentage": 2.5
+      },
+      {
+        "item": "minecraft:prismarine_shard",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "mega_showdown:water_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:water_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

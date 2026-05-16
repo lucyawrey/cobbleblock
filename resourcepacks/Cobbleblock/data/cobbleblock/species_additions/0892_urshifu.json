@@ -1,0 +1,24 @@
+{
+  "target": "cobblemon:urshifu",
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "mega_showdown:fighting_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:dark_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:fighting_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:dark_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

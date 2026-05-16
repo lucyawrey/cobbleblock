@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:pincurchin",
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "mega_showdown:electric_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:electric_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

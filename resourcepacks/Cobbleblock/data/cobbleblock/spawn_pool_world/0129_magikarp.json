@@ -1,0 +1,54 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "magikarp-1",
+      "pokemon": "magikarp",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 9.9,
+      "level": "1-20",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "magikarp-2",
+      "pokemon": "magikarp",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 9.9,
+      "level": "1-20",
+      "spawnablePositionType": "surface",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "magikarp-3",
+      "pokemon": "magikarp",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 9.9,
+      "level": "1-20",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

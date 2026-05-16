@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:carkol",
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:coal",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:black_augurite",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:passho_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:rock_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:fire_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:rock_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:fire_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

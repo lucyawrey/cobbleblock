@@ -1,0 +1,26 @@
+{
+  "target": "cobblemon:gulpin",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:black_sludge"
+      },
+      {
+        "item": "minecraft:oran_berry"
+      },
+      {
+        "item": "mega_showdown:poison_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:poison_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

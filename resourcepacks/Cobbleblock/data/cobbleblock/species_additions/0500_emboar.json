@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:emboar",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 25
+      },
+      {
+        "item": "mega_showdown:fire_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:fighting_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:fire_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:fighting_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

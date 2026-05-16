@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:jumpluff",
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:white_wool",
+        "quantityRange": "1-3"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 10
+      },
+      {
+        "item": "mega_showdown:grass_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:flying_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:grass_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:flying_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

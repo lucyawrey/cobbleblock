@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "tangela-1",
+      "pokemon": "tangela",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 1.8,
+      "level": "19-44",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#minecraft:jungle_logs",
+          "minecraft:jungle_leaves",
+          "minecraft:vine",
+          "minecraft:tall_grass",
+          "minecraft:short_grass"
+        ]
+      }
+    }
+  ]
+}

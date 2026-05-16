@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:cacnea",
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:cactus",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:tanga_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:sticky_barb",
+        "percentage": 2.5
+      },
+      {
+        "item": "mega_showdown:grass_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:grass_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:annihilape",
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "cobblemon:muscle_band",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:payapa_berry",
+        "percentage": 10
+      },
+      {
+        "item": "mega_showdown:fighting_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:ghost_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:fighting_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:ghost_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

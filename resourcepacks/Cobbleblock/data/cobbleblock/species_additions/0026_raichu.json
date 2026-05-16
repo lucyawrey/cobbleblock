@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:raichu",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:light_ball",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:thunder_stone",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 10
+      },
+      {
+        "item": "mega_showdown:electric_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:electric_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

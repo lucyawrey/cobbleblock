@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ekans-snake-pattern-sound-1",
+      "pokemon": "ekans snake_pattern=sound",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.27,
+      "level": "4-29",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#minecraft:sand",
+          "minecraft:dead_bush"
+        ]
+      }
+    }
+  ]
+}

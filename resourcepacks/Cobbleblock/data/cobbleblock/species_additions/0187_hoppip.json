@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:hoppip",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "mega_showdown:grass_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:flying_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:grass_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:flying_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kadabra-1",
+      "pokemon": "kadabra",
+      "type": "pokemon",
+      "bucket": "rare",
+      "weight": 2.375,
+      "level": "16-40",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:tall_grass",
+          "minecraft:short_grass",
+          "minecraft:fern",
+          "#cobblemon:gemstones"
+        ]
+      }
+    }
+  ]
+}

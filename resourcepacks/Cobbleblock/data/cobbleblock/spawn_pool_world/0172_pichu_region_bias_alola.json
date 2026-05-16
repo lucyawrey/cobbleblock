@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pichu-region-bias-alola-1",
+      "pokemon": "pichu region_bias=alola",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 1.68,
+      "level": "16-32",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:sand",
+          "minecraft:sugar_cane",
+          "minecraft:water"
+        ]
+      }
+    }
+  ]
+}

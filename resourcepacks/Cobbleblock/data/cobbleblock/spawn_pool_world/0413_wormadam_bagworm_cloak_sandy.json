@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "wormadam-bagworm-cloak-sandy-1",
+      "pokemon": "wormadam bagworm_cloak=sandy",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.5,
+      "level": "20-65",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#minecraft:sand",
+          "minecraft:dead_bush"
+        ]
+      }
+    }
+  ]
+}

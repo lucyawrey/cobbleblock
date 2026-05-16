@@ -1,0 +1,37 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "parasect-1",
+      "pokemon": "parasect",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 1.6,
+      "level": "24-41",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:azalea",
+          "minecraft:flowering_azalea",
+          "minecraft:azalea_leaves",
+          "minecraft:flowering_azalea_leaves",
+          "minecraft:hanging_roots",
+          "minecraft:moss_block",
+          "minecraft:big_dripleaf",
+          "minecraft:small_dripleaf",
+          "minecraft:mycelium",
+          "minecraft:brown_mushroom",
+          "minecraft:red_mushroom",
+          "minecraft:mushroom_stem",
+          "minecraft:brown_mushroom_block",
+          "minecraft:red_mushroom_block"
+        ]
+      }
+    }
+  ]
+}

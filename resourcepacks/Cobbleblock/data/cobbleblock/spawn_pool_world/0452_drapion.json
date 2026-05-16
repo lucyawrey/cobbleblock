@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "drapion-1",
+      "pokemon": "drapion",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.2,
+      "level": "40-50",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:red_sand",
+          "#minecraft:terracotta",
+          "minecraft:dead_bush",
+          "minecraft:sandstone",
+          "minecraft:cactus"
+        ]
+      }
+    }
+  ]
+}

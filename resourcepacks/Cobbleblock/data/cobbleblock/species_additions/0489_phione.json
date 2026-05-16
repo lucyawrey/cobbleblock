@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:phione",
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "1-3"
+      },
+      {
+        "item": "minecraft:nether_star",
+        "percentage": 4
+      },
+      {
+        "item": "cobblemon:ability_capsule",
+        "percentage": 12.5
+      },
+      {
+        "item": "cobblemon:ability_patch",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:water_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:water_gem",
+        "percentage": 25
+      }
+    ]
+  }
+}

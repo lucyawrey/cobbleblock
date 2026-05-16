@@ -1,0 +1,19 @@
+{
+  "target": "cobblemon:regirock",
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:hard_stone"
+      },
+      {
+        "item": "mega_showdown:rock_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:rock_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

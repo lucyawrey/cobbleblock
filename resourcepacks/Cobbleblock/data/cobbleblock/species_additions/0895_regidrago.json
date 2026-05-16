@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:regidrago",
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "mega_showdown:dragon_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:dragon_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

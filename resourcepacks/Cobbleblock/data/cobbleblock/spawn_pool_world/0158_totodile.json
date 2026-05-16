@@ -1,0 +1,71 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "totodile-1",
+      "pokemon": "totodile",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 6,
+      "level": "5-31",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:lily_pad",
+          "minecraft:vine",
+          "minecraft:dead_bush",
+          "#minecraft:mangrove_logs",
+          "minecraft:mangrove_leaves"
+        ]
+      }
+    },
+    {
+      "id": "totodile-2",
+      "pokemon": "totodile",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 6,
+      "level": "5-31",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:lily_pad",
+          "minecraft:vine",
+          "minecraft:dead_bush",
+          "#minecraft:mangrove_logs",
+          "minecraft:mangrove_leaves"
+        ]
+      }
+    },
+    {
+      "id": "totodile-3",
+      "pokemon": "totodile",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 6,
+      "level": "5-31",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

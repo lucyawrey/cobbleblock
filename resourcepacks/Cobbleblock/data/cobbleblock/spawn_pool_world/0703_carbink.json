@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "carbink-1",
+      "pokemon": "carbink",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 100,
+      "level": "25-50",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:diamond_ores",
+          "minecraft:diamond_block"
+        ]
+      }
+    }
+  ]
+}

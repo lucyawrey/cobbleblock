@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:mamoswine",
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:brown_wool",
+        "quantityRange": "2-3"
+      },
+      {
+        "item": "cobblemon:never_melt_ice",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:aspear_berry",
+        "percentage": 10
+      },
+      {
+        "item": "mega_showdown:ice_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:ground_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:ice_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:ground_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

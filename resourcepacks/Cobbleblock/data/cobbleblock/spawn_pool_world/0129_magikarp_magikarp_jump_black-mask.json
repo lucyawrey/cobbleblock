@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "magikarp-magikarp-jump-black-mask-1",
+      "pokemon": "magikarp magikarp_jump=black-mask",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 2,
+      "level": "1-20",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

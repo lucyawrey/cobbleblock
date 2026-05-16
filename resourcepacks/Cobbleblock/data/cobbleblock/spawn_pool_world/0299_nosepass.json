@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "nosepass-1",
+      "pokemon": "nosepass",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 5.52,
+      "level": "13-38",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minLight": 0,
+        "maxLight": 7,
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "#minecraft:iron_ores",
+          "minecraft:iron_block"
+        ]
+      }
+    }
+  ]
+}

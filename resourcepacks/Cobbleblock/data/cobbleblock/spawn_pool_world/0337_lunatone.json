@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "lunatone-1",
+      "pokemon": "lunatone",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 10,
+      "level": "21-46",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:dripstone_block",
+          "minecraft:pointed_dripstone",
+          "minecraft:mud",
+          "cobblemon:moon_stone_block",
+          "#cobblemon:moon_stone_ores"
+        ]
+      }
+    }
+  ]
+}

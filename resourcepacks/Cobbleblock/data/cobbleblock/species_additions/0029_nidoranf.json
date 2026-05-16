@@ -1,0 +1,24 @@
+{
+  "target": "cobblemon:nidoranf",
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "mega_showdown:poison_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:poison_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:elekid",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:redstone",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:electirizer",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "mega_showdown:electric_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:electric_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "delcatty-1",
+      "pokemon": "delcatty",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 3,
+      "level": "15-55",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:dead_bush",
+          "#minecraft:flowers"
+        ]
+      }
+    }
+  ]
+}

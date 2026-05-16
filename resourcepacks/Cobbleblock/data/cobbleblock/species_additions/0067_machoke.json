@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:machoke",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:focus_band",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:muscle_band",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:wepear_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:fighting_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:fighting_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

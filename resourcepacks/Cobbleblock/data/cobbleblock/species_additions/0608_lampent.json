@@ -1,0 +1,35 @@
+{
+  "target": "cobblemon:lampent",
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:candle"
+      },
+      {
+        "item": "cobblemon:dusk_stone",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:ghost_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:fire_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:ghost_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:fire_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

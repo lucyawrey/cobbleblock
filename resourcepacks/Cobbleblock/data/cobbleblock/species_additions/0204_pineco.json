@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:pineco",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:spruce_sapling",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:occa_berry",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:iron_ball",
+        "percentage": 2.5
+      },
+      {
+        "item": "mega_showdown:bug_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:bug_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

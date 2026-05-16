@@ -1,0 +1,29 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "monferno-1",
+      "pokemon": "monferno",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 3.6,
+      "level": "14-41",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#minecraft:leaves",
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "#cobblemon:concrete_blocks",
+          "minecraft:torch",
+          "minecraft:fire",
+          "#minecraft:campfires",
+          "#minecraft:nylium"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "arbok-snake-pattern-dark-1",
+      "pokemon": "arbok snake_pattern=dark",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.6,
+      "level": "22-45",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:the_nether"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:soul_sand",
+          "minecraft:soul_soil"
+        ]
+      }
+    }
+  ]
+}

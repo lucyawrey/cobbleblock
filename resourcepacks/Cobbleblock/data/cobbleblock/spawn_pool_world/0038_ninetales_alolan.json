@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ninetales-alolan-1",
+      "pokemon": "ninetales alolan",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 0.48,
+      "level": "25-51",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:fern",
+          "minecraft:large_fern",
+          "#minecraft:spruce_logs",
+          "minecraft:spruce_leaves",
+          "minecraft:snow",
+          "minecraft:snow_block"
+        ]
+      }
+    }
+  ]
+}

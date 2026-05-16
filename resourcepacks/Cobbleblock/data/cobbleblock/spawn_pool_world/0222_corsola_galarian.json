@@ -1,0 +1,29 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "corsola-galarian-1",
+      "pokemon": "corsola galarian",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 1.68,
+      "level": "16-41",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:coral_blocks",
+          "#minecraft:corals",
+          "#cobblemon:dead_coral"
+        ]
+      }
+    }
+  ]
+}

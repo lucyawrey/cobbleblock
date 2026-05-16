@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:lumineon",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:rindo_berry",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:prism_scale",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:water_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:water_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

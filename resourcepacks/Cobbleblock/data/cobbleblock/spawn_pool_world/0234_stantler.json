@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "stantler-1",
+      "pokemon": "stantler",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 5.4,
+      "level": "22-47",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:fern",
+          "minecraft:large_fern",
+          "#minecraft:spruce_logs",
+          "minecraft:spruce_leaves",
+          "minecraft:snow",
+          "minecraft:snow_block"
+        ]
+      }
+    }
+  ]
+}

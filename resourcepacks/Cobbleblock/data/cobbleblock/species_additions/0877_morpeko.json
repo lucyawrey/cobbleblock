@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:morpeko",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:roseli_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:electric_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:dark_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:electric_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:dark_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

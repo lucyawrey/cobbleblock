@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "wingull-1",
+      "pokemon": "wingull",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 9,
+      "level": "2-27",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#minecraft:leaves",
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:sand",
+          "minecraft:sugar_cane",
+          "minecraft:seagrass",
+          "minecraft:kelp_plant"
+        ]
+      }
+    }
+  ]
+}

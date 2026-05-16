@@ -1,0 +1,39 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "magcargo-1",
+      "pokemon": "magcargo",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.6,
+      "level": "38-43",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:basalt",
+          "minecraft:magma_block",
+          "minecraft:netherrack",
+          "minecraft:lava"
+        ]
+      }
+    },
+    {
+      "id": "magcargo-2",
+      "pokemon": "magcargo",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.6,
+      "level": "38-43",
+      "spawnablePositionType": "surface",
+      "condition": {
+        "fluid": "#minecraft:lava"
+      }
+    }
+  ]
+}

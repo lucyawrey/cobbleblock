@@ -1,0 +1,48 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "golem-alolan-1",
+      "pokemon": "golem alolan",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.05,
+      "level": "34-50",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:iron_ores"
+        ]
+      }
+    },
+    {
+      "id": "golem-alolan-2",
+      "pokemon": "golem alolan",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.05,
+      "level": "34-50",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": false,
+        "neededNearbyBlocks": [
+          "#minecraft:iron_ores"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:toedscool",
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:brown_mushroom",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "mega_showdown:ground_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:grass_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:ground_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:grass_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "omanyte-1",
+      "pokemon": "omanyte",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 6,
+      "level": "11-36",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minLight": 0,
+        "maxLight": 7,
+        "neededNearbyBlocks": [
+          "minecraft:azalea",
+          "minecraft:flowering_azalea",
+          "minecraft:azalea_leaves",
+          "minecraft:flowering_azalea_leaves",
+          "minecraft:hanging_roots",
+          "minecraft:moss_block",
+          "minecraft:big_dripleaf",
+          "minecraft:small_dripleaf"
+        ]
+      }
+    },
+    {
+      "id": "omanyte-2",
+      "pokemon": "omanyte",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 6,
+      "level": "11-36",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:azalea",
+          "minecraft:flowering_azalea",
+          "minecraft:azalea_leaves",
+          "minecraft:flowering_azalea_leaves",
+          "minecraft:hanging_roots",
+          "minecraft:moss_block",
+          "minecraft:big_dripleaf",
+          "minecraft:small_dripleaf"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:nidoqueen",
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 10
+      },
+      {
+        "item": "mega_showdown:poison_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:ground_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:poison_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:ground_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

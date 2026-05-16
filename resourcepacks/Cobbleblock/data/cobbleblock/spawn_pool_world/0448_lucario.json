@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "lucario-1",
+      "pokemon": "lucario",
+      "type": "pokemon",
+      "bucket": "rare",
+      "weight": 2.5,
+      "level": "24-53",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#cobblemon:gemstones",
+          "#minecraft:wool",
+          "minecraft:iron_block"
+        ]
+      }
+    }
+  ]
+}

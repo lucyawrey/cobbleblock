@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:muk",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:black_sludge",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:toxic_orb",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:poison_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:poison_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

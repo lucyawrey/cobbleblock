@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "luxio-1",
+      "pokemon": "luxio",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 1.44,
+      "level": "15-36",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:sandstone",
+          "minecraft:dead_bush",
+          "minecraft:cactus",
+          "#minecraft:acacia_logs",
+          "minecraft:acacia_leaves"
+        ]
+      }
+    }
+  ]
+}

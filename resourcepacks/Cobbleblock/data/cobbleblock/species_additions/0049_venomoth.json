@@ -1,0 +1,40 @@
+{
+  "target": "cobblemon:venomoth",
+  "drops": {
+    "amount": 8,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:silver_powder",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:shed_shell",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:bug_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:poison_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:bug_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:poison_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

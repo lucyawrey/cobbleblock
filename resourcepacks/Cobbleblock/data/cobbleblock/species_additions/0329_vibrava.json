@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:vibrava",
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "cobblemon:soft_sand",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:ground_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:dragon_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:ground_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:dragon_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

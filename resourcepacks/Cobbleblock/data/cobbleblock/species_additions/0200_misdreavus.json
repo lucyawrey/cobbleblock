@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:misdreavus",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:phantom_membrane",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:spell_tag",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:kasib_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "mega_showdown:ghost_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:ghost_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

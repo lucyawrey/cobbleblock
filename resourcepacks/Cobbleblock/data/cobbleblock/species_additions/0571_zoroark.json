@@ -1,0 +1,24 @@
+{
+  "target": "cobblemon:zoroark",
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:sweet_berries",
+        "quantityRange": "2-4"
+      },
+      {
+        "item": "cobblemon:roseli_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:dark_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:dark_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

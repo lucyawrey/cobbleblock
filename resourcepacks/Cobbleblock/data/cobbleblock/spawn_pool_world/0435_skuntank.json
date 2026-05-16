@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "skuntank-1",
+      "pokemon": "skuntank",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 8,
+      "level": "20-55",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:lily_pad",
+          "minecraft:vine",
+          "minecraft:tall_grass",
+          "minecraft:short_grass"
+        ]
+      }
+    }
+  ]
+}

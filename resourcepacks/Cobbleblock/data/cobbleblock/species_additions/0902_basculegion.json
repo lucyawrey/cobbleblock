@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:basculegion",
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:water_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:ghost_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:water_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:ghost_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "magby-1",
+      "pokemon": "magby",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 9,
+      "level": "11-36",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:lava",
+          "minecraft:magma_block",
+          "minecraft:basalt",
+          "minecraft:netherrack",
+          "minecraft:fire"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:hawlucha",
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "cobblemon:kings_rock",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:coba_berry",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:expert_belt",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:fighting_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:flying_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:fighting_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:flying_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

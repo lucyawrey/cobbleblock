@@ -1,0 +1,24 @@
+{
+  "target": "cobblemon:wailord",
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:bone_block",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:water_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:water_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

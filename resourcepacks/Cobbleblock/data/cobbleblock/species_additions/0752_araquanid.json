@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:araquanid",
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:wepear_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:water_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:bug_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:water_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:bug_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

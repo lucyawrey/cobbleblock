@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "magikarp-magikarp-jump-orange-two-tone-1",
+      "pokemon": "magikarp magikarp_jump=orange-two-tone",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 2,
+      "level": "1-20",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ]
+      }
+    }
+  ]
+}

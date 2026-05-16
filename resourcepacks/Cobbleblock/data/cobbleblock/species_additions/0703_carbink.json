@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:carbink",
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:diamond",
+        "percentage": 7.5
+      },
+      {
+        "item": "cobblemon:babiri_berry",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:float_stone",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:rock_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:fairy_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:rock_gem",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:fairy_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

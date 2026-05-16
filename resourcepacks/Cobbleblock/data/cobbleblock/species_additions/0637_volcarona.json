@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:volcarona",
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:blaze_powder",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:silver_powder",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:charti_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:bug_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:fire_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:bug_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:fire_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "swablu-1",
+      "pokemon": "swablu",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 8.4,
+      "level": "6-31",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#minecraft:leaves",
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#c:fences",
+          "#cobblemon:gemstones",
+          "#minecraft:wool"
+        ]
+      }
+    }
+  ]
+}

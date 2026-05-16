@@ -1,0 +1,71 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "croconaw-1",
+      "pokemon": "croconaw",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 3.6,
+      "level": "18-41",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:lily_pad",
+          "minecraft:vine",
+          "minecraft:dead_bush",
+          "#minecraft:mangrove_logs",
+          "minecraft:mangrove_leaves"
+        ]
+      }
+    },
+    {
+      "id": "croconaw-2",
+      "pokemon": "croconaw",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 3.6,
+      "level": "18-41",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:lily_pad",
+          "minecraft:vine",
+          "minecraft:dead_bush",
+          "#minecraft:mangrove_logs",
+          "minecraft:mangrove_leaves"
+        ]
+      }
+    },
+    {
+      "id": "croconaw-3",
+      "pokemon": "croconaw",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 3.6,
+      "level": "18-41",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

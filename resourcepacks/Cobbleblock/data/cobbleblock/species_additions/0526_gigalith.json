@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:gigalith",
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:raw_copper",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:hard_stone",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:everstone",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:black_augurite",
+        "percentage": 10
+      },
+      {
+        "item": "mega_showdown:rock_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:rock_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

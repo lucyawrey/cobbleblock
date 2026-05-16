@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hoothoot-1",
+      "pokemon": "hoothoot",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 9,
+      "level": "1-26",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#minecraft:leaves",
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "#minecraft:dark_oak_logs",
+          "minecraft:dark_oak_leaves",
+          "minecraft:peony",
+          "minecraft:lilac",
+          "minecraft:rose_bush"
+        ]
+      }
+    }
+  ]
+}

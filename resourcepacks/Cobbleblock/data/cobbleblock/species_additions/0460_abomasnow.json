@@ -1,0 +1,40 @@
+{
+  "target": "cobblemon:abomasnow",
+  "drops": {
+    "amount": 8,
+    "entries": [
+      {
+        "item": "minecraft:snowball",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "quantityRange": "2-4"
+      },
+      {
+        "item": "cobblemon:never_melt_ice",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:occa_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:grass_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:ice_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:grass_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:ice_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

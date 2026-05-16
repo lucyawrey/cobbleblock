@@ -1,0 +1,40 @@
+{
+  "target": "cobblemon:geodude",
+  "drops": {
+    "amount": 8,
+    "entries": [
+      {
+        "item": "minecraft:gravel",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:everstone",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:black_augurite",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:rindo_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:rock_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:ground_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:rock_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:ground_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "target": "cobblemon:nymble",
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:coba_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "mega_showdown:bug_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:bug_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

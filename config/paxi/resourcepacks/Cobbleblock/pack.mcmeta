@@ -1,0 +1,8 @@
+{
+    "pack": {
+        "description": "Datapack for Cobbleblock specific features.",
+        "pack_format": 48,
+        "min_format": 48,
+        "max_format": 48
+    }
+}

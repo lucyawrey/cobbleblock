@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sneasel-1",
+      "pokemon": "sneasel",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 9.2,
+      "level": "18-43",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:fern",
+          "minecraft:large_fern",
+          "minecraft:sweet_berry_bush",
+          "#minecraft:spruce_logs",
+          "minecraft:spruce_leaves"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "target": "cobblemon:parasect",
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:red_mushroom"
+      },
+      {
+        "item": "cobblemon:coba_berry",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:bug_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:grass_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:bug_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:grass_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

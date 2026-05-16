@@ -1,0 +1,42 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "murkrow-1",
+      "pokemon": "murkrow",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 9.5,
+      "level": "16-41",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#minecraft:leaves",
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#minecraft:dark_oak_logs",
+          "minecraft:dark_oak_leaves",
+          "minecraft:peony",
+          "minecraft:lilac",
+          "minecraft:rose_bush",
+          "#cobblemon:mansion_blocks",
+          "minecraft:lily_pad",
+          "minecraft:vine",
+          "minecraft:fern",
+          "minecraft:large_fern",
+          "minecraft:sweet_berry_bush",
+          "#minecraft:spruce_logs",
+          "minecraft:spruce_leaves"
+        ]
+      }
+    }
+  ]
+}

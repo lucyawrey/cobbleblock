@@ -1,0 +1,24 @@
+{
+  "target": "cobblemon:bidoof",
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:stick",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "mega_showdown:normal_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:normal_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

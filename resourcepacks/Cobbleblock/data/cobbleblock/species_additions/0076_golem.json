@@ -1,0 +1,40 @@
+{
+  "target": "cobblemon:golem",
+  "drops": {
+    "amount": 8,
+    "entries": [
+      {
+        "item": "minecraft:gravel",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:everstone",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:black_augurite",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:rindo_berry",
+        "percentage": 10
+      },
+      {
+        "item": "mega_showdown:rock_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:ground_tera_shard",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:rock_gem",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:ground_gem",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

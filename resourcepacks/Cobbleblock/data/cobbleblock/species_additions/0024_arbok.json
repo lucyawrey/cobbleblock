@@ -1,0 +1,20 @@
+{
+  "target": "cobblemon:arbok",
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:razor_fang",
+        "percentage": 5
+      },
+      {
+        "item": "mega_showdown:poison_tera_shard",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:poison_gem",
+        "percentage": 5
+      }
+    ]
+  }
+}

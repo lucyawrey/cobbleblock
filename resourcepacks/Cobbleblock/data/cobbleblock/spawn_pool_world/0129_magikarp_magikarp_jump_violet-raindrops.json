@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "magikarp-magikarp-jump-violet-raindrops-1",
+      "pokemon": "magikarp magikarp_jump=violet-raindrops",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 2,
+      "level": "1-20",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ]
+      }
+    }
+  ]
+}

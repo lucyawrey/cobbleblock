@@ -1,0 +1,63 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "vaporeon-1",
+      "pokemon": "vaporeon",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 1.2,
+      "level": "28-53",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ]
+      }
+    },
+    {
+      "id": "vaporeon-2",
+      "pokemon": "vaporeon",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 1.2,
+      "level": "28-53",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ]
+      }
+    },
+    {
+      "id": "vaporeon-3",
+      "pokemon": "vaporeon",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 1.2,
+      "level": "28-53",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

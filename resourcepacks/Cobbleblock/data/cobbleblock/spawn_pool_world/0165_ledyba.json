@@ -1,0 +1,56 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ledyba-1",
+      "pokemon": "ledyba",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 10,
+      "level": "2-27",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#minecraft:leaves",
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:grass_block",
+          "minecraft:podzol"
+        ]
+      }
+    },
+    {
+      "id": "ledyba-2",
+      "pokemon": "ledyba",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 10,
+      "level": "2-27",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:grass_block",
+          "minecraft:podzol"
+        ]
+      }
+    }
+  ]
+}
