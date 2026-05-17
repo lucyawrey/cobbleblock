@@ -170,7 +170,7 @@
                   "condition": "minecraft:survives_explosion"
                 },
                 {
-                  "chance": 0.003,
+                  "chance": 0.002,
                   "condition": "minecraft:random_chance"
                 }
               ],
@@ -183,7 +183,7 @@
                   "condition": "minecraft:survives_explosion"
                 },
                 {
-                  "chance": 0.003,
+                  "chance": 0.002,
                   "condition": "minecraft:random_chance"
                 }
               ],
@@ -196,7 +196,7 @@
                   "condition": "minecraft:survives_explosion"
                 },
                 {
-                  "chance": 0.003,
+                  "chance": 0.002,
                   "condition": "minecraft:random_chance"
                 }
               ],
@@ -209,7 +209,7 @@
                   "condition": "minecraft:survives_explosion"
                 },
                 {
-                  "chance": 0.003,
+                  "chance": 0.002,
                   "condition": "minecraft:random_chance"
                 }
               ],
@@ -222,7 +222,7 @@
                   "condition": "minecraft:survives_explosion"
                 },
                 {
-                  "chance": 0.003,
+                  "chance": 0.002,
                   "condition": "minecraft:random_chance"
                 }
               ],
@@ -235,7 +235,7 @@
                   "condition": "minecraft:survives_explosion"
                 },
                 {
-                  "chance": 0.003,
+                  "chance": 0.002,
                   "condition": "minecraft:random_chance"
                 }
               ],
