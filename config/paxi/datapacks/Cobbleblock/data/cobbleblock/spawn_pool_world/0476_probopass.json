@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "nosepass-1",
-      "pokemon": "nosepass",
+      "id": "probopass-1",
+      "pokemon": "probopass",
       "type": "pokemon",
       "bucket": "uncommon",
-      "weight": 5.52,
-      "level": "13-38",
+      "weight": 0.48,
+      "level": "33-53",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [

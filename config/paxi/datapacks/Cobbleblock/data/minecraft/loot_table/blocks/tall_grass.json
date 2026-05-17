@@ -162,6 +162,84 @@
                 }
               ],
               "name": "cobblemon:vivichoke_seeds"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                },
+                {
+                  "chance": 0.003,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "name": "cobblemon:blue_mint_seeds"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                },
+                {
+                  "chance": 0.003,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "name": "cobblemon:cyan_mint_seeds"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                },
+                {
+                  "chance": 0.003,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "name": "cobblemon:green_mint_seeds"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                },
+                {
+                  "chance": 0.003,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "name": "cobblemon:pink_mint_seeds"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                },
+                {
+                  "chance": 0.003,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "name": "cobblemon:red_mint_seeds"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                },
+                {
+                  "chance": 0.003,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "name": "cobblemon:white_mint_seeds"
             }
           ]
         }

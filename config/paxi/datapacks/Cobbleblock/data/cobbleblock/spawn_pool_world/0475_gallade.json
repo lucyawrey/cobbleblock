@@ -4,12 +4,12 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "nosepass-1",
-      "pokemon": "nosepass",
+      "id": "gallade-1",
+      "pokemon": "gallade",
       "type": "pokemon",
-      "bucket": "uncommon",
-      "weight": 5.52,
-      "level": "13-38",
+      "bucket": "rare",
+      "weight": 0.0625,
+      "level": "30-52",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -18,14 +18,14 @@
         "dimensions": [
           "minecraft:overworld"
         ],
-        "minLight": 0,
-        "maxLight": 7,
-        "canSeeSky": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "#minecraft:iron_ores",
-          "minecraft:iron_block",
-          "minecraft:iron_bars",
-          "#cobblemon:redstone_blocks"
+          "#cobblemon:gemstones",
+          "minecraft:fern",
+          "minecraft:large_fern",
+          "#minecraft:spruce_logs",
+          "minecraft:spruce_leaves"
         ]
       }
     }

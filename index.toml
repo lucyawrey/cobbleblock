@@ -70,7 +70,7 @@ hash = "835c273979bb78f37ae04cf048aa51e0f3b150a380a1a04d04c1329a3378540a"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "1becaf79986f78225b429b287bb5ad19e5e8afbba88957db9efbdd139d69fb5b"
+hash = "950a73614a09dedb4ff13f5cd40dbed5cfeea4b6fc95a6f08e762daabae32861"
 
 [[files]]
 file = "config/defaultworldtype/client-config.toml"
@@ -2050,7 +2050,7 @@ hash = "fcac386e99b6c01cee0fe646fcaf0dfcdba3a89159983c386b7decccb4da86a8"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0299_nosepass.json"
-hash = "525c915d833abd4feb4f5d7117978a11b238ce5e96392fe16ee2d15b9f3d0beb"
+hash = "303b11b5feebc892326ab1d15425969a29033303800bee08a24e3e620006ebb4"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0300_skitty.json"
@@ -2783,6 +2783,22 @@ hash = "fe5856ad06bed1517074e40ee6804ac499357accb3a46bc223ed8ae800e20c32"
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0474_porygonz.json"
 hash = "2195cdcb2a569d7cd6dba034d6247b71c099c7c0add09a24df3def2079a7b10b"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0475_gallade.json"
+hash = "b3b49aa722e94411c10de3261809259cead9e8057f0b57faa0be4d89239d16c4"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0476_probopass.json"
+hash = "f699a68b03b9532c168e53547c34bf2b72c7e9cc7b75b502ec2c142bc75da43e"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0477_dusknoir.json"
+hash = "e8fa5c748a6381a812369bef6132af896bb81240ac97a28cca8f8e3c1c249a03"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0478_froslass.json"
+hash = "c008727d53a9e0a55651d746f6bfec21342cb5629793c1a92755ee13cae0df22"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0479_rotom.json"
@@ -7266,11 +7282,11 @@ hash = "1fdcfac7855b931b593deada31c451b27971a2b6d1a7b16407b2babfb797234a"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/minecraft/loot_table/blocks/short_grass.json"
-hash = "6224611b498c0fd516067c872ba30e3f8042eb4e795d397b9ec80ff48141e547"
+hash = "559b4f739e471a338247dd0b9fd78a05f6b5386af4e6bc50134a49d542f49485"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/minecraft/loot_table/blocks/tall_grass.json"
-hash = "08a9a15e649a29b245e19563c8e1ac68d89f59922d93784b5c837d6a7c8dbe1a"
+hash = "75cacccf366d20f7b6423509696b671a7db2264b8aea1b1a55c6c9a476c40b95"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/minecraft/loot_table/blocks/wheat.json"
