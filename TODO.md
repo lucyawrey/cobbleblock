@@ -1,6 +1,7 @@
 # Cobbleblock Todo
 
 ## Normal Priority
+- Create deploy brushes on suspicious gravel and sand to get actual results. Ideally it can use the loot table, but worst case the script replicates the loot tables for this.
 - FIX WRONG DATAPACK ORDERING (ATM LAST)
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.

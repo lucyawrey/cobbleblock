@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:suspicious_gravel"
+    },
+    {
+      "tag": "c:tools/brush"
+    }
+  ],
+  "keep_held_item": true,
+  "results": [
+    {
+      "id": "minecraft:diamond"
+    }
+  ]
+}
