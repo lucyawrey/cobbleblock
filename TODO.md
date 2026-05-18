@@ -1,8 +1,6 @@
 # Cobbleblock Todo
 
 ## Normal Priority
-- Create deploy brushes on suspicious gravel and sand to get actual results. Ideally it can use the loot table, but worst case the script replicates the loot tables for this.
-- FIX WRONG DATAPACK ORDERING (ATM LAST)
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.
   - Verify licence of all mods in modpack.
@@ -17,6 +15,7 @@
   - Instructions for how to trainers and gym leaders.
   - Cobblestone Generator, Bedrock Cobblestone Generator
   - Crushing things (sand, gravel, suspicious cobble)
+- Create deploy brushes on suspicious gravel and sand to get actual results. Ideally it can use the loot table. This seems like its going to be difficult.
 - Update spawn table.
   - Manually fill in remaining spawn data for non-legendary Pokémon.
 - Update drop table.
