@@ -73,9 +73,9 @@ global.legendaryPokemon = [
       "cobbleblock:zapdos_orb": 1,
       "cobbleblock:moltres_orb": 1,
       "minecraft:water": 10,
-      "minecraft:prismarine": 10,
-      "minecraft:lapis_block": 5,
-      "minecraft:quartz_block": 5,
+      "minecraft:prismarine": 20,
+      "minecraft:lapis_block": 10,
+      "minecraft:quartz_block": 10,
     },
   },
   {

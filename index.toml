@@ -261,12 +261,20 @@ file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shape
 hash = "354a7acf78b9289e2b8308876ca2e7f52454505e8fc7c689ac420b0670f66198"
 
 [[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/lugia_pedestal.json"
+hash = "66b2033115aef36bc1b34abfbabedff76c70e0b78259a07e66b71c07e06e9190"
+
+[[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/meteor_beacon.json"
 hash = "0901ee22e204d03ee7665603c720b380db75211475d344a580a9c1010fc7701b"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/meteor_beacon_radiated.json"
 hash = "85750a1dbd8bce611aa84f87b47ae90fc6faad455208031861ca5483de2ca0e5"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/mew_pedestal.json"
+hash = "a31b7bc03d505b3058851f1ea32599365715cdaed7402621190c1f065b7fe9dd"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/molten_wing.json"
@@ -359,6 +367,10 @@ hash = "12aafd46166d98a54c3bfdcf4d73177f05820e74f1ce32ec8bb014818005bfd6"
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/cutting/suspicious_gravel.json"
 hash = "2c08308d7634b7465b37a5e233a73f02fad1afcf6308a22d46e02d309f961f06"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/deploying/suspicious_gravel.json"
+hash = "28dca339be55092cd61e0a382a7538241295b4bd3b13eb6493bf0e70d4583f30"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/milling/ancient_fossil_dust.json"
@@ -7282,11 +7294,11 @@ hash = "1fdcfac7855b931b593deada31c451b27971a2b6d1a7b16407b2babfb797234a"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/minecraft/loot_table/blocks/short_grass.json"
-hash = "559b4f739e471a338247dd0b9fd78a05f6b5386af4e6bc50134a49d542f49485"
+hash = "1435ea0372758c0edb839fedf74b1d59bc6bc4006b5d21627edb86b387e7b13d"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/minecraft/loot_table/blocks/tall_grass.json"
-hash = "75cacccf366d20f7b6423509696b671a7db2264b8aea1b1a55c6c9a476c40b95"
+hash = "90c247340ca5c0b789ff42ee9677d5618694099b09c8b76363011cc228b3f8e2"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/minecraft/loot_table/blocks/wheat.json"
@@ -20518,7 +20530,7 @@ hash = "2f5bb0f9bae3a1c107cf1a8b106d599555a482b825ccdbba3bbaf2bc7e17555f"
 
 [[files]]
 file = "kubejs/startup_scripts/legendary-shrines.js"
-hash = "95adecfa11934f1a63e467b66a51ba8433c042c2c08cf28020292e9df398cad6"
+hash = "f29e4142b2d60178a73bcf27845cf08a584a38df032a157652c6458f55444cb8"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
