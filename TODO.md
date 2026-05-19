@@ -24,14 +24,15 @@
   - Multi Pokémon shrines, will need some changes to how shrines currently work.
   - Add more legendary Pokémon.
 - Shadow Pokémon from Shadowed Hearts.
+  - Waiting on shadowed hearts to update and fix mac build.
+  - Need to get permission to use in modpack.
   - Need to configure to make natural spawns ridiculously rare.
   - Create custom shadow meteor for meteor beacons.
   - Craftable purification shrine.
-- Renewable sculk from sculk catalysts without vanilla mobs. Add sculk catalyst meteor.
+- Renewable sculk from sculk catalysts without vanilla mobs.
 - Tera Shard blocks that allow spawning Paradox Pokémon.
 - Configure CobbleDollars merchant stock, CobbleDollars bank.
   - Tech: Pokédexes, Pokénavs, Trainer Card
-- More meteor templates (inclduing meteor with just evo stones and lore book, sculk meteor, shadow meteor).
 - More ridable Pokémon
   - https://modrinth.com/mod/cobblemon-journey-mounts, figure out how to make it work with AllTheMons x Mega Showdown
 - Create stat soda mod. Bottle cap (expensive and made of metal and gems) honey + Sugar + EV Berry + water bottle in cobblemon camp cooking pot.
@@ -59,8 +60,6 @@
 - Saplings (Birch, Acacia, Cherry)
 - Pink and White apricorn seeds.
 - Ice Block: add to more pokemon drops.
-- Tree Bark from Create Log Cutting Recipes
-- Terracotta cobblegen.
 
 ## Low Priority
 

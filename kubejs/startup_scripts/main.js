@@ -53,6 +53,8 @@ StartupEvents.registry("block", (event) => {
             "cobbleblock:meteor_deoxys_1",
             "cobbleblock:meteor_max_1",
             "cobbleblock:meteor_geode_1",
+            "cobbleblock:meteor_sculk_1",
+            "cobbleblock:meteor_journal_1"
           ];
           block.set("minecraft:air");
           const structure =
