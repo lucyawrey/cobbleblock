@@ -1,6 +1,7 @@
 # Cobbleblock Todo
 
 ## Normal Priority
+- Reevaluate "#c:stones" spawns to include less stone types.
 - Advancement for summoning a legendary.
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.
