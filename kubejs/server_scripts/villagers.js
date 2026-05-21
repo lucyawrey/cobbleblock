@@ -219,4 +219,14 @@ MoreJS.wandererTrades((event) => {
     "mega_showdown:max_mushroom",
   );
   event.addTrade(1, Item.of("minecraft:emerald", 5), "cobblemon:revival_herb");
+  event.addTrade(
+    1,
+    Item.of("minecraft:emerald", 1),
+    Item.of("cobbleblock:torn_page", 1, {
+      "minecraft:custom_data": {
+        torn_page_id: "page_4_trader",
+      },
+      "minecraft:item_name": "Torn Page #4 (Trader)",
+    }),
+  );
 });
