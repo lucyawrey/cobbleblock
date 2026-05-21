@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "cobblemon:ability_capsule"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "I": {
+      "item": "cobblemon:iron_ingot"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ADA",
+    "IIA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemon:ability_patch"
+  }
+}
