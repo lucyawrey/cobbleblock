@@ -1,12 +1,4 @@
-0.1.7
-- Added more spawns for Sinnoh pokemon
-- Updated Xaeros World Map
-- Made farming copper, iron, zinc, gold easier by adding milling recipes for their stone types
-- Support for asurine, ochrum, terracotta cobblestone generators
-- Support for new smooth stone generators
-- Added evolution stones to stone generators (rare)
-- New Cobbledollars merchant stock (medicines, TMs)
-- Replaced current Create/Cobblemon mod with the new Create: Cobblemon Integrationsmod. Added custom item models for that mod.
-- Craftable relic coins and gimmighoul
-- Cragtable stallar tera shards
-- And other minor adjustments
+0.1.10
+- Around 50 new gen 5 spawns
+- Proper recipes for Lugia and Mew pedestals.
+- New meteor types.

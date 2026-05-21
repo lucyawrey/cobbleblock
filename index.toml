@@ -369,10 +369,6 @@ file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/cutting/suspic
 hash = "2c08308d7634b7465b37a5e233a73f02fad1afcf6308a22d46e02d309f961f06"
 
 [[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/deploying/suspicious_gravel.json"
-hash = "28dca339be55092cd61e0a382a7538241295b4bd3b13eb6493bf0e70d4583f30"
-
-[[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/milling/ancient_fossil_dust.json"
 hash = "e686a3ead66d907abbb65755702084e1f88045883fe32b430f558ed1e2292531"
 
