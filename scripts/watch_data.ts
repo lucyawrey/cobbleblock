@@ -2,15 +2,15 @@ import { watch } from "node:fs";
 import path, { join } from "node:path";
 
 // Destination directory for the datapack, will need to be changed to match the actual datapack location in the Minecraft directory
-const datapackDest =
-  "/Applications/MultiMC.app/Data/instances/1.21.1/.minecraft/resourcepacks/Cobbleblock";
-const datapackSource = path.resolve("./config/paxi/datapacks/Cobbleblock");
+const configDest =
+  "/Applications/MultiMC.app/Data/instances/1.21.1/.minecraft/.config";
+const configSource = path.resolve("./config");
 const patchouliDest = "/Applications/MultiMC.app/Data/instances/1.21.1/.minecraft/patchouli_books";
 const patchouliSource = path.resolve("./patchouli_books");
 const kubejsDest = "/Applications/MultiMC.app/Data/instances/1.21.1/.minecraft/kubejs";
 const kubejsSource = path.resolve("./kubejs");
 
-buildWatch(datapackSource, datapackDest);
+buildWatch(configSource, configDest);
 buildWatch(patchouliSource, patchouliDest);
 buildWatch(kubejsSource, kubejsDest);
 
