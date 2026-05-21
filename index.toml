@@ -2670,15 +2670,15 @@ hash = "fd4f338296e76abc46136039097b2e8f8746c239cbb84071de41ad391df500d4"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0443_gible.json"
-hash = "71af2de790bf39067181f1569ccb63fedb8c1ccd88d7ce617f6eb57b7d90bbbd"
+hash = "e759f1563cffe9f1ac2be05aa2c79850cda3879ae71479d53fc9b98efee88fc4"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0444_gabite.json"
-hash = "f1ab40ec1206bc7975382b43c37fce15efd23627164c7881d60db3f5742bb8ce"
+hash = "e0b6dff522c087c57dbceffdacbc308686cbc1cd57909815de775e3b5aa59fe6"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0445_garchomp.json"
-hash = "ba8ba86fcf248aedcb9f8de4b3aafdef4a62878b56b8988cca96e82231e13422"
+hash = "85f1f231616dfbbd2f8683b7d8ab79774aee7c8455519dbd9926cb345722822d"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0446_munchlax.json"
@@ -2815,6 +2815,178 @@ hash = "c008727d53a9e0a55651d746f6bfec21342cb5629793c1a92755ee13cae0df22"
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0479_rotom.json"
 hash = "46e5225bbc8cce1a671c97848aba1d4eff0839e659d82470aa4f4ddf60a67916"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0495_snivy.json"
+hash = "8046c0719d2cfe4a901c18208046c0bc8036dd092b24cdcfb53d7bba8be4b652"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0496_servine.json"
+hash = "2cc164dedc5140d2efd51b40050dfefd3d226d796b1eec4fc8e5f5807ae3fc30"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0497_serperior.json"
+hash = "d3a6d308f22cb74489ee6d056c0670aa3f4675f58639fe381d8657d86fe49421"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0498_tepig.json"
+hash = "dad2568314e454ff2e1340e1d07383abf087d5f3bc3d8332f183b7486108914d"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0499_pignite.json"
+hash = "dc210a3d78010486dad182d20fd2f2dcefecb6240300e2e891da555030c0554b"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0500_emboar.json"
+hash = "fc68ad1b7b755290bac5cfdfbc60f899462d6db90a6a3880e5a3b85486356af0"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0501_oshawott.json"
+hash = "ed9aa918deffecf8f90881ad256d3af66901281c0ef87b717757d0ff092d0d6d"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0501_oshawott_region_bias_hisui.json"
+hash = "f1a8e4000d6b1c6e901ecd05ecaa8e71d505e2c852f7f7f0bbbaa56f65984fd9"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0502_dewott.json"
+hash = "37427f6defc20b0866bb6f867c2ff07d50fec4826b36eb13ee470152a76b1d97"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0502_dewott_region_bias_hisui.json"
+hash = "69f94c648ee3ae05b91a52daba7032e1c4fb4bfdb494cc516fc4f87c5c23f242"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0503_samurott.json"
+hash = "2104a55bbb14a3ea276cdef64d55f0a8285798867ca7f8c1e6e1654823313b91"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0503_samurott_hisuian.json"
+hash = "366945f81b80b6e576e170e24ed8c2f0187df3cfcf6bf16bedad82d3cf80119a"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0504_patrat.json"
+hash = "7a98fad9334fbf75d6d9d7e771749b3c67573b645c57047b72c0744dfe13fd2e"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0505_watchog.json"
+hash = "b85aa5ddac628d099ba011fd13e02744dc0218613020068974d847358c871d7e"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0506_lillipup.json"
+hash = "f692532e11d37cb786d0acdd88548e2a4c484933f8941ac7727536aa65028680"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0507_herdier.json"
+hash = "b90895f298067e22564e9a9a9e171e04e9440eaa6b603aa826387fa0823ea95f"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0508_stoutland.json"
+hash = "36f0d636ed2b1d57be09e6e3acdb819ac73a69d7c2e1d04cd3e5c7ea6eb08c36"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0509_purrloin.json"
+hash = "8dbbda63146764d3eeebf78abb83e9a299f2fefb70ad859be0b60e8b074d01e9"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0510_liepard.json"
+hash = "a2e3b124064c21d97793dcbe54253f9cf9d318c8e870f0caa270106caa1e61ae"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0511_pansage.json"
+hash = "c077639227cdfd396ad7a2b8678bd3600f36994c6ed67e74b28934d3c3910d53"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0512_simisage.json"
+hash = "f17859de5721e4e8607acdaabd6ecfa94dcee5ad34ad47ed119b9b3c18b03900"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0513_pansear.json"
+hash = "0481d6362895d3f32718c4e921a4ddfaf71b4e1707d04e0cf2bd7675b85226e9"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0514_simisear.json"
+hash = "b78f8e71d4e4c7723556035fd7a2b5077a0b6e4a82fb8f45a114e2f616d6181c"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0515_panpour.json"
+hash = "9ff42c2f8b1bd5a4c630dc377c10e2368dbf91abdce0176e25541feb13941529"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0516_simipour.json"
+hash = "0c3dad9684d48ac978dd46fc2f8c9adb4e188774d0558ffc8ce75ebeb0a6dff7"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0517_munna.json"
+hash = "252443f1f81c7de000de50dcf23aaa6642c16cc8d7d32164c8ffe928105beb38"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0518_musharna.json"
+hash = "f0e999bac7798fbdafe4409fea10bf2d9201cf31d39a78ec06bb140ad6603874"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0519_pidove.json"
+hash = "4475c4815d15beb4d0a8b34f97ac89808443f7da222f32f4ebccea91835bde50"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0520_tranquill.json"
+hash = "18891eabb717378047e995ad8d30e9a2db4b0f279047bd9af3110c15b5545b4f"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0521_unfezant.json"
+hash = "22d74b657b175c483a877b70c705b63fff18263e56a5179b0aca090b9b0efc25"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0522_blitzle.json"
+hash = "cf30cd13d5aa16a5ab7dfffbc79866bcd091875e2153c03122dccdf97d7a5087"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0523_zebstrika.json"
+hash = "790b35072af377e7766de2dfc766aa4f22a8d5d16cb1f7526ec906c309dbb644"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0524_roggenrola.json"
+hash = "9268346a0115fe91716abef02aacb027d91962d9662fc95e02c6adfd84c568ce"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0525_boldore.json"
+hash = "1d6ba174ce478e2e171aa61e3e7fef8ebad79ce7fe3550c323edf8a15e93f3f5"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0526_gigalith.json"
+hash = "24b3b64da548facf65e3492d2997b22e0abb657c2da08339e39921c78c222351"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0527_woobat.json"
+hash = "378b59f5eee3d43928c699dafc3ccae991424fa3bb8d015e3ff19c4d9c09eb04"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0528_swoobat.json"
+hash = "4421ca55f523a2fd2f6d4b840fb38553e6680c9423fd71dc00cc690971389520"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0529_drilbur.json"
+hash = "09fe1e977031baf2524726cea61c38e8f1a8d3dedfbe809e6a982a8a814acc6c"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0530_excadrill.json"
+hash = "5aa082d72b9bc5932243fa944bc107c0053bb555b9756cfc592601779836bf2f"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0531_audino.json"
+hash = "fdf7a798e7da4b28da2f5367181d32be7b45401e8986f1373b652a40fda64326"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0532_timburr.json"
+hash = "7933f95116c62b5e81c6f1b9554611eb6d807540317dc07db8a7387e633bac42"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0533_gurdurr.json"
+hash = "f886f29cad48ffd775a56609d2f00830b022bf0eac727fea41fd90690f5a17ba"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0534_conkeldurr.json"
+hash = "f985a9b70cb5f7f7142168881ed7d5dc3ff6952d7af5f176c18528792afa4648"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0546_cottonee.json"
@@ -7031,6 +7203,10 @@ hash = "616823440c019da2afcc82112ab3ba1d61e86ff7cec6803cf2d6cc2dde325cef"
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/structure/meteor_geode_1.nbt"
 hash = "17e3caa23bfb7af34d0cc386bdbc3e5ed3f01bd852c4cf8b983e3dfd9338377e"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/structure/meteor_journal_1.nbt"
+hash = "89bda04ec4631831542dbc6e684df406ae1b4587b0226ff3fd18c2eb306b03ba"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/structure/meteor_keystone_1.nbt"
@@ -20538,7 +20714,7 @@ hash = "f29e4142b2d60178a73bcf27845cf08a584a38df032a157652c6458f55444cb8"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "b2d1cdd0b30a3f9322e31f8d426317819153e08837b5ff69bef3540293a811be"
+hash = "4b5c3fa0deec56b587f0127e4153ff971e5d591b1c20398af2bf45b40513ed84"
 
 [[files]]
 file = "mods/accessories.pw.toml"

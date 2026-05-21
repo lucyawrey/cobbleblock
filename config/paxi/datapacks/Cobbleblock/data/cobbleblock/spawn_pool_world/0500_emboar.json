@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "emboar-1",
+      "pokemon": "emboar",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 0.4,
+      "level": "36-53",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:short_grass",
+          "minecraft:tall_grass",
+          "minecraft:shroomlight",
+          "minecraft:crimson_nylium",
+          "minecraft:warped_nylium",
+          "#minecraft:crimson_stems",
+          "#minecraft:warped_stems",
+          "minecraft:nether_wart_block",
+          "minecraft:warped_wart_block"
+        ]
+      }
+    }
+  ]
+}

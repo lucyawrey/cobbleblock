@@ -18,9 +18,30 @@
         "dimensions": [
           "minecraft:overworld"
         ],
-        "minLight": 0,
-        "maxLight": 7,
         "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:red_sand",
+          "#minecraft:terracotta",
+          "minecraft:dead_bush"
+        ]
+      }
+    },
+    {
+      "id": "garchomp-2",
+      "pokemon": "garchomp",
+      "type": "pokemon",
+      "bucket": "rare",
+      "weight": 0.25,
+      "level": "48-60",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": false,
         "neededNearbyBlocks": [
           "minecraft:red_sand",
           "#minecraft:terracotta",

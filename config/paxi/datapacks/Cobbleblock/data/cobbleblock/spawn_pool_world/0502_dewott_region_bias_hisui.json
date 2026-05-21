@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dewott-region-bias-hisui-1",
+      "pokemon": "dewott region_bias=hisui",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 3.6,
+      "level": "17-41",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:sugar_cane",
+          "minecraft:mud"
+        ]
+      }
+    }
+  ]
+}

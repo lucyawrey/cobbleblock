@@ -6,7 +6,7 @@
   - Verify licence of all mods in modpack.
   - Ask for permission to use mods in modpack if they are not explicitly open licensed (example: Mega Showdown).
 - Create Lore!
-  - Add methods to obtain more torn pages (Meteor, Trader, Shrine).
+  - Add methods to obtain more torn pages (Trader, Shrine).
   - Secondary lore items that also get added to the research journal, such as the mewtwo research book or a note from a parent to a child.
   - Write lore entries.
   - Legendary tablets that require translation information (an advancement/journal entry) before they can be read in the research journal.

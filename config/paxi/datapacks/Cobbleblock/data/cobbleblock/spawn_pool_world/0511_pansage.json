@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pansage-1",
+      "pokemon": "pansage",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 8.4,
+      "level": "7-32",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#minecraft:leaves",
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:vine",
+          "#cobblemon:trees"
+        ]
+      }
+    }
+  ]
+}

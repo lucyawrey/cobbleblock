@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "musharna-1",
+      "pokemon": "musharna",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.5,
+      "level": "24-49",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "#cobblemon:gemstones",
+          "#minecraft:beds"
+        ]
+      }
+    }
+  ]
+}

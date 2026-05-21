@@ -4,35 +4,36 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "gible-1",
-      "pokemon": "gible",
+      "id": "unfezant-1",
+      "pokemon": "unfezant",
       "type": "pokemon",
-      "bucket": "rare",
-      "weight": 6.5,
-      "level": "5-30",
+      "bucket": "common",
+      "weight": 0.1,
+      "level": "32-49",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
+          "#minecraft:leaves",
           "#cobblemon:natural"
         ],
         "dimensions": [
           "minecraft:overworld"
         ],
-        "canSeeSky": true,
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "minecraft:red_sand",
-          "#minecraft:terracotta",
-          "minecraft:dead_bush"
+          "#c:stones"
         ]
       }
     },
     {
-      "id": "gible-2",
-      "pokemon": "gible",
+      "id": "unfezant-2",
+      "pokemon": "unfezant",
       "type": "pokemon",
-      "bucket": "rare",
-      "weight": 6.5,
-      "level": "5-30",
+      "bucket": "common",
+      "weight": 0.1,
+      "level": "32-49",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
@@ -41,11 +42,11 @@
         "dimensions": [
           "minecraft:overworld"
         ],
-        "canSeeSky": false,
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "minecraft:red_sand",
-          "#minecraft:terracotta",
-          "minecraft:dead_bush"
+          "#c:stones"
         ]
       }
     }

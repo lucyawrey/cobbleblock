@@ -1,0 +1,70 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dewott-1",
+      "pokemon": "dewott",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 3.6,
+      "level": "17-41",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:sand",
+          "minecraft:sugar_cane",
+          "minecraft:seagrass",
+          "minecraft:kelp_plant"
+        ]
+      }
+    },
+    {
+      "id": "dewott-2",
+      "pokemon": "dewott",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 3.6,
+      "level": "17-41",
+      "spawnablePositionType": "surface",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:sand",
+          "minecraft:sugar_cane",
+          "minecraft:seagrass",
+          "minecraft:kelp_plant"
+        ]
+      }
+    },
+    {
+      "id": "dewott-3",
+      "pokemon": "dewott",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 3.6,
+      "level": "17-41",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}
