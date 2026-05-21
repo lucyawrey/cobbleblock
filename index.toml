@@ -138,7 +138,7 @@ hash = "8a7e0131dbf4058783d770b3192bac3d258fea1d7b30f327cc85ff4c804ca79f"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/advancement/page_6_shrine.json"
-hash = "064e00169501f7439dc44ddde28c8f066f8d656fe0d42a75adb011b6c9237330"
+hash = "97b216abc286fd0e61381ba0e5090b1b6eb7f481a939d09cf7263c5e531b16b0"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/advancement/research_journal.json"
@@ -20694,7 +20694,7 @@ hash = "6a92eb2275b59ceb26bb82be4c82fd2d5eb8e1f0573cb97865b17f033b91889d"
 
 [[files]]
 file = "kubejs/server_scripts/legendary-shrines.js"
-hash = "2bf3526912889e5b143b9a27e8a57b15c350c59b89417159b40e5bacc8668ae7"
+hash = "ce5cb4bd2d4e3a3d06461954da7f62543363a03ce025ba5342fb159b2e01a3be"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -20702,7 +20702,7 @@ hash = "d1b92dd07c0ea789c42e59fc680a819d65eb85736c4f33ecb7bcb4a60c103c48"
 
 [[files]]
 file = "kubejs/server_scripts/villagers.js"
-hash = "ee76419634ebe5dbaf97fdafc57d17d28c5da02b768c6c21bf37e795e54c6a72"
+hash = "f1b1d8f79eefc30e388f24bc1e71bf0ba6c6c89ebb24c8b674ac4a7d4e8a70b9"
 
 [[files]]
 file = "kubejs/startup_scripts/legendary-shrines.js"
