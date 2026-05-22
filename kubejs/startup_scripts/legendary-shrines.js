@@ -97,6 +97,23 @@ global.legendaryPokemon = [
       "minecraft:cherry_planks": 10,
     },
   },
+  {
+    id: "suicune",
+    name: "Suicune",
+    level: "60",
+    data: "min_perfect_ivs=3",
+    summonPedestal: "cobbleblock:suicune_pedestal",
+    newSummonPedestal: true,
+    summonItem: "cobbleblock:wave_amulet",
+    newSummonItem: true,
+    lootItem: "cobbleblock:blue_feather",
+    newLootItem: true,
+    required: {
+      "minecraft:diamond_block": 3,
+      "minecraft:water": 10,
+      // TODO more blocks
+    },
+  },
 ];
 
 global.extraItems = [
@@ -156,7 +173,9 @@ StartupEvents.registry("item", (event) => {
     }
   }
   for (let item of global.extraItems) {
-    let newItem = event.create(item.id).tag("cobbleblock:legendary_summon_items");
+    let newItem = event
+      .create(item.id)
+      .tag("cobbleblock:legendary_summon_items");
     if (item.name) {
       newItem.displayName(item.name);
     }
