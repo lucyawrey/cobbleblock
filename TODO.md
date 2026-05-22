@@ -1,7 +1,8 @@
 # Cobbleblock Todo
 
 ## Normal Priority
-- Reevaluate "#c:stones" spawns to include less stone types.
+
+- Finish new raw_stones tag and impliment for many Pokémon spawns.
 - Advancement for summoning a legendary.
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.
@@ -31,12 +32,9 @@
   - Need to configure to make natural spawns ridiculously rare.
   - Create custom shadow meteor for meteor beacons.
   - Craftable purification shrine.
-- Renewable sculk from sculk catalysts without vanilla mobs.
-- Tera Shard blocks that allow spawning Paradox Pokémon.
+- Exp generator from Pokémon block.
 - Configure CobbleDollars merchant stock, CobbleDollars bank.
   - Tech: Pokédexes, Pokénavs, Trainer Card
-- More ridable Pokémon
-  - https://modrinth.com/mod/cobblemon-journey-mounts, figure out how to make it work with AllTheMons x Mega Showdown
 - Create stat soda mod. Bottle cap (expensive and made of metal and gems) honey + Sugar + EV Berry + water bottle in cobblemon camp cooking pot.
 - Continue tweaking Radical Trainers teams for doubles format.
 - Change entity death sounds and visuals to look like phasing out of reality instead of dying.
@@ -55,17 +53,7 @@
   - Current methods from ATMxMSD https://docs.google.com/document/d/1nPZxD0zWqaCsulp_RCRTiQS5YxUrdoE6xv8rsMoWSYs/edit?tab=t.rvlm7mgw1drd.
 - Secret Giritina dungeon underneath world spawn. Will need to make certain blocks like doors and buttons interactable at spawn in Skyblock config.
 - Proper world protection mod
-
-## Important Drops
-
-- Energy root
-- Saplings (Birch, Acacia, Cherry)
-- Pink and White apricorn seeds.
-- Ice Block: add to more pokemon drops.
-
-## Low Priority
-
-- Evaluate KubeJs script performance and reliability (Villager Spawns, Meteors, Legendary Monuments).
+- More ridable Pokémon
 - Install and setup FancyMenu for custom home menu and loading screen.
 - Changed ores generated from bedrock at deepslate levels to actualy be deepslate ores.
 - Add option for users to enable vanilla mob spawning, currently impossible due to the datapack used to disable mob spawning.
@@ -75,3 +63,10 @@
   - Disable generation for default end return portal.
   - Disable ender dragon.
   - Add a generated End island for each Skyblock. Can't be done currently in base Skyblock Builder.
+
+## Important Drops
+
+- Energy root
+- Saplings (Birch, Acacia, Cherry)
+- Pink and White apricorn seeds.
+- Ice Block: add to more pokemon drops.
