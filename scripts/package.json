@@ -2,7 +2,7 @@
   "name": "scripts",
   "private": true,
   "scripts": {
-    "generate": "bun run generate_pokemon_spawns.ts && bun run generate_pokemon_drops.ts && bun run generate_archaeology_loot.ts && bun run generate_fishing_loot.ts"
+    "generate": "bun run generate_pokemon_spawns.ts && bun run generate_pokemon_drops.ts && bun run generate_archaeology_loot.ts && bun run generate_fishing_loot.ts && bun run generate_journal.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"

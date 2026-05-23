@@ -1,7 +1,7 @@
 import { Glob } from "bun";
 
-const outPath = "./patchouli_books/research_journal/en_us/entries";
-const inPath = "./scripts/research_journal";
+const outPath = "../patchouli_books/research_journal/en_us/entries";
+const inPath = "../scripts/research_journal";
 
 const glob = new Glob("**/*.md");
 const br = "$(br)";

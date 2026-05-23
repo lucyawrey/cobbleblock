@@ -1,9 +1,8 @@
 {
-  "name": "Torn Page #2 (Fishing)",
-  "icon": "cobbleblock:torn_page",
-  "category": "patchouli:torn_journal_entries",
-  "advancement": "cobbleblock:page_2_fishing",
-  "sortnum": 1,
+  "name": "Day 2",
+  "icon": "minecraft:writable_book",
+  "category": "patchouli:journal_entries",
+  "sortnum": 2,
   "pages": [
     {
       "type": "patchouli:text",
