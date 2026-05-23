@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sawk-1",
+      "pokemon": "sawk",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 2,
+      "level": "12-47",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#cobblemon:concrete_blocks",
+          "minecraft:iron_block",
+          "#minecraft:wool"
+        ]
+      }
+    }
+  ]
+}

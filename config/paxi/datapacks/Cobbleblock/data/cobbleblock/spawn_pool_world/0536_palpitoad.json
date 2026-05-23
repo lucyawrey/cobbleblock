@@ -1,0 +1,50 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "palpitoad-1",
+      "pokemon": "palpitoad",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 6,
+      "level": "5-20",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:lily_pad",
+          "minecraft:kelp"
+        ]
+      }
+    },
+    {
+      "id": "palpitoad-2",
+      "pokemon": "palpitoad",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 6,
+      "level": "5-20",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:lily_pad",
+          "minecraft:kelp"
+        ]
+      }
+    }
+  ]
+}

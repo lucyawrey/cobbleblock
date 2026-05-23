@@ -1,0 +1,35 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "venipede-1",
+      "pokemon": "venipede",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 1.8,
+      "level": "1-26",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "timeRange": "night",
+        "neededNearbyBlocks": [
+          "#minecraft:jungle_logs",
+          "minecraft:jungle_leaves",
+          "minecraft:vine",
+          "minecraft:azalea",
+          "minecraft:flowering_azalea",
+          "minecraft:azalea_leaves",
+          "minecraft:flowering_azalea_leaves",
+          "minecraft:hanging_roots",
+          "minecraft:moss_block",
+          "minecraft:big_dripleaf",
+          "minecraft:small_dripleaf"
+        ]
+      }
+    }
+  ]
+}

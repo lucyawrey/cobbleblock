@@ -1,11 +1,11 @@
 {
   "target": "cobblemon:hooh",
   "drops": {
-    "amount": 8,
+    "amount": 9,
     "entries": [
       {
         "item": "cobblemon:rare_candy",
-        "quantityRange": "0-1"
+        "quantityRange": "0-2"
       },
       {
         "item": "minecraft:nether_star",
@@ -18,6 +18,10 @@
       {
         "item": "cobblemon:ability_patch",
         "percentage": 10
+      },
+      {
+        "item": "minecraft:magma_block",
+        "quantityRange": "0-1"
       },
       {
         "item": "mega_showdown:fire_tera_shard",

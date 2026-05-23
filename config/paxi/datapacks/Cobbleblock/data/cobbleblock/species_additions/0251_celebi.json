@@ -1,7 +1,7 @@
 {
   "target": "cobblemon:celebi",
   "drops": {
-    "amount": 8,
+    "amount": 14,
     "entries": [
       {
         "item": "cobblemon:rare_candy",
@@ -12,28 +12,52 @@
         "percentage": 10
       },
       {
-        "item": "cobblemon:ability_capsule",
-        "percentage": 25
+        "item": "minecraft:oak_sapling",
+        "percentage": 10
       },
       {
-        "item": "cobblemon:ability_patch",
+        "item": "minecraft:spruce_sapling",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:birch_sapling",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:jungle_sapling",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:acacia_sapling",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:dark_oak_sapling",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:cherry_sapling",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:saccharine_sapling",
         "percentage": 10
       },
       {
         "item": "mega_showdown:psychic_tera_shard",
-        "percentage": 5
+        "percentage": 10
       },
       {
         "item": "mega_showdown:grass_tera_shard",
-        "percentage": 5
+        "percentage": 10
       },
       {
         "item": "cobblemon:psychic_gem",
-        "percentage": 50
+        "percentage": 10
       },
       {
         "item": "cobblemon:grass_gem",
-        "percentage": 2.5
+        "percentage": 10
       }
     ]
   }

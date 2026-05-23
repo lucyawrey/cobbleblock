@@ -1,8 +1,12 @@
 {
   "target": "cobblemon:corphish",
   "drops": {
-    "amount": 2,
+    "amount": 3,
     "entries": [
+      {
+        "item": "minecraft:sea_pickle",
+        "quantityRange": "0-1"
+      },
       {
         "item": "mega_showdown:water_tera_shard",
         "percentage": 10

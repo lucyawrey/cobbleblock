@@ -101,6 +101,10 @@ file = "config/patchouli-client.toml"
 hash = "beff293ba5c6b110cf180f0c312974552f488ff11acf3eb10157f6d9c3171b26"
 
 [[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/c/tags/block/raw_stones.json"
+hash = "2d89bb5c2cac6686afecdacf9661dac133413abb09341d921ee1252d9ca4b76a"
+
+[[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/c/tags/item/hammers.json"
 hash = "2451f6d158595cbaf2bfeaa6ac32439c523170141d8137bd1454858d90567327"
 
@@ -115,6 +119,10 @@ hash = "91ac413f15ccfc8885d7f0b1d4c45cfbec05d0264c9ee072628e717a6989cf24"
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/advancement/join.json"
 hash = "d8d595ed4d18cc6ce19aec23ca51d6cc6c5296546ddce20759d8a68c10681bdb"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/advancement/legendary_summon.json"
+hash = "c57db9af1b1716c37100f04f5536baa6ecb19aab384597f67ebff5b0e29083c9"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/advancement/page_1_nether.json"
@@ -175,6 +183,10 @@ hash = "660c678822b9d58719d5fba537d9d5cc6497f11c0d8944ee76cac0f82c6179dd"
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/campfire_pot/ancient_dna.json"
 hash = "4dc663d8759db6352e4bd7c4a17600d0618e39b0b745d523ea87f8cd70c94e14"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/ability_patch.json"
+hash = "f4e45b98ccd9b2e232469b5b7b446429c374eb2fff9fc0dee363ebe5d0fc4788"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/arctic_wing.json"
@@ -2985,6 +2997,50 @@ file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0534
 hash = "f985a9b70cb5f7f7142168881ed7d5dc3ff6952d7af5f176c18528792afa4648"
 
 [[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0535_tympole.json"
+hash = "52a175b8fbbe772ae6e87d45438a1794883e7b8348aebec0e13109c115d9b041"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0536_palpitoad.json"
+hash = "6670cda2fb84d976790fab362473e973ef1486f77b035a3eb22e29428f995af9"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0537_seismitoad.json"
+hash = "6d819b1a7d41f9b82728a0a4058dbc9d8ac25e89d4b2af070dea2e6ea6e77abf"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0538_throh.json"
+hash = "ef140b43af89f0210c17c36aa3b2e35e991bdeab33e7a9dc0c790f62f97818b7"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0539_sawk.json"
+hash = "aa5ad8e31a5fdbd030f8d6f88057434cffa629c1de226715270b4ecc6f51e224"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0540_sewaddle.json"
+hash = "fca10d3cb73f8f6920cc4c41306101b0e8011bb6d232b24b43aff0e53036495f"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0541_swadloon.json"
+hash = "46ec8f7348abc634630c7c778653e8617eafcbe5bb42fb776605a53cb9921565"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0542_leavanny.json"
+hash = "c69b451d4d72467435170b331c0849b1bb5252ac8232ae80f546ca47413acb75"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0543_venipede.json"
+hash = "760075c290e8a82365737bf7be158a2478c0bc2afe707c1f25181d601a8daffa"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0544_whirlipede.json"
+hash = "ae08cbaaf4db130679a4a15b7285c7c7bb4ed2431fb5bf95f6f117678309bd73"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0545_scolipede.json"
+hash = "c76967aefaf6f97093c12f43671b2f925bc11af685e6d7f1c52611435fd27439"
+
+[[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0546_cottonee.json"
 hash = "6ede186022ab02f4363c2f7e92e914cbb3002d1d6edd28f2037a7d432c584a38"
 
@@ -3690,11 +3746,11 @@ hash = "99bc80f6147ef24d2453a71bb4327c7a716dd420bf4e6d63fdf3bb56a8b97213"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0150_mewtwo.json"
-hash = "55c5c4945f4555969b8142a63395480b1c658b4ad23acd3739cca594f7e423ef"
+hash = "0c5ecd07b593d504fab8d5cfec6f4f0878550d6dcc14ab2aa73f25e651a1311f"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0151_mew.json"
-hash = "d4027051e311edf2ba735476d9b5162981e4f35946205c99cffd0f9ba2485a79"
+hash = "b19bc31b9454b9de9cb08c7af2f303b95bf04a6686a9586657b80a6d1bd65a6b"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0152_chikorita.json"
@@ -4086,15 +4142,15 @@ hash = "1c4c4abf18a55745c2badc87d7eeaaac36d46780272770c43a463caa7321826b"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0249_lugia.json"
-hash = "95b98ea107c24fe54c9857b1ff394e5eb01634137428aa2caa26b3db703ec103"
+hash = "e687b1d4f0e6a5ebd431cd3704a3eed4314773537aeadb915c5a7f0807f02d97"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0250_hooh.json"
-hash = "6d552d56edfb0a93a11f50506a710179da7cd9b74a14dae2c3483c01a32e8eed"
+hash = "d3a25e6b552b3d002cb98ed4e5a57736dc9874d7924025f2e199bbf922c4bfde"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0251_celebi.json"
-hash = "7d0deafcc4e53ab86175cbe85799e877352c5ef0ad5baacb30fdc1ac28e562c8"
+hash = "f34a58ce59e08c9ffec290252fb9e8585a85157b0fe7dbd328fb773a1c322c6e"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0252_treecko.json"
@@ -4202,11 +4258,11 @@ hash = "f5606bd69dc11c9f2c57e6128f406fff7e7f65ac799120de92ab2e8193f47b45"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0278_wingull.json"
-hash = "6b1b2e4382d8ef028779c4a70f737b7c5f07328c2a6e6834efd9a27b66d32d60"
+hash = "8ba3afed63e4d6a937359c9311250c47a898aa7aaaac6572e85dd56cb984dd8a"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0279_pelipper.json"
-hash = "41a0ae48f89147db4163445afd6d44806723dc292761935d3c7641fe6d58d484"
+hash = "950b0e7d766f335f779241947d8fc4126b4d75d484d7625f2d5d44fe21cf0f74"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0280_ralts.json"
@@ -4286,7 +4342,7 @@ hash = "1c6ed2f566b70abfdf3ae665fe64aaaae0c5166b186c2885eec578cafacc5ec2"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0299_nosepass.json"
-hash = "202ad45fdf7205abea5d662b084a66228f113d7cb5fe393fae603cd74c25072a"
+hash = "7212b901be91dbb9b9894e253b09f3b056a44ff5aac2d440f31612472c681a83"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0300_skitty.json"
@@ -4298,7 +4354,7 @@ hash = "62c15e01d2bead8575313459fb3d4120b539396e32f11f1b5613c764a2e3de16"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0302_sableye.json"
-hash = "1e4ffca1f9cfbbf0248b7d632edd2208132cb147a34837b95e2d56c01720b06b"
+hash = "d8dc22e62b2b61ec39fc0d2999201023991442eb55527215f2ac0bdf14bf8fe6"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0303_mawile.json"
@@ -4454,11 +4510,11 @@ hash = "641efb30e0fb8bd1150ca7f6520cb9d5a679e8c25090b87aa3e632e398c2d7f4"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0341_corphish.json"
-hash = "8265c3f09e75df92c55be15b3e9ac391842af748baee27042e5693195e66aecf"
+hash = "df0244c4e751375f11923a4fa464739f7b132e284714b9b8b40f1986f70b6988"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0342_crawdaunt.json"
-hash = "c5e71b7d23981ba5248de6e87dc97c19c877e7b7b3f27fca6fa8a8d0ca221318"
+hash = "988238ce49100fe2ce97357d0652821368dd710a21fa676f626714c68a9c1638"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0343_baltoy.json"
@@ -20706,7 +20762,7 @@ hash = "f1b1d8f79eefc30e388f24bc1e71bf0ba6c6c89ebb24c8b674ac4a7d4e8a70b9"
 
 [[files]]
 file = "kubejs/startup_scripts/legendary-shrines.js"
-hash = "f29e4142b2d60178a73bcf27845cf08a584a38df032a157652c6458f55444cb8"
+hash = "3519222528216ba98a5a30e51a6b18c898e18ba10a15e9b53846841161c54823"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"

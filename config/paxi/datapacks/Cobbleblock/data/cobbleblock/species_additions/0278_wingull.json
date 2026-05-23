@@ -1,7 +1,7 @@
 {
   "target": "cobblemon:wingull",
   "drops": {
-    "amount": 6,
+    "amount": 7,
     "entries": [
       {
         "item": "minecraft:feather",
@@ -10,6 +10,10 @@
       {
         "item": "cobblemon:wacan_berry",
         "percentage": 2.5
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 25
       },
       {
         "item": "mega_showdown:water_tera_shard",

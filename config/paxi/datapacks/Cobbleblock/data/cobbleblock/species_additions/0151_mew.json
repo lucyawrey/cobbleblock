@@ -5,11 +5,11 @@
     "entries": [
       {
         "item": "cobblemon:rare_candy",
-        "quantityRange": "0-3"
+        "quantityRange": "0-2"
       },
       {
         "item": "minecraft:nether_star",
-        "percentage": 25
+        "percentage": 30
       },
       {
         "item": "cobblemon:ability_capsule",
@@ -21,7 +21,7 @@
       },
       {
         "item": "mega_showdown:psychic_tera_shard",
-        "percentage": 10
+        "percentage": 50
       },
       {
         "item": "cobblemon:psychic_gem",

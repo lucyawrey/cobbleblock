@@ -1,11 +1,11 @@
 {
   "target": "cobblemon:lugia",
   "drops": {
-    "amount": 8,
+    "amount": 10,
     "entries": [
       {
         "item": "cobblemon:rare_candy",
-        "quantityRange": "0-1"
+        "quantityRange": "0-2"
       },
       {
         "item": "minecraft:nether_star",
@@ -20,6 +20,10 @@
         "percentage": 10
       },
       {
+        "item": "minecraft:heart_of_the_sea",
+        "percentage": 30
+      },
+      {
         "item": "mega_showdown:psychic_tera_shard",
         "percentage": 5
       },
@@ -29,11 +33,15 @@
       },
       {
         "item": "cobblemon:psychic_gem",
-        "percentage": 50
+        "percentage": 2.5
       },
       {
         "item": "cobblemon:flying_gem",
         "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:water_gem",
+        "percentage": 50
       }
     ]
   }
