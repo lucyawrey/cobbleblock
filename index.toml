@@ -21279,32 +21279,36 @@ file = "patchouli_books/research_journal/en_us/entries/journal_entries/day_1.jso
 hash = "28dec4a3332ea78668f975ad56fd311d70ee8291becb27282f95fe6aaa1f2dcb"
 
 [[files]]
+file = "patchouli_books/research_journal/en_us/entries/journal_entries/day_2.json"
+hash = "71347000c96aaf4854306f6a49adeb26e9f39f513b199e3dba0f8298396febaa"
+
+[[files]]
 file = "patchouli_books/research_journal/en_us/entries/journal_entries/introduction.json"
 hash = "8fad25351dba11b28d00335b072e9f46086c8d51d9427be0d3bd74a756976279"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/torn_journal_entries/page_1_nether.json"
-hash = "4c00d1a7430f4e4f26b1c2ffdd040499a1b1eef8d054cfc4d658c8edd361c2f9"
+hash = "6a78af0d76ed887e1b4b32e51b676814313d2c510b4b2f45376ab559eb7a4bbd"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/torn_journal_entries/page_2_fishing.json"
-hash = "7c89733d79d0cebff5ec66cf304ace99ccb0ac748e6aea6c3ec409311b9e356f"
+hash = "f1ffb106a49ac1da8aa218b4dd62cf9aa54166069d6cdb7dee1c9f54d7e9ac3e"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/torn_journal_entries/page_3_archaeology.json"
-hash = "88d372135fd25e66f1c2561ee72ee9a2ae1f125bb4d66844b7df53e5acee8fe6"
+hash = "3d854ecb839dade74c9b8c395b45bb1fabcaf3a3849b75ede9d8b675a556a86b"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/torn_journal_entries/page_4_trader.json"
-hash = "d17d70f75117f76289db953d7dc2e8649cedc5ba0942e2f29ca4c35a33287728"
+hash = "355b5fac9ba392579fa34e09a59dfacf9be1c59ddbd538801e5cdaf241f5c8fd"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/torn_journal_entries/page_5_meteor.json"
-hash = "6aebb021db4a621906774d9aaebe4f3de0b785c840efbcc40d42f466ef6b16ac"
+hash = "0c30b68457559b87227693d62099bce6b61a3c33988f7754f0d18164e8cc08bf"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/torn_journal_entries/page_6_shrine.json"
-hash = "a84b2c50367663d373025129e28e96df3e74b1a5dfc230c632ebd70f1a54c312"
+hash = "2bd0ca4c0e76b311fc4774d234599e8303636c30cdf2690a8ed2e4ef82d94841"
 
 [[files]]
 file = "server.properties"
