@@ -36,3 +36,5 @@ Investigation will have to wait until tomorrow. We're losing light, and I do not
 The stars are beautiful. I don't think I've ever seen so many before. The full moon is actually giving off enough light for me to write. This place is actually kind of nice? I still don't know what this place is or why I'm here, but I'm looking forward to figuring it out.
 
 - A
+
+[(Go to day 2)](journal_entries/day_2)

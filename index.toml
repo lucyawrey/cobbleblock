@@ -21276,11 +21276,11 @@ hash = "8257cd2f6e3ca33664ad16372b5407fd3f8459e59f6a064e9100be734747142f"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/journal_entries/day_1.json"
-hash = "28dec4a3332ea78668f975ad56fd311d70ee8291becb27282f95fe6aaa1f2dcb"
+hash = "5da4d013ae078eb8753b807b209d08672f47d0523fc5c970deb0da7787b7ebbc"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/journal_entries/day_2.json"
-hash = "71347000c96aaf4854306f6a49adeb26e9f39f513b199e3dba0f8298396febaa"
+hash = "ddb4fb0d9c6d89bb1c2276893176f449da3a1afd825fe0019ff62a6cd085fe4d"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/journal_entries/introduction.json"
@@ -21288,27 +21288,27 @@ hash = "8fad25351dba11b28d00335b072e9f46086c8d51d9427be0d3bd74a756976279"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/torn_journal_entries/page_1_nether.json"
-hash = "6a78af0d76ed887e1b4b32e51b676814313d2c510b4b2f45376ab559eb7a4bbd"
+hash = "57c526774534aecc6ab2665b8e2d7caf21cc84dbd3804b3d08231f057d831374"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/torn_journal_entries/page_2_fishing.json"
-hash = "f1ffb106a49ac1da8aa218b4dd62cf9aa54166069d6cdb7dee1c9f54d7e9ac3e"
+hash = "dd6a4d0d5def707338575bf7a2c81e1e3866a7a51b7dd707ea87a419b4632991"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/torn_journal_entries/page_3_archaeology.json"
-hash = "3d854ecb839dade74c9b8c395b45bb1fabcaf3a3849b75ede9d8b675a556a86b"
+hash = "d9c40076706a7df4db4e332fbc6bb940ac37bf6a64d18ffde2d2bcbd7f31a12f"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/torn_journal_entries/page_4_trader.json"
-hash = "355b5fac9ba392579fa34e09a59dfacf9be1c59ddbd538801e5cdaf241f5c8fd"
+hash = "d75c1408c7bbd40e0d4b41c686a2923807f36fc74d42b11d1ed1184bbed39691"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/torn_journal_entries/page_5_meteor.json"
-hash = "0c30b68457559b87227693d62099bce6b61a3c33988f7754f0d18164e8cc08bf"
+hash = "8582088985c5e101d18d114cf78c79c63a3c737d04e029bd02584e690e5bb415"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/torn_journal_entries/page_6_shrine.json"
-hash = "2bd0ca4c0e76b311fc4774d234599e8303636c30cdf2690a8ed2e4ef82d94841"
+hash = "ddfcbf026990bed41f0475eb321a80907b905ec119b113cbcd8430481efece28"
 
 [[files]]
 file = "server.properties"
