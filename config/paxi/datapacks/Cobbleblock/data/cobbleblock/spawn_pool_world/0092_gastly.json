@@ -8,22 +8,17 @@
       "pokemon": "gastly",
       "type": "pokemon",
       "bucket": "common",
-      "weight": 9,
+      "weight": 7,
       "level": "6-31",
       "spawnablePositionType": "grounded",
       "condition": {
         "neededBaseBlocks": [
           "#cobblemon:natural"
         ],
-        "neededNearbyBlocks": [
-          "#minecraft:dark_oak_logs",
-          "minecraft:dark_oak_leaves",
-          "minecraft:peony",
-          "minecraft:lilac",
-          "minecraft:rose_bush",
-          "#cobblemon:mansion_blocks",
-          "minecraft:netherrack"
-        ]
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night"
       }
     }
   ]

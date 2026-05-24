@@ -10,7 +10,11 @@
     },
     {
       "type": "patchouli:text",
-      "text": "  $(k)Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas, enim et molestie dignissim, mauris ligula vehicula ex, eu laoreet nibh dui eget lacus. Fusce nisl arcu, tincidunt vel viverra at, consequat aliquet erat. Proin finibus a orci sit amet molestie. Maecenas facilisis eleifend neque vel imperdiet. Pellentesque cursus dictum erat eget rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.$()"
+      "text": "  $(k)Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas, enim et molestie dignissim, mauris ligula vehicula ex, eu laoreet nibh dui eget lacus. Fusce nisl arcu, tincidunt vel viverra at, consequat aliquet erat. Proin finibus a orci sit amet molestie. Maecenas facilisis eleifend neque vel imperdiet. Pellentesque cursus dictum erat eget rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.$()$(br)  $(l)Day 2 Entry, Outline$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": " - Acacia sleeps really well and gets up shortly after sunrise.$(br) - She only woke up once durng the night, and saw a gastly floating around the island. Most people would be a bit freaked out but acacia has worked with ghost pokemon before and didnt really suspect any bad intensions."
     }
   ]
 }

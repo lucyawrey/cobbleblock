@@ -15,14 +15,17 @@
         "neededBaseBlocks": [
           "#cobblemon:natural"
         ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
         "neededNearbyBlocks": [
           "#minecraft:dark_oak_logs",
           "minecraft:dark_oak_leaves",
           "minecraft:peony",
           "minecraft:lilac",
           "minecraft:rose_bush",
-          "#cobblemon:mansion_blocks",
-          "minecraft:netherrack"
+          "#cobblemon:mansion_blocks"
         ]
       }
     }

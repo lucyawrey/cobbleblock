@@ -942,15 +942,15 @@ hash = "8af09cfc977c7e985dd1025ca1b50174bcaa65730bc514dcbb49800db6ca1067"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0092_gastly.json"
-hash = "c8cb6c5763862abe87875c3f67e77042cd4fa54437feaf859d7dad87ea02408f"
+hash = "8abe36311670274972c815d271d55cf3bc53d39d81cb0f7aaa29f67eda461b2c"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0093_haunter.json"
-hash = "c2d61eb48e096d95ba358f88ecfd2d5cfe5ef8b61f99c998793427fbda8efbd9"
+hash = "938f9697ce544ed90e02933874fd411c316a580c776783f0f789a7bffa81341d"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0094_gengar.json"
-hash = "53c710e97acc38ef49fcfe9b05618311a5dd8c6e7fcb0ac9652ac3ca5a2a2ee3"
+hash = "12bfe41c951e4c3c290e3e7c1188ef967c4b5c608c0a5d362697ae683d8b059a"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0095_onix.json"
@@ -21280,7 +21280,7 @@ hash = "5da4d013ae078eb8753b807b209d08672f47d0523fc5c970deb0da7787b7ebbc"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/journal_entries/day_2.json"
-hash = "ddb4fb0d9c6d89bb1c2276893176f449da3a1afd825fe0019ff62a6cd085fe4d"
+hash = "83e077dec331ccdfe57a4c916770052e7c7041d6fe674c5d62fff0f4f5c96d76"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/journal_entries/introduction.json"
