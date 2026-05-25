@@ -21275,12 +21275,16 @@ file = "patchouli_books/research_journal/en_us/categories/torn_journal_entries.j
 hash = "8257cd2f6e3ca33664ad16372b5407fd3f8459e59f6a064e9100be734747142f"
 
 [[files]]
+file = "patchouli_books/research_journal/en_us/entries/guides/apricorns.json"
+hash = "0640d838a6ef2586e58b25de9a2610a869e96d1039d9f4d61834ecaa125e34e3"
+
+[[files]]
 file = "patchouli_books/research_journal/en_us/entries/journal_entries/day_1.json"
-hash = "5da4d013ae078eb8753b807b209d08672f47d0523fc5c970deb0da7787b7ebbc"
+hash = "98fa2a8ff121e165c5eeb0dabe26314f9b7689c5d5f326cea5ef94cc4d3bb60a"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/journal_entries/day_2.json"
-hash = "83e077dec331ccdfe57a4c916770052e7c7041d6fe674c5d62fff0f4f5c96d76"
+hash = "1fdc1e72538b3c65d1f2f7547a471de75e220249c18361d531a0c4107751994e"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/journal_entries/introduction.json"
