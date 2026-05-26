@@ -3,7 +3,12 @@
 ## Normal Priority
 
 - Gym leader TMs.
-- Craftable sculk.
+- More ways to obtain:
+  - Energy root.
+  - Birch, Acacia, and Cherry saplings.
+  - Pink and White apricorn seeds.
+  - Ice Blocks.
+  - Nuggets of experience.
 - Finish new raw_stones tag and impliment for many Pokémon spawns.
 - Advancement for summoning a legendary.
 - Permissions and Credits
@@ -65,10 +70,3 @@
   - Disable generation for default end return portal.
   - Disable ender dragon.
   - Add a generated End island for each Skyblock. Can't be done currently in base Skyblock Builder.
-
-## Important Drops
-
-- Energy root
-- Saplings (Birch, Acacia, Cherry)
-- Pink and White apricorn seeds.
-- Ice Block: add to more pokemon drops.

@@ -385,12 +385,20 @@ file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/milling/ancien
 hash = "e686a3ead66d907abbb65755702084e1f88045883fe32b430f558ed1e2292531"
 
 [[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/milling/exp_candy_xs.json"
+hash = "0c2b5aa40c3ba93e7bc6a6f653e3167afa6fde8d7c7e3fc6b0e96094f3e03d1a"
+
+[[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/milling/suspicious_gravel.json"
 hash = "1bc9abf3fb5d49dd1e09e28ea9b8cf84acca971a5d8d8ce82dce2b7bcce46f1a"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/milling/suspicious_sand.json"
 hash = "d10724c308335f94ea537f3f8a48ac0416c8864ce24675a5e4e9e22c197ecee7"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/mixing/sculk.json"
+hash = "9678fc4b55a993143e3047941482b4b59045f5c17a2910b35d2cb731a28dd068"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/smelting/relic_coin.json"
@@ -20754,7 +20762,7 @@ hash = "ce5cb4bd2d4e3a3d06461954da7f62543363a03ce025ba5342fb159b2e01a3be"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "d1b92dd07c0ea789c42e59fc680a819d65eb85736c4f33ecb7bcb4a60c103c48"
+hash = "cdf553d7f6c2fcd67a75a528a4a43b62024de57ccd3fb1429b95458e2d1ef303"
 
 [[files]]
 file = "kubejs/server_scripts/villagers.js"
@@ -21269,7 +21277,7 @@ hash = "b8cb10372339e374ca37cf63d3d33d21ba5da210e7a2b10adf1363f297433443"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/categories/documents.json"
-hash = "480bd62c9997ac894e6fe804e7c8bc46303364fabb21a0da18ea1c11dee23a54"
+hash = "2bf9e1c883538ccce50b436d528e73db43dfea6cc99ae195dc3521040f104e4c"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/categories/guides.json"

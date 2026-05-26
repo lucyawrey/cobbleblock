@@ -21,7 +21,8 @@ ServerEvents.recipes((event) => {
     if (
       !ingredients ||
       ingredients === "cobbleblock:suspicious_cobblestone" ||
-      ingredients === "minecraft:suspicious_gravel"
+      ingredients === "minecraft:suspicious_gravel" ||
+      ingredients === "cobblemon:rare_candy"
     ) {
       return;
     }
