@@ -20794,6 +20794,11 @@ hash = "547660bb17452fae6e46504c87eea9e75eeb50de440495cadcee9ad49c6d131d"
 metafile = true
 
 [[files]]
+file = "mods/berryharvester.pw.toml"
+hash = "cd8450115156e357c9eccaabda05cc83f23780e88be02c810762ec5fc015050a"
+metafile = true
+
+[[files]]
 file = "mods/better-advancements.pw.toml"
 hash = "93c4acd165a291c6d1e69c27b05b2747afc926b38a414712263fbc95f42da323"
 metafile = true
@@ -21276,7 +21281,7 @@ hash = "8257cd2f6e3ca33664ad16372b5407fd3f8459e59f6a064e9100be734747142f"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/guides/apricorns.json"
-hash = "0640d838a6ef2586e58b25de9a2610a869e96d1039d9f4d61834ecaa125e34e3"
+hash = "33ed711de2cf48e429d73556a82d8eb940f531ebfbe1284e24c1b297b2157cff"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/journal_entries/day_1.json"
@@ -21284,7 +21289,7 @@ hash = "98fa2a8ff121e165c5eeb0dabe26314f9b7689c5d5f326cea5ef94cc4d3bb60a"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/journal_entries/day_2.json"
-hash = "1fdc1e72538b3c65d1f2f7547a471de75e220249c18361d531a0c4107751994e"
+hash = "ddb4fb0d9c6d89bb1c2276893176f449da3a1afd825fe0019ff62a6cd085fe4d"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/journal_entries/introduction.json"
