@@ -2,6 +2,8 @@
 
 ## Normal Priority
 
+- Gym leader TMs.
+- Craftable sculk.
 - Finish new raw_stones tag and impliment for many Pokémon spawns.
 - Advancement for summoning a legendary.
 - Permissions and Credits

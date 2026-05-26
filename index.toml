@@ -21268,6 +21268,10 @@ file = "patchouli_books/research_journal/book.json"
 hash = "b8cb10372339e374ca37cf63d3d33d21ba5da210e7a2b10adf1363f297433443"
 
 [[files]]
+file = "patchouli_books/research_journal/en_us/categories/documents.json"
+hash = "480bd62c9997ac894e6fe804e7c8bc46303364fabb21a0da18ea1c11dee23a54"
+
+[[files]]
 file = "patchouli_books/research_journal/en_us/categories/guides.json"
 hash = "795ab87fae744f1385b13dfb117c0ef2d171093f303781b71681bd99dabb4f66"
 
