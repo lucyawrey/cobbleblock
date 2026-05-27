@@ -3073,6 +3073,18 @@ file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0549
 hash = "914559929fe76d7df1bb042aa3fb5a7d2f83bea64d7d52033d32c35a7d501feb"
 
 [[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0550_basculin_striped_blue.json"
+hash = "7478aa7a6a03210e3a742f3cd7f5f11d248b986a922c9fe46714c5f8c763ed7a"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0550_basculin_striped_red.json"
+hash = "14b4677e528338d7aaebd61d1ed4b737a201fe4a3a13774dbdd1c074d7ffc0d2"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0550_basculin_striped_white.json"
+hash = "f39a204c6b6d71cd8762beaab88f9cfe9702e78af9506d7bd567b9616b31cb65"
+
+[[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0590_foongus.json"
 hash = "5ef3997eb4ad42ed6a5c67966e5f46282307f5dc05bd792742f35c3140c3aaa8"
 
@@ -7465,12 +7477,44 @@ file = "config/paxi/datapacks/Cobbleblock/data/cobblemonwildloot/recipe/crafting
 hash = "89aa933e8ce518fa5a05a7eee572c790518da45ee1dc367769b7f61c74a32f5c"
 
 [[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/create/recipe/crushing/asurine.json"
+hash = "93fc78fec7abec7720600e2cc875e2f1cfbd89e9c7efd2004fed208f91f7544a"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/create/recipe/crushing/asurine_recycling.json"
+hash = "d0a4f5a9683deb449356b2250afe924eb0cbdee824418ae2df759a2f819f46cf"
+
+[[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/create/recipe/crushing/crimsite.json"
-hash = "0f949f02bdeea2eb214ff6fa41d6a9e7aed80faf99a2ba621100d3009da45d85"
+hash = "10031a147a24a98cbcdf46734db9e0ea33698bba31df8764cb6c672dcb348f99"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/create/recipe/crushing/crimsite_recycling.json"
-hash = "0eedaac11b755f514bbf22cb965d182f009abd0e9f9cc5daca8f7e2780d5e93a"
+hash = "211336f0560f5aed8b45bbf6b035d8508331a7ae994d13737701bc4ce1cb7266"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/create/recipe/crushing/ochrum.json"
+hash = "fcf012e7b58b388e377a7cbda5a19dd38d8a4956795ecd02370c260dd725ac2b"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/create/recipe/crushing/ochrum_recycling.json"
+hash = "fa3247de44871b1369475435da6e25e011b7e83ca3be4de3278103d1188bd9a0"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/create/recipe/crushing/tuff.json"
+hash = "5188aaec79ab418f4d5bcb25cf228ea6b245c9b36413d624ef0f6ed386632d7b"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/create/recipe/crushing/tuff_recycling.json"
+hash = "f97810dfbb780236405fc9ad34efc4d32069bf340ebb6df567c08ff543c7541f"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/create/recipe/crushing/veridium.json"
+hash = "bea4578fa54d365048ac0ef1bc2f710ad2b57d33be6007c3d8ecd776921e1acc"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/create/recipe/crushing/veridium_recycling.json"
+hash = "8bd03c0fb39dff2c2c157eda12e9714c53db16abf60bcbdd9fd97eb57ca3def1"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/create/recipe/milling/asurine.json"
@@ -8378,7 +8422,7 @@ hash = "3cbc9c4429d9164b9d596726991bcd36c81f99ed7ac2a73dd61f9b11fde783fa"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_brock_019e.json"
-hash = "5c39265b2387097a2e881026532792006615109dc2d5b1abaa7d8c48d36d881d"
+hash = "40a836beacd2e5c485606fee312a4d0c0ebaa797c82160c99057b2f7b6cda0ee"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_clair_004a.json"
@@ -8410,7 +8454,7 @@ hash = "c7f6519477d122240913e9f0dcc8681eb6a26bd755aff9c62c09782e23a97403"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_misty_019f.json"
-hash = "40dc3b70cc59b8b16bc8e38ad3a0d0abb2973cbe0d56c9eb688fe3f80c1c5015"
+hash = "d41c1b92a416c9452d611e8336f88f2a859485e98a3eb46651b6b059b22bd2ed"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_sabrina_01a4.json"

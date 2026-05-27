@@ -7,8 +7,24 @@
       },
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "value": "rctmod:trainers/groups/leader"
+          "type": "minecraft:item",
+          "name": "simpletms:tm_rocktomb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tm_rockslide"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tm_stealthrock"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tm_stoneedge"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tm_sandstorm"
         }
       ]
     }

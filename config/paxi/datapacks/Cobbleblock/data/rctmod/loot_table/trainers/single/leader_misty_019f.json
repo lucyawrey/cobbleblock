@@ -7,8 +7,24 @@
       },
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "value": "rctmod:trainers/groups/leader"
+          "type": "minecraft:item",
+          "name": "simpletms:tm_scald"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tm_surf"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tm_liquidation"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tm_hydropump"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tm_raindance"
         }
       ]
     }
