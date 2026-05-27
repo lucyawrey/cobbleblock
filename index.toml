@@ -20830,7 +20830,7 @@ hash = "6a92eb2275b59ceb26bb82be4c82fd2d5eb8e1f0573cb97865b17f033b91889d"
 
 [[files]]
 file = "kubejs/server_scripts/legendary-shrines.js"
-hash = "ce5cb4bd2d4e3a3d06461954da7f62543363a03ce025ba5342fb159b2e01a3be"
+hash = "39728091540efdf6a751caadc86a2fdcffb4a597a77f7d8927a31af7053c20fb"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -20842,7 +20842,7 @@ hash = "f1b1d8f79eefc30e388f24bc1e71bf0ba6c6c89ebb24c8b674ac4a7d4e8a70b9"
 
 [[files]]
 file = "kubejs/startup_scripts/legendary-shrines.js"
-hash = "3519222528216ba98a5a30e51a6b18c898e18ba10a15e9b53846841161c54823"
+hash = "f9c15c23e4e5c97827675eab592f97b1b1e21f8ccb61fabd539239f3ba7d8861"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"

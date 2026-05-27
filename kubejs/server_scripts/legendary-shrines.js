@@ -7,7 +7,10 @@ const cooldownTime = 1000;
 let lastClickTime = Date.now();
 
 for (let pokemon of global.legendaryPokemon) {
-  BlockEvents.rightClicked(pokemon.summonPedestal, shrineEvent(pokemon));
+  BlockEvents.rightClicked(
+    `cobbleblock:${pokemon.id}_pedestal`,
+    shrineEvent(pokemon),
+  );
 }
 
 function shrineEvent(pokemon) {

@@ -1,7 +1,9 @@
 # Cobbleblock Todo
 
 ## Normal Priority
-
+- Fix Lugia and Suicune pedestals.
+- Remove KubeJs creative category.
+- Legendary dogs and Ho-Oh summon item + pedestal assets and recipes.
 - More ways to obtain:
   - Energy root.
   - Birch, Acacia, and Cherry saplings.
@@ -35,7 +37,6 @@
   - Need to configure to make natural spawns ridiculously rare.
   - Create custom shadow meteor for meteor beacons.
   - Craftable purification shrine.
-- Exp generator from Pokémon block.
 - Configure CobbleDollars merchant stock, CobbleDollars bank.
   - Tech: Pokédexes, Pokénavs, Trainer Card
 - Create stat soda mod. Bottle cap (expensive and made of metal and gems) honey + Sugar + EV Berry + water bottle in cobblemon camp cooking pot.
