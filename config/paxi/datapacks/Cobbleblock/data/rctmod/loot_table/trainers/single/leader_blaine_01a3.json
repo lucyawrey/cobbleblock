@@ -7,8 +7,24 @@
       },
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "value": "rctmod:trainers/groups/leader"
+          "type": "minecraft:item",
+          "name": "simpletms:tm_flamethrower"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tm_heatwave"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tm_firefang"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tm_willowisp"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tm_sunnyday"
         }
       ]
     }

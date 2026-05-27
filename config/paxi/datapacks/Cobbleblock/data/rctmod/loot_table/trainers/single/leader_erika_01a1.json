@@ -7,8 +7,24 @@
       },
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "value": "rctmod:trainers/groups/leader"
+          "type": "minecraft:item",
+          "name": "simpletms:tm_gigadrain"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tm_bulletseed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tm_energyball"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tm_solarbeam"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tm_grassyterrain"
         }
       ]
     }

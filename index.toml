@@ -8370,7 +8370,7 @@ hash = "60e5cd489140b75cbcd330d674b42942b1d2e76176b1145e4919f6db0a3d417f"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/boss_giovanni_0045.json"
-hash = "649c0b258f5c99a0d249a54fccdf832876df645c89c36c96173fbb2becdd125f"
+hash = "f762736024fd779d45f773c115d8c52300c317db91d7a8e094e9bb857830ddf7"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/gym_leader_byron_0399.json"
@@ -8418,7 +8418,7 @@ hash = "3a32dfc0200be937926b350d00efc760bd7b9e39d38c32b7f2d96dd3b28d9b0c"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_blaine_01a3.json"
-hash = "3cbc9c4429d9164b9d596726991bcd36c81f99ed7ac2a73dd61f9b11fde783fa"
+hash = "4350e97648bd72ade1efe3004ca5014a8f8255d3592c31cf7276c1c05dad4da3"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_brock_019e.json"
@@ -8430,7 +8430,7 @@ hash = "50cd45f4c633a2c15664ffd1e294a550e3508c20e444abd1a6b160e7b37d7c5a"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_erika_01a1.json"
-hash = "83ec336af3a8dedde78416a752c0c507e807dc7d9e3a46e27c4664b4a960eb51"
+hash = "062ee896d7ba2e7dfde7fcf547d0aec697af36dcc2dd95eeb19f402bf647c662"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_galavan_05af.json"
@@ -8438,11 +8438,11 @@ hash = "06dccef71093721862ff6dccc9d9788dd18524930a6d584707c96464dbac281c"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_koga_01a2.json"
-hash = "46300e9208437029a1befe11b1329210492caa977f89171246e3490098ca44ed"
+hash = "84e0c7b8e0fe0549f7b1cf0b29867bae7a795ee0a037a3d1876e2b59468b8118"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_lt_surge_01a0.json"
-hash = "1ea09ecd04d3a404e6d3f27a31e81a18b79c8c6b9140131a47e59544a15c22e2"
+hash = "e01499101f20bbbbd933e08270c3c82b7430ee66992237f3366d1331d3f11ddd"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_mel_05ad.json"
@@ -8458,7 +8458,7 @@ hash = "d41c1b92a416c9452d611e8336f88f2a859485e98a3eb46651b6b059b22bd2ed"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_sabrina_01a4.json"
-hash = "64c72c0cbe4bb3bd2cdbf9f0b091af670093e6860b0a1b99845bec23bb926d67"
+hash = "f3161b2987dc0245f2bd372103c3cea0c07a1defec0d46e34e9cace98f8b5b4f"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_tessy_05b1.json"
