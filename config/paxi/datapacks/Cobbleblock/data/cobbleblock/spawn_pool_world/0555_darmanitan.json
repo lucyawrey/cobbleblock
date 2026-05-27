@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "darmanitan-1",
+      "pokemon": "darmanitan",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 5.4,
+      "level": "35-54",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:sandstone",
+          "minecraft:dead_bush",
+          "minecraft:cactus",
+          "#minecraft:jungle_logs",
+          "minecraft:jungle_leaves",
+          "minecraft:vine",
+          "minecraft:netherrack"
+        ]
+      }
+    }
+  ]
+}

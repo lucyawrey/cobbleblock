@@ -2,13 +2,10 @@
 
 ## Normal Priority
 
-- Gym leader TMs.
 - More ways to obtain:
   - Energy root.
   - Birch, Acacia, and Cherry saplings.
   - Pink and White apricorn seeds.
-  - Ice Blocks.
-- Finish new raw_stones tag and impliment for many Pokémon spawns.
 - Advancement for summoning a legendary.
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.

@@ -1,11 +1,15 @@
 {
   "target": "cobblemon:mantine",
   "drops": {
-    "amount": 5,
+    "amount": 6,
     "entries": [
       {
+        "item": "minecraft:prismarine_shard",
+        "quantityRange": "0-3"
+      },
+      {
         "item": "cobblemon:wacan_berry",
-        "percentage": 5
+        "percentage": 10
       },
       {
         "item": "mega_showdown:water_tera_shard",

@@ -101,10 +101,6 @@ file = "config/patchouli-client.toml"
 hash = "beff293ba5c6b110cf180f0c312974552f488ff11acf3eb10157f6d9c3171b26"
 
 [[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/c/tags/block/raw_stones.json"
-hash = "2d89bb5c2cac6686afecdacf9661dac133413abb09341d921ee1252d9ca4b76a"
-
-[[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/c/tags/item/hammers.json"
 hash = "2451f6d158595cbaf2bfeaa6ac32439c523170141d8137bd1454858d90567327"
 
@@ -3085,6 +3081,38 @@ file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0550
 hash = "f39a204c6b6d71cd8762beaab88f9cfe9702e78af9506d7bd567b9616b31cb65"
 
 [[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0551_sandile.json"
+hash = "9284be4453b71ffa71f9a2cf517d4f696deb194874db62c253fb4d83bad1316d"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0552_krokorok.json"
+hash = "8de17dc9a4ee961af831db0fd6e8d9fa6db3956a8d579a9df52d6e5ee900b8d4"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0553_krookodile.json"
+hash = "598d8dcfb1d0367988135a140aa1806497c3a0250a4afe8719e12e0944ee7a69"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0554_darumaka.json"
+hash = "edc84841eabf5d92ac556c2862a9867ef449cb6b5b28eb30768aed14185fe2aa"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0554_darumaka_galarian.json"
+hash = "e7f13030ee431355f6f380052abab390857de0e9754e6be2cea92c5f28d57ef7"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0555_darmanitan.json"
+hash = "77d3cde15b987b5f1671ad69fa9e8f204cc2e436c0f8a062cd30bbcc38bdb41e"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0555_darmanitan_galarian.json"
+hash = "c8f2597dc52656f6f5265acf4b881070ece7bb31e928a3cb4e39f48ad873dc3a"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0556_maractus.json"
+hash = "8c853de9fd0d7c74dfdb954236572ba355d9e4258aba8f7c0c0b69dbeba38655"
+
+[[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0590_foongus.json"
 hash = "5ef3997eb4ad42ed6a5c67966e5f46282307f5dc05bd792742f35c3140c3aaa8"
 
@@ -4066,11 +4094,11 @@ hash = "e0efdf5773dd9e4965f03f43bde93bb034ff722a76105ef18b5308ba3b1105ed"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0225_delibird.json"
-hash = "754bca676ef1fef896fc94cf7d15d25fbf335fd210a21727924fad56a611f4bc"
+hash = "f01c1e7487f7f03f7fac67a2910dc150ebc06612ea1a440447553e06b1258092"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0226_mantine.json"
-hash = "95718479abd57822a752480aab621749a7216fb09c72a4b295052d5d1243dded"
+hash = "c1264fd8b932d1f02cb0ccf35de0c8fa2eb5e03c94cba1810c19a83988c42e84"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0227_skarmory.json"
@@ -4614,7 +4642,7 @@ hash = "23b9d95ef3eefd02743a4d7396440feb3ba0326d4cdbdea475173b2846d7c0bf"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0362_glalie.json"
-hash = "24e4445a953f99fbe686cbb23fc61fe2deb0dd8be8bc135831a8a84d883acd76"
+hash = "929c02021941cd84e4b037b614034a8401cb9100ab9252cf39fa817c2108e560"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0363_spheal.json"
@@ -5058,7 +5086,7 @@ hash = "a22fee585e209845c4087a28cf16e074303778c9b6c9b81a085c21f8d14635aa"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0473_mamoswine.json"
-hash = "1e97ba6f755c65849891a7550937f04f5d617dfa631d6df2dba4a147eb457752"
+hash = "46d6ad4a825acdd492c85b2f6df1f4b859255f537e4d7904c2f4d35237120e21"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0474_porygonz.json"
@@ -5078,11 +5106,11 @@ hash = "5176aef19e8b859242091095c3a72b6bc904560f24b1488460ab6371ea117990"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0478_froslass.json"
-hash = "0fb70dec1d08813a371516606a6c44dbf467062f05e133cd77258663380b8303"
+hash = "3469ab31716d1366cabd3665865b48606fb4f20460917b40c6f28b97bf37d4f2"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0479_rotom.json"
-hash = "dd08604c31701ef782cb7d18834627923fff2ea2bb10e4f2796fc391091ae8ed"
+hash = "d274ed1da8382ccb622b54e93175a3846cf1a2587efaa9d5d1a288b90d689e3d"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0480_uxie.json"
@@ -5498,11 +5526,11 @@ hash = "9f459ff2316b06b4b6d3456a92724fc6a860b3d13c8a21fc8f4901ce60c3b03c"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0583_vanillish.json"
-hash = "3f1a7e2aa3eff0f627372409df92251afcd0bbe19c62db7f737008e95a4af072"
+hash = "245288f3f704f6cb3c63dcc8af18fcc1b1b33c9267f1ce62603d6413a5be483b"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0584_vanilluxe.json"
-hash = "871771b5497e720294d66a151c64ea97783be3faeb53e199a25f2df0906c291d"
+hash = "f1fdb17e4f8e60e98f028c2d1dc28328f4f3852dead77e65b71da7c2fbf31d04"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0585_deerling.json"

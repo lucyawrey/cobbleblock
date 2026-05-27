@@ -1,7 +1,7 @@
 {
   "target": "cobblemon:vanillish",
   "drops": {
-    "amount": 5,
+    "amount": 6,
     "entries": [
       {
         "item": "minecraft:snowball",
@@ -14,6 +14,10 @@
       {
         "item": "cobblemon:aspear_berry",
         "percentage": 5
+      },
+      {
+        "item": "minecraft:ice",
+        "quantityRange": "0-1"
       },
       {
         "item": "mega_showdown:ice_tera_shard",

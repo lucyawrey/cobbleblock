@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "krokorok-1",
+      "pokemon": "krokorok",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.18,
+      "level": "29-35",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:sandstone",
+          "minecraft:dead_bush",
+          "minecraft:cactus"
+        ]
+      }
+    }
+  ]
+}

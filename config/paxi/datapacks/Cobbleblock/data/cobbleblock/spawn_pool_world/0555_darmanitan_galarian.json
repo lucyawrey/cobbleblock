@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "darmanitan-galarian-1",
+      "pokemon": "darmanitan galarian",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 3.5,
+      "level": "35-60",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:ice",
+          "minecraft:snow",
+          "minecraft:snow_block",
+          "minecraft:packed_ice",
+          "minecraft:blue_ice"
+        ]
+      }
+    }
+  ]
+}

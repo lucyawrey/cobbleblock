@@ -1,11 +1,15 @@
 {
   "target": "cobblemon:mamoswine",
   "drops": {
-    "amount": 7,
+    "amount": 8,
     "entries": [
       {
+        "item": "minecraft:ice",
+        "quantityRange": "1-2"
+      },
+      {
         "item": "minecraft:brown_wool",
-        "quantityRange": "2-3"
+        "quantityRange": "1-2"
       },
       {
         "item": "cobblemon:never_melt_ice",

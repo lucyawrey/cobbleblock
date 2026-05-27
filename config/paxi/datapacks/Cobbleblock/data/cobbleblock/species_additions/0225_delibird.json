@@ -1,7 +1,7 @@
 {
   "target": "cobblemon:delibird",
   "drops": {
-    "amount": 7,
+    "amount": 8,
     "entries": [
       {
         "item": "minecraft:feather",
@@ -13,7 +13,11 @@
       },
       {
         "item": "cobblemon:charti_berry",
-        "percentage": 5
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:ice",
+        "quantityRange": "0-1"
       },
       {
         "item": "mega_showdown:ice_tera_shard",
