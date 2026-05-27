@@ -18,6 +18,10 @@
     {
       "chance": 0.02,
       "id": "mega_showdown:mega_meteorid_block"
+    },
+    {
+      "chance": 0.05,
+      "id": "create:experience_nugget"
     }
   ]
 }
