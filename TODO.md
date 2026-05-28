@@ -1,7 +1,6 @@
 # Cobbleblock Todo
 
 ## Normal Priority
-- Remove KubeJs creative category.
 - Legendary dogs and Ho-Oh summon item + pedestal assets and recipes.
 - More ways to obtain:
   - Energy root.
@@ -22,6 +21,7 @@
   - Instructions for how to trainers and gym leaders.
   - Cobblestone Generator, Bedrock Cobblestone Generator
   - Crushing things (sand, gravel, suspicious cobble)
+- Remove KubeJs creative category.
 - Create deploy brushes on suspicious gravel and sand to get actual results. Ideally it can use the loot table. This seems like its going to be difficult.
 - Update spawn table.
   - Manually fill in remaining spawn data for non-legendary Pokémon.

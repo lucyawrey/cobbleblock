@@ -1,0 +1,12 @@
+{
+  "name": "Day 99",
+  "icon": "minecraft:writable_book",
+  "category": "patchouli:journal_entries",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "  It has been some time since I awoke in this place."
+    }
+  ]
+}
