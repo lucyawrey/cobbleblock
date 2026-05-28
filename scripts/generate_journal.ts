@@ -23,7 +23,6 @@ for (let filePath of glob.scanSync(inPath)) {
     let data: Record<string, any> = {};
     let inPropertyBlock = false;
     let body = "";
-    let category = "";
 
     Bun.markdown.render(content || "", {
       heading: (text) => {
@@ -43,7 +42,6 @@ for (let filePath of glob.scanSync(inPath)) {
                 data.sortnum = parseInt(value);
               } else if (key === "category") {
                 data.category = "patchouli:" + value;
-                category = value;
               } else {
                 data[key] = value;
               }
