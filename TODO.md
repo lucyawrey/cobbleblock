@@ -1,7 +1,6 @@
 # Cobbleblock Todo
 
 ## Normal Priority
-- Fix Lugia and Suicune pedestals. The issue is checking for fluid/minecraft:water.
 - Remove KubeJs creative category.
 - Legendary dogs and Ho-Oh summon item + pedestal assets and recipes.
 - More ways to obtain:

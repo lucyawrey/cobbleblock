@@ -1,5 +1,7 @@
 const blockMap = {
   "minecraft:fire": "Fire",
+  "minecraft:water": "Water",
+  "minecraft:lava": "Lava",
 };
 
 // Cooldown
