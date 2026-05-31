@@ -118,7 +118,7 @@ hash = "d8d595ed4d18cc6ce19aec23ca51d6cc6c5296546ddce20759d8a68c10681bdb"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/advancement/legendary_summon.json"
-hash = "c57db9af1b1716c37100f04f5536baa6ecb19aab384597f67ebff5b0e29083c9"
+hash = "82045cfde995163a1f6d9cbbe11308f166a0ac416ec64f293c99d6e62542b7da"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/advancement/page_1_nether.json"
@@ -171,6 +171,10 @@ hash = "74849128af95605b9862bc961383917b4d6ff32d36887f461b6971e4935526cc"
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/loot_table/archaeology/suspicious_sand.json"
 hash = "d9ddb8dc234263fea9e089a1d00d1a8540d5e41855f5d9ef62b9f735dcc64fcf"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/loot_table/reward/page_6_shrine.json"
+hash = "06f09db086468ef8f6218672be68f88ec12d61373d5d3cbfb82aedef1f66f407"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/blasting/relic_coin.json"

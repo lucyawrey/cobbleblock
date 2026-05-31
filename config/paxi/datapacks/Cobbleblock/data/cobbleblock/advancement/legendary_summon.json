@@ -3,20 +3,18 @@
         "title": "A legendary summoning",
         "description": "You built a shrine to a legendary Pokémon with a pedestal at the center and made the correct offering.",
         "icon": {
-            "id": "cobbleblock:torn_page"
+            "id": "cobbleblock:lugia_pedestal"
         },
         "show_toast": true,
         "announce_to_chat": true
     },
-    "parent": "cobbleblock:research_journal",
+    "parent": "global:cobbleblock",
     "criteria": {
         "trigger": {
-            "trigger": "minecraft:using_item",
-            "conditions": {
-                "item": {
-                    "items": "cobbleblock:lugia_pedestal"
-                }
-            }
+            "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "loot": "cobbleblock:reward/page_6_shrine"
     }
 }

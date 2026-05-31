@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "torn_page_id": "page_6_shrine"
+                },
+                "minecraft:item_name": "'Torn Page #6 (Shrine)'"
+              }
+            }
+          ],
+          "name": "cobbleblock:torn_page",
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "cobbleblock:reward/page_6_shrine"
+}
