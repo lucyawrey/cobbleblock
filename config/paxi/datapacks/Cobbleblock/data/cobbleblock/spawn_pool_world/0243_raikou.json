@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "raikou-1",
+      "pokemon": "raikou min_perfect_ivs=3",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 0.5,
+      "level": "60",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ]
+      }
+    }
+  ]
+}

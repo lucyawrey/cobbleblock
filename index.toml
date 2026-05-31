@@ -1861,6 +1861,18 @@ file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0242
 hash = "1140c4f394fcb13d1ea005fbe9adae98ae3938efbf135fc3b04bdb6b52e13172"
 
 [[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0243_raikou.json"
+hash = "fb2593b0fd52217f03c4dcdee81eb10424a4f366b890f5454955a11199902f1d"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0244_entei.json"
+hash = "ec432f7f86bbba8f6ce6ab74ea6347705f54bda42d0ee02b5cee714acd979c1c"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0245_suicune.json"
+hash = "0b6925b6238a5d1887f1cdd4fc1e295bc5ab1763e1bc69ef61c549eb5393c04f"
+
+[[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/spawn_pool_world/0246_larvitar.json"
 hash = "9cf8d5d7892f69175472b6493a325dbfeace7de5a96138b5a7fcf1b20c42e638"
 
@@ -4170,15 +4182,15 @@ hash = "666dc27c78a505d77a72caa9e9ecf49eeec9383f1ef30ed5470456a58270f067"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0243_raikou.json"
-hash = "08f82b557da98a482960b734c5d7daeb1bea241c671e034c683b354ba6083c72"
+hash = "59c8b5fe4ec4b9b6da4ea604edf87be6a81910f8e943942bd4a9a498a0331f9c"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0244_entei.json"
-hash = "6647628a0d329872bfd83b7b9a74abcfbe643311e8890eb17bd7dca137ae8d92"
+hash = "0801c829fca35ba877d79512e1434784f5d3762c06b3e306d987a5843f71cf85"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0245_suicune.json"
-hash = "a69f62febc209af591ab8ac9b187534692ff018d9efbbb8c1b485782489022db"
+hash = "654b331adcbae749607eaa9d8102652777cbcfe200ba50b6d14dec9fb8e2b742"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0246_larvitar.json"
@@ -20874,7 +20886,7 @@ hash = "f1b1d8f79eefc30e388f24bc1e71bf0ba6c6c89ebb24c8b674ac4a7d4e8a70b9"
 
 [[files]]
 file = "kubejs/startup_scripts/legendary-shrines.js"
-hash = "8408c95870cebbca43b643c3a1e3068cef307c48833c3fe577040d9eeec34d4c"
+hash = "00cf25d52872f7979dde1709e5154b504c5f8276632de1214c3a509fa932ed43"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"

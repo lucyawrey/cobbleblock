@@ -5,19 +5,19 @@
     "entries": [
       {
         "item": "cobblemon:rare_candy",
-        "quantityRange": "0-2"
+        "quantityRange": "0-1"
       },
       {
-        "item": "minecraft:nether_star",
-        "percentage": 8
+        "item": "cobbleblock:blue_feather",
+        "percentage": 25
       },
       {
         "item": "cobblemon:ability_capsule",
         "percentage": 25
       },
       {
-        "item": "cobblemon:ability_patch",
-        "percentage": 10
+        "item": "minecraft:nether_star",
+        "percentage": 5
       },
       {
         "item": "mega_showdown:water_tera_shard",

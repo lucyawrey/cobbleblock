@@ -1,22 +1,21 @@
 # Cobbleblock Todo
 
 ## Normal Priority
-- Legendary dogs and Ho-Oh summon item + pedestal assets and recipes.
+- Ho-Oh summon item + pedestal assets and recipes.
 - More ways to obtain:
   - Energy root.
   - Birch, Acacia, and Cherry saplings.
   - Pink and White apricorn seeds.
-- Advancement for summoning a legendary.
+- Legendary summoning advancement.
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.
   - Verify licence of all mods in modpack.
   - Ask for permission to use mods in modpack if they are not explicitly open licensed (example: Mega Showdown).
 - Create Lore!
-  - Add methods to obtain more torn pages (Shrine).
-  - Secondary lore items that also get added to the research journal, such as the mewtwo research book or a note from a parent to a child.
-  - Write lore entries.
+  - Secondary lore items that also get added to the research journal such as a note from a child.
+  - Write journal entries.
+  - Write guides.
   - Legendary tablets that require translation information (an advancement/journal entry) before they can be read in the research journal.
-  - Comment on strange non-pokemon fish.
 - Create Guides for the Research Journal
   - Instructions for how to trainers and gym leaders.
   - Cobblestone Generator, Bedrock Cobblestone Generator

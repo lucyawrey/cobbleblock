@@ -88,57 +88,6 @@ global.legendaryPokemon = [
     },
   },
   {
-    id: "raikou",
-    name: "Raikou",
-    level: "60",
-    data: "min_perfect_ivs=3",
-    summonItem: "cobbleblock:bolt_amulet",
-    newSummonItem: true,
-    lootItem: "cobbleblock:yellow_feather",
-    newLootItem: true,
-    required: {
-      "minecraft:gold_block": 5,
-      "minecraft:redstone_block": 10,
-      "minecraft:amethyst_block": 10,
-      "create:cut_ochrum": 20,
-      "cobblemon:apricorn_planks": 20,
-    },
-  },
-  {
-    id: "entei",
-    name: "Entei",
-    level: "60",
-    data: "min_perfect_ivs=3",
-    summonItem: "cobbleblock:fire_amulet",
-    newSummonItem: true,
-    lootItem: "cobbleblock:red_feather",
-    newLootItem: true,
-    required: {
-      "minecraft:iron_block": 5,
-      "minecraft:fire": 10,
-      "minecraft:amethyst_block": 10,
-      "create:cut_crimsite": 20,
-      "minecraft:crimson_planks": 20,
-    },
-  },
-  {
-    id: "suicune",
-    name: "Suicune",
-    level: "60",
-    data: "min_perfect_ivs=3",
-    summonItem: "cobbleblock:wake_amulet",
-    newSummonItem: true,
-    lootItem: "cobbleblock:blue_feather",
-    newLootItem: true,
-    required: {
-      "create:zinc_block": 5,
-      "minecraft:water": 10,
-      "minecraft:amethyst_block": 10,
-      "create:cut_asurine": 20,
-      "minecraft:warped_planks": 20,
-    },
-  },
-  {
     id: "hooh",
     name: "Ho-Oh",
     level: "60",
@@ -158,6 +107,21 @@ global.legendaryPokemon = [
 ];
 
 global.extraItems = [
+  {
+    id: "cobbleblock:blue_feather",
+    tooltip:
+      "A feather dropped by Suicune. One of the three needed to craft the Rainbow Feather and summon Ho-Oh.",
+  },
+  {
+    id: "cobbleblock:red_feather",
+    tooltip:
+      "A feather dropped by Entei. One of the three needed to craft the Rainbow Feather and summon Ho-Oh.",
+  },
+  {
+    id: "cobbleblock:yellow_feather",
+    tooltip:
+      "A feather dropped by Raikou. One of the three needed to craft the Rainbow Feather and summon Ho-Oh.",
+  },
   {
     id: "cobbleblock:ancient_fossil_piece",
     tooltip:
