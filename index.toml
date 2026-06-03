@@ -269,6 +269,10 @@ file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shape
 hash = "475d68f69f4f14f54636e6455080de8d57bdd72b78332ce2eef0f1ec511810d8"
 
 [[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/hooh_pedestal.json"
+hash = "5f4343640cd1a8b7efff67014949520f4439237d5433ce449fc17a649fa9a097"
+
+[[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/ice_gem.json"
 hash = "354a7acf78b9289e2b8308876ca2e7f52454505e8fc7c689ac420b0670f66198"
 
@@ -363,6 +367,10 @@ hash = "da9941b2bde4aba47d99bc81cb615707ffb01ed0e6a88d9a38aa1e88c1ad7188"
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shapeless/organic_compost_from_sticks.json"
 hash = "5c038d93b62f965894974ec580182e19f10bc12caf6160d6db3a00bf894d35a3"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shapeless/rainbow_feather.json"
+hash = "b957c730e6007788d1944c199907c500ff32ad9d1dabf5cf5cc9f2b4beb0dffb"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shapeless/relic_coin.json"
@@ -20717,10 +20725,6 @@ file = "kubejs/assets/cobbleblock/models/block/articuno_pedestal.json"
 hash = "21d0f55a1c92b7625403b1c6e9c02552189e0e38001232a66e07b7c19ac54c74"
 
 [[files]]
-file = "kubejs/assets/cobbleblock/models/block/entei_pedestal.json"
-hash = "0976105b0f58c03b903c1995a1339747253c568d7ef26f0a90bbe10aa8b87879"
-
-[[files]]
 file = "kubejs/assets/cobbleblock/models/block/hooh_pedestal.json"
 hash = "66631dde7a8f5a88eeb6694fa247c158defe69276f7b100993fcfdce89117df0"
 
@@ -20745,24 +20749,12 @@ file = "kubejs/assets/cobbleblock/models/block/pedestal.json"
 hash = "3b11059b62014e479f9dc6fd4534de9c585606b80992830dfa81bbd446eed690"
 
 [[files]]
-file = "kubejs/assets/cobbleblock/models/block/raikou_pedestal.json"
-hash = "4e1f213d62af7228e1a4accf0af668739be9af90d7f402750ec03efb336fa5ba"
-
-[[files]]
-file = "kubejs/assets/cobbleblock/models/block/suicune_pedestal.json"
-hash = "2f44c8c6566f7dd2555a78952983ac4b70e919b0d7da478fb2f5f80a38edf817"
-
-[[files]]
 file = "kubejs/assets/cobbleblock/models/block/zapdos_pedestal.json"
 hash = "386ca02444204c09fa0fe931d259c2cfd71370e0ad49133b166a24e619277d75"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/block/articuno_pedestal.png"
 hash = "78ed7bb6c5f4683fa94900f63e6a7ef003ab5046c18ee1e600cde67b84d8087e"
-
-[[files]]
-file = "kubejs/assets/cobbleblock/textures/block/entei_pedestal.png"
-hash = "7c8dfd86ee99bcf6cd7f7a81e94c9c85a6760177dbf1b1afed54491c8a295066"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/block/hooh_pedestal.png"
@@ -20787,14 +20779,6 @@ hash = "7c8dfd86ee99bcf6cd7f7a81e94c9c85a6760177dbf1b1afed54491c8a295066"
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/block/pedestal.png"
 hash = "bb56a28a613188e6901ad751496e7deaa9fe145fcfaa386b998a52202bc05e72"
-
-[[files]]
-file = "kubejs/assets/cobbleblock/textures/block/raikou_pedestal.png"
-hash = "9bbe33a80d393f251584c52b9815aa83e2fc8b9146ccf9fff32c888a3bef348c"
-
-[[files]]
-file = "kubejs/assets/cobbleblock/textures/block/suicune_pedestal.png"
-hash = "d1ab1a0dd671cd6755eec91478b5096b03e3a12212630013f6ffb79831ad2e1b"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/block/suspicious_cobblestone.png"
@@ -20829,6 +20813,10 @@ file = "kubejs/assets/cobbleblock/textures/item/articuno_orb.png"
 hash = "032d4bb98cef10a11f0a07f95a57c63506f25d9e3f2b317a1a3bfa5a2702b2cf"
 
 [[files]]
+file = "kubejs/assets/cobbleblock/textures/item/blue_feather.png"
+hash = "bc32548a48592bb5ac6c3e39ee7872871283a0c4824287a9a0e297f0ecfe2b9f"
+
+[[files]]
 file = "kubejs/assets/cobbleblock/textures/item/charged_wing.png"
 hash = "9e160afd5447eab4de1c6187efafabcc2dd9319f425594a8b767e26b26aef6c0"
 
@@ -20845,8 +20833,20 @@ file = "kubejs/assets/cobbleblock/textures/item/moltres_orb.png"
 hash = "306e9248f701d1052e027c16cb4ff9aa6beebda129c541d915e7d54c72967c50"
 
 [[files]]
+file = "kubejs/assets/cobbleblock/textures/item/rainbow_feather.png"
+hash = "b09f45141c12b9a56ade1da905d912d17b2b89475f2cb884b37e7c234c4fa2f0"
+
+[[files]]
+file = "kubejs/assets/cobbleblock/textures/item/red_feather.png"
+hash = "048e61121318758c8492ae3e9c8dd88b1cc7d40f6ceb52ca123ec04c795b53db"
+
+[[files]]
 file = "kubejs/assets/cobbleblock/textures/item/torn_page.png"
 hash = "2f49da2ebe00ea4be03618b60f778c55c7bc096fc048deaeb69161bd95dc25d9"
+
+[[files]]
+file = "kubejs/assets/cobbleblock/textures/item/yellow_feather.png"
+hash = "507b7608a4eb2deea627966341bda29c6b5f08fcd9405f3e0a960726ecb1a819"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/item/zapdos_orb.png"
@@ -20886,7 +20886,7 @@ hash = "f1b1d8f79eefc30e388f24bc1e71bf0ba6c6c89ebb24c8b674ac4a7d4e8a70b9"
 
 [[files]]
 file = "kubejs/startup_scripts/legendary-shrines.js"
-hash = "00cf25d52872f7979dde1709e5154b504c5f8276632de1214c3a509fa932ed43"
+hash = "c7fd7ab3d811209f4dee41f877f8cf665e4a0ef56a3fa3a908a6930043c4defd"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"

@@ -99,9 +99,11 @@ global.legendaryPokemon = [
     required: {
       "minecraft:bell": 1,
       "minecraft:gold_block": 10,
-      "minecraft:bamboo_planks": 20,
+      "minecraft:bamboo_planks": 10,
       "minecraft:cherry_planks": 10,
-      "minecraft:deepslate_brick_stairs": 15,
+      "minecraft:crimson_planks": 10,
+      "minecraft:deepslate_bricks": 10,
+      "minecraft:deepslate_brick_stairs": 10,
     },
   },
 ];

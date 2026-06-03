@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "cobbleblock:red_feather"
+        },
+        {
+            "item": "cobbleblock:blue_feather"
+        },
+        {
+            "item": "cobbleblock:yellow_feather"
+        }
+    ],
+    "result": {
+        "id": "cobbleblock:rainbow_feather",
+        "count": 1
+    }
+}
