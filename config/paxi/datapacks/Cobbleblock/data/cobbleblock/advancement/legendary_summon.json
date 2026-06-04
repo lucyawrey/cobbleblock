@@ -1,9 +1,9 @@
 {
     "display": {
         "title": "A legendary summoning",
-        "description": "You built a shrine to a legendary Pokémon with a pedestal at the center and made the correct offering.",
+        "description": "You built a shrine to a legendary Pokémon with a shrine at the center and made the correct offering.",
         "icon": {
-            "id": "cobbleblock:lugia_pedestal"
+            "id": "cobbleblock:lugia_shrine"
         },
         "show_toast": true,
         "announce_to_chat": true

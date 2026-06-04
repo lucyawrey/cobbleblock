@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "cobbleblock:block/hooh_pedestal",
-		"particle": "cobbleblock:block/hooh_pedestal"
+		"0": "cobbleblock:block/hooh_shrine",
+		"particle": "cobbleblock:block/hooh_shrine"
 	},
 	"elements": [
 		{
@@ -252,7 +252,7 @@
 	},
 	"groups": [
 		{
-			"name": "pedestal",
+			"name": "shrine",
 			"origin": [8, 8, 8],
 			"scope": 0,
 			"color": 0,

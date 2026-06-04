@@ -1,10 +1,10 @@
 {
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
-	"texture_size": [64, 64],
+	"texture_size": [10, 10],
 	"textures": {
-		"0": "cobbleblock:block/articuno_pedestal",
-		"particle": "cobbleblock:block/articuno_pedestal"
+		"0": "cobbleblock:block/lugia_shrine",
+		"particle": "cobbleblock:block/lugia_shrine"
 	},
 	"elements": [
 		{
@@ -74,7 +74,7 @@
 		},
 		{
 			"from": [3, 10, 3],
-			"to": [13, 11, 13],
+			"to": [13, 12, 13],
 			"rotation": {"angle": 0, "axis": "y", "origin": [3, 10, 3]},
 			"faces": {
 				"north": {"uv": [0, 2.5, 2.5, 2.75], "texture": "#0"},
@@ -148,7 +148,7 @@
 	},
 	"groups": [
 		{
-			"name": "pedestal",
+			"name": "shrine",
 			"origin": [8, 8, 8],
 			"scope": 0,
 			"color": 0,

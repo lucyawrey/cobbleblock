@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "P": {
-      "item": "mega_showdown:pedestal"
+      "item": "mega_showdown:shrine"
     },
     "F": {
       "tag": "cobblemon:tumblestones"
@@ -25,6 +25,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "cobbleblock:mew_pedestal"
+    "id": "cobbleblock:mew_shrine"
   }
 }

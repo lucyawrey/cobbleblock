@@ -10,7 +10,7 @@ let lastClickTime = Date.now();
 
 for (let pokemon of global.legendaryPokemon) {
   BlockEvents.rightClicked(
-    `cobbleblock:${pokemon.id}_pedestal`,
+    `cobbleblock:${pokemon.id}_shrine`,
     shrineEvent(pokemon),
   );
 }
@@ -45,7 +45,7 @@ function shrineEvent(pokemon) {
         for (let z = minZ; z <= maxZ; z++) {
           let block = level.getBlock(x, y, z);
           let id = block.id;
-          if (id === "mega_showdown:pedestal") {
+          if (id === "mega_showdown:shrine") {
             let itemId = block.getEntityData().Item?.id;
             if (itemId) {
               // Handle issue where ID string gotten from entity data contains quotes.

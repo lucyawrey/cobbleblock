@@ -3,16 +3,16 @@
   "category": "misc",
   "key": {
     "P": {
-      "item": "mega_showdown:pedestal"
+      "item": "mega_showdown:shrine"
     },
     "F": {
       "item": "minecraft:feather"
     },
     "B": {
-      "item": "minecraft:crimson_planks"
+      "item": "minecraft:prismarine"
     },
     "R": {
-      "item": "cobblemon:charcoal_stick"
+      "item": "cobblemon:mystic_water"
     }
   },
   "pattern": [
@@ -22,6 +22,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "cobbleblock:hooh_pedestal"
+    "id": "cobbleblock:lugia_shrine"
   }
 }

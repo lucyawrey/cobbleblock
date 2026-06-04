@@ -60,7 +60,7 @@ global.legendaryPokemon = [
     lootItem: undefined,
     newLootItem: false,
     required: {
-      "mega_showdown:pedestal": 3,
+      "mega_showdown:shrine": 3,
       "cobbleblock:articuno_orb": 1,
       "cobbleblock:zapdos_orb": 1,
       "cobbleblock:moltres_orb": 1,
@@ -145,11 +145,11 @@ global.extraItems = [
 
 StartupEvents.registry("block", (event) => {
   for (let pokemon of global.legendaryPokemon) {
-    // Pedestal blocks
+    // Shrine blocks
     let box = pokemon.box || [2, 0, 2, 14, 13, 14];
     event
-      .create(`cobbleblock:${pokemon.id}_pedestal`)
-      .displayName(`${pokemon.name} Pedestal`)
+      .create(`cobbleblock:${pokemon.id}_shrine`)
+      .displayName(`${pokemon.name} Shrine`)
       .fullBlock(false)
       .box(box[0], box[1], box[2], box[3], box[4], box[5], true)
       .soundType("stone")
@@ -157,10 +157,10 @@ StartupEvents.registry("block", (event) => {
       .resistance(100)
       .requiresTool(true)
       .tagBoth("minecraft:mineable/pickaxe")
-      .tagBoth("cobbleblock:legendary_pedestals")
+      .tagBoth("cobbleblock:legendary_shrines")
       .item((i) =>
         i.tooltip(
-          `A pedestal that acts as a centerpiece for a shrine to ${pokemon.name}. It can tell you what else you need to summon that Pokémon...`,
+          `The centerpiece for a shrine to ${pokemon.name}. It can tell you what else you need to summon that Pokémon...`,
         ),
       );
   }
@@ -198,8 +198,8 @@ StartupEvents.registry("item", (event) => {
 StartupEvents.modifyCreativeTab("cobbleblock:cobbleblock", (event) => {
   let lastItem = "cobbleblock:meteor_beacon";
   for (let pokemon of global.legendaryPokemon) {
-    event.addAfter(lastItem, `cobbleblock:${pokemon.id}_pedestal`);
-    lastItem = `cobbleblock:${pokemon.id}_pedestal`;
+    event.addAfter(lastItem, `cobbleblock:${pokemon.id}_shrine`);
+    lastItem = `cobbleblock:${pokemon.id}_shrine`;
     // Optionally create summon item
     if (pokemon.newSummonItem && pokemon.summonItem) {
       event.addAfter(lastItem, pokemon.summonItem);

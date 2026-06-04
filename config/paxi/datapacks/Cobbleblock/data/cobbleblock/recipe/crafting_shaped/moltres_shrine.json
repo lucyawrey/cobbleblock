@@ -3,16 +3,16 @@
   "category": "misc",
   "key": {
     "P": {
-      "item": "mega_showdown:pedestal"
+      "item": "mega_showdown:shrine"
     },
     "F": {
       "item": "minecraft:feather"
     },
     "B": {
-      "item": "minecraft:yellow_concrete"
+      "item": "minecraft:nether_bricks"
     },
     "R": {
-      "item": "cobblemon:magnet"
+      "item": "cobblemon:heat_rock"
     }
   },
   "pattern": [
@@ -22,6 +22,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "cobbleblock:zapdos_pedestal"
+    "id": "cobbleblock:moltres_shrine"
   }
 }

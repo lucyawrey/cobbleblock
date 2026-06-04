@@ -11,7 +11,7 @@ This modpack is in early access and still undergoing heavy development. A lot is
 - ...plus the tools of a trainer: a starter Pokémon, a Pokédex, a Pokénav, and a Trainer Card.
 - All 1025 Pokémon are included! Many Legendary Pokémon are not not yet obtainable without commands at the moment, however.
 - Completely redone spawning rules for all Pokémon. Build regular Pokémon a habitat using the blocks they like to attract them to your island.
-- Obtain Legendary Pokémon using a unique method: you will need to build them custom multiblock shrines with a pedestal at the center, then offer up special items in order to summon the Pokémon and catch them! These shrines can get expensive, and act as a major form of progression in the pack. Only the Kanto legendaries have shrine implementations right now.
+- Obtain Legendary Pokémon using a unique method: you will need to build them custom multiblock shrines, then offer up special items in order to summon the Pokémon and catch them! These shrines can get expensive, and act as a major form of progression in the pack. Only the Kanto and Johto legendaries have shrine implementations right now.
 - Multiplayer support! Each player can either create their own Skyblock island, or share one with a team of players.
 - No vanilla Minecraft mobs! All mob drops can be obtained from Pokémon or crafted via other means instead.
 - Unique Skyblock progression featuring many new types of cobblestone generators, rebalanced or completely new recipes, automation with the Create mod and rebalanced Pokémon drops among other things.

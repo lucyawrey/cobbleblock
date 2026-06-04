@@ -3,16 +3,16 @@
   "category": "misc",
   "key": {
     "P": {
-      "item": "mega_showdown:pedestal"
+      "item": "mega_showdown:shrine"
     },
     "F": {
       "item": "minecraft:feather"
     },
     "B": {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:crimson_planks"
     },
     "R": {
-      "item": "cobblemon:heat_rock"
+      "item": "cobblemon:charcoal_stick"
     }
   },
   "pattern": [
@@ -22,6 +22,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "cobbleblock:moltres_pedestal"
+    "id": "cobbleblock:hooh_shrine"
   }
 }

@@ -118,7 +118,7 @@ hash = "d8d595ed4d18cc6ce19aec23ca51d6cc6c5296546ddce20759d8a68c10681bdb"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/advancement/legendary_summon.json"
-hash = "82045cfde995163a1f6d9cbbe11308f166a0ac416ec64f293c99d6e62542b7da"
+hash = "cbfa3678d345aaf4461405adf60649cd4005e8a5cdedb820031483442e866da0"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/advancement/page_1_nether.json"
@@ -193,8 +193,8 @@ file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shape
 hash = "c04d45c0febc8b4f7fde635de2de6dbf0de7b89915debb30ec8df1b4969086c4"
 
 [[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/articuno_pedestal.json"
-hash = "57d81a946798adaca118ab52223a73c147f153f11bc1ca3c009f5bdc9a67637c"
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/articuno_shrine.json"
+hash = "2377739b22eed30f152524a449ddd59c858368025c76880dad89af5da09f9487"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/bell.json"
@@ -269,16 +269,16 @@ file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shape
 hash = "475d68f69f4f14f54636e6455080de8d57bdd72b78332ce2eef0f1ec511810d8"
 
 [[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/hooh_pedestal.json"
-hash = "5f4343640cd1a8b7efff67014949520f4439237d5433ce449fc17a649fa9a097"
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/hooh_shrine.json"
+hash = "02592f20ace36644265686637bf892a2377fb13030dd14ac5ab443ea864853eb"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/ice_gem.json"
 hash = "354a7acf78b9289e2b8308876ca2e7f52454505e8fc7c689ac420b0670f66198"
 
 [[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/lugia_pedestal.json"
-hash = "66b2033115aef36bc1b34abfbabedff76c70e0b78259a07e66b71c07e06e9190"
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/lugia_shrine.json"
+hash = "af79f7c9781a3a038822d9fa6ea726853b7cf455d29c9662d37a2522fd9a7065"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/meteor_beacon.json"
@@ -289,16 +289,16 @@ file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shape
 hash = "85750a1dbd8bce611aa84f87b47ae90fc6faad455208031861ca5483de2ca0e5"
 
 [[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/mew_pedestal.json"
-hash = "a31b7bc03d505b3058851f1ea32599365715cdaed7402621190c1f065b7fe9dd"
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/mew_shrine.json"
+hash = "0e0c91bb640efaacaf472877bd57738aec7bde8215c4d75271294ad79f060683"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/molten_wing.json"
 hash = "1fc6c4c63a71b9d11df7b5d11e6dfee0a509f38f22edc355de254c5995aa880c"
 
 [[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/moltres_pedestal.json"
-hash = "fd3ce7fda9077e606a50d8bc13452772ea5f497ab39d8e27f013a259405433a3"
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/moltres_shrine.json"
+hash = "d120e3bea5d44c0485a5bf541c3b0c9a2296063b4951f54780a857e9e70f7ac1"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/netherite_upgrade_smithing_template.json"
@@ -337,8 +337,8 @@ file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shape
 hash = "7978b444c10887694714d83488de84d0dc4ee544edb00f2b534f7b5f096b6a2d"
 
 [[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/zapdos_pedestal.json"
-hash = "39589623ac29856008193f11976fd2d74861d5997285ff5dfde5f81e6d8747a7"
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/zapdos_shrine.json"
+hash = "9917adad3d8417f08aee6add0fbe51237c12f639530a5cc9f0e7c77818ec5214"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shapeless/ancient_fossil.json"
@@ -20721,47 +20721,47 @@ file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
-file = "kubejs/assets/cobbleblock/models/block/articuno_pedestal.json"
-hash = "21d0f55a1c92b7625403b1c6e9c02552189e0e38001232a66e07b7c19ac54c74"
+file = "kubejs/assets/cobbleblock/models/block/articuno_shrine.json"
+hash = "51eff03bc9b8299a5b7526da0b9eae8e6b1a29b9392f4b690248b16476969938"
 
 [[files]]
-file = "kubejs/assets/cobbleblock/models/block/hooh_pedestal.json"
-hash = "533d3d0f15704b4477c0849d3dc98798e882aecbf0deacd7abb8b6b3bcdf31ae"
+file = "kubejs/assets/cobbleblock/models/block/hooh_shrine.json"
+hash = "939f570ffc21349d0177351a01e4024e4e820d6c1697ae889a8049c2181aec42"
 
 [[files]]
-file = "kubejs/assets/cobbleblock/models/block/lugia_pedestal.json"
-hash = "a88f54e6e6d4dce2266fe6e592f4f2e9be23664f054850dda646af237f58efd6"
+file = "kubejs/assets/cobbleblock/models/block/lugia_shrine.json"
+hash = "e4ebd946b1b87523b6a6b2eaa07786a7eb1abee0397447e160ec65368e034fab"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/models/block/meteor_beacon.json"
 hash = "95e8a7cefa1f15e3928ca1876cf6819c6f6eae0e18f05d49b065e37debcacac8"
 
 [[files]]
-file = "kubejs/assets/cobbleblock/models/block/mew_pedestal.json"
-hash = "75cea2677ac6fad619e00e5a8267f5482f1f19f7bcff624c71c5d1cc17fe7391"
+file = "kubejs/assets/cobbleblock/models/block/mew_shrine.json"
+hash = "d353b6fc53dac68967c67d7a09bb17d70337f14eb47fbeba20abe06b536ee01b"
 
 [[files]]
-file = "kubejs/assets/cobbleblock/models/block/moltres_pedestal.json"
-hash = "09b2a89a8f2bc85352ea6feac9ae7d2c4a169294c5dd380c62db3f98ce754cab"
+file = "kubejs/assets/cobbleblock/models/block/moltres_shrine.json"
+hash = "c158ddac811a80cf41998ef6df8ce6cdca8978530966f4d010e93c582d8c8033"
 
 [[files]]
-file = "kubejs/assets/cobbleblock/models/block/pedestal.json"
-hash = "3b11059b62014e479f9dc6fd4534de9c585606b80992830dfa81bbd446eed690"
+file = "kubejs/assets/cobbleblock/models/block/shrine.json"
+hash = "0b89ac9eb55b9c38b829d902192467179e1cce897de46cd289e8bd75ed6c9658"
 
 [[files]]
-file = "kubejs/assets/cobbleblock/models/block/zapdos_pedestal.json"
-hash = "386ca02444204c09fa0fe931d259c2cfd71370e0ad49133b166a24e619277d75"
+file = "kubejs/assets/cobbleblock/models/block/zapdos_shrine.json"
+hash = "745f84dfa69c96eb3e2663214064e3662ee674df8014d8c3cbea34cfb254fc26"
 
 [[files]]
-file = "kubejs/assets/cobbleblock/textures/block/articuno_pedestal.png"
+file = "kubejs/assets/cobbleblock/textures/block/articuno_shrine.png"
 hash = "78ed7bb6c5f4683fa94900f63e6a7ef003ab5046c18ee1e600cde67b84d8087e"
 
 [[files]]
-file = "kubejs/assets/cobbleblock/textures/block/hooh_pedestal.png"
+file = "kubejs/assets/cobbleblock/textures/block/hooh_shrine.png"
 hash = "959e6ac17270477c3304e8a441fbd223847dd3e0b80fe93a3d41f97ba96b1613"
 
 [[files]]
-file = "kubejs/assets/cobbleblock/textures/block/lugia_pedestal.png"
+file = "kubejs/assets/cobbleblock/textures/block/lugia_shrine.png"
 hash = "d1ab1a0dd671cd6755eec91478b5096b03e3a12212630013f6ffb79831ad2e1b"
 
 [[files]]
@@ -20769,15 +20769,15 @@ file = "kubejs/assets/cobbleblock/textures/block/meteor_beacon.png"
 hash = "dbc7321e8d5074077d9ed77d5fa7a5ec20fa064c6e5c4bd20d95d586aa0cbf3a"
 
 [[files]]
-file = "kubejs/assets/cobbleblock/textures/block/mew_pedestal.png"
+file = "kubejs/assets/cobbleblock/textures/block/mew_shrine.png"
 hash = "326106aba48eccbb5bf25d1809ccab9251d5634b83a2d052681027e43a531c79"
 
 [[files]]
-file = "kubejs/assets/cobbleblock/textures/block/moltres_pedestal.png"
+file = "kubejs/assets/cobbleblock/textures/block/moltres_shrine.png"
 hash = "7c8dfd86ee99bcf6cd7f7a81e94c9c85a6760177dbf1b1afed54491c8a295066"
 
 [[files]]
-file = "kubejs/assets/cobbleblock/textures/block/pedestal.png"
+file = "kubejs/assets/cobbleblock/textures/block/shrine.png"
 hash = "bb56a28a613188e6901ad751496e7deaa9fe145fcfaa386b998a52202bc05e72"
 
 [[files]]
@@ -20785,7 +20785,7 @@ file = "kubejs/assets/cobbleblock/textures/block/suspicious_cobblestone.png"
 hash = "207f328fe30d4b8b86162308373ba59630cad6f117e23c50790ff8c80094daec"
 
 [[files]]
-file = "kubejs/assets/cobbleblock/textures/block/zapdos_pedestal.png"
+file = "kubejs/assets/cobbleblock/textures/block/zapdos_shrine.png"
 hash = "9bbe33a80d393f251584c52b9815aa83e2fc8b9146ccf9fff32c888a3bef348c"
 
 [[files]]
@@ -20854,7 +20854,7 @@ hash = "982460efbbfd2262f7d96f6a9549bcc449d498acc4eb493b7298ac3141b334cc"
 
 [[files]]
 file = "kubejs/assets/mega_showdown/models/block/pedestal.json"
-hash = "98f51b8d2d5e069c2f914ccbc1d684db8d69565abe25558d3f3394bc89a93a36"
+hash = "cac2afc6679b07044925a9668c8946372c086516f38355facf0f1e981e272708"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
@@ -20874,7 +20874,7 @@ hash = "6a92eb2275b59ceb26bb82be4c82fd2d5eb8e1f0573cb97865b17f033b91889d"
 
 [[files]]
 file = "kubejs/server_scripts/legendary-shrines.js"
-hash = "471821447ad9dd6826d188f108e23172991419b9c567d4e5e6d6f608d8e4c876"
+hash = "d81f51c5026de19c0f60659f774b7f77515839b9138ce7ef11551a14e137f829"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -20886,7 +20886,7 @@ hash = "f1b1d8f79eefc30e388f24bc1e71bf0ba6c6c89ebb24c8b674ac4a7d4e8a70b9"
 
 [[files]]
 file = "kubejs/startup_scripts/legendary-shrines.js"
-hash = "a08342b26bda923efd1b554f14037b0d21a3ef8028b940117fe0af1770f302bc"
+hash = "7403143ce8e2b23b019ea2496cee300b5f90ebe1fa0e70785c24022e6c2e6cfe"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
