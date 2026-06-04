@@ -96,6 +96,7 @@ global.legendaryPokemon = [
     newSummonItem: true,
     lootItem: undefined,
     newLootItem: false,
+    box: [0, 0, 2, 16, 13, 14],
     required: {
       "minecraft:bell": 1,
       "minecraft:gold_block": 10,
@@ -144,11 +145,12 @@ global.extraItems = [
 StartupEvents.registry("block", (event) => {
   for (let pokemon of global.legendaryPokemon) {
     // Pedestal blocks
+    let box = pokemon.box || [2, 0, 2, 14, 13, 14];
     event
       .create(`cobbleblock:${pokemon.id}_pedestal`)
       .displayName(`${pokemon.name} Pedestal`)
       .fullBlock(false)
-      .box(2, 0, 2, 14, 13, 14, true)
+      .box(box[0], box[1], box[2], box[3], box[4], box[5], true)
       .soundType("stone")
       .hardness(10.0)
       .resistance(100)

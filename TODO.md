@@ -6,6 +6,7 @@
   - Birch, Acacia, and Cherry saplings.
   - Pink and White apricorn seeds.
 - Legendary summoning advancement reward.
+- Advancement for offering a coin to a shrine.
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.
   - Verify licence of all mods in modpack.
