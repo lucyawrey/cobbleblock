@@ -1,9 +1,9 @@
 {
     "display": {
-        "title": "A legendary summoning",
-        "description": "You built a shrine to a legendary Pokémon with a shrine at the center and made the correct offering.",
+        "title": "A kind donation",
+        "description": "You a relic coin into the offering box.",
         "icon": {
-            "id": "cobbleblock:lugia_shrine"
+            "id": "cobblemon:relic_coin"
         },
         "show_toast": true,
         "announce_to_chat": true

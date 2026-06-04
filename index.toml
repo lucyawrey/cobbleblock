@@ -118,7 +118,7 @@ hash = "d8d595ed4d18cc6ce19aec23ca51d6cc6c5296546ddce20759d8a68c10681bdb"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/advancement/legendary_summon.json"
-hash = "cbfa3678d345aaf4461405adf60649cd4005e8a5cdedb820031483442e866da0"
+hash = "6a1101b732e90f82607fd8ae6d086d16299a8d40586a22bd7cef27fd3336eea6"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/advancement/page_1_nether.json"
@@ -147,6 +147,10 @@ hash = "97b216abc286fd0e61381ba0e5090b1b6eb7f481a939d09cf7263c5e531b16b0"
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/advancement/research_journal.json"
 hash = "2f65f95f6d6bb4ca78044442a5dc03c609da3e444ed936de76d35c50922279bb"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/advancement/shrine_donation.json"
+hash = "f26de0795b375c2d2df1dcffa203d161862a0da06768b95d49b297402f658b7c"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/burner_species/default.json"
@@ -20874,7 +20878,7 @@ hash = "6a92eb2275b59ceb26bb82be4c82fd2d5eb8e1f0573cb97865b17f033b91889d"
 
 [[files]]
 file = "kubejs/server_scripts/legendary-shrines.js"
-hash = "2c3deba65c37dcdfe7ea260a765db067114cb5754868726066bfada3adc813de"
+hash = "20cf9c65ce777a3abfffe3d2c554bae55eb3fa11b0d96ec4f4f07a55e59c7998"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -20886,7 +20890,7 @@ hash = "f1b1d8f79eefc30e388f24bc1e71bf0ba6c6c89ebb24c8b674ac4a7d4e8a70b9"
 
 [[files]]
 file = "kubejs/startup_scripts/legendary-shrines.js"
-hash = "9747bba21355167e9803c9358f63798ec786dd344f55f6f79fcf80653ccd84af"
+hash = "6133d3737d50a777e7e4fc87c4308d81b240673f963ab8159791b93ce08c4e02"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"

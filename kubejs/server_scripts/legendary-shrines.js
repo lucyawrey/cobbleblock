@@ -27,9 +27,15 @@ function shrineEvent(pokemon) {
     let counted = {};
 
     // Handle offering coins
-    if (pokemon.takesCoins && player.mainHandItem.id === "cobblemon:relic_coin") {
+    if (
+      pokemon.takesCoins &&
+      player.mainHandItem.id === "cobblemon:relic_coin"
+    ) {
       player.mainHandItem.shrink(1);
       player.tell(`§6You toss a coin in.`);
+      server.runCommandSilent(
+        `advancement grant ${player.profile.name} only cobbleblock:shrine_donation`,
+      );
       return;
     }
 
@@ -81,12 +87,26 @@ function shrineEvent(pokemon) {
         server.runCommandSilent(
           `playsound minecraft:block.end_portal.spawn block @p ${block.x} ${block.y} ${block.z}`,
         );
+        server.runCommandSilent(
+          `advancement grant ${player.profile.name} only cobbleblock:legendary_summon`,
+        );
         player.mainHandItem.shrink(1);
         // Spawn loot item
         if (pokemon.lootItem && pokemon.lootItem !== "minecraft:air") {
           let itemEntity = level.createEntity("minecraft:item");
           itemEntity.setPos(block.x + 0.5, block.y + 2.0, block.z + 0.5);
           itemEntity.item = Item.of(pokemon.lootItem, 1);
+          itemEntity.spawn();
+        }
+        if (Math.random() <= 0.25) {
+          let itemEntity = level.createEntity("minecraft:item");
+          itemEntity.setPos(block.x + 0.5, block.y + 2.0, block.z + 0.5);
+          itemEntity.item = Item.of("cobbleblock:torn_page", 1, {
+            "minecraft:custom_data": {
+              torn_page_id: "page_6_shrine",
+            },
+            "minecraft:item_name": "Torn Page #6 (Shrine)",
+          });
           itemEntity.spawn();
         }
         // Spawn Pokémon

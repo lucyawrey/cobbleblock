@@ -1,16 +1,11 @@
 # Cobbleblock Todo
 
 ## Normal Priority
+
 - More ways to obtain:
   - Energy root.
   - Birch, Acacia, and Cherry saplings.
   - Pink and White apricorn seeds.
-- Legendary summoning advancement reward.
-- Advancement for offering a coin to a shrine.
-- Permissions and Credits
-  - Create proper credits list for all used mods and include in readme and description.
-  - Verify licence of all mods in modpack.
-  - Ask for permission to use mods in modpack if they are not explicitly open licensed (example: Mega Showdown).
 - Create Lore!
   - Secondary lore items that also get added to the research journal such as a note from a child.
   - Write journal entries.
@@ -20,6 +15,10 @@
   - Instructions for how to summon trainers and gym leaders.
   - Cobblestone Generator, Bedrock Cobblestone Generator
   - Crushing things (sand, gravel, suspicious cobble)
+- Permissions and Credits
+  - Create proper credits list for all used mods and include in readme and description.
+  - Verify licence of all mods in modpack.
+  - Ask for permission to use mods in modpack if they are not explicitly open licensed (example: Mega Showdown).
 - Remove KubeJs creative category.
 - Create deploy brushes on suspicious gravel and sand to get actual results. Ideally it can use the loot table. This seems like its going to be difficult.
 - Update spawn table.
