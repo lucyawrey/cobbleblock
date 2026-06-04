@@ -96,6 +96,7 @@ global.legendaryPokemon = [
     newSummonItem: true,
     lootItem: undefined,
     newLootItem: false,
+    takesCoins: true,
     box: [0, 0, 2, 16, 13, 14],
     required: {
       "minecraft:bell": 1,

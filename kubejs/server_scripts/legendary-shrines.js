@@ -26,6 +26,13 @@ function shrineEvent(pokemon) {
     let { block, level, player, server } = event;
     let counted = {};
 
+    // Handle offering coins
+    if (pokemon.takesCoins && player.mainHandItem.id === "cobblemon:relic_coin") {
+      player.mainHandItem.shrink(1);
+      player.tell(`§6You toss a coin in.`);
+      return;
+    }
+
     // Loop through bounding box to count nearby blocks
     let minX = block.x - 8;
     let minY = block.y - 8;
@@ -69,10 +76,7 @@ function shrineEvent(pokemon) {
     }
 
     if (meetsRequirements) {
-      if (player.mainHandItem.id === "cobblemon:relic_coin") {
-        player.mainHandItem.shrink(1);
-        player.tell(`§6You toss a coin in.`);
-      } else if (player.mainHandItem.id === pokemon.summonItem) {
+      if (player.mainHandItem.id === pokemon.summonItem) {
         player.tell(`§b§l${pokemon.name} is coming.`);
         server.runCommandSilent(
           `playsound minecraft:block.end_portal.spawn block @p ${block.x} ${block.y} ${block.z}`,
