@@ -20726,7 +20726,7 @@ hash = "21d0f55a1c92b7625403b1c6e9c02552189e0e38001232a66e07b7c19ac54c74"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/models/block/hooh_pedestal.json"
-hash = "66631dde7a8f5a88eeb6694fa247c158defe69276f7b100993fcfdce89117df0"
+hash = "04a49f71c88249b63db9b22a6e4fd318512a2cd18a6ad0b4621675eac10c4074"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/models/block/lugia_pedestal.json"
@@ -20758,7 +20758,7 @@ hash = "78ed7bb6c5f4683fa94900f63e6a7ef003ab5046c18ee1e600cde67b84d8087e"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/block/hooh_pedestal.png"
-hash = "7c8dfd86ee99bcf6cd7f7a81e94c9c85a6760177dbf1b1afed54491c8a295066"
+hash = "9b815cbb72e82d313f2bb6cf64d84b1699f4e082eefa0e82d1d3fad5e7b4e423"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/block/lugia_pedestal.png"

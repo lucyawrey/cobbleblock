@@ -1,12 +1,11 @@
 # Cobbleblock Todo
 
 ## Normal Priority
-- Ho-Oh summon item + pedestal assets and recipes.
 - More ways to obtain:
   - Energy root.
   - Birch, Acacia, and Cherry saplings.
   - Pink and White apricorn seeds.
-- Legendary summoning advancement.
+- Legendary summoning advancement reward.
 - Permissions and Credits
   - Create proper credits list for all used mods and include in readme and description.
   - Verify licence of all mods in modpack.
@@ -17,7 +16,7 @@
   - Write guides.
   - Legendary tablets that require translation information (an advancement/journal entry) before they can be read in the research journal.
 - Create Guides for the Research Journal
-  - Instructions for how to trainers and gym leaders.
+  - Instructions for how to summon trainers and gym leaders.
   - Cobblestone Generator, Bedrock Cobblestone Generator
   - Crushing things (sand, gravel, suspicious cobble)
 - Remove KubeJs creative category.
