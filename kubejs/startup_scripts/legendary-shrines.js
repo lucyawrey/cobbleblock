@@ -60,14 +60,14 @@ global.legendaryPokemon = [
     lootItem: undefined,
     newLootItem: false,
     required: {
-      "mega_showdown:shrine": 3,
+      "mega_showdown:pedestal": 3,
       "cobbleblock:articuno_orb": 1,
       "cobbleblock:zapdos_orb": 1,
       "cobbleblock:moltres_orb": 1,
       "minecraft:water": 10,
       "minecraft:prismarine": 20,
-      "minecraft:lapis_block": 10,
-      "minecraft:quartz_block": 10,
+      "minecraft:lapis_block": 8,
+      "minecraft:smooth_quartz": 10,
     },
   },
   {
@@ -90,7 +90,7 @@ global.legendaryPokemon = [
   {
     id: "hooh",
     name: "Ho-Oh",
-    level: "60",
+    level: "65",
     data: "min_perfect_ivs=3",
     summonItem: "cobbleblock:rainbow_feather",
     newSummonItem: true,
@@ -101,8 +101,7 @@ global.legendaryPokemon = [
     required: {
       "minecraft:bell": 1,
       "minecraft:gold_block": 10,
-      "minecraft:bamboo_planks": 10,
-      "minecraft:cherry_planks": 10,
+      "minecraft:bamboo_planks": 15,
       "minecraft:crimson_planks": 10,
       "minecraft:deepslate_bricks": 10,
       "minecraft:deepslate_brick_stairs": 10,

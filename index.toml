@@ -194,7 +194,7 @@ hash = "c04d45c0febc8b4f7fde635de2de6dbf0de7b89915debb30ec8df1b4969086c4"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/articuno_shrine.json"
-hash = "2377739b22eed30f152524a449ddd59c858368025c76880dad89af5da09f9487"
+hash = "d7675b99df760ad0596a51f07f480d3381ce2351e67af067f9021c06940238e1"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/bell.json"
@@ -270,7 +270,7 @@ hash = "475d68f69f4f14f54636e6455080de8d57bdd72b78332ce2eef0f1ec511810d8"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/hooh_shrine.json"
-hash = "02592f20ace36644265686637bf892a2377fb13030dd14ac5ab443ea864853eb"
+hash = "41e39eb863ac88ad45952d84b05e1a062f9ef8d751674c2fa9101ee45e2732de"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/ice_gem.json"
@@ -278,7 +278,7 @@ hash = "354a7acf78b9289e2b8308876ca2e7f52454505e8fc7c689ac420b0670f66198"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/lugia_shrine.json"
-hash = "af79f7c9781a3a038822d9fa6ea726853b7cf455d29c9662d37a2522fd9a7065"
+hash = "7e431324dadac4c292e5496e01796f78bebc4e647b01dfcd8284b7079306eb8d"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/meteor_beacon.json"
@@ -290,7 +290,7 @@ hash = "85750a1dbd8bce611aa84f87b47ae90fc6faad455208031861ca5483de2ca0e5"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/mew_shrine.json"
-hash = "0e0c91bb640efaacaf472877bd57738aec7bde8215c4d75271294ad79f060683"
+hash = "bfc7a6cf1f9841375eba80b752f5fdcf7f19ed10cf61f4630114e9affbf40b2a"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/molten_wing.json"
@@ -298,7 +298,7 @@ hash = "1fc6c4c63a71b9d11df7b5d11e6dfee0a509f38f22edc355de254c5995aa880c"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/moltres_shrine.json"
-hash = "d120e3bea5d44c0485a5bf541c3b0c9a2296063b4951f54780a857e9e70f7ac1"
+hash = "07320306ba99fb2b980cd90e651eaabd879386cdb90a1632e0353e9ab5a8b236"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/netherite_upgrade_smithing_template.json"
@@ -338,7 +338,7 @@ hash = "7978b444c10887694714d83488de84d0dc4ee544edb00f2b534f7b5f096b6a2d"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/zapdos_shrine.json"
-hash = "9917adad3d8417f08aee6add0fbe51237c12f639530a5cc9f0e7c77818ec5214"
+hash = "4ccc5a154cc9971afafb74d0965fecd2cef43773d8aad04ff915f81f8c82af88"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shapeless/ancient_fossil.json"
@@ -20874,7 +20874,7 @@ hash = "6a92eb2275b59ceb26bb82be4c82fd2d5eb8e1f0573cb97865b17f033b91889d"
 
 [[files]]
 file = "kubejs/server_scripts/legendary-shrines.js"
-hash = "d81f51c5026de19c0f60659f774b7f77515839b9138ce7ef11551a14e137f829"
+hash = "2c3deba65c37dcdfe7ea260a765db067114cb5754868726066bfada3adc813de"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -20886,7 +20886,7 @@ hash = "f1b1d8f79eefc30e388f24bc1e71bf0ba6c6c89ebb24c8b674ac4a7d4e8a70b9"
 
 [[files]]
 file = "kubejs/startup_scripts/legendary-shrines.js"
-hash = "7403143ce8e2b23b019ea2496cee300b5f90ebe1fa0e70785c24022e6c2e6cfe"
+hash = "9747bba21355167e9803c9358f63798ec786dd344f55f6f79fcf80653ccd84af"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"

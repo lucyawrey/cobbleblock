@@ -45,7 +45,7 @@ function shrineEvent(pokemon) {
         for (let z = minZ; z <= maxZ; z++) {
           let block = level.getBlock(x, y, z);
           let id = block.id;
-          if (id === "mega_showdown:shrine") {
+          if (id === "mega_showdown:pedestal") {
             let itemId = block.getEntityData().Item?.id;
             if (itemId) {
               // Handle issue where ID string gotten from entity data contains quotes.
