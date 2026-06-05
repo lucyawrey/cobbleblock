@@ -157,6 +157,14 @@ file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/burner_species/defaul
 hash = "4ff226f5cd0908237d540323b3c1b753512859f10a410cf5951afea106907025"
 
 [[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/dimension/ancient_forest.json"
+hash = "2c2739bdb941e82f8f7fd266080bab3a505ec10d296db755be9ed2d876a96d66"
+
+[[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/dimension_type/ancient_forest.json"
+hash = "3926a213f8178162f0aeda4b959ead0a9d9e066f07cff979ef75da3fea86bb04"
+
+[[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/function/load.mcfunction"
 hash = "85653b2acc525bf99128a1a120bf3cf01a0b9eb18fc83bcd71682f24c4de28c2"
 
