@@ -1,7 +1,7 @@
 {
   "target": "cobblemon:deerling",
   "drops": {
-    "amount": 6,
+    "amount": 7,
     "entries": [
       {
         "item": "minecraft:leather",
@@ -9,7 +9,11 @@
       },
       {
         "item": "cobblemon:yache_berry",
-        "percentage": 2.5
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:energy_root",
+        "percentage": 25
       },
       {
         "item": "mega_showdown:normal_tera_shard",

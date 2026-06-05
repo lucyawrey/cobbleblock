@@ -1,11 +1,15 @@
 {
   "target": "cobblemon:cradily",
   "drops": {
-    "amount": 5,
+    "amount": 6,
     "entries": [
       {
         "item": "cobblemon:big_root",
-        "percentage": 10
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:energy_root",
+        "quantityRange": "0-1"
       },
       {
         "item": "mega_showdown:rock_tera_shard",

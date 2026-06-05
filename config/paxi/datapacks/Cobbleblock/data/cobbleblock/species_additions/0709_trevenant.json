@@ -1,7 +1,7 @@
 {
   "target": "cobblemon:trevenant",
   "drops": {
-    "amount": 7,
+    "amount": 8,
     "entries": [
       {
         "item": "minecraft:jack_o_lantern"
@@ -12,7 +12,11 @@
       },
       {
         "item": "cobblemon:rawst_berry",
-        "percentage": 5
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:dark_oak_sapling",
+        "quantityRange": "0-1"
       },
       {
         "item": "mega_showdown:ghost_tera_shard",

@@ -1,11 +1,15 @@
 {
   "target": "cobblemon:lileep",
   "drops": {
-    "amount": 5,
+    "amount": 6,
     "entries": [
       {
         "item": "cobblemon:big_root",
-        "percentage": 5
+        "percentage": 25
+      },
+      {
+        "item": "cobblemon:energy_root",
+        "percentage": 25
       },
       {
         "item": "mega_showdown:rock_tera_shard",

@@ -1,7 +1,7 @@
 {
   "target": "cobblemon:sawsbuck",
   "drops": {
-    "amount": 6,
+    "amount": 7,
     "entries": [
       {
         "item": "minecraft:leather",
@@ -9,7 +9,11 @@
       },
       {
         "item": "cobblemon:yache_berry",
-        "percentage": 5
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:energy_root",
+        "quantityRange": "0-1"
       },
       {
         "item": "mega_showdown:normal_tera_shard",

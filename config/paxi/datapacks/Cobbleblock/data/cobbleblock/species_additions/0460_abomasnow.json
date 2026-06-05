@@ -1,7 +1,7 @@
 {
   "target": "cobblemon:abomasnow",
   "drops": {
-    "amount": 8,
+    "amount": 9,
     "entries": [
       {
         "item": "minecraft:snowball",
@@ -18,6 +18,10 @@
       {
         "item": "cobblemon:occa_berry",
         "percentage": 5
+      },
+      {
+        "item": "minecraft:spruce_sapling",
+        "percentage": 25
       },
       {
         "item": "mega_showdown:grass_tera_shard",

@@ -1,7 +1,7 @@
 {
   "target": "cobblemon:phantump",
   "drops": {
-    "amount": 7,
+    "amount": 8,
     "entries": [
       {
         "item": "minecraft:jack_o_lantern",
@@ -13,7 +13,11 @@
       },
       {
         "item": "cobblemon:rawst_berry",
-        "percentage": 2.5
+        "percentage": 5
+      },
+      {
+        "item": "minecraft:dark_oak_sapling",
+        "percentage": 25
       },
       {
         "item": "mega_showdown:ghost_tera_shard",

@@ -3,8 +3,6 @@
 ## Normal Priority
 
 - More ways to obtain:
-  - Energy root.
-  - Birch, Acacia, and Cherry saplings.
   - Pink and White apricorn seeds.
 - Create Lore!
   - Secondary lore items that also get added to the research journal such as a note from a child.
