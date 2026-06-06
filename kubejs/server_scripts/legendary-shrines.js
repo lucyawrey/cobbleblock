@@ -86,11 +86,6 @@ function shrineEvent(pokemon) {
 
     if (meetsRequirements) {
       if (player.mainHandItem.id === pokemon.summonItem) {
-        player.tell(`§b§l${pokemon.name} is coming.`);
-        server.runCommandSilent(
-          `playsound minecraft:block.end_portal.spawn block @p ${block.x} ${block.y} ${block.z}`,
-        );
-
         // Celebi
         if (
           pokemon.id === "celebi" &&
@@ -103,6 +98,10 @@ function shrineEvent(pokemon) {
           return;
         }
 
+        player.tell(`§b§l${pokemon.name} is coming.`);
+        server.runCommandSilent(
+          `playsound minecraft:block.end_portal.spawn block @p ${block.x} ${block.y} ${block.z}`,
+        );
         server.runCommandSilent(
           `advancement grant ${player.profile.name} only cobbleblock:legendary_summon`,
         );
@@ -139,9 +138,7 @@ function shrineEvent(pokemon) {
           pokemon.id === "celebi" &&
           event.player.level.dimension.toString() === world
         ) {
-          server.runCommandSilent(
-            `execute as LucyAzalea run skyblock home`,
-          );
+          server.runCommandSilent(`execute as LucyAzalea run skyblock home`);
           event.cancel();
           return;
         }
