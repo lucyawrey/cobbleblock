@@ -162,7 +162,7 @@ hash = "2c2739bdb941e82f8f7fd266080bab3a505ec10d296db755be9ed2d876a96d66"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/dimension_type/ancient_forest.json"
-hash = "3926a213f8178162f0aeda4b959ead0a9d9e066f07cff979ef75da3fea86bb04"
+hash = "02d5b0aff04b27d3ea1707be02dc3e8362aa736835de88d721222082c6b5c983"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/function/load.mcfunction"
@@ -20902,7 +20902,7 @@ hash = "6a92eb2275b59ceb26bb82be4c82fd2d5eb8e1f0573cb97865b17f033b91889d"
 
 [[files]]
 file = "kubejs/server_scripts/legendary-shrines.js"
-hash = "20cf9c65ce777a3abfffe3d2c554bae55eb3fa11b0d96ec4f4f07a55e59c7998"
+hash = "684d56566a98c2056393bbf31f33b63211ebf6d0cbbb3ad5fef10c79055cb6aa"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -20914,7 +20914,7 @@ hash = "f1b1d8f79eefc30e388f24bc1e71bf0ba6c6c89ebb24c8b674ac4a7d4e8a70b9"
 
 [[files]]
 file = "kubejs/startup_scripts/legendary-shrines.js"
-hash = "6133d3737d50a777e7e4fc87c4308d81b240673f963ab8159791b93ce08c4e02"
+hash = "94db4354de9ea4e6a39471b00b1df3eb86bdbaaaea1af2aea5db0a1fb2492e44"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"

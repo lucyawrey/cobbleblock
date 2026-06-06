@@ -19,12 +19,15 @@ function shrineEvent(pokemon) {
   return (event) => {
     // Cooldown
     if (Date.now() < lastClickTime + cooldownTime) {
+      event.cancel();
       return;
     }
     lastClickTime = Date.now();
 
     let { block, level, player, server } = event;
     let counted = {};
+
+    let world = pokemon.world || "minecraft:overworld";
 
     // Handle offering coins
     if (
@@ -36,6 +39,7 @@ function shrineEvent(pokemon) {
       server.runCommandSilent(
         `advancement grant ${player.profile.name} only cobbleblock:shrine_donation`,
       );
+      event.cancel();
       return;
     }
 
@@ -66,7 +70,6 @@ function shrineEvent(pokemon) {
         }
       }
     }
-    console.log(counted);
     // Check if counted blocks match the block requirements for a the current legendary Pokémon.
     let meetsRequirements = true;
     let missingRequirements = [];
@@ -87,6 +90,19 @@ function shrineEvent(pokemon) {
         server.runCommandSilent(
           `playsound minecraft:block.end_portal.spawn block @p ${block.x} ${block.y} ${block.z}`,
         );
+
+        // Celebi
+        if (
+          pokemon.id === "celebi" &&
+          event.player.level.dimension.toString() !== world
+        ) {
+          server.runCommandSilent(
+            `execute in ${world} run tp ${player.profile.name} 0 66 0`,
+          );
+          event.cancel();
+          return;
+        }
+
         server.runCommandSilent(
           `advancement grant ${player.profile.name} only cobbleblock:legendary_summon`,
         );
@@ -114,10 +130,22 @@ function shrineEvent(pokemon) {
           let data = pokemon.data ? `${pokemon.data} ` : "";
           let shiny = Math.random() < 1 / 4096 ? "shiny " : "";
           server.runCommandSilent(
-            `spawnpokemonat ${block.x + 1 + Math.random() * 4} ${block.y} ${block.z + 1 + Math.random() * 4} ${pokemon.id} ${shiny}${data}level=${pokemon.level}`,
+            `execute in ${world} run spawnpokemonat ${block.x + 1 + Math.random() * 4} ${block.y} ${block.z + 1 + Math.random() * 4} ${pokemon.id} ${shiny}${data}level=${pokemon.level}`,
           );
         });
       } else if (player.mainHandItem.id === "minecraft:air") {
+        // Return
+        if (
+          pokemon.id === "celebi" &&
+          event.player.level.dimension.toString() === world
+        ) {
+          server.runCommandSilent(
+            `execute as LucyAzalea run skyblock home`,
+          );
+          event.cancel();
+          return;
+        }
+
         player.tell(`The shrine to ${pokemon.name} is ready.`);
       } else {
         let itemName = Item.of(pokemon.summonItem).hoverName.string;

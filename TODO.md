@@ -1,7 +1,9 @@
 # Cobbleblock Todo
 
 ## Normal Priority
-
+- Celebi
+  - Pedestal and flute assets
+  - Celebi forest spawn structure (spawn with datapack at 0 64 0)
 - More ways to obtain:
   - Pink and White apricorn seeds.
 - Create Lore!

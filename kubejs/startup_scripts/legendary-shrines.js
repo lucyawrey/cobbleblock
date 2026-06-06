@@ -107,6 +107,23 @@ global.legendaryPokemon = [
       "minecraft:deepslate_brick_stairs": 10,
     },
   },
+  {
+    id: "celebi",
+    name: "Celebi",
+    level: "70",
+    data: "min_perfect_ivs=3",
+    summonItem: "cobbleblock:time_flute",
+    newSummonItem: true,
+    lootItem: undefined,
+    newLootItem: false,
+    takesCoins: true,
+    world: "cobbleblock:ancient_forest",
+    box: [0, 0, 2, 16, 13, 14],
+    required: {
+      "cobblemon:leaf_stone_block": 1,
+      "minecraft:mossy_cobblestone": 10,
+    },
+  },
 ];
 
 global.extraItems = [
