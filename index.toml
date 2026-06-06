@@ -20753,6 +20753,10 @@ file = "kubejs/assets/cobbleblock/models/block/articuno_shrine.json"
 hash = "51eff03bc9b8299a5b7526da0b9eae8e6b1a29b9392f4b690248b16476969938"
 
 [[files]]
+file = "kubejs/assets/cobbleblock/models/block/celebi_shrine.json"
+hash = "77e84b4f9dc59f4b317d5d3ff705efd0f477c641ba0d6e7708e760b32808c9a2"
+
+[[files]]
 file = "kubejs/assets/cobbleblock/models/block/hooh_shrine.json"
 hash = "1673f339fb83d15257f04f8eebd13cd04dffeaeeaf5022d6a4ee4fe6cf735e40"
 
@@ -20783,6 +20787,10 @@ hash = "745f84dfa69c96eb3e2663214064e3662ee674df8014d8c3cbea34cfb254fc26"
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/block/articuno_shrine.png"
 hash = "78ed7bb6c5f4683fa94900f63e6a7ef003ab5046c18ee1e600cde67b84d8087e"
+
+[[files]]
+file = "kubejs/assets/cobbleblock/textures/block/celebi_shrine.png"
+hash = "664d0cef87b722fe095b4f6ffa8748d03890d79e5817364bb6a8f668e8b056e2"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/block/hooh_shrine.png"
@@ -20867,6 +20875,10 @@ hash = "b09f45141c12b9a56ade1da905d912d17b2b89475f2cb884b37e7c234c4fa2f0"
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/item/red_feather.png"
 hash = "048e61121318758c8492ae3e9c8dd88b1cc7d40f6ceb52ca123ec04c795b53db"
+
+[[files]]
+file = "kubejs/assets/cobbleblock/textures/item/time_flute.png"
+hash = "5eb6f07f2589626bea8cc711c3fd430f1de3633cd87ed070fca913f0e2c9f909"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/item/torn_page.png"
