@@ -3,7 +3,7 @@
 ## Normal Priority
 - Celebi
   - Pedestal and flute assets
-  - Celebi forest spawn structure (spawn with datapack at 0 64 0)
+  - Celebi forest spawn structure (spawn with datapack at 0 64 0, may need to use an advancement or mod or something)
 - More ways to obtain:
   - Pink and White apricorn seeds.
 - Create Lore!

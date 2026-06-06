@@ -166,7 +166,7 @@ hash = "02d5b0aff04b27d3ea1707be02dc3e8362aa736835de88d721222082c6b5c983"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/function/load.mcfunction"
-hash = "85653b2acc525bf99128a1a120bf3cf01a0b9eb18fc83bcd71682f24c4de28c2"
+hash = "09e10202d1807b35fcc508c1c6b501a5aa624e6aba202c7a3e066eb76a9b41b8"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/function/on_join.mcfunction"
@@ -20754,7 +20754,7 @@ hash = "51eff03bc9b8299a5b7526da0b9eae8e6b1a29b9392f4b690248b16476969938"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/models/block/hooh_shrine.json"
-hash = "939f570ffc21349d0177351a01e4024e4e820d6c1697ae889a8049c2181aec42"
+hash = "c8c33bac78abe08b54489414a8430bd1ef120879081057ea31005f677e32c940"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/models/block/lugia_shrine.json"
@@ -20786,7 +20786,7 @@ hash = "78ed7bb6c5f4683fa94900f63e6a7ef003ab5046c18ee1e600cde67b84d8087e"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/block/hooh_shrine.png"
-hash = "959e6ac17270477c3304e8a441fbd223847dd3e0b80fe93a3d41f97ba96b1613"
+hash = "524d4fee73475f9dc3d4c0a4e76bdd134f38a2232d74b4acd527c1d16c2a6fa2"
 
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/block/lugia_shrine.png"
@@ -20902,7 +20902,7 @@ hash = "6a92eb2275b59ceb26bb82be4c82fd2d5eb8e1f0573cb97865b17f033b91889d"
 
 [[files]]
 file = "kubejs/server_scripts/legendary-shrines.js"
-hash = "684d56566a98c2056393bbf31f33b63211ebf6d0cbbb3ad5fef10c79055cb6aa"
+hash = "d31560cec73c59aa939d26b2ba1a515fa31f575eeb8ff9ed79c2ce3303a552e7"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
