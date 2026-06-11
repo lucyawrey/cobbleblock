@@ -17,7 +17,7 @@ Shopping list:
 
 Shopping might not happen after all. Unless this is a really, really vivid dream or something. Knowing some Pokemon, that's not entirely out of the question. Except I can read what I've written, which immediately fails the Musharna Test. Meaning this place is either an elaborate illusion, or it's real. Somehow??? Whatever the case, I need to trust what I see and experience.
 
-Hoppip is with me still, thank goodness. She's as confused as I am. Considering she was in her Pokeball when we got here, that's understandable. I don't have that excuse. I just woke up here. We're on an island. Size is roughly that of my first apartment. It seems to be floating.
+Hoppip is with me still, thank goodness. She's as confused as I am. Considering she was in her Pokéball when we got here, that's understandable. I don't have that excuse. I just woke up here. We're on an island. Size is roughly that of my first apartment. It seems to be floating.
 
 It is floating. Hoppip checked by flying under it. There's no water or any sort of support. It is simply hanging in the sky. No idea how that works. Notable features: grass, one apricorn tree (harvested apricorns), and one bin. Searched twice over but found nothing else. No clues how we got here or how to get home.
 
