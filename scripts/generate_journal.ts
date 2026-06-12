@@ -68,6 +68,10 @@ for (let filePath of glob.scanSync(inPath)) {
       link: (text, meta) => {
         return `$(l:patchouli:${meta.href})${text}$()`;
       },
+      image: (text, meta) => {
+        body += "image:" + meta.src + "," + text + br;
+        return "";
+      },
     });
 
     // Handle body
@@ -76,15 +80,28 @@ for (let filePath of glob.scanSync(inPath)) {
       let page = "";
       let first = true;
       for (let line of body.split(br)) {
+        let image = line.startsWith("image:")
+          ? line.substring(6).split(",", 2)
+          : undefined;
         if (!line.trim()) continue; // Skip empty lines
         let charLimit = first ? firstPageCharLimit : subsequentPageCharLimit;
-        if ((page + line).length > charLimit) {
+        if ((page + line).length > charLimit || image) {
           data.pages.push({
             type: "patchouli:text",
             text: page.replace(regex, ""),
           });
           first = false;
-          page = line + br;
+
+          if (image) {
+            data.pages.push({
+              type: "patchouli:image",
+              images: [image[0]],
+              title: image[1] || "",
+            });
+            image = undefined; // Clear image after processing
+          } else {
+            page = line + br;
+          }
         } else {
           page += line + br;
         }

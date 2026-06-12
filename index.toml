@@ -20334,6 +20334,10 @@ file = "config/paxi/resourcepacks/Cobbleblock/assets/cobbleblock/lang/en_us.json
 hash = "dd14e9ed37f90109f194c4aa1423b712dd945f1912e7bcf8f8731b4be744fa12"
 
 [[files]]
+file = "config/paxi/resourcepacks/Cobbleblock/assets/cobbleblock/textures/gui/tree.png"
+hash = "2d7b0fc36c6521c35c46346800f51eeb713391002142d40b3b833718a89f8343"
+
+[[files]]
 file = "config/paxi/resourcepacks/Cobbleblock/assets/create/models/block/blaze_burner/item.obj"
 hash = "590c162ac3a3ce61723077c447fa4966669f96a71c96239d82227a5ef1b5eed8"
 
@@ -21449,11 +21453,11 @@ hash = "8257cd2f6e3ca33664ad16372b5407fd3f8459e59f6a064e9100be734747142f"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/guides/apricorns.json"
-hash = "33ed711de2cf48e429d73556a82d8eb940f531ebfbe1284e24c1b297b2157cff"
+hash = "40ee3ae8899ef3ff805bcf16b6647146303be1f8bb862ee01de4c709874f2758"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/journal_entries/day_1.json"
-hash = "98fa2a8ff121e165c5eeb0dabe26314f9b7689c5d5f326cea5ef94cc4d3bb60a"
+hash = "59f0977940f8cf86a6f22ea0e7696217e8fcf04d4dbe65d29a3d56a9a9afb8ba"
 
 [[files]]
 file = "patchouli_books/research_journal/en_us/entries/journal_entries/day_127.json"
