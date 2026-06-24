@@ -92,7 +92,7 @@ function shrineEvent(pokemon) {
           event.player.level.dimension.toString() !== world
         ) {
           server.runCommandSilent(
-            `execute in ${world} run tp ${player.profile.name} 0 66 0`,
+            `execute in ${world} run tp ${player.profile.name} 0 70 0`,
           );
           event.cancel();
           return;
@@ -138,7 +138,7 @@ function shrineEvent(pokemon) {
           pokemon.id === "celebi" &&
           event.player.level.dimension.toString() === world
         ) {
-          server.runCommandSilent(`execute as LucyAzalea run skyblock home`);
+          server.runCommandSilent(`execute as ${player.profile.name} run skyblock home`);
           event.cancel();
           return;
         }

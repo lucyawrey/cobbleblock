@@ -20918,7 +20918,7 @@ hash = "6a92eb2275b59ceb26bb82be4c82fd2d5eb8e1f0573cb97865b17f033b91889d"
 
 [[files]]
 file = "kubejs/server_scripts/legendary-shrines.js"
-hash = "d31560cec73c59aa939d26b2ba1a515fa31f575eeb8ff9ed79c2ce3303a552e7"
+hash = "9b861be8dee229815951c84eded67a23bd25696e15422d2d501cda29cf1be7eb"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
