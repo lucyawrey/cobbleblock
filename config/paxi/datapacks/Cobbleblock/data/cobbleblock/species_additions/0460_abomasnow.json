@@ -8,8 +8,8 @@
         "quantityRange": "0-2"
       },
       {
-        "item": "minecraft:sweet_berries",
-        "quantityRange": "2-4"
+        "item": "cobblemon:white_apricorn_seed",
+        "quantityRange": "0-1"
       },
       {
         "item": "cobblemon:never_melt_ice",

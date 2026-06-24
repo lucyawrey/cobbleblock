@@ -1,8 +1,11 @@
 {
   "target": "cobblemon:lumineon",
   "drops": {
-    "amount": 5,
+    "amount": 6,
     "entries": [
+      {
+        "item": "minecraft:kelp"
+      },
       {
         "item": "minecraft:bone_meal",
         "percentage": 10

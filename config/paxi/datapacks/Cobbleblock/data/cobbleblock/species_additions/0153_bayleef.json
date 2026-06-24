@@ -1,11 +1,15 @@
 {
   "target": "cobblemon:bayleef",
   "drops": {
-    "amount": 3,
+    "amount": 4,
     "entries": [
       {
         "item": "cobblemon:miracle_seed",
         "percentage": 10
+      },
+      {
+        "item": "cobblemon:pink_apricorn_seed",
+        "quantityRange": "0-1"
       },
       {
         "item": "mega_showdown:grass_tera_shard",

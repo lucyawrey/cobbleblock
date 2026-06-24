@@ -8,8 +8,8 @@
         "quantityRange": "0-1"
       },
       {
-        "item": "minecraft:sweet_berries",
-        "quantityRange": "1-3"
+        "item": "cobblemon:white_apricorn_seed",
+        "percentage": 25
       },
       {
         "item": "cobblemon:never_melt_ice",

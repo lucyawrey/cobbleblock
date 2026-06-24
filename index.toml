@@ -3854,15 +3854,15 @@ hash = "b19bc31b9454b9de9cb08c7af2f303b95bf04a6686a9586657b80a6d1bd65a6b"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0152_chikorita.json"
-hash = "e07e892e1506b5fb430bd208adaf217865b44ddd5af02a037725fe73f6d03969"
+hash = "ed74663b0ec69df4b642d020c7c7dc177b1e86556a4136e2f7b7a6f0339a5b64"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0153_bayleef.json"
-hash = "f086bd2e44348d94368a7089f3e4ff394047a9e307402923ea1f78b62dc82ca3"
+hash = "f68b102c4307a8bf84e3c20e150eea9e442108df9a91a3efe5d549c3e8645e59"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0154_meganium.json"
-hash = "12ce00adf65865cad8da2df8db7fc43f8c6d8b7e49b9bcb9983dfdbcf39b0d78"
+hash = "1cb2b66c7dc5b73f8b5f802d10601227da26b48f8a6f9ce8ce24f8eb1d02cabb"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0155_cyndaquil.json"
@@ -5070,11 +5070,11 @@ hash = "c9f6a9c726c6e2c9573534c2d5a823c0c1c4334716b1eec3c6c0b81695d7b5c0"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0456_finneon.json"
-hash = "158b26f0c6483ed45a4bc4b238140497630b99e68ce61449c82e53ad21e96545"
+hash = "9c2ea620538a38f24911074a28cd2ea6b5bbda85aa70b0d84b33eb1dddbd019b"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0457_lumineon.json"
-hash = "76d75c00932616950198a8dcb339b6d0c707de777c96a940e53b7e878c711e50"
+hash = "f7bb86838fa4bbf34a4c9dd315f1f204e21b184348c959ed1d1d90cc77c831e8"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0458_mantyke.json"
@@ -5082,11 +5082,11 @@ hash = "2e7ad2e7a81ab8f1ddbc0f971878e5e7790bd2b4266ba854b5174f0cea51f2ed"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0459_snover.json"
-hash = "ffbc23dfd7d08a45bf2ed63a09a7033116a049011e6e9aa328492edd62faed7b"
+hash = "58bf93caea4bb1cacb45135e92d3642994ac9561d1b0613636ae5c10d0d2b90a"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0460_abomasnow.json"
-hash = "18e082be022caee8017a8889d0591de9700438053d52e83ae01e1e739577bca5"
+hash = "99b982bc6a3b6b1643a449498ee9c22e695c4089e47d793cf842ea2fdfc7b291"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions/0461_weavile.json"

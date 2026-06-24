@@ -3,8 +3,6 @@
 ## Normal Priority
 - Celebi
   - Celebi forest spawn structure (spawn with datapack at 0 64 0, may need to use an advancement or mod or something)
-- More ways to obtain:
-  - Pink and White apricorn seeds.
 - Create Lore!
   - Secondary lore items that also get added to the research journal such as a note from a child.
   - Write journal entries.
