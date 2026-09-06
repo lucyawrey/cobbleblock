@@ -22,7 +22,7 @@ hash = "bdfebb3e876789d0640d89b25410baff2aa96d2bdd58293c4730af37c1628ec5"
 
 [[files]]
 file = "config/cobbledollars/default_shop.json"
-hash = "77a3ded19da0f3719a875842c85ff3b6cb2204896a5c65d6c0374934d28a4d20"
+hash = "fe9008816d216e730b977163d0122af030cab8c34e9b39377d438fd3b2a4e00b"
 
 [[files]]
 file = "config/cobblegen.json5"
@@ -151,10 +151,6 @@ hash = "2f65f95f6d6bb4ca78044442a5dc03c609da3e444ed936de76d35c50922279bb"
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/advancement/shrine_donation.json"
 hash = "f26de0795b375c2d2df1dcffa203d161862a0da06768b95d49b297402f658b7c"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/burner_species/default.json"
-hash = "4ff226f5cd0908237d540323b3c1b753512859f10a410cf5951afea106907025"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/dimension/ancient_forest.json"
@@ -8447,106 +8443,6 @@ hash = "aa35999483cfbfa70cc9f9e4f24d22d338a65f0450c1861c57fc7963dc3f3dc3"
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/groups/youngster.json"
 hash = "60e5cd489140b75cbcd330d674b42942b1d2e76176b1145e4919f6db0a3d417f"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/boss_giovanni_0045.json"
-hash = "f762736024fd779d45f773c115d8c52300c317db91d7a8e094e9bb857830ddf7"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/gym_leader_byron_0399.json"
-hash = "4352295d9c4fe81b6e20a10a6e0ceb9b81ece7f6b01f020c24e2eac5a7fcd030"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/gym_leader_candice_03da.json"
-hash = "db7f5ef79f9c19c9a83e9c107d279e1d692eafc404f01959733e2d5f550c30ae"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/gym_leader_fantina_03d9.json"
-hash = "1bd1af87e5197823e7d919cffb8a4fc3516c1a0fba4c2721a2a9bc0df9ef94b7"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/gym_leader_gardenia_03d6.json"
-hash = "2eaebd35d1d8306a6aa112066e9261c75190b15a68bbca4197e59ba9b7fba8c6"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/gym_leader_maylene_03d8.json"
-hash = "cee179c19ee06346a007f3536f2b81eadb838bf610270c9f9c5c8a793945d14c"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/gym_leader_roark_0395.json"
-hash = "9cc3b970f99d0e1525029302b07b5058a44e7b8b709ffff247eff69b31f5ba2c"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/gym_leader_volkner_03db.json"
-hash = "1e9e153c9c7d2e233ea4b4e3a518dc30ab6a14bc528a49738633a2a5d26a1731"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/gym_leader_wake_03d7.json"
-hash = "7cb293b2a5e2c8870ddc48ce78a6f2e2a851162955b81dfd63b102b5be9e0876"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_alice_05ac.json"
-hash = "62576d105e203012206c60bc5aeba6f31b3901ed1c93de038499a8eac0236fa4"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_benjamin_05b2.json"
-hash = "4de81856cf698bbbaa71efb3f20e9873294eb8762d2970c88aadda43bd1a1c28"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_big_mo_05b0.json"
-hash = "3a32dfc0200be937926b350d00efc760bd7b9e39d38c32b7f2d96dd3b28d9b0c"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_blaine_01a3.json"
-hash = "4350e97648bd72ade1efe3004ca5014a8f8255d3592c31cf7276c1c05dad4da3"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_brock_019e.json"
-hash = "40a836beacd2e5c485606fee312a4d0c0ebaa797c82160c99057b2f7b6cda0ee"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_clair_004a.json"
-hash = "50cd45f4c633a2c15664ffd1e294a550e3508c20e444abd1a6b160e7b37d7c5a"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_erika_01a1.json"
-hash = "062ee896d7ba2e7dfde7fcf547d0aec697af36dcc2dd95eeb19f402bf647c662"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_galavan_05af.json"
-hash = "06dccef71093721862ff6dccc9d9788dd18524930a6d584707c96464dbac281c"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_koga_01a2.json"
-hash = "84e0c7b8e0fe0549f7b1cf0b29867bae7a795ee0a037a3d1876e2b59468b8118"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_lt_surge_01a0.json"
-hash = "e01499101f20bbbbd933e08270c3c82b7430ee66992237f3366d1331d3f11ddd"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_mel_05ad.json"
-hash = "3b48a238add8b1f68aacbd15a576854376b4bb4e3f72053975935c9ac6f8a2cb"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_mirskle_05aa.json"
-hash = "c7f6519477d122240913e9f0dcc8681eb6a26bd755aff9c62c09782e23a97403"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_misty_019f.json"
-hash = "d41c1b92a416c9452d611e8336f88f2a859485e98a3eb46651b6b059b22bd2ed"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_sabrina_01a4.json"
-hash = "f3161b2987dc0245f2bd372103c3cea0c07a1defec0d46e34e9cace98f8b5b4f"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_tessy_05b1.json"
-hash = "287f4cff185425d25998f167a3474f1e31dcf3ba65fc285750db5167bbfe38eb"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/rctmod/loot_table/trainers/single/leader_vega_05ab.json"
-hash = "a92cf05dfa57b6251c81254ef05da939cd5f42def58ccc1bfecfb25452f50bed"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/rctmod/mobs/trainers/default.json"
@@ -20338,32 +20234,8 @@ file = "config/paxi/resourcepacks/Cobbleblock/assets/cobbleblock/textures/gui/tr
 hash = "2d7b0fc36c6521c35c46346800f51eeb713391002142d40b3b833718a89f8343"
 
 [[files]]
-file = "config/paxi/resourcepacks/Cobbleblock/assets/create/models/block/blaze_burner/item.obj"
-hash = "590c162ac3a3ce61723077c447fa4966669f96a71c96239d82227a5ef1b5eed8"
-
-[[files]]
-file = "config/paxi/resourcepacks/Cobbleblock/assets/create/textures/block/blaze_idle.png"
-hash = "ff6768143efbc5484708aad55fc44d4cb3060d09b9c5afb298aab9043116c925"
-
-[[files]]
-file = "config/paxi/resourcepacks/Cobbleblock/assets/create/textures/block/blaze_inert.png"
-hash = "46ed125be4e47dd0a8f4f888187ba655c281d6dc51e07523c9d2174437fb960c"
-
-[[files]]
-file = "config/paxi/resourcepacks/Cobbleblock/assets/createcobblemonintegrations/lang/en_us.json"
-hash = "4773b527752981d503158c747e6249c82647049ced4489938b60d8aafa0f1353"
-
-[[files]]
-file = "config/paxi/resourcepacks/Cobbleblock/assets/createcobblemonintegrations/models/item/infuser.json"
-hash = "9ded93ad047e39fd020a86916e3a24e873f3ae44431edfc7ac1d34acf177235b"
-
-[[files]]
-file = "config/paxi/resourcepacks/Cobbleblock/assets/createcobblemonintegrations/textures/block/infuser_ball.png"
-hash = "ff6768143efbc5484708aad55fc44d4cb3060d09b9c5afb298aab9043116c925"
-
-[[files]]
 file = "config/paxi/resourcepacks/Cobbleblock/assets/minecraft/lang/en_us.json"
-hash = "7c6318db579f985682a09f14b65a0fb44a5b3325892a46e1973872f9f4158d14"
+hash = "6419d706786bf66be6e81000c3affeceefa55fe4f08db31a55e9530ae87fc43d"
 
 [[files]]
 file = "config/paxi/resourcepacks/Cobbleblock/assets/sophisticatedstorage/lang/en_us.json"
@@ -20372,274 +20244,6 @@ hash = "2fa19cc7d467e0bbe89f78c40108608230a5111fbb8b5e361b4afe22c31c7d20"
 [[files]]
 file = "config/paxi/resourcepacks/Cobbleblock/pack.mcmeta"
 hash = "716122ea26b4f3c530345f8aa2c35407deca7558478e62f0a0fc97e7fcf26b6a"
-
-[[files]]
-file = "config/paxi/resourcepacks/MysticMons/assets/cobblemon/bedrock/animations/0795_pheromosa/pheromosa.animation.json"
-hash = "53871c86d27d20f0a2cc1035c993c4186c515c6b1040c01ed7c0cff92e628389"
-
-[[files]]
-file = "config/paxi/resourcepacks/MysticMons/assets/cobblemon/bedrock/models/pheromosa.geo.json"
-hash = "5dde92fc782dc4df4889ccbe30dfa44ae61a68c271d5cef36d04b011931d1c42"
-
-[[files]]
-file = "config/paxi/resourcepacks/MysticMons/assets/cobblemon/bedrock/posers/0795_pheromosa/pheromosa.json"
-hash = "59e4931f472e80f16c37c6d3404e4d3e094deddb3cbed6b4f0580989d3a373a2"
-
-[[files]]
-file = "config/paxi/resourcepacks/MysticMons/assets/cobblemon/bedrock/species/pheromosa.json"
-hash = "df3254b4edf8f78743d91363bf923255d0ab0a02dd9a3fc7b82e1cae5aa0325d"
-
-[[files]]
-file = "config/paxi/resourcepacks/MysticMons/assets/cobblemon/textures/pokemon/0795_pheromosa/pheromosa.png"
-hash = "74f809865b5d446f19e539633cebe5ca03dfba124f57f4d0a8870bd54fa65ffb"
-
-[[files]]
-file = "config/paxi/resourcepacks/MysticMons/assets/cobblemon/textures/pokemon/0795_pheromosa/pheromosa_shiny.png"
-hash = "5414f362cd83c1ac4350df98bdbb6550fa1832f6d26f98ca07dabc1e77d5ec0b"
-
-[[files]]
-file = "config/paxi/resourcepacks/MysticMons/pack.mcmeta"
-hash = "c5ef44547425082693dd1bdf313c53375e5f09657a19e8636201fd96326cbecd"
-
-[[files]]
-file = "config/paxi/resourcepacks/MysticMons/pack.png"
-hash = "d8a6f053d21472760630369a132c39ad7d8936604375891f4008c3aa1f2e92ab"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/animations/0640_virizion/virizion.animation.json"
-hash = "71dc2a708f99aabaa39411e37859ba7189e4e841c8e189158f5ea92ba7e6c023"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/animations/0797_celesteela/celesteela.animation.json"
-hash = "61ad31b30281e3a60d0ed527b42ca8cde3c93406c8ee8f0766740d90da5c8459"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/animations/0992_ironhands/ironhands.animation.json"
-hash = "91876b3315ba9c31cb80e7e59f623b2d87547cd31d71f4743ca0544dc66fe66d"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/animations/0993_ironjugulis/ironjugulis.animation.json"
-hash = "1b327dd1eb6cabfa74b4ed23835543ee0e1a66fc6fc275a4e051b6a5736fd961"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/animations/1003_tinglu/tinglu.animation.json"
-hash = "c999ce1b55ef7b81d6a8b00893352292775ae8e89361e3ac0f074bf6cd8aed33"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/animations/1022_ironboulder/ironboulder.animation.json"
-hash = "6ff26c78f5eb2d3cc72713181a3800ca8b790e8c8890e23119c21655bf777335"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/models/0640_virizion/virizion.geo.json"
-hash = "112330951df3c2ba6cb59b8907d88b03c32b785bc96a3d9e3046e970157d835f"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/models/0797_celesteela/celesteela.geo.json"
-hash = "ca8467846f435c0f4682a60c2f49f50db3f0057d0ef03115e76a007b2626e1ac"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/models/0992_ironhands/ironhands.geo.json"
-hash = "a495fcdfd4c7bad070d42fdbcfa865f9b5541dbcd66ff21680b39555bb127441"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/models/0993_ironjugulis/ironjugulis.geo.json"
-hash = "7076157ab2567982a3871669701caa49ef136dbe4da0feb53862029130dfbbd3"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/models/1003_tinglu/tinglu.geo.json"
-hash = "88c4916c46e1acc43d6c35134934e6a88d55ab72a6d5cdc27b92803af7da5573"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/models/1022_ironboulder/ironboulder.geo.json"
-hash = "ce0aad6ccfbbc9ed044eec60966d33e2e4a614f4779b04a2f1fe79cb1e5ee989"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/posers/celesteela.json"
-hash = "d7550763f1c7fbaf7ded7880e36535f066b2d1fd930cd6dfcddebbb5b54f3826"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/posers/ironboulder.json"
-hash = "a1dd0223a22762c24f6d698e0b0c78452070de97b86d0f3e414849403129a668"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/posers/ironhands.json"
-hash = "f98d49eb9de87042a48b239230e45db09e941ff0266debbb847b0a746c8f9521"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/posers/ironjugulis.json"
-hash = "e1ab030164df7e31e82e184976ac8fa9c5da3a3834c189015cf3dabd66942140"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/posers/tinglu.json"
-hash = "8873171efadfd79f72cdc4a191e8f7b40050698c4a0daaa6224293091e113a59"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/posers/virizion.json"
-hash = "7ddb1d970e39070ba5a516305477a82e909d9d17c5637c7982f1641b7245f2d1"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/species/0640_virizion/0_virizion_base.json"
-hash = "3831e75b7bc5e992d95feb12bd7204e116ee126e542056942bbb825547ab7835"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/species/0797_celesteela/0_celesteela_base.json"
-hash = "30b31f340bc6c3545a21a71114e8b5a83856d4a64eab0888ab00dd55fad1b310"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/species/0992_ironhands/0_ironhands_base.json"
-hash = "064e3e84151c9181263231caa09ce475050918c546ddea0b927538c1019e5d6a"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/species/0993_ironjugulis/0_ironjugulis_base.json"
-hash = "f0364440fc4d765bb38d078c645f38ee37cdde1580f5e8b5a0dbb76934af0385"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/species/1003_tinglu/0_tinglu_base.json"
-hash = "0f0e70593463f9bd27ac19fa12946a9381703b59279317d319c624cf7b87976a"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/species/1022_ironboulder/0_ironboulder_base.json"
-hash = "287e57808742ad956bf7d6bae3f87ee3ce118a65273e327d8ab7b430caac4f2d"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/0640_virizion/virizion.png"
-hash = "4f761ec25e14b9b8be763c4916baa89014744ba9cb5116f7b0d04a5c35b2b681"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/0640_virizion/virizion_shiny.png"
-hash = "857e34994310391ccd9d7b457e02bfd8595fcda470e0b20969ac35883a3ef430"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/0797_celesteela/celesteela.png"
-hash = "2b879473b1801265101effbeccff64a1122414712a933222166fd0e8a6922f86"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/0797_celesteela/celesteela_shiny.png"
-hash = "661776e38c9a78d8b9cbe0569dee3841d2b0b17b865e3e9946f50be9bd5ba41a"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/0992_ironhands/ironhands.png"
-hash = "e24b8d25cc6cdfdbe5a511a15c700523d677b87d00e2f28d2f12c4a38f5e1c33"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/0992_ironhands/ironhands_shiny.png"
-hash = "5755f1cc0dabfe7ddf92f275ef4d8a16d6d204c0dce9ec2067666fc652ae8174"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/0993_ironjugulis/ironjugulis.png"
-hash = "a29c6d8fd9a638a8676448e420fe0dbc71cba44796c4584163a5c098d9b87259"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/0993_ironjugulis/ironjugulis_shiny.png"
-hash = "2033269865eaa1e084bf93ad8f08db6ce5f1aeaece803542351c4cfd066750ee"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/1003_tinglu/tinglu.png"
-hash = "d3cc56d17c09a41b3b18c98f7879ae87bea0886024a1325986a97ff587127065"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/1003_tinglu/tinglu_shiny.png"
-hash = "60daabe80c081c188e994391e2b275f50abfa29bf6a80f700bf8a0fbcc2bd399"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/1022_ironboulder/ironboulder.png"
-hash = "53f1d03011eeb4d9430b7a5ae690cb01867cf43429908f2acb8cb4dfef0179fd"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/1022_ironboulder/ironboulder_shiny.png"
-hash = "7b41606aa3f628c4b457190306f0d1d21fc843f0b56f7b99af3a9f3e5fce055f"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/pack.mcmeta"
-hash = "a996fd4fb4a263cb2713bccbb548d0b689348b71f359d7299f18811ad1b56b29"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/animations/0535_tympole/tympole.animation.json"
-hash = "8a54ed320d46a9543857796ff463cfa98fd9da53d9168179c56001706f3e445e"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/animations/0536_palpitoad/palpitoad.animation.json"
-hash = "20eca24543107c6c3201da176d507ab0db746c59668c3d27bfb85e9ba1e30d61"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/animations/0537_seismitoad/seismitoad.animation.json"
-hash = "f59553edaf9cc6ea237cd0c73e10d7284924cdf1d9517dec9efe9ff33c76185e"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/models/0535_tympole/tympole.geo.json"
-hash = "e65faf4cf3120434056f0fe5722ba1245b2406f8912dff46c77185d02d0502a2"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/models/0536_palpitoad/palpitoad.geo.json"
-hash = "8e35fe7dc1f8ad90ba3498ed94a23209fcf59af29ea9d0c2919b9fb6ab23d8f8"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/models/0537_seismitoad/seismitoad.geo.json"
-hash = "6f747a5e0100c01493b23b5f64412ab949af769d174ed7c4599b26f65376a2c4"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/posers/0535_tympole/tympole.json"
-hash = "abdffe5b6799a81c5fbb3208c281a5c59df59be8851901401f8f42f0d7612965"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/posers/0536_palpitoad/palpitoad.json"
-hash = "afc911b006c0f939b735caa89d530b98af11ff578b4c24b93cc1bf062a10f6bb"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/posers/0536_palpitoad/palpitoad.json.bak"
-hash = "4f0da35ecea4b67e1103a48357dc72ae268184bd7c53f88df8012d082ed9dc06"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/posers/0537_seismitoad/seismitoad.json"
-hash = "b84fc7b4a25207798216b946f15f8fb7e00628c260db51ae4941ff5abab965ea"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/posers/0537_seismitoad/seismitoad.json.bak"
-hash = "ac8e18c22bc36f1546f0c3d486ebe5b11bdf1d0f1ce5dbd278a40b40b9d76d81"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/resolvers/0535_tympole/0_tympole.json"
-hash = "accaa9dab610c4ea39542830075b0d99d8ed1bc7d13c6fe2d66b080e496a17ea"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/resolvers/0536_palpitoad/0_palpitoad.json"
-hash = "cdd3cda4f70d791f19afc603ad2169050415905eb0336c7e7100fb59766447aa"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/resolvers/0537_seismitoad/0_seismitoad.json"
-hash = "2673009af2f905c7591e4919e1621a5f85188b2e0c9c8c7a6e74e2ac294da29b"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/textures/pokemon/0535_tympole/tympole.png"
-hash = "e15f669593d7a6e49d636e373eff0288d654dfe8450217c1b90efff408c2534e"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/textures/pokemon/0535_tympole/tympole_shiny.png"
-hash = "040908b751609ac3eb6e1c25d6238ea02af04d661f9faac562c3331e41e0b08f"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/textures/pokemon/0536_palpitoad/palpitoad.png"
-hash = "72f2d21f1ce99ed541a545dcf0002226e9796b36b1b33c8169567dff719ee8f0"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/textures/pokemon/0536_palpitoad/palpitoad_shiny.png"
-hash = "c330fe1b9a73d43ec3c73184de8751667a21c2e02cfbe319d389fc9a9668704e"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/textures/pokemon/0537_seismitoad/seismitoad.png"
-hash = "74a0b8047e63ec39bafa7c472330bddf2b8234797e6834c727efe7f2f675e10d"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/textures/pokemon/0537_seismitoad/seismitoad_shiny.png"
-hash = "2f5e3cde5c8e6d3c1969f16a3ba9427f910ab202cff14c8862c56012d1a9c2c5"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/pack.mcmeta"
-hash = "06e480b161c6d6ca386b8f2abcf9b364445a5b0853b92c6e0511093ae7e58fe4"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/pack.png"
-hash = "65117e142f78f3531bb0905da57628e4d4f07cda18cf3c4d9b63b900b17f7773"
 
 [[files]]
 file = "config/paxi/resourcepacks/allthemons-x-mega-showdown-legacy.pw.toml"
@@ -20962,11 +20566,6 @@ hash = "547660bb17452fae6e46504c87eea9e75eeb50de440495cadcee9ad49c6d131d"
 metafile = true
 
 [[files]]
-file = "mods/berryharvester.pw.toml"
-hash = "cd8450115156e357c9eccaabda05cc83f23780e88be02c810762ec5fc015050a"
-metafile = true
-
-[[files]]
 file = "mods/better-advancements.pw.toml"
 hash = "93c4acd165a291c6d1e69c27b05b2747afc926b38a414712263fbc95f42da323"
 metafile = true
@@ -21099,11 +20698,6 @@ metafile = true
 [[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "ad0d3c199591934bc2d2acdfb4e0008ec212a1c222c0d8bb6c8c6b8903519f16"
-metafile = true
-
-[[files]]
-file = "mods/create-cobblemon-integrations.pw.toml"
-hash = "7759c4a7c91c913c70c7af11ea76e66051689ad98a085b99c15b82e67fc50dd8"
 metafile = true
 
 [[files]]
@@ -21344,11 +20938,6 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
-metafile = true
-
-[[files]]
-file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
-hash = "307a39080394cbe930be57e67fb8dae37601e8f0842da10da10977d261dac07d"
 metafile = true
 
 [[files]]
