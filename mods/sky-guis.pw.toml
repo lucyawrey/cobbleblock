@@ -1,13 +1,13 @@
 name = "Sky GUIs"
-filename = "SkyGUIs-21.1.8.jar"
+filename = "SkyGUIs-21.1.10.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/3Gdi7Qgq/versions/hnPyYL3W/SkyGUIs-21.1.8.jar"
+url = "https://cdn.modrinth.com/data/3Gdi7Qgq/versions/M32FiLBl/SkyGUIs-21.1.10.jar"
 hash-format = "sha512"
-hash = "f71ea07cd328a187a26f58c9112845df5a2a88745759bc14b9ec1ce223e1f63873c39a59b3145c3140471a688607cdcdd882eaf9744561d61c3495bad5855061"
+hash = "ad601306c7c4248ed9a5d9b85da324d2aa4c082f614719c4ba1af17f63421b95dc628cb93b63df0832b5637a6e7bd45e3ec164cc4bf2976a33c0ac74a110c7f2"
 
 [update]
 [update.modrinth]
 mod-id = "3Gdi7Qgq"
-version = "hnPyYL3W"
+version = "M32FiLBl"

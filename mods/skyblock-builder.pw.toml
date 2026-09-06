@@ -1,13 +1,13 @@
 name = "Skyblock Builder"
-filename = "SkyblockBuilder-21.1.26.jar"
+filename = "SkyblockBuilder-21.1.36.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/por2AZc5/versions/tdNSQIoh/SkyblockBuilder-21.1.26.jar"
+url = "https://cdn.modrinth.com/data/por2AZc5/versions/gUAKfMuD/SkyblockBuilder-21.1.36.jar"
 hash-format = "sha512"
-hash = "ad9ad150654ae0ec9b4ebe4fa189f525aa743aad26f820dfe0228d80adde986ae954a51d7b0cd8e44478ebfdfc3280c3a5990373d01c33a3a8bce78caa4f6ed5"
+hash = "d5baa3cd74bf32bbdbbf0f4a0ff2fd0f864f7f4ca0a11d52cf1a8ea7e9df7806a37f04f118efb26e5265fa3e0a96e1f9af52a87b63572fb7bd4cfebdc684de70"
 
 [update]
 [update.modrinth]
 mod-id = "por2AZc5"
-version = "tdNSQIoh"
+version = "gUAKfMuD"

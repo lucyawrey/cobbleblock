@@ -20326,7 +20326,7 @@ hash = "d52dd0bd849fe74d6d7d365c1d4ef3e9207f81431160d4665e2a7dbeddab30db"
 
 [[files]]
 file = "config/paxi/datapacks/allthemons-x-mega-showdown-legacy.pw.toml"
-hash = "a7552a82a8b8ec3148bccd029b054ecc74b2e4d94adddc08184177e89bb34917"
+hash = "1cf6f482ecd3cd706e5b38640333a1492d31011b491c7ca44897af572fe4379a"
 metafile = true
 
 [[files]]
@@ -20374,276 +20374,8 @@ file = "config/paxi/resourcepacks/Cobbleblock/pack.mcmeta"
 hash = "716122ea26b4f3c530345f8aa2c35407deca7558478e62f0a0fc97e7fcf26b6a"
 
 [[files]]
-file = "config/paxi/resourcepacks/MysticMons/assets/cobblemon/bedrock/animations/0795_pheromosa/pheromosa.animation.json"
-hash = "53871c86d27d20f0a2cc1035c993c4186c515c6b1040c01ed7c0cff92e628389"
-
-[[files]]
-file = "config/paxi/resourcepacks/MysticMons/assets/cobblemon/bedrock/models/pheromosa.geo.json"
-hash = "5dde92fc782dc4df4889ccbe30dfa44ae61a68c271d5cef36d04b011931d1c42"
-
-[[files]]
-file = "config/paxi/resourcepacks/MysticMons/assets/cobblemon/bedrock/posers/0795_pheromosa/pheromosa.json"
-hash = "59e4931f472e80f16c37c6d3404e4d3e094deddb3cbed6b4f0580989d3a373a2"
-
-[[files]]
-file = "config/paxi/resourcepacks/MysticMons/assets/cobblemon/bedrock/species/pheromosa.json"
-hash = "df3254b4edf8f78743d91363bf923255d0ab0a02dd9a3fc7b82e1cae5aa0325d"
-
-[[files]]
-file = "config/paxi/resourcepacks/MysticMons/assets/cobblemon/textures/pokemon/0795_pheromosa/pheromosa.png"
-hash = "74f809865b5d446f19e539633cebe5ca03dfba124f57f4d0a8870bd54fa65ffb"
-
-[[files]]
-file = "config/paxi/resourcepacks/MysticMons/assets/cobblemon/textures/pokemon/0795_pheromosa/pheromosa_shiny.png"
-hash = "5414f362cd83c1ac4350df98bdbb6550fa1832f6d26f98ca07dabc1e77d5ec0b"
-
-[[files]]
-file = "config/paxi/resourcepacks/MysticMons/pack.mcmeta"
-hash = "c5ef44547425082693dd1bdf313c53375e5f09657a19e8636201fd96326cbecd"
-
-[[files]]
-file = "config/paxi/resourcepacks/MysticMons/pack.png"
-hash = "d8a6f053d21472760630369a132c39ad7d8936604375891f4008c3aa1f2e92ab"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/animations/0640_virizion/virizion.animation.json"
-hash = "71dc2a708f99aabaa39411e37859ba7189e4e841c8e189158f5ea92ba7e6c023"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/animations/0797_celesteela/celesteela.animation.json"
-hash = "61ad31b30281e3a60d0ed527b42ca8cde3c93406c8ee8f0766740d90da5c8459"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/animations/0992_ironhands/ironhands.animation.json"
-hash = "91876b3315ba9c31cb80e7e59f623b2d87547cd31d71f4743ca0544dc66fe66d"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/animations/0993_ironjugulis/ironjugulis.animation.json"
-hash = "1b327dd1eb6cabfa74b4ed23835543ee0e1a66fc6fc275a4e051b6a5736fd961"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/animations/1003_tinglu/tinglu.animation.json"
-hash = "c999ce1b55ef7b81d6a8b00893352292775ae8e89361e3ac0f074bf6cd8aed33"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/animations/1022_ironboulder/ironboulder.animation.json"
-hash = "6ff26c78f5eb2d3cc72713181a3800ca8b790e8c8890e23119c21655bf777335"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/models/0640_virizion/virizion.geo.json"
-hash = "112330951df3c2ba6cb59b8907d88b03c32b785bc96a3d9e3046e970157d835f"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/models/0797_celesteela/celesteela.geo.json"
-hash = "ca8467846f435c0f4682a60c2f49f50db3f0057d0ef03115e76a007b2626e1ac"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/models/0992_ironhands/ironhands.geo.json"
-hash = "a495fcdfd4c7bad070d42fdbcfa865f9b5541dbcd66ff21680b39555bb127441"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/models/0993_ironjugulis/ironjugulis.geo.json"
-hash = "7076157ab2567982a3871669701caa49ef136dbe4da0feb53862029130dfbbd3"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/models/1003_tinglu/tinglu.geo.json"
-hash = "88c4916c46e1acc43d6c35134934e6a88d55ab72a6d5cdc27b92803af7da5573"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/models/1022_ironboulder/ironboulder.geo.json"
-hash = "ce0aad6ccfbbc9ed044eec60966d33e2e4a614f4779b04a2f1fe79cb1e5ee989"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/posers/celesteela.json"
-hash = "d7550763f1c7fbaf7ded7880e36535f066b2d1fd930cd6dfcddebbb5b54f3826"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/posers/ironboulder.json"
-hash = "a1dd0223a22762c24f6d698e0b0c78452070de97b86d0f3e414849403129a668"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/posers/ironhands.json"
-hash = "f98d49eb9de87042a48b239230e45db09e941ff0266debbb847b0a746c8f9521"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/posers/ironjugulis.json"
-hash = "e1ab030164df7e31e82e184976ac8fa9c5da3a3834c189015cf3dabd66942140"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/posers/tinglu.json"
-hash = "8873171efadfd79f72cdc4a191e8f7b40050698c4a0daaa6224293091e113a59"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/posers/virizion.json"
-hash = "7ddb1d970e39070ba5a516305477a82e909d9d17c5637c7982f1641b7245f2d1"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/species/0640_virizion/0_virizion_base.json"
-hash = "3831e75b7bc5e992d95feb12bd7204e116ee126e542056942bbb825547ab7835"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/species/0797_celesteela/0_celesteela_base.json"
-hash = "30b31f340bc6c3545a21a71114e8b5a83856d4a64eab0888ab00dd55fad1b310"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/species/0992_ironhands/0_ironhands_base.json"
-hash = "064e3e84151c9181263231caa09ce475050918c546ddea0b927538c1019e5d6a"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/species/0993_ironjugulis/0_ironjugulis_base.json"
-hash = "f0364440fc4d765bb38d078c645f38ee37cdde1580f5e8b5a0dbb76934af0385"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/species/1003_tinglu/0_tinglu_base.json"
-hash = "0f0e70593463f9bd27ac19fa12946a9381703b59279317d319c624cf7b87976a"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/bedrock/species/1022_ironboulder/0_ironboulder_base.json"
-hash = "287e57808742ad956bf7d6bae3f87ee3ce118a65273e327d8ab7b430caac4f2d"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/0640_virizion/virizion.png"
-hash = "4f761ec25e14b9b8be763c4916baa89014744ba9cb5116f7b0d04a5c35b2b681"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/0640_virizion/virizion_shiny.png"
-hash = "857e34994310391ccd9d7b457e02bfd8595fcda470e0b20969ac35883a3ef430"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/0797_celesteela/celesteela.png"
-hash = "2b879473b1801265101effbeccff64a1122414712a933222166fd0e8a6922f86"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/0797_celesteela/celesteela_shiny.png"
-hash = "661776e38c9a78d8b9cbe0569dee3841d2b0b17b865e3e9946f50be9bd5ba41a"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/0992_ironhands/ironhands.png"
-hash = "e24b8d25cc6cdfdbe5a511a15c700523d677b87d00e2f28d2f12c4a38f5e1c33"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/0992_ironhands/ironhands_shiny.png"
-hash = "5755f1cc0dabfe7ddf92f275ef4d8a16d6d204c0dce9ec2067666fc652ae8174"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/0993_ironjugulis/ironjugulis.png"
-hash = "a29c6d8fd9a638a8676448e420fe0dbc71cba44796c4584163a5c098d9b87259"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/0993_ironjugulis/ironjugulis_shiny.png"
-hash = "2033269865eaa1e084bf93ad8f08db6ce5f1aeaece803542351c4cfd066750ee"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/1003_tinglu/tinglu.png"
-hash = "d3cc56d17c09a41b3b18c98f7879ae87bea0886024a1325986a97ff587127065"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/1003_tinglu/tinglu_shiny.png"
-hash = "60daabe80c081c188e994391e2b275f50abfa29bf6a80f700bf8a0fbcc2bd399"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/1022_ironboulder/ironboulder.png"
-hash = "53f1d03011eeb4d9430b7a5ae690cb01867cf43429908f2acb8cb4dfef0179fd"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/assets/cobblemon/textures/pokemon/1022_ironboulder/ironboulder_shiny.png"
-hash = "7b41606aa3f628c4b457190306f0d1d21fc843f0b56f7b99af3a9f3e5fce055f"
-
-[[files]]
-file = "config/paxi/resourcepacks/PlanetaCobblemonFreePack/pack.mcmeta"
-hash = "a996fd4fb4a263cb2713bccbb548d0b689348b71f359d7299f18811ad1b56b29"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/animations/0535_tympole/tympole.animation.json"
-hash = "8a54ed320d46a9543857796ff463cfa98fd9da53d9168179c56001706f3e445e"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/animations/0536_palpitoad/palpitoad.animation.json"
-hash = "20eca24543107c6c3201da176d507ab0db746c59668c3d27bfb85e9ba1e30d61"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/animations/0537_seismitoad/seismitoad.animation.json"
-hash = "f59553edaf9cc6ea237cd0c73e10d7284924cdf1d9517dec9efe9ff33c76185e"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/models/0535_tympole/tympole.geo.json"
-hash = "e65faf4cf3120434056f0fe5722ba1245b2406f8912dff46c77185d02d0502a2"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/models/0536_palpitoad/palpitoad.geo.json"
-hash = "8e35fe7dc1f8ad90ba3498ed94a23209fcf59af29ea9d0c2919b9fb6ab23d8f8"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/models/0537_seismitoad/seismitoad.geo.json"
-hash = "6f747a5e0100c01493b23b5f64412ab949af769d174ed7c4599b26f65376a2c4"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/posers/0535_tympole/tympole.json"
-hash = "abdffe5b6799a81c5fbb3208c281a5c59df59be8851901401f8f42f0d7612965"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/posers/0536_palpitoad/palpitoad.json"
-hash = "afc911b006c0f939b735caa89d530b98af11ff578b4c24b93cc1bf062a10f6bb"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/posers/0536_palpitoad/palpitoad.json.bak"
-hash = "4f0da35ecea4b67e1103a48357dc72ae268184bd7c53f88df8012d082ed9dc06"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/posers/0537_seismitoad/seismitoad.json"
-hash = "b84fc7b4a25207798216b946f15f8fb7e00628c260db51ae4941ff5abab965ea"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/posers/0537_seismitoad/seismitoad.json.bak"
-hash = "ac8e18c22bc36f1546f0c3d486ebe5b11bdf1d0f1ce5dbd278a40b40b9d76d81"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/resolvers/0535_tympole/0_tympole.json"
-hash = "accaa9dab610c4ea39542830075b0d99d8ed1bc7d13c6fe2d66b080e496a17ea"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/resolvers/0536_palpitoad/0_palpitoad.json"
-hash = "cdd3cda4f70d791f19afc603ad2169050415905eb0336c7e7100fb59766447aa"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/bedrock/pokemon/resolvers/0537_seismitoad/0_seismitoad.json"
-hash = "2673009af2f905c7591e4919e1621a5f85188b2e0c9c8c7a6e74e2ac294da29b"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/textures/pokemon/0535_tympole/tympole.png"
-hash = "e15f669593d7a6e49d636e373eff0288d654dfe8450217c1b90efff408c2534e"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/textures/pokemon/0535_tympole/tympole_shiny.png"
-hash = "040908b751609ac3eb6e1c25d6238ea02af04d661f9faac562c3331e41e0b08f"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/textures/pokemon/0536_palpitoad/palpitoad.png"
-hash = "72f2d21f1ce99ed541a545dcf0002226e9796b36b1b33c8169567dff719ee8f0"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/textures/pokemon/0536_palpitoad/palpitoad_shiny.png"
-hash = "c330fe1b9a73d43ec3c73184de8751667a21c2e02cfbe319d389fc9a9668704e"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/textures/pokemon/0537_seismitoad/seismitoad.png"
-hash = "74a0b8047e63ec39bafa7c472330bddf2b8234797e6834c727efe7f2f675e10d"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/assets/cobblemon/textures/pokemon/0537_seismitoad/seismitoad_shiny.png"
-hash = "2f5e3cde5c8e6d3c1969f16a3ba9427f910ab202cff14c8862c56012d1a9c2c5"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/pack.mcmeta"
-hash = "06e480b161c6d6ca386b8f2abcf9b364445a5b0853b92c6e0511093ae7e58fe4"
-
-[[files]]
-file = "config/paxi/resourcepacks/TDmon/pack.png"
-hash = "65117e142f78f3531bb0905da57628e4d4f07cda18cf3c4d9b63b900b17f7773"
-
-[[files]]
 file = "config/paxi/resourcepacks/allthemons-x-mega-showdown-legacy.pw.toml"
-hash = "a7552a82a8b8ec3148bccd029b054ecc74b2e4d94adddc08184177e89bb34917"
+hash = "1cf6f482ecd3cd706e5b38640333a1492d31011b491c7ca44897af572fe4379a"
 metafile = true
 
 [[files]]
@@ -20653,7 +20385,7 @@ metafile = true
 
 [[files]]
 file = "config/paxi/resourcepacks/rct-trainer-textures-plus.pw.toml"
-hash = "a958030f95997d32191ffd80d656314b86747c46adfb16a3a128389d6a3ff6c9"
+hash = "8bd76c90d8c9b4d21e94bdb99ceee8e14d9a523b8e6cccf4ed64eaccdccc7852"
 metafile = true
 
 [[files]]
@@ -20943,27 +20675,22 @@ metafile = true
 
 [[files]]
 file = "mods/advanced-loot-info.pw.toml"
-hash = "866f121058a70a37aa2c8426e3ed6579f50a8fc3fb168b3ff0f42546c6757ed0"
+hash = "d4249918c6558a8c6112c819238cc201bf1f9c5a449bbb23358f97729e47d7a3"
 metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
+hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
 metafile = true
 
 [[files]]
 file = "mods/athena-ctm.pw.toml"
-hash = "90b81c1bd8c7c60e5389a41616bc0c6f738d3fcef80c8857e80c17652f414a06"
+hash = "f54cf71372645810ce22b0ba68e706139565437150e4cfd22bde4c14606099c4"
 metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "547660bb17452fae6e46504c87eea9e75eeb50de440495cadcee9ad49c6d131d"
-metafile = true
-
-[[files]]
-file = "mods/berryharvester.pw.toml"
-hash = "cd8450115156e357c9eccaabda05cc83f23780e88be02c810762ec5fc015050a"
+hash = "7dba9a4a9894a6bbab3a8c7edcc718499297412247fc0e8ccebf75b760c85140"
 metafile = true
 
 [[files]]
@@ -20978,12 +20705,12 @@ metafile = true
 
 [[files]]
 file = "mods/catch-indicator.pw.toml"
-hash = "a3a1ff7678eb9fd2caba07e3b4fb13f69e283a422ec04f03fd1fa54705da6c59"
+hash = "bf3544fbad783208c723de3d2fcd26a3a13746c32b1325f597b36925ec36e9b5"
 metafile = true
 
 [[files]]
 file = "mods/catch-rate-display.pw.toml"
-hash = "5210a9ad50ea96bba7d84104802b25f26a8170f116d823080e1e8b95a6da3bb4"
+hash = "1876ee95dd3d2d4bc59f6b129b25fbf36a6bed00864b57cb9f24d50fcb42cef1"
 metafile = true
 
 [[files]]
@@ -21003,17 +20730,17 @@ metafile = true
 
 [[files]]
 file = "mods/cobbledollars.pw.toml"
-hash = "f8f24938d865a76f46ddeec0a9f648514bf862574786c288749b099b2c8273c9"
+hash = "d06294493a8ca46bac5fffdcfcd0b7e76585c2795bfa4616f2e167a623e32566"
 metafile = true
 
 [[files]]
 file = "mods/cobblefurnies.pw.toml"
-hash = "bd1f2508c571574e76ae32614a353eb900063c0e2bf54bb29ac98e7d6ab36eb6"
+hash = "6beb1d27bf94f370291a868c5c5470eb6aaab5f9990ce5d66f3eba0ea4a3fec8"
 metafile = true
 
 [[files]]
 file = "mods/cobblegen.pw.toml"
-hash = "01c5e56d337dee60a5527f7757faa41569c2cdc67fc340e1720d82d830ffcfe3"
+hash = "1a6462b311575379d3b15db9aaa19a423f8658199ee4d6f2166aa202a8f138e4"
 metafile = true
 
 [[files]]
@@ -21033,22 +20760,22 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
-hash = "63d31d5820a5fe31ddee48ecfe5d03acb56c56d16e7b64e940ef664127d220d4"
+hash = "32ef82eeccc3950a9e83a811a593f8c4015c8cb9698b847da9ada7eed41bf92f"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "3efa711e77a99008f28b7831ab8696263bccaab984cd1e62e44b7220e69a6a3c"
+hash = "f3523c1535a925cd8f444351afc9a233ff7270b74c219ca42717e6a982a16a70"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-playerxp.pw.toml"
-hash = "0bcaaf9f5f4a12c65530aaa44caa4f8a8dd82390938c852da485f1eb0c028414"
+hash = "8b56650ed029e0cd0052c81ed85aa2c2c5b60a3299510a732c8f16371cb4563b"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-pokenav.pw.toml"
-hash = "132dbb456d882d92aa41556558e5a5c2ecdded4777390ddecf8f5678d804afb8"
+hash = "c87d6d68cf563eb7280c237f5e2f0ac450ca74f01e2e586ef30f3954a6db78a3"
 metafile = true
 
 [[files]]
@@ -21058,12 +20785,12 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
-hash = "f4a9d50719c9c95018140732ed7aae4f071dc3317e5c74d6d7b00d7809cbead9"
+hash = "4211dd9eed65d9599cb1df61f5db373772ed090aa837a17f2fb7dc9c46a8aa2b"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-villager-overhaul.pw.toml"
-hash = "06cfac89c87081addbe78c007235dca73d196c1ac63d23d24113c485de77e4ab"
+hash = "32f49247068669e1a20049c7b9f394e09a3a94532340eb7c43a5415a7eee28e8"
 metafile = true
 
 [[files]]
@@ -21073,22 +20800,17 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon.pw.toml"
-hash = "bd0dd7ceb00c37cfaa945dfba23b5b2406e12be20709df8d9f82ba12a5a3a2be"
-metafile = true
-
-[[files]]
-file = "mods/cobblemore-library.pw.toml"
-hash = "cf4cb0b27f637954e20c73efa13d5ac2f543f1fad5a1e8dd344aeef678de8979"
+hash = "acbbc3f4cf7521c953a59f06a18df9a4e50778b1f69e27b3be85824789cf51f4"
 metafile = true
 
 [[files]]
 file = "mods/cobbreeding.pw.toml"
-hash = "bd78ebd2b96cdfd35557a337bafe9bdaf7c743a6a80eb6b9f38e4c9fd17ae21b"
+hash = "51eaca16f5120b750d8a67d42245e0599753d3874839267a4816387a4ae1ae24"
 metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "70404bc50710f2e83dc9fdaa20a011ff49575b8c06a049bc18a50096a817719f"
+hash = "e37aafe5cd58c8289c3b8929393cba2a5c7f2cdd5bbe01e9c6ada1f3f5b86436"
 metafile = true
 
 [[files]]
@@ -21098,37 +20820,37 @@ metafile = true
 
 [[files]]
 file = "mods/crafting-tweaks.pw.toml"
-hash = "ad0d3c199591934bc2d2acdfb4e0008ec212a1c222c0d8bb6c8c6b8903519f16"
+hash = "b63999aa63a273098f42e22d8d5018c8617b8e2babdffc752d9aad3eefaaa76d"
 metafile = true
 
 [[files]]
 file = "mods/create-cobblemon-integrations.pw.toml"
-hash = "7759c4a7c91c913c70c7af11ea76e66051689ad98a085b99c15b82e67fc50dd8"
+hash = "9b547126ae96b26aeab2bf753cc57f927722df67a8a8bc90926493eb8973ed5a"
 metafile = true
 
 [[files]]
 file = "mods/create-ultimate-factory.pw.toml"
-hash = "e002fe71d2ddab09d22e9def9aef6cfc4decfcf372ca40c9cb4d7987f3190fad"
+hash = "34d808989e71221b8e01a44bc8031f20af1c94981acb0cba4669e0e58be69629"
 metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "9da22561c3a5e45beb91121518a49f2e8a62bedb332574ce43a9d9b287ebc705"
+hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "b5bbbdef134fb735d4a741ccb85b46c6b1707e8e974a09bdcc1dcd785c0f172e"
+hash = "5931025bb6c50fa9064bd6c3c3ca51afb4119535bd77d8cc01b6509e53a9abc1"
 metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "43b96f10a4407da7faa5c957478230e5e498ae00f01a975de21652a963c3f124"
+hash = "b06e3a557d5fe63fa8bcb60335eba994288ce124625eabd29b76daf602ad3dcb"
 metafile = true
 
 [[files]]
 file = "mods/default-options.pw.toml"
-hash = "bd005d9f92131c7c4a88a081aa5368c482eec2cb410d14ab245a2f081e9e1ffb"
+hash = "a6967d761dde867ccc1af53dc9f4e530eb9917a9cb21d0fc15708e8cd2c0f2ba"
 metafile = true
 
 [[files]]
@@ -21148,12 +20870,12 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "d3c9b48d7caa2ed964e5d1a4dab1da5655c63f0a7e4a59231c4369be7ffc30e1"
+hash = "67bb77eae0b644960be3b1074178ceb5d54facbb42f326981b9d94625238a54a"
 metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "c6d69011793e9278c65ba14423fccdbc2421f62676bad2663ba85ad9c386ae28"
+hash = "889b8b58391e2e6652dd4e8f2c24b3119026a02a30bb3b9de264890f747581cf"
 metafile = true
 
 [[files]]
@@ -21163,12 +20885,12 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "1610d7be42535a16971fe825983ee45af77dcbba37b37e75d5fa7f4d96cb3801"
+hash = "4fbe037c1ec3570be84f68e075c3e8293b15f64dda22bca4735924705fb38236"
 metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "beef54d1aaca0017d151c54bef18db45d3911de0c1fdb089dda15cb50e45da30"
+hash = "d8b1aa8f9d9bcde610fafc4780d2e7614c05f6f25d74978714745ee060b5fe39"
 metafile = true
 
 [[files]]
@@ -21178,7 +20900,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "a265ccd927708aed6943024431ed28612aaf16bedf279768486193d8a956e962"
+hash = "97347efd9e808841d72fe3599da8a11add8422e97f89ae1c85cdfc0acfa18f96"
 metafile = true
 
 [[files]]
@@ -21188,7 +20910,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgiving-void.pw.toml"
-hash = "50269f2a48633d75df2a5ef7f7fb7c0d456dfd937eed00b225bb7b0e316a16b5"
+hash = "ad797a4747adf0a547aff1f6bdb0c99d27b96324356fd0420fe9167e526d7185"
 metafile = true
 
 [[files]]
@@ -21203,22 +20925,22 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "f67aa60c765593a8c70f78296a460349c6aef5f4a16d173eae02e8803b545ad4"
+hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
 
 [[files]]
 file = "mods/itemphysic.pw.toml"
-hash = "6504ed0aed60a908da7560e522e14aaa6b86693213d400f3801154bdfb9e076e"
+hash = "6fae5b0b22162ebfd83dd6c6700feed60c489cbf18c919adaf43aadcb6786ac8"
 metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "5367193d3f87b7bc5a81bcd64a5b96a843e76d4df7a83c8bb7e1911aa82dd52e"
+hash = "3c513e51d7c76336af827569fb3107417b77d75dd6da9485a88ed5715bdc3647"
 metafile = true
 
 [[files]]
 file = "mods/just-enough-effect-descriptions-jeed.pw.toml"
-hash = "0b6a884fe3969a05a24aec1569d1ffcb2ec8fb8b268f749416a9c0677e3cac46"
+hash = "72f20e941a30b9a85de2dabee3dcd3fd598b46775a408da3dc7d6ea4c8db2904"
 metafile = true
 
 [[files]]
@@ -21228,7 +20950,7 @@ metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
+hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
 
 [[files]]
@@ -21238,12 +20960,12 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs-delight.pw.toml"
-hash = "631adbbd5fb0115ae38f113b75d940c971cf2779c6dbd0cefa33aa9a60028a88"
+hash = "a7a202c25a36c3e7c20ef1696dad2243a76625211f80db813dbbcb84c35c4488"
 metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "e8c20c0c77e5df58d1386d8190ee16a957d78d62d361469db0b0c29458bf1e84"
+hash = "1db25211349d6526378c90de2ad12284b9abb66becd4945aebf9a26d4bdbb8d9"
 metafile = true
 
 [[files]]
@@ -21253,17 +20975,17 @@ metafile = true
 
 [[files]]
 file = "mods/libx.pw.toml"
-hash = "f67903e289d9473daba5082e274f46e29f9773821fb1c68fada4d1056a75de06"
+hash = "e2ec65c2771dcb0fdff8d6c79273bc450e98b995b69d343cd42bf842ffb9937a"
 metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "58e0bebd41fa44f3f0dd6c053ec3eb1529d4bfe0c054c0741ba6e2e1b8e4523e"
+hash = "51e129832b04acd57da470fc41725bad5e101b6a6b1d4901fd8ea7a92b14e13d"
 metafile = true
 
 [[files]]
 file = "mods/melancholic_hunger.pw.toml"
-hash = "ec042e557e8ae76baadd1c641313e6fbffd238d7b0ed97f4c79ac5747d6f1ddd"
+hash = "44447bc5e6be33952a8f61759564c301a14083960706e2015cc4bd5aa9c7718e"
 metafile = true
 
 [[files]]
@@ -21288,12 +21010,12 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "297cb996bd3347808e134ce7d99abdc482b68e5f90ea7ef8c4e713083ff32b73"
+hash = "e92633222b9275744ba9ae7a90781494f67933924b56ea8287c5dc7553e77e17"
 metafile = true
 
 [[files]]
 file = "mods/only-hammers.pw.toml"
-hash = "3b379b0f38f35d5d4770ad867ab77bc4e83e19d0beca5308e0ccba09a5a9d99d"
+hash = "6b01df850885962df958be75616c4ea77615a016ba720bf645c57ae75e6e09e1"
 metafile = true
 
 [[files]]
@@ -21333,12 +21055,12 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "09306b955060349986ccf6a6d2a67f1e019fa172a7dc690dd6007f81c966309a"
+hash = "0f465bf38b13f887dbde506c859c9b5439ee9151ae5f3a98078b9f6c3a2c89ad"
 metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-hash = "6b91f46291891e725189b0bd54d0db0f66925b1e785bdfa737592dfcf41a79a3"
+hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
 metafile = true
 
 [[files]]
@@ -21347,28 +21069,23 @@ hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
 metafile = true
 
 [[files]]
-file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
-hash = "307a39080394cbe930be57e67fb8dae37601e8f0842da10da10977d261dac07d"
-metafile = true
-
-[[files]]
 file = "mods/sky-guis.pw.toml"
-hash = "fc0235b31e61f94cd7dc86b4cd358c9bea3adbe16c66879cf61ddfded60be3ed"
+hash = "861e70dab1b0fb9301f9b6443ad372d929d8fbb1917bfe499ebda0c689d45439"
 metafile = true
 
 [[files]]
 file = "mods/skyblock-builder.pw.toml"
-hash = "bc99befa739a5fb1cfccc6b72308a79d05a22259cd6581bfbd6ddb7c3c03916c"
+hash = "88fd23fdfab9f570dbe01e2873047e6e9ed1111b196d9c8e9b441de54776409c"
 metafile = true
 
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
-hash = "18ca1d438084a8578f4b75f12233db58ca1deec55f117fb875afa21f2c021559"
+hash = "83a7b840686a417dfe1161ee5cd918989dd2d901c9013bf85e93a30f597260f7"
 metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "a1fb713df668ed21dda0602e99cb23b991c8faff841e130d7aae46258c3d6a45"
+hash = "c490445e40a84c9e19bd3d3a7c8e8b9709b8cea0346a307eb7fb8a32a72a9504"
 metafile = true
 
 [[files]]
@@ -21383,12 +21100,12 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-shadowy-path-blocks.pw.toml"
-hash = "c5687771065e4a43266b38018cbdf142b216916dd73aa6532b8282e3d0f06b9c"
+hash = "861b9d288dce47a03dc777b6ee2b5ced4c89b9625a3ae80c09a1541402a7ea92"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
+hash = "2a001cdb3d5ac4970d422914083c27380eba8ebd40dfd435754fe6566ba78beb"
 metafile = true
 
 [[files]]
@@ -21398,12 +21115,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "09fa6e054c732ad75458d244c34da6cb04da312f453ce5c864b1fc96d9411ea4"
+hash = "69a58880924a872f9dae89a601a4da75dafd96203ca88ba45ee3c38965db9f63"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "7f8c5d171c80d36c4115f32e3ef91d63abc1851d90f354796deb0b262789a072"
+hash = "2d45e747634f18813476b01a13507fa99e01e330334f11c3ed8b6a074faf3b5f"
 metafile = true
 
 [[files]]
@@ -21413,12 +21130,12 @@ metafile = true
 
 [[files]]
 file = "mods/tomtarus-cobblemon-and-farmers-delight-tweaks.pw.toml"
-hash = "0c96a6f27c4a84d0d504579decee67c34411e2d61e15dbd856c07d269d69dd9a"
+hash = "1efe654d51ff746bfa87e577706564a4ec6ba0ec46d887d5c1fdb25bc0152831"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "ac287f392613eddfa285620dcecb3fea25ee6232a201009cde5c5511b6a39fb9"
+hash = "69df708c9b3980d96c953eaa0f98a9cb82ce7679872d1364da5ca4c116dc40b1"
 metafile = true
 
 [[files]]
@@ -21428,7 +21145,7 @@ metafile = true
 
 [[files]]
 file = "mods/yungs-api.pw.toml"
-hash = "d9c0c9209bac0b693af2a7c1e47ffb28d366bad19c91df31dc6d345fa75250a1"
+hash = "d0ad6ae032766815daeb9d5db6605a7fb90eecc3a066845f1b5836f006002aed"
 metafile = true
 
 [[files]]
