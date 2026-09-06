@@ -5,6 +5,7 @@
 - Update Cobblemon: Wild Loot to 1.8, switch to kotlin, make cross platform.
 
 ## Normal Priority
+- Update sodium and sodium extra mods without breaking the game.
 - Display EXP bar (melancholic hunger)
 - Replace Create: Ultimate Factory with new tuned recipes.
 - Find or create better Create+Cobblemon integration.
