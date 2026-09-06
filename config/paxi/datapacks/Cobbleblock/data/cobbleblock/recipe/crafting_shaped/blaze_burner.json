@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    " E "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "E": {
+      "item": "create:empty_blaze_burner"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "create:blaze_burner"
+  }
+}

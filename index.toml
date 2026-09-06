@@ -209,6 +209,10 @@ file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shape
 hash = "e786257a1d0246efa0d2dfd9c5623e58085ab4f443f81f1d1f6a70866899dabb"
 
 [[files]]
+file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/blaze_burner.json"
+hash = "91733ac053a679205fd53bf85c0fce9946c30e99bbaa9e79ebcc279a2e4ac0ca"
+
+[[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/bug_gem.json"
 hash = "95fb033cb88ae85cb229a571474adfd43f7eb51632ac12d534256025284887d5"
 
@@ -15850,7 +15854,7 @@ hash = "f4f67bc6105c7f1b8bff2a89963150002bbc43a9a36ca6e8b9b48c87772465ff"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/pack.mcmeta"
-hash = "716122ea26b4f3c530345f8aa2c35407deca7558478e62f0a0fc97e7fcf26b6a"
+hash = "f69bb16f3420a49dc3cc4692916f55466f72dcb42fefe69c66b799d0911269bb"
 
 [[files]]
 file = "config/paxi/datapacks/CobbleblockStubAll/data/cobblemon/spawn_pool_world/0000_pidgey_herd.json"
@@ -20218,7 +20222,7 @@ hash = "014dc67623c4e871b26ad8b58477897bb61f478445b4a9c1c89d9c3e545ace8c"
 
 [[files]]
 file = "config/paxi/datapacks/CobbleblockStubAll/pack.mcmeta"
-hash = "d52dd0bd849fe74d6d7d365c1d4ef3e9207f81431160d4665e2a7dbeddab30db"
+hash = "44e6304841d8877acf3c703b7429a555258004f83a9ccbbe9868cd2dc0414aee"
 
 [[files]]
 file = "config/paxi/datapacks/allthemons-x-mega-showdown-legacy.pw.toml"
@@ -20243,7 +20247,7 @@ hash = "2fa19cc7d467e0bbe89f78c40108608230a5111fbb8b5e361b4afe22c31c7d20"
 
 [[files]]
 file = "config/paxi/resourcepacks/Cobbleblock/pack.mcmeta"
-hash = "716122ea26b4f3c530345f8aa2c35407deca7558478e62f0a0fc97e7fcf26b6a"
+hash = "f69bb16f3420a49dc3cc4692916f55466f72dcb42fefe69c66b799d0911269bb"
 
 [[files]]
 file = "config/paxi/resourcepacks/allthemons-x-mega-showdown-legacy.pw.toml"
@@ -20576,11 +20580,6 @@ hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
 
 [[files]]
-file = "mods/catch-indicator.pw.toml"
-hash = "a3a1ff7678eb9fd2caba07e3b4fb13f69e283a422ec04f03fd1fa54705da6c59"
-metafile = true
-
-[[files]]
 file = "mods/catch-rate-display.pw.toml"
 hash = "5210a9ad50ea96bba7d84104802b25f26a8170f116d823080e1e8b95a6da3bb4"
 metafile = true
@@ -20651,11 +20650,6 @@ hash = "132dbb456d882d92aa41556558e5a5c2ecdded4777390ddecf8f5678d804afb8"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-safepastures.pw.toml"
-hash = "c9276959e9375f398c974b348a670447092647e206e100b681c14bc36faef738"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
 hash = "f4a9d50719c9c95018140732ed7aae4f071dc3317e5c74d6d7b00d7809cbead9"
 metafile = true
@@ -20673,11 +20667,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "bd0dd7ceb00c37cfaa945dfba23b5b2406e12be20709df8d9f82ba12a5a3a2be"
-metafile = true
-
-[[files]]
-file = "mods/cobblemore-library.pw.toml"
-hash = "cf4cb0b27f637954e20c73efa13d5ac2f543f1fad5a1e8dd344aeef678de8979"
 metafile = true
 
 [[files]]
@@ -20773,11 +20762,6 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "a265ccd927708aed6943024431ed28612aaf16bedf279768486193d8a956e962"
-metafile = true
-
-[[files]]
-file = "mods/fix-cobblemon-pokemon-experience.pw.toml"
-hash = "506d434b1b53569ab8070b6c9f397d81a8cf0fc21cc108bebac4c72fe0370731"
 metafile = true
 
 [[files]]
@@ -20963,11 +20947,6 @@ metafile = true
 [[files]]
 file = "mods/sodium-extras.pw.toml"
 hash = "02b29315d2ec0d055d0ebba1f36879da5bcacc823328a668c7e7340fb2cb03d4"
-metafile = true
-
-[[files]]
-file = "mods/sodium-options-api.pw.toml"
-hash = "d193173f0f5dfb4a921d44e29e8d5cee656dd3a40872939069715bb482b66fc9"
 metafile = true
 
 [[files]]
