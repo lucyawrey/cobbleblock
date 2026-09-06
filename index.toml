@@ -417,10 +417,6 @@ file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/milling/suspic
 hash = "d10724c308335f94ea537f3f8a48ac0416c8864ce24675a5e4e9e22c197ecee7"
 
 [[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/mixing/sculk.json"
-hash = "9678fc4b55a993143e3047941482b4b59045f5c17a2910b35d2cb731a28dd068"
-
-[[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/smelting/relic_coin.json"
 hash = "7feb381d7454cc4ccd4577088bdafdd83b178d9f3801e80814aafac59f3623f7"
 
@@ -20226,7 +20222,7 @@ hash = "44e6304841d8877acf3c703b7429a555258004f83a9ccbbe9868cd2dc0414aee"
 
 [[files]]
 file = "config/paxi/datapacks/allthemons-x-mega-showdown-legacy.pw.toml"
-hash = "a7552a82a8b8ec3148bccd029b054ecc74b2e4d94adddc08184177e89bb34917"
+hash = "1cf6f482ecd3cd706e5b38640333a1492d31011b491c7ca44897af572fe4379a"
 metafile = true
 
 [[files]]
@@ -20251,7 +20247,7 @@ hash = "f69bb16f3420a49dc3cc4692916f55466f72dcb42fefe69c66b799d0911269bb"
 
 [[files]]
 file = "config/paxi/resourcepacks/allthemons-x-mega-showdown-legacy.pw.toml"
-hash = "a7552a82a8b8ec3148bccd029b054ecc74b2e4d94adddc08184177e89bb34917"
+hash = "1cf6f482ecd3cd706e5b38640333a1492d31011b491c7ca44897af572fe4379a"
 metafile = true
 
 [[files]]
@@ -20261,7 +20257,7 @@ metafile = true
 
 [[files]]
 file = "config/paxi/resourcepacks/rct-trainer-textures-plus.pw.toml"
-hash = "a958030f95997d32191ffd80d656314b86747c46adfb16a3a128389d6a3ff6c9"
+hash = "8bd76c90d8c9b4d21e94bdb99ceee8e14d9a523b8e6cccf4ed64eaccdccc7852"
 metafile = true
 
 [[files]]
@@ -20630,13 +20626,8 @@ hash = "1d530d3cefe90b67c56aa9fe1759a96e89276cc9d5a9be033f8b1ef2abe9942f"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
-hash = "63d31d5820a5fe31ddee48ecfe5d03acb56c56d16e7b64e940ef664127d220d4"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "3efa711e77a99008f28b7831ab8696263bccaab984cd1e62e44b7220e69a6a3c"
+hash = "3bfaceaab32e37e4be0d09fc4e2081201631f5f93ccd93d2aa1dd081d12ce516"
 metafile = true
 
 [[files]]
@@ -20646,7 +20637,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-pokenav.pw.toml"
-hash = "132dbb456d882d92aa41556558e5a5c2ecdded4777390ddecf8f5678d804afb8"
+hash = "6dc0747f249a105ef38d1a75a74736ec276bbf791a5bafd87a47a93a23b25b43"
 metafile = true
 
 [[files]]

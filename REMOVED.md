@@ -8,6 +8,7 @@
 - Cobblemore Library
 - Cobblemon: SafePastures
 - Create: Cobblemon Integrations
+- Cobblemon Fight or Flight Reborn
 
 # Data Packs, potentially reimpliment
 - TDmon
