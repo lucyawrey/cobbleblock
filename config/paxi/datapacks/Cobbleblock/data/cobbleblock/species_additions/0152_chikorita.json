@@ -1,15 +1,11 @@
 {
   "target": "cobblemon:chikorita",
   "drops": {
-    "amount": 4,
+    "amount": 3,
     "entries": [
       {
         "item": "cobblemon:miracle_seed",
         "percentage": 5
-      },
-      {
-        "item": "cobblemon:pink_apricorn_seed",
-        "percentage": 25
       },
       {
         "item": "mega_showdown:grass_tera_shard",

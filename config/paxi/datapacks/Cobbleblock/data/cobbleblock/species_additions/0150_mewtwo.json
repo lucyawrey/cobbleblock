@@ -5,7 +5,7 @@
     "entries": [
       {
         "item": "cobblemon:rare_candy",
-        "quantityRange": "0-2"
+        "quantityRange": "0-3"
       },
       {
         "item": "cobblemon:ability_capsule",
@@ -17,15 +17,15 @@
       },
       {
         "item": "cobblemon:twisted_spoon",
-        "quantityRange": "0-1"
+        "percentage": 10
       },
       {
         "item": "mega_showdown:psychic_tera_shard",
-        "percentage": 50
+        "percentage": 10
       },
       {
         "item": "cobblemon:psychic_gem",
-        "percentage": 50
+        "percentage": 5
       }
     ]
   }

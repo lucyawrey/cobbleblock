@@ -1,16 +1,8 @@
 {
   "target": "cobblemon:rotom",
   "drops": {
-    "amount": 6,
+    "amount": 4,
     "entries": [
-      {
-        "item": "minecraft:copper_ingot",
-        "quantityRange": "0-1"
-      },
-      {
-        "item": "minecraft:redstone",
-        "quantityRange": "0-1"
-      },
       {
         "item": "mega_showdown:electric_tera_shard",
         "percentage": 5

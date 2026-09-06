@@ -4,7 +4,7 @@ const outPath =
   "../config/paxi/datapacks/Cobbleblock/data/cobbleblock/species_additions";
 
 // Pull CSV from Google Sheets
-const target = `https://docs.google.com/spreadsheets/d/1FWfVOOkkR-UtFYkn13PoNO_Y5szipLEBCEys_gZecF0/gviz/tq?tqx=out:csv&sheet=drops`;
+const target = `https://docs.google.com/spreadsheets/d/1us4UrjvnVnCXadYZjgCOBIFmpio8BzGJ8O5L6yuLTfs/gviz/tq?tqx=out:csv&sheet=drops`;
 let rawData = "";
 try {
   const res = await fetch(target, {

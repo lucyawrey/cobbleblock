@@ -1,16 +1,13 @@
 name = "Cobbleblock"
 author = "LucyAzalea"
-version = "0.1.12"
+version = "0.1.13"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "cf840ce14574d0741794859647e7c82d05e64e583c19d4f31e6df2c12ebe1e51"
+hash = "e336ca1ae180f1f6480632b824bc8b56edf1777c95f9fd8239bc0f07fb065511"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.222"
-
-[options]
-datapack-folder = "global_packs/required_data"
+neoforge = "21.1.249"

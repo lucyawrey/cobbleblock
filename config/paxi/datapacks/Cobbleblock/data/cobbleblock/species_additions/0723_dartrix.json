@@ -1,15 +1,11 @@
 {
   "target": "cobblemon:dartrix",
   "drops": {
-    "amount": 7,
+    "amount": 6,
     "entries": [
       {
         "item": "minecraft:feather",
         "quantityRange": "0-2"
-      },
-      {
-        "item": "minecraft:birch_sapling",
-        "quantityRange": "0-1"
       },
       {
         "item": "cobblemon:miracle_seed",

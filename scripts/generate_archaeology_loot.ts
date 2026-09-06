@@ -5,8 +5,8 @@ const gravelOutPath =
   "../config/paxi/datapacks/Cobbleblock/data/cobbleblock/loot_table/archaeology/suspicious_gravel.json";
 const sandOutPath =
   "../config/paxi/datapacks/Cobbleblock/data/cobbleblock/loot_table/archaeology/suspicious_sand.json";
-const targetGravel = `https://docs.google.com/spreadsheets/d/1FWfVOOkkR-UtFYkn13PoNO_Y5szipLEBCEys_gZecF0/gviz/tq?tqx=out:csv&sheet=sus_gravel`;
-const targetSand = `https://docs.google.com/spreadsheets/d/1FWfVOOkkR-UtFYkn13PoNO_Y5szipLEBCEys_gZecF0/gviz/tq?tqx=out:csv&sheet=sus_sand`;
+const targetGravel = `https://docs.google.com/spreadsheets/d/1us4UrjvnVnCXadYZjgCOBIFmpio8BzGJ8O5L6yuLTfs/gviz/tq?tqx=out:csv&sheet=sus_gravel`;
+const targetSand = `https://docs.google.com/spreadsheets/d/1us4UrjvnVnCXadYZjgCOBIFmpio8BzGJ8O5L6yuLTfs/gviz/tq?tqx=out:csv&sheet=sus_sand`;
 const gravelSequence = "cobbleblock:archaeology/suspicious_gravel";
 const sandSequence = "cobbleblock:archaeology/suspicious_sand";
 

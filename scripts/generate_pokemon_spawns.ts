@@ -56,7 +56,7 @@ const presets: Record<
 };
 
 // Pull CSV from Google Sheets
-const target = `https://docs.google.com/spreadsheets/d/1FWfVOOkkR-UtFYkn13PoNO_Y5szipLEBCEys_gZecF0/gviz/tq?tqx=out:csv&sheet=spawns`;
+const target = `https://docs.google.com/spreadsheets/d/1us4UrjvnVnCXadYZjgCOBIFmpio8BzGJ8O5L6yuLTfs/gviz/tq?tqx=out:csv&sheet=spawns`;
 let rawData = "";
 try {
   const res = await fetch(target, {

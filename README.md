@@ -61,14 +61,28 @@ _Minecraft is a trademark of Mojang Synergies AB ｜ Pokémon is a trademark of 
 
 ## Development
 
+### Development Requirements
+- Java Development Kit
+- Bun
+- Go
+
+### Install Bun Dependancies
+```sh
+cd scripts
+bun install
+```
+
 ### Generate Data and Serve Development Server
 
 ```sh
 bun run --cwd scripts generate && packwiz refresh && packwiz serve
 ```
 
-### MultiMC Pre-launch Command
+### Download Bootstrapper
+[https://github.com/packwiz/packwiz-installer-bootstrap/releases](https://github.com/packwiz/packwiz-installer-bootstrap/releases)
+
+### Modrinth 1.21.1 Instance Pre-launch Command
 
 ```
-$INST_JAVA -jar $INST_DIR/packwiz-installer-bootstrap.jar http://localhost:8080/pack.toml
+java -jar packwiz-installer-bootstrap.jar http://localhost:8080/pack.toml
 ```

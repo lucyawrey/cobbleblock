@@ -143,7 +143,7 @@ const idMap: any = {
 const path = "./reference_data/data";
 const outputPath = "./spawn_data.csv";
 const cachePath = "./script_cache.json";
-const biomesSheetUrl = `https://docs.google.com/spreadsheets/d/1FWfVOOkkR-UtFYkn13PoNO_Y5szipLEBCEys_gZecF0/gviz/tq?tqx=out:csv&sheet=biomes`;
+const biomesSheetUrl = `https://docs.google.com/spreadsheets/d/1us4UrjvnVnCXadYZjgCOBIFmpio8BzGJ8O5L6yuLTfs/gviz/tq?tqx=out:csv&sheet=biomes`;
 
 let biomes: Record<string, string> = {};
 (
