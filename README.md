@@ -62,7 +62,7 @@ _Minecraft is a trademark of Mojang Synergies AB ｜ Pokémon is a trademark of 
 ## Development
 
 ### Development Requirements
-- Java Development Kit
+- JDK 21+
 - Bun
 - Go
 
