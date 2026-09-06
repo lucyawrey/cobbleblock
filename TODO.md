@@ -1,7 +1,10 @@
 # Cobbleblock Todo
 
 ## Normal Priority
+- Replace Create: Ultimate Factory with new tuned recipes
 - Find or create better Create+Cobblemon integration.
+  - https://modrinth.com/mod/create-cobblemon-integrations/version/0.3.6 is promising but needs source code and be up to date on modrinth.
+  - https://modrinth.com/mod/cobblemon-create-industries works but does not include a pokemonified blaze burner.
 - Celebi
   - Set default world file for 'ancientforest' dimension.
 - Create Lore!
