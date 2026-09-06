@@ -20384,11 +20384,6 @@ hash = "754accb4ac44c21fa37c0216c6210b8e13e6c98248b3808d44be01c097c196c7"
 metafile = true
 
 [[files]]
-file = "config/paxi/resourcepacks/rct-trainer-textures-plus.pw.toml"
-hash = "8bd76c90d8c9b4d21e94bdb99ceee8e14d9a523b8e6cccf4ed64eaccdccc7852"
-metafile = true
-
-[[files]]
 file = "config/rctmod-client.toml"
 hash = "2a1efa0a9ea23673047ceadc82b048c60e030b4385042c26eaa3df488178610d"
 
@@ -20704,11 +20699,6 @@ hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
 
 [[files]]
-file = "mods/catch-indicator.pw.toml"
-hash = "bf3544fbad783208c723de3d2fcd26a3a13746c32b1325f597b36925ec36e9b5"
-metafile = true
-
-[[files]]
 file = "mods/catch-rate-display.pw.toml"
 hash = "1876ee95dd3d2d4bc59f6b129b25fbf36a6bed00864b57cb9f24d50fcb42cef1"
 metafile = true
@@ -20749,16 +20739,6 @@ hash = "fbd64ce217145bd1155f3ff3f895f5e5eebd0f2ad9679ce2d7a1a4114b4569ce"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-capture-xp.pw.toml"
-hash = "418e00920f24ef960858eec94feaa9ea7361ca2b53dda230efee45c2fbd50576"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-emi.pw.toml"
-hash = "1d530d3cefe90b67c56aa9fe1759a96e89276cc9d5a9be033f8b1ef2abe9942f"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
 hash = "32ef82eeccc3950a9e83a811a593f8c4015c8cb9698b847da9ada7eed41bf92f"
 metafile = true
@@ -20776,16 +20756,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-pokenav.pw.toml"
 hash = "c87d6d68cf563eb7280c237f5e2f0ac450ca74f01e2e586ef30f3954a6db78a3"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-safepastures.pw.toml"
-hash = "c9276959e9375f398c974b348a670447092647e206e100b681c14bc36faef738"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-tim-core.pw.toml"
-hash = "4211dd9eed65d9599cb1df61f5db373772ed090aa837a17f2fb7dc9c46a8aa2b"
 metafile = true
 
 [[files]]
@@ -20901,11 +20871,6 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "97347efd9e808841d72fe3599da8a11add8422e97f89ae1c85cdfc0acfa18f96"
-metafile = true
-
-[[files]]
-file = "mods/fix-cobblemon-pokemon-experience.pw.toml"
-hash = "506d434b1b53569ab8070b6c9f397d81a8cf0fc21cc108bebac4c72fe0370731"
 metafile = true
 
 [[files]]
@@ -21044,16 +21009,6 @@ hash = "be3375c1f12ecfe83d71669083c37d7d8c28a22bcd9743f9f5143c504e54833a"
 metafile = true
 
 [[files]]
-file = "mods/rctapi.pw.toml"
-hash = "885c44754598d945b8fb26f0e509d3ba34560a560687550cdd4750919b43deab"
-metafile = true
-
-[[files]]
-file = "mods/rctmod.pw.toml"
-hash = "62be690120a069777b7c7646e146692119f612583f84b0f194bba88ab7ebffcd"
-metafile = true
-
-[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "0f465bf38b13f887dbde506c859c9b5439ee9151ae5f3a98078b9f6c3a2c89ad"
 metafile = true
@@ -21091,11 +21046,6 @@ metafile = true
 [[files]]
 file = "mods/sodium-extras.pw.toml"
 hash = "02b29315d2ec0d055d0ebba1f36879da5bcacc823328a668c7e7340fb2cb03d4"
-metafile = true
-
-[[files]]
-file = "mods/sodium-options-api.pw.toml"
-hash = "d193173f0f5dfb4a921d44e29e8d5cee656dd3a40872939069715bb482b66fc9"
 metafile = true
 
 [[files]]
