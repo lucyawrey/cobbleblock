@@ -41,7 +41,6 @@ This modpack is in early access and still undergoing heavy development. A lot is
 - [Balm](https://modrinth.com/mod/balm)
 - [Better Advancements](https://modrinth.com/mod/better-advancements)
 - [Bookshelf](https://modrinth.com/mod/bookshelf-lib)
-- [Catch Indicator](https://modrinth.com/mod/catch-indicator)
 - [Clear Void](https://modrinth.com/mod/clear-void)
 - [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures)
 

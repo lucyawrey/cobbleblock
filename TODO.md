@@ -1,7 +1,11 @@
 # Cobbleblock Todo
 
+## 1.8
+- Wait for 1.8 mods
+- Update Cobblemon: Wild Loot to 1.8, switch to kotlin, make cross platform.
+
 ## Normal Priority
-- Replace Create: Ultimate Factory with new tuned recipes
+- Replace Create: Ultimate Factory with new tuned recipes.
 - Find or create better Create+Cobblemon integration.
   - https://modrinth.com/mod/create-cobblemon-integrations/version/0.3.6 is promising but needs source code and be up to date on modrinth.
   - https://modrinth.com/mod/cobblemon-create-industries works but does not include a pokemonified blaze burner.
