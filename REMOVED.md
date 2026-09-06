@@ -10,7 +10,7 @@
 - Create: Cobblemon Integrations
 - Cobblemon Fight or Flight Reborn
 
-# Data Packs, potentially reimpliment
-- TDmon
+# Data Packs
 - PlanetaCobblemonFreePack
+- TDmon
 - MysticMons

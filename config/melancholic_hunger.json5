@@ -3,7 +3,7 @@
 		"hide_hunger_bar": true,
 		"highlight_regenerated_hearts": false,
 		"highlight_restored_hearts": true,
-		"hide_experience_bar": true,
+		"hide_experience_bar": false,
 		"show_experience_in_inventory": false,
 		"show_experience_on_screens": false,
 		"show_experience_on_gain": true,

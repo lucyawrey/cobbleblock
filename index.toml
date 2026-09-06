@@ -94,7 +94,7 @@ hash = "339d1deed4d0405a91df61f194cf1dc7e101a63c54013a4fc1f0b983d5784dfd"
 
 [[files]]
 file = "config/melancholic_hunger.json5"
-hash = "5436927c5492101a2f75de8b8cb304001bce8983baca5cceffde2f81c563157f"
+hash = "6d97f221dd89a8c63f214dc191cfcd9e2c0d098f9c5b101569c08b797fc78b6c"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -20837,7 +20837,7 @@ metafile = true
 
 [[files]]
 file = "mods/melancholic_hunger.pw.toml"
-hash = "ec042e557e8ae76baadd1c641313e6fbffd238d7b0ed97f4c79ac5747d6f1ddd"
+hash = "44447bc5e6be33952a8f61759564c301a14083960706e2015cc4bd5aa9c7718e"
 metafile = true
 
 [[files]]
