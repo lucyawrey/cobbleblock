@@ -1,6 +1,7 @@
 # Cobbleblock Todo
 
 ## Normal Priority
+- Find or create better Create+Cobblemon integration.
 - Celebi
   - Set default world file for 'ancientforest' dimension.
 - Create Lore!
