@@ -1,12 +1,12 @@
 # Cobbleblock Todo
 
-## 1.8
-- Wait for 1.8 mods
-- Update Cobblemon: Wild Loot to 1.8, switch to kotlin, make cross platform.
-
 ## Normal Priority
+- Automatically enable resource packs
+- Update cobblemon configs
+- Redo pokemon spawning rules
+- Add Cobblemon EMI that wont run the game out of memory.
 - Update sodium and sodium extra mods without breaking the game.
-- Display EXP bar (melancholic hunger)
+- Update Cobblemon: Wild Loot to 1.8, switch to kotlin, make cross platform.
 - Replace Create: Ultimate Factory with new tuned recipes.
 - Find or create better Create+Cobblemon integration.
   - https://modrinth.com/mod/create-cobblemon-integrations/version/0.3.6 is promising but needs source code and be up to date on modrinth.
