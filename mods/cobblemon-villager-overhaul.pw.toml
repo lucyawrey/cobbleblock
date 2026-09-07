@@ -1,13 +1,13 @@
 name = "Cobblemon Villager overhaul  - [ADDON]"
-filename = "cobbledollars-villagers-overhaul-rca-neoforge-0.2.2.jar"
+filename = "cobbledollars-villagers-overhaul-rca-neoforge-0.3.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/NHRD1VOt/versions/KYokGwOX/cobbledollars-villagers-overhaul-rca-neoforge-0.2.2.jar"
+url = "https://cdn.modrinth.com/data/NHRD1VOt/versions/wYH8asVa/cobbledollars-villagers-overhaul-rca-neoforge-0.3.0.jar"
 hash-format = "sha512"
-hash = "0ec15dc0f7bf2ab05ea459799bb275052f653fdb1032df5a46b8c3bc6b7b20eb0ef5a944ab14acdd6c8782b27ec7da76742f14a5ef43592d2c53a4d5f88dd600"
+hash = "36d3c11a3d25b6378a5eb79f1035a2a1c64f5f601e417401858865c38cc3efd70c70fe0131b4fe52df963ca56bf8554c9c7819d6eda88a682c08c85d9ae46624"
 
 [update]
 [update.modrinth]
 mod-id = "NHRD1VOt"
-version = "KYokGwOX"
+version = "wYH8asVa"
