@@ -6,10 +6,10 @@ This modpack is in early access and still undergoing heavy development. A lot is
 
 ## 📦 Modpack Features
 
-- Built for Minecraft 1.21.1 and includes the newest Cobblemon version (1.7).
+- Built for Minecraft 1.21.1 and includes the latest Cobblemon version (1.8).
 - Start on a classic Skyblock island with only a block of ice, a lava bucket, and a single Apricorn tree.
 - ...plus the tools of a trainer: a starter Pokémon, a Pokédex, a Pokénav, and a Trainer Card.
-- All 1025 Pokémon are included! Many Legendary Pokémon are not not yet obtainable without commands at the moment, however.
+- Almost all Pokémon (currently count 1022) are implimented! Many Pokémon are not yet obtainable in survival without cheats at the moment, however.
 - Completely redone spawning rules for all Pokémon. Build regular Pokémon a habitat using the blocks they like to attract them to your island.
 - Obtain Legendary Pokémon using a unique method: you will need to build them custom multiblock shrines, then offer up special items in order to summon the Pokémon and catch them! These shrines can get expensive, and act as a major form of progression in the pack. Only the Kanto and Johto legendaries have shrine implementations right now.
 - Multiplayer support! Each player can either create their own Skyblock island, or share one with a team of players.
@@ -47,6 +47,12 @@ This modpack is in early access and still undergoing heavy development. A lot is
 ## Resourcepacks and Datapacks
 
 - [AllTheMons x Mega Showdown](https://modrinth.com/datapack/allthemons-x-mega-showdown-legacy)
+
+## Missing Pokémon
+
+- Celesteela (#797)
+- Iron Jugulis (#993)
+- Iron Boulder (#1022)
 
 ---
 

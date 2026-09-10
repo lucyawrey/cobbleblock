@@ -41,6 +41,10 @@ file = "config/cobblemon/main.json"
 hash = "3cc2cbdadc74e1ed4adb9cafe164cb87a0600e9d03eec7905b0b907b2678eb97"
 
 [[files]]
+file = "config/cobblemon/spawning/best-spawner-config.json"
+hash = "9120c24a86bcd5d5f56d1aca5d65a02e83f66aeeb65296aa093d8261395bd56c"
+
+[[files]]
 file = "config/cobblenav/client-config.json"
 hash = "c285afc93dfd0c9604990e2dd2a21c014d0fb411d504b83953f527ce001cad53"
 
@@ -7461,64 +7465,12 @@ file = "config/paxi/datapacks/Cobbleblock/data/cobblemon/recipe/ancient_wing_bal
 hash = "526f3a54b7027ed6f51fbb752a549af989af86aadf96ca2568ec9fe5a663217e"
 
 [[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobblemon/species_additions/0420_cherubi.json"
-hash = "c5c073497c5b14f88a2d860a00ad12819ef61bfbe5ccda0c2b5c9df6392e07e6"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobblemon/species_additions/0531_audino.json"
-hash = "dbc7326c4f5b4db2ea51d25164dd0f320f64497e3835ac7b46892eb132e2cc54"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobblemon/species_additions/0535_tympole.json"
-hash = "3f9df1ead762cb9a88c02966a6543369c6241ed063775220e3d9ce28042d76f0"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobblemon/species_additions/0536_palpitoad.json"
-hash = "6fa8efd3bc7bd5f8e99db8fa3fe307a26f7620c41c4206e2d8ed2d3d2858c5d7"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobblemon/species_additions/0537_seismitoad.json"
-hash = "88ccf0e175e57f1ad98bfe44f304e64aa2464d2fc0b260901e332585cbff65a1"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobblemon/species_additions/0640_virizion.json"
-hash = "464dcbd12924d18430d453bcc40d20ad4f4cd429013fb310d4734b2c1f81794e"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobblemon/species_additions/0646_kyurem.json"
-hash = "6214eccad658b234a38abd944ae4081f9578e3f6cd2bc5c96f9262c51aa1cec3"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobblemon/species_additions/0719_diancie.json"
-hash = "6a272fa45951d48e15868fde6d4a270b938744db44f9bfc2178406e1dbbd342b"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobblemon/species_additions/0795_pheromosa.json"
-hash = "f9b87a70cc835c5277219492a17baf215f28024c59072dea8e6c99c617d44cb4"
-
-[[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobblemon/species_additions/0797_celesteela.json"
 hash = "9be692d5ae8ed1dd9d8ef1aaa3469a3af1ca43525021f78128442a7c4f217a6d"
 
 [[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobblemon/species_additions/0826_orbeetle.json"
-hash = "6792e009037cad9602a58543f77bc5f0502bc00e9977f4e4d9e35f25cb7ba439"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobblemon/species_additions/0890_eternatus.json"
-hash = "1e23e7c116b8ea4057dd8216ea4bd51464dc4353bb5bfd207e684da9d1ca3720"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobblemon/species_additions/0992_ironhands.json"
-hash = "49880fe809d2e623b5932cd772dda065138ca614cae59f90821f3e706d7ceadb"
-
-[[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobblemon/species_additions/0993_ironjugulis.json"
 hash = "9611bee428cbd8850891029ce765438800f2a667ab6b45e43347af91638c82b2"
-
-[[files]]
-file = "config/paxi/datapacks/Cobbleblock/data/cobblemon/species_additions/1003_tinglu.json"
-hash = "634d133418d6fb64a14e0c48da55761c87c0f4d7cd41d35df0c050fd948a2dde"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobblemon/species_additions/1022_ironboulder.json"
