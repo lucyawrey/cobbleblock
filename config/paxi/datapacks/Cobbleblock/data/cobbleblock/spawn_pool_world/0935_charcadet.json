@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "charcadet-1",
+      "pokemon": "charcadet",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 92,
+      "level": "1-26",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:netherrack",
+          "minecraft:nether_bricks",
+          "minecraft:nether_brick_stairs"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "rhyhorn-1",
+      "pokemon": "rhyhorn",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 1.8,
+      "level": "10-35",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#minecraft:acacia_logs",
+          "minecraft:acacia_leaves",
+          "#c:stones"
+        ]
+      }
+    }
+  ]
+}

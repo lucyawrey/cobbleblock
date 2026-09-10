@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "klang-1",
+      "pokemon": "klang",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.9,
+      "level": "38-44",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minLight": 0,
+        "maxLight": 7,
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "create:cogwheel",
+          "create:large_cogwheel",
+          "create:gearbox"
+        ]
+      }
+    }
+  ]
+}

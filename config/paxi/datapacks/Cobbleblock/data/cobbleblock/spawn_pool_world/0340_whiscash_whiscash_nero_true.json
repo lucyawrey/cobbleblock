@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "whiscash-whiscash-nero-true-1",
+      "pokemon": "whiscash whiscash_nero=true",
+      "type": "pokemon",
+      "bucket": "rare",
+      "weight": 10,
+      "level": "30-47",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

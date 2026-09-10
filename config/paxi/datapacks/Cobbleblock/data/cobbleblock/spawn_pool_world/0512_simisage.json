@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "simisage-1",
+      "pokemon": "simisage",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 1.6,
+      "level": "27-50",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#minecraft:leaves",
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:vine",
+          "#cobblemon:trees"
+        ]
+      }
+    }
+  ]
+}

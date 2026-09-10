@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ponyta-1",
+      "pokemon": "ponyta",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 5.04,
+      "level": "16-41",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:tall_grass",
+          "minecraft:short_grass",
+          "minecraft:fern",
+          "minecraft:shroomlight",
+          "minecraft:crimson_nylium",
+          "minecraft:warped_nylium",
+          "#minecraft:crimson_stems",
+          "#minecraft:warped_stems",
+          "minecraft:nether_wart_block",
+          "minecraft:warped_wart_block",
+          "minecraft:netherrack"
+        ]
+      }
+    }
+  ]
+}

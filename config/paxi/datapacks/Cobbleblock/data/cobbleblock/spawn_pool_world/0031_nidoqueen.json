@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "nidoqueen-1",
+      "pokemon": "nidoqueen",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 0.08,
+      "level": "37-51",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#minecraft:acacia_logs",
+          "minecraft:acacia_leaves"
+        ]
+      }
+    }
+  ]
+}

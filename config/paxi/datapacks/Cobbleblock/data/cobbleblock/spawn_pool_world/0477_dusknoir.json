@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dusknoir-1",
+      "pokemon": "dusknoir",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.03,
+      "level": "41-53",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "timeRange": "night",
+        "neededNearbyBlocks": [
+          "#minecraft:dark_oak_logs",
+          "minecraft:dark_oak_leaves",
+          "minecraft:peony",
+          "minecraft:lilac",
+          "minecraft:rose_bush",
+          "#cobblemon:mansion_blocks"
+        ]
+      }
+    }
+  ]
+}

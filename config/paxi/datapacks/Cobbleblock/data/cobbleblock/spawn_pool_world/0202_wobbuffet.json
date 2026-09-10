@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "wobbuffet-1",
+      "pokemon": "wobbuffet",
+      "type": "pokemon",
+      "bucket": "rare",
+      "weight": 2.5,
+      "level": "15-41",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minLight": 0,
+        "maxLight": 7,
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "#c:glass_blocks",
+          "#c:glass_panes"
+        ]
+      }
+    }
+  ]
+}

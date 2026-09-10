@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "miltank-1",
+      "pokemon": "miltank",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 6,
+      "level": "24-49",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:grass_block",
+          "minecraft:short_grass",
+          "minecraft:tall_grass"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "magnezone-1",
+      "pokemon": "magnezone",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 0.8,
+      "level": "42-54",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:lightning_rod",
+          "minecraft:iron_block",
+          "minecraft:copper_block",
+          "minecraft:exposed_copper",
+          "minecraft:weathered_copper",
+          "minecraft:oxidized_copper"
+        ]
+      }
+    }
+  ]
+}

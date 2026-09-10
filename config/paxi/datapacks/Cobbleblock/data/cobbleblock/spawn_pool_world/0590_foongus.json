@@ -1,0 +1,36 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "foongus-1",
+      "pokemon": "foongus",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 7,
+      "level": "4-29",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minLight": 0,
+        "maxLight": 7,
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:mycelium",
+          "minecraft:brown_mushroom",
+          "minecraft:red_mushroom",
+          "minecraft:mushroom_stem",
+          "minecraft:brown_mushroom_block",
+          "minecraft:red_mushroom_block",
+          "#cobblemon:apricorns"
+        ]
+      }
+    }
+  ]
+}

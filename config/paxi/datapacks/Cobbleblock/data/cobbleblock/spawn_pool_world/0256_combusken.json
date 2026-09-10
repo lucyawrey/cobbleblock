@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "combusken-1",
+      "pokemon": "combusken",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 3.6,
+      "level": "16-41",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:torch",
+          "minecraft:fire",
+          "#minecraft:campfires",
+          "#c:fences",
+          "#minecraft:acacia_logs",
+          "minecraft:acacia_leaves"
+        ]
+      }
+    }
+  ]
+}

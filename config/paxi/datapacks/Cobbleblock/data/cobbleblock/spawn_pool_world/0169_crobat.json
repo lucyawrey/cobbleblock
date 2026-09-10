@@ -1,0 +1,70 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "crobat-1",
+      "pokemon": "crobat",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.02,
+      "level": "41-54",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "#minecraft:dark_oak_logs",
+          "minecraft:dark_oak_leaves",
+          "minecraft:peony",
+          "minecraft:lilac",
+          "minecraft:rose_bush",
+          "minecraft:sculk",
+          "minecraft:sculk_vein",
+          "minecraft:sculk_catalyst",
+          "minecraft:sculk_sensor",
+          "minecraft:sculk_shrieker",
+          "minecraft:stone"
+        ]
+      }
+    },
+    {
+      "id": "crobat-2",
+      "pokemon": "crobat",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.02,
+      "level": "41-54",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": false,
+        "neededNearbyBlocks": [
+          "#minecraft:dark_oak_logs",
+          "minecraft:dark_oak_leaves",
+          "minecraft:peony",
+          "minecraft:lilac",
+          "minecraft:rose_bush",
+          "minecraft:sculk",
+          "minecraft:sculk_vein",
+          "minecraft:sculk_catalyst",
+          "minecraft:sculk_sensor",
+          "minecraft:sculk_shrieker",
+          "minecraft:stone"
+        ]
+      }
+    }
+  ]
+}

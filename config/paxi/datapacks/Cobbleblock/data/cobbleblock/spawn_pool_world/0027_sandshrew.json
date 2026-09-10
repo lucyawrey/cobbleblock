@@ -1,0 +1,29 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sandshrew-1",
+      "pokemon": "sandshrew",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 9,
+      "level": "5-30",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:sand",
+          "minecraft:dead_bush",
+          "minecraft:sandstone"
+        ]
+      }
+    }
+  ]
+}

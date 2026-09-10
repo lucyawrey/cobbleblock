@@ -1,0 +1,59 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "clefairy-1",
+      "pokemon": "clefairy",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 1.52,
+      "level": "17-32",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true,
+        "moonPhase": "0, 1, 7",
+        "neededNearbyBlocks": [
+          "minecraft:dripstone_block",
+          "minecraft:pointed_dripstone",
+          "minecraft:tall_grass",
+          "minecraft:short_grass",
+          "#cobblemon:gemstones"
+        ]
+      }
+    },
+    {
+      "id": "clefairy-2",
+      "pokemon": "clefairy",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 1.52,
+      "level": "17-32",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": false,
+        "neededNearbyBlocks": [
+          "minecraft:dripstone_block",
+          "minecraft:pointed_dripstone",
+          "minecraft:tall_grass",
+          "minecraft:short_grass",
+          "#cobblemon:gemstones"
+        ]
+      }
+    }
+  ]
+}

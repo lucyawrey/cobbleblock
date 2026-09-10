@@ -1,0 +1,36 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cyndaquil-1",
+      "pokemon": "cyndaquil",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 6,
+      "level": "5-31",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:podzol",
+          "minecraft:fern",
+          "minecraft:large_fern",
+          "minecraft:sweet_berry_bush",
+          "#minecraft:spruce_logs",
+          "minecraft:spruce_leaves",
+          "minecraft:shroomlight",
+          "minecraft:crimson_nylium",
+          "minecraft:warped_nylium",
+          "#minecraft:crimson_stems",
+          "#minecraft:warped_stems",
+          "minecraft:nether_wart_block",
+          "minecraft:warped_wart_block"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "corphish-1",
+      "pokemon": "corphish",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 5.4,
+      "level": "6-31",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#minecraft:sand",
+          "minecraft:tall_grass",
+          "minecraft:short_grass"
+        ]
+      }
+    },
+    {
+      "id": "corphish-2",
+      "pokemon": "corphish",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 5.4,
+      "level": "6-31",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

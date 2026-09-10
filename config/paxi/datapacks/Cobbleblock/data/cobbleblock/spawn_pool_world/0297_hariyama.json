@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hariyama-1",
+      "pokemon": "hariyama",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.2,
+      "level": "24-47",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#c:stones",
+          "#minecraft:wool"
+        ]
+      }
+    }
+  ]
+}

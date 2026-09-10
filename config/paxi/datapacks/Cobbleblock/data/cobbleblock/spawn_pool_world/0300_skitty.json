@@ -1,0 +1,28 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "skitty-1",
+      "pokemon": "skitty",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 7,
+      "level": "1-35",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:dead_bush",
+          "#minecraft:flowers"
+        ]
+      }
+    }
+  ]
+}

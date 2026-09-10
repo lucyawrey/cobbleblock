@@ -1,0 +1,67 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "politoed-1",
+      "pokemon": "politoed",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.025,
+      "level": "34-50",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isRaining": true,
+        "neededNearbyBlocks": [
+          "minecraft:lily_pad",
+          "minecraft:vine"
+        ]
+      }
+    },
+    {
+      "id": "politoed-2",
+      "pokemon": "politoed",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.025,
+      "level": "34-50",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:lily_pad",
+          "minecraft:vine"
+        ]
+      }
+    },
+    {
+      "id": "politoed-3",
+      "pokemon": "politoed",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.025,
+      "level": "34-50",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "isRaining": true
+      }
+    }
+  ]
+}

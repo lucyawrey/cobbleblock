@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "exploud-1",
+      "pokemon": "exploud",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 0.16,
+      "level": "40-49",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minLight": 0,
+        "maxLight": 7,
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:sculk",
+          "minecraft:sculk_vein",
+          "minecraft:sculk_catalyst",
+          "minecraft:sculk_sensor",
+          "minecraft:sculk_shrieker"
+        ]
+      }
+    }
+  ]
+}

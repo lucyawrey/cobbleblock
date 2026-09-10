@@ -1,0 +1,38 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "lanturn-1",
+      "pokemon": "lanturn",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.6,
+      "level": "27-46",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "lanturn-2",
+      "pokemon": "lanturn",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.6,
+      "level": "27-46",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "trapinch-1",
+      "pokemon": "trapinch",
+      "type": "pokemon",
+      "bucket": "rare",
+      "weight": 7.5,
+      "level": "4-29",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:sandstone",
+          "minecraft:dead_bush",
+          "minecraft:cactus"
+        ]
+      }
+    }
+  ]
+}

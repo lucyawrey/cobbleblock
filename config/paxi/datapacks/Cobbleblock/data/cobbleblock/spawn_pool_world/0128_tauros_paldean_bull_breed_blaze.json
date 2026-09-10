@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "tauros-paldean-bull-breed-blaze-1",
+      "pokemon": "tauros paldean bull_breed=blaze",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.1,
+      "level": "24-49",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:basalt",
+          "minecraft:magma_block",
+          "minecraft:torch",
+          "minecraft:fire",
+          "minecraft:netherrack",
+          "#minecraft:campfires"
+        ]
+      }
+    }
+  ]
+}

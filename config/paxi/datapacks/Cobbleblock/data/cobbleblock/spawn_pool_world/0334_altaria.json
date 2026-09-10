@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "altaria-1",
+      "pokemon": "altaria",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 1.6,
+      "level": "35-49",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#minecraft:leaves",
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#c:fences",
+          "#cobblemon:gemstones",
+          "#minecraft:wool"
+        ]
+      }
+    }
+  ]
+}

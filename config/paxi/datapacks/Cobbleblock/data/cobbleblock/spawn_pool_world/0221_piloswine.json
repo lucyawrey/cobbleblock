@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "piloswine-1",
+      "pokemon": "piloswine",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.9,
+      "level": "33-45",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:snow",
+          "minecraft:snow_block",
+          "minecraft:ice"
+        ]
+      }
+    }
+  ]
+}

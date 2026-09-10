@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "blaziken-1",
+      "pokemon": "blaziken",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 0.4,
+      "level": "36-53",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:torch",
+          "minecraft:fire",
+          "#minecraft:campfires",
+          "#c:fences",
+          "#minecraft:acacia_logs",
+          "minecraft:acacia_leaves"
+        ]
+      }
+    }
+  ]
+}

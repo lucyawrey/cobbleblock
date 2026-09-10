@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "exeggutor-1",
+      "pokemon": "exeggutor",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.1,
+      "level": "28-53",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#minecraft:jungle_logs",
+          "minecraft:jungle_leaves",
+          "minecraft:vine",
+          "#minecraft:acacia_logs",
+          "minecraft:acacia_leaves"
+        ]
+      }
+    }
+  ]
+}

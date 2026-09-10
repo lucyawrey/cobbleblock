@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "unown-character-g-1",
+      "pokemon": "unown character=g",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 3.769,
+      "level": "1-100",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "neededNearbyBlocks": [
+          "#c:bookshelves",
+          "minecraft:enchanting_table",
+          "minecraft:chiseled_bookshelf",
+          "minecraft:lectern"
+        ]
+      }
+    }
+  ]
+}

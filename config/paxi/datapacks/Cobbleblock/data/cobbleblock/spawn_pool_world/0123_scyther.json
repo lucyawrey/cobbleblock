@@ -1,0 +1,35 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "scyther-1",
+      "pokemon": "scyther",
+      "type": "pokemon",
+      "bucket": "rare",
+      "weight": 1.75,
+      "level": "25-50",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#minecraft:jungle_logs",
+          "minecraft:jungle_leaves",
+          "minecraft:vine",
+          "create:mechanical_harvester",
+          "minecraft:stonecutter",
+          "create:mechanical_saw"
+        ]
+      }
+    }
+  ]
+}

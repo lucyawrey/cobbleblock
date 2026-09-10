@@ -1,0 +1,97 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "floatzel-1",
+      "pokemon": "floatzel",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.2,
+      "level": "26-50",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:water",
+          "minecraft:fern",
+          "minecraft:large_fern",
+          "minecraft:sweet_berry_bush",
+          "#minecraft:spruce_logs",
+          "minecraft:spruce_leaves"
+        ]
+      }
+    },
+    {
+      "id": "floatzel-2",
+      "pokemon": "floatzel",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.2,
+      "level": "26-50",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:water",
+          "minecraft:fern",
+          "minecraft:large_fern",
+          "minecraft:sweet_berry_bush",
+          "#minecraft:spruce_logs",
+          "minecraft:spruce_leaves"
+        ]
+      }
+    },
+    {
+      "id": "floatzel-3",
+      "pokemon": "floatzel",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.2,
+      "level": "26-50",
+      "spawnablePositionType": "surface",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:water",
+          "minecraft:fern",
+          "minecraft:large_fern",
+          "minecraft:sweet_berry_bush",
+          "#minecraft:spruce_logs",
+          "minecraft:spruce_leaves"
+        ]
+      }
+    },
+    {
+      "id": "floatzel-4",
+      "pokemon": "floatzel",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.2,
+      "level": "26-50",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

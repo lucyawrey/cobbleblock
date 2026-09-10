@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "growlithe-hisuian-1",
+      "pokemon": "growlithe hisuian",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 10,
+      "level": "14-37",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "isRaining": false,
+        "isThundering": false,
+        "neededNearbyBlocks": [
+          "minecraft:stone",
+          "minecraft:netherrack"
+        ]
+      }
+    }
+  ]
+}

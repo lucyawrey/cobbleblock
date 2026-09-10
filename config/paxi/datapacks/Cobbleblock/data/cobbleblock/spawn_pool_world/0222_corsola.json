@@ -1,0 +1,36 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "corsola-1",
+      "pokemon": "corsola",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 10,
+      "level": "16-41",
+      "spawnablePositionType": "fishing",
+      "condition": {}
+    },
+    {
+      "id": "corsola-2",
+      "pokemon": "corsola",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 10,
+      "level": "16-41",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:coral_blocks",
+          "#minecraft:corals",
+          "#cobblemon:dead_coral"
+        ]
+      }
+    }
+  ]
+}

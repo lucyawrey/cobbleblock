@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dunsparce-1",
+      "pokemon": "dunsparce",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 1.68,
+      "level": "17-42",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minLight": 0,
+        "maxLight": 7,
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:grass_block"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "koffing-region-bias-galar-1",
+      "pokemon": "koffing region_bias=galar",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 1.8,
+      "level": "9-34",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#cobblemon:gemstones"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "metagross-1",
+      "pokemon": "metagross",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 0.4,
+      "level": "45-60",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:dripstone_block",
+          "minecraft:pointed_dripstone",
+          "#minecraft:iron_ores",
+          "minecraft:iron_block",
+          "minecraft:iron_bars"
+        ]
+      }
+    }
+  ]
+}

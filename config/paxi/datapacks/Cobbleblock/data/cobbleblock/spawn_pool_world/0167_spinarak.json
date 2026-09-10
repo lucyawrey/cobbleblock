@@ -1,0 +1,64 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "spinarak-1",
+      "pokemon": "spinarak",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 5.4,
+      "level": "1-25",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#minecraft:leaves",
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "#minecraft:jungle_logs",
+          "minecraft:jungle_leaves",
+          "minecraft:vine",
+          "#minecraft:dark_oak_logs",
+          "minecraft:dark_oak_leaves",
+          "#cobblemon:mansion_blocks",
+          "minecraft:cobweb"
+        ]
+      }
+    },
+    {
+      "id": "spinarak-2",
+      "pokemon": "spinarak",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 5.4,
+      "level": "1-25",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "#minecraft:jungle_logs",
+          "minecraft:jungle_leaves",
+          "minecraft:vine",
+          "#minecraft:dark_oak_logs",
+          "minecraft:dark_oak_leaves",
+          "#cobblemon:mansion_blocks",
+          "minecraft:cobweb"
+        ]
+      }
+    }
+  ]
+}

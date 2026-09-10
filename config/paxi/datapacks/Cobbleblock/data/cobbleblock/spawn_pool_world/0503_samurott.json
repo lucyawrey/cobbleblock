@@ -1,0 +1,70 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "samurott-1",
+      "pokemon": "samurott",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 0.4,
+      "level": "36-53",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:sand",
+          "minecraft:sugar_cane",
+          "minecraft:seagrass",
+          "minecraft:kelp_plant"
+        ]
+      }
+    },
+    {
+      "id": "samurott-2",
+      "pokemon": "samurott",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 0.4,
+      "level": "36-53",
+      "spawnablePositionType": "surface",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:sand",
+          "minecraft:sugar_cane",
+          "minecraft:seagrass",
+          "minecraft:kelp_plant"
+        ]
+      }
+    },
+    {
+      "id": "samurott-3",
+      "pokemon": "samurott",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 0.4,
+      "level": "36-53",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

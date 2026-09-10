@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "magikarp-magikarp-jump-gray-bubbles-1",
+      "pokemon": "magikarp magikarp_jump=gray-bubbles",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 2,
+      "level": "1-20",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "empoleon-1",
+      "pokemon": "empoleon",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 0.4,
+      "level": "36-53",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:ice",
+          "minecraft:packed_ice",
+          "minecraft:blue_ice",
+          "minecraft:seagrass",
+          "minecraft:kelp_plant",
+          "minecraft:snow",
+          "minecraft:snow_block"
+        ]
+      }
+    },
+    {
+      "id": "empoleon-2",
+      "pokemon": "empoleon",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 0.4,
+      "level": "36-53",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:ice",
+          "minecraft:packed_ice",
+          "minecraft:blue_ice",
+          "minecraft:seagrass",
+          "minecraft:kelp_plant",
+          "minecraft:snow",
+          "minecraft:snow_block"
+        ]
+      }
+    },
+    {
+      "id": "empoleon-3",
+      "pokemon": "empoleon",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 0.4,
+      "level": "36-53",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

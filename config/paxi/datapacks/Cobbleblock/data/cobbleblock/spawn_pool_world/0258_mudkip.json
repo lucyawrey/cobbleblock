@@ -1,0 +1,71 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mudkip-1",
+      "pokemon": "mudkip",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 6,
+      "level": "5-31",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:lily_pad",
+          "minecraft:big_dripleaf",
+          "minecraft:small_dripleaf",
+          "minecraft:red_sand",
+          "minecraft:mud"
+        ]
+      }
+    },
+    {
+      "id": "mudkip-2",
+      "pokemon": "mudkip",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 6,
+      "level": "5-31",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:lily_pad",
+          "minecraft:big_dripleaf",
+          "minecraft:small_dripleaf",
+          "minecraft:red_sand",
+          "minecraft:mud"
+        ]
+      }
+    },
+    {
+      "id": "mudkip-3",
+      "pokemon": "mudkip",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 6,
+      "level": "5-31",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "steelix-1",
+      "pokemon": "steelix",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 0.48,
+      "level": "34-51",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:basalt",
+          "minecraft:magma_block",
+          "minecraft:iron_block",
+          "minecraft:iron_bars"
+        ]
+      }
+    }
+  ]
+}

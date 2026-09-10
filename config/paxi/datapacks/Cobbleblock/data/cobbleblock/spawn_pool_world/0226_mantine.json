@@ -1,0 +1,46 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mantine-1",
+      "pokemon": "mantine",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 1.6,
+      "level": "30-49",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "minY": 1,
+        "neededNearbyBlocks": [
+          "minecraft:seagrass",
+          "minecraft:kelp_plant",
+          "minecraft:sea_pickle",
+          "#minecraft:coral_blocks",
+          "#minecraft:corals"
+        ]
+      }
+    },
+    {
+      "id": "mantine-2",
+      "pokemon": "mantine",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 1.6,
+      "level": "30-49",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

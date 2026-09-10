@@ -1,0 +1,28 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "porygon-1",
+      "pokemon": "porygon",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 9.2,
+      "level": "15-40",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "neededNearbyBlocks": [
+          "cobblemon:pc",
+          "cobblemon:monitor"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cleffa-1",
+      "pokemon": "cleffa",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 8.4,
+      "level": "1-22",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:dripstone_block",
+          "minecraft:pointed_dripstone",
+          "minecraft:tall_grass",
+          "minecraft:short_grass",
+          "#cobblemon:gemstones"
+        ]
+      }
+    },
+    {
+      "id": "cleffa-2",
+      "pokemon": "cleffa",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 8.4,
+      "level": "1-22",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": false,
+        "neededNearbyBlocks": [
+          "minecraft:dripstone_block",
+          "minecraft:pointed_dripstone",
+          "minecraft:tall_grass",
+          "minecraft:short_grass",
+          "#cobblemon:gemstones"
+        ]
+      }
+    }
+  ]
+}

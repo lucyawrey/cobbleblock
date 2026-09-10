@@ -1,0 +1,29 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "drifloon-1",
+      "pokemon": "drifloon",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 5.04,
+      "level": "10-35",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:grass_block"
+        ]
+      }
+    }
+  ]
+}

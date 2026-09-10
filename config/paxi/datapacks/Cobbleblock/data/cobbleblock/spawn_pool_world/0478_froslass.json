@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "froslass-1",
+      "pokemon": "froslass",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 0.32,
+      "level": "42-48",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "isRaining": true,
+        "neededNearbyBlocks": [
+          "minecraft:ice",
+          "minecraft:snow",
+          "minecraft:snow_block"
+        ]
+      }
+    }
+  ]
+}

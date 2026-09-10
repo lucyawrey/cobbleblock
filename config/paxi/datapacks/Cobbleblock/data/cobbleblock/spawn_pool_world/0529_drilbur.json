@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "drilbur-1",
+      "pokemon": "drilbur",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 9,
+      "level": "8-33",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minLight": 0,
+        "maxLight": 7,
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "create:mechanical_drill",
+          "#minecraft:dirt"
+        ]
+      }
+    }
+  ]
+}

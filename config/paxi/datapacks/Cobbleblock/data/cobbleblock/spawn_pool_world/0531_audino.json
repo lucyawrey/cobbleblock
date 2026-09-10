@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "audino-1",
+      "pokemon": "audino",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 5,
+      "level": "15-75",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:grass_block",
+          "#cobblemon:trees"
+        ]
+      }
+    }
+  ]
+}

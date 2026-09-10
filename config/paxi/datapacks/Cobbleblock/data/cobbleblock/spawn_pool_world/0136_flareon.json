@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "flareon-1",
+      "pokemon": "flareon",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 1.2,
+      "level": "28-53",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:red_sand",
+          "#minecraft:terracotta",
+          "minecraft:dead_bush",
+          "#minecraft:fire",
+          "minecraft:torch",
+          "#minecraft:campfires"
+        ]
+      }
+    }
+  ]
+}

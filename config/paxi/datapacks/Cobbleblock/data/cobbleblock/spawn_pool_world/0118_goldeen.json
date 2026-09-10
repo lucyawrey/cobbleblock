@@ -1,0 +1,46 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "goldeen-1",
+      "pokemon": "goldeen",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 9,
+      "level": "7-32",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:ice",
+          "minecraft:packed_ice",
+          "minecraft:blue_ice",
+          "#cobblemon:gemstones",
+          "minecraft:seagrass",
+          "minecraft:kelp_plant"
+        ]
+      }
+    },
+    {
+      "id": "goldeen-2",
+      "pokemon": "goldeen",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 9,
+      "level": "7-32",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

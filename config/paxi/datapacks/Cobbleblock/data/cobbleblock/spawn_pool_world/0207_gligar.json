@@ -1,0 +1,48 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "gligar-1",
+      "pokemon": "gligar",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 5.52,
+      "level": "18-43",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#minecraft:leaves",
+          "#cobblemon:natural"
+        ],
+        "timeRange": "night",
+        "neededNearbyBlocks": [
+          "minecraft:red_sand",
+          "#minecraft:terracotta",
+          "minecraft:dead_bush"
+        ]
+      }
+    },
+    {
+      "id": "gligar-2",
+      "pokemon": "gligar",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 5.52,
+      "level": "18-43",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "timeRange": "night",
+        "neededNearbyBlocks": [
+          "minecraft:red_sand",
+          "#minecraft:terracotta",
+          "minecraft:dead_bush"
+        ]
+      }
+    }
+  ]
+}

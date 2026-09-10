@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "gulpin-1",
+      "pokemon": "gulpin",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 7.6,
+      "level": "15-27",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:lily_pad",
+          "minecraft:vine",
+          "minecraft:water",
+          "minecraft:cake"
+        ]
+      }
+    }
+  ]
+}

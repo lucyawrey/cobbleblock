@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "munna-1",
+      "pokemon": "munna",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 9.5,
+      "level": "4-29",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "#cobblemon:gemstones",
+          "#minecraft:beds"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mimejr-1",
+      "pokemon": "mimejr",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 6,
+      "level": "5-20",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "neededNearbyBlocks": [
+          "#c:glass_blocks",
+          "#c:glass_panes"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hoppip-1",
+      "pokemon": "hoppip",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 9,
+      "level": "1-25",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#minecraft:leaves",
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:short_grass",
+          "minecraft:tall_grass"
+        ]
+      }
+    },
+    {
+      "id": "hoppip-2",
+      "pokemon": "hoppip",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 9,
+      "level": "1-25",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:short_grass",
+          "minecraft:tall_grass"
+        ]
+      }
+    }
+  ]
+}

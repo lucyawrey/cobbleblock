@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "klink-1",
+      "pokemon": "klink",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 9,
+      "level": "5-30",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minLight": 0,
+        "maxLight": 7,
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "create:cogwheel",
+          "create:large_cogwheel",
+          "create:gearbox"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "magikarp-magikarp-jump-orange-forehead-1",
+      "pokemon": "magikarp magikarp_jump=orange-forehead",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 2,
+      "level": "1-20",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

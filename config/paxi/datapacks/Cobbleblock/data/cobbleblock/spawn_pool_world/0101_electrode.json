@@ -1,0 +1,52 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "electrode-1",
+      "pokemon": "electrode",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.2,
+      "level": "30-49",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:lightning_rod",
+          "#cobblemon:apricorns"
+        ]
+      }
+    },
+    {
+      "id": "electrode-2",
+      "pokemon": "electrode",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.2,
+      "level": "30-49",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": false,
+        "neededNearbyBlocks": [
+          "minecraft:lightning_rod",
+          "#cobblemon:apricorns"
+        ]
+      }
+    }
+  ]
+}

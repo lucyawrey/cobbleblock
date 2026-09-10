@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "girafarig-1",
+      "pokemon": "girafarig",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 5.4,
+      "level": "21-46",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#minecraft:acacia_logs",
+          "minecraft:acacia_leaves",
+          "minecraft:dead_bush"
+        ]
+      }
+    }
+  ]
+}

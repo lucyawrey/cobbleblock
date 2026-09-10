@@ -1,0 +1,61 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "clefable-1",
+      "pokemon": "clefable",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 0.08,
+      "level": "27-48",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true,
+        "moonPhase": "0, 1, 7",
+        "neededNearbyBlocks": [
+          "minecraft:dripstone_block",
+          "minecraft:pointed_dripstone",
+          "minecraft:tall_grass",
+          "minecraft:short_grass",
+          "minecraft:fern",
+          "#cobblemon:gemstones"
+        ]
+      }
+    },
+    {
+      "id": "clefable-2",
+      "pokemon": "clefable",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 0.08,
+      "level": "27-48",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": false,
+        "neededNearbyBlocks": [
+          "minecraft:dripstone_block",
+          "minecraft:pointed_dripstone",
+          "minecraft:tall_grass",
+          "minecraft:short_grass",
+          "minecraft:fern",
+          "#cobblemon:gemstones"
+        ]
+      }
+    }
+  ]
+}

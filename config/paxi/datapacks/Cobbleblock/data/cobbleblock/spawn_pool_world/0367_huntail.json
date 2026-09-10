@@ -1,0 +1,45 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "huntail-1",
+      "pokemon": "huntail",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 0.4,
+      "level": "30-49",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:seagrass",
+          "minecraft:kelp_plant",
+          "minecraft:sea_pickle",
+          "#minecraft:coral_blocks",
+          "#minecraft:corals"
+        ]
+      }
+    },
+    {
+      "id": "huntail-2",
+      "pokemon": "huntail",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 0.4,
+      "level": "30-49",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

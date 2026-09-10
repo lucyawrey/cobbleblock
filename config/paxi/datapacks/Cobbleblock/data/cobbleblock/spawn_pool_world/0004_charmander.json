@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "charmander-1",
+      "pokemon": "charmander",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "weight": 6,
+      "level": "5-31",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "isRaining": false,
+        "isThundering": false,
+        "neededNearbyBlocks": [
+          "minecraft:basalt",
+          "minecraft:magma_block",
+          "minecraft:torch",
+          "minecraft:fire",
+          "minecraft:netherrack",
+          "#minecraft:campfires"
+        ]
+      }
+    }
+  ]
+}

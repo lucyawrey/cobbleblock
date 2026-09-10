@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sandshrew-alolan-1",
+      "pokemon": "sandshrew alolan",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 5.5,
+      "level": "10-30",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:ice",
+          "minecraft:packed_ice",
+          "minecraft:blue_ice",
+          "minecraft:snow",
+          "minecraft:snow_block"
+        ]
+      }
+    }
+  ]
+}

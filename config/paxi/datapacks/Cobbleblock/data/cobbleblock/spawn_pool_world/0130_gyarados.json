@@ -1,0 +1,62 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "gyarados-1",
+      "pokemon": "gyarados",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.1,
+      "level": "20-54",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:seagrass",
+          "minecraft:kelp_plant"
+        ]
+      }
+    },
+    {
+      "id": "gyarados-2",
+      "pokemon": "gyarados",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.1,
+      "level": "20-54",
+      "spawnablePositionType": "surface",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:seagrass",
+          "minecraft:kelp_plant"
+        ]
+      }
+    },
+    {
+      "id": "gyarados-3",
+      "pokemon": "gyarados",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.1,
+      "level": "20-54",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "raichu-alolan-1",
+      "pokemon": "raichu alolan",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 0.016,
+      "level": "27-49",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:sand",
+          "minecraft:sugar_cane",
+          "minecraft:water"
+        ]
+      }
+    }
+  ]
+}

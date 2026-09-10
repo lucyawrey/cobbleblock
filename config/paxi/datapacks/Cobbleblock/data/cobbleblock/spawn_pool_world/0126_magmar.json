@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "magmar-1",
+      "pokemon": "magmar",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 0.95,
+      "level": "30-50",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:lava",
+          "minecraft:magma_block",
+          "minecraft:basalt",
+          "minecraft:netherrack"
+        ]
+      }
+    }
+  ]
+}

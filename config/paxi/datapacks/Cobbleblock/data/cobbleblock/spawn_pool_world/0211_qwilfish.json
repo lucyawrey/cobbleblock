@@ -1,0 +1,45 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "qwilfish-1",
+      "pokemon": "qwilfish",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 10,
+      "level": "19-44",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:seagrass",
+          "minecraft:kelp_plant",
+          "minecraft:ice",
+          "minecraft:packed_ice",
+          "minecraft:blue_ice"
+        ]
+      }
+    },
+    {
+      "id": "qwilfish-2",
+      "pokemon": "qwilfish",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 10,
+      "level": "19-44",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

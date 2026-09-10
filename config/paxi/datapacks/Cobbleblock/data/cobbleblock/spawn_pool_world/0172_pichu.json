@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pichu-1",
+      "pokemon": "pichu",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 5.04,
+      "level": "1-21",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "minecraft:short_grass",
+          "minecraft:tall_grass",
+          "#cobblemon:redstone_blocks"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "starmie-1",
+      "pokemon": "starmie",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 0.8,
+      "level": "29-52",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:sand",
+          "#cobblemon:gemstones"
+        ]
+      }
+    },
+    {
+      "id": "starmie-2",
+      "pokemon": "starmie",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 0.8,
+      "level": "29-52",
+      "spawnablePositionType": "submerged",
+      "condition": {
+        "fluid": "#minecraft:water",
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true,
+        "neededNearbyBlocks": [
+          "minecraft:sand",
+          "#cobblemon:gemstones"
+        ]
+      }
+    },
+    {
+      "id": "starmie-3",
+      "pokemon": "starmie",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "weight": 0.8,
+      "level": "29-52",
+      "spawnablePositionType": "fishing",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

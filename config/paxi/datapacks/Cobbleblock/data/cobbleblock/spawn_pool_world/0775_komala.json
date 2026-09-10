@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "komala-1",
+      "pokemon": "komala",
+      "type": "pokemon",
+      "bucket": "common",
+      "weight": 6,
+      "level": "23-48",
+      "spawnablePositionType": "grounded",
+      "condition": {
+        "neededBaseBlocks": [
+          "#minecraft:leaves",
+          "#cobblemon:natural"
+        ],
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "neededNearbyBlocks": [
+          "#minecraft:acacia_logs",
+          "minecraft:acacia_leaves",
+          "#minecraft:birch_logs",
+          "minecraft:birch_leaves"
+        ]
+      }
+    }
+  ]
+}
