@@ -22846,7 +22846,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "cbf8bc1e5fefa83b96a383409da593ffa375710c22c71f02f72e9567e8c405f9"
+hash = "c023851c5648815bd9ded7075c6d2cf6720b3c85b3ac914ed244bbfea2b74c4f"
 metafile = true
 
 [[files]]
@@ -22916,7 +22916,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "b06e3a557d5fe63fa8bcb60335eba994288ce124625eabd29b76daf602ad3dcb"
+hash = "ee67d289146b7330d5977e524dec564ae6cb55585a6d5ecd7f472220044a9880"
 metafile = true
 
 [[files]]

@@ -1,13 +1,13 @@
 name = "Cobblemon: Mega Showdown"
-filename = "mega_showdown-neoforge-1.0.2+1.8+1.21.1-release.jar"
+filename = "mega_showdown-neoforge-1.1.2+1.8+1.21.1-release.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/SszvX85I/versions/gKBD3cFm/mega_showdown-neoforge-1.0.2%2B1.8%2B1.21.1-release.jar"
+url = "https://cdn.modrinth.com/data/SszvX85I/versions/OqWDIPCw/mega_showdown-neoforge-1.1.2%2B1.8%2B1.21.1-release.jar"
 hash-format = "sha512"
-hash = "f9417190277123c00778b438c022cf1606c251e256f2089d7a6c37b43538e40a2fc0a5a196303fa977f84238e71b0b952dd17700080b05e5126d60c193f4cf12"
+hash = "f035694f07d978fce2b41c53aab52b89dd30b8f85de6d37e6ae7890caa50a67f01bc25c42001a24221bd852f39a0a98831d0261874e21557e02d11d76f8747f9"
 
 [update]
 [update.modrinth]
 mod-id = "SszvX85I"
-version = "gKBD3cFm"
+version = "OqWDIPCw"
