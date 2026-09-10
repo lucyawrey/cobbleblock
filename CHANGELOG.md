@@ -1,8 +1,3 @@
-0.1.12
-- Added more spawn rules for generation 5 Pokémon.
-- Adjusted item drops for some Pokémon.
-- Ho-Oh Shrine
-- Celibi shrine and ancient forest dimension
-- Wild legendary dogs
-- Updated shrine names and logic.
-- New torn pages.
+0.1.14
+- Updated to Cobblemon 1.8
+- Updated all other mods to most recent versions

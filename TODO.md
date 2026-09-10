@@ -2,8 +2,7 @@
 
 ## Normal Priority
 - Automatically enable resource packs
-- Update cobblemon configs
-- Redo pokemon spawning rules
+- Redo pokemon spawning rules!
 - Add Cobblemon EMI that wont run the game out of memory.
 - Update sodium and sodium extra mods without breaking the game.
 - Update Cobblemon: Wild Loot to 1.8, switch to kotlin, make cross platform.
