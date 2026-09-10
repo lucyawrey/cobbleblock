@@ -1,6 +1,7 @@
 # Cobbleblock Todo
 
 ## Normal Priority
+- Re add species additions to remove ATM x MSD drops
 - Automatically enable resource packs
 - Redo pokemon spawning rules!
 - Add Cobblemon EMI that wont run the game out of memory.
