@@ -6,13 +6,13 @@
       "item": "mega_showdown:flying_tera_shard"
     },
     "G": {
-      "tag": "c:gems"
+      "tag": "cobblemon:type_gems"
     }
   },
   "pattern": [
-    " S ",
+    "SSS",
     "SGS",
-    " S "
+    "SSS"
   ],
   "result": {
     "count": 1,

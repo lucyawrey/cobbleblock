@@ -19,7 +19,7 @@ const types = [
   "water",
 ];
 const outputPath =
-  "./config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped";
+  "../config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped";
 
 for (const type of types) {
   const content = {
@@ -30,10 +30,10 @@ for (const type of types) {
         item: `mega_showdown:${type}_tera_shard`,
       },
       G: {
-        tag: "c:gems",
+        tag: "cobblemon:type_gems",
       },
     },
-    pattern: [" S ", "SGS", " S "],
+    pattern: ["SSS", "SGS", "SSS"],
     result: {
       count: 1,
       id: `cobblemon:${type}_gem`,

@@ -202,7 +202,7 @@ hash = "91733ac053a679205fd53bf85c0fce9946c30e99bbaa9e79ebcc279a2e4ac0ca"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/bug_gem.json"
-hash = "95fb033cb88ae85cb229a571474adfd43f7eb51632ac12d534256025284887d5"
+hash = "588836c8399e4ec2b7a8196f3b1096e7b2d681fd8016a5d9b41202fa11f68baa"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/canvas.json"
@@ -214,11 +214,11 @@ hash = "7887232ca1ab0ecc3140e03fcf4d5532ef760eddf5b6e5f0b9e2296a995037d6"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/dark_gem.json"
-hash = "03f5786e73ecb6a4ed739b4e8869a0f10a38a32dc70e65e2287f0743deebe67d"
+hash = "bc935f7b7e180656aeabca0d99c8eeab9bdefd8aac8d347b66fc2af5ffd35491"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/dragon_gem.json"
-hash = "f3792dd1efea1a6317d4b9d4e4a4df1791ccd3ce69cd725f63c12ec9e992802f"
+hash = "9106e1f33eb8a8b056ffe7c32070fc7f819e0180b2fac1f4379c0593ac7fa76b"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/echo_shard.json"
@@ -226,7 +226,7 @@ hash = "5c2bff676832e967aa61a3f8fd4329917b7cdb230b71e161035e85607d51d69d"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/electric_gem.json"
-hash = "ea61d52fda868a652292a6529bc70c489631c21ea987a79fce5fe47d996310b7"
+hash = "80a5945cbcc018da07deee8bd2955412e0ac3ae3a62d6f2b3bc1ccc4dad697b8"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/elytra.json"
@@ -234,19 +234,19 @@ hash = "f139da76482f5efa2189c34db37a64fea2e3de9b286bdd98b6ea052debd15bc2"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/fairy_gem.json"
-hash = "ccc34db64f8d3fddbc77e2ea4dd7e44029ec967637a90ef7d7590e9887d02b02"
+hash = "0dd4538db5d030f368872ff5e92a2d59c8ac175831cf422daa2840680bc1d3cb"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/fighting_gem.json"
-hash = "511c6e3a19328bb7abd023bb0cf379d3615e7a67a424aeeb6b029066a5002494"
+hash = "d8a12ed5a7de9060f066718d9c71c326949c8c7a4fa8a700869b19433852349f"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/fire_gem.json"
-hash = "a0f493f67dc22cd70b2f0f53cdd268609ff23e6642366010624825558541389e"
+hash = "264ef202e60a6bd114772ea55179c1c089ce7e4ccd227e4baf97982aa79b18f7"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/flying_gem.json"
-hash = "f8334f429a84d88bf9ba5b08eccbd3932df7aec1c3db45217cf86f57d3f14b26"
+hash = "75b20a91b946552c53a75c72975ac92fba88d72451740932436efc9ba30da0f7"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/fragile_ocarina.json"
@@ -254,7 +254,7 @@ hash = "b80855b594a73f11b9064f20a703501da260c1aa643932bf636e3ca4141d0ad2"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/ghost_gem.json"
-hash = "a2230f582e5dadf25c28342f7070514da75c0f4733f9b48af2a5df3095bbbed2"
+hash = "3def8739abc9cdbc4722210cab2f63a0b06c161c6197d547c50156e9af6d98b5"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/gimmighoul_chest.json"
@@ -262,11 +262,11 @@ hash = "cc8e3fcb66121fdffc0139cd57d052f480715f0100cce6680816ad09235a3774"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/grass_gem.json"
-hash = "25cb168dd6a313275349a9ccd3846f49bdb478a6e1a213da5796127d00f7371e"
+hash = "b9d94f0e0737a6fedb2aa1ec130c064d76e6df1db9c30ba65dbd05f600ca1e3c"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/ground_gem.json"
-hash = "475d68f69f4f14f54636e6455080de8d57bdd72b78332ce2eef0f1ec511810d8"
+hash = "fc3fc2ee3e2830c60e54c5e9a36d6800243e8ca4100037e92e0ff2acbea9ce8f"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/hooh_shrine.json"
@@ -274,7 +274,7 @@ hash = "41e39eb863ac88ad45952d84b05e1a062f9ef8d751674c2fa9101ee45e2732de"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/ice_gem.json"
-hash = "354a7acf78b9289e2b8308876ca2e7f52454505e8fc7c689ac420b0670f66198"
+hash = "c3e3c0ea2dbc6992de3457e07e4a4273b28c7689ed46edd4e45367fe7ebafe96"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/lugia_shrine.json"
@@ -306,15 +306,15 @@ hash = "fd055bfddb90fe64668f414c59afbc0b87fe9f794342c250217381a43a8b701b"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/normal_gem.json"
-hash = "fef5bf09e4f58e7127ff87f19d3214ceab6c9ccc7980e1510ffe25e68e0f959d"
+hash = "f1175b2af96f165c4b5cdb3a47e72842cfc2b2176488ac9e97e6246cbf23a616"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/poison_gem.json"
-hash = "ad21908c7f6b3e6bf92a3248aef800b75ed0d38559aef2a98b744c180c3b51ac"
+hash = "ed33acf5a4e3b0b6e5eb4f4e7c09bd7eb523fd4795491e8bc08dac5657fc7093"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/psychic_gem.json"
-hash = "3765693f0e2ee1de06aabb91be69d8860de9644523569a0818dfcfb62f76f781"
+hash = "63eb96eb6734898d1b993543637d0e7933eabfee4ded775accc812c680e1e30b"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/research_journal.json"
@@ -322,7 +322,7 @@ hash = "17a5be55668c8ad3971fae720d7754a7f9716d0c7b59e534ac2d3a6307b1f670"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/rock_gem.json"
-hash = "5b39883acabd8cc0cf07c3de9bda4196d258dd4aea8622426c9362a7cc2d459d"
+hash = "7b5b0d632bdf4e1698668be2f40fcf01393e6d04e78ce65a702573b8fc02da9d"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/shulker_shell.json"
@@ -330,11 +330,11 @@ hash = "b5ecfc9d7e89354c2cd4a0c76fe08ffd4feed12925798adb90efc9a35be50b78"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/steel_gem.json"
-hash = "7372a8563f3b649cd5a4984293760627a8752a48c5a96bc6309c16edc8e9e677"
+hash = "f93b1a5a485772d15feb14a7eef25c5fbec9c3bec7a3ebfa437e03b835088266"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/water_gem.json"
-hash = "7978b444c10887694714d83488de84d0dc4ee544edb00f2b534f7b5f096b6a2d"
+hash = "7ec0cdb9d3e168448e68774d35a7024ae47c27cb7b9ae27c87e4ab6152c7c448"
 
 [[files]]
 file = "config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped/zapdos_shrine.json"
@@ -22820,6 +22820,11 @@ hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
 metafile = true
 
 [[files]]
+file = "mods/cobbledex-rei-emi-jei.pw.toml"
+hash = "581e43969c5cc99501cc5987c7c7e346cb1893c9e0d9255b45e407731f480627"
+metafile = true
+
+[[files]]
 file = "mods/cobbledollars.pw.toml"
 hash = "d06294493a8ca46bac5fffdcfcd0b7e76585c2795bfa4616f2e167a623e32566"
 metafile = true
@@ -22916,7 +22921,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "ee67d289146b7330d5977e524dec564ae6cb55585a6d5ecd7f472220044a9880"
+hash = "36ba6ade58f4c13c623743ee4b18e92a56355d3014e6c05fb6d7183d13fb9d83"
 metafile = true
 
 [[files]]
