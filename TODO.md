@@ -1,6 +1,7 @@
 # Cobbleblock Todo
 
 ## Normal Priority
+- Fixed World for celebi dimension
 - Re add species additions to remove ATM x MSD drops
 - Automatically enable resource packs
 - Redo pokemon spawning rules!
