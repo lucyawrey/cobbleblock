@@ -22801,7 +22801,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobbledex-rei-emi-jei.pw.toml"
-hash = "581e43969c5cc99501cc5987c7c7e346cb1893c9e0d9255b45e407731f480627"
+hash = "87f00c63d9aa711eab5fe4ed7cd37e923bd1a48411889f84e6b17368facf5317"
 metafile = true
 
 [[files]]
@@ -22826,12 +22826,12 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-capture-xp.pw.toml"
-hash = "ed5b71a57699bd8d3d1c4bd424e94add8c3dd8e63d3b10bb23fda569b4e7e32d"
+hash = "e3a968ac1e805df40d70706ee364efcb74b00ef67228e07207b2fea0f25c2b78"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "c023851c5648815bd9ded7075c6d2cf6720b3c85b3ac914ed244bbfea2b74c4f"
+hash = "1b474234c41d45bcaaef752a71291e73301530abf2a31cc17a986a0ae5dffa22"
 metafile = true
 
 [[files]]
@@ -22846,7 +22846,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
-hash = "41e95df3fe907c210d191fce0e286091c6778b6e39ed7366c89d763a7d138dfa"
+hash = "95da3df4218f19744fc21cfd8471a4289a640e19463688abcbd10b1632b4a272"
 metafile = true
 
 [[files]]
@@ -22856,12 +22856,12 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-wild-loot.pw.toml"
-hash = "287fbb18edee03897467bb60d89704ca27a50b70bfce90dd3338af5642347bde"
+hash = "a1aaf40048cfdb90e6f9128536847ed1838f7ac93bef1f3c3471dca13fc6d63c"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon.pw.toml"
-hash = "acbbc3f4cf7521c953a59f06a18df9a4e50778b1f69e27b3be85824789cf51f4"
+hash = "f480fa46d7f4800dad4414d136541f8f8410d5907fc014e389b648d20b1065ce"
 metafile = true
 
 [[files]]
@@ -23031,7 +23031,7 @@ metafile = true
 
 [[files]]
 file = "mods/melancholic_hunger.pw.toml"
-hash = "44447bc5e6be33952a8f61759564c301a14083960706e2015cc4bd5aa9c7718e"
+hash = "d7bdaf35601afbbbb21a3e18fbd779faf2f87a2958f9452254b88964ca077fcf"
 metafile = true
 
 [[files]]
