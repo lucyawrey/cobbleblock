@@ -38,11 +38,13 @@
   ],
   
   "Spawns": {
+  
     // The range from island center for possible spawns to add. [default: 50]
     "range": 50
   },
   
   "Teleports": {
+  
     // Should teleporting be prevented while falling? [default: false]
     "disallowTeleportationDuringFalling": false,
     
@@ -57,6 +59,7 @@
     },
     
     "Cooldowns": {
+    
       // Cooldown in ticks for teleporting back home. [default: 3600 = 3min]
       "homeCooldown": 3600,
       

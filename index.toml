@@ -22509,28 +22509,8 @@ file = "config/skyblockbuilder/customization.json5"
 hash = "832c788572855cded3a382925dc44af4bd16c17fbd97545879d634787c53e6f0"
 
 [[files]]
-file = "config/skyblockbuilder/data/biomes.txt"
-hash = "91326f53fcba46a5204eebc5e1d959068d8a3d35a2689c30ba6990a609250f32"
-
-[[files]]
-file = "config/skyblockbuilder/data/carvers.txt"
-hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
-
-[[files]]
-file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "1f68a1a98c79f215e4dbe435cd0877f8d4e4712747163a345c10d39747bf8c94"
-
-[[files]]
-file = "config/skyblockbuilder/data/features.txt"
-hash = "3f11619d976de044a67649325f40f63e74b758c51d0c79352bc6f1fbe18e5eed"
-
-[[files]]
-file = "config/skyblockbuilder/data/structures.txt"
-hash = "af2a973a453b667e11a6a454d4dab29759354ca279ef0bd01cb6c7f8b6434203"
-
-[[files]]
 file = "config/skyblockbuilder/dimensions.json5"
-hash = "8e3e70c04f663ff42c6af40562ce2201f43e1a69deac7cda8e29cc5e4942776b"
+hash = "58be3fb5aae9a89cb21d98dd0fac3ec8cad39550f31fb6c6362ac47ba538a2cc"
 
 [[files]]
 file = "config/skyblockbuilder/inventory.json5"
@@ -22538,7 +22518,7 @@ hash = "280841671b1ec1205ae7d16d511b11fcc581656c3358b8d128451e2c748f76a7"
 
 [[files]]
 file = "config/skyblockbuilder/permissions.json5"
-hash = "2b5fa13b87bbfa904284f65ee7f0177df07f3c584b6ed91fc8f8d851d53c4d41"
+hash = "5f4ee4e56e3dedec0dd8ce354d28601ab01769c481e70f2b257bab92e8dd7805"
 
 [[files]]
 file = "config/skyblockbuilder/spawn.json5"
@@ -22550,7 +22530,7 @@ hash = "375abee934ab67f6122dc4fc7df26d9520d8163b13865e1377b5cd88fe58712b"
 
 [[files]]
 file = "config/skyblockbuilder/structures.json5"
-hash = "fa2bc72d8214cac2a697941e47ebb015d41765dff5332bc37e91460dbaf3c6c5"
+hash = "a56b7276238656f471b1b927cdd6b608881cbdd73fafbf845a9230caec0cdc09"
 
 [[files]]
 file = "config/skyblockbuilder/templates.json5"
@@ -22566,7 +22546,7 @@ hash = "2490bac5374cf5423613c82e4cd8147466c2c4ba7e448aacd2ba5bafbf126704"
 
 [[files]]
 file = "config/skyblockbuilder/templates/portals/information.txt"
-hash = "b86919e8d88be2f26983763ab65a94d1ece734765a38f434e3de174670abfdb3"
+hash = "0ff43fcfbc4b9dc44f5722a4ce0016cafb28f2a73b38d004fac47b7b20d60cf2"
 
 [[files]]
 file = "config/skyblockbuilder/templates/portals/to_nether.nbt"
@@ -22574,7 +22554,7 @@ hash = "efcd93220d2e6598f5ece801593e84cd59786da2a4c075f3ce8d8522597bbd2d"
 
 [[files]]
 file = "config/skyblockbuilder/world.json5"
-hash = "3a684f77a688bfadfb079d40540b67e976e334e26c026c015d364686a5e746ff"
+hash = "6d6ec4bbf3c3cc0dbd16c591223e74d299b1dec152ddabad578570e7b7ec3835"
 
 [[files]]
 file = "kubejs/README.txt"
