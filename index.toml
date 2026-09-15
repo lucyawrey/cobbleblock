@@ -22709,22 +22709,6 @@ file = "kubejs/assets/mega_showdown/models/block/pedestal.json"
 hash = "cac2afc6679b07044925a9668c8946372c086516f38355facf0f1e981e272708"
 
 [[files]]
-file = "kubejs/client_scripts/main.js"
-hash = "d85faaa30225f6a8c32ff767550266fb54d07eae633c3cb41c1eaed305dd2308"
-
-[[files]]
-file = "kubejs/config/client.json"
-hash = "f38d326943014d6906916a9387c75e2bfd609fce10e92049d76a395c5775b6f1"
-
-[[files]]
-file = "kubejs/config/common.json"
-hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
-
-[[files]]
-file = "kubejs/config/web_server.json"
-hash = "6a92eb2275b59ceb26bb82be4c82fd2d5eb8e1f0573cb97865b17f033b91889d"
-
-[[files]]
 file = "kubejs/server_scripts/legendary-shrines.js"
 hash = "ef467daa52a0a988b5d461f9a87b504c8e32936f40d07d650fdb8a5bd27fed7a"
 
@@ -22781,7 +22765,7 @@ metafile = true
 
 [[files]]
 file = "mods/catch-rate-display.pw.toml"
-hash = "eeaa7f9cd48636497d61ca67d4e42c67094584daba476c14d763f886492e854b"
+hash = "b2b9e4b6e6a5e5701bfb3e67ae5e10f981fe8ecc00812de18e51bcbf39358a9b"
 metafile = true
 
 [[files]]
@@ -22801,7 +22785,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobbledex-rei-emi-jei.pw.toml"
-hash = "87f00c63d9aa711eab5fe4ed7cd37e923bd1a48411889f84e6b17368facf5317"
+hash = "8f73c6bc5090b0ba0d4ca3313b3bb9e896bc1466cd8a917641f788e2fa490ec7"
 metafile = true
 
 [[files]]
@@ -22896,7 +22880,7 @@ metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "5931025bb6c50fa9064bd6c3c3ca51afb4119535bd77d8cc01b6509e53a9abc1"
+hash = "bcbcb4d32d5b2b6bcb4a578639a8830396eb87febe0ff3364a99ca6aee9a5bb7"
 metafile = true
 
 [[files]]
@@ -23041,7 +23025,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-cobblemon-tweaks.pw.toml"
-hash = "22342957f496c3ab0e06d107b3b348bbb18d1417a128a5ea9ce0cfd05abc718d"
+hash = "27b2dff5f26087fb6d2672449ffe67301b283df851db2247550d43ffbcba3d5c"
 metafile = true
 
 [[files]]
@@ -23091,7 +23075,7 @@ metafile = true
 
 [[files]]
 file = "mods/rctapi.pw.toml"
-hash = "0647887379888fbffa5fcca9017a280e07451086354bf76b4639cb2db8842643"
+hash = "2d660469f1e16ac76c17f63ea29863ddb47d9fd7040c907fcab3bd6e5513a5a1"
 metafile = true
 
 [[files]]
