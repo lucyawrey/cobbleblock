@@ -22466,6 +22466,10 @@ file = "config/paxi/resourcepacks/Cobbleblock/assets/cobbleblock/textures/gui/tr
 hash = "2d7b0fc36c6521c35c46346800f51eeb713391002142d40b3b833718a89f8343"
 
 [[files]]
+file = "config/paxi/resourcepacks/Cobbleblock/assets/mega_showdown/models/block/pedestal.json"
+hash = "cac2afc6679b07044925a9668c8946372c086516f38355facf0f1e981e272708"
+
+[[files]]
 file = "config/paxi/resourcepacks/Cobbleblock/assets/minecraft/lang/en_us.json"
 hash = "6419d706786bf66be6e81000c3affeceefa55fe4f08db31a55e9530ae87fc43d"
 
@@ -22703,10 +22707,6 @@ hash = "507b7608a4eb2deea627966341bda29c6b5f08fcd9405f3e0a960726ecb1a819"
 [[files]]
 file = "kubejs/assets/cobbleblock/textures/item/zapdos_orb.png"
 hash = "982460efbbfd2262f7d96f6a9549bcc449d498acc4eb493b7298ac3141b334cc"
-
-[[files]]
-file = "kubejs/assets/mega_showdown/models/block/pedestal.json"
-hash = "cac2afc6679b07044925a9668c8946372c086516f38355facf0f1e981e272708"
 
 [[files]]
 file = "kubejs/server_scripts/legendary-shrines.js"
