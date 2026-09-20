@@ -22734,8 +22734,13 @@ hash = "19cbfb37dc29169b50599dfa328fe12a0ec9caaec8ac02627b5846f3bd9d1425"
 metafile = true
 
 [[files]]
+file = "mods/advanced-core-info.pw.toml"
+hash = "0279153d78d0fe954ce928cb3a853af79bb41e7ea184afd1ff3ffc4dc930a429"
+metafile = true
+
+[[files]]
 file = "mods/advanced-loot-info.pw.toml"
-hash = "516ed4f0441c233d803038b3c888baa9ba62f2fb9929fe8bd1cdf59329251dcc"
+hash = "496607b87df699df9f82835a8df984946fa5c30ca2992fcb0fb3b3c5df69a048"
 metafile = true
 
 [[files]]
@@ -22765,7 +22770,7 @@ metafile = true
 
 [[files]]
 file = "mods/catch-rate-display.pw.toml"
-hash = "b2b9e4b6e6a5e5701bfb3e67ae5e10f981fe8ecc00812de18e51bcbf39358a9b"
+hash = "e28b4dec295a320bf019c38321fe18bc4f08bb2b25c4f1091470c549ef1ba5e8"
 metafile = true
 
 [[files]]
@@ -22785,7 +22790,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobbledex-rei-emi-jei.pw.toml"
-hash = "8f73c6bc5090b0ba0d4ca3313b3bb9e896bc1466cd8a917641f788e2fa490ec7"
+hash = "fd7e182a63c643a37d7c6b1d993e006c290c8f59006c724e10688db80e855348"
 metafile = true
 
 [[files]]
@@ -22830,7 +22835,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
-hash = "95da3df4218f19744fc21cfd8471a4289a640e19463688abcbd10b1632b4a272"
+hash = "05530cbfec4fc4873917d98a0d477ddfba5a477cc613aaa635ce95a0d2a8157e"
 metafile = true
 
 [[files]]
@@ -22925,17 +22930,17 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "6aba9d20ceaf2f4f3368734cdfc37924b6fdf19df3f6631d68402490289cfd54"
+hash = "0ae06c97bf858f3941fd7369e34a71967e7a5c26c26b1cb7371a5be0f1842ecd"
 metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "4fbe037c1ec3570be84f68e075c3e8293b15f64dda22bca4735924705fb38236"
+hash = "9448043e083a2e45e77de4d88c628155ae174b37ea2ebfc3efe237fcdc956302"
 metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "d8b1aa8f9d9bcde610fafc4780d2e7614c05f6f25d74978714745ee060b5fe39"
+hash = "42731772f3bde6bc35c48ff39a0b16c24edfa245c42d2ca8c8abd11f57edf4e7"
 metafile = true
 
 [[files]]
@@ -23040,7 +23045,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "e92633222b9275744ba9ae7a90781494f67933924b56ea8287c5dc7553e77e17"
+hash = "e0f1cef5482844e62c6fc3c7771fc9ef8385c47092248f76aa1fa271220b24e8"
 metafile = true
 
 [[files]]
@@ -23085,7 +23090,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "0f465bf38b13f887dbde506c859c9b5439ee9151ae5f3a98078b9f6c3a2c89ad"
+hash = "8690379014fbba53059759936c7deb4d62aabc7a2006da3d45929dc582b119b7"
 metafile = true
 
 [[files]]
@@ -23110,12 +23115,12 @@ metafile = true
 
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
-hash = "83a7b840686a417dfe1161ee5cd918989dd2d901c9013bf85e93a30f597260f7"
+hash = "3c24accda8011a6a5e04c49c40e39617bb04ab3a549d8f2e8180d3246fddac39"
 metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "c490445e40a84c9e19bd3d3a7c8e8b9709b8cea0346a307eb7fb8a32a72a9504"
+hash = "6ab228a1fa98348b7444c0715e4db592414d2102e441671ac5e79066596a912c"
 metafile = true
 
 [[files]]
@@ -23155,7 +23160,7 @@ metafile = true
 
 [[files]]
 file = "mods/yungs-api.pw.toml"
-hash = "d0ad6ae032766815daeb9d5db6605a7fb90eecc3a066845f1b5836f006002aed"
+hash = "dde31f05114c72cb2f58e522417487730b872e456f77fdd02c032c9235791f6c"
 metafile = true
 
 [[files]]
