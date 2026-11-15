@@ -1,6 +1,6 @@
 {
     "name": "Cobbleblock",
-    "version": "0.1.14",
+    "version": "0.1.15",
     "author": "LucyAzalea",
     "overrides": [
         "config",
@@ -13,10 +13,6 @@
         "data_packs": "config/paxi/datapacks"
     },
     "projects": {
-        "allthemons-x-mega-showdown-legacy": {
-            "type": "DATA_PACK",
-            "side": "BOTH"
-        },
         "cobblegen": {
             "side": "BOTH"
         },
@@ -59,8 +55,8 @@
         "random-bone-meal-flowers": {
             "side": "BOTH"
         },
-        "melody": {
-            "side": "CLIENT"
+        "allthemons-x-mega-showdown-legacy": {
+            "side": "BOTH"
         }
     }
 }

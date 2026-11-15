@@ -34,7 +34,7 @@ It is highly recommended to run this modpack with at least 6 gigabytes of RAM.
 ## Mods
 - NEED TO FINISH
 
-## Utility + Library Mods
+## Support mods
 
 - [Accessories](https://modrinth.com/mod/accessories)
 - [Advanced Loot Info](https://modrinth.com/mod/advanced-loot-info)
@@ -53,7 +53,6 @@ It is highly recommended to run this modpack with at least 6 gigabytes of RAM.
 ## Missing Pokémon
 
 - Celesteela (#797)
-- Iron Jugulis (#993)
 - Iron Boulder (#1022)
 
 ---
