@@ -1,0 +1,66 @@
+{
+    "name": "Cobbleblock",
+    "version": "0.1.14",
+    "author": "LucyAzalea",
+    "overrides": [
+        "config",
+        "kubejs",
+        "patchouli_books",
+        "server.properties"
+    ],
+    "paths": {
+        "resource_packs": "config/paxi/resourcepacks",
+        "data_packs": "config/paxi/datapacks"
+    },
+    "projects": {
+        "allthemons-x-mega-showdown-legacy": {
+            "type": "DATA_PACK",
+            "side": "BOTH"
+        },
+        "cobblegen": {
+            "side": "BOTH"
+        },
+        "cobblemon-battle-extras": {
+            "side": "BOTH"
+        },
+        "cobblemon-capture-xp": {
+            "side": "BOTH"
+        },
+        "catch-rate-display": {
+            "side": "BOTH"
+        },
+        "cobbledex-rei-emi-jei": {
+            "side": "BOTH"
+        },
+        "cobblemon-tim-core": {
+            "side": "BOTH"
+        },
+        "cobblemon-playerxp": {
+            "side": "BOTH"
+        },
+        "cobblemon-wild-loot": {
+            "side": "BOTH"
+        },
+        "create": {
+            "side": "BOTH"
+        },
+        "creativecore": {
+            "side": "BOTH"
+        },
+        "emi": {
+            "side": "BOTH"
+        },
+        "forgiving-void": {
+            "side": "BOTH"
+        },
+        "netherportalfix": {
+            "side": "BOTH"
+        },
+        "random-bone-meal-flowers": {
+            "side": "BOTH"
+        },
+        "melody": {
+            "side": "CLIENT"
+        }
+    }
+}

@@ -5,8 +5,19 @@
 working_notes.txt
 
 # Ignore dev mods
-**/*.dev.pw.toml
 dev_mods
 **/*old_**
 script_cache.json
 **/.obsidian/
+
+# Gradle
+.gradle/
+build/
+run/
+.kotlin/
+.idea/
+.vscode/
+
+# Downloaded by pakku fetch
+pack/mods/
+pack/config/paxi/*/*.zip
