@@ -43,7 +43,7 @@ dependencies {
     "developmentNeoForge"(project(":wild-loot:common", configuration = "namedElements")) {
         isTransitive = false
     }
-    shadowBundle(project(":wild-loot:common", configuration = "transformProductionFabric"))
+    shadowBundle(project(":wild-loot:common", configuration = "transformProductionNeoForge"))
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${property("junit_version")}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${property("junit_version")}")
