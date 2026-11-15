@@ -21,9 +21,10 @@ neoForge {
             client()
             gameDirectory = rootProject.file("run")
             jvmArgument("-Xmx6G")
-            // Set in ~/.gradle/gradle.properties to play as your own account, so saves and islands recognise you.
+            // Set in ~/.gradle/gradle.properties to play as your own account, so saves and islands recognise you, and to open a save directly.
             providers.gradleProperty("cobbleblock.username").orNull?.let { programArguments.addAll("--username", it) }
             providers.gradleProperty("cobbleblock.uuid").orNull?.let { programArguments.addAll("--uuid", it) }
+            providers.gradleProperty("cobbleblock.quickPlayWorld").orNull?.let { programArguments.addAll("--quickPlaySingleplayer", it) }
         }
     }
 }
@@ -37,7 +38,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("com.cobblemon:neoforge:1.8.1+1.21.1") { isTransitive = false }
+    compileOnly("com.cobblemon:neoforge:1.8.4+1.21.1") { isTransitive = false }
     compileOnly("thedarkcolour:kotlinforforge-neoforge:5.12.0") {
         exclude("net.neoforged.fancymodloader", "loader")
     }

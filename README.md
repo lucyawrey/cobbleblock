@@ -1,6 +1,6 @@
 # Cobbleblock - Cobblemon Skyblock (Early Access)
 
-Welcome to Cobbleblock, a Skyblock modpack focused on the Cobblemon mod (which, if you somehow are not aware, adds Pokémon to Minecraft). The pack includes all generational gimmicks and all 1025 Pokémon! Pokémon spawn rules and a lot of recipes are also redone to be more fitting for a Skyblock. Also features some automation, and a lot of quality of life mods.
+Welcome to Cobbleblock, a Skyblock modpack focused on the Cobblemon mod (which, if you somehow are not aware, adds Pokémon to Minecraft). The pack includes all generational gimmicks and all nearly every Pokémon! Pokémon spawn rules and a lot of recipes are also redone to be more fitting for a Skyblock. Also features some automation, and a lot of quality of life mods.
 
 This modpack is in early access and still undergoing heavy development. A lot is unfinished and there may be breaking changes in the future. The main purpose of this early release is to get feedback and suggestions!
 
@@ -8,10 +8,9 @@ It is highly recommended to run this modpack with at least 6 gigabytes of RAM.
 
 ## 📦 Modpack Features
 
-- Built for Minecraft 1.21.1 and includes the latest Cobblemon version (1.8).
-- Start on a classic Skyblock island with only a block of ice, a lava bucket, and a single Apricorn tree.
-- ...plus the tools of a trainer: a starter Pokémon, a Pokédex, a Pokénav, and a Trainer Card.
-- Almost all Pokémon (currently count 1022) are implimented! Many Pokémon are not yet obtainable in survival without cheats at the moment, however.
+- Built for Minecraft 1.21.1 and the latest Cobblemon version (1.8.2).
+- Start on a classic Skyblock island with only a block of ice, a lava bucket, a single Apricorn tree, and a Pokédex.
+- Nearly every Pokémon is implemented! Many Pokémon are not yet obtainable in survival without cheats at the moment, however.
 - Completely redone spawning rules for all Pokémon. Build regular Pokémon a habitat using the blocks they like to attract them to your island.
 - Obtain Legendary Pokémon using a unique method: you will need to build them custom multiblock shrines, then offer up special items in order to summon the Pokémon and catch them! These shrines can get expensive, and act as a major form of progression in the pack. Only the Kanto and Johto legendaries have shrine implementations right now.
 - Multiplayer support! Each player can either create their own Skyblock island, or share one with a team of players.
@@ -32,11 +31,42 @@ It is highly recommended to run this modpack with at least 6 gigabytes of RAM.
 - And more!
 
 ## Mods
-- NEED TO FINISH
 
-## Utility + Library Mods
+- [AllTheMons x Mega Showdown](https://modrinth.com/mod/allthemons-x-mega-showdown-legacy)
+- [CobbleDollars](https://modrinth.com/mod/cobbledollars)
+- [CobbleFurnies](https://modrinth.com/mod/cobblefurnies)
+- [CobbleGen](https://modrinth.com/mod/cobblegen)
+- [Cobblemon Battle Extras](https://modrinth.com/mod/cobblemon-battle-extras)
+- [Cobblemon Capture XP](https://modrinth.com/mod/cobblemon-capture-xp)
+- [Cobblemon Catch Rate Display](https://modrinth.com/mod/catch-rate-display)
+- [Cobblemon PokeNav](https://modrinth.com/mod/cobblemon-pokenav)
+- [Cobblemon Villager Overhaul](https://modrinth.com/mod/cobblemon-villager-overhaul)
+- [Cobblemon: Mega Showdown](https://modrinth.com/mod/cobblemon-mega-showdown)
+- [Cobblemon: PlayerXP](https://modrinth.com/mod/cobblemon-playerxp)
+- [Cobblemon: Wild Loot](https://modrinth.com/mod/cobblemon-wild-loot)
+- [Cobblemon](https://modrinth.com/mod/cobblemon)
+- [Cobbreeding](https://modrinth.com/mod/cobbreeding)
+- [Create Crafts & Additions](https://modrinth.com/mod/createaddition)
+- [Create Slice & Dice](https://modrinth.com/mod/slice-and-dice)
+- [Create: Ultimate Factory](https://modrinth.com/mod/create-ultimate-factory)
+- [Create](https://modrinth.com/mod/create)
+- [Farmer's Delight](https://modrinth.com/mod/farmers-delight)
+- [Forgiving Void](https://modrinth.com/mod/forgiving-void)
+- [Melancholic Hunger & HUD](https://modrinth.com/mod/melancholic_hunger)
+- [MoreCobblemonTweaks](https://modrinth.com/mod/more-cobblemon-tweaks)
+- [Only Hammers](https://modrinth.com/mod/only-hammers)
+- [Patchouli](https://modrinth.com/mod/patchouli)
+- [Radical Cobblemon Trainers](https://modrinth.com/mod/rctmod)
+- [Random Bone Meal Flowers](https://modrinth.com/mod/random-bone-meal-flowers)
+- [Skyblock Builder](https://modrinth.com/mod/skyblock-builder)
+- [Sophisticated Storage](https://modrinth.com/mod/sophisticated-storage)
+- [Stackable Potions](https://modrinth.com/mod/stackablepotions)
+- [Tomtaru's Cobblemon and Farmer's Delight Tweaks](https://modrinth.com/mod/tomtarus-cobblemon-and-farmers-delight-tweaks)
+
+## Support mods
 
 - [Accessories](https://modrinth.com/mod/accessories)
+- [Advanced Core Info](https://modrinth.com/mod/advanced-core-info)
 - [Advanced Loot Info](https://modrinth.com/mod/advanced-loot-info)
 - [Architectury API](https://modrinth.com/mod/architectury-api)
 - [Athena](https://modrinth.com/mod/athena-ctm)
@@ -44,16 +74,62 @@ It is highly recommended to run this modpack with at least 6 gigabytes of RAM.
 - [Better Advancements](https://modrinth.com/mod/better-advancements)
 - [Bookshelf](https://modrinth.com/mod/bookshelf-lib)
 - [Clear Void](https://modrinth.com/mod/clear-void)
+- [Cloth Config API](https://modrinth.com/mod/cloth-config)
+- [Clumps](https://modrinth.com/mod/clumps)
+- [Cobblemon Info for REI / JEI / EMI](https://modrinth.com/mod/cobbledex-rei-emi-jei)
+- [Cobblemon Tim Core](https://modrinth.com/mod/cobblemon-tim-core)
+- [Collective](https://modrinth.com/mod/collective)
+- [Controlling](https://modrinth.com/mod/controlling)
+- [Crafting Tweaks](https://modrinth.com/mod/crafting-tweaks)
+- [CreativeCore](https://modrinth.com/mod/creativecore)
+- [Default Options](https://modrinth.com/mod/default-options)
+- [Default World Type](https://modrinth.com/mod/defaultworldtype)
+- [Dynamic Crosshair](https://modrinth.com/mod/dynamiccrosshair)
+- [EMI](https://modrinth.com/mod/emi)
+- [EMI Enchanting](https://modrinth.com/mod/emi-enchanting)
+- [Enchantment Descriptions](https://modrinth.com/mod/enchantment-descriptions)
+- [Enhanced Attack Indicator](https://modrinth.com/mod/enhanced-attack-indicator)
+- [Entity Culling](https://modrinth.com/mod/entityculling)
+- [Entity Model Features](https://modrinth.com/mod/entity-model-features)
 - [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures)
+- [Falling Leaves](https://modrinth.com/mod/fallingleavesforge)
+- [InvMove](https://modrinth.com/mod/invmove)
+- [InvMoveCompats](https://modrinth.com/mod/invmovecompats)
+- [Iris Shaders](https://modrinth.com/mod/iris)
+- [ItemPhysic](https://modrinth.com/mod/itemphysic)
+- [Kotlin for Forge](https://modrinth.com/mod/kotlin-for-forge)
+- [KubeJS](https://modrinth.com/mod/kubejs)
+- [KubeJS Create](https://modrinth.com/mod/kubejs-create)
+- [KubeJS Delight](https://modrinth.com/mod/kubejs-delight)
+- [LambDynamicLights (Unofficial NeoForge)](https://modrinth.com/mod/lambdynamiclights-unofficial-neoforge)
+- [LibX](https://modrinth.com/mod/libx)
+- [Lithium](https://modrinth.com/mod/lithium)
+- [MoreJS](https://modrinth.com/mod/morejs)
+- [NetherPortalFix](https://modrinth.com/mod/netherportalfix)
+- [Not Enough Animations](https://modrinth.com/mod/not-enough-animations)
+- [owo-lib](https://modrinth.com/mod/owo-lib)
+- [Paxi](https://modrinth.com/mod/paxi)
+- [Prickle](https://modrinth.com/mod/prickle)
+- [Radical Cobblemon Trainers API](https://modrinth.com/mod/rctapi)
+- [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options)
+- [Rhino](https://modrinth.com/mod/rhino)
+- [Searchables](https://modrinth.com/mod/searchables)
+- [Sky GUIs](https://modrinth.com/mod/sky-guis)
+- [Sodium](https://modrinth.com/mod/sodium)
+- [Sodium Extra](https://modrinth.com/mod/sodium-extra)
+- [Sodium Shadowy Path Blocks](https://modrinth.com/mod/sodium-shadowy-path-blocks)
+- [Sophisticated Core](https://modrinth.com/mod/sophisticated-core)
+- [YetAnotherConfigLib](https://modrinth.com/mod/yacl)
+- [YUNG's API](https://modrinth.com/mod/yungs-api)
 
-## Resourcepacks and Datapacks
+## Resourcepacks
 
-- [AllTheMons x Mega Showdown](https://modrinth.com/datapack/allthemons-x-mega-showdown-legacy)
+- [Cobblemon Classic Grass Pack](https://modrinth.com/resourcepack/cobblemon-classic-grass-pack)
+- [Radical Cobblemon Trainer Textures Plus](https://modrinth.com/resourcepack/rct-trainer-textures-plus)
 
 ## Missing Pokémon
 
 - Celesteela (#797)
-- Iron Jugulis (#993)
 - Iron Boulder (#1022)
 
 ---
