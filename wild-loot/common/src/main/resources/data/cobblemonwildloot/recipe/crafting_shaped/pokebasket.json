@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "cobblemon:apricorns"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "A A",
+    "S S",
+    "ASA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemonwildloot:pokebasket"
+  }
+}
