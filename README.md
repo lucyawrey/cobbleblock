@@ -1,6 +1,6 @@
 # Cobbleblock - Cobblemon Skyblock (Early Access)
 
-Welcome to Cobbleblock, a Skyblock modpack focused on the Cobblemon mod (which, if you somehow are not aware, adds Pokémon to Minecraft). The pack includes all generational gimmicks and all 1025 Pokémon! Pokémon spawn rules and a lot of recipes are also redone to be more fitting for a Skyblock. Also features some automation, and a lot of quality of life mods.
+Welcome to Cobbleblock, a Skyblock modpack focused on the Cobblemon mod (which, if you somehow are not aware, adds Pokémon to Minecraft). The pack includes all generational gimmicks and all nearly every Pokémon! Pokémon spawn rules and a lot of recipes are also redone to be more fitting for a Skyblock. Also features some automation, and a lot of quality of life mods.
 
 This modpack is in early access and still undergoing heavy development. A lot is unfinished and there may be breaking changes in the future. The main purpose of this early release is to get feedback and suggestions!
 
@@ -8,10 +8,9 @@ It is highly recommended to run this modpack with at least 6 gigabytes of RAM.
 
 ## 📦 Modpack Features
 
-- Built for Minecraft 1.21.1 and includes the latest Cobblemon version (1.8).
-- Start on a classic Skyblock island with only a block of ice, a lava bucket, and a single Apricorn tree.
-- ...plus the tools of a trainer: a starter Pokémon, a Pokédex, a Pokénav, and a Trainer Card.
-- Almost all Pokémon (currently count 1022) are implimented! Many Pokémon are not yet obtainable in survival without cheats at the moment, however.
+- Built for Minecraft 1.21.1 and the latest Cobblemon version (1.8.2).
+- Start on a classic Skyblock island with only a block of ice, a lava bucket, a single Apricorn tree, and a Pokédex.
+- Nearly every Pokémon is implemented! Many Pokémon are not yet obtainable in survival without cheats at the moment, however.
 - Completely redone spawning rules for all Pokémon. Build regular Pokémon a habitat using the blocks they like to attract them to your island.
 - Obtain Legendary Pokémon using a unique method: you will need to build them custom multiblock shrines, then offer up special items in order to summon the Pokémon and catch them! These shrines can get expensive, and act as a major form of progression in the pack. Only the Kanto and Johto legendaries have shrine implementations right now.
 - Multiplayer support! Each player can either create their own Skyblock island, or share one with a team of players.
@@ -123,7 +122,7 @@ It is highly recommended to run this modpack with at least 6 gigabytes of RAM.
 - [YetAnotherConfigLib](https://modrinth.com/mod/yacl)
 - [YUNG's API](https://modrinth.com/mod/yungs-api)
 
-## Resourcepacks and Datapacks
+## Resourcepacks
 
 - [Cobblemon Classic Grass Pack](https://modrinth.com/resourcepack/cobblemon-classic-grass-pack)
 - [Radical Cobblemon Trainer Textures Plus](https://modrinth.com/resourcepack/rct-trainer-textures-plus)
