@@ -21,10 +21,10 @@ neoForge {
             client()
             gameDirectory = rootProject.file("run")
             jvmArgument("-Xmx6G")
-            programArguments.addAll("--quickPlaySingleplayer", "Dev2")
-            // Set in ~/.gradle/gradle.properties to play as your own account, so saves and islands recognise you.
+            // Set in ~/.gradle/gradle.properties to play as your own account, so saves and islands recognise you, and to open a save directly.
             providers.gradleProperty("cobbleblock.username").orNull?.let { programArguments.addAll("--username", it) }
             providers.gradleProperty("cobbleblock.uuid").orNull?.let { programArguments.addAll("--uuid", it) }
+            providers.gradleProperty("cobbleblock.quickPlayWorld").orNull?.let { programArguments.addAll("--quickPlaySingleplayer", it) }
         }
     }
 }
