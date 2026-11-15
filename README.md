@@ -4,6 +4,8 @@ Welcome to Cobbleblock, a Skyblock modpack focused on the Cobblemon mod (which, 
 
 This modpack is in early access and still undergoing heavy development. A lot is unfinished and there may be breaking changes in the future. The main purpose of this early release is to get feedback and suggestions!
 
+It is highly recommended to run this modpack with at least 6 gigabytes of RAM.
+
 ## 📦 Modpack Features
 
 - Built for Minecraft 1.21.1 and includes the latest Cobblemon version (1.8).
@@ -67,9 +69,9 @@ _Minecraft is a trademark of Mojang Synergies AB ｜ Pokémon is a trademark of 
 ## Development
 
 ### Development Requirements
-- JDK 21+
+- JDK 21
 - Bun
-- Go
+- [Pakku](https://github.com/juraj-hrivnak/Pakku)
 
 ### Install Bun Dependancies
 ```sh
@@ -77,17 +79,24 @@ cd scripts
 bun install
 ```
 
-### Generate Data and Serve Development Server
+### Generate Data
 
 ```sh
-bun run --cwd scripts generate && packwiz refresh && packwiz serve
+bun run --cwd scripts generate
 ```
 
-### Download Bootstrapper
-[https://github.com/packwiz/packwiz-installer-bootstrap/releases](https://github.com/packwiz/packwiz-installer-bootstrap/releases)
+### Run the Pack
 
-### Modrinth 1.21.1 Instance Pre-launch Command
+```sh
+./gradlew runPackClient
+```
 
+Fetches the pack's mods with Pakku, syncs the pack into the development directory, builds the repos custom mods, then runs the game.
+
+### Export
+
+```sh
+./gradlew exportPack
 ```
-java -jar packwiz-installer-bootstrap.jar http://localhost:8080/pack.toml
-```
+
+Exports a Modrinth modpack to `pack/build/modrinth/` and a server modpack to `pack/build/serverpack/`.
