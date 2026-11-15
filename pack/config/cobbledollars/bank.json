@@ -225,11 +225,11 @@
       "price": 200
     },
     {
-      "item": "cobblemon:elixer",
+      "item": "cobblemon:elixir",
       "price": 300
     },
     {
-      "item": "cobblemon:max_elixer",
+      "item": "cobblemon:max_elixir",
       "price": 400
     },
     {
@@ -245,7 +245,7 @@
       "price": 222
     },
     {
-      "item": "cobblemon:x_defense",
+      "item": "cobblemon:x_defence",
       "price": 222
     },
     {
