@@ -8,7 +8,6 @@ plugins {
 
 val packDir = file("pack")
 val runDir = file("run")
-val atmZip = "ATM x MSD"
 
 fun parseJson(f: File) = groovy.json.JsonSlurper().parse(f) as Map<*, *>
 
@@ -36,11 +35,6 @@ val syncPackRun by tasks.registering(Copy::class) {
     dependsOn(syncPackMods)
     val overrides = parseJson(packDir.resolve("pakku.json"))["overrides"] as List<String>
     from(packDir) { include(overrides.flatMap { listOf(it, "$it/**") }) }
-    // Pakku keeps one path per project, but Paxi needs ATM x MSD as both a datapack and a resource pack.
-    from(packDir.resolve("config/paxi/datapacks")) {
-        include("$atmZip*.zip")
-        into("config/paxi/resourcepacks")
-    }
     into(runDir)
     doNotTrackState("The game also writes to run/, and tracked files must overwrite its copies on every launch.")
     // Copy never deletes, so remove fetched Paxi packs first or old versions stay beside new ones.
@@ -54,15 +48,9 @@ tasks.register<Exec>("exportPack") {
     doLast {
         val mrpack = packDir.resolve("build/modrinth").listFiles { f -> f.extension == "mrpack" }!!.single()
         java.nio.file.FileSystems.newFileSystem(mrpack.toPath()).use { zip ->
-            val indexPath = zip.getPath("modrinth.index.json")
-            val index = groovy.json.JsonSlurper().parse(java.nio.file.Files.newInputStream(indexPath)) as MutableMap<String, Any?>
-            val files = index["files"] as MutableList<MutableMap<String, Any?>>
-            files.filter { (it["path"] as String).startsWith("config/paxi/datapacks/$atmZip") }.forEach {
-                files += it.toMutableMap().apply { put("path", (it["path"] as String).replace("/datapacks/", "/resourcepacks/")) }
-            }
+            val index = groovy.json.JsonSlurper().parse(java.nio.file.Files.newInputStream(zip.getPath("modrinth.index.json"))) as Map<*, *>
             // Fetched Paxi packs sit inside the config override, so Pakku also bundles them as overrides.
-            files.forEach { java.nio.file.Files.deleteIfExists(zip.getPath("overrides/${it["path"]}")) }
-            java.nio.file.Files.writeString(indexPath, groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(index)))
+            (index["files"] as List<Map<*, *>>).forEach { java.nio.file.Files.deleteIfExists(zip.getPath("overrides/${it["path"]}")) }
         }
     }
 }
