@@ -4,12 +4,14 @@ Welcome to Cobbleblock, a Skyblock modpack focused on the Cobblemon mod (which, 
 
 This modpack is in early access and still undergoing heavy development. A lot is unfinished and there may be breaking changes in the future. The main purpose of this early release is to get feedback and suggestions!
 
+It is highly recommended to run this modpack with at least 6 gigabytes of RAM.
+
 ## 📦 Modpack Features
 
-- Built for Minecraft 1.21.1 and includes the newest Cobblemon version (1.7).
+- Built for Minecraft 1.21.1 and includes the latest Cobblemon version (1.8).
 - Start on a classic Skyblock island with only a block of ice, a lava bucket, and a single Apricorn tree.
 - ...plus the tools of a trainer: a starter Pokémon, a Pokédex, a Pokénav, and a Trainer Card.
-- All 1025 Pokémon are included! Many Legendary Pokémon are not not yet obtainable without commands at the moment, however.
+- Almost all Pokémon (currently count 1022) are implimented! Many Pokémon are not yet obtainable in survival without cheats at the moment, however.
 - Completely redone spawning rules for all Pokémon. Build regular Pokémon a habitat using the blocks they like to attract them to your island.
 - Obtain Legendary Pokémon using a unique method: you will need to build them custom multiblock shrines, then offer up special items in order to summon the Pokémon and catch them! These shrines can get expensive, and act as a major form of progression in the pack. Only the Kanto and Johto legendaries have shrine implementations right now.
 - Multiplayer support! Each player can either create their own Skyblock island, or share one with a team of players.
@@ -41,13 +43,18 @@ This modpack is in early access and still undergoing heavy development. A lot is
 - [Balm](https://modrinth.com/mod/balm)
 - [Better Advancements](https://modrinth.com/mod/better-advancements)
 - [Bookshelf](https://modrinth.com/mod/bookshelf-lib)
-- [Catch Indicator](https://modrinth.com/mod/catch-indicator)
 - [Clear Void](https://modrinth.com/mod/clear-void)
 - [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures)
 
 ## Resourcepacks and Datapacks
 
 - [AllTheMons x Mega Showdown](https://modrinth.com/datapack/allthemons-x-mega-showdown-legacy)
+
+## Missing Pokémon
+
+- Celesteela (#797)
+- Iron Jugulis (#993)
+- Iron Boulder (#1022)
 
 ---
 
@@ -62,9 +69,9 @@ _Minecraft is a trademark of Mojang Synergies AB ｜ Pokémon is a trademark of 
 ## Development
 
 ### Development Requirements
-- JDK 21+
+- JDK 21
 - Bun
-- Go
+- [Pakku](https://github.com/juraj-hrivnak/Pakku)
 
 ### Install Bun Dependancies
 ```sh
@@ -72,17 +79,24 @@ cd scripts
 bun install
 ```
 
-### Generate Data and Serve Development Server
+### Generate Data
 
 ```sh
-bun run --cwd scripts generate && packwiz refresh && packwiz serve
+bun run --cwd scripts generate
 ```
 
-### Download Bootstrapper
-[https://github.com/packwiz/packwiz-installer-bootstrap/releases](https://github.com/packwiz/packwiz-installer-bootstrap/releases)
+### Run the Pack
 
-### Modrinth 1.21.1 Instance Pre-launch Command
+```sh
+./gradlew runPackClient
+```
 
+Fetches the pack's mods with Pakku, syncs the pack into the development directory, builds the repos custom mods, then runs the game.
+
+### Export
+
+```sh
+./gradlew exportPack
 ```
-java -jar packwiz-installer-bootstrap.jar http://localhost:8080/pack.toml
-```
+
+Exports a Modrinth modpack to `pack/build/modrinth/` and a server modpack to `pack/build/serverpack/`.

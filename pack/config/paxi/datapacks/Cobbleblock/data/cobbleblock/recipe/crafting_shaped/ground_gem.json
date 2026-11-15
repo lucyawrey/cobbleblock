@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "mega_showdown:ground_tera_shard"
+    },
+    "G": {
+      "tag": "cobblemon:type_gems"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SGS",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemon:ground_gem"
+  }
+}

@@ -1,0 +1,29 @@
+{
+	"clientOptions": {
+		"hide_hunger_bar": true,
+		"highlight_regenerated_hearts": false,
+		"highlight_restored_hearts": true,
+		"hide_experience_bar": false,
+		"show_experience_in_inventory": false,
+		"show_experience_on_screens": false,
+		"show_experience_on_gain": true,
+		"enable_experience_animation": false,
+		"render_experience_over_background": false
+	},
+	"serverOptions": {
+		"disable_hunger": null,
+		"hunger_effect": null,
+		"gradual_health_regeneration": null,
+		"gradual_health_regeneration_speed": null,
+		"regeneration_at_full_health": null,
+		"use_custom_food_stack_sizes": null,
+		"custom_food_stack_sizes": null,
+		"farmers_delight_food_stack_sizes": null,
+		"sprinting": null,
+		"sprinting_health_limit": null,
+		"instant_eating": null,
+		"show_food_item_tooltips": null,
+		"nourishment_health_boost_hearts_count": null,
+		"nourishment_regen_speed_multiplier": null
+	}
+}

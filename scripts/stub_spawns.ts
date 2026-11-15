@@ -1,7 +1,7 @@
 import { Glob } from "bun";
 
 const glob = new Glob("**/*.json");
-const path = "../datapacks/spawn_pool_stub_all";
+const path = "./data";
 const stubJson = JSON.stringify({
     "enabled": false
 }, undefined, 2);
