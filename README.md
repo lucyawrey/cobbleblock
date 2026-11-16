@@ -179,4 +179,4 @@ Exports a Modrinth modpack to `pack/build/modrinth/` and a server modpack to `pa
 
 # AI usage
 AI generated code is used in this project. Code is reviewed by me.
-No assets or text in this project is AI generated.
+No assets or text in this project are AI generated.
