@@ -176,3 +176,7 @@ Fetches the pack's mods with Pakku, syncs the pack into the development director
 ```
 
 Exports a Modrinth modpack to `pack/build/modrinth/` and a server modpack to `pack/build/serverpack/`.
+
+# AI usage
+AI generated code is used in this project. Code is reviewed by me.
+No assets or text in this project is AI generated.
