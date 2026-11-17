@@ -19,7 +19,7 @@ import net.minecraft.world.phys.BlockHitResult
 import net.minecraft.world.phys.shapes.CollisionContext
 import net.minecraft.world.phys.shapes.VoxelShape
 
-class ShrineBlock(private val wide: Boolean) : Block(
+class ShrineBlock(private val shape: Shape) : Block(
     Properties.of().sound(SoundType.STONE).strength(10f, 100f).requiresCorrectToolForDrops().noOcclusion()
 ) {
     init {
@@ -34,11 +34,7 @@ class ShrineBlock(private val wide: Boolean) : Block(
         defaultBlockState().setValue(FACING, context.horizontalDirection.opposite)
 
     override fun getShape(state: BlockState, level: BlockGetter, pos: BlockPos, context: CollisionContext): VoxelShape =
-        when {
-            !wide -> NARROW
-            state.getValue(FACING).axis == Direction.Axis.Z -> WIDE_NORTH_SOUTH
-            else -> WIDE_EAST_WEST
-        }
+        if (state.getValue(FACING).axis == Direction.Axis.Z) shape.northSouth else shape.eastWest
 
     override fun useItemOn(
         stack: ItemStack, state: BlockState, level: Level, pos: BlockPos, player: Player, hand: InteractionHand, hit: BlockHitResult,
@@ -48,10 +44,13 @@ class ShrineBlock(private val wide: Boolean) : Block(
         return ItemInteractionResult.sidedSuccess(level.isClientSide)
     }
 
+    /** The shrine's hitbox: [northSouth] when it faces north or south, [eastWest] when it faces east or west. */
+    enum class Shape(val northSouth: VoxelShape, val eastWest: VoxelShape) {
+        NARROW(box(2.0, 0.0, 2.0, 14.0, 13.0, 14.0), box(2.0, 0.0, 2.0, 14.0, 13.0, 14.0)),
+        WIDE(box(0.0, 0.0, 2.0, 16.0, 13.0, 14.0), box(2.0, 0.0, 0.0, 14.0, 13.0, 16.0)),
+    }
+
     companion object {
         val FACING = BlockStateProperties.HORIZONTAL_FACING
-        private val NARROW = box(2.0, 0.0, 2.0, 14.0, 13.0, 14.0)
-        private val WIDE_NORTH_SOUTH = box(0.0, 0.0, 2.0, 16.0, 13.0, 14.0)
-        private val WIDE_EAST_WEST = box(2.0, 0.0, 0.0, 14.0, 13.0, 16.0)
     }
 }

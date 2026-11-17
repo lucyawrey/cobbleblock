@@ -1,5 +1,7 @@
 package com.lucyazalea.cobbleblockcore.shrine
 
+import com.lucyazalea.cobbleblockcore.shrine.ShrineBlock.Shape.NARROW
+import com.lucyazalea.cobbleblockcore.shrine.ShrineBlock.Shape.WIDE
 import net.minecraft.core.registries.BuiltInRegistries
 import net.minecraft.core.registries.Registries
 import net.minecraft.locale.Language
@@ -19,10 +21,16 @@ object ShrineContent {
     val BLOCKS: DeferredRegister.Blocks = DeferredRegister.createBlocks(NAMESPACE)
     val ITEMS: DeferredRegister.Items = DeferredRegister.createItems(NAMESPACE)
 
-    // Shrine block IDs, and whether each uses the wide shape. Lists are in creative tab order.
+    // Both lists are in creative tab order.
     private val SHRINES = listOf(
-        "articuno_shrine" to false, "zapdos_shrine" to false, "moltres_shrine" to false, "lugia_shrine" to false,
-        "mew_shrine" to false, "hooh_shrine" to true, "celebi_shrine" to true, "legendary_beasts_shrine" to false,
+        "articuno_shrine" to NARROW,
+        "zapdos_shrine" to NARROW,
+        "moltres_shrine" to NARROW,
+        "lugia_shrine" to NARROW,
+        "mew_shrine" to NARROW,
+        "hooh_shrine" to WIDE,
+        "celebi_shrine" to WIDE,
+        "legendary_beasts_shrine" to NARROW,
     )
 
     private val ITEM_IDS = listOf(
@@ -34,7 +42,7 @@ object ShrineContent {
     )
 
     private val items =
-        SHRINES.map { (id, wide) -> ITEMS.registerSimpleBlockItem(BLOCKS.register(id) { -> ShrineBlock(wide) }) } +
+        SHRINES.map { (id, shape) -> ITEMS.registerSimpleBlockItem(BLOCKS.register(id) { -> ShrineBlock(shape) }) } +
             ITEM_IDS.map { ITEMS.registerSimpleItem(it) }
 
     private val TAB = ResourceKey.create(Registries.CREATIVE_MODE_TAB, ResourceLocation.fromNamespaceAndPath(NAMESPACE, NAMESPACE))
