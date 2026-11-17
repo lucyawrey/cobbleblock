@@ -74,9 +74,8 @@ object Shrines : SimpleJsonResourceReloadListener(Gson(), "shrine") {
         },
         offerings = obj.getAsJsonArray("offerings").map { it.asJsonObject }.map { offering ->
             val pokemon = offering.get("pokemon").asString
-            val species = PokemonProperties.parse(pokemon).species
-            // Cobblemon loads species with the same reload, so they may not be there yet; then the summon is the check.
-            require(PokemonSpecies.species.isEmpty() || species != null && PokemonSpecies.getByName(species.substringAfter(':')) != null) { "unknown Pokémon in \"$pokemon\"" }
+            // Cobblemon loads species with the same reload, so they may not be there yet; the summon checks again.
+            require(PokemonSpecies.species.isEmpty() || isKnownSpecies(pokemon)) { "unknown Pokémon in \"$pokemon\"" }
             Offering(
                 lookup(BuiltInRegistries.ITEM, offering.get("item").asString),
                 pokemon,
@@ -84,6 +83,9 @@ object Shrines : SimpleJsonResourceReloadListener(Gson(), "shrine") {
             )
         },
     )
+
+    fun isKnownSpecies(pokemon: String): Boolean =
+        PokemonProperties.parse(pokemon).species?.let { PokemonSpecies.getByName(it.substringAfter(':')) } != null
 
     private fun <T> lookup(registry: Registry<T>, id: String): T =
         registry.getOptional(ResourceLocation.parse(id)).orElseThrow { IllegalArgumentException("unknown ${registry.key().location().path} $id") }

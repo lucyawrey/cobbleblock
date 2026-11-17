@@ -27,5 +27,6 @@ class CobbleblockCore(modBus: IEventBus) {
         NeoForge.EVENT_BUS.addListener(ShrineContent::addTooltip)
         NeoForge.EVENT_BUS.addListener(Shrines::onAddReloadListener)
         NeoForge.EVENT_BUS.addListener(ShrineUse::onServerTick)
+        NeoForge.EVENT_BUS.addListener(ShrineUse::onServerStopped)
     }
 }

@@ -2,6 +2,7 @@ package com.lucyazalea.cobbleblockcore.shrine
 
 import com.cobblemon.mod.common.api.pokemon.PokemonProperties
 import com.cobblemon.mod.common.entity.pokemon.PokemonEntity
+import com.mojang.logging.LogUtils
 import net.minecraft.ChatFormatting
 import net.minecraft.core.BlockPos
 import net.minecraft.core.registries.BuiltInRegistries
@@ -17,11 +18,13 @@ import net.minecraft.world.entity.item.ItemEntity
 import net.minecraft.world.item.ItemStack
 import net.minecraft.world.level.Level
 import net.minecraft.world.level.block.state.BlockState
+import net.neoforged.neoforge.event.server.ServerStoppedEvent
 import net.neoforged.neoforge.event.tick.ServerTickEvent
 import java.util.UUID
 import kotlin.random.Random
 
 object ShrineUse {
+    private val LOGGER = LogUtils.getLogger()
     private const val RADIUS = 8
     private const val COOLDOWN_TICKS = 20
     private const val HOME_LOCK_TICKS = 300
@@ -81,6 +84,10 @@ object ShrineUse {
     }
 
     private fun summon(level: ServerLevel, pos: BlockPos, state: BlockState, player: ServerPlayer, shrine: Shrine, offering: Offering) {
+        if (!Shrines.isKnownSpecies(offering.pokemon)) {
+            LOGGER.error("Shrine offering {} names an unknown Pokémon: \"{}\"", offering.item, offering.pokemon)
+            return
+        }
         val properties = PokemonProperties.parse(offering.pokemon)
         if (properties.shiny == null) properties.shiny = Random.nextInt(SHINY_ODDS) == 0
         val entity = properties.createEntity(level)
@@ -102,6 +109,13 @@ object ShrineUse {
         player.mainHandItem.shrink(1)
         offering.loot?.let { level.addFreshEntity(ItemEntity(level, pos.x + 0.5, pos.y + 2.0, pos.z + 0.5, ItemStack(it))) }
         pending += PendingSummon(level.dimension(), entity, level.server.tickCount.toLong() + shrine.spawnDelayTicks)
+    }
+
+    // Singleplayer keeps this object between worlds, whose game times differ.
+    fun onServerStopped(event: ServerStoppedEvent) {
+        lastUse.clear()
+        lastSummon.clear()
+        pending.clear()
     }
 
     fun onServerTick(event: ServerTickEvent.Post) {
