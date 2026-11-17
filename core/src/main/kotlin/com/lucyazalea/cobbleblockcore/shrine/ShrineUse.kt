@@ -74,8 +74,8 @@ object ShrineUse {
             held.isEmpty -> player.sendSystemMessage(Component.translatable("shrine.cobbleblock.ready", name))
             else -> {
                 val offerings = shrine.offerings.map { it.item.description }
-                val or = Component.translatable("shrine.cobbleblock.or")
-                player.sendSystemMessage(Component.translatable("shrine.cobbleblock.wrong_offering", joined(offerings, or)))
+                val or = Component.translatable(if (offerings.size > 2) "shrine.cobbleblock.list_or" else "shrine.cobbleblock.or")
+                player.sendSystemMessage(Component.translatable("shrine.cobbleblock.wrong_offering", joined(offerings, Component.literal(", "), or)))
             }
         }
     }
@@ -131,8 +131,13 @@ object ShrineUse {
     private fun displayName(id: ResourceLocation): Component =
         BuiltInRegistries.BLOCK.getOptional(id).map<Component> { it.name }.orElseGet { BuiltInRegistries.ITEM.get(id).description }
 
-    private fun joined(parts: List<Component>, separator: Component): Component =
-        Component.empty().also { result -> parts.forEachIndexed { i, part -> if (i > 0) result.append(separator); result.append(part) } }
+    private fun joined(parts: List<Component>, separator: Component, last: Component = separator): Component =
+        Component.empty().also { result ->
+            parts.forEachIndexed { i, part ->
+                if (i > 0) result.append(if (i == parts.lastIndex) last else separator)
+                result.append(part)
+            }
+        }
 
     private fun award(player: ServerPlayer, advancement: String) {
         val holder = player.server.advancements.get(ResourceLocation.fromNamespaceAndPath("cobbleblock", advancement)) ?: return
