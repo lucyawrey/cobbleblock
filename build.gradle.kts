@@ -45,8 +45,23 @@ val syncPackRun by tasks.registering(Copy::class) {
     doNotTrackState("The game also writes to run/, and tracked files must overwrite its copies on every launch.")
 }
 
+fun addToZip(zip: File, file: File, dir: String) = java.nio.file.FileSystems.newFileSystem(zip.toPath()).use {
+    val dest = it.getPath(dir, file.name)
+    java.nio.file.Files.createDirectories(dest.parent)
+    java.nio.file.Files.copy(file.toPath(), dest)
+}
+
 tasks.register<Exec>("exportPack") {
+    val coreJar = project(":core").tasks.named<Jar>("jar").flatMap { it.archiveFile }
+    inputs.file(coreJar)
     workingDir(packDir)
     commandLine("pakku", "export")
     doFirst { delete(packDir.resolve("build/modrinth")) }
+    // Core isn't on Modrinth yet, so both exports carry the built jar until Pakku can list it.
+    doLast {
+        val jar = coreJar.get().asFile
+        val pack = parseJson(packDir.resolve("pakku.json")).let { "${it["name"]}-${it["version"]}" }
+        addToZip(packDir.resolve("build/modrinth/$pack.mrpack"), jar, "overrides/mods")
+        addToZip(packDir.resolve("build/serverpack/$pack.zip"), jar, "mods")
+    }
 }
