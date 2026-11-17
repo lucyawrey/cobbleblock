@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:fern"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "minecraft:green_dye"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:hammers"
+  }
+}

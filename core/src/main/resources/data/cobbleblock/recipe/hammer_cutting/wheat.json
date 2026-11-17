@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "create:wheat_flour"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:hammers"
+  }
+}

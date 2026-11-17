@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:pitcher_plant"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 4,
+        "id": "minecraft:cyan_dye"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:hammers"
+  }
+}

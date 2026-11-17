@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "cobblemon:big_root"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "cobblemon:remedy"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:hammers"
+  }
+}

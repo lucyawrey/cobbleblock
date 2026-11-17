@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "farmersdelight:wild_tomatoes"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "farmersdelight:tomato_seeds"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:hammers"
+  }
+}

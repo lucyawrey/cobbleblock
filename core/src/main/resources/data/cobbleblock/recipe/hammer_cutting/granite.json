@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:granite"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "minecraft:red_sand"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:hammers"
+  }
+}

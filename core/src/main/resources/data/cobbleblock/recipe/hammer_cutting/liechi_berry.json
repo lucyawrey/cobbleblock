@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "cobblemon:liechi_berry"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 2,
+        "id": "minecraft:orange_dye"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:hammers"
+  }
+}
