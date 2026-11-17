@@ -9,6 +9,8 @@ dev_mods
 **/old_*
 **/*_old_*
 script_cache.json
+# Temporary text copies of structure templates (see the templateToText task)
+*.snbt
 **/.obsidian/
 
 # Gradle

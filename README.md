@@ -163,6 +163,15 @@ bun run --cwd scripts generate
 
 Fetches the pack's mods with Pakku, syncs the pack into the development directory, builds the repos custom mods, then runs the game.
 
+### Edit Structure Templates
+
+```sh
+./gradlew :core:templateToText -Pfile=core/src/main/resources/data/cobbleblock/structure/shrine.nbt
+./gradlew :core:templateFromText -Pfile=core/src/main/resources/data/cobbleblock/structure/shrine.snbt
+```
+
+Structure templates are binary `.nbt`. The first task writes an editable SNBT copy beside the template; the second writes the edited copy back to `.nbt` and removes it. `.snbt` files are git-ignored.
+
 ### Export
 
 ```sh
