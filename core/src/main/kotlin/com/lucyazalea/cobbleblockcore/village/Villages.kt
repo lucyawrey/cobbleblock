@@ -13,6 +13,8 @@ import net.minecraft.world.entity.MobSpawnType
 import net.minecraft.world.entity.npc.Villager
 import net.minecraft.world.entity.npc.WanderingTrader
 import net.minecraft.world.level.block.Blocks
+import net.minecraft.world.level.block.state.properties.BedPart
+import net.minecraft.world.level.block.state.properties.BlockStateProperties
 import net.minecraft.world.level.gameevent.GameEvent
 import net.neoforged.neoforge.event.VanillaGameEvent
 import net.neoforged.neoforge.event.tick.ServerTickEvent
@@ -81,17 +83,16 @@ object Villages {
         val level = player.serverLevel()
         val center = player.blockPosition()
         var water = 0
-        var bedBlocks = 0
+        var beds = 0
         var bell: BlockPos? = null
         for (pos in BlockPos.betweenClosed(center.offset(-RADIUS, -RADIUS / 4, -RADIUS), center.offset(RADIUS, RADIUS / 4, RADIUS))) {
             val state = level.getBlockState(pos)
             when {
-                state.`is`(BlockTags.BEDS) -> bedBlocks++
+                state.`is`(BlockTags.BEDS) && state.getOptionalValue(BlockStateProperties.BED_PART).orElse(BedPart.HEAD) == BedPart.HEAD -> beds++
                 state.`is`(Blocks.WATER) -> water++
                 state.`is`(Blocks.BELL) -> bell = pos.immutable()
             }
         }
-        val beds = (bedBlocks + 2) / 3
         if (water <= 3 || beds == 0 || bell == null || !hasSpawnSpot(level, bell)) return null
 
         val area = player.boundingBox.inflate(RADIUS.toDouble())
