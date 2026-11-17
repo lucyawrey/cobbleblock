@@ -17,7 +17,6 @@ import net.neoforged.neoforge.event.entity.player.ItemTooltipEvent
 import net.neoforged.neoforge.registries.DeferredHolder
 import net.neoforged.neoforge.registries.DeferredRegister
 
-// The `cobbleblock` namespace keeps the IDs these had as KubeJS blocks and items, so placed blocks and held items in existing saves survive.
 object CobbleblockContent {
     const val NAMESPACE = "cobbleblock"
     val BLOCKS: DeferredRegister.Blocks = DeferredRegister.createBlocks(NAMESPACE)
