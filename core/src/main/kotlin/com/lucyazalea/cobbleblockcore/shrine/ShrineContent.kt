@@ -21,8 +21,8 @@ object ShrineContent {
 
     private val WIDE_SHRINES = setOf("hooh_shrine", "celebi_shrine")
 
-    // Creative tab order: each shrine, then the items that go with it.
-    private val ORDER = listOf(
+    // Every shrine block and item Core registers, in creative tab order: each shrine, then the items that go with it.
+    private val ITEM_IDS = listOf(
         "articuno_shrine", "arctic_wing", "articuno_orb",
         "zapdos_shrine", "charged_wing", "zapdos_orb",
         "moltres_shrine", "molten_wing", "moltres_orb",
@@ -35,7 +35,7 @@ object ShrineContent {
         "ancient_fossil_piece", "ancient_fossil_dust", "ancient_dna",
     )
 
-    private val items = ORDER.map { id ->
+    private val items = ITEM_IDS.map { id ->
         if (id.endsWith("_shrine")) {
             val block = BLOCKS.register(id) { -> ShrineBlock(wide = id in WIDE_SHRINES) }
             ITEMS.registerSimpleBlockItem(block)
