@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:terracotta"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "minecraft:red_sand"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:hammers"
+  }
+}

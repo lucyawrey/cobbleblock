@@ -84,3 +84,15 @@ modId = "sophisticatedstorage"
 type = "optional"
 ordering = "AFTER"
 side = "BOTH"
+
+[[dependencies.cobbleblockcore]]
+modId = "onlyhammers"
+type = "optional"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cobbleblockcore]]
+modId = "create_ultimate_factory"
+type = "optional"
+ordering = "AFTER"
+side = "BOTH"

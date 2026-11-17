@@ -4,7 +4,6 @@
     "author": "LucyAzalea",
     "overrides": [
         "config",
-        "kubejs",
         "patchouli_books",
         "server.properties"
     ],

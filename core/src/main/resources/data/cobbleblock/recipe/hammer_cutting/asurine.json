@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "create:asurine"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "create:crushed_raw_zinc"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:hammers"
+  }
+}

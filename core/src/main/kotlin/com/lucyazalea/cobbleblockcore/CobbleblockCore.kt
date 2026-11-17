@@ -1,8 +1,10 @@
 package com.lucyazalea.cobbleblockcore
 
-import com.lucyazalea.cobbleblockcore.shrine.ShrineContent
+import com.lucyazalea.cobbleblockcore.meteor.Meteors
 import com.lucyazalea.cobbleblockcore.shrine.ShrineUse
 import com.lucyazalea.cobbleblockcore.shrine.Shrines
+import com.lucyazalea.cobbleblockcore.village.Villages
+import com.lucyazalea.cobbleblockcore.village.WanderingTrades
 import net.minecraft.core.registries.Registries
 import net.neoforged.bus.api.IEventBus
 import net.neoforged.fml.common.Mod
@@ -20,13 +22,19 @@ class CobbleblockCore(modBus: IEventBus) {
             register("fixed_template") { -> FixedTemplateStructure.PIECE_TYPE }
             register(modBus)
         }
-        ShrineContent.BLOCKS.register(modBus)
-        ShrineContent.ITEMS.register(modBus)
-        modBus.addListener(ShrineContent::addToCreativeTab)
+        CobbleblockContent.register(modBus)
 
-        NeoForge.EVENT_BUS.addListener(ShrineContent::addTooltip)
+        NeoForge.EVENT_BUS.addListener(CobbleblockContent::addTooltip)
         NeoForge.EVENT_BUS.addListener(Shrines::onAddReloadListener)
-        NeoForge.EVENT_BUS.addListener(ShrineUse::onServerTick)
+        NeoForge.EVENT_BUS.addListener(Meteors::onAddReloadListener)
+        NeoForge.EVENT_BUS.addListener(Delayed::onServerTick)
+        NeoForge.EVENT_BUS.addListener(Delayed::onServerStopped)
         NeoForge.EVENT_BUS.addListener(ShrineUse::onServerStopped)
+        NeoForge.EVENT_BUS.addListener(WanderingTrades::onAddReloadListener)
+        NeoForge.EVENT_BUS.addListener(WanderingTrades::onWandererTrades)
+        NeoForge.EVENT_BUS.addListener(Villages::onGameEvent)
+        NeoForge.EVENT_BUS.addListener(Villages::onServerTick)
+        NeoForge.EVENT_BUS.addListener(FirstStart::onCreateSpawnPosition)
+        NeoForge.EVENT_BUS.addListener(FirstStart::onPlayerLoggedIn)
     }
 }

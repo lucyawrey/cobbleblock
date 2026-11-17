@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "cobblemon:mistleaf"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 3,
+        "id": "minecraft:pink_dye"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:hammers"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "create:ochrum"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "create:crushed_raw_gold"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:hammers"
+  }
+}

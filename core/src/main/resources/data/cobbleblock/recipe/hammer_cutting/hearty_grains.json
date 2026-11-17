@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "cobblemon:hearty_grains"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "farmersdelight:rice"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:hammers"
+  }
+}

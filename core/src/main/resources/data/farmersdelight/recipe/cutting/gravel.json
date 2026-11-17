@@ -1,0 +1,11 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [{ "item": "minecraft:gravel" }],
+  "result": [
+    { "chance": 0.25, "item": { "count": 1, "id": "minecraft:flint" } },
+    { "chance": 0.12, "item": { "count": 1, "id": "create:copper_nugget" } },
+    { "chance": 0.12, "item": { "count": 1, "id": "minecraft:iron_nugget" } },
+    { "chance": 0.12, "item": { "count": 1, "id": "cobblemon:tumblestone" } }
+  ],
+  "tool": { "tag": "minecraft:shovels" }
+}

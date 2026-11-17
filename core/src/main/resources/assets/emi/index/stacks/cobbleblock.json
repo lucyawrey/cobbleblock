@@ -1,0 +1,9 @@
+{
+  "removed": [
+    "item:onlyhammers:emerald_hammer",
+    "item:onlyhammers:lapis_hammer",
+    "item:onlyhammers:redstone_hammer",
+    "item:onlyhammers:obsidian_hammer",
+    "item:farmersdelight:wheat_dough"
+  ]
+}

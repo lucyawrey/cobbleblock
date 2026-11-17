@@ -1,26 +1,13 @@
 package com.lucyazalea.cobbleblockcore.shrine
 
+import com.lucyazalea.cobbleblockcore.CobbleblockContent.BLOCKS
+import com.lucyazalea.cobbleblockcore.CobbleblockContent.ITEMS
 import com.lucyazalea.cobbleblockcore.shrine.ShrineBlock.Shape.NARROW
 import com.lucyazalea.cobbleblockcore.shrine.ShrineBlock.Shape.WIDE
-import net.minecraft.core.registries.BuiltInRegistries
-import net.minecraft.core.registries.Registries
-import net.minecraft.locale.Language
-import net.minecraft.network.chat.Component
-import net.minecraft.ChatFormatting
-import net.minecraft.resources.ResourceKey
-import net.minecraft.resources.ResourceLocation
-import net.minecraft.world.item.CreativeModeTab
-import net.minecraft.world.item.ItemStack
-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent
-import net.neoforged.neoforge.event.entity.player.ItemTooltipEvent
-import net.neoforged.neoforge.registries.DeferredRegister
+import net.minecraft.world.item.Item
+import net.neoforged.neoforge.registries.DeferredItem
 
-// The `cobbleblock` namespace keeps the IDs these had as KubeJS items, so placed shrines and held items in existing saves survive.
 object ShrineContent {
-    private const val NAMESPACE = "cobbleblock"
-    val BLOCKS: DeferredRegister.Blocks = DeferredRegister.createBlocks(NAMESPACE)
-    val ITEMS: DeferredRegister.Items = DeferredRegister.createItems(NAMESPACE)
-
     // Both lists are in creative tab order.
     private val SHRINES = listOf(
         "articuno_shrine" to NARROW,
@@ -41,28 +28,7 @@ object ShrineContent {
         "ancient_fossil_piece", "ancient_fossil_dust", "ancient_dna",
     )
 
-    private val items =
+    val items: List<DeferredItem<out Item>> =
         SHRINES.map { (id, shape) -> ITEMS.registerSimpleBlockItem(BLOCKS.register(id) { -> ShrineBlock(shape) }) } +
             ITEM_IDS.map { ITEMS.registerSimpleItem(it) }
-
-    private val TAB = ResourceKey.create(Registries.CREATIVE_MODE_TAB, ResourceLocation.fromNamespaceAndPath(NAMESPACE, NAMESPACE))
-    private val TAB_ANCHOR = ResourceLocation.fromNamespaceAndPath(NAMESPACE, "meteor_beacon")
-
-    fun addToCreativeTab(event: BuildCreativeModeTabContentsEvent) {
-        if (event.tabKey != TAB) return
-        var after = ItemStack(BuiltInRegistries.ITEM.get(TAB_ANCHOR))
-        for (item in items) {
-            val stack = ItemStack(item.get())
-            event.insertAfter(after, stack, CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS)
-            after = stack
-        }
-    }
-
-    // Any item of ours with a "<description id>.tooltip" lang entry gets that tooltip.
-    fun addTooltip(event: ItemTooltipEvent) {
-        val key = event.itemStack.item.descriptionId + ".tooltip"
-        if (event.itemStack.item.builtInRegistryHolder().key().location().namespace == NAMESPACE && Language.getInstance().has(key)) {
-            event.toolTip.add(Component.translatable(key).withStyle(ChatFormatting.GRAY))
-        }
-    }
 }

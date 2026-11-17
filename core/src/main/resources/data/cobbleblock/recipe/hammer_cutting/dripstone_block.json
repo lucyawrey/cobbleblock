@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:dripstone_block"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "minecraft:pointed_dripstone"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:hammers"
+  }
+}

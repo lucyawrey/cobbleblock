@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:tall_grass"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "minecraft:wheat_seeds"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:hammers"
+  }
+}

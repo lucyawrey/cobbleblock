@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "cobbleblock:ancient_fossil_piece"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "cobbleblock:ancient_fossil_dust"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:hammers"
+  }
+}

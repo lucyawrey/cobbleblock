@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "cobblemon:revival_herb"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "cobblemon:heal_powder"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:hammers"
+  }
+}

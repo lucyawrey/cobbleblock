@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "create:crimsite"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "create:crushed_raw_iron"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:hammers"
+  }
+}
