@@ -2,7 +2,6 @@ package com.lucyazalea.cobbleblockcore.meteor
 
 import com.google.gson.Gson
 import com.google.gson.JsonElement
-import com.lucyazalea.cobbleblockcore.CobbleblockContent
 import com.lucyazalea.cobbleblockcore.Delayed
 import com.mojang.logging.LogUtils
 import net.minecraft.ChatFormatting
@@ -43,7 +42,11 @@ object Meteors : SimpleJsonResourceReloadListener(Gson(), "meteor") {
         meteors = files.mapNotNull { (file, json) ->
             try {
                 val obj = json.asJsonObject
-                Meteor(ResourceLocation.parse(obj.get("template").asString), obj.get("weight").asInt, obj.get("explosion_power").asInt)
+                val weight = obj.get("weight").asInt
+                val power = obj.get("explosion_power").asInt
+                require(weight >= 1) { "weight must be at least 1" }
+                require(power in 0..127) { "explosion_power must be 0 to 127" }
+                Meteor(ResourceLocation.parse(obj.get("template").asString), weight, power)
             } catch (e: Exception) {
                 LOGGER.error("Skipping meteor {}: {}", file, e.message)
                 null
@@ -60,7 +63,6 @@ object Meteors : SimpleJsonResourceReloadListener(Gson(), "meteor") {
         level.addFreshEntity(fireball)
 
         Delayed.run(level.server, FALL_TICKS) {
-            if (!level.getBlockState(beacon).`is`(CobbleblockContent.METEOR_BEACON.get())) return@run
             val template = level.structureManager.get(meteor.template).orElse(null) ?: return@run
             level.setBlock(beacon, Blocks.AIR.defaultBlockState(), Block.UPDATE_ALL)
             val settings = StructurePlaceSettings().setRotation(Rotation.getRandom(random)).setRotationPivot(PIVOT)

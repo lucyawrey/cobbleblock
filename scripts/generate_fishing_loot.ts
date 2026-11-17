@@ -8,10 +8,7 @@ const vanillaJunk = [
       {
         function: "minecraft:set_components",
         components: {
-          "minecraft:custom_data": {
-            torn_page_id: "page_2_fishing",
-          },
-          "minecraft:item_name": "'Torn Page #2 (Fishing)'",
+          "cobbleblock:page": "page_2_fishing",
         },
       },
     ],
