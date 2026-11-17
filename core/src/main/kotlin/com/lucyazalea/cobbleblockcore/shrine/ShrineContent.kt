@@ -19,30 +19,23 @@ object ShrineContent {
     val BLOCKS: DeferredRegister.Blocks = DeferredRegister.createBlocks(NAMESPACE)
     val ITEMS: DeferredRegister.Items = DeferredRegister.createItems(NAMESPACE)
 
-    private val WIDE_SHRINES = setOf("hooh_shrine", "celebi_shrine")
+    // Shrine block IDs, and whether each uses the wide shape. Lists are in creative tab order.
+    private val SHRINES = listOf(
+        "articuno_shrine" to false, "zapdos_shrine" to false, "moltres_shrine" to false, "lugia_shrine" to false,
+        "mew_shrine" to false, "hooh_shrine" to true, "celebi_shrine" to true, "legendary_beasts_shrine" to false,
+    )
 
-    // Every shrine block and item Core registers, in creative tab order: each shrine, then the items that go with it.
     private val ITEM_IDS = listOf(
-        "articuno_shrine", "arctic_wing", "articuno_orb",
-        "zapdos_shrine", "charged_wing", "zapdos_orb",
-        "moltres_shrine", "molten_wing", "moltres_orb",
-        "lugia_shrine", "fragile_ocarina",
-        "mew_shrine", "ancient_fossil",
-        "hooh_shrine", "rainbow_feather",
-        "celebi_shrine", "time_flute",
-        "legendary_beasts_shrine", "raikou_offering", "entei_offering", "suicune_offering",
+        "arctic_wing", "charged_wing", "molten_wing", "fragile_ocarina", "ancient_fossil", "rainbow_feather", "time_flute",
+        "raikou_offering", "entei_offering", "suicune_offering",
+        "articuno_orb", "zapdos_orb", "moltres_orb",
         "blue_feather", "red_feather", "yellow_feather",
         "ancient_fossil_piece", "ancient_fossil_dust", "ancient_dna",
     )
 
-    private val items = ITEM_IDS.map { id ->
-        if (id.endsWith("_shrine")) {
-            val block = BLOCKS.register(id) { -> ShrineBlock(wide = id in WIDE_SHRINES) }
-            ITEMS.registerSimpleBlockItem(block)
-        } else {
-            ITEMS.registerSimpleItem(id)
-        }
-    }
+    private val items =
+        SHRINES.map { (id, wide) -> ITEMS.registerSimpleBlockItem(BLOCKS.register(id) { -> ShrineBlock(wide) }) } +
+            ITEM_IDS.map { ITEMS.registerSimpleItem(it) }
 
     private val TAB = ResourceKey.create(Registries.CREATIVE_MODE_TAB, ResourceLocation.fromNamespaceAndPath(NAMESPACE, NAMESPACE))
     private val TAB_ANCHOR = ResourceLocation.fromNamespaceAndPath(NAMESPACE, "meteor_beacon")
