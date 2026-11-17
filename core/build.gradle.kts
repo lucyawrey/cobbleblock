@@ -87,6 +87,6 @@ for ((task, mode) in listOf("templateToText" to "to-text", "templateFromText" to
         group = "templates"
         classpath = templates.runtimeClasspath
         mainClass = "com.lucyazalea.cobbleblockcore.templates.TemplateText"
-        args(mode, rootProject.file(providers.gradleProperty("file").orNull ?: "").path)
+        argumentProviders.add { listOf(mode, rootProject.file(providers.gradleProperty("file").get()).path) }
     }
 }

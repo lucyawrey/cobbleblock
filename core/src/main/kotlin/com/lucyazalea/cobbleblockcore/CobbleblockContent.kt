@@ -17,6 +17,7 @@ import net.neoforged.neoforge.event.entity.player.ItemTooltipEvent
 import net.neoforged.neoforge.registries.DeferredHolder
 import net.neoforged.neoforge.registries.DeferredRegister
 
+// Content uses the pack's `cobbleblock` namespace, not the mod ID, to match the pack's data, lang and templates.
 object CobbleblockContent {
     const val NAMESPACE = "cobbleblock"
     val BLOCKS: DeferredRegister.Blocks = DeferredRegister.createBlocks(NAMESPACE)

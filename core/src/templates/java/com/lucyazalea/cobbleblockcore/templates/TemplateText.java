@@ -18,16 +18,17 @@ public class TemplateText {
         }
         Path file = Path.of(args[1]);
         if (args[0].equals("to-text")) {
-            CompoundTag tag = NbtIo.readCompressed(file, NbtAccounter.unlimitedHeap());
             Path text = sibling(file, ".nbt", ".snbt");
+            if (Files.exists(text)) throw new IllegalStateException(text + " already exists; convert it back or delete it first");
+            CompoundTag tag = NbtIo.readCompressed(file, NbtAccounter.unlimitedHeap());
             Files.writeString(text, NbtUtils.structureToSnbt(tag.copy()));
             if (!comparable(NbtUtils.snbtToStructure(Files.readString(text))).equals(comparable(tag))) {
                 throw new IllegalStateException(text + " doesn't read back the same as " + file);
             }
             System.out.println("Wrote " + text);
         } else {
-            CompoundTag tag = NbtUtils.snbtToStructure(Files.readString(file));
             Path binary = sibling(file, ".snbt", ".nbt");
+            CompoundTag tag = NbtUtils.snbtToStructure(Files.readString(file));
             NbtIo.writeCompressed(tag, binary);
             Files.delete(file);
             System.out.println("Wrote " + binary + " and removed " + file);
