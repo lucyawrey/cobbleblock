@@ -1,0 +1,18 @@
+{
+  "block": "cobbleblock:hooh_shrine",
+  "required": {
+    "minecraft:bell": 1,
+    "minecraft:gold_block": 10,
+    "minecraft:bamboo_planks": 15,
+    "minecraft:crimson_planks": 10,
+    "minecraft:deepslate_bricks": 10,
+    "minecraft:deepslate_brick_stairs": 10
+  },
+  "takes_coins": true,
+  "offerings": [
+    {
+      "item": "cobbleblock:rainbow_feather",
+      "pokemon": "hooh level=65 min_perfect_ivs=3"
+    }
+  ]
+}

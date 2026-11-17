@@ -1,6 +1,8 @@
 {
-  "type": "cobbleblockcore:ancient_forest_shrine",
-  "biomes": "#minecraft:is_overworld",
+  "type": "cobbleblockcore:fixed_template",
+  "template": "cobbleblockcore:shrine",
+  "origin": [-15, 69, -33],
+  "biomes": ["minecraft:the_void"],
   "spawn_overrides": {},
   "step": "surface_structures",
   "terrain_adaptation": "none"

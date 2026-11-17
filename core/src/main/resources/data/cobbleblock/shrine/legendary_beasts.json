@@ -1,0 +1,21 @@
+{
+  "block": "cobbleblock:legendary_beasts_shrine",
+  "_todo": "[Lucy: the legendary dogs' shrine design: required blocks, offerings and levels]",
+  "required": {
+    "minecraft:stone": 1
+  },
+  "offerings": [
+    {
+      "item": "cobbleblock:raikou_offering",
+      "pokemon": "raikou level=60 min_perfect_ivs=3"
+    },
+    {
+      "item": "cobbleblock:entei_offering",
+      "pokemon": "entei level=60 min_perfect_ivs=3"
+    },
+    {
+      "item": "cobbleblock:suicune_offering",
+      "pokemon": "suicune level=60 min_perfect_ivs=3"
+    }
+  ]
+}

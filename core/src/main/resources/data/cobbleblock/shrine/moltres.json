@@ -1,0 +1,17 @@
+{
+  "block": "cobbleblock:moltres_shrine",
+  "required": {
+    "minecraft:polished_blackstone": 30,
+    "minecraft:fire": 10,
+    "minecraft:netherrack": 10,
+    "minecraft:nether_bricks": 10,
+    "minecraft:iron_block": 3
+  },
+  "offerings": [
+    {
+      "item": "cobbleblock:molten_wing",
+      "pokemon": "moltres level=60 min_perfect_ivs=3",
+      "loot": "cobbleblock:moltres_orb"
+    }
+  ]
+}

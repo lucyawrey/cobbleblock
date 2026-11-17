@@ -1,0 +1,19 @@
+{
+  "block": "cobbleblock:lugia_shrine",
+  "required": {
+    "mega_showdown:pedestal": 3,
+    "cobbleblock:articuno_orb": 1,
+    "cobbleblock:zapdos_orb": 1,
+    "cobbleblock:moltres_orb": 1,
+    "minecraft:water": 10,
+    "minecraft:prismarine": 20,
+    "minecraft:lapis_block": 8,
+    "minecraft:smooth_quartz": 10
+  },
+  "offerings": [
+    {
+      "item": "cobbleblock:fragile_ocarina",
+      "pokemon": "lugia level=65 min_perfect_ivs=3"
+    }
+  ]
+}
