@@ -77,5 +77,13 @@
   "shrine.cobbleblock.or": " or ",
   "shrine.cobbleblock.list_or": ", or ",
   "shrine.cobbleblock.incomplete": "The shrine to %s is incomplete. Missing %s.",
-  "shrine.cobbleblock.missing_entry": "%s× %s"
+  "shrine.cobbleblock.missing_entry": "%s× %s",
+  "itemGroup.cobbleblock": "Cobbleblock",
+  "block.cobbleblock.suspicious_cobblestone": "Suspicious Cobblestone",
+  "block.cobbleblock.suspicious_cobblestone.tooltip": "This cobblestone seems like it might have something inside it... Try crushing it and unearthing it's contents with a brush.",
+  "block.cobbleblock.meteor_beacon": "Meteor Beacon",
+  "block.cobbleblock.meteor_beacon.tooltip": "This beacon attracts meteors from outer space. Place it down and stay far away until the crash is over.",
+  "item.cobbleblock.torn_page": "Torn Page",
+  "item.cobbleblock.torn_page.tooltip": "A torn page that can be added to Acacia's research journal.",
+  "meteor.cobbleblock.fallen": "A meteor has fallen!"
 }

@@ -1,13 +1,12 @@
 package com.lucyazalea.cobbleblockcore.shrine
 
+import com.lucyazalea.cobbleblockcore.Delayed
 import com.cobblemon.mod.common.api.pokemon.PokemonProperties
-import com.cobblemon.mod.common.entity.pokemon.PokemonEntity
 import com.mojang.logging.LogUtils
 import net.minecraft.ChatFormatting
 import net.minecraft.core.BlockPos
 import net.minecraft.core.registries.BuiltInRegistries
 import net.minecraft.network.chat.Component
-import net.minecraft.resources.ResourceKey
 import net.minecraft.resources.ResourceLocation
 import net.minecraft.server.level.ServerLevel
 import net.minecraft.server.level.ServerPlayer
@@ -16,10 +15,8 @@ import net.minecraft.sounds.SoundSource
 import net.minecraft.util.Mth
 import net.minecraft.world.entity.item.ItemEntity
 import net.minecraft.world.item.ItemStack
-import net.minecraft.world.level.Level
 import net.minecraft.world.level.block.state.BlockState
 import net.neoforged.neoforge.event.server.ServerStoppedEvent
-import net.neoforged.neoforge.event.tick.ServerTickEvent
 import java.util.UUID
 import kotlin.random.Random
 
@@ -34,9 +31,6 @@ object ShrineUse {
 
     private val lastUse = HashMap<UUID, Long>()
     private val lastSummon = HashMap<UUID, Long>()
-    private val pending = ArrayList<PendingSummon>()
-
-    private class PendingSummon(val level: ResourceKey<Level>, val entity: PokemonEntity, val at: Long)
 
     fun use(player: ServerPlayer, pos: BlockPos, state: BlockState) {
         val level = player.serverLevel()
@@ -108,23 +102,13 @@ object ShrineUse {
         lastSummon[player.uuid] = level.gameTime
         player.mainHandItem.shrink(1)
         offering.loot?.let { level.addFreshEntity(ItemEntity(level, pos.x + 0.5, pos.y + 2.0, pos.z + 0.5, ItemStack(it))) }
-        pending += PendingSummon(level.dimension(), entity, level.server.tickCount.toLong() + shrine.spawnDelayTicks)
+        Delayed.run(level.server, shrine.spawnDelayTicks) { level.addFreshEntity(entity) }
     }
 
     // Singleplayer keeps this object between worlds, whose game times differ.
     fun onServerStopped(event: ServerStoppedEvent) {
         lastUse.clear()
         lastSummon.clear()
-        pending.clear()
-    }
-
-    fun onServerTick(event: ServerTickEvent.Post) {
-        val now = event.server.tickCount
-        pending.removeIf { summon ->
-            if (summon.at > now) return@removeIf false
-            event.server.getLevel(summon.level)?.addFreshEntity(summon.entity)
-            true
-        }
     }
 
     // Counts blocks within RADIUS of the shrine, plus the item on each Mega Showdown pedestal.

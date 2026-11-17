@@ -1,6 +1,6 @@
 package com.lucyazalea.cobbleblockcore
 
-import com.lucyazalea.cobbleblockcore.shrine.ShrineContent
+import com.lucyazalea.cobbleblockcore.meteor.Meteors
 import com.lucyazalea.cobbleblockcore.shrine.ShrineUse
 import com.lucyazalea.cobbleblockcore.shrine.Shrines
 import net.minecraft.core.registries.Registries
@@ -20,13 +20,13 @@ class CobbleblockCore(modBus: IEventBus) {
             register("fixed_template") { -> FixedTemplateStructure.PIECE_TYPE }
             register(modBus)
         }
-        ShrineContent.BLOCKS.register(modBus)
-        ShrineContent.ITEMS.register(modBus)
-        modBus.addListener(ShrineContent::addToCreativeTab)
+        CobbleblockContent.register(modBus)
 
-        NeoForge.EVENT_BUS.addListener(ShrineContent::addTooltip)
+        NeoForge.EVENT_BUS.addListener(CobbleblockContent::addTooltip)
         NeoForge.EVENT_BUS.addListener(Shrines::onAddReloadListener)
-        NeoForge.EVENT_BUS.addListener(ShrineUse::onServerTick)
+        NeoForge.EVENT_BUS.addListener(Meteors::onAddReloadListener)
+        NeoForge.EVENT_BUS.addListener(Delayed::onServerTick)
+        NeoForge.EVENT_BUS.addListener(Delayed::onServerStopped)
         NeoForge.EVENT_BUS.addListener(ShrineUse::onServerStopped)
     }
 }
