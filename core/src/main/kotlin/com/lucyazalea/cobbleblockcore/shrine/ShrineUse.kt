@@ -25,11 +25,13 @@ object ShrineUse {
     private const val RADIUS = 8
     private const val COOLDOWN_TICKS = 20
     private const val SUMMON_DELAY_TICKS = 100
+    private const val HOME_LOCK_TICKS = 300
     private const val SHINY_ODDS = 4096
     private val RELIC_COIN = ResourceLocation.fromNamespaceAndPath("cobblemon", "relic_coin")
     private val PEDESTAL = ResourceLocation.fromNamespaceAndPath("mega_showdown", "pedestal")
 
     private val lastUse = HashMap<UUID, Long>()
+    private val lastSummon = HashMap<UUID, Long>()
     private val pending = ArrayList<PendingSummon>()
 
     private class PendingSummon(val level: ResourceKey<Level>, val entity: PokemonEntity, val at: Long)
@@ -67,8 +69,9 @@ object ShrineUse {
                 player.teleportTo(target, at.x, at.y, at.z, player.yRot, player.xRot)
             }
             offering != null -> summon(level, pos, state, player, shrine, offering)
-            held.isEmpty && inDimension ->
+            held.isEmpty && inDimension -> if (now >= (lastSummon[player.uuid] ?: Long.MIN_VALUE) + HOME_LOCK_TICKS) {
                 player.server.commands.performPrefixedCommand(player.createCommandSourceStack(), "skyblock home")
+            }
             held.isEmpty -> player.sendSystemMessage(Component.translatable("shrine.cobbleblock.ready", name))
             else -> {
                 val offerings = shrine.offerings.map { it.item.description }
@@ -96,6 +99,7 @@ object ShrineUse {
         player.sendSystemMessage(Component.translatable("shrine.cobbleblock.coming", entity.name).withStyle(ChatFormatting.AQUA, ChatFormatting.BOLD))
         level.playSound(null, pos, SoundEvents.END_PORTAL_SPAWN, SoundSource.BLOCKS, 1f, 1f)
         award(player, "legendary_summon")
+        lastSummon[player.uuid] = level.gameTime
         player.mainHandItem.shrink(1)
         offering.loot?.let { level.addFreshEntity(ItemEntity(level, pos.x + 0.5, pos.y + 2.0, pos.z + 0.5, ItemStack(it))) }
         pending += PendingSummon(level.dimension(), entity, level.server.tickCount.toLong() + SUMMON_DELAY_TICKS)
