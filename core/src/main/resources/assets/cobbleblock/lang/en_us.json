@@ -98,5 +98,6 @@
   "village.cobbleblock.full": "There are plenty of people already.",
   "village.cobbleblock.invalid": "No one will come without water, a place to sleep, and open space around this gathering point.",
   "village.cobbleblock.villager_arrived": "A new villager has joined your island.",
-  "village.cobbleblock.trader_arrived": "A wandering trader has arrived."
+  "village.cobbleblock.trader_arrived": "A wandering trader has arrived.",
+  "welcome.cobbleblock": "Welcome to Cobbleblock!"
 }

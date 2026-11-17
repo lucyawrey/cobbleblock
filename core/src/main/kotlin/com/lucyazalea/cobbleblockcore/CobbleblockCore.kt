@@ -34,5 +34,7 @@ class CobbleblockCore(modBus: IEventBus) {
         NeoForge.EVENT_BUS.addListener(WanderingTrades::onWandererTrades)
         NeoForge.EVENT_BUS.addListener(Villages::onGameEvent)
         NeoForge.EVENT_BUS.addListener(Villages::onServerTick)
+        NeoForge.EVENT_BUS.addListener(FirstStart::onCreateSpawnPosition)
+        NeoForge.EVENT_BUS.addListener(FirstStart::onPlayerLoggedIn)
     }
 }
