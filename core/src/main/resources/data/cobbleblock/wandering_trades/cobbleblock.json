@@ -1,0 +1,65 @@
+[
+  {
+    "emeralds": 4,
+    "result": {
+      "id": "cobblemon:red_apricorn_seed"
+    }
+  },
+  {
+    "emeralds": 4,
+    "result": {
+      "id": "cobblemon:yellow_apricorn_seed"
+    }
+  },
+  {
+    "emeralds": 4,
+    "result": {
+      "id": "cobblemon:green_apricorn_seed"
+    }
+  },
+  {
+    "emeralds": 4,
+    "result": {
+      "id": "cobblemon:blue_apricorn_seed"
+    }
+  },
+  {
+    "emeralds": 4,
+    "result": {
+      "id": "cobblemon:pink_apricorn_seed"
+    }
+  },
+  {
+    "emeralds": 4,
+    "result": {
+      "id": "cobblemon:black_apricorn_seed"
+    }
+  },
+  {
+    "emeralds": 4,
+    "result": {
+      "id": "cobblemon:white_apricorn_seed"
+    }
+  },
+  {
+    "emeralds": 2,
+    "result": {
+      "id": "mega_showdown:max_mushroom"
+    }
+  },
+  {
+    "emeralds": 5,
+    "result": {
+      "id": "cobblemon:revival_herb"
+    }
+  },
+  {
+    "emeralds": 1,
+    "result": {
+      "id": "cobbleblock:torn_page",
+      "components": {
+        "cobbleblock:page": "page_4_trader"
+      }
+    }
+  }
+]

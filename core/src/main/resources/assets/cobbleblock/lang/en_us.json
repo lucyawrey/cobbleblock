@@ -91,5 +91,12 @@
   "item.cobbleblock.torn_page.page_3_archaeology": "Torn Page #3 (Archaeology)",
   "item.cobbleblock.torn_page.page_4_trader": "Torn Page #4 (Trader)",
   "item.cobbleblock.torn_page.page_5_meteor": "Torn Page #5 (Meteor)",
-  "item.cobbleblock.torn_page.page_6_shrine": "Torn Page #6 (Shrine)"
+  "item.cobbleblock.torn_page.page_6_shrine": "Torn Page #6 (Shrine)",
+  "village.cobbleblock.all": "The village is ready for guests and new members.",
+  "village.cobbleblock.villagers": "The village is ready for new members.",
+  "village.cobbleblock.traders": "The village is ready for guests.",
+  "village.cobbleblock.full": "There are plenty of people already.",
+  "village.cobbleblock.invalid": "No one will come without water, a place to sleep, and open space around this gathering point.",
+  "village.cobbleblock.villager_arrived": "A new villager has joined your island.",
+  "village.cobbleblock.trader_arrived": "A wandering trader has arrived."
 }
