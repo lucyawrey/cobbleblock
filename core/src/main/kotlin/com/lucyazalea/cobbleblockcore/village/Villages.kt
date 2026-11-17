@@ -29,7 +29,11 @@ object Villages {
     private const val SPAWN_TRIES = 10
     private const val SPAWN_RANGE = 4
     private const val SPAWN_HEIGHT = 2
-    private val SPAWN_STRATEGY = SpawnUtil.Strategy.ON_TOP_OF_COLLIDER
+    // Vanilla's strategy checks only the block at the feet, and villagers don't check for blocks when spawning.
+    private val SPAWN_STRATEGY = SpawnUtil.Strategy { level, pos, state, above, aboveState ->
+        SpawnUtil.Strategy.ON_TOP_OF_COLLIDER.canSpawnOn(level, pos, state, above, aboveState) &&
+            level.getBlockState(above.above()).getCollisionShape(level, above.above()).isEmpty
+    }
 
     private enum class Status(val key: String, val villagers: Boolean, val traders: Boolean) {
         INVALID("invalid", false, false),
