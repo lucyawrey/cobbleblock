@@ -124,7 +124,6 @@ key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.closeRecipeGui:key.keyboard.escape:
 key_key.jei.copy.recipe.id:key.keyboard.unknown:
 key_key.cobblemon-battle-extras.battle_logs:key.keyboard.b:
-key_key.kubejs.kubedex:key.keyboard.keypad.1:
 key_key.ponder.ponder:key.keyboard.w:
 key_create.keyinfo.toolmenu:key.keyboard.left.alt:
 key_create.keyinfo.toolbelt:key.keyboard.left.alt:
