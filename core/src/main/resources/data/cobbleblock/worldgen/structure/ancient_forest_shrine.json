@@ -1,6 +1,6 @@
 {
-  "type": "cobbleblockcore:fixed_template",
-  "template": "cobbleblockcore:shrine",
+  "type": "cobbleblock:fixed_template",
+  "template": "cobbleblock:shrine",
   "origin": [-15, 69, -33],
   "biomes": ["minecraft:the_void"],
   "spawn_overrides": {},

@@ -12,11 +12,11 @@ import net.neoforged.neoforge.registries.DeferredRegister
 @Mod("cobbleblockcore")
 class CobbleblockCore(modBus: IEventBus) {
     init {
-        DeferredRegister.create(Registries.STRUCTURE_TYPE, "cobbleblockcore").apply {
+        DeferredRegister.create(Registries.STRUCTURE_TYPE, "cobbleblock").apply {
             register("fixed_template") { -> FixedTemplateStructure.TYPE }
             register(modBus)
         }
-        DeferredRegister.create(Registries.STRUCTURE_PIECE, "cobbleblockcore").apply {
+        DeferredRegister.create(Registries.STRUCTURE_PIECE, "cobbleblock").apply {
             register("fixed_template") { -> FixedTemplateStructure.PIECE_TYPE }
             register(modBus)
         }

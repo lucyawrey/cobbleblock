@@ -7,7 +7,7 @@
       "layers": [],
       "features": false,
       "lakes": false,
-      "structure_overrides": ["cobbleblockcore:ancient_forest_shrine"]
+      "structure_overrides": ["cobbleblock:ancient_forest_shrine"]
     }
   }
 }
