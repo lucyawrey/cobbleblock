@@ -24,7 +24,6 @@ import kotlin.random.Random
 object ShrineUse {
     private const val RADIUS = 8
     private const val COOLDOWN_TICKS = 20
-    private const val SUMMON_DELAY_TICKS = 100
     private const val HOME_LOCK_TICKS = 300
     private const val SHINY_ODDS = 4096
     private val RELIC_COIN = ResourceLocation.fromNamespaceAndPath("cobblemon", "relic_coin")
@@ -102,7 +101,7 @@ object ShrineUse {
         lastSummon[player.uuid] = level.gameTime
         player.mainHandItem.shrink(1)
         offering.loot?.let { level.addFreshEntity(ItemEntity(level, pos.x + 0.5, pos.y + 2.0, pos.z + 0.5, ItemStack(it))) }
-        pending += PendingSummon(level.dimension(), entity, level.server.tickCount.toLong() + SUMMON_DELAY_TICKS)
+        pending += PendingSummon(level.dimension(), entity, level.server.tickCount.toLong() + shrine.spawnDelayTicks)
     }
 
     fun onServerTick(event: ServerTickEvent.Post) {

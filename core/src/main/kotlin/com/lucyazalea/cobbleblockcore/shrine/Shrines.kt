@@ -26,6 +26,7 @@ class Shrine(
     val takesCoins: Boolean,
     /** Right, up and back from the shrine, as it faces. */
     val spawnOffset: Vec3i,
+    val spawnDelayTicks: Int,
     val dimension: ShrineDimension?,
     val offerings: List<Offering>,
 )
@@ -63,6 +64,7 @@ object Shrines : SimpleJsonResourceReloadListener(Gson(), "shrine") {
         },
         takesCoins = obj.get("takes_coins")?.asBoolean ?: false,
         spawnOffset = obj.getAsJsonArray("spawn_offset")?.map { it.asInt }?.let { Vec3i(it[0], it[1], it[2]) } ?: Vec3i(0, 0, 2),
+        spawnDelayTicks = ((obj.get("spawn_delay_seconds")?.asDouble ?: 5.0) * 20).toInt(),
         dimension = obj.getAsJsonObject("dimension")?.let { dimension ->
             val at = dimension.getAsJsonArray("arrive_at").map { it.asDouble }
             ShrineDimension(
