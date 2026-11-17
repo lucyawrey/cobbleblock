@@ -50,6 +50,12 @@ ordering = "AFTER"
 side = "BOTH"
 
 [[dependencies.cobbleblockcore]]
+modId = "createaddition"
+type = "optional"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cobbleblockcore]]
 modId = "farmersdelight"
 type = "optional"
 ordering = "AFTER"
