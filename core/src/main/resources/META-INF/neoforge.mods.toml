@@ -36,3 +36,45 @@ mandatory = true
 versionRange = "[1.8.1,)"
 ordering = "AFTER"
 side = "BOTH"
+
+[[dependencies.cobbleblockcore]]
+modId = "rctmod"
+type = "optional"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cobbleblockcore]]
+modId = "create"
+type = "optional"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cobbleblockcore]]
+modId = "farmersdelight"
+type = "optional"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cobbleblockcore]]
+modId = "cobblemonwildloot"
+type = "optional"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cobbleblockcore]]
+modId = "mega_showdown"
+type = "optional"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cobbleblockcore]]
+modId = "z_atm_x_msd"
+type = "optional"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cobbleblockcore]]
+modId = "sophisticatedstorage"
+type = "optional"
+ordering = "AFTER"
+side = "BOTH"
