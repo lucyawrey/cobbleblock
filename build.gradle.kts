@@ -31,26 +31,22 @@ val syncPackMods by tasks.registering(Sync::class) {
     into(runDir.resolve("mods"))
 }
 
+val syncPackResourcePacks by tasks.registering(Sync::class) {
+    dependsOn(fetchPack)
+    from(packDir.resolve("resourcepacks"))
+    into(runDir.resolve("resourcepacks"))
+}
+
 val syncPackRun by tasks.registering(Copy::class) {
-    dependsOn(syncPackMods)
+    dependsOn(syncPackMods, syncPackResourcePacks)
     val overrides = parseJson(packDir.resolve("pakku.json"))["overrides"] as List<String>
     from(packDir) { include(overrides.flatMap { listOf(it, "$it/**") }) }
     into(runDir)
     doNotTrackState("The game also writes to run/, and tracked files must overwrite its copies on every launch.")
-    // Copy never deletes, so remove fetched Paxi packs first or old versions stay beside new ones.
-    doFirst { delete(fileTree(runDir.resolve("config/paxi")) { include("*/*.zip") }) }
 }
 
 tasks.register<Exec>("exportPack") {
     workingDir(packDir)
     commandLine("pakku", "export")
     doFirst { delete(packDir.resolve("build/modrinth")) }
-    doLast {
-        val mrpack = packDir.resolve("build/modrinth").listFiles { f -> f.extension == "mrpack" }!!.single()
-        java.nio.file.FileSystems.newFileSystem(mrpack.toPath()).use { zip ->
-            val index = groovy.json.JsonSlurper().parse(java.nio.file.Files.newInputStream(zip.getPath("modrinth.index.json"))) as Map<*, *>
-            // Fetched Paxi packs sit inside the config override, so Pakku also bundles them as overrides.
-            (index["files"] as List<Map<*, *>>).forEach { java.nio.file.Files.deleteIfExists(zip.getPath("overrides/${it["path"]}")) }
-        }
-    }
 }

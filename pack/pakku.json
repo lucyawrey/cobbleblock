@@ -1,6 +1,6 @@
 {
     "name": "Cobbleblock",
-    "version": "0.1.15",
+    "version": "0.1.16",
     "author": "LucyAzalea",
     "overrides": [
         "config",
@@ -8,10 +8,6 @@
         "patchouli_books",
         "server.properties"
     ],
-    "paths": {
-        "resource_packs": "config/paxi/resourcepacks",
-        "data_packs": "config/paxi/datapacks"
-    },
     "projects": {
         "cobblegen": {
             "side": "BOTH"

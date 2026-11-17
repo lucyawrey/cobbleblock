@@ -108,7 +108,6 @@ It is highly recommended to run this modpack with at least 6 gigabytes of RAM.
 - [NetherPortalFix](https://modrinth.com/mod/netherportalfix)
 - [Not Enough Animations](https://modrinth.com/mod/not-enough-animations)
 - [owo-lib](https://modrinth.com/mod/owo-lib)
-- [Paxi](https://modrinth.com/mod/paxi)
 - [Prickle](https://modrinth.com/mod/prickle)
 - [Radical Cobblemon Trainers API](https://modrinth.com/mod/rctapi)
 - [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options)

@@ -21,7 +21,7 @@ run/
 
 # Downloaded by pakku fetch
 pack/mods/
-pack/config/paxi/*/*.zip
+pack/resourcepacks/
 
 # Pakku cache of replaced mod files
 pack/.pakku/
