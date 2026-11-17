@@ -16,9 +16,7 @@
                 "item": {
                     "items": "cobbleblock:torn_page",
                     "components": {
-                        "minecraft:custom_data": {
-                            "torn_page_id": "page_3_archaeology"
-                        }
+                        "cobbleblock:page": "page_3_archaeology"
                     }
                 }
             }

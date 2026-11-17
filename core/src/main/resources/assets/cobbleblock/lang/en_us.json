@@ -85,5 +85,11 @@
   "block.cobbleblock.meteor_beacon.tooltip": "This beacon attracts meteors from outer space. Place it down and stay far away until the crash is over.",
   "item.cobbleblock.torn_page": "Torn Page",
   "item.cobbleblock.torn_page.tooltip": "A torn page that can be added to Acacia's research journal.",
-  "meteor.cobbleblock.fallen": "A meteor has fallen!"
+  "meteor.cobbleblock.fallen": "A meteor has fallen!",
+  "item.cobbleblock.torn_page.page_1_nether": "Torn Page #1 (Nether)",
+  "item.cobbleblock.torn_page.page_2_fishing": "Torn Page #2 (Fishing)",
+  "item.cobbleblock.torn_page.page_3_archaeology": "Torn Page #3 (Archaeology)",
+  "item.cobbleblock.torn_page.page_4_trader": "Torn Page #4 (Trader)",
+  "item.cobbleblock.torn_page.page_5_meteor": "Torn Page #5 (Meteor)",
+  "item.cobbleblock.torn_page.page_6_shrine": "Torn Page #6 (Shrine)"
 }

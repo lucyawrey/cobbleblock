@@ -223,10 +223,7 @@ MoreJS.wandererTrades((event) => {
     1,
     Item.of("minecraft:emerald", 1),
     Item.of("cobbleblock:torn_page", 1, {
-      "minecraft:custom_data": {
-        torn_page_id: "page_4_trader",
-      },
-      "minecraft:item_name": "Torn Page #4 (Trader)",
+      "cobbleblock:page": "page_4_trader",
     }),
   );
 });

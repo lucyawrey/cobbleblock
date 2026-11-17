@@ -1,6 +1,7 @@
 package com.lucyazalea.cobbleblockcore.shrine
 
 import com.lucyazalea.cobbleblockcore.Delayed
+import com.lucyazalea.cobbleblockcore.TornPageItem
 import com.cobblemon.mod.common.api.pokemon.PokemonProperties
 import com.mojang.logging.LogUtils
 import net.minecraft.ChatFormatting
@@ -26,6 +27,8 @@ object ShrineUse {
     private const val COOLDOWN_TICKS = 20
     private const val HOME_LOCK_TICKS = 300
     private const val SHINY_ODDS = 4096
+    // The journal page a summon drops until the summoner has it; its advancement has the same ID.
+    private const val SHRINE_PAGE = "page_6_shrine"
     private val RELIC_COIN = ResourceLocation.fromNamespaceAndPath("cobblemon", "relic_coin")
     private val PEDESTAL = ResourceLocation.fromNamespaceAndPath("mega_showdown", "pedestal")
 
@@ -101,7 +104,8 @@ object ShrineUse {
         award(player, "legendary_summon")
         lastSummon[player.uuid] = level.gameTime
         player.mainHandItem.shrink(1)
-        offering.loot?.let { level.addFreshEntity(ItemEntity(level, pos.x + 0.5, pos.y + 2.0, pos.z + 0.5, ItemStack(it))) }
+        val drops = listOfNotNull(offering.loot?.let(::ItemStack), TornPageItem.of(SHRINE_PAGE).takeUnless { hasAdvancement(player, SHRINE_PAGE) })
+        drops.forEach { level.addFreshEntity(ItemEntity(level, pos.x + 0.5, pos.y + 2.0, pos.z + 0.5, it)) }
         Delayed.run(level.server, shrine.spawnDelayTicks) { level.addFreshEntity(entity) }
     }
 
@@ -136,6 +140,11 @@ object ShrineUse {
                 result.append(part)
             }
         }
+
+    private fun hasAdvancement(player: ServerPlayer, advancement: String): Boolean {
+        val holder = player.server.advancements.get(ResourceLocation.fromNamespaceAndPath("cobbleblock", advancement)) ?: return false
+        return player.advancements.getOrStartProgress(holder).isDone
+    }
 
     private fun award(player: ServerPlayer, advancement: String) {
         val holder = player.server.advancements.get(ResourceLocation.fromNamespaceAndPath("cobbleblock", advancement)) ?: return

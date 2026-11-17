@@ -16,9 +16,7 @@
                 "item": {
                     "items": "cobbleblock:torn_page",
                     "components": {
-                        "minecraft:custom_data": {
-                            "torn_page_id": "page_1_nether"
-                        }
+                        "cobbleblock:page": "page_1_nether"
                     }
                 }
             }
