@@ -74,7 +74,7 @@
   "shrine.cobbleblock.coming": "%s is coming.",
   "shrine.cobbleblock.ready": "The shrine to %s is ready.",
   "shrine.cobbleblock.wrong_offering": "That offering... it is not the right one. Bring the %s to this shrine.",
-  "shrine.cobbleblock.or": "[word joining offerings when a shrine takes several, e.g. \" or \"]",
+  "shrine.cobbleblock.or": " or ",
   "shrine.cobbleblock.incomplete": "The shrine to %s is incomplete. Missing %s.",
   "shrine.cobbleblock.missing_entry": "%s× %s"
 }
