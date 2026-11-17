@@ -1,11 +1,13 @@
 {
-    "type": "cobbleblock:ancient_forest",
-    "generator": {
-        "type": "minecraft:noise",
-        "settings": "minecraft:overworld",
-        "biome_source": {
-            "type": "minecraft:fixed",
-            "biome": "minecraft:dark_forest"
-        }
+  "type": "cobbleblock:ancient_forest",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:the_void",
+      "layers": [],
+      "features": false,
+      "lakes": false,
+      "structure_overrides": ["cobbleblock:ancient_forest_shrine"]
     }
+  }
 }

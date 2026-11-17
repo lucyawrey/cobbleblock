@@ -1,0 +1,17 @@
+{
+  "block": "cobbleblock:articuno_shrine",
+  "required": {
+    "minecraft:polished_diorite": 20,
+    "minecraft:ice": 20,
+    "minecraft:packed_ice": 10,
+    "minecraft:blue_ice": 10,
+    "minecraft:diamond_block": 1
+  },
+  "offerings": [
+    {
+      "item": "cobbleblock:arctic_wing",
+      "pokemon": "articuno level=60 min_perfect_ivs=3",
+      "loot": "cobbleblock:articuno_orb"
+    }
+  ]
+}

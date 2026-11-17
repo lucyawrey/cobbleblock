@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cobbleblock:block/shrine"
+    },
+    "facing=east": {
+      "model": "cobbleblock:block/shrine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cobbleblock:block/shrine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cobbleblock:block/shrine",
+      "y": 270
+    }
+  }
+}

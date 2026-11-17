@@ -1,0 +1,17 @@
+{
+  "block": "cobbleblock:zapdos_shrine",
+  "required": {
+    "minecraft:yellow_concrete": 30,
+    "minecraft:redstone_block": 10,
+    "minecraft:redstone_torch": 6,
+    "minecraft:lightning_rod": 2,
+    "minecraft:gold_block": 2
+  },
+  "offerings": [
+    {
+      "item": "cobbleblock:charged_wing",
+      "pokemon": "zapdos level=60 min_perfect_ivs=3",
+      "loot": "cobbleblock:zapdos_orb"
+    }
+  ]
+}

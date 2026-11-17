@@ -1,0 +1,27 @@
+{
+  "block": "cobbleblock:celebi_shrine",
+  "required": {
+    "cobblemon:leaf_stone_block": 1,
+    "minecraft:mossy_cobblestone": 10
+  },
+  "takes_coins": true,
+  "spawn_offset": [
+    0,
+    1,
+    0
+  ],
+  "dimension": {
+    "id": "cobbleblock:ancient_forest",
+    "arrive_at": [
+      0.5,
+      70,
+      0.5
+    ]
+  },
+  "offerings": [
+    {
+      "item": "cobbleblock:time_flute",
+      "pokemon": "celebi level=70 min_perfect_ivs=3"
+    }
+  ]
+}

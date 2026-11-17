@@ -1,0 +1,16 @@
+{
+  "block": "cobbleblock:mew_shrine",
+  "required": {
+    "minecraft:diamond_block": 4,
+    "minecraft:amethyst_block": 5,
+    "minecraft:mossy_stone_bricks": 10,
+    "minecraft:mossy_cobblestone": 10,
+    "minecraft:cherry_planks": 10
+  },
+  "offerings": [
+    {
+      "item": "cobbleblock:ancient_fossil",
+      "pokemon": "mew level=70 min_perfect_ivs=3"
+    }
+  ]
+}

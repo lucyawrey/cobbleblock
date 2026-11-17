@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cobbleblock:block/celebi_shrine"
+    },
+    "facing=east": {
+      "model": "cobbleblock:block/celebi_shrine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cobbleblock:block/celebi_shrine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cobbleblock:block/celebi_shrine",
+      "y": 270
+    }
+  }
+}
