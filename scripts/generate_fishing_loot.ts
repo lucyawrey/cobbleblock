@@ -120,7 +120,7 @@ const vanillaTreasure = [
   },
 ];
 
-const outPath = `../pack/config/paxi/datapacks/Cobbleblock/data/minecraft/loot_table/gameplay/fishing`;
+const outPath = `../core/src/main/resources/data/minecraft/loot_table/gameplay/fishing`;
 const targetSheet = `https://docs.google.com/spreadsheets/d/1us4UrjvnVnCXadYZjgCOBIFmpio8BzGJ8O5L6yuLTfs/gviz/tq?tqx=out:csv&sheet=fishing`;
 const files = {
   junk: "minecraft:gameplay/fishing/junk",

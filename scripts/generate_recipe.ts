@@ -19,7 +19,7 @@ const types = [
   "water",
 ];
 const outputPath =
-  "../pack/config/paxi/datapacks/Cobbleblock/data/cobbleblock/recipe/crafting_shaped";
+  "../core/src/main/resources/data/cobbleblock/recipe/crafting_shaped";
 
 for (const type of types) {
   const content = {

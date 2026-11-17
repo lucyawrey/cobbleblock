@@ -1,5 +1,5 @@
 # Cobbleblock Core
-Core mod for custom features in the [Cobbleblock](https://github.com/lucyawrey/cobbleblock) modpack.
+This mod provides the core functionality for the [Cobbleblock](https://modrinth.com/project/dkFIPS5y) modpack.
 
 ---
 

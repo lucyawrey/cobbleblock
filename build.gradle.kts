@@ -31,26 +31,37 @@ val syncPackMods by tasks.registering(Sync::class) {
     into(runDir.resolve("mods"))
 }
 
+val syncPackResourcePacks by tasks.registering(Sync::class) {
+    dependsOn(fetchPack)
+    from(packDir.resolve("resourcepacks"))
+    into(runDir.resolve("resourcepacks"))
+}
+
 val syncPackRun by tasks.registering(Copy::class) {
-    dependsOn(syncPackMods)
+    dependsOn(syncPackMods, syncPackResourcePacks)
     val overrides = parseJson(packDir.resolve("pakku.json"))["overrides"] as List<String>
     from(packDir) { include(overrides.flatMap { listOf(it, "$it/**") }) }
     into(runDir)
     doNotTrackState("The game also writes to run/, and tracked files must overwrite its copies on every launch.")
-    // Copy never deletes, so remove fetched Paxi packs first or old versions stay beside new ones.
-    doFirst { delete(fileTree(runDir.resolve("config/paxi")) { include("*/*.zip") }) }
+}
+
+fun addToZip(zip: File, file: File, dir: String) = java.nio.file.FileSystems.newFileSystem(zip.toPath()).use {
+    val dest = it.getPath(dir, file.name)
+    java.nio.file.Files.createDirectories(dest.parent)
+    java.nio.file.Files.copy(file.toPath(), dest)
 }
 
 tasks.register<Exec>("exportPack") {
+    val coreJar = project(":core").tasks.named<Jar>("jar").flatMap { it.archiveFile }
+    inputs.file(coreJar)
     workingDir(packDir)
     commandLine("pakku", "export")
     doFirst { delete(packDir.resolve("build/modrinth")) }
+    // Core isn't on Modrinth yet, so both exports carry the built jar until Pakku can list it.
     doLast {
-        val mrpack = packDir.resolve("build/modrinth").listFiles { f -> f.extension == "mrpack" }!!.single()
-        java.nio.file.FileSystems.newFileSystem(mrpack.toPath()).use { zip ->
-            val index = groovy.json.JsonSlurper().parse(java.nio.file.Files.newInputStream(zip.getPath("modrinth.index.json"))) as Map<*, *>
-            // Fetched Paxi packs sit inside the config override, so Pakku also bundles them as overrides.
-            (index["files"] as List<Map<*, *>>).forEach { java.nio.file.Files.deleteIfExists(zip.getPath("overrides/${it["path"]}")) }
-        }
+        val jar = coreJar.get().asFile
+        val pack = parseJson(packDir.resolve("pakku.json")).let { "${it["name"]}-${it["version"]}" }
+        addToZip(packDir.resolve("build/modrinth/$pack.mrpack"), jar, "overrides/mods")
+        addToZip(packDir.resolve("build/serverpack/$pack.zip"), jar, "mods")
     }
 }
