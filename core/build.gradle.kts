@@ -78,3 +78,15 @@ tasks {
 }
 
 tasks.named("preparePackClientRun") { dependsOn(":syncPackRun") }
+
+// Converts a structure template to SNBT text and back: `-Pfile=<path to .nbt or .snbt>`, relative to the repo root.
+val templates: SourceSet by sourceSets.creating
+neoForge.addModdingDependenciesTo(templates)
+for ((task, mode) in listOf("templateToText" to "to-text", "templateFromText" to "from-text")) {
+    tasks.register<JavaExec>(task) {
+        group = "templates"
+        classpath = templates.runtimeClasspath
+        mainClass = "com.lucyazalea.cobbleblockcore.templates.TemplateText"
+        args(mode, rootProject.file(providers.gradleProperty("file").orNull ?: "").path)
+    }
+}
