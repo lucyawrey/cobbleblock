@@ -16,7 +16,7 @@
     "count": 1,
     "id": "patchouli:guide_book",
     "components": {
-      "patchouli:book": "patchouli:research_journal"
+      "patchouli:book": "cobbleblock:research_journal"
     }
   }
 }

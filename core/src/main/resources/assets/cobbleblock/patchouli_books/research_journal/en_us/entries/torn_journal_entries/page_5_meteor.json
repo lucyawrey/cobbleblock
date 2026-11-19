@@ -1,9 +1,9 @@
 {
-  "name": "Torn Page #2 (Fishing)",
+  "name": "Torn Page #5 (Meteor)",
   "icon": "cobbleblock:torn_page",
-  "category": "patchouli:torn_journal_entries",
-  "advancement": "cobbleblock:page_2_fishing",
-  "sortnum": 1,
+  "category": "cobbleblock:torn_journal_entries",
+  "advancement": "cobbleblock:page_5_meteor",
+  "sortnum": 4,
   "pages": [
     {
       "type": "patchouli:text",

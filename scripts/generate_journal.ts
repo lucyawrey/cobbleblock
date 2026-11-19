@@ -1,6 +1,6 @@
 import { Glob } from "bun";
 
-const outPath = "../pack/patchouli_books/research_journal/en_us/entries";
+const outPath = "../core/src/main/resources/assets/cobbleblock/patchouli_books/research_journal/en_us/entries";
 const inPath = "../scripts/research_journal";
 
 const glob = new Glob("**/*.md");
@@ -41,7 +41,7 @@ for (let filePath of glob.scanSync(inPath)) {
               if (key === "order") {
                 data.sortnum = parseInt(value);
               } else if (key === "category") {
-                data.category = "patchouli:" + value;
+                data.category = "cobbleblock:" + value;
               } else {
                 data[key] = value;
               }
@@ -66,7 +66,7 @@ for (let filePath of glob.scanSync(inPath)) {
         return m + text + f;
       },
       link: (text, meta) => {
-        return `$(l:patchouli:${meta.href})${text}$()`;
+        return `$(l:cobbleblock:${meta.href})${text}$()`;
       },
       image: (text, meta) => {
         body += "image:" + meta.src + "," + text + br;

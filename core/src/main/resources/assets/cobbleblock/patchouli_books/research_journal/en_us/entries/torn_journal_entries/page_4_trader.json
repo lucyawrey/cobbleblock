@@ -1,9 +1,9 @@
 {
-  "name": "Torn Page #3 (Archaeology)",
+  "name": "Torn Page #4 (Trader)",
   "icon": "cobbleblock:torn_page",
-  "category": "patchouli:torn_journal_entries",
-  "advancement": "cobbleblock:page_3_archaeology",
-  "sortnum": 2,
+  "category": "cobbleblock:torn_journal_entries",
+  "advancement": "cobbleblock:page_4_trader",
+  "sortnum": 3,
   "pages": [
     {
       "type": "patchouli:text",

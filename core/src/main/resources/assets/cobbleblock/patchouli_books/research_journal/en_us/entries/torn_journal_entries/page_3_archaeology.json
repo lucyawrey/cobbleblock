@@ -1,9 +1,9 @@
 {
-  "name": "Torn Page #5 (Meteor)",
+  "name": "Torn Page #3 (Archaeology)",
   "icon": "cobbleblock:torn_page",
-  "category": "patchouli:torn_journal_entries",
-  "advancement": "cobbleblock:page_5_meteor",
-  "sortnum": 4,
+  "category": "cobbleblock:torn_journal_entries",
+  "advancement": "cobbleblock:page_3_archaeology",
+  "sortnum": 2,
   "pages": [
     {
       "type": "patchouli:text",
