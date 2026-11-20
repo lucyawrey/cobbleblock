@@ -32,6 +32,10 @@ object BoneMealFlowers : SimpleJsonResourceReloadListener(Gson(), "bone_meal_flo
     override fun apply(files: Map<ResourceLocation, JsonElement>, resources: ResourceManager, profiler: ProfilerFiller) {
         val list = SimpleWeightedRandomList.builder<Block>()
         for ((file, json) in files) {
+            if (!json.isJsonArray) {
+                LOGGER.error("Skipping bone meal flowers {}: not a list", file)
+                continue
+            }
             for (entry in json.asJsonArray) {
                 try {
                     val id = ResourceLocation.parse(entry.asJsonObject.get("block").asString)
