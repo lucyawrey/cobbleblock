@@ -51,8 +51,8 @@ object BoneMealFlowers : SimpleJsonResourceReloadListener(Gson(), "bone_meal_flo
         val level = event.level as? ServerLevel ?: return
         if (!event.isValidBonemealTarget || flowers.isEmpty) return
         val empty = BlockPos.betweenClosed(event.pos.offset(-REACH, -REACH, -REACH), event.pos.offset(REACH, REACH, REACH))
-            .filter { level.getBlockState(it).isAir }
             .map { it.immutable() }
+            .filter { level.getBlockState(it).isAir }
         Delayed.run(level.server, 1) {
             for (pos in empty) {
                 if (!level.getBlockState(pos).`is`(BlockTags.SMALL_FLOWERS)) continue
