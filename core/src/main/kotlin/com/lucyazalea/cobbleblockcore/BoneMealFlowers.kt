@@ -6,6 +6,7 @@ import com.mojang.logging.LogUtils
 import net.minecraft.core.BlockPos
 import net.minecraft.core.registries.BuiltInRegistries
 import net.minecraft.resources.ResourceLocation
+import net.minecraft.server.TickTask
 import net.minecraft.server.level.ServerLevel
 import net.minecraft.server.packs.resources.ResourceManager
 import net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener
@@ -46,18 +47,19 @@ object BoneMealFlowers : SimpleJsonResourceReloadListener(Gson(), "bone_meal_flo
         flowers = list.build()
     }
 
-    // Bone meal hasn't grown anything yet when this fires, so note the empty spots now and swap the flowers a tick later.
+    // Bone meal hasn't grown anything yet when this fires, so note the empty spots now and swap the flowers in a queued
+    // task. Queued tasks run before the next tick sends block changes to clients, so players never see the first flower.
     fun onBonemeal(event: BonemealEvent) {
         val level = event.level as? ServerLevel ?: return
         if (!event.isValidBonemealTarget || flowers.isEmpty) return
         val empty = BlockPos.betweenClosed(event.pos.offset(-REACH, -REACH, -REACH), event.pos.offset(REACH, REACH, REACH))
             .map { it.immutable() }
             .filter { level.getBlockState(it).isAir }
-        Delayed.run(level.server, 1) {
+        level.server.tell(TickTask(level.server.tickCount) {
             for (pos in empty) {
                 if (!level.getBlockState(pos).`is`(BlockTags.SMALL_FLOWERS)) continue
                 flowers.getRandomValue(level.random).ifPresent { level.setBlockAndUpdate(pos, it.defaultBlockState()) }
             }
-        }
+        })
     }
 }
