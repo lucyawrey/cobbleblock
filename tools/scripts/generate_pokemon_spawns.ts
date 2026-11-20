@@ -10,7 +10,7 @@ type SpawnType =
   | "lava";
 
 const outPath =
-  "../core/src/main/resources/data/cobbleblock/spawn_pool_world";
+  "../../core/src/main/resources/data/cobbleblock/spawn_pool_world";
 
 const presets: Record<
   SpawnType,

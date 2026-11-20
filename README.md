@@ -143,15 +143,17 @@ _Minecraft is a trademark of Mojang Synergies AB ｜ Pokémon is a trademark of 
 
 ### Install Bun Dependancies
 ```sh
-cd scripts
+cd tools/scripts
 bun install
 ```
 
 ### Generate Data
 
 ```sh
-bun run --cwd scripts generate
+bun run --cwd tools/scripts generate
 ```
+
+The data scripts live in `tools/scripts/`. Most of them may later be folded into a local web tool for editing spawns and drops.
 
 ### Run the Pack
 

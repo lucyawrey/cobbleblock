@@ -1,5 +1,5 @@
-const path = "../reference_data/species_drop_data.json";
-const outputPath = "../drop_data.csv";
+const path = "../../reference_data/species_drop_data.json";
+const outputPath = "../../drop_data.csv";
 
 const dropData = await Bun.file(path)
   .json()
