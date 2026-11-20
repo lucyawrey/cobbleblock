@@ -1,6 +1,7 @@
 [
   { "block": "minecraft:dandelion", "weight": 1 },
   { "block": "minecraft:poppy", "weight": 1 },
+  { "block": "minecraft:bamboo_sapling", "weight": 1 },
   { "block": "minecraft:blue_orchid", "weight": 1 },
   { "block": "minecraft:allium", "weight": 1 },
   { "block": "minecraft:azure_bluet", "weight": 1 },
