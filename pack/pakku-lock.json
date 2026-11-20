@@ -1125,47 +1125,6 @@
             ]
         },
         {
-            "pakku_id": "OX3gygDi20nvlcaf",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "collective"
-            },
-            "name": {
-                "modrinth": "Collective"
-            },
-            "id": {
-                "modrinth": "e0M1UDsY"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "collective-1.21.1-8.86.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "forge",
-                        "neoforge",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/e0M1UDsY/versions/ry7LvdEb/collective-1.21.1-8.86.jar",
-                    "id": "ry7LvdEb",
-                    "parent_id": "e0M1UDsY",
-                    "hashes": {
-                        "sha512": "b741915a3952bfb1f83ff74a3aee84128fb0d09b8e75ff836b1820c1b2d221fd5cf4bfa91146afee02468f6a7010cf5ae2b8f64746a6fc7bfa1e27b0abc4f99a",
-                        "sha1": "91f6a5c0ea671349b710a34810160abfb5dcc4c0"
-                    },
-                    "required_dependencies": [],
-                    "size": 1633821,
-                    "date_published": "2026-11-10T21:22:42.984673Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "alzRwripilMbyye0",
             "type": "MOD",
             "side": "CLIENT",
@@ -2590,52 +2549,6 @@
                     ],
                     "size": 268819,
                     "date_published": "2026-10-12T19:01:00.585524Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "IoY7EXMbJePkqVjz",
-            "pakku_links": [
-                "OX3gygDi20nvlcaf"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "random-bone-meal-flowers"
-            },
-            "name": {
-                "modrinth": "Random Bone Meal Flowers"
-            },
-            "id": {
-                "modrinth": "17enPZMC"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "randombonemealflowers-1.21.1-5.0.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "forge",
-                        "neoforge",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/17enPZMC/versions/yc2eQ5mX/randombonemealflowers-1.21.1-5.0.jar",
-                    "id": "yc2eQ5mX",
-                    "parent_id": "17enPZMC",
-                    "hashes": {
-                        "sha512": "5a46bee88f167a80967b738d69ce1f5d62198cc1d44dcf2f050e7229433d9dcd38a564f62cdf21059b8365b361e10c169d3a8abc1da9cf31c2b55cb02096cfea",
-                        "sha1": "63ae5f3808bca7493696e61f3e012e464ba6c918"
-                    },
-                    "required_dependencies": [
-                        "e0M1UDsY"
-                    ],
-                    "size": 49074,
-                    "date_published": "2026-11-08T15:30:48.045425Z"
                 }
             ]
         },

@@ -27,6 +27,8 @@ class CobbleblockCore(modBus: IEventBus) {
         NeoForge.EVENT_BUS.addListener(CobbleblockContent::addTooltip)
         NeoForge.EVENT_BUS.addListener(Shrines::onAddReloadListener)
         NeoForge.EVENT_BUS.addListener(Meteors::onAddReloadListener)
+        NeoForge.EVENT_BUS.addListener(BoneMealFlowers::onAddReloadListener)
+        NeoForge.EVENT_BUS.addListener(BoneMealFlowers::onBonemeal)
         NeoForge.EVENT_BUS.addListener(Delayed::onServerTick)
         NeoForge.EVENT_BUS.addListener(Delayed::onServerStopped)
         NeoForge.EVENT_BUS.addListener(ShrineUse::onServerStopped)
