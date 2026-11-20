@@ -4,7 +4,7 @@ loaderVersion="[5.10,)"
 license = "MIT License"
 
 [[mods]]
-modId = "cobbleblockcore"
+modId = "cobbleblock"
 version = "${version}"
 displayName = "CobbleblockCore"
 authors = "LucyAzalea"
@@ -16,82 +16,82 @@ Mod that adds core functionality of the Cobbleblock modpack.
 [[mixins]]
 config = "cobbleblockcore.mixins.json"
 
-[[dependencies.cobbleblockcore]]
+[[dependencies.cobbleblock]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.21.1]"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.cobbleblockcore]]
+[[dependencies.cobbleblock]]
 modId = "neoforge"
 mandatory = true
 versionRange = "[21.1.182,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.cobbleblockcore]]
+[[dependencies.cobbleblock]]
 modId = "cobblemon"
 mandatory = true
 versionRange = "[1.8.1,)"
 ordering = "AFTER"
 side = "BOTH"
 
-[[dependencies.cobbleblockcore]]
+[[dependencies.cobbleblock]]
 modId = "rctmod"
 type = "optional"
 ordering = "AFTER"
 side = "BOTH"
 
-[[dependencies.cobbleblockcore]]
+[[dependencies.cobbleblock]]
 modId = "create"
 type = "optional"
 ordering = "AFTER"
 side = "BOTH"
 
-[[dependencies.cobbleblockcore]]
+[[dependencies.cobbleblock]]
 modId = "createaddition"
 type = "optional"
 ordering = "AFTER"
 side = "BOTH"
 
-[[dependencies.cobbleblockcore]]
+[[dependencies.cobbleblock]]
 modId = "farmersdelight"
 type = "optional"
 ordering = "AFTER"
 side = "BOTH"
 
-[[dependencies.cobbleblockcore]]
+[[dependencies.cobbleblock]]
 modId = "cobblemonwildloot"
 type = "optional"
 ordering = "AFTER"
 side = "BOTH"
 
-[[dependencies.cobbleblockcore]]
+[[dependencies.cobbleblock]]
 modId = "mega_showdown"
 type = "optional"
 ordering = "AFTER"
 side = "BOTH"
 
-[[dependencies.cobbleblockcore]]
+[[dependencies.cobbleblock]]
 modId = "z_atm_x_msd"
 type = "optional"
 ordering = "AFTER"
 side = "BOTH"
 
-[[dependencies.cobbleblockcore]]
+[[dependencies.cobbleblock]]
 modId = "sophisticatedstorage"
 type = "optional"
 ordering = "AFTER"
 side = "BOTH"
 
-[[dependencies.cobbleblockcore]]
+[[dependencies.cobbleblock]]
 modId = "onlyhammers"
 type = "optional"
 ordering = "AFTER"
 side = "BOTH"
 
-[[dependencies.cobbleblockcore]]
+[[dependencies.cobbleblock]]
 modId = "create_ultimate_factory"
 type = "optional"
 ordering = "AFTER"
