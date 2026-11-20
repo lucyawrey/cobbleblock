@@ -1,0 +1,6 @@
+{
+  "spawnablePositionType": "surface",
+  "condition": {
+    "fluid": "#minecraft:water"
+  }
+}

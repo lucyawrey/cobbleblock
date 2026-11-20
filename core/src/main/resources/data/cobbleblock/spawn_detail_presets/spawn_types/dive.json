@@ -1,0 +1,6 @@
+{
+  "spawnablePositionType": "submerged",
+  "condition": {
+    "fluid": "#minecraft:water"
+  }
+}

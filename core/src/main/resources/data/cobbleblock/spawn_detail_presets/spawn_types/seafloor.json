@@ -1,0 +1,8 @@
+{
+  "spawnablePositionType": "seafloor",
+  "condition": {
+    "neededBaseBlocks": [
+      "#cobbleblock:spawn_ground"
+    ]
+  }
+}
