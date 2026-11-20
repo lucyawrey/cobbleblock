@@ -114,14 +114,15 @@ export function toFile(species: Species, spawn: EditorSpawn) {
   }
 }
 
-export function sheetRows(species: Species): Record<string, string>[] {
+export function sheetRows(species: Species): Record<string, string | string[]>[] {
   const dir = process.env.SPAWN_SHEET_DIR
   const path = dir && join(dir, 'spawns.csv')
   if (!path || !existsSync(path)) return []
   const [header, ...rows] = parseCsv(readFileSync(path, 'utf8'))
   return rows
     .filter(row => row[1] === species.id)
-    .map(row => Object.fromEntries(header!.map((key, i) => [key, row[i] ?? '']).filter(([key, value]) => key && value)))
+    .map(row => Object.fromEntries(header!.map((key, i) => [key, row[i] ?? '']).filter(([key, value]) => key && value)
+      .map(([key, value]) => [key, value!.includes(',') ? value!.split(/,\s*/) : value])))
 }
 
 function parseCsv(text: string): string[][] {

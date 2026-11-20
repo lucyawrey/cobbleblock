@@ -30,7 +30,7 @@ export interface PokemonDetail {
   species: Species
   status: PokemonStatus
   base: Record<string, unknown[]>
-  sheet: Record<string, string>[]
+  sheet: Record<string, string | string[]>[]
   pack: unknown[]
   spawns: EditorSpawn[]
 }
