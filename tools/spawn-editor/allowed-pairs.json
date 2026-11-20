@@ -1,0 +1,20 @@
+{
+  "nether": [
+    "ground",
+    "cave",
+    "surf",
+    "lava",
+    "dive",
+    "seafloor",
+    "fishing"
+  ],
+  "overworld": [
+    "ground",
+    "cave",
+    "surf",
+    "lava",
+    "dive",
+    "seafloor",
+    "fishing"
+  ]
+}
