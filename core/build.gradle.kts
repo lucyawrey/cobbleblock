@@ -14,7 +14,7 @@ base.archivesName = "CobbleblockCore"
 neoForge {
     version = "21.1.249"
     mods {
-        create("cobbleblockcore") { sourceSet(sourceSets.main.get()) }
+        create("cobbleblock") { sourceSet(sourceSets.main.get()) }
     }
     runs {
         create("packClient") {

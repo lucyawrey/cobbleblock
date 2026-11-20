@@ -11,7 +11,7 @@ import net.neoforged.fml.common.Mod
 import net.neoforged.neoforge.common.NeoForge
 import net.neoforged.neoforge.registries.DeferredRegister
 
-@Mod("cobbleblockcore")
+@Mod("cobbleblock")
 class CobbleblockCore(modBus: IEventBus) {
     init {
         DeferredRegister.create(Registries.STRUCTURE_TYPE, "cobbleblock").apply {

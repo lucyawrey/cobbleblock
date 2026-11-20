@@ -1,9 +1,9 @@
 {
-  "name": "Torn Page #4 (Trader)",
+  "name": "Torn Page #6 (Shrine)",
   "icon": "cobbleblock:torn_page",
-  "category": "patchouli:torn_journal_entries",
-  "advancement": "cobbleblock:page_4_trader",
-  "sortnum": 3,
+  "category": "cobbleblock:torn_journal_entries",
+  "advancement": "cobbleblock:page_6_shrine",
+  "sortnum": 5,
   "pages": [
     {
       "type": "patchouli:text",

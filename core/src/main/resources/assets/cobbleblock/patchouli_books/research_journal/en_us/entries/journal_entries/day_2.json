@@ -1,7 +1,7 @@
 {
   "name": "Day 2",
   "icon": "minecraft:writable_book",
-  "category": "patchouli:journal_entries",
+  "category": "cobbleblock:journal_entries",
   "sortnum": 2,
   "pages": [
     {

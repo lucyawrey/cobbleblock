@@ -1,7 +1,7 @@
 {
   "name": "Introduction Continued",
   "icon": "minecraft:writable_book",
-  "category": "patchouli:journal_entries",
+  "category": "cobbleblock:journal_entries",
   "sortnum": 0,
   "pages": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "  Anyways, keep calm, don't panic, and I hope to see you on the road ahead! Best of luck to ya!$(br) - A$(br)  $(l:patchouli:journal_entries/day_1)(Go to day 1)$()"
+      "text": "  Anyways, keep calm, don't panic, and I hope to see you on the road ahead! Best of luck to ya!$(br) - A$(br)  $(l:cobbleblock:journal_entries/day_1)(Go to day 1)$()"
     }
   ]
 }
