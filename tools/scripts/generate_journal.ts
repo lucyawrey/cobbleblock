@@ -1,6 +1,6 @@
 import { Glob } from "bun";
 
-const outPath = "../core/src/main/resources/assets/cobbleblock/patchouli_books/research_journal/en_us/entries";
+const outPath = "../../core/src/main/resources/assets/cobbleblock/patchouli_books/research_journal/en_us/entries";
 const inPath = "research_journal";
 
 const glob = new Glob("**/*.md");
