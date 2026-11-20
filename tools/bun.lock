@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "scripts",
+      "name": "tools",
       "dependencies": {
         "csv-parse": "^6.2.1",
       },
