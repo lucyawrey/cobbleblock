@@ -4,29 +4,40 @@ import { formatTicks, parseTicks, timeRanges } from '#shared/spawns'
 const model = defineModel<string>({ required: true })
 
 const items = [
-  ...Object.entries(timeRanges).map(([value, ticks]) => ({ label: ticks ? `${value} (${ticks})` : value, value })),
+  ...timeRanges.filter(value => value !== 'any').map(value => ({ label: value, value })),
   { label: 'custom ticks', value: 'custom' }
 ]
 
-const choice = computed({
-  get: () => model.value in timeRanges ? model.value : 'custom',
-  set: value => model.value = value === 'custom' ? '13000-22999' : value
-})
+// The JSON value is a comma list of names and tick ranges, or 'any'.
+const parts = computed(() => model.value === 'any' ? [] : model.value.split(','))
+const names = computed(() => parts.value.filter(part => timeRanges.includes(part)))
+const ticks = computed(() => parseTicks(parts.value.filter(part => !timeRanges.includes(part)).join(',')))
 
-const ticks = computed<[number, number]>(() => parseTicks(model.value) ?? [0, 23999])
-const from = computed({ get: () => ticks.value[0], set: value => model.value = formatTicks([value, ticks.value[1]]) })
-const to = computed({ get: () => ticks.value[1], set: value => model.value = formatTicks([ticks.value[0], value]) })
+function write(names: string[], ticks?: [number, number]) {
+  const all = [...names, ...(ticks ? [formatTicks(ticks)] : [])]
+  model.value = all.length > 0 ? all.join(',') : 'any'
+}
+
+const selected = computed({
+  get: () => [...names.value, ...(ticks.value ? ['custom'] : [])],
+  set: values => write(values.filter(value => value !== 'custom'), values.includes('custom') ? ticks.value ?? [13000, 22999] : undefined)
+})
+const from = computed({ get: () => ticks.value![0], set: value => write(names.value, [value, ticks.value![1]]) })
+const to = computed({ get: () => ticks.value![1], set: value => write(names.value, [ticks.value![0], value]) })
 </script>
 
 <template>
   <div class="flex flex-col gap-2">
-    <USelect
-      v-model="choice"
+    <USelectMenu
+      v-model="selected"
       :items="items"
+      value-key="value"
+      multiple
+      placeholder="any"
       class="w-full"
     />
     <div
-      v-if="choice === 'custom'"
+      v-if="ticks"
       class="flex items-center gap-2"
     >
       <UInputNumber

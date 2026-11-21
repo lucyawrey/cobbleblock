@@ -46,21 +46,7 @@ export interface HabitatData {
 }
 
 export const buckets = ['common', 'uncommon', 'rare', 'ultra-rare']
-// Cobblemon 1.8.4's named time ranges, in ticks (0 is sunrise, 6000 noon, 18000 midnight).
-export const timeRanges: Record<string, string> = {
-  any: '',
-  day: '23460–12541',
-  night: '12542–23459',
-  morning: '23000–4999',
-  noon: '5000–6999',
-  afternoon: '7000–12999',
-  evening: '13000–16999',
-  midnight: '17000–18999',
-  predawn: '19000–22999',
-  dawn: '22300–166',
-  dusk: '11834–13701',
-  twilight: 'dawn and dusk'
-}
+export const timeRanges = ['any', 'day', 'night', 'morning', 'noon', 'afternoon', 'evening', 'midnight', 'predawn', 'dawn', 'dusk', 'twilight']
 
 export const weathers = ['any', 'clear', 'rain', 'thunder'] as const
 export type Weather = typeof weathers[number]

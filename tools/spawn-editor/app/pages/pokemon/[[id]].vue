@@ -198,8 +198,12 @@ const sources = computed(() => {
               class="w-full"
             />
           </UFormField>
-          <UFormField label="Time range">
-            <TimeRangeField v-model="spawn.timeRange" />
+          <UFormField label="Weather">
+            <USelect
+              v-model="spawn.weather"
+              :items="[...weathers]"
+              class="w-full"
+            />
           </UFormField>
           <UFormField
             label="Dark"
@@ -207,12 +211,8 @@ const sources = computed(() => {
           >
             <USwitch v-model="spawn.dark" />
           </UFormField>
-          <UFormField label="Weather">
-            <USelect
-              v-model="spawn.weather"
-              :items="[...weathers]"
-              class="w-full"
-            />
+          <UFormField label="Time range">
+            <TimeRangeField v-model="spawn.timeRange" />
           </UFormField>
           <UFormField label="Moon phase">
             <USelectMenu
