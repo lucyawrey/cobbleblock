@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "minSkyLight": 8,
+    "maxSkyLight": 15,
+    "neededNearbyBlocks": [
+      "minecraft:red_sand",
+      "#minecraft:terracotta"
+    ],
+    "neededBaseBlocks": [
+      "minecraft:red_sand",
+      "#minecraft:terracotta"
+    ]
+  }
+}

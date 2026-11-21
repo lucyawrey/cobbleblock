@@ -1,0 +1,15 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "neededNearbyBlocks": [
+      "minecraft:soul_sand",
+      "minecraft:soul_soil"
+    ],
+    "neededBaseBlocks": [
+      "minecraft:soul_sand",
+      "minecraft:soul_soil"
+    ]
+  }
+}

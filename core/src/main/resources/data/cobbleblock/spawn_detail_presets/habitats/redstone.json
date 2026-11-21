@@ -1,0 +1,15 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "neededNearbyBlocks": [
+      "#cobblemon:redstone_blocks",
+      "minecraft:lightning_rod"
+    ],
+    "neededBaseBlocks": [
+      "#cobblemon:redstone_blocks",
+      "minecraft:lightning_rod"
+    ]
+  }
+}

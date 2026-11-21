@@ -1,0 +1,27 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "neededNearbyBlocks": [
+      "create:cogwheel",
+      "create:large_cogwheel",
+      "create:gearbox",
+      "create:shaft",
+      "create:mechanical_drill",
+      "create:mechanical_saw",
+      "create:mechanical_harvester",
+      "create:water_wheel"
+    ],
+    "neededBaseBlocks": [
+      "create:cogwheel",
+      "create:large_cogwheel",
+      "create:gearbox",
+      "create:shaft",
+      "create:mechanical_drill",
+      "create:mechanical_saw",
+      "create:mechanical_harvester",
+      "create:water_wheel"
+    ]
+  }
+}

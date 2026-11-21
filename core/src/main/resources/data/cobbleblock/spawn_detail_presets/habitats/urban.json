@@ -1,0 +1,29 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "neededNearbyBlocks": [
+      "#minecraft:wool",
+      "#cobblemon:concrete_blocks",
+      "#c:glass_blocks",
+      "#c:glass_panes",
+      "#c:fences",
+      "#minecraft:beds",
+      "minecraft:torch",
+      "minecraft:lantern",
+      "minecraft:bell"
+    ],
+    "neededBaseBlocks": [
+      "#minecraft:wool",
+      "#cobblemon:concrete_blocks",
+      "#c:glass_blocks",
+      "#c:glass_panes",
+      "#c:fences",
+      "#minecraft:beds",
+      "minecraft:torch",
+      "minecraft:lantern",
+      "minecraft:bell"
+    ]
+  }
+}

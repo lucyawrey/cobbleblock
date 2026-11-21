@@ -1,0 +1,15 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "neededNearbyBlocks": [
+      "minecraft:stone",
+      "#c:stones"
+    ],
+    "neededBaseBlocks": [
+      "minecraft:stone",
+      "#c:stones"
+    ]
+  }
+}

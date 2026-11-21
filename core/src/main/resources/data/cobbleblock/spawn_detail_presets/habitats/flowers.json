@@ -1,0 +1,15 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "minSkyLight": 8,
+    "maxSkyLight": 15,
+    "neededNearbyBlocks": [
+      "#minecraft:flowers"
+    ],
+    "neededBaseBlocks": [
+      "#minecraft:flowers"
+    ]
+  }
+}

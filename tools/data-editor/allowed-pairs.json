@@ -1,4 +1,67 @@
 {
+  "badlands": [
+    "ground"
+  ],
+  "bamboo": [
+    "ground"
+  ],
+  "beach": [
+    "ground"
+  ],
+  "beach_shore": [
+    "surf",
+    "dive"
+  ],
+  "cherry": [
+    "ground"
+  ],
+  "dark_forest": [
+    "ground"
+  ],
+  "deep_dark": [
+    "ground",
+    "cave"
+  ],
+  "desert": [
+    "ground"
+  ],
+  "dripstone_cave": [
+    "ground",
+    "cave"
+  ],
+  "farm": [
+    "ground"
+  ],
+  "flowers": [
+    "ground"
+  ],
+  "forest": [
+    "ground"
+  ],
+  "gemstones": [
+    "ground",
+    "dive"
+  ],
+  "grassland": [
+    "ground"
+  ],
+  "jungle": [
+    "ground",
+    "dive"
+  ],
+  "library": [
+    "ground"
+  ],
+  "lush_cave": [
+    "ground",
+    "dive"
+  ],
+  "machinery": [
+    "ground"
+  ],
+  "mushroom": [
+    "ground"
+  ],
   "nether": [
     "ground",
     "cave",
@@ -8,6 +71,12 @@
     "seafloor",
     "fishing"
   ],
+  "nether_forest": [
+    "ground"
+  ],
+  "nether_fortress": [
+    "ground"
+  ],
   "overworld": [
     "ground",
     "cave",
@@ -16,5 +85,51 @@
     "dive",
     "seafloor",
     "fishing"
+  ],
+  "pokemon_center": [
+    "ground"
+  ],
+  "redstone": [
+    "ground"
+  ],
+  "reef": [
+    "ground",
+    "surf",
+    "dive",
+    "seafloor"
+  ],
+  "saccharine": [
+    "ground"
+  ],
+  "savanna": [
+    "ground"
+  ],
+  "snow": [
+    "ground",
+    "dive"
+  ],
+  "soul": [
+    "ground"
+  ],
+  "steel": [
+    "ground"
+  ],
+  "stone": [
+    "ground",
+    "cave"
+  ],
+  "swamp": [
+    "ground",
+    "dive"
+  ],
+  "taiga": [
+    "ground"
+  ],
+  "urban": [
+    "ground",
+    "cave"
+  ],
+  "volcanic": [
+    "ground"
   ]
 }

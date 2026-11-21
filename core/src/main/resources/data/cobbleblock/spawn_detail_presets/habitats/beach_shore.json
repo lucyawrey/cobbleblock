@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "minSkyLight": 8,
+    "maxSkyLight": 15,
+    "neededNearbyBlocks": [
+      "minecraft:sand",
+      "minecraft:sugar_cane"
+    ],
+    "neededBaseBlocks": [
+      "minecraft:sand",
+      "minecraft:sugar_cane"
+    ]
+  }
+}

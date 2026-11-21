@@ -12,6 +12,7 @@ export interface Habitat {
   exposure: Exposure
   dimensions: string[]
   allowed: SpawnType[]
+  draft?: boolean
 }
 
 export interface SpawnRef {

@@ -75,7 +75,16 @@ async function save() {
           :class="{ 'bg-elevated font-medium': other.id === selectedId }"
         >
           <span>{{ other.id }}</span>
-          <span class="text-xs text-muted">{{ useCount(other.id) }}</span>
+          <span class="flex items-center gap-2">
+            <UBadge
+              v-if="other.draft"
+              color="info"
+              variant="subtle"
+              size="sm"
+              :label="copy.habitats.draft"
+            />
+            <span class="text-xs text-muted">{{ useCount(other.id) }}</span>
+          </span>
         </NuxtLink>
       </nav>
     </aside>

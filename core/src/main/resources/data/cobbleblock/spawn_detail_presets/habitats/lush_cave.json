@@ -1,0 +1,31 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "minSkyLight": 0,
+    "maxSkyLight": 7,
+    "neededNearbyBlocks": [
+      "minecraft:azalea",
+      "minecraft:flowering_azalea",
+      "minecraft:azalea_leaves",
+      "minecraft:flowering_azalea_leaves",
+      "minecraft:moss_block",
+      "minecraft:hanging_roots",
+      "minecraft:big_dripleaf",
+      "minecraft:small_dripleaf",
+      "minecraft:cave_vines"
+    ],
+    "neededBaseBlocks": [
+      "minecraft:azalea",
+      "minecraft:flowering_azalea",
+      "minecraft:azalea_leaves",
+      "minecraft:flowering_azalea_leaves",
+      "minecraft:moss_block",
+      "minecraft:hanging_roots",
+      "minecraft:big_dripleaf",
+      "minecraft:small_dripleaf",
+      "minecraft:cave_vines"
+    ]
+  }
+}

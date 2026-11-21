@@ -1,0 +1,19 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "neededNearbyBlocks": [
+      "#c:bookshelves",
+      "minecraft:chiseled_bookshelf",
+      "minecraft:enchanting_table",
+      "minecraft:lectern"
+    ],
+    "neededBaseBlocks": [
+      "#c:bookshelves",
+      "minecraft:chiseled_bookshelf",
+      "minecraft:enchanting_table",
+      "minecraft:lectern"
+    ]
+  }
+}

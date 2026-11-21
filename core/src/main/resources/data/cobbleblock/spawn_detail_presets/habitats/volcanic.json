@@ -1,0 +1,22 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld",
+      "minecraft:the_nether"
+    ],
+    "neededNearbyBlocks": [
+      "minecraft:basalt",
+      "minecraft:magma_block",
+      "minecraft:netherrack",
+      "#minecraft:fire",
+      "#minecraft:campfires"
+    ],
+    "neededBaseBlocks": [
+      "minecraft:basalt",
+      "minecraft:magma_block",
+      "minecraft:netherrack",
+      "#minecraft:fire",
+      "#minecraft:campfires"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "neededNearbyBlocks": [
+      "minecraft:seagrass",
+      "minecraft:tall_seagrass",
+      "minecraft:kelp_plant",
+      "minecraft:sea_pickle",
+      "#minecraft:corals",
+      "#minecraft:coral_blocks"
+    ],
+    "neededBaseBlocks": [
+      "minecraft:seagrass",
+      "minecraft:tall_seagrass",
+      "minecraft:kelp_plant",
+      "minecraft:sea_pickle",
+      "#minecraft:corals",
+      "#minecraft:coral_blocks"
+    ]
+  }
+}

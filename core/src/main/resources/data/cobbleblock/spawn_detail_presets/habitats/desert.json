@@ -1,0 +1,19 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "minSkyLight": 8,
+    "maxSkyLight": 15,
+    "neededNearbyBlocks": [
+      "minecraft:dead_bush",
+      "minecraft:cactus",
+      "minecraft:sandstone"
+    ],
+    "neededBaseBlocks": [
+      "minecraft:dead_bush",
+      "minecraft:cactus",
+      "minecraft:sandstone"
+    ]
+  }
+}

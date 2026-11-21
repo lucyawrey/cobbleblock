@@ -15,12 +15,17 @@ const skyLight: Record<Exposure, [number, number] | undefined> = {
   any: undefined
 }
 
+function habitatDrafts(): string[] {
+  return existsSync(habitatDraftsFile) ? readJson<string[]>(habitatDraftsFile) : []
+}
+
 function allowedPairs(): Record<string, SpawnType[]> {
   return existsSync(allowedPairsFile) ? readJson<Record<string, SpawnType[]>>(allowedPairsFile) : {}
 }
 
 export function readHabitats(): Habitat[] {
   const allowed = allowedPairs()
+  const drafts = habitatDrafts()
   return listJson(habitatDir).map((path) => {
     const id = basename(path, '.json')
     const condition = readJson<{ condition?: HabitatCondition }>(path).condition ?? {}
@@ -31,7 +36,8 @@ export function readHabitats(): Habitat[] {
       blocks: condition.neededNearbyBlocks ?? [],
       exposure,
       dimensions: condition.dimensions ?? [],
-      allowed: allowed[id] ?? []
+      allowed: allowed[id] ?? [],
+      draft: drafts.includes(id)
     }
   }).sort((a, b) => a.id.localeCompare(b.id))
 }
@@ -55,4 +61,7 @@ export function writeHabitat(habitat: Habitat, oldId?: string) {
   writeJson(join(habitatDir, `${habitat.id}.json`), { condition })
   const pairs = Object.entries({ ...allowed, [habitat.id]: habitat.allowed }).filter(([id]) => id !== oldId || id === habitat.id)
   writeJson(allowedPairsFile, Object.fromEntries(pairs.sort(([a], [b]) => a.localeCompare(b))))
+  const drafts = habitatDrafts().filter(id => id !== habitat.id && id !== oldId)
+  if (drafts.length > 0) writeJson(habitatDraftsFile, drafts)
+  else removeFile(habitatDraftsFile)
 }

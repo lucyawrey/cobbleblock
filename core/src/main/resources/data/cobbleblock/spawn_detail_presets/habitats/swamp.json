@@ -1,0 +1,23 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "minSkyLight": 8,
+    "maxSkyLight": 15,
+    "neededNearbyBlocks": [
+      "minecraft:lily_pad",
+      "minecraft:mud",
+      "#minecraft:mangrove_logs",
+      "minecraft:mangrove_leaves",
+      "minecraft:mangrove_roots"
+    ],
+    "neededBaseBlocks": [
+      "minecraft:lily_pad",
+      "minecraft:mud",
+      "#minecraft:mangrove_logs",
+      "minecraft:mangrove_leaves",
+      "minecraft:mangrove_roots"
+    ]
+  }
+}

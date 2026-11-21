@@ -34,6 +34,7 @@
     "blocks": "Blocks",
     "blocksHelp": "Spawns need one of these nearby, and ground spawns can also stand on them. Leave empty for a habitat with no block check.",
     "breaksSpawns": "Saving this breaks these spawns",
+    "draft": "Draft",
     "empty": "Pick a habitat or make a new one."
   },
   "pokemon": {
@@ -86,6 +87,8 @@
   },
   "server": {
     "noPokemon": "No Pokémon called {id}",
-    "typeNotAllowed": "{spawn}: {habitat} doesn't allow {type}"
+    "typeNotAllowed": "{spawn}: {habitat} doesn't allow {type}",
+    "habitatExists": "{id} already exists",
+    "habitatInUse": "spawns use {id}, so it can't be renamed"
   }
 }

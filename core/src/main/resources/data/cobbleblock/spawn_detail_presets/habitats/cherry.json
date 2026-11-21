@@ -1,0 +1,19 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "minSkyLight": 8,
+    "maxSkyLight": 15,
+    "neededNearbyBlocks": [
+      "#minecraft:cherry_logs",
+      "minecraft:cherry_leaves",
+      "minecraft:pink_petals"
+    ],
+    "neededBaseBlocks": [
+      "#minecraft:cherry_logs",
+      "minecraft:cherry_leaves",
+      "minecraft:pink_petals"
+    ]
+  }
+}

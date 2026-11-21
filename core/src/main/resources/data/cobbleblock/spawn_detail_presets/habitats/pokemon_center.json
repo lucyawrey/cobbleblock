@@ -1,0 +1,21 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "neededNearbyBlocks": [
+      "cobblemon:healing_machine",
+      "cobblemon:pc",
+      "cobblemon:monitor",
+      "cobblemon:potion",
+      "minecraft:brewing_stand"
+    ],
+    "neededBaseBlocks": [
+      "cobblemon:healing_machine",
+      "cobblemon:pc",
+      "cobblemon:monitor",
+      "cobblemon:potion",
+      "minecraft:brewing_stand"
+    ]
+  }
+}

@@ -7,6 +7,7 @@ export const packData = join(repo, 'core/src/main/resources/data/cobbleblock')
 export const spawnDir = join(packData, 'spawn_pool_world')
 export const habitatDir = join(packData, 'spawn_detail_presets/habitats')
 export const allowedPairsFile = join(process.cwd(), 'allowed-pairs.json')
+export const habitatDraftsFile = join(process.cwd(), 'habitat-drafts.json')
 export const draftDir = join(process.cwd(), 'drafts')
 const cacheDir = join(process.cwd(), '.cache/jars')
 

@@ -1,0 +1,19 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "neededNearbyBlocks": [
+      "minecraft:iron_block",
+      "minecraft:iron_bars",
+      "minecraft:iron_door",
+      "#minecraft:iron_ores"
+    ],
+    "neededBaseBlocks": [
+      "minecraft:iron_block",
+      "minecraft:iron_bars",
+      "minecraft:iron_door",
+      "#minecraft:iron_ores"
+    ]
+  }
+}

@@ -1,3 +1,4 @@
+import { copy, fill } from '#shared/copy'
 import { habitatErrors, type Habitat } from '#shared/rules'
 
 export default defineEventHandler(async (event) => {
@@ -6,10 +7,10 @@ export default defineEventHandler(async (event) => {
   const errors = habitatErrors(habitat)
   const habitats = readHabitats()
   if (habitat.id !== oldId && habitats.some(other => other.id === habitat.id)) {
-    errors.push(`${habitat.id} already exists`)
+    errors.push(fill(copy.server.habitatExists, { id: habitat.id }))
   }
   if (habitat.id !== oldId && allSpawnRefs().some(spawn => spawn.habitat === oldId)) {
-    errors.push(`spawns use ${oldId}, so it can't be renamed`)
+    errors.push(fill(copy.server.habitatInUse, { id: oldId }))
   }
   if (errors.length > 0) {
     throw createError({ statusCode: 400, statusMessage: errors.join('; ') })

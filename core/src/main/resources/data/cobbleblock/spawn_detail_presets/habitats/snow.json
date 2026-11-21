@@ -1,0 +1,25 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "minSkyLight": 8,
+    "maxSkyLight": 15,
+    "neededNearbyBlocks": [
+      "minecraft:snow",
+      "minecraft:snow_block",
+      "minecraft:powder_snow",
+      "minecraft:ice",
+      "minecraft:packed_ice",
+      "minecraft:blue_ice"
+    ],
+    "neededBaseBlocks": [
+      "minecraft:snow",
+      "minecraft:snow_block",
+      "minecraft:powder_snow",
+      "minecraft:ice",
+      "minecraft:packed_ice",
+      "minecraft:blue_ice"
+    ]
+  }
+}
