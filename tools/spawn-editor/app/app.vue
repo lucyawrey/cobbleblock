@@ -7,7 +7,7 @@ useHead({ title: 'Spawn editor', htmlAttrs: { lang: 'en' } })
     <UHeader title="Spawn editor">
       <UNavigationMenu
         :items="[
-          { label: 'Pokémon', to: '/' },
+          { label: 'Pokémon', to: '/pokemon' },
           { label: 'Habitats', to: '/habitats' }
         ]"
       />

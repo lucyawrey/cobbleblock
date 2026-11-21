@@ -2,6 +2,8 @@
 import { isAllowed, spawnTypes } from '#shared/rules'
 import { buckets, timeRanges, type EditorSpawn, type HabitatData, type PokemonDetail, type PokemonListItem, type PokemonStatus } from '#shared/spawns'
 
+definePageMeta({ key: 'pokemon' })
+
 const route = useRoute()
 const toast = useToast()
 
@@ -18,8 +20,11 @@ const filtered = computed(() => (list.value ?? []).filter(pokemon =>
   && `${pokemon.dex} ${pokemon.name}`.toLowerCase().includes(search.value.toLowerCase())
 ))
 
-const selectedId = computed(() => route.query.p as string | undefined)
-const { data: detail, refresh: refreshDetail } = await useFetch<PokemonDetail>(() => `/api/pokemon/${selectedId.value}`, { immediate: !!selectedId.value, watch: [selectedId] })
+const selectedId = computed(() => route.params.id as string | undefined)
+const { data: detail, refresh: refreshDetail } = await useAsyncData(
+  () => `pokemon-${selectedId.value}`,
+  () => selectedId.value ? $fetch<PokemonDetail>(`/api/pokemon/${selectedId.value}`) : Promise.resolve(undefined)
+)
 
 const spawns = ref<EditorSpawn[]>([])
 watch(detail, value => spawns.value = structuredClone(toRaw(value?.spawns ?? [])), { immediate: true })
@@ -83,7 +88,7 @@ const sources = computed(() => {
         <NuxtLink
           v-for="pokemon in filtered"
           :key="pokemon.id"
-          :to="{ query: { p: pokemon.id } }"
+          :to="`/pokemon/${pokemon.id}`"
           class="flex items-center justify-between rounded-md px-2 py-1.5 text-sm hover:bg-elevated"
           :class="{ 'bg-elevated font-medium': pokemon.id === selectedId }"
         >

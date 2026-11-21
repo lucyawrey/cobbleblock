@@ -2,22 +2,37 @@
 import { blockedReason, exposures, habitatErrors, spawnTypes, wouldBreak, type Habitat } from '#shared/rules'
 import type { HabitatData } from '#shared/spawns'
 
+definePageMeta({ key: 'habitats' })
+
+const route = useRoute()
 const toast = useToast()
 const { data, refresh } = await useFetch<HabitatData>('/api/habitats')
+const { data: blocks } = await useFetch<string[]>('/api/blocks')
 
 const dimensions = ['minecraft:overworld', 'minecraft:the_nether', 'minecraft:the_end', 'cobbleblock:ancient_forest']
 const exposureHelp = { outdoors: 'sky light 8–15', sheltered: 'sky light 0–7', any: 'no sky light check' }
 
-const selectedId = ref<string>()
+const selectedId = computed(() => route.params.id as string | undefined)
 const habitat = ref<Habitat>()
 
-function select(id?: string) {
-  selectedId.value = id
+function load(id?: string) {
   const saved = data.value?.habitats.find(habitat => habitat.id === id)
-  habitat.value = saved
-    ? structuredClone(toRaw(saved))
-    : { id: '', blocks: [], exposure: 'outdoors', dimensions: ['minecraft:overworld'], allowed: ['ground'] }
+  habitat.value = saved && structuredClone(toRaw(saved))
 }
+watch(selectedId, load, { immediate: true })
+
+async function newHabitat() {
+  await navigateTo('/habitats')
+  habitat.value = { id: '', blocks: [], exposure: 'outdoors', dimensions: ['minecraft:overworld'], allowed: ['ground'] }
+}
+
+const blockToAdd = ref<string | null>(null)
+const blockOptions = computed(() => (blocks.value ?? []).filter(block => !habitat.value?.blocks.includes(block)))
+watch(blockToAdd, (block) => {
+  if (!block) return
+  habitat.value!.blocks.push(block)
+  blockToAdd.value = null
+})
 
 function useCount(id: string) {
   return data.value?.spawns.filter(spawn => spawn.habitat === id).length ?? 0
@@ -40,7 +55,8 @@ async function save() {
     await $fetch(`/api/habitats/${selectedId.value || habitat.value!.id}`, { method: 'PUT', body: habitat.value })
     toast.add({ title: 'Saved', color: 'success' })
     await refresh()
-    select(habitat.value!.id)
+    if (habitat.value!.id === selectedId.value) load(selectedId.value)
+    else await navigateTo(`/habitats/${habitat.value!.id}`)
   } catch (error) {
     toast.add({ title: 'Not saved', description: errorMessage(error), color: 'error' })
   } finally {
@@ -57,20 +73,19 @@ async function save() {
         icon="i-lucide-plus"
         color="neutral"
         variant="outline"
-        @click="select()"
+        @click="newHabitat"
       />
       <nav class="-mx-2">
-        <button
+        <NuxtLink
           v-for="other in data?.habitats"
           :key="other.id"
-          type="button"
+          :to="`/habitats/${other.id}`"
           class="flex w-full items-center justify-between rounded-md px-2 py-1.5 text-left text-sm hover:bg-elevated"
           :class="{ 'bg-elevated font-medium': other.id === selectedId }"
-          @click="select(other.id)"
         >
           <span>{{ other.id }}</span>
           <span class="text-xs text-muted">{{ useCount(other.id) }}</span>
-        </button>
+        </NuxtLink>
       </nav>
     </aside>
 
@@ -78,23 +93,23 @@ async function save() {
       v-if="habitat"
       class="flex min-w-0 flex-[999_1_560px] flex-col gap-6 p-6"
     >
-      <div class="flex flex-wrap items-end justify-between gap-3">
-        <UFormField
-          label="ID"
-          :error="errors[0]"
-        >
+      <UFormField
+        label="ID"
+        :error="errors[0]"
+      >
+        <div class="flex flex-wrap justify-between gap-3">
           <UInput
             v-model="habitat.id"
             class="w-60"
           />
-        </UFormField>
-        <UButton
-          label="Save"
-          :loading="saving"
-          :disabled="errors.length > 0"
-          @click="save"
-        />
-      </div>
+          <UButton
+            label="Save"
+            :loading="saving"
+            :disabled="errors.length > 0"
+            @click="save"
+          />
+        </div>
+      </UFormField>
 
       <div class="grid gap-6 md:grid-cols-3">
         <UFormField label="Dimensions">
@@ -128,11 +143,39 @@ async function save() {
         label="Blocks"
         help="Spawns need one of these nearby, and ground spawns can also stand on them. Leave empty for a habitat with no block check."
       >
-        <UInputTags
-          v-model="habitat.blocks"
-          placeholder="minecraft:jungle_leaves or #minecraft:jungle_logs"
-          class="w-full"
-        />
+        <div class="flex flex-col gap-1">
+          <div
+            v-for="(block, index) in habitat.blocks"
+            :key="block"
+            class="flex items-center justify-between gap-2 rounded-md border border-default px-2 py-1 text-sm"
+          >
+            <span class="flex items-center gap-2">
+              {{ block }}
+              <UBadge
+                v-if="blocks && !blocks.includes(block)"
+                color="warning"
+                variant="subtle"
+                size="sm"
+                label="not in the pack"
+              />
+            </span>
+            <UButton
+              icon="i-lucide-x"
+              color="neutral"
+              variant="ghost"
+              size="xs"
+              aria-label="Remove"
+              @click="habitat.blocks.splice(index, 1)"
+            />
+          </div>
+          <UInputMenu
+            v-model.nullable="blockToAdd"
+            :items="blockOptions"
+            virtualize
+            placeholder="Add a block or #tag"
+            class="w-full"
+          />
+        </div>
       </UFormField>
 
       <UAlert

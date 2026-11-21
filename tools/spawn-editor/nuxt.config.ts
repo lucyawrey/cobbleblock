@@ -21,6 +21,10 @@ export default defineNuxtConfig({
     }
   },
 
+  routeRules: {
+    '/': { redirect: '/pokemon' }
+  },
+
   compatibilityDate: '2026-06-30',
 
   eslint: {
