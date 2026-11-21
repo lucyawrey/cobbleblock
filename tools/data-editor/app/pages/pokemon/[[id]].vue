@@ -132,8 +132,8 @@ const sources = computed(() => {
               v-for="type in detail.species.types"
               :key="type"
               color="neutral"
-              variant="subtle"
               :label="type"
+              :style="typeStyle(type)"
               class="capitalize"
             />
             <UBadge
