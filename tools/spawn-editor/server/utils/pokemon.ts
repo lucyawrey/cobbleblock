@@ -1,6 +1,6 @@
 import { existsSync, readFileSync } from 'node:fs'
 import { basename, join } from 'node:path'
-import type { EditorSpawn, Species } from '#shared/spawns'
+import type { EditorSpawn, Species, Weather } from '#shared/spawns'
 import { spawnTypes, type SpawnType } from '#shared/rules'
 
 const sources = { cobblemon: 'Cobblemon-neoforge', atm: 'ATM x MSD', megaShowdown: 'mega_showdown' }
@@ -34,7 +34,8 @@ export interface RawSpawn {
   bucket: string
   level: string
   weight: number
-  condition?: { timeRange?: string, maxLight?: number, neededNearbyBlocks?: string[] }
+  condition?: { timeRange?: string, maxLight?: number, isRaining?: boolean, isThundering?: boolean, moonPhase?: string, neededNearbyBlocks?: string[] }
+  weightMultipliers?: { multiplier: number, condition: { minLureLevel?: number, maxLureLevel?: number } }[]
 }
 
 interface SpawnFile {
@@ -84,6 +85,8 @@ export function toEditor(spawn: RawSpawn): EditorSpawn | undefined {
   const habitat = presets.find(preset => preset !== type)
   if (!type || !habitat) return undefined
   const condition = spawn.condition ?? {}
+  const weather: Weather = condition.isThundering ? 'thunder' : condition.isRaining === true ? 'rain' : condition.isRaining === false ? 'clear' : 'any'
+  const lureBoosts = [1, 2, 3].map(level => spawn.weightMultipliers?.find(boost => boost.condition.minLureLevel === level)?.multiplier ?? 1)
   return {
     id: spawn.id,
     habitat,
@@ -93,6 +96,10 @@ export function toEditor(spawn: RawSpawn): EditorSpawn | undefined {
     level: spawn.level,
     timeRange: condition.timeRange ?? 'any',
     dark: condition.maxLight === 7,
+    weather,
+    moonPhases: condition.moonPhase?.split(/,\s*/).map(Number) ?? [],
+    lureBoosts,
+    properties: spawn.pokemon?.split(' ').slice(1).join(' ') ?? '',
     signatureBlocks: condition.neededNearbyBlocks ?? []
   }
 }
@@ -101,16 +108,24 @@ export function toFile(species: Species, spawn: EditorSpawn) {
   const condition: Record<string, unknown> = {}
   if (spawn.timeRange !== 'any') condition.timeRange = spawn.timeRange
   if (spawn.dark) condition.maxLight = 7
+  if (spawn.weather === 'clear') condition.isRaining = false
+  if (spawn.weather === 'rain') condition.isRaining = true
+  if (spawn.weather === 'thunder') condition.isThundering = true
+  if (spawn.moonPhases.length > 0) condition.moonPhase = [...spawn.moonPhases].sort().join(',')
   if (spawn.signatureBlocks.length > 0) condition.neededNearbyBlocks = spawn.signatureBlocks
+  const weightMultipliers = spawn.type === 'fishing'
+    ? spawn.lureBoosts.flatMap((multiplier, index) => multiplier === 1 ? [] : [{ multiplier, condition: index < 2 ? { minLureLevel: index + 1, maxLureLevel: index + 1 } : { minLureLevel: 3 } }])
+    : []
   return {
     id: spawn.id,
-    pokemon: species.id,
+    pokemon: [species.id, spawn.properties.trim()].filter(Boolean).join(' '),
     type: 'pokemon',
     presets: [`cobbleblock:${spawn.type}`, `cobbleblock:${spawn.habitat}`],
     bucket: spawn.bucket,
     level: spawn.level,
     weight: spawn.weight,
-    ...(Object.keys(condition).length > 0 ? { condition } : {})
+    ...(Object.keys(condition).length > 0 ? { condition } : {}),
+    ...(weightMultipliers.length > 0 ? { weightMultipliers } : {})
   }
 }
 

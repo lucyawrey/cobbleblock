@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { isAllowed, spawnTypes } from '#shared/rules'
-import { buckets, timeRanges, type EditorSpawn, type HabitatData, type PokemonDetail, type PokemonListItem, type PokemonStatus } from '#shared/spawns'
+import { buckets, moonPhases, newSpawn, weathers, type EditorSpawn, type HabitatData, type PokemonDetail, type PokemonListItem, type PokemonStatus } from '#shared/spawns'
 
 definePageMeta({ key: 'pokemon' })
 
@@ -43,7 +43,7 @@ function signatureHelp(spawn: EditorSpawn) {
 
 function addSpawn() {
   const id = detail.value!.species.id
-  spawns.value.push({ id: `${id}-${spawns.value.length + 1}`, habitat: 'overworld', type: 'ground', bucket: 'common', weight: 1, level: '1-50', timeRange: 'any', dark: false, signatureBlocks: [] })
+  spawns.value.push(newSpawn(`${id}-${spawns.value.length + 1}`))
 }
 
 const saving = ref(false)
@@ -199,17 +199,57 @@ const sources = computed(() => {
             />
           </UFormField>
           <UFormField label="Time range">
-            <USelect
-              v-model="spawn.timeRange"
-              :items="timeRanges"
-              class="w-full"
-            />
+            <TimeRangeField v-model="spawn.timeRange" />
           </UFormField>
           <UFormField
             label="Dark"
             help="Light 0–7, so it avoids torch-lit spots"
           >
             <USwitch v-model="spawn.dark" />
+          </UFormField>
+          <UFormField label="Weather">
+            <USelect
+              v-model="spawn.weather"
+              :items="[...weathers]"
+              class="w-full"
+            />
+          </UFormField>
+          <UFormField label="Moon phase">
+            <USelectMenu
+              v-model="spawn.moonPhases"
+              :items="moonPhases.map((label, value) => ({ label, value }))"
+              value-key="value"
+              multiple
+              placeholder="any"
+              class="w-full"
+            />
+          </UFormField>
+          <UFormField
+            label="Properties"
+            help="Added after the species, such as a form"
+          >
+            <UInput
+              v-model="spawn.properties"
+              placeholder="min_perfect_ivs=3"
+              class="w-full"
+            />
+          </UFormField>
+          <UFormField
+            v-if="spawn.type === 'fishing'"
+            label="Lure level weight ×"
+            help="For lure levels 1, 2 and 3"
+            class="md:col-span-2"
+          >
+            <div class="flex gap-2">
+              <UInputNumber
+                v-for="(_, level) in spawn.lureBoosts"
+                :key="level"
+                v-model="spawn.lureBoosts[level]"
+                :min="0"
+                :step="0.5"
+                :aria-label="`Lure level ${level + 1}`"
+              />
+            </div>
           </UFormField>
         </div>
         <UFormField
