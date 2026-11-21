@@ -1,6 +1,6 @@
 import { existsSync, readFileSync } from 'node:fs'
 import { basename, join } from 'node:path'
-import type { EditorSpawn, Species, Weather } from '#shared/spawns'
+import { specialKinds, type EditorSpawn, type Species, type Weather } from '#shared/spawns'
 import { spawnTypes, type SpawnType } from '#shared/rules'
 
 export const sources = { cobblemon: 'Cobblemon-neoforge', atm: 'ATM x MSD', megaShowdown: 'mega_showdown' }
@@ -10,12 +10,13 @@ let speciesCache: Species[] | undefined
 export function allSpecies(): Species[] {
   speciesCache ??= listJson(join(modJar(sources.cobblemon)!, 'data/cobblemon/species'))
     .map((path) => {
-      const data = readJson<{ name: string, nationalPokedexNumber: number, primaryType: string, secondaryType?: string, implemented?: boolean }>(path)
+      const data = readJson<{ name: string, nationalPokedexNumber: number, primaryType: string, secondaryType?: string, labels?: string[], implemented?: boolean }>(path)
       return {
         id: basename(path, '.json'),
         name: data.name,
         dex: data.nationalPokedexNumber,
         types: [data.primaryType, data.secondaryType].filter(type => type !== undefined),
+        kinds: specialKinds.filter(kind => data.labels?.includes(kind)),
         implemented: data.implemented ?? false
       }
     })

@@ -95,12 +95,22 @@ const sources = computed(() => {
           :class="{ 'bg-elevated font-medium': pokemon.id === selectedId }"
         >
           <span>{{ String(pokemon.dex).padStart(4, '0') }} {{ pokemon.name }}</span>
-          <UBadge
-            :color="statusColors[pokemon.status]"
-            variant="subtle"
-            size="sm"
-            :label="statusLabels[pokemon.status]"
-          />
+          <span class="flex gap-1">
+            <UBadge
+              v-for="kind in pokemon.kinds"
+              :key="kind"
+              color="secondary"
+              variant="subtle"
+              size="sm"
+              :label="copy.pokemon.kinds[kind]"
+            />
+            <UBadge
+              :color="statusColors[pokemon.status]"
+              variant="subtle"
+              size="sm"
+              :label="statusLabels[pokemon.status]"
+            />
+          </span>
         </NuxtLink>
       </nav>
     </aside>
@@ -118,7 +128,7 @@ const sources = computed(() => {
             {{ String(detail.species.dex).padStart(4, '0') }} {{ detail.species.name }}
           </h1>
           <p class="text-muted">
-            {{ detail.species.types.join(' / ') }} · {{ statusLabels[detail.status] }}
+            {{ [detail.species.types.join(' / '), ...detail.species.kinds.map(kind => copy.pokemon.kinds[kind]), statusLabels[detail.status]].join(' · ') }}
           </p>
           <div class="mt-2 flex gap-2">
             <UButton

@@ -40,6 +40,7 @@
     "search": "Search by name or number",
     "all": "All",
     "status": { "none": "no spawns", "old": "old format", "draft": "draft", "new": "done" },
+    "kinds": { "legendary": "legendary", "mythical": "mythical", "ultra_beast": "ultra beast", "paradox": "paradox" },
     "addSpawn": "Add spawn",
     "oldFormat": "The pack's file uses the old format. Add spawns here to replace it when you save.",
     "spawnId": "Spawn ID",

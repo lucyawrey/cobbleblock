@@ -1,10 +1,14 @@
 import type { Habitat, SpawnType } from './rules'
 
+export const specialKinds = ['legendary', 'mythical', 'ultra_beast', 'paradox'] as const
+export type SpecialKind = typeof specialKinds[number]
+
 export interface Species {
   id: string
   name: string
   dex: number
   types: string[]
+  kinds: SpecialKind[]
   implemented: boolean
 }
 
