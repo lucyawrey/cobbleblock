@@ -1,10 +1,10 @@
 <script setup lang="ts">
-useHead({ title: 'Spawn editor', htmlAttrs: { lang: 'en' } })
+useHead({ title: 'Cobbleblock Data Editor', htmlAttrs: { lang: 'en' } })
 </script>
 
 <template>
   <UApp>
-    <UHeader title="Spawn editor">
+    <UHeader title="Cobbleblock Data Editor">
       <UNavigationMenu
         :items="[
           { label: 'Pokémon', to: '/pokemon' },

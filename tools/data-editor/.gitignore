@@ -23,5 +23,5 @@ logs
 .env.*
 !.env.example
 
-# Mod jars unpacked by the spawn editor
+# Mod jars unpacked by the data editor
 .cache
