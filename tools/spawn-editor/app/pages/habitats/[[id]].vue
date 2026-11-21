@@ -143,7 +143,7 @@ async function save() {
         label="Blocks"
         help="Spawns need one of these nearby, and ground spawns can also stand on them. Leave empty for a habitat with no block check."
       >
-        <div class="flex flex-col gap-1">
+        <div class="flex max-w-xl flex-col gap-1">
           <div
             v-for="(block, index) in habitat.blocks"
             :key="block"
