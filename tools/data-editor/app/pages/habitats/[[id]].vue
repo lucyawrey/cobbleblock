@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { copy } from '#shared/copy'
 import { blockedReason, exposures, habitatErrors, spawnTypes, wouldBreak, type Habitat } from '#shared/rules'
 import type { HabitatData } from '#shared/spawns'
 
@@ -9,7 +10,6 @@ const toast = useToast()
 const { data, refresh } = await useFetch<HabitatData>('/api/habitats')
 
 const dimensions = ['minecraft:overworld', 'minecraft:the_nether', 'minecraft:the_end', 'cobbleblock:ancient_forest']
-const exposureHelp = { outdoors: 'sky light 8–15', sheltered: 'sky light 0–7', any: 'no sky light check' }
 
 const selectedId = computed(() => route.params.id as string | undefined)
 const habitat = ref<Habitat>()
@@ -44,12 +44,12 @@ async function save() {
   saving.value = true
   try {
     await $fetch(`/api/habitats/${selectedId.value || habitat.value!.id}`, { method: 'PUT', body: habitat.value })
-    toast.add({ title: 'Saved', color: 'success' })
+    toast.add({ title: copy.common.saved, color: 'success' })
     await refresh()
     if (habitat.value!.id === selectedId.value) load(selectedId.value)
     else await navigateTo(`/habitats/${habitat.value!.id}`)
   } catch (error) {
-    toast.add({ title: 'Not saved', description: errorMessage(error), color: 'error' })
+    toast.add({ title: copy.common.notSaved, description: errorMessage(error), color: 'error' })
   } finally {
     saving.value = false
   }
@@ -60,7 +60,7 @@ async function save() {
   <div class="flex flex-wrap">
     <aside class="flex w-64 flex-col gap-3 border-r border-default p-4">
       <UButton
-        label="New habitat"
+        :label="copy.habitats.new"
         icon="i-lucide-plus"
         color="neutral"
         variant="outline"
@@ -85,7 +85,7 @@ async function save() {
       class="flex min-w-0 flex-[999_1_560px] flex-col gap-6 p-6"
     >
       <UFormField
-        label="ID"
+        :label="copy.habitats.id"
         :error="errors[0]"
       >
         <div class="flex flex-wrap justify-between gap-3">
@@ -94,7 +94,7 @@ async function save() {
             class="w-60"
           />
           <UButton
-            label="Save"
+            :label="copy.common.save"
             :loading="saving"
             :disabled="errors.length > 0"
             @click="save"
@@ -103,19 +103,19 @@ async function save() {
       </UFormField>
 
       <div class="grid gap-6 md:grid-cols-3">
-        <UFormField label="Dimensions">
+        <UFormField :label="copy.habitats.dimensions">
           <UCheckboxGroup
             v-model="habitat.dimensions"
             :items="dimensions"
           />
         </UFormField>
-        <UFormField label="Exposure">
+        <UFormField :label="copy.habitats.exposure">
           <URadioGroup
             v-model="habitat.exposure"
-            :items="exposures.map(value => ({ label: value, value, description: exposureHelp[value] }))"
+            :items="exposures.map(value => ({ label: value, value, description: copy.habitats.exposureHelp[value] }))"
           />
         </UFormField>
-        <UFormField label="Allowed spawn types">
+        <UFormField :label="copy.habitats.allowedTypes">
           <div class="flex flex-col gap-2">
             <UCheckbox
               v-for="type in spawnTypes"
@@ -131,8 +131,8 @@ async function save() {
       </div>
 
       <UFormField
-        label="Blocks"
-        help="Spawns need one of these nearby, and ground spawns can also stand on them. Leave empty for a habitat with no block check."
+        :label="copy.habitats.blocks"
+        :help="copy.habitats.blocksHelp"
       >
         <BlockList v-model="habitat.blocks" />
       </UFormField>
@@ -141,7 +141,7 @@ async function save() {
         v-if="broken.length > 0"
         color="warning"
         variant="subtle"
-        title="Saving this breaks these spawns"
+        :title="copy.habitats.breaksSpawns"
         :description="broken.map(spawn => `${spawn.id} (${spawn.type})`).join(', ')"
       />
     </main>
@@ -149,7 +149,7 @@ async function save() {
       v-else
       class="flex flex-1 items-center justify-center p-6 text-muted"
     >
-      Pick a habitat or make a new one.
+      {{ copy.habitats.empty }}
     </main>
   </div>
 </template>

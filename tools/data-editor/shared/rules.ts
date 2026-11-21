@@ -1,3 +1,5 @@
+import { copy } from './copy'
+
 export const spawnTypes = ['ground', 'cave', 'surf', 'lava', 'dive', 'seafloor', 'fishing'] as const
 export type SpawnType = typeof spawnTypes[number]
 
@@ -27,16 +29,16 @@ function lists(habitat: Habitat, fluid: string) {
 
 export function blockedReason(habitat: Habitat, type: SpawnType): string | undefined {
   if (type === 'fishing' && habitat.blocks.length > 0) {
-    return 'Cobblemon ignores a habitat\'s blocks on fishing spawns'
+    return copy.rules.fishingIgnoresBlocks
   }
   if (waterTypes.includes(type) && lists(habitat, 'water')) {
-    return 'the habitat lists water, so the block check would always pass'
+    return copy.rules.listsWater
   }
   if (type === 'lava' && lists(habitat, 'lava')) {
-    return 'the habitat lists lava, so the block check would always pass'
+    return copy.rules.listsLava
   }
   if (type === 'cave' && habitat.exposure === 'outdoors') {
-    return 'cave spawns are always sheltered'
+    return copy.rules.caveSheltered
   }
 }
 
@@ -47,13 +49,13 @@ export function isAllowed(habitat: Habitat, type: SpawnType) {
 export function habitatErrors(habitat: Habitat): string[] {
   const errors: string[] = []
   if (!/^[a-z0-9_]+$/.test(habitat.id)) {
-    errors.push('ID can only use lower case letters, digits and _')
+    errors.push(copy.rules.idCharacters)
   }
   if ((spawnTypes as readonly string[]).includes(habitat.id)) {
-    errors.push('ID is already a spawn type')
+    errors.push(copy.rules.idIsSpawnType)
   }
   if (habitat.dimensions.length === 0) {
-    errors.push('pick at least one dimension')
+    errors.push(copy.rules.noDimension)
   }
   return errors
 }

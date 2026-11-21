@@ -1,14 +1,16 @@
 <script setup lang="ts">
-useHead({ title: 'Cobbleblock Data Editor', htmlAttrs: { lang: 'en' } })
+import { copy } from '#shared/copy'
+
+useHead({ title: copy.app.title, htmlAttrs: { lang: 'en' } })
 </script>
 
 <template>
   <UApp>
-    <UHeader title="Cobbleblock Data Editor">
+    <UHeader :title="copy.app.title">
       <UNavigationMenu
         :items="[
-          { label: 'Pokémon', to: '/pokemon' },
-          { label: 'Habitats', to: '/habitats' }
+          { label: copy.app.nav.pokemon, to: '/pokemon' },
+          { label: copy.app.nav.habitats, to: '/habitats' }
         ]"
       />
       <template #right>

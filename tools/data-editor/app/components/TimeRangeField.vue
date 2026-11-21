@@ -1,11 +1,12 @@
 <script setup lang="ts">
+import { copy } from '#shared/copy'
 import { formatTicks, parseTicks, timeRanges } from '#shared/spawns'
 
 const model = defineModel<string>({ required: true })
 
 const items = [
   ...timeRanges.filter(value => value !== 'any').map(value => ({ label: value, value })),
-  { label: 'custom ticks', value: 'custom' }
+  { label: copy.timeRange.customTicks, value: 'custom' }
 ]
 
 // The JSON value is a comma list of names and tick ranges, or 'any'.
@@ -33,7 +34,7 @@ const to = computed({ get: () => ticks.value![1], set: value => write(names.valu
       :items="items"
       value-key="value"
       multiple
-      placeholder="any"
+      :placeholder="copy.common.any"
       class="w-full"
     />
     <div
@@ -47,9 +48,9 @@ const to = computed({ get: () => ticks.value![1], set: value => write(names.valu
         :min="0"
         :max="23999"
         :step="100"
-        aria-label="From tick"
+        :aria-label="copy.timeRange.fromTick"
       />
-      <span class="text-muted">to</span>
+      <span class="text-muted">{{ copy.timeRange.to }}</span>
       <UInputNumber
         v-model="to"
         orientation="vertical"
@@ -57,7 +58,7 @@ const to = computed({ get: () => ticks.value![1], set: value => write(names.valu
         :min="0"
         :max="23999"
         :step="100"
-        aria-label="To tick"
+        :aria-label="copy.timeRange.toTick"
       />
     </div>
   </div>

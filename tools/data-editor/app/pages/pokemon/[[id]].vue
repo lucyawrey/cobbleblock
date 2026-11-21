@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { copy, fill } from '#shared/copy'
 import { isAllowed, spawnTypes } from '#shared/rules'
 import { buckets, moonPhases, newSpawn, weathers, type EditorSpawn, type HabitatData, type PokemonDetail, type PokemonListItem, type PokemonStatus } from '#shared/spawns'
 
@@ -12,7 +13,7 @@ const { data: habitatData } = await useFetch<HabitatData>('/api/habitats')
 
 const search = ref('')
 const statusFilter = ref<PokemonStatus | 'all'>('all')
-const statusLabels: Record<PokemonStatus, string> = { none: 'no spawns', old: 'old format', draft: 'draft', new: 'done' }
+const statusLabels: Record<PokemonStatus, string> = copy.pokemon.status
 const statusColors = { none: 'neutral', old: 'warning', draft: 'info', new: 'success' } as const
 
 const filtered = computed(() => (list.value ?? []).filter(pokemon =>
@@ -38,7 +39,7 @@ function typeOptions(spawn: EditorSpawn) {
 
 function signatureHelp(spawn: EditorSpawn) {
   const habitat = habitats.value.find(habitat => habitat.id === spawn.habitat)
-  return habitat?.blocks.length === 0 ? 'Only spawns near these blocks, since this habitat needs none' : 'Also spawns near these blocks'
+  return habitat?.blocks.length === 0 ? copy.pokemon.signatureOnly : copy.pokemon.signatureAlso
 }
 
 function addSpawn() {
@@ -51,23 +52,24 @@ async function save() {
   saving.value = true
   try {
     await $fetch(`/api/pokemon/${selectedId.value}`, { method: 'PUT', body: spawns.value })
-    toast.add({ title: 'Saved', color: 'success' })
+    toast.add({ title: copy.common.saved, color: 'success' })
     await Promise.all([refreshDetail(), refreshList()])
   } catch (error) {
-    toast.add({ title: 'Not saved', description: errorMessage(error), color: 'error' })
+    toast.add({ title: copy.common.notSaved, description: errorMessage(error), color: 'error' })
   } finally {
     saving.value = false
   }
 }
 
+const showSources = useCookie('show-sources', { default: () => false })
 const sources = computed(() => {
   if (!detail.value) return []
   return [
-    { label: 'Cobblemon 1.8.4', data: detail.value.base.cobblemon },
-    { label: 'ATM x MSD', data: detail.value.base.atm },
-    { label: 'Mega Showdown', data: detail.value.base.megaShowdown },
-    { label: 'Sheet', data: detail.value.sheet },
-    { label: 'Pack (current file)', data: detail.value.pack }
+    { label: copy.pokemon.sources.cobblemon, data: detail.value.base.cobblemon },
+    { label: copy.pokemon.sources.atm, data: detail.value.base.atm },
+    { label: copy.pokemon.sources.megaShowdown, data: detail.value.base.megaShowdown },
+    { label: copy.pokemon.sources.sheet, data: detail.value.sheet },
+    { label: copy.pokemon.sources.pack, data: detail.value.pack }
   ].filter(source => source.data?.length)
 })
 </script>
@@ -78,11 +80,11 @@ const sources = computed(() => {
       <UInput
         v-model="search"
         icon="i-lucide-search"
-        placeholder="Search by name or number"
+        :placeholder="copy.pokemon.search"
       />
       <USelect
         v-model="statusFilter"
-        :items="[{ label: 'All', value: 'all' }, ...Object.entries(statusLabels).map(([value, label]) => ({ label, value }))]"
+        :items="[{ label: copy.pokemon.all, value: 'all' }, ...Object.entries(statusLabels).map(([value, label]) => ({ label, value }))]"
       />
       <nav class="-mx-2 flex-1 overflow-y-auto">
         <NuxtLink
@@ -120,12 +122,12 @@ const sources = computed(() => {
           </p>
           <div class="mt-2 flex gap-2">
             <UButton
-              label="Save"
+              :label="copy.common.save"
               :loading="saving"
               @click="save"
             />
             <UButton
-              label="Add spawn"
+              :label="copy.pokemon.addSpawn"
               color="neutral"
               variant="outline"
               icon="i-lucide-plus"
@@ -136,7 +138,7 @@ const sources = computed(() => {
             v-if="detail.status === 'old'"
             class="text-sm text-muted"
           >
-            The pack's file uses the old format. Add spawns here to replace it when you save.
+            {{ copy.pokemon.oldFormat }}
           </p>
         </div>
       </section>
@@ -149,41 +151,41 @@ const sources = computed(() => {
           <div class="flex items-center justify-between gap-3">
             <UInput
               v-model="spawn.id"
-              aria-label="Spawn ID"
+              :aria-label="copy.pokemon.spawnId"
               class="w-60"
             />
             <UButton
               icon="i-lucide-trash-2"
               color="neutral"
               variant="ghost"
-              aria-label="Remove spawn"
+              :aria-label="copy.pokemon.removeSpawn"
               @click="spawns.splice(index, 1)"
             />
           </div>
         </template>
         <div class="grid grid-cols-2 gap-3 md:grid-cols-4">
-          <UFormField label="Habitat">
+          <UFormField :label="copy.pokemon.habitat">
             <USelect
               v-model="spawn.habitat"
               :items="habitats.map(habitat => habitat.id)"
               class="w-full"
             />
           </UFormField>
-          <UFormField label="Spawn type">
+          <UFormField :label="copy.pokemon.spawnType">
             <USelect
               v-model="spawn.type"
               :items="typeOptions(spawn)"
               class="w-full"
             />
           </UFormField>
-          <UFormField label="Bucket">
+          <UFormField :label="copy.pokemon.bucket">
             <USelect
               v-model="spawn.bucket"
               :items="buckets"
               class="w-full"
             />
           </UFormField>
-          <UFormField label="Weight">
+          <UFormField :label="copy.pokemon.weight">
             <UInputNumber
               v-model="spawn.weight"
               :min="0"
@@ -191,14 +193,14 @@ const sources = computed(() => {
               class="w-full"
             />
           </UFormField>
-          <UFormField label="Level">
+          <UFormField :label="copy.pokemon.level">
             <UInput
               v-model="spawn.level"
-              placeholder="5-32"
+              :placeholder="copy.pokemon.levelPlaceholder"
               class="w-full"
             />
           </UFormField>
-          <UFormField label="Weather">
+          <UFormField :label="copy.pokemon.weather">
             <USelect
               v-model="spawn.weather"
               :items="[...weathers]"
@@ -206,38 +208,38 @@ const sources = computed(() => {
             />
           </UFormField>
           <UFormField
-            label="Dark"
-            help="Light 0–7, so it avoids torch-lit spots"
+            :label="copy.pokemon.dark"
+            :help="copy.pokemon.darkHelp"
           >
             <USwitch v-model="spawn.dark" />
           </UFormField>
-          <UFormField label="Time range">
+          <UFormField :label="copy.pokemon.timeRange">
             <TimeRangeField v-model="spawn.timeRange" />
           </UFormField>
-          <UFormField label="Moon phase">
+          <UFormField :label="copy.pokemon.moonPhase">
             <USelectMenu
               v-model="spawn.moonPhases"
               :items="moonPhases.map((label, value) => ({ label, value }))"
               value-key="value"
               multiple
-              placeholder="any"
+              :placeholder="copy.common.any"
               class="w-full"
             />
           </UFormField>
           <UFormField
-            label="Properties"
-            help="Added after the species, such as a form"
+            :label="copy.pokemon.properties"
+            :help="copy.pokemon.propertiesHelp"
           >
             <UInput
               v-model="spawn.properties"
-              placeholder="min_perfect_ivs=3"
+              :placeholder="copy.pokemon.propertiesPlaceholder"
               class="w-full"
             />
           </UFormField>
           <UFormField
             v-if="spawn.type === 'fishing'"
-            label="Lure level weight ×"
-            help="For lure levels 1, 2 and 3"
+            :label="copy.pokemon.lureBoosts"
+            :help="copy.pokemon.lureBoostsHelp"
             class="md:col-span-2"
           >
             <div class="flex gap-2">
@@ -247,13 +249,13 @@ const sources = computed(() => {
                 v-model="spawn.lureBoosts[level]"
                 :min="0"
                 :step="0.5"
-                :aria-label="`Lure level ${level + 1}`"
+                :aria-label="fill(copy.pokemon.lureLevel, { level: level + 1 })"
               />
             </div>
           </UFormField>
         </div>
         <UFormField
-          label="Signature blocks"
+          :label="copy.pokemon.signatureBlocks"
           :help="signatureHelp(spawn)"
           class="mt-3"
         >
@@ -261,24 +263,34 @@ const sources = computed(() => {
         </UFormField>
       </UCard>
 
-      <section class="grid gap-4 md:grid-cols-3">
-        <div
-          v-for="source in sources"
-          :key="source.label"
-          class="flex flex-col gap-2 rounded-lg border border-default bg-elevated/50 p-3"
-        >
-          <h3 class="text-sm font-semibold">
-            {{ source.label }}
-          </h3>
-          <pre class="overflow-x-auto text-xs whitespace-pre-wrap text-toned">{{ source.data }}</pre>
-        </div>
-      </section>
+      <UCollapsible v-model:open="showSources">
+        <UButton
+          :label="copy.pokemon.sourcesToggle"
+          color="neutral"
+          variant="ghost"
+          :trailing-icon="showSources ? 'i-lucide-chevron-down' : 'i-lucide-chevron-right'"
+        />
+        <template #content>
+          <section class="mt-2 grid gap-4 md:grid-cols-3">
+            <div
+              v-for="source in sources"
+              :key="source.label"
+              class="flex flex-col gap-2 rounded-lg border border-default bg-elevated/50 p-3"
+            >
+              <h3 class="text-sm font-semibold">
+                {{ source.label }}
+              </h3>
+              <pre class="overflow-x-auto text-xs whitespace-pre-wrap text-toned">{{ source.data }}</pre>
+            </div>
+          </section>
+        </template>
+      </UCollapsible>
     </main>
     <main
       v-else
       class="flex flex-1 items-center justify-center p-6 text-muted"
     >
-      Pick a Pokémon from the list.
+      {{ copy.pokemon.empty }}
     </main>
   </div>
 </template>

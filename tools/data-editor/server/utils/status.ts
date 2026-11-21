@@ -1,3 +1,4 @@
+import { copy, fill } from '#shared/copy'
 import { existsSync } from 'node:fs'
 import { join } from 'node:path'
 import type { EditorSpawn, PokemonStatus, Species } from '#shared/spawns'
@@ -18,7 +19,7 @@ export function editorSpawns(species: Species): { status: PokemonStatus, spawns:
 
 export function findSpecies(id: string) {
   const species = allSpecies().find(species => species.id === id)
-  if (!species) throw createError({ statusCode: 404, statusMessage: `No Pokémon called ${id}` })
+  if (!species) throw createError({ statusCode: 404, statusMessage: fill(copy.server.noPokemon, { id }) })
   return species
 }
 

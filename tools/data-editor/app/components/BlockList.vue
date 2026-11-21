@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { copy } from '#shared/copy'
+
 const model = defineModel<string[]>({ required: true })
 
 const { data: blocks } = await useFetch<string[]>('/api/blocks')
@@ -27,7 +29,7 @@ watch(blockToAdd, (block) => {
           color="warning"
           variant="subtle"
           size="sm"
-          label="not in the pack"
+          :label="copy.blockList.notInPack"
         />
       </span>
       <UButton
@@ -35,7 +37,7 @@ watch(blockToAdd, (block) => {
         color="neutral"
         variant="ghost"
         size="xs"
-        aria-label="Remove"
+        :aria-label="copy.blockList.remove"
         @click="model.splice(index, 1)"
       />
     </div>
@@ -43,7 +45,7 @@ watch(blockToAdd, (block) => {
       v-model.nullable="blockToAdd"
       :items="blockOptions"
       virtualize
-      placeholder="Add a block or #tag"
+      :placeholder="copy.blockList.add"
       class="w-full"
     />
   </div>
