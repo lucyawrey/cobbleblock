@@ -3,8 +3,15 @@ import { homedir } from 'node:os'
 import { join, relative } from 'node:path'
 import { execFileSync } from 'node:child_process'
 
-// Gradle downloads this when Core builds; the pack's mods folder has no vanilla jar.
+// Gradle downloads these when Core builds; the pack's mods folder has neither the vanilla jar nor NeoForge, which holds the `c:` tags.
 const vanillaJar = join(homedir(), '.gradle/caches/neoformruntime/artifacts/minecraft_1.21.1_client.jar')
+
+function neoForgeJar() {
+  const version = /neoForge \{\s*version = "([^"]+)"/.exec(readFileSync(join(repo, 'core/build.gradle.kts'), 'utf8'))?.[1]
+  const dir = join(homedir(), '.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge', version ?? '')
+  if (!version || !existsSync(dir)) return ''
+  return readdirSync(dir).map(hash => join(dir, hash, `neoforge-${version}-universal.jar`)).find(existsSync) ?? ''
+}
 const entry = /^(?:assets\/([^/]+)\/blockstates|data\/([^/]+)\/tags\/block)\/(.+)\.json$/
 
 let blockCache: string[] | undefined
@@ -15,7 +22,7 @@ const assetSources = new Map<string, string>()
 export function allBlocks(): string[] {
   if (blockCache) return blockCache
   const mods = join(repo, 'pack/mods')
-  const jars = [vanillaJar, ...readdirSync(mods).filter(file => file.endsWith('.jar')).map(file => join(mods, file))].filter(existsSync)
+  const jars = [vanillaJar, neoForgeJar(), ...readdirSync(mods).filter(file => file.endsWith('.jar')).map(file => join(mods, file))].filter(existsSync)
   const core = join(repo, 'core/src/main/resources')
   for (const jar of jars) {
     for (const path of execFileSync('unzip', ['-Z1', jar], { encoding: 'utf8', maxBuffer: 1 << 28 }).split('\n')) assetSources.set(path, jar)
