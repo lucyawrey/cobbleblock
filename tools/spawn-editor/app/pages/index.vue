@@ -31,6 +31,11 @@ function typeOptions(spawn: EditorSpawn) {
   return spawnTypes.map(type => ({ label: type, value: type, disabled: !habitat || !isAllowed(habitat, type) }))
 }
 
+function signatureHelp(spawn: EditorSpawn) {
+  const habitat = habitats.value.find(habitat => habitat.id === spawn.habitat)
+  return habitat?.blocks.length === 0 ? 'Only spawns near these blocks, since this habitat needs none' : 'Also spawns near these blocks'
+}
+
 function addSpawn() {
   const id = detail.value!.species.id
   spawns.value.push({ id: `${id}-${spawns.value.length + 1}`, habitat: 'overworld', type: 'ground', bucket: 'common', weight: 1, level: '1-50', timeRange: 'any', dark: false, signatureBlocks: [] })
@@ -204,7 +209,7 @@ const sources = computed(() => {
         </div>
         <UFormField
           label="Signature blocks"
-          help="Also spawns near these blocks"
+          :help="signatureHelp(spawn)"
           class="mt-3"
         >
           <UInputTags
