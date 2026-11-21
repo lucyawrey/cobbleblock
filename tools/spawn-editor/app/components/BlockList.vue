@@ -20,6 +20,7 @@ watch(blockToAdd, (block) => {
       class="flex items-center justify-between gap-2 rounded-md border border-default px-2 py-1 text-sm"
     >
       <span class="flex items-center gap-2">
+        <BlockIcon :id="block" />
         {{ block }}
         <UBadge
           v-if="blocks && !blocks.includes(block)"
