@@ -108,9 +108,9 @@ const sources = computed(() => {
       class="flex min-w-0 flex-[999_1_560px] flex-col gap-6 p-6"
     >
       <section class="flex flex-wrap items-start gap-6">
-        <div class="flex size-52 shrink-0 items-center justify-center rounded-xl border border-dashed border-accented text-sm text-muted">
-          3D preview comes next
-        </div>
+        <ClientOnly>
+          <PokemonPreview :id="detail.species.id" />
+        </ClientOnly>
         <div class="flex flex-1 flex-col gap-2">
           <h1 class="text-2xl font-semibold">
             {{ String(detail.species.dex).padStart(4, '0') }} {{ detail.species.name }}

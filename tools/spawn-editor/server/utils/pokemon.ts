@@ -3,7 +3,7 @@ import { basename, join } from 'node:path'
 import type { EditorSpawn, Species, Weather } from '#shared/spawns'
 import { spawnTypes, type SpawnType } from '#shared/rules'
 
-const sources = { cobblemon: 'Cobblemon-neoforge', atm: 'ATM x MSD', megaShowdown: 'mega_showdown' }
+export const sources = { cobblemon: 'Cobblemon-neoforge', atm: 'ATM x MSD', megaShowdown: 'mega_showdown' }
 
 let speciesCache: Species[] | undefined
 
