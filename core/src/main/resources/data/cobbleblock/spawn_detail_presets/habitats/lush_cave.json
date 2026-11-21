@@ -14,7 +14,10 @@
       "minecraft:hanging_roots",
       "minecraft:big_dripleaf",
       "minecraft:small_dripleaf",
-      "minecraft:cave_vines"
+      "#minecraft:cave_vines",
+      "minecraft:spore_blossom",
+      "minecraft:moss_carpet",
+      "minecraft:rooted_dirt"
     ],
     "neededBaseBlocks": [
       "minecraft:azalea",
@@ -25,7 +28,10 @@
       "minecraft:hanging_roots",
       "minecraft:big_dripleaf",
       "minecraft:small_dripleaf",
-      "minecraft:cave_vines"
+      "#minecraft:cave_vines",
+      "minecraft:spore_blossom",
+      "minecraft:moss_carpet",
+      "minecraft:rooted_dirt"
     ]
   }
 }

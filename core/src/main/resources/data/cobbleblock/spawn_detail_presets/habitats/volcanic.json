@@ -9,14 +9,20 @@
       "minecraft:magma_block",
       "minecraft:netherrack",
       "#minecraft:fire",
-      "#minecraft:campfires"
+      "#minecraft:campfires",
+      "minecraft:polished_basalt",
+      "minecraft:smooth_basalt",
+      "minecraft:blackstone"
     ],
     "neededBaseBlocks": [
       "minecraft:basalt",
       "minecraft:magma_block",
       "minecraft:netherrack",
       "#minecraft:fire",
-      "#minecraft:campfires"
+      "#minecraft:campfires",
+      "minecraft:polished_basalt",
+      "minecraft:smooth_basalt",
+      "minecraft:blackstone"
     ]
   }
 }

@@ -11,7 +11,12 @@
       "create:mechanical_drill",
       "create:mechanical_saw",
       "create:mechanical_harvester",
-      "create:water_wheel"
+      "create:water_wheel",
+      "create:mechanical_press",
+      "create:mechanical_mixer",
+      "create:encased_fan",
+      "create:millstone",
+      "create:windmill_bearing"
     ],
     "neededBaseBlocks": [
       "create:cogwheel",
@@ -21,7 +26,12 @@
       "create:mechanical_drill",
       "create:mechanical_saw",
       "create:mechanical_harvester",
-      "create:water_wheel"
+      "create:water_wheel",
+      "create:mechanical_press",
+      "create:mechanical_mixer",
+      "create:encased_fan",
+      "create:millstone",
+      "create:windmill_bearing"
     ]
   }
 }

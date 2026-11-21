@@ -8,12 +8,18 @@
     "neededNearbyBlocks": [
       "minecraft:dead_bush",
       "minecraft:cactus",
-      "minecraft:sandstone"
+      "minecraft:sandstone",
+      "minecraft:cut_sandstone",
+      "minecraft:chiseled_sandstone",
+      "minecraft:smooth_sandstone"
     ],
     "neededBaseBlocks": [
       "minecraft:dead_bush",
       "minecraft:cactus",
-      "minecraft:sandstone"
+      "minecraft:sandstone",
+      "minecraft:cut_sandstone",
+      "minecraft:chiseled_sandstone",
+      "minecraft:smooth_sandstone"
     ]
   }
 }

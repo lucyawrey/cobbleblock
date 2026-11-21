@@ -7,13 +7,11 @@
     "maxSkyLight": 15,
     "neededNearbyBlocks": [
       "minecraft:sand",
-      "minecraft:sugar_cane",
-      "minecraft:water"
+      "minecraft:sugar_cane"
     ],
     "neededBaseBlocks": [
       "minecraft:sand",
-      "minecraft:sugar_cane",
-      "minecraft:water"
+      "minecraft:sugar_cane"
     ]
   }
 }

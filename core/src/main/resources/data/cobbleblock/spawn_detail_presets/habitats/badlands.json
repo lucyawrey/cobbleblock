@@ -7,11 +7,17 @@
     "maxSkyLight": 15,
     "neededNearbyBlocks": [
       "minecraft:red_sand",
-      "#minecraft:terracotta"
+      "#minecraft:terracotta",
+      "minecraft:red_sandstone",
+      "minecraft:cut_red_sandstone",
+      "minecraft:smooth_red_sandstone"
     ],
     "neededBaseBlocks": [
       "minecraft:red_sand",
-      "#minecraft:terracotta"
+      "#minecraft:terracotta",
+      "minecraft:red_sandstone",
+      "minecraft:cut_red_sandstone",
+      "minecraft:smooth_red_sandstone"
     ]
   }
 }

@@ -7,13 +7,21 @@
       "minecraft:iron_block",
       "minecraft:iron_bars",
       "minecraft:iron_door",
-      "#minecraft:iron_ores"
+      "#minecraft:iron_ores",
+      "#minecraft:anvil",
+      "minecraft:chain",
+      "minecraft:iron_trapdoor",
+      "#minecraft:cauldrons"
     ],
     "neededBaseBlocks": [
       "minecraft:iron_block",
       "minecraft:iron_bars",
       "minecraft:iron_door",
-      "#minecraft:iron_ores"
+      "#minecraft:iron_ores",
+      "#minecraft:anvil",
+      "minecraft:chain",
+      "minecraft:iron_trapdoor",
+      "#minecraft:cauldrons"
     ]
   }
 }

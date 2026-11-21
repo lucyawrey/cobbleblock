@@ -8,14 +8,18 @@
       "cobblemon:pc",
       "cobblemon:monitor",
       "cobblemon:potion",
-      "minecraft:brewing_stand"
+      "minecraft:brewing_stand",
+      "cobblemon:pasture",
+      "cobblemon:display_case"
     ],
     "neededBaseBlocks": [
       "cobblemon:healing_machine",
       "cobblemon:pc",
       "cobblemon:monitor",
       "cobblemon:potion",
-      "minecraft:brewing_stand"
+      "minecraft:brewing_stand",
+      "cobblemon:pasture",
+      "cobblemon:display_case"
     ]
   }
 }

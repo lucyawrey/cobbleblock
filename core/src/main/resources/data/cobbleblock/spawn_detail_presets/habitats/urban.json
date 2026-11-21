@@ -10,9 +10,14 @@
       "#c:glass_panes",
       "#c:fences",
       "#minecraft:beds",
-      "minecraft:torch",
       "minecraft:lantern",
-      "minecraft:bell"
+      "minecraft:bell",
+      "#minecraft:wool_carpets",
+      "#minecraft:banners",
+      "#minecraft:candles",
+      "#minecraft:flower_pots",
+      "#adorn:chairs",
+      "#adorn:tables"
     ],
     "neededBaseBlocks": [
       "#minecraft:wool",
@@ -21,9 +26,14 @@
       "#c:glass_panes",
       "#c:fences",
       "#minecraft:beds",
-      "minecraft:torch",
       "minecraft:lantern",
-      "minecraft:bell"
+      "minecraft:bell",
+      "#minecraft:wool_carpets",
+      "#minecraft:banners",
+      "#minecraft:candles",
+      "#minecraft:flower_pots",
+      "#adorn:chairs",
+      "#adorn:tables"
     ]
   }
 }

@@ -6,9 +6,7 @@
     "ground"
   ],
   "beach": [
-    "ground"
-  ],
-  "beach_shore": [
+    "ground",
     "surf",
     "dive"
   ],
@@ -130,6 +128,9 @@
     "cave"
   ],
   "volcanic": [
+    "ground"
+  ],
+  "waterside": [
     "ground"
   ]
 }

@@ -2,7 +2,6 @@
   "badlands",
   "bamboo",
   "beach",
-  "beach_shore",
   "cherry",
   "dark_forest",
   "deep_dark",
@@ -32,5 +31,6 @@
   "swamp",
   "taiga",
   "urban",
-  "volcanic"
+  "volcanic",
+  "waterside"
 ]

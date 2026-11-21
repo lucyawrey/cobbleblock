@@ -9,7 +9,12 @@
       "minecraft:beehive",
       "minecraft:bee_nest",
       "minecraft:honey_block",
-      "minecraft:honeycomb_block"
+      "minecraft:honeycomb_block",
+      "#minecraft:crops",
+      "minecraft:farmland",
+      "farmersdelight:rich_soil",
+      "farmersdelight:rich_soil_farmland",
+      "minecraft:hay_block"
     ],
     "neededBaseBlocks": [
       "minecraft:composter",
@@ -17,7 +22,12 @@
       "minecraft:beehive",
       "minecraft:bee_nest",
       "minecraft:honey_block",
-      "minecraft:honeycomb_block"
+      "minecraft:honeycomb_block",
+      "#minecraft:crops",
+      "minecraft:farmland",
+      "farmersdelight:rich_soil",
+      "farmersdelight:rich_soil_farmland",
+      "minecraft:hay_block"
     ]
   }
 }
