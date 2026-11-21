@@ -15,7 +15,7 @@ export function allSpecies(): Species[] {
         id: basename(path, '.json'),
         name: data.name,
         dex: data.nationalPokedexNumber,
-        types: [data.primaryType, data.secondaryType].filter(Boolean),
+        types: [data.primaryType, data.secondaryType].filter(type => type !== undefined),
         implemented: data.implemented ?? false
       }
     })
