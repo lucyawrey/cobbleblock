@@ -10,7 +10,7 @@
     "any": "any"
   },
   "blockList": {
-    "notInPack": "not in the pack",
+    "notInPack": "Not in the Pack",
     "remove": "Remove",
     "add": "Add a block or #tag"
   },
@@ -39,8 +39,8 @@
   "pokemon": {
     "search": "Search by name or number",
     "all": "All",
-    "status": { "none": "no spawns", "old": "old format", "draft": "draft", "new": "done" },
-    "kinds": { "legendary": "legendary", "mythical": "mythical", "ultra_beast": "ultra beast", "paradox": "paradox" },
+    "status": { "none": "No Spawns", "old": "Old Format", "draft": "Draft", "new": "Done" },
+    "kinds": { "legendary": "Legendary", "mythical": "Mythical", "ultra_beast": "Ultra Beast", "paradox": "Paradox" },
     "addSpawn": "Add spawn",
     "oldFormat": "The pack's file uses the old format. Add spawns here to replace it when you save.",
     "spawnId": "Spawn ID",

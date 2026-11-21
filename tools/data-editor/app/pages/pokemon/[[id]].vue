@@ -127,9 +127,28 @@ const sources = computed(() => {
           <h1 class="text-2xl font-semibold">
             {{ String(detail.species.dex).padStart(4, '0') }} {{ detail.species.name }}
           </h1>
-          <p class="text-muted">
-            {{ [detail.species.types.join(' / '), ...detail.species.kinds.map(kind => copy.pokemon.kinds[kind]), statusLabels[detail.status]].join(' · ') }}
-          </p>
+          <div class="flex flex-wrap gap-1">
+            <UBadge
+              v-for="type in detail.species.types"
+              :key="type"
+              color="neutral"
+              variant="subtle"
+              :label="type"
+              class="capitalize"
+            />
+            <UBadge
+              v-for="kind in detail.species.kinds"
+              :key="kind"
+              color="secondary"
+              variant="subtle"
+              :label="copy.pokemon.kinds[kind]"
+            />
+            <UBadge
+              :color="statusColors[detail.status]"
+              variant="subtle"
+              :label="statusLabels[detail.status]"
+            />
+          </div>
           <div class="mt-2 flex gap-2">
             <UButton
               :label="copy.common.save"
