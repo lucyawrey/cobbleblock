@@ -7,7 +7,6 @@ definePageMeta({ key: 'habitats' })
 const route = useRoute()
 const toast = useToast()
 const { data, refresh } = await useFetch<HabitatData>('/api/habitats')
-const { data: blocks } = await useFetch<string[]>('/api/blocks')
 
 const dimensions = ['minecraft:overworld', 'minecraft:the_nether', 'minecraft:the_end', 'cobbleblock:ancient_forest']
 const exposureHelp = { outdoors: 'sky light 8–15', sheltered: 'sky light 0–7', any: 'no sky light check' }
@@ -25,14 +24,6 @@ async function newHabitat() {
   await navigateTo('/habitats')
   habitat.value = { id: '', blocks: [], exposure: 'outdoors', dimensions: ['minecraft:overworld'], allowed: ['ground'] }
 }
-
-const blockToAdd = ref<string | null>(null)
-const blockOptions = computed(() => (blocks.value ?? []).filter(block => !habitat.value?.blocks.includes(block)))
-watch(blockToAdd, (block) => {
-  if (!block) return
-  habitat.value!.blocks.push(block)
-  blockToAdd.value = null
-})
 
 function useCount(id: string) {
   return data.value?.spawns.filter(spawn => spawn.habitat === id).length ?? 0
@@ -143,39 +134,7 @@ async function save() {
         label="Blocks"
         help="Spawns need one of these nearby, and ground spawns can also stand on them. Leave empty for a habitat with no block check."
       >
-        <div class="flex max-w-xl flex-col gap-1">
-          <div
-            v-for="(block, index) in habitat.blocks"
-            :key="block"
-            class="flex items-center justify-between gap-2 rounded-md border border-default px-2 py-1 text-sm"
-          >
-            <span class="flex items-center gap-2">
-              {{ block }}
-              <UBadge
-                v-if="blocks && !blocks.includes(block)"
-                color="warning"
-                variant="subtle"
-                size="sm"
-                label="not in the pack"
-              />
-            </span>
-            <UButton
-              icon="i-lucide-x"
-              color="neutral"
-              variant="ghost"
-              size="xs"
-              aria-label="Remove"
-              @click="habitat.blocks.splice(index, 1)"
-            />
-          </div>
-          <UInputMenu
-            v-model.nullable="blockToAdd"
-            :items="blockOptions"
-            virtualize
-            placeholder="Add a block or #tag"
-            class="w-full"
-          />
-        </div>
+        <BlockList v-model="habitat.blocks" />
       </UFormField>
 
       <UAlert

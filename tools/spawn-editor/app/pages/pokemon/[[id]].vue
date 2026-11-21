@@ -217,11 +217,7 @@ const sources = computed(() => {
           :help="signatureHelp(spawn)"
           class="mt-3"
         >
-          <UInputTags
-            v-model="spawn.signatureBlocks"
-            placeholder="minecraft:short_grass"
-            class="w-full"
-          />
+          <BlockList v-model="spawn.signatureBlocks" />
         </UFormField>
       </UCard>
 
