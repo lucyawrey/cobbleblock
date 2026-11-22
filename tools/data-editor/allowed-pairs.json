@@ -102,6 +102,9 @@
   "savanna": [
     "ground"
   ],
+  "shore": [
+    "ground"
+  ],
   "snow": [
     "ground",
     "dive"
@@ -128,9 +131,6 @@
     "cave"
   ],
   "volcanic": [
-    "ground"
-  ],
-  "waterside": [
     "ground"
   ]
 }

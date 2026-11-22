@@ -67,22 +67,18 @@ function blockModel(id: string) {
 }
 
 export interface BlockIcon {
-  top?: string
-  side?: string
-  flat?: string
+  texture?: string
 }
 
 const iconCache = new Map<string, BlockIcon>()
 
-// Textures to draw a block as a small cube, or flat for plants (cross models) and blocks without top and side textures.
+// One texture to draw a block flat: the plant for cross models, otherwise a side.
 export function blockIcon(id: string): BlockIcon {
   const cached = iconCache.get(id)
   if (cached) return cached
   const textures: Record<string, string> = {}
-  const models: string[] = []
-  for (let model = blockModel(id); model && models.length < 20;) {
+  for (let model = blockModel(id), depth = 0; model && depth < 20; depth++) {
     const [namespace, name] = split(model)
-    models.push(name)
     const data = readAssetJson<{ parent?: string, textures?: Record<string, string> }>(`assets/${namespace}/models/${name}.json`)
     for (const [key, value] of Object.entries(data?.textures ?? {})) textures[key] ??= value
     model = data?.parent
@@ -95,11 +91,7 @@ export function blockIcon(id: string): BlockIcon {
     const png = readAsset(`assets/${namespace}/textures/${path}.png`)
     return png && `data:image/png;base64,${png.toString('base64')}`
   }
-  const pick = (...keys: string[]) => keys.map(resolve).find(Boolean)
-  const cross = models.some(name => name.endsWith('cross'))
-  const top = cross ? undefined : pick('top', 'end', 'up', 'all', 'texture')
-  const side = cross ? undefined : pick('side', 'all', 'north', 'front', 'texture')
-  const icon = top && side ? { top, side } : { flat: pick('cross', 'plant', 'texture', 'all', 'particle') }
+  const icon = { texture: ['cross', 'plant', 'side', 'all', 'texture', 'north', 'front', 'end', 'top', 'particle'].map(resolve).find(Boolean) }
   iconCache.set(id, icon)
   return icon
 }
