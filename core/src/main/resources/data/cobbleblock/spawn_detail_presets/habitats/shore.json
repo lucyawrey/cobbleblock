@@ -1,0 +1,13 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "neededNearbyBlocks": [
+      "minecraft:water"
+    ],
+    "neededBaseBlocks": [
+      "minecraft:water"
+    ]
+  }
+}

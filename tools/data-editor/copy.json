@@ -1,0 +1,99 @@
+{
+  "app": {
+    "title": "Cobbleblock Data Editor",
+    "nav": { "pokemon": "Pokémon", "habitats": "Habitats" }
+  },
+  "common": {
+    "save": "Save",
+    "saved": "Saved",
+    "notSaved": "Not saved",
+    "cancel": "[button that closes a dialog without changes]",
+    "any": "any"
+  },
+  "blockList": {
+    "notInPack": "Not in the Pack",
+    "remove": "Remove",
+    "add": "Add a block or #tag"
+  },
+  "timeRange": {
+    "customTicks": "custom ticks",
+    "fromTick": "From tick",
+    "to": "to",
+    "toTick": "To tick"
+  },
+  "habitats": {
+    "new": "New habitat",
+    "id": "ID",
+    "dimensions": "Dimensions",
+    "exposure": "Exposure",
+    "exposureHelp": {
+      "outdoors": "sky light 8–15",
+      "sheltered": "sky light 0–7",
+      "any": "no sky light check"
+    },
+    "allowedTypes": "Allowed spawn types",
+    "blocks": "Blocks",
+    "blocksHelp": "Spawns need one of these nearby, and ground spawns can also stand on them. Leave empty for a habitat with no block check.",
+    "breaksSpawns": "Saving this breaks these spawns",
+    "draft": "Draft",
+    "empty": "Pick a habitat or make a new one."
+  },
+  "pokemon": {
+    "search": "Search by name or number",
+    "all": "All",
+    "status": { "none": "No Spawns", "old": "Old Format", "draft": "Draft", "new": "Done" },
+    "kinds": { "legendary": "Legendary", "mythical": "Mythical", "ultra_beast": "Ultra Beast", "paradox": "Paradox" },
+    "addSpawn": "Add spawn",
+    "oldFormat": "The pack's file uses the old format. Add spawns here to replace it when you save.",
+    "spawnId": "Spawn ID",
+    "removeSpawn": "Remove spawn",
+    "duplicateSpawn": "[duplicate spawn]",
+    "linkSpawn": "[switch label: share this spawn with other members of the evolution family]",
+    "linkedWith": "[line under a spawn's header naming the other Pokémon it's linked with: {members}]",
+    "linkTitle": "[dialog title: pick which family members share this spawn]",
+    "linkConfirm": "[dialog button that links the spawn]",
+    "habitat": "Habitat",
+    "spawnType": "Spawn type",
+    "bucket": "Bucket",
+    "weight": "Weight",
+    "level": "Level",
+    "levelPlaceholder": "5-32",
+    "weather": "Weather",
+    "dark": "Dark",
+    "darkHelp": "Light 0–7, so it avoids torch-lit spots",
+    "timeRange": "Time range",
+    "moonPhase": "Moon phase",
+    "properties": "Properties",
+    "propertiesHelp": "Added after the species, such as a form",
+    "propertiesPlaceholder": "min_perfect_ivs=3",
+    "lureBoosts": "Lure level weight ×",
+    "lureBoostsHelp": "For lure levels 1, 2 and 3",
+    "lureLevel": "Lure level {level}",
+    "signatureBlocks": "Signature blocks",
+    "signatureOnly": "Only spawns near these blocks, since this habitat needs none",
+    "signatureAlso": "Also spawns near these blocks",
+    "sourcesToggle": "Source Data",
+    "sources": {
+      "cobblemon": "Cobblemon 1.8.4",
+      "atm": "ATM x MSD",
+      "megaShowdown": "Mega Showdown",
+      "sheet": "Sheet",
+      "pack": "Pack (current file)"
+    },
+    "empty": "Pick a Pokémon from the list."
+  },
+  "rules": {
+    "fishingIgnoresBlocks": "Cobblemon ignores a habitat's blocks on fishing spawns",
+    "listsWater": "the habitat lists water, so the block check would always pass",
+    "listsLava": "the habitat lists lava, so the block check would always pass",
+    "idCharacters": "ID can only use lower case letters, digits and _",
+    "idIsSpawnType": "ID is already a spawn type",
+    "noDimension": "pick at least one dimension"
+  },
+  "server": {
+    "noPokemon": "No Pokémon called {id}",
+    "typeNotAllowed": "{spawn}: {habitat} doesn't allow {type}",
+    "habitatExists": "{id} already exists",
+    "habitatInUse": "spawns use {id}, so it can't be renamed"
+  }
+}

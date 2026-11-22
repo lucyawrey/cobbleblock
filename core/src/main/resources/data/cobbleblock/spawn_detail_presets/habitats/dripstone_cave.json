@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "minSkyLight": 0,
+    "maxSkyLight": 7,
+    "neededNearbyBlocks": [
+      "minecraft:dripstone_block",
+      "minecraft:pointed_dripstone"
+    ],
+    "neededBaseBlocks": [
+      "minecraft:dripstone_block",
+      "minecraft:pointed_dripstone"
+    ]
+  }
+}

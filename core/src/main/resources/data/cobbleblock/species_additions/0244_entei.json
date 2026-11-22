@@ -1,7 +1,7 @@
 {
   "target": "cobblemon:entei",
   "drops": {
-    "amount": 6,
+    "amount": 7,
     "entries": [
       {
         "item": "cobblemon:rare_candy",
@@ -25,6 +25,10 @@
       },
       {
         "item": "cobblemon:fire_gem",
+        "percentage": 50
+      },
+      {
+        "item": "cobbleblock:red_feather",
         "percentage": 50
       }
     ]

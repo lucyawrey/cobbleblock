@@ -1,0 +1,15 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "minSkyLight": 8,
+    "maxSkyLight": 15,
+    "neededNearbyBlocks": [
+      "#cobblemon:saccharine_trees"
+    ],
+    "neededBaseBlocks": [
+      "#cobblemon:saccharine_trees"
+    ]
+  }
+}

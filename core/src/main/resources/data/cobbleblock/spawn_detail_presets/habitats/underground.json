@@ -1,0 +1,9 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "minSkyLight": 0,
+    "maxSkyLight": 7
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "neededNearbyBlocks": [
+      "minecraft:soul_sand",
+      "minecraft:soul_soil",
+      "minecraft:soul_fire",
+      "minecraft:soul_campfire",
+      "minecraft:soul_torch",
+      "minecraft:soul_lantern"
+    ],
+    "neededBaseBlocks": [
+      "minecraft:soul_sand",
+      "minecraft:soul_soil",
+      "minecraft:soul_fire",
+      "minecraft:soul_campfire",
+      "minecraft:soul_torch",
+      "minecraft:soul_lantern"
+    ]
+  }
+}

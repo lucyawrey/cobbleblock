@@ -1,0 +1,165 @@
+{
+  "badlands": [
+    "ground"
+  ],
+  "bamboo_forest": [
+    "ground",
+    "surf"
+  ],
+  "beach": [
+    "ground",
+    "surf",
+    "dive",
+    "seafloor"
+  ],
+  "building": [
+    "ground",
+    "surf"
+  ],
+  "cave": [
+    "ground",
+    "surf",
+    "dive"
+  ],
+  "cherry_forest": [
+    "ground",
+    "surf"
+  ],
+  "dark_forest": [
+    "ground",
+    "surf"
+  ],
+  "deep_dark": [
+    "ground",
+    "surf",
+    "lava"
+  ],
+  "desert": [
+    "ground"
+  ],
+  "dripstone_cave": [
+    "ground",
+    "surf",
+    "dive"
+  ],
+  "farm": [
+    "ground",
+    "surf"
+  ],
+  "flowers": [
+    "ground"
+  ],
+  "forest": [
+    "ground"
+  ],
+  "gemstones": [
+    "ground",
+    "dive"
+  ],
+  "grassland": [
+    "ground"
+  ],
+  "jungle": [
+    "ground",
+    "dive"
+  ],
+  "library": [
+    "ground"
+  ],
+  "lush_cave": [
+    "ground",
+    "surf",
+    "dive",
+    "seafloor"
+  ],
+  "machinery": [
+    "ground"
+  ],
+  "metal": [
+    "ground"
+  ],
+  "mushroom": [
+    "ground"
+  ],
+  "nether": [
+    "ground",
+    "surf",
+    "lava",
+    "dive",
+    "seafloor",
+    "fishing"
+  ],
+  "nether_forest": [
+    "ground"
+  ],
+  "nether_fortress": [
+    "ground",
+    "lava"
+  ],
+  "nether_soul": [
+    "ground"
+  ],
+  "overworld": [
+    "ground",
+    "surf",
+    "lava",
+    "dive",
+    "seafloor",
+    "fishing"
+  ],
+  "pokemon_center": [
+    "ground"
+  ],
+  "redstone": [
+    "ground"
+  ],
+  "reef": [
+    "ground",
+    "surf",
+    "dive",
+    "seafloor"
+  ],
+  "saccharine_forest": [
+    "ground"
+  ],
+  "savanna": [
+    "ground"
+  ],
+  "shore": [
+    "ground"
+  ],
+  "snowy": [
+    "ground",
+    "surf",
+    "dive"
+  ],
+  "soul": [
+    "ground"
+  ],
+  "stone": [
+    "ground"
+  ],
+  "swamp": [
+    "ground",
+    "surf",
+    "dive",
+    "seafloor"
+  ],
+  "taiga": [
+    "ground"
+  ],
+  "underground": [
+    "ground",
+    "surf",
+    "lava",
+    "dive",
+    "fishing"
+  ],
+  "urban": [
+    "ground"
+  ],
+  "volcanic": [
+    "ground",
+    "lava"
+  ]
+}

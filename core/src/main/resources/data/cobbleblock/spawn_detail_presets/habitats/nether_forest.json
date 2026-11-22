@@ -1,0 +1,35 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "neededNearbyBlocks": [
+      "#minecraft:crimson_stems",
+      "#minecraft:warped_stems",
+      "minecraft:shroomlight",
+      "#minecraft:nylium",
+      "#minecraft:wart_blocks",
+      "minecraft:weeping_vines",
+      "minecraft:twisting_vines",
+      "minecraft:crimson_fungus",
+      "minecraft:warped_fungus",
+      "minecraft:crimson_roots",
+      "minecraft:warped_roots",
+      "minecraft:nether_sprouts"
+    ],
+    "neededBaseBlocks": [
+      "#minecraft:crimson_stems",
+      "#minecraft:warped_stems",
+      "minecraft:shroomlight",
+      "#minecraft:nylium",
+      "#minecraft:wart_blocks",
+      "minecraft:weeping_vines",
+      "minecraft:twisting_vines",
+      "minecraft:crimson_fungus",
+      "minecraft:warped_fungus",
+      "minecraft:crimson_roots",
+      "minecraft:warped_roots",
+      "minecraft:nether_sprouts"
+    ]
+  }
+}

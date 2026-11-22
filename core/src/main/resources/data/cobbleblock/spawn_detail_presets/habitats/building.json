@@ -1,0 +1,41 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "minSkyLight": 0,
+    "maxSkyLight": 7,
+    "neededNearbyBlocks": [
+      "#minecraft:wool",
+      "#cobblemon:concrete_blocks",
+      "#c:glass_blocks",
+      "#c:glass_panes",
+      "#c:fences",
+      "#minecraft:beds",
+      "minecraft:lantern",
+      "minecraft:bell",
+      "#minecraft:wool_carpets",
+      "#minecraft:banners",
+      "#minecraft:candles",
+      "#minecraft:flower_pots",
+      "#adorn:chairs",
+      "#adorn:tables"
+    ],
+    "neededBaseBlocks": [
+      "#minecraft:wool",
+      "#cobblemon:concrete_blocks",
+      "#c:glass_blocks",
+      "#c:glass_panes",
+      "#c:fences",
+      "#minecraft:beds",
+      "minecraft:lantern",
+      "minecraft:bell",
+      "#minecraft:wool_carpets",
+      "#minecraft:banners",
+      "#minecraft:candles",
+      "#minecraft:flower_pots",
+      "#adorn:chairs",
+      "#adorn:tables"
+    ]
+  }
+}

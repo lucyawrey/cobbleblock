@@ -1,0 +1,24 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld",
+      "minecraft:the_nether"
+    ],
+    "neededNearbyBlocks": [
+      "minecraft:basalt",
+      "minecraft:magma_block",
+      "#minecraft:fire",
+      "minecraft:polished_basalt",
+      "minecraft:smooth_basalt",
+      "minecraft:blackstone"
+    ],
+    "neededBaseBlocks": [
+      "minecraft:basalt",
+      "minecraft:magma_block",
+      "#minecraft:fire",
+      "minecraft:polished_basalt",
+      "minecraft:smooth_basalt",
+      "minecraft:blackstone"
+    ]
+  }
+}

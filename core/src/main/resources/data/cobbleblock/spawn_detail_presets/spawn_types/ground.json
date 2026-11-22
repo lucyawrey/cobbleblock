@@ -1,0 +1,13 @@
+{
+  "spawnablePositionType": "grounded",
+  "condition": {
+    "neededBaseBlocks": [
+      "#cobbleblock:spawn_ground"
+    ]
+  },
+  "anticondition": {
+    "neededBaseBlocks": [
+      "minecraft:farmland"
+    ]
+  }
+}

@@ -3,6 +3,10 @@
   "package": "com.lucyazalea.cobbleblockcore.mixin",
   "compatibilityLevel": "JAVA_21",
   "minVersion": "0.8",
+  "mixins": [
+    "SpawnPoolMixin",
+    "SpeciesAdditionsMixin"
+  ],
   "client": [
     "WorldOpenFlowsMixin"
   ]

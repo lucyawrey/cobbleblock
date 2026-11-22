@@ -1,0 +1,25 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "minSkyLight": 8,
+    "maxSkyLight": 15,
+    "neededNearbyBlocks": [
+      "#minecraft:spruce_logs",
+      "minecraft:spruce_leaves",
+      "minecraft:fern",
+      "minecraft:large_fern",
+      "minecraft:sweet_berry_bush",
+      "minecraft:podzol"
+    ],
+    "neededBaseBlocks": [
+      "#minecraft:spruce_logs",
+      "minecraft:spruce_leaves",
+      "minecraft:fern",
+      "minecraft:large_fern",
+      "minecraft:sweet_berry_bush",
+      "minecraft:podzol"
+    ]
+  }
+}

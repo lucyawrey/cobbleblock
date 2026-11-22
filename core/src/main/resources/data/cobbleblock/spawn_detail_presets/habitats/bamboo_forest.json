@@ -1,0 +1,21 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "minSkyLight": 8,
+    "maxSkyLight": 15,
+    "neededNearbyBlocks": [
+      "minecraft:bamboo",
+      "minecraft:bamboo_block",
+      "#minecraft:bamboo_blocks",
+      "minecraft:bamboo_planks"
+    ],
+    "neededBaseBlocks": [
+      "minecraft:bamboo",
+      "minecraft:bamboo_block",
+      "#minecraft:bamboo_blocks",
+      "minecraft:bamboo_planks"
+    ]
+  }
+}
