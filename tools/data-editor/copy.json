@@ -47,6 +47,7 @@
     "oldFormat": "The pack's file uses the old format. Add spawns here to replace it when you save.",
     "spawnId": "Spawn ID",
     "removeSpawn": "Remove spawn",
+    "duplicateSpawn": "[duplicate spawn]",
     "linkSpawn": "[switch label: share this spawn with other members of the evolution family]",
     "linkedWith": "[line under a spawn's header naming the other Pokémon it's linked with: {members}]",
     "linkTitle": "[dialog title: pick which family members share this spawn]",

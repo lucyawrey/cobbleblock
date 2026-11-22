@@ -42,9 +42,20 @@ function signatureHelp(spawn: EditorSpawn) {
   return habitat?.blocks.length === 0 ? copy.pokemon.signatureOnly : copy.pokemon.signatureAlso
 }
 
+function freshId() {
+  const species = detail.value!.species.id
+  let n = 1
+  while (spawns.value.some(spawn => spawn.id === `${species}-${n}`)) n++
+  return `${species}-${n}`
+}
+
 function addSpawn() {
-  const id = detail.value!.species.id
-  spawns.value.push(newSpawn(`${id}-${spawns.value.length + 1}`))
+  spawns.value.push(newSpawn(freshId()))
+}
+
+function duplicateSpawn(index: number) {
+  const { link: _, ...rest } = structuredClone(toRaw(spawns.value[index]!))
+  spawns.value.splice(index + 1, 0, { ...rest, id: freshId() })
 }
 
 const linking = ref<{ spawn: EditorSpawn, family: FamilyMember[], members: string[] }>()
@@ -213,6 +224,13 @@ const sources = computed(() => {
                 :model-value="!!spawn.link?.members.length || linking?.spawn === spawn"
                 :label="copy.pokemon.linkSpawn"
                 @update:model-value="setLinked(spawn, $event)"
+              />
+              <UButton
+                icon="i-lucide-copy"
+                color="neutral"
+                variant="ghost"
+                :aria-label="copy.pokemon.duplicateSpawn"
+                @click="duplicateSpawn(index)"
               />
               <UButton
                 icon="i-lucide-trash-2"
