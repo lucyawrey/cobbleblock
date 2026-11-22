@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { copy, fill } from '#shared/copy'
 import { isAllowed, spawnTypes } from '#shared/rules'
-import { buckets, moonPhases, newSpawn, weathers, type EditorSpawn, type HabitatData, type PokemonDetail, type PokemonListItem, type PokemonStatus } from '#shared/spawns'
+import { buckets, moonPhases, newSpawn, weathers, type EditorSpawn, type FamilyMember, type HabitatData, type PokemonDetail, type PokemonListItem, type PokemonStatus } from '#shared/spawns'
 
 definePageMeta({ key: 'pokemon' })
 
@@ -45,6 +45,27 @@ function signatureHelp(spawn: EditorSpawn) {
 function addSpawn() {
   const id = detail.value!.species.id
   spawns.value.push(newSpawn(`${id}-${spawns.value.length + 1}`))
+}
+
+const linking = ref<{ spawn: EditorSpawn, family: FamilyMember[], members: string[] }>()
+
+function memberNames(spawn: EditorSpawn) {
+  return spawn.link!.members.map(id => list.value?.find(pokemon => pokemon.id === id)?.name ?? id).join(', ')
+}
+
+async function setLinked(spawn: EditorSpawn, on: boolean) {
+  if (!on) {
+    spawn.link = spawn.link?.id ? { id: spawn.link.id, members: [] } : undefined
+    return
+  }
+  const family = await $fetch<FamilyMember[]>(`/api/pokemon/${selectedId.value}/family`, { query: { properties: spawn.properties } })
+  linking.value = { spawn, family, members: family.filter(member => member.hasSpawns && member.id !== selectedId.value).map(member => member.id) }
+}
+
+function confirmLink() {
+  const { spawn, members } = linking.value!
+  spawn.link = { id: spawn.link?.id, members }
+  linking.value = undefined
 }
 
 const saving = ref(false)
@@ -187,14 +208,27 @@ const sources = computed(() => {
               :aria-label="copy.pokemon.spawnId"
               class="w-60"
             />
-            <UButton
-              icon="i-lucide-trash-2"
-              color="neutral"
-              variant="ghost"
-              :aria-label="copy.pokemon.removeSpawn"
-              @click="spawns.splice(index, 1)"
-            />
+            <div class="flex items-center gap-2">
+              <USwitch
+                :model-value="!!spawn.link?.members.length || linking?.spawn === spawn"
+                :label="copy.pokemon.linkSpawn"
+                @update:model-value="setLinked(spawn, $event)"
+              />
+              <UButton
+                icon="i-lucide-trash-2"
+                color="neutral"
+                variant="ghost"
+                :aria-label="copy.pokemon.removeSpawn"
+                @click="spawns.splice(index, 1)"
+              />
+            </div>
           </div>
+          <p
+            v-if="spawn.link?.members.length"
+            class="mt-2 text-sm text-muted"
+          >
+            {{ fill(copy.pokemon.linkedWith, { members: memberNames(spawn) }) }}
+          </p>
         </template>
         <div class="grid grid-cols-2 gap-3 md:grid-cols-4">
           <UFormField :label="copy.pokemon.habitat">
@@ -295,6 +329,35 @@ const sources = computed(() => {
           <BlockList v-model="spawn.signatureBlocks" />
         </UFormField>
       </UCard>
+
+      <UModal
+        :open="!!linking"
+        :title="copy.pokemon.linkTitle"
+        @update:open="linking = undefined"
+      >
+        <template #body>
+          <UCheckboxGroup
+            v-if="linking"
+            v-model="linking.members"
+            :items="linking.family.filter(member => member.id !== selectedId).map(member => ({ label: member.name, value: member.id }))"
+          />
+        </template>
+        <template #footer>
+          <div class="flex w-full justify-end gap-2">
+            <UButton
+              :label="copy.common.cancel"
+              color="neutral"
+              variant="outline"
+              @click="linking = undefined"
+            />
+            <UButton
+              :label="copy.pokemon.linkConfirm"
+              :disabled="!linking?.members.length"
+              @click="confirmLink"
+            />
+          </div>
+        </template>
+      </UModal>
 
       <UCollapsible v-model:open="showSources">
         <UButton

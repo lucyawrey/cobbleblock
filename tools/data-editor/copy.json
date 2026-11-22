@@ -7,6 +7,7 @@
     "save": "Save",
     "saved": "Saved",
     "notSaved": "Not saved",
+    "cancel": "[button that closes a dialog without changes]",
     "any": "any"
   },
   "blockList": {
@@ -46,6 +47,10 @@
     "oldFormat": "The pack's file uses the old format. Add spawns here to replace it when you save.",
     "spawnId": "Spawn ID",
     "removeSpawn": "Remove spawn",
+    "linkSpawn": "[switch label: share this spawn with other members of the evolution family]",
+    "linkedWith": "[line under a spawn's header naming the other Pokémon it's linked with: {members}]",
+    "linkTitle": "[dialog title: pick which family members share this spawn]",
+    "linkConfirm": "[dialog button that links the spawn]",
     "habitat": "Habitat",
     "spawnType": "Spawn type",
     "bucket": "Bucket",

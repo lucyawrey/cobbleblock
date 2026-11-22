@@ -130,6 +130,15 @@ export function toFile(species: Species, spawn: EditorSpawn) {
   }
 }
 
+export function writePack(species: Species, spawns: EditorSpawn[]) {
+  writeJson(join(spawnDir, fileName(species)), {
+    enabled: true,
+    neededInstalledMods: [],
+    neededUninstalledMods: [],
+    spawns: spawns.map(spawn => toFile(species, spawn))
+  })
+}
+
 export function sheetRows(species: Species): Record<string, string | string[]>[] {
   const dir = process.env.SPAWN_SHEET_DIR
   const path = dir && join(dir, 'spawns.csv')

@@ -27,6 +27,19 @@ export interface EditorSpawn {
   lureBoosts: number[]
   properties: string
   signatureBlocks: string[]
+  link?: SpawnLink
+}
+
+// A spawn shared across an evolution family. Members are the other Pokémon in the link; none means unlink.
+export interface SpawnLink {
+  id?: string
+  members: string[]
+}
+
+export interface FamilyMember {
+  id: string
+  name: string
+  hasSpawns: boolean
 }
 
 export type PokemonStatus = 'none' | 'old' | 'draft' | 'new'

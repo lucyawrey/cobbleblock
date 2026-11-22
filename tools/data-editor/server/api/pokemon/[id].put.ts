@@ -1,4 +1,3 @@
-import { join } from 'node:path'
 import { copy, fill } from '#shared/copy'
 import { isAllowed } from '#shared/rules'
 import type { EditorSpawn } from '#shared/spawns'
@@ -13,11 +12,7 @@ export default defineEventHandler(async (event) => {
       throw createError({ statusCode: 400, statusMessage: fill(copy.server.typeNotAllowed, { spawn: spawn.id, habitat: spawn.habitat, type: spawn.type }) })
     }
   }
-  writeJson(join(spawnDir, fileName(species)), {
-    enabled: true,
-    neededInstalledMods: [],
-    neededUninstalledMods: [],
-    spawns: spawns.map(spawn => toFile(species, spawn))
-  })
+  writePack(species, spawns)
   removeFile(draftPath(species))
+  saveLinks(species, spawns)
 })
