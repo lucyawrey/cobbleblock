@@ -2,33 +2,49 @@
   "badlands": [
     "ground"
   ],
-  "bamboo": [
-    "ground"
+  "bamboo_forest": [
+    "ground",
+    "surf"
   ],
   "beach": [
     "ground",
     "surf",
+    "dive",
+    "seafloor"
+  ],
+  "building": [
+    "ground",
+    "surf"
+  ],
+  "cave": [
+    "ground",
+    "surf",
     "dive"
   ],
-  "cherry": [
-    "ground"
+  "cherry_forest": [
+    "ground",
+    "surf"
   ],
   "dark_forest": [
-    "ground"
+    "ground",
+    "surf"
   ],
   "deep_dark": [
     "ground",
-    "cave"
+    "surf",
+    "lava"
   ],
   "desert": [
     "ground"
   ],
   "dripstone_cave": [
     "ground",
-    "cave"
+    "surf",
+    "dive"
   ],
   "farm": [
-    "ground"
+    "ground",
+    "surf"
   ],
   "flowers": [
     "ground"
@@ -52,9 +68,14 @@
   ],
   "lush_cave": [
     "ground",
-    "dive"
+    "surf",
+    "dive",
+    "seafloor"
   ],
   "machinery": [
+    "ground"
+  ],
+  "metal": [
     "ground"
   ],
   "mushroom": [
@@ -62,7 +83,6 @@
   ],
   "nether": [
     "ground",
-    "cave",
     "surf",
     "lava",
     "dive",
@@ -73,11 +93,14 @@
     "ground"
   ],
   "nether_fortress": [
+    "ground",
+    "lava"
+  ],
+  "nether_soul": [
     "ground"
   ],
   "overworld": [
     "ground",
-    "cave",
     "surf",
     "lava",
     "dive",
@@ -96,7 +119,7 @@
     "dive",
     "seafloor"
   ],
-  "saccharine": [
+  "saccharine_forest": [
     "ground"
   ],
   "savanna": [
@@ -105,32 +128,38 @@
   "shore": [
     "ground"
   ],
-  "snow": [
+  "snowy": [
     "ground",
+    "surf",
     "dive"
   ],
   "soul": [
     "ground"
   ],
-  "steel": [
-    "ground"
-  ],
   "stone": [
-    "ground",
-    "cave"
+    "ground"
   ],
   "swamp": [
     "ground",
-    "dive"
+    "surf",
+    "dive",
+    "seafloor"
   ],
   "taiga": [
     "ground"
   ],
-  "urban": [
+  "underground": [
     "ground",
-    "cave"
+    "surf",
+    "lava",
+    "dive",
+    "fishing"
+  ],
+  "urban": [
+    "ground"
   ],
   "volcanic": [
-    "ground"
+    "ground",
+    "lava"
   ]
 }

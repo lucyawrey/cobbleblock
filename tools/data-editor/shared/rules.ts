@@ -1,6 +1,6 @@
 import { copy } from './copy'
 
-export const spawnTypes = ['ground', 'cave', 'surf', 'lava', 'dive', 'seafloor', 'fishing'] as const
+export const spawnTypes = ['ground', 'surf', 'lava', 'dive', 'seafloor', 'fishing'] as const
 export type SpawnType = typeof spawnTypes[number]
 
 export const exposures = ['outdoors', 'sheltered', 'any'] as const
@@ -37,9 +37,6 @@ export function blockedReason(habitat: Habitat, type: SpawnType): string | undef
   }
   if (type === 'lava' && lists(habitat, 'lava')) {
     return copy.rules.listsLava
-  }
-  if (type === 'cave' && habitat.exposure === 'outdoors') {
-    return copy.rules.caveSheltered
   }
 }
 

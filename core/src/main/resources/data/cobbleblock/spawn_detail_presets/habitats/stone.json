@@ -4,14 +4,10 @@
       "minecraft:overworld"
     ],
     "neededNearbyBlocks": [
-      "minecraft:stone",
-      "#c:stones",
-      "#minecraft:base_stone_overworld"
+      "#c:stones"
     ],
     "neededBaseBlocks": [
-      "minecraft:stone",
-      "#c:stones",
-      "#minecraft:base_stone_overworld"
+      "#c:stones"
     ]
   }
 }

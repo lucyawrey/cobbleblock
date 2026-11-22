@@ -86,7 +86,6 @@
     "fishingIgnoresBlocks": "Cobblemon ignores a habitat's blocks on fishing spawns",
     "listsWater": "the habitat lists water, so the block check would always pass",
     "listsLava": "the habitat lists lava, so the block check would always pass",
-    "caveSheltered": "cave spawns are always sheltered",
     "idCharacters": "ID can only use lower case letters, digits and _",
     "idIsSpawnType": "ID is already a spawn type",
     "noDimension": "pick at least one dimension"

@@ -7,7 +7,6 @@
     "neededNearbyBlocks": [
       "minecraft:basalt",
       "minecraft:magma_block",
-      "minecraft:netherrack",
       "#minecraft:fire",
       "minecraft:polished_basalt",
       "minecraft:smooth_basalt",
@@ -16,7 +15,6 @@
     "neededBaseBlocks": [
       "minecraft:basalt",
       "minecraft:magma_block",
-      "minecraft:netherrack",
       "#minecraft:fire",
       "minecraft:polished_basalt",
       "minecraft:smooth_basalt",

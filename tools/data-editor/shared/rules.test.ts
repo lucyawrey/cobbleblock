@@ -2,7 +2,7 @@ import { expect, it } from 'bun:test'
 import { habitatErrors, isAllowed, wouldBreak, type Habitat } from './rules'
 
 function habitat(changes: Partial<Habitat> = {}): Habitat {
-  return { id: 'beach', blocks: ['minecraft:sand'], exposure: 'outdoors', dimensions: ['minecraft:overworld'], allowed: ['ground', 'surf', 'dive', 'fishing', 'cave', 'lava'], ...changes }
+  return { id: 'beach', blocks: ['minecraft:sand'], exposure: 'outdoors', dimensions: ['minecraft:overworld'], allowed: ['ground', 'surf', 'dive', 'fishing', 'lava'], ...changes }
 }
 
 it('only allows spawn types the habitat lists', () => {
@@ -26,13 +26,8 @@ it('only allows fishing on habitats without blocks', () => {
   expect(isAllowed(habitat({ blocks: [] }), 'fishing')).toBe(true)
 })
 
-it('keeps cave spawns off outdoor habitats', () => {
-  expect(isAllowed(habitat(), 'cave')).toBe(false)
-  expect(isAllowed(habitat({ exposure: 'any' }), 'cave')).toBe(true)
-})
-
 it('refuses a habitat ID that a spawn type uses', () => {
-  expect(habitatErrors(habitat({ id: 'cave' }))).toContain('ID is already a spawn type')
+  expect(habitatErrors(habitat({ id: 'surf' }))).toContain('ID is already a spawn type')
   expect(habitatErrors(habitat())).toEqual([])
 })
 

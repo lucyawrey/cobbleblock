@@ -1,7 +1,7 @@
 {
   "condition": {
     "dimensions": [
-      "minecraft:the_nether"
+      "minecraft:overworld"
     ],
     "neededNearbyBlocks": [
       "minecraft:soul_sand",
