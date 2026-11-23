@@ -28,6 +28,12 @@ export function fileName(species: Species) {
   return `${String(species.dex).padStart(4, '0')}_${species.id}.json`
 }
 
+// The old format kept some forms in files of their own, such as `0201_unown_character_a.json`.
+function packFiles(species: Species) {
+  const name = fileName(species).replace(/\.json$/, '')
+  return listJson(spawnDir).filter(path => basename(path) === `${name}.json` || basename(path).startsWith(`${name}_`))
+}
+
 export interface RawSpawn {
   id: string
   pokemon?: string
@@ -72,8 +78,7 @@ export function baseSpawns(species: Species) {
 }
 
 export function packSpawns(species: Species): RawSpawn[] {
-  const path = join(spawnDir, fileName(species))
-  return existsSync(path) ? readJson<SpawnFile>(path).spawns ?? [] : []
+  return packFiles(species).flatMap(path => readJson<SpawnFile>(path).spawns ?? [])
 }
 
 function presetId(id: string) {
@@ -131,6 +136,7 @@ export function toFile(species: Species, spawn: EditorSpawn) {
 }
 
 export function writePack(species: Species, spawns: EditorSpawn[]) {
+  for (const path of packFiles(species)) removeFile(path)
   writeJson(join(spawnDir, fileName(species)), {
     enabled: true,
     neededInstalledMods: [],
