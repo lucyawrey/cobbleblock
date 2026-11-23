@@ -11,10 +11,9 @@
       "minecraft:honey_block",
       "minecraft:honeycomb_block",
       "#minecraft:crops",
-      "minecraft:farmland",
       "farmersdelight:rich_soil",
-      "farmersdelight:rich_soil_farmland",
-      "minecraft:hay_block"
+      "minecraft:hay_block",
+      "#cobblemon:berries"
     ],
     "neededBaseBlocks": [
       "minecraft:composter",
@@ -24,10 +23,9 @@
       "minecraft:honey_block",
       "minecraft:honeycomb_block",
       "#minecraft:crops",
-      "minecraft:farmland",
       "farmersdelight:rich_soil",
-      "farmersdelight:rich_soil_farmland",
-      "minecraft:hay_block"
+      "minecraft:hay_block",
+      "#cobblemon:berries"
     ]
   }
 }
