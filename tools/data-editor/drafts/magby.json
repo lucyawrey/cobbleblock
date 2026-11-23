@@ -1,0 +1,24 @@
+[
+  {
+    "id": "magby-1",
+    "habitat": "volcanic",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 9,
+    "level": "11-36",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:lava",
+      "minecraft:netherrack"
+    ]
+  }
+]

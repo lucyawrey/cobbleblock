@@ -1,0 +1,23 @@
+[
+  {
+    "id": "scizor-1",
+    "habitat": "jungle",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 0.16,
+    "level": "45-50",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:stonecutter"
+    ]
+  }
+]

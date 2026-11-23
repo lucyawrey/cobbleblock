@@ -1,0 +1,21 @@
+[
+  {
+    "id": "pidgeot-1",
+    "habitat": "forest",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.1,
+    "level": "36-48",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "miltank-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 6,
+    "level": "24-49",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "miltank-mooshtank-brown-1",
+    "habitat": "mushroom",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.1,
+    "level": "24-49",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "mooshtank=brown",
+    "signatureBlocks": []
+  },
+  {
+    "id": "miltank-mooshtank-red-1",
+    "habitat": "mushroom",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 9.9,
+    "level": "24-49",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "mooshtank=red",
+    "signatureBlocks": []
+  }
+]

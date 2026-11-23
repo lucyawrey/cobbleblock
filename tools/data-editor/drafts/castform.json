@@ -1,0 +1,78 @@
+[
+  {
+    "id": "castform-1",
+    "habitat": "desert",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 10,
+    "level": "23-48",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "castform-forecast-rainy-1",
+    "habitat": "overworld",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 10,
+    "level": "23-48",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "rain",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "forecast=rainy",
+    "signatureBlocks": []
+  },
+  {
+    "id": "castform-forecast-snowy-1",
+    "habitat": "snowy",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 10,
+    "level": "23-48",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "forecast=snowy",
+    "signatureBlocks": []
+  },
+  {
+    "id": "castform-forecast-sunny-1",
+    "habitat": "desert",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 10,
+    "level": "23-48",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "forecast=sunny",
+    "signatureBlocks": []
+  }
+]

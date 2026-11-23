@@ -1,0 +1,21 @@
+[
+  {
+    "id": "cradily-1",
+    "habitat": "flower_field",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 4,
+    "level": "40-50",
+    "timeRange": "any",
+    "dark": true,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

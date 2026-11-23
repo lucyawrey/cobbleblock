@@ -1,0 +1,40 @@
+[
+  {
+    "id": "quilava-1",
+    "habitat": "taiga",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 3.6,
+    "level": "17-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "quilava-region-bias-hisui-1",
+    "habitat": "taiga",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 3.6,
+    "level": "17-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "region_bias=hisui",
+    "signatureBlocks": []
+  }
+]

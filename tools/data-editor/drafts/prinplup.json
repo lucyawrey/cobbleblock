@@ -1,0 +1,59 @@
+[
+  {
+    "id": "prinplup-1",
+    "habitat": "snowy",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 3.6,
+    "level": "16-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "prinplup-2",
+    "habitat": "snowy",
+    "type": "dive",
+    "bucket": "ultra-rare",
+    "weight": 3.6,
+    "level": "16-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "prinplup-3",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "ultra-rare",
+    "weight": 3.6,
+    "level": "16-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

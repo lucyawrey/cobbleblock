@@ -1,0 +1,21 @@
+[
+  {
+    "id": "vigoroth-1",
+    "habitat": "jungle",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.18,
+    "level": "18-44",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

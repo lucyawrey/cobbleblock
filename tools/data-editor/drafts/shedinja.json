@@ -1,0 +1,21 @@
+[
+  {
+    "id": "shedinja-1",
+    "habitat": "jungle",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "20-24",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

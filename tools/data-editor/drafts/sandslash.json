@@ -1,0 +1,40 @@
+[
+  {
+    "id": "sandslash-1",
+    "habitat": "desert",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 1,
+    "level": "22-45",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "sandslash-alolan-1",
+    "habitat": "snowy",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 3,
+    "level": "22-70",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "alolan",
+    "signatureBlocks": []
+  }
+]

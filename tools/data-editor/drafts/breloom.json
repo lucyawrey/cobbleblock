@@ -1,0 +1,21 @@
+[
+  {
+    "id": "breloom-1",
+    "habitat": "mushroom",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.2,
+    "level": "23-46",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

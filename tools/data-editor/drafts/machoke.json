@@ -1,0 +1,40 @@
+[
+  {
+    "id": "machoke-1",
+    "habitat": "urban",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.57,
+    "level": "28-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "machoke-2",
+    "habitat": "building",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.57,
+    "level": "28-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

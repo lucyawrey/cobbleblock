@@ -1,0 +1,21 @@
+[
+  {
+    "id": "shiftry-1",
+    "habitat": "forest",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.03,
+    "level": "29-48",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

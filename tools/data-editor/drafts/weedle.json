@@ -1,0 +1,40 @@
+[
+  {
+    "id": "weedle-1",
+    "habitat": "forest",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 7,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "weedle-2",
+    "habitat": "forest",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 7,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

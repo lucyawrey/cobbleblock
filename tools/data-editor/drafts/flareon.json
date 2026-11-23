@@ -1,0 +1,23 @@
+[
+  {
+    "id": "flareon-1",
+    "habitat": "badlands",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 1.2,
+    "level": "28-53",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:torch"
+    ]
+  }
+]

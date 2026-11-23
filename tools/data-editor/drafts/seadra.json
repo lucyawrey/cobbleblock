@@ -1,0 +1,40 @@
+[
+  {
+    "id": "seadra-1",
+    "habitat": "reef",
+    "type": "dive",
+    "bucket": "common",
+    "weight": 0.19,
+    "level": "32-44",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "seadra-2",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "common",
+    "weight": 0.19,
+    "level": "32-44",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      3,
+      5
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

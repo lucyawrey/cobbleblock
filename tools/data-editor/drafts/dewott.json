@@ -1,0 +1,78 @@
+[
+  {
+    "id": "dewott-1",
+    "habitat": "beach",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 3.6,
+    "level": "17-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "dewott-2",
+    "habitat": "overworld",
+    "type": "surf",
+    "bucket": "ultra-rare",
+    "weight": 3.6,
+    "level": "17-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "dewott-3",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "ultra-rare",
+    "weight": 3.6,
+    "level": "17-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "dewott-region-bias-hisui-1",
+    "habitat": "beach",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 3.6,
+    "level": "17-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "region_bias=hisui",
+    "signatureBlocks": []
+  }
+]

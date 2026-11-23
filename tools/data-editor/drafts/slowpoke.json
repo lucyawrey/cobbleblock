@@ -1,0 +1,59 @@
+[
+  {
+    "id": "slowpoke-1",
+    "habitat": "beach",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "7-32",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "slowpoke-2",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "7-32",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      3,
+      5
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "slowpoke-galarian-1",
+    "habitat": "beach",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "7-32",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "galarian",
+    "signatureBlocks": []
+  }
+]

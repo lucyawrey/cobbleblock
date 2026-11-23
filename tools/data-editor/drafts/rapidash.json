@@ -1,0 +1,42 @@
+[
+  {
+    "id": "rapidash-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 0.96,
+    "level": "40-50",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:netherrack"
+    ]
+  },
+  {
+    "id": "rapidash-galarian-1",
+    "habitat": "flower_field",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 1.6,
+    "level": "40-50",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "galarian",
+    "signatureBlocks": []
+  }
+]

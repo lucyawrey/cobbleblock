@@ -1,0 +1,23 @@
+[
+  {
+    "id": "munchlax-1",
+    "habitat": "farm",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 7.5,
+    "level": "24-39",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:cake"
+    ]
+  }
+]

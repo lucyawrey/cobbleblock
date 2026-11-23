@@ -1,0 +1,24 @@
+[
+  {
+    "id": "magmortar-1",
+    "habitat": "volcanic",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.05,
+    "level": "45-54",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:lava",
+      "minecraft:netherrack"
+    ]
+  }
+]

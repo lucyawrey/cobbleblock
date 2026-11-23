@@ -1,0 +1,40 @@
+[
+  {
+    "id": "corphish-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "6-31",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "corphish-2",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "6-31",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

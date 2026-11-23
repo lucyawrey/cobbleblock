@@ -1,0 +1,21 @@
+[
+  {
+    "id": "ninjask-1",
+    "habitat": "jungle",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 2,
+    "level": "20-46",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

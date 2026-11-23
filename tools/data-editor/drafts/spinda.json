@@ -1,0 +1,97 @@
+[
+  {
+    "id": "spinda-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5.2,
+    "level": "11-36",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "spinda-special-spots-1-face-spots-none-face-spots2-none-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.1,
+    "level": "11-36",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "special_spots=1 face_spots=none face_spots2=none",
+    "signatureBlocks": []
+  },
+  {
+    "id": "spinda-special-spots-2-face-spots-none-face-spots2-none-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.1,
+    "level": "11-36",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "special_spots=2 face_spots=none face_spots2=none",
+    "signatureBlocks": []
+  },
+  {
+    "id": "spinda-special-spots-3-face-spots-none-face-spots2-none-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.1,
+    "level": "11-36",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "special_spots=3 face_spots=none face_spots2=none",
+    "signatureBlocks": []
+  },
+  {
+    "id": "spinda-special-spots-4-face-spots-none-face-spots2-none-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.1,
+    "level": "11-36",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "special_spots=4 face_spots=none face_spots2=none",
+    "signatureBlocks": []
+  }
+]

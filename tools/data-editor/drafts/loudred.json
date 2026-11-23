@@ -1,0 +1,27 @@
+[
+  {
+    "id": "loudred-1",
+    "habitat": "overworld",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 1.44,
+    "level": "20-39",
+    "timeRange": "any",
+    "dark": true,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:sculk",
+      "minecraft:sculk_vein",
+      "minecraft:sculk_catalyst",
+      "minecraft:sculk_sensor",
+      "minecraft:sculk_shrieker"
+    ]
+  }
+]

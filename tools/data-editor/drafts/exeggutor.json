@@ -1,0 +1,40 @@
+[
+  {
+    "id": "exeggutor-1",
+    "habitat": "forest",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.1,
+    "level": "28-53",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "exeggutor-alolan-1",
+    "habitat": "beach",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 0.8,
+    "level": "28-53",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "alolan",
+    "signatureBlocks": []
+  }
+]

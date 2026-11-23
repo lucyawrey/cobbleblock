@@ -1,0 +1,21 @@
+[
+  {
+    "id": "mankey-1",
+    "habitat": "jungle",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "6-31",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

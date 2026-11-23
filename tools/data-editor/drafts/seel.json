@@ -1,0 +1,59 @@
+[
+  {
+    "id": "seel-1",
+    "habitat": "snowy",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 9,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "seel-2",
+    "habitat": "snowy",
+    "type": "dive",
+    "bucket": "common",
+    "weight": 9,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "seel-3",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "common",
+    "weight": 9,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

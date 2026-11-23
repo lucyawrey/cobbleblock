@@ -1,0 +1,21 @@
+[
+  {
+    "id": "wigglytuff-1",
+    "habitat": "flower_field",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.05,
+    "level": "22-44",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

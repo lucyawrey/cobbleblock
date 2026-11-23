@@ -1,0 +1,21 @@
+[
+  {
+    "id": "vibrava-1",
+    "habitat": "desert",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 2.25,
+    "level": "35-40",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "rain",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

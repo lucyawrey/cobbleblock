@@ -1,0 +1,78 @@
+[
+  {
+    "id": "samurott-1",
+    "habitat": "beach",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 0.4,
+    "level": "36-53",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "samurott-2",
+    "habitat": "overworld",
+    "type": "surf",
+    "bucket": "ultra-rare",
+    "weight": 0.4,
+    "level": "36-53",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "samurott-3",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "ultra-rare",
+    "weight": 0.4,
+    "level": "36-53",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "samurott-hisuian-1",
+    "habitat": "beach",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 0.4,
+    "level": "36-53",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "hisuian",
+    "signatureBlocks": []
+  }
+]

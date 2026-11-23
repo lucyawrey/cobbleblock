@@ -1,0 +1,21 @@
+[
+  {
+    "id": "swablu-1",
+    "habitat": "urban",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 8.4,
+    "level": "6-31",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "milotic-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "common",
+    "weight": 0.3,
+    "level": "15-54",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "milotic-2",
+    "habitat": "reef",
+    "type": "dive",
+    "bucket": "common",
+    "weight": 0.3,
+    "level": "15-54",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

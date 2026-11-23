@@ -1,0 +1,21 @@
+[
+  {
+    "id": "tropius-1",
+    "habitat": "jungle",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 6,
+    "level": "21-46",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

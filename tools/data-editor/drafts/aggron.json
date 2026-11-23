@@ -1,0 +1,21 @@
+[
+  {
+    "id": "aggron-1",
+    "habitat": "metal",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.1,
+    "level": "42-53",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

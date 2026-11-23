@@ -1,0 +1,40 @@
+[
+  {
+    "id": "relicanth-1",
+    "habitat": "reef",
+    "type": "dive",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "24-49",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "relicanth-2",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "24-49",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

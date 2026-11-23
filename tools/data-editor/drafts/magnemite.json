@@ -1,0 +1,26 @@
+[
+  {
+    "id": "magnemite-1",
+    "habitat": "metal",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 84,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:copper_block",
+      "minecraft:exposed_copper",
+      "minecraft:weathered_copper",
+      "minecraft:oxidized_copper"
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "amoonguss-1",
+    "habitat": "mushroom",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.8,
+    "level": "39-46",
+    "timeRange": "any",
+    "dark": true,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "#cobblemon:apricorns"
+    ]
+  }
+]

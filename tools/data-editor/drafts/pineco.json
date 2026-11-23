@@ -1,0 +1,21 @@
+[
+  {
+    "id": "pineco-1",
+    "habitat": "taiga",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 9,
+    "level": "4-29",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

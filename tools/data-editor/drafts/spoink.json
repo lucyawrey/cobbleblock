@@ -1,0 +1,21 @@
+[
+  {
+    "id": "spoink-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

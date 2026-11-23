@@ -1,0 +1,23 @@
+[
+  {
+    "id": "blaziken-1",
+    "habitat": "savanna",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 0.4,
+    "level": "36-53",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:torch"
+    ]
+  }
+]

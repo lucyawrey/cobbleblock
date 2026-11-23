@@ -1,0 +1,40 @@
+[
+  {
+    "id": "carvanha-1",
+    "habitat": "reef",
+    "type": "dive",
+    "bucket": "common",
+    "weight": 1.8,
+    "level": "6-31",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "carvanha-2",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "common",
+    "weight": 1.8,
+    "level": "6-31",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

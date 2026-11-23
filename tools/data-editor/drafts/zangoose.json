@@ -1,0 +1,21 @@
+[
+  {
+    "id": "zangoose-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "25-62",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

@@ -1,0 +1,534 @@
+[
+  {
+    "id": "unown-character-a-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=a",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-b-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=b",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-c-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=c",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-d-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=d",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-e-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=e",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-!-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 1,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=!",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-f-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=f",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-g-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=g",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-h-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=h",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-i-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=i",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-j-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=j",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-k-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=k",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-l-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=l",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-m-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=m",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-n-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=n",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-o-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=o",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-p-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=p",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-q-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=q",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-?-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 1,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=?",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-r-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=r",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-s-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=s",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-t-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=t",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-u-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=u",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-v-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=v",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-w-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=w",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-x-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=x",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-y-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=y",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unown-character-z-1",
+    "habitat": "library",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 3.769,
+    "level": "1-100",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "character=z",
+    "signatureBlocks": []
+  }
+]

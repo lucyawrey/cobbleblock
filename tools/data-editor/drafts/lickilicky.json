@@ -1,0 +1,21 @@
+[
+  {
+    "id": "lickilicky-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 0.32,
+    "level": "34-52",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

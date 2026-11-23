@@ -1,0 +1,21 @@
+[
+  {
+    "id": "klang-1",
+    "habitat": "machinery",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.9,
+    "level": "38-44",
+    "timeRange": "any",
+    "dark": true,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

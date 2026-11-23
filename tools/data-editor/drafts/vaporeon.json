@@ -1,0 +1,59 @@
+[
+  {
+    "id": "vaporeon-1",
+    "habitat": "shore",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 1.2,
+    "level": "28-53",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "vaporeon-2",
+    "habitat": "overworld",
+    "type": "dive",
+    "bucket": "ultra-rare",
+    "weight": 1.2,
+    "level": "28-53",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "vaporeon-3",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "ultra-rare",
+    "weight": 1.2,
+    "level": "28-53",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

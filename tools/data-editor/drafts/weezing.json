@@ -1,0 +1,63 @@
+[
+  {
+    "id": "weezing-1",
+    "habitat": "soul",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.2,
+    "level": "35-49",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:smoker"
+    ]
+  },
+  {
+    "id": "weezing-2",
+    "habitat": "soul",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.2,
+    "level": "35-49",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:smoker"
+    ]
+  },
+  {
+    "id": "weezing-galarian-1",
+    "habitat": "gemstones",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.2,
+    "level": "35-49",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "galarian",
+    "signatureBlocks": []
+  }
+]

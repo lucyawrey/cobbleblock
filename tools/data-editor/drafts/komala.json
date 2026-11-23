@@ -1,0 +1,21 @@
+[
+  {
+    "id": "komala-1",
+    "habitat": "forest",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 6,
+    "level": "23-48",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

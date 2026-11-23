@@ -1,0 +1,21 @@
+[
+  {
+    "id": "elekid-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 1.68,
+    "level": "11-36",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "zubat-1",
+    "habitat": "flower_field",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 2,
+    "level": "1-25",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "zubat-2",
+    "habitat": "deep_dark",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 2,
+    "level": "1-25",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

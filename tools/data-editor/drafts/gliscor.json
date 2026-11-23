@@ -1,0 +1,40 @@
+[
+  {
+    "id": "gliscor-1",
+    "habitat": "badlands",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 0.48,
+    "level": "38-51",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "gliscor-2",
+    "habitat": "badlands",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 0.48,
+    "level": "38-51",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

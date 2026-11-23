@@ -1,0 +1,40 @@
+[
+  {
+    "id": "omastar-1",
+    "habitat": "lush_cave",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 4,
+    "level": "40-50",
+    "timeRange": "any",
+    "dark": true,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "omastar-2",
+    "habitat": "lush_cave",
+    "type": "dive",
+    "bucket": "ultra-rare",
+    "weight": 4,
+    "level": "40-50",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

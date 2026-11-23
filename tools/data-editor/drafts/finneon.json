@@ -1,0 +1,40 @@
+[
+  {
+    "id": "finneon-1",
+    "habitat": "reef",
+    "type": "dive",
+    "bucket": "common",
+    "weight": 9,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "finneon-2",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "common",
+    "weight": 9,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "vileplume-1",
+    "habitat": "jungle",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.05,
+    "level": "35-49",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "vileplume-valencian-1",
+    "habitat": "savanna",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.01,
+    "level": "35-49",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "valencian",
+    "signatureBlocks": []
+  }
+]

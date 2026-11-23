@@ -1,0 +1,21 @@
+[
+  {
+    "id": "wobbuffet-1",
+    "habitat": "urban",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 2.5,
+    "level": "15-41",
+    "timeRange": "any",
+    "dark": true,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

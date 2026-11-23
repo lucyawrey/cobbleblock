@@ -1,0 +1,40 @@
+[
+  {
+    "id": "chatot-1",
+    "habitat": "jungle",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 10,
+    "level": "16-41",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "chatot-2",
+    "habitat": "jungle",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 10,
+    "level": "16-41",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

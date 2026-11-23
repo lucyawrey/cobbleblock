@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ambipom-1",
+    "habitat": "jungle",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.6,
+    "level": "32-48",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "ambipom-2",
+    "habitat": "jungle",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.6,
+    "level": "32-48",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

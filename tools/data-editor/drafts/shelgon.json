@@ -1,0 +1,21 @@
+[
+  {
+    "id": "shelgon-1",
+    "habitat": "stone",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 3.6,
+    "level": "30-42",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

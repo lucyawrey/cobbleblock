@@ -1,0 +1,59 @@
+[
+  {
+    "id": "azumarill-1",
+    "habitat": "flower_field",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.1,
+    "level": "18-42",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "azumarill-2",
+    "habitat": "overworld",
+    "type": "surf",
+    "bucket": "common",
+    "weight": 0.1,
+    "level": "18-42",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "azumarill-3",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "common",
+    "weight": 0.1,
+    "level": "18-42",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

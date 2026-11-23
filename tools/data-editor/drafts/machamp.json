@@ -1,0 +1,40 @@
+[
+  {
+    "id": "machamp-1",
+    "habitat": "urban",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.03,
+    "level": "36-51",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "machamp-2",
+    "habitat": "building",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.03,
+    "level": "36-51",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

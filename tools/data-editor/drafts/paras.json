@@ -1,0 +1,21 @@
+[
+  {
+    "id": "paras-1",
+    "habitat": "lush_cave",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 8.4,
+    "level": "4-29",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

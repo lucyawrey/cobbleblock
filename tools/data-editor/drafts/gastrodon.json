@@ -1,0 +1,78 @@
+[
+  {
+    "id": "gastrodon-1",
+    "habitat": "reef",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 1.6,
+    "level": "30-48",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "rain",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "gastrodon-2",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 1.6,
+    "level": "30-48",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "rain",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "gastrodon-sea-east-1",
+    "habitat": "reef",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 1.6,
+    "level": "30-48",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "rain",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "sea=east",
+    "signatureBlocks": []
+  },
+  {
+    "id": "gastrodon-sea-west-1",
+    "habitat": "reef",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 1.6,
+    "level": "30-48",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "rain",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "sea=west",
+    "signatureBlocks": []
+  }
+]

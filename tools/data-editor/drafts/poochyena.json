@@ -1,0 +1,21 @@
+[
+  {
+    "id": "poochyena-1",
+    "habitat": "savanna",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "1-22",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

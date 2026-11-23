@@ -1,0 +1,45 @@
+[
+  {
+    "id": "growlithe-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 9.2,
+    "level": "10-35",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:torch",
+      "minecraft:netherrack"
+    ]
+  },
+  {
+    "id": "growlithe-hisuian-1",
+    "habitat": "stone",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 10,
+    "level": "14-37",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "hisuian",
+    "signatureBlocks": [
+      "minecraft:netherrack"
+    ]
+  }
+]

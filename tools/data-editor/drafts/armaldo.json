@@ -1,0 +1,49 @@
+[
+  {
+    "id": "armaldo-1",
+    "habitat": "flower_field",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 4,
+    "level": "40-50",
+    "timeRange": "any",
+    "dark": true,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "armaldo-2",
+    "habitat": "overworld",
+    "type": "dive",
+    "bucket": "ultra-rare",
+    "weight": 4,
+    "level": "40-50",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:azalea",
+      "minecraft:flowering_azalea",
+      "minecraft:azalea_leaves",
+      "minecraft:flowering_azalea_leaves",
+      "minecraft:hanging_roots",
+      "minecraft:moss_block",
+      "minecraft:big_dripleaf",
+      "minecraft:small_dripleaf"
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "staraptor-1",
+    "habitat": "taiga",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.1,
+    "level": "34-49",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

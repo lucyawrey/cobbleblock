@@ -1,0 +1,40 @@
+[
+  {
+    "id": "gorebyss-1",
+    "habitat": "reef",
+    "type": "dive",
+    "bucket": "uncommon",
+    "weight": 0.4,
+    "level": "30-49",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "gorebyss-2",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 0.4,
+    "level": "30-49",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "spheal-1",
+    "habitat": "snowy",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "4-29",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "spheal-2",
+    "habitat": "snowy",
+    "type": "dive",
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "4-29",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "spheal-3",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "4-29",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

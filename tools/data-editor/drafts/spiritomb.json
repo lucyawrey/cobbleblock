@@ -1,0 +1,21 @@
+[
+  {
+    "id": "spiritomb-1",
+    "habitat": "deep_dark",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 60,
+    "level": "24-49",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

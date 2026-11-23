@@ -1,0 +1,21 @@
+[
+  {
+    "id": "delcatty-1",
+    "habitat": "desert",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 3,
+    "level": "15-55",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

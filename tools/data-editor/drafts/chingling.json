@@ -1,0 +1,21 @@
+[
+  {
+    "id": "chingling-1",
+    "habitat": "taiga",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 1.68,
+    "level": "4-29",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

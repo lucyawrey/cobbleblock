@@ -1,0 +1,21 @@
+[
+  {
+    "id": "absol-1",
+    "habitat": "taiga",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 10,
+    "level": "22-47",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

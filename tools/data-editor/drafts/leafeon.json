@@ -1,0 +1,24 @@
+[
+  {
+    "id": "leafeon-1",
+    "habitat": "overworld",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 1.2,
+    "level": "28-53",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "#c:cobblestones/mossy",
+      "minecraft:moss_block"
+    ]
+  }
+]

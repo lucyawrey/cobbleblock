@@ -1,0 +1,59 @@
+[
+  {
+    "id": "burmy-bagworm-cloak-plant-1",
+    "habitat": "forest",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5,
+    "level": "10-25",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "bagworm_cloak=plant",
+    "signatureBlocks": []
+  },
+  {
+    "id": "burmy-bagworm-cloak-sandy-1",
+    "habitat": "desert",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5,
+    "level": "10-25",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "bagworm_cloak=sandy",
+    "signatureBlocks": []
+  },
+  {
+    "id": "burmy-bagworm-cloak-trash-1",
+    "habitat": "farm",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 6,
+    "level": "10-25",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "bagworm_cloak=trash",
+    "signatureBlocks": []
+  }
+]

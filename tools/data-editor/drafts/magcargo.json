@@ -1,0 +1,43 @@
+[
+  {
+    "id": "magcargo-1",
+    "habitat": "volcanic",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.6,
+    "level": "38-43",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:netherrack",
+      "minecraft:lava"
+    ]
+  },
+  {
+    "id": "magcargo-2",
+    "habitat": "overworld",
+    "type": "lava",
+    "bucket": "common",
+    "weight": 0.6,
+    "level": "38-43",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

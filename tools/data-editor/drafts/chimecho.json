@@ -1,0 +1,21 @@
+[
+  {
+    "id": "chimecho-1",
+    "habitat": "taiga",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 0.32,
+    "level": "24-46",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

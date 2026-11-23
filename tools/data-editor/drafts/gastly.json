@@ -1,0 +1,23 @@
+[
+  {
+    "id": "gastly-1",
+    "habitat": "dark_forest",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 9,
+    "level": "6-31",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:netherrack"
+    ]
+  }
+]

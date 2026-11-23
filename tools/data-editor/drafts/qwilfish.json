@@ -1,0 +1,59 @@
+[
+  {
+    "id": "qwilfish-1",
+    "habitat": "snowy",
+    "type": "dive",
+    "bucket": "uncommon",
+    "weight": 10,
+    "level": "19-44",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "qwilfish-2",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 10,
+    "level": "19-44",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "qwilfish-hisuian-1",
+    "habitat": "reef",
+    "type": "dive",
+    "bucket": "uncommon",
+    "weight": 8.4,
+    "level": "19-44",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "hisuian",
+    "signatureBlocks": []
+  }
+]

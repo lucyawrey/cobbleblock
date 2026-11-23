@@ -1,0 +1,43 @@
+[
+  {
+    "id": "slugma-1",
+    "habitat": "volcanic",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 6,
+    "level": "1-25",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:netherrack",
+      "minecraft:lava"
+    ]
+  },
+  {
+    "id": "slugma-2",
+    "habitat": "overworld",
+    "type": "lava",
+    "bucket": "common",
+    "weight": 6,
+    "level": "1-25",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

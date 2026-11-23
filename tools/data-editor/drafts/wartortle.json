@@ -1,0 +1,59 @@
+[
+  {
+    "id": "wartortle-1",
+    "habitat": "beach",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 3.6,
+    "level": "16-40",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "wartortle-2",
+    "habitat": "beach",
+    "type": "dive",
+    "bucket": "ultra-rare",
+    "weight": 3.6,
+    "level": "16-40",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "wartortle-3",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "ultra-rare",
+    "weight": 3.6,
+    "level": "16-40",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

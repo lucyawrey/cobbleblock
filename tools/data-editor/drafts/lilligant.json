@@ -1,0 +1,42 @@
+[
+  {
+    "id": "lilligant-1",
+    "habitat": "flower_field",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.5,
+    "level": "23-48",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "lilligant-hisuian-1",
+    "habitat": "swamp",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.3,
+    "level": "23-48",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "hisuian",
+    "signatureBlocks": [
+      "cobblemon:hearty_grains"
+    ]
+  }
+]

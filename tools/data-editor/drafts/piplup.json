@@ -1,0 +1,59 @@
+[
+  {
+    "id": "piplup-1",
+    "habitat": "snowy",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 6,
+    "level": "5-31",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "piplup-2",
+    "habitat": "snowy",
+    "type": "dive",
+    "bucket": "ultra-rare",
+    "weight": 6,
+    "level": "5-31",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "piplup-3",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "ultra-rare",
+    "weight": 6,
+    "level": "5-31",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

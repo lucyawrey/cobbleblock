@@ -1,0 +1,59 @@
+[
+  {
+    "id": "corsola-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "common",
+    "weight": 10,
+    "level": "16-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "corsola-2",
+    "habitat": "reef",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 10,
+    "level": "16-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "corsola-galarian-1",
+    "habitat": "reef",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 1.68,
+    "level": "16-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "galarian",
+    "signatureBlocks": []
+  }
+]

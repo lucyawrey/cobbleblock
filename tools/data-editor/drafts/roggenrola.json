@@ -1,0 +1,27 @@
+[
+  {
+    "id": "roggenrola-1",
+    "habitat": "overworld",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 9,
+    "level": "3-28",
+    "timeRange": "any",
+    "dark": true,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:sculk",
+      "minecraft:sculk_vein",
+      "minecraft:sculk_catalyst",
+      "minecraft:sculk_sensor",
+      "minecraft:sculk_shrieker"
+    ]
+  }
+]

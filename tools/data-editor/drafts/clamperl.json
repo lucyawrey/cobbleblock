@@ -1,0 +1,40 @@
+[
+  {
+    "id": "clamperl-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 9.2,
+    "level": "10-35",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "clamperl-2",
+    "habitat": "reef",
+    "type": "dive",
+    "bucket": "uncommon",
+    "weight": 9.2,
+    "level": "10-35",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

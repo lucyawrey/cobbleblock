@@ -1,0 +1,24 @@
+[
+  {
+    "id": "charmeleon-1",
+    "habitat": "volcanic",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 3.6,
+    "level": "16-40",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:torch",
+      "minecraft:netherrack"
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "bronzong-1",
+    "habitat": "metal",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.6,
+    "level": "33-50",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

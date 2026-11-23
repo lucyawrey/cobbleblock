@@ -1,0 +1,44 @@
+[
+  {
+    "id": "garchomp-1",
+    "habitat": "badlands",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 0.25,
+    "level": "48-60",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "garchomp-2",
+    "habitat": "underground",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 0.25,
+    "level": "48-60",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:red_sand",
+      "#minecraft:terracotta",
+      "minecraft:dead_bush"
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "koffing-1",
+    "habitat": "soul",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 1.8,
+    "level": "9-34",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:smoker"
+    ]
+  },
+  {
+    "id": "koffing-2",
+    "habitat": "soul",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 1.8,
+    "level": "9-34",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:smoker"
+    ]
+  },
+  {
+    "id": "koffing-region-bias-galar-1",
+    "habitat": "gemstones",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 1.8,
+    "level": "9-34",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "region_bias=galar",
+    "signatureBlocks": []
+  }
+]

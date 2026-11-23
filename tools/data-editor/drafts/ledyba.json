@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ledyba-1",
+    "habitat": "taiga",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 10,
+    "level": "2-27",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "ledyba-2",
+    "habitat": "taiga",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 10,
+    "level": "2-27",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "heracross-1",
+    "habitat": "jungle",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 2,
+    "level": "25-50",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "heracross-2",
+    "habitat": "jungle",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 2,
+    "level": "25-50",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

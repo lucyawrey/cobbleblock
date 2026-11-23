@@ -1,0 +1,40 @@
+[
+  {
+    "id": "xatu-1",
+    "habitat": "savanna",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.6,
+    "level": "25-47",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "xatu-2",
+    "habitat": "savanna",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.6,
+    "level": "25-47",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

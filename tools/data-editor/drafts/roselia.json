@@ -1,0 +1,23 @@
+[
+  {
+    "id": "roselia-1",
+    "habitat": "flower_field",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.95,
+    "level": "23-40",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "create:rose_quartz_block"
+    ]
+  }
+]

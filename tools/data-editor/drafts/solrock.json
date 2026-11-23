@@ -1,0 +1,24 @@
+[
+  {
+    "id": "solrock-1",
+    "habitat": "swamp",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 10,
+    "level": "21-46",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "cobblemon:sun_stone_block",
+      "#cobblemon:sun_stone_ores"
+    ]
+  }
+]

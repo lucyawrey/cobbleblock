@@ -1,0 +1,116 @@
+[
+  {
+    "id": "grimer-1",
+    "habitat": "overworld",
+    "type": "surf",
+    "bucket": "uncommon",
+    "weight": 1.68,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "grimer-2",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 1.68,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      3,
+      5
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "grimer-3",
+    "habitat": "farm",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 1.68,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "grimer-alolan-1",
+    "habitat": "overworld",
+    "type": "surf",
+    "bucket": "uncommon",
+    "weight": 1.68,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "alolan",
+    "signatureBlocks": []
+  },
+  {
+    "id": "grimer-alolan-2",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 1.68,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "alolan",
+    "signatureBlocks": []
+  },
+  {
+    "id": "grimer-alolan-3",
+    "habitat": "farm",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 1.68,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "alolan",
+    "signatureBlocks": []
+  }
+]

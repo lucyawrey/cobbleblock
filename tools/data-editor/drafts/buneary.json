@@ -1,0 +1,21 @@
+[
+  {
+    "id": "buneary-1",
+    "habitat": "taiga",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "10-35",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "parasect-1",
+    "habitat": "lush_cave",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 1.6,
+    "level": "24-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

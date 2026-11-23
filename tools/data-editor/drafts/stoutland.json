@@ -1,0 +1,21 @@
+[
+  {
+    "id": "stoutland-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.06,
+    "level": "32-50",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

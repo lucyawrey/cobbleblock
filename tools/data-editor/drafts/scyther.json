@@ -1,0 +1,23 @@
+[
+  {
+    "id": "scyther-1",
+    "habitat": "jungle",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 1.75,
+    "level": "25-50",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:stonecutter"
+    ]
+  }
+]

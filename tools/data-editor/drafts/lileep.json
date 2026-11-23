@@ -1,0 +1,21 @@
+[
+  {
+    "id": "lileep-1",
+    "habitat": "flower_field",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 6,
+    "level": "11-36",
+    "timeRange": "any",
+    "dark": true,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

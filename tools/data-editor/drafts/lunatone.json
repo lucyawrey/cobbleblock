@@ -1,0 +1,24 @@
+[
+  {
+    "id": "lunatone-1",
+    "habitat": "swamp",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 10,
+    "level": "21-46",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "cobblemon:moon_stone_block",
+      "#cobblemon:moon_stone_ores"
+    ]
+  }
+]

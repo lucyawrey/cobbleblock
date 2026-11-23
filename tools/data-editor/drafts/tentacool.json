@@ -1,0 +1,59 @@
+[
+  {
+    "id": "tentacool-1",
+    "habitat": "overworld",
+    "type": "surf",
+    "bucket": "common",
+    "weight": 9,
+    "level": "9-34",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "tentacool-2",
+    "habitat": "reef",
+    "type": "dive",
+    "bucket": "common",
+    "weight": 9,
+    "level": "9-34",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "tentacool-3",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "common",
+    "weight": 9,
+    "level": "9-34",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

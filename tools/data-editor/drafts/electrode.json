@@ -1,0 +1,66 @@
+[
+  {
+    "id": "electrode-1",
+    "habitat": "redstone",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.2,
+    "level": "30-49",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "#cobblemon:apricorns"
+    ]
+  },
+  {
+    "id": "electrode-2",
+    "habitat": "redstone",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.2,
+    "level": "30-49",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "#cobblemon:apricorns"
+    ]
+  },
+  {
+    "id": "electrode-hisuian-1",
+    "habitat": "overworld",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 8,
+    "level": "30-49",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "hisuian",
+    "signatureBlocks": [
+      "#cobblemon:apricorns",
+      "minecraft:tnt"
+    ]
+  }
+]

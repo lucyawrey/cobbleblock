@@ -1,0 +1,97 @@
+[
+  {
+    "id": "wooper-1",
+    "habitat": "forest",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 9,
+    "level": "1-21",
+    "timeRange": "any",
+    "dark": true,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "wooper-2",
+    "habitat": "jungle",
+    "type": "dive",
+    "bucket": "common",
+    "weight": 9,
+    "level": "1-21",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "wooper-3",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "common",
+    "weight": 9,
+    "level": "1-21",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "wooper-paldean-1",
+    "habitat": "swamp",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 9,
+    "level": "1-21",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "paldean",
+    "signatureBlocks": []
+  },
+  {
+    "id": "wooper-wooper-heart-true-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 10,
+    "level": "1-21",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "wooper_heart=true",
+    "signatureBlocks": []
+  }
+]

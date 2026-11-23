@@ -1,0 +1,84 @@
+[
+  {
+    "id": "floatzel-1",
+    "habitat": "taiga",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.2,
+    "level": "26-50",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "floatzel-2",
+    "habitat": "overworld",
+    "type": "dive",
+    "bucket": "common",
+    "weight": 0.2,
+    "level": "26-50",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:fern",
+      "minecraft:large_fern",
+      "minecraft:sweet_berry_bush",
+      "#minecraft:spruce_logs",
+      "minecraft:spruce_leaves"
+    ]
+  },
+  {
+    "id": "floatzel-3",
+    "habitat": "overworld",
+    "type": "surf",
+    "bucket": "common",
+    "weight": 0.2,
+    "level": "26-50",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "floatzel-4",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "common",
+    "weight": 0.2,
+    "level": "26-50",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

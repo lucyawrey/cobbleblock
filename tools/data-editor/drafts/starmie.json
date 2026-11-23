@@ -1,0 +1,59 @@
+[
+  {
+    "id": "starmie-1",
+    "habitat": "beach",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 0.8,
+    "level": "29-52",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "starmie-2",
+    "habitat": "beach",
+    "type": "dive",
+    "bucket": "uncommon",
+    "weight": 0.8,
+    "level": "29-52",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "starmie-3",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 0.8,
+    "level": "29-52",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

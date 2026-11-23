@@ -1,0 +1,42 @@
+[
+  {
+    "id": "petilil-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 9.5,
+    "level": "3-28",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "petilil-region-bias-hisui-1",
+    "habitat": "swamp",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5.7,
+    "level": "3-28",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "region_bias=hisui",
+    "signatureBlocks": [
+      "cobblemon:hearty_grains"
+    ]
+  }
+]

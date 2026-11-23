@@ -1,0 +1,21 @@
+[
+  {
+    "id": "dodrio-1",
+    "habitat": "savanna",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 1,
+    "level": "31-47",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

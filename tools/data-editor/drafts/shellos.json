@@ -1,0 +1,78 @@
+[
+  {
+    "id": "shellos-1",
+    "habitat": "reef",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 8.4,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "rain",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "shellos-2",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 8.4,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "rain",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "shellos-sea-east-1",
+    "habitat": "reef",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 8.4,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "rain",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "sea=east",
+    "signatureBlocks": []
+  },
+  {
+    "id": "shellos-sea-west-1",
+    "habitat": "reef",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 8.4,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "rain",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "sea=west",
+    "signatureBlocks": []
+  }
+]

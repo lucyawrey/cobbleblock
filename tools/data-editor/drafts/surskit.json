@@ -1,0 +1,21 @@
+[
+  {
+    "id": "surskit-1",
+    "habitat": "overworld",
+    "type": "surf",
+    "bucket": "uncommon",
+    "weight": 5.04,
+    "level": "2-27",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "chansey-1",
+    "habitat": "pokemon_center",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 1.125,
+    "level": "17-45",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

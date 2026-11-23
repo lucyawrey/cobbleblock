@@ -1,0 +1,27 @@
+[
+  {
+    "id": "whismur-1",
+    "habitat": "overworld",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 8.4,
+    "level": "1-24",
+    "timeRange": "any",
+    "dark": true,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:sculk",
+      "minecraft:sculk_vein",
+      "minecraft:sculk_catalyst",
+      "minecraft:sculk_sensor",
+      "minecraft:sculk_shrieker"
+    ]
+  }
+]

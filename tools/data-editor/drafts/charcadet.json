@@ -1,0 +1,25 @@
+[
+  {
+    "id": "charcadet-1",
+    "habitat": "overworld",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 92,
+    "level": "1-26",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:netherrack",
+      "minecraft:nether_bricks",
+      "minecraft:nether_brick_stairs"
+    ]
+  }
+]

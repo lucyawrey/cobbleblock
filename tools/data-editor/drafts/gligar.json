@@ -1,0 +1,40 @@
+[
+  {
+    "id": "gligar-1",
+    "habitat": "badlands",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 5.52,
+    "level": "18-43",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "gligar-2",
+    "habitat": "badlands",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 5.52,
+    "level": "18-43",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

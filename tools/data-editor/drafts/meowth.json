@@ -1,0 +1,59 @@
+[
+  {
+    "id": "meowth-1",
+    "habitat": "taiga",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 9,
+    "level": "4-29",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "meowth-alolan-1",
+    "habitat": "beach",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 54,
+    "level": "4-29",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "alolan",
+    "signatureBlocks": []
+  },
+  {
+    "id": "meowth-galarian-1",
+    "habitat": "snowy",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 9,
+    "level": "4-29",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "galarian",
+    "signatureBlocks": []
+  }
+]

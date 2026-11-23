@@ -1,0 +1,21 @@
+[
+  {
+    "id": "girafarig-1",
+    "habitat": "savanna",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "21-46",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

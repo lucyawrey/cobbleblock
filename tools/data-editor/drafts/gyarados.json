@@ -1,0 +1,59 @@
+[
+  {
+    "id": "gyarados-1",
+    "habitat": "reef",
+    "type": "dive",
+    "bucket": "common",
+    "weight": 0.1,
+    "level": "20-54",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "gyarados-2",
+    "habitat": "overworld",
+    "type": "surf",
+    "bucket": "common",
+    "weight": 0.1,
+    "level": "20-54",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "gyarados-3",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "common",
+    "weight": 0.1,
+    "level": "20-54",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "sealeo-1",
+    "habitat": "snowy",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.54,
+    "level": "32-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "sealeo-2",
+    "habitat": "snowy",
+    "type": "dive",
+    "bucket": "common",
+    "weight": 0.54,
+    "level": "32-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "sealeo-3",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "common",
+    "weight": 0.54,
+    "level": "32-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "spinarak-1",
+    "habitat": "forest",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "1-25",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:cobweb"
+    ]
+  },
+  {
+    "id": "spinarak-2",
+    "habitat": "forest",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "1-25",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:cobweb"
+    ]
+  }
+]

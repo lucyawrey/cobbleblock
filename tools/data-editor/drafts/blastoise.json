@@ -1,0 +1,59 @@
+[
+  {
+    "id": "blastoise-1",
+    "habitat": "beach",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 0.4,
+    "level": "36-53",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "blastoise-2",
+    "habitat": "beach",
+    "type": "dive",
+    "bucket": "ultra-rare",
+    "weight": 0.4,
+    "level": "36-53",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "blastoise-3",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "ultra-rare",
+    "weight": 0.4,
+    "level": "36-53",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

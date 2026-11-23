@@ -1,0 +1,40 @@
+[
+  {
+    "id": "cyndaquil-1",
+    "habitat": "taiga",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 6,
+    "level": "5-31",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "cyndaquil-region-bias-hisui-1",
+    "habitat": "taiga",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 6,
+    "level": "5-31",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "region_bias=hisui",
+    "signatureBlocks": []
+  }
+]

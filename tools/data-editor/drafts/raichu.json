@@ -1,0 +1,40 @@
+[
+  {
+    "id": "raichu-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 0.048,
+    "level": "27-49",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "raichu-alolan-1",
+    "habitat": "beach",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 0.016,
+    "level": "27-49",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "alolan",
+    "signatureBlocks": []
+  }
+]

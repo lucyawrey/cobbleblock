@@ -1,0 +1,66 @@
+[
+  {
+    "id": "voltorb-1",
+    "habitat": "redstone",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 1.8,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "#cobblemon:apricorns"
+    ]
+  },
+  {
+    "id": "voltorb-2",
+    "habitat": "redstone",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 1.8,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "#cobblemon:apricorns"
+    ]
+  },
+  {
+    "id": "voltorb-hisuian-1",
+    "habitat": "overworld",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 92,
+    "level": "8-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "hisuian",
+    "signatureBlocks": [
+      "#cobblemon:apricorns",
+      "minecraft:tnt"
+    ]
+  }
+]

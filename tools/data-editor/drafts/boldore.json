@@ -1,0 +1,27 @@
+[
+  {
+    "id": "boldore-1",
+    "habitat": "overworld",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.95,
+    "level": "25-39",
+    "timeRange": "any",
+    "dark": true,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:sculk",
+      "minecraft:sculk_vein",
+      "minecraft:sculk_catalyst",
+      "minecraft:sculk_sensor",
+      "minecraft:sculk_shrieker"
+    ]
+  }
+]

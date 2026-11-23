@@ -1,0 +1,40 @@
+[
+  {
+    "id": "unfezant-1",
+    "habitat": "stone",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.1,
+    "level": "32-49",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "unfezant-2",
+    "habitat": "stone",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.1,
+    "level": "32-49",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

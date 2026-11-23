@@ -1,0 +1,21 @@
+[
+  {
+    "id": "abra-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 7.5,
+    "level": "6-31",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

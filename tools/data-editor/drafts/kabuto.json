@@ -1,0 +1,40 @@
+[
+  {
+    "id": "kabuto-1",
+    "habitat": "lush_cave",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 6,
+    "level": "11-36",
+    "timeRange": "any",
+    "dark": true,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "kabuto-2",
+    "habitat": "lush_cave",
+    "type": "dive",
+    "bucket": "ultra-rare",
+    "weight": 6,
+    "level": "11-36",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "claydol-1",
+    "habitat": "badlands",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 0.96,
+    "level": "36-50",
+    "timeRange": "any",
+    "dark": true,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:clay",
+      "minecraft:decorated_pot"
+    ]
+  }
+]

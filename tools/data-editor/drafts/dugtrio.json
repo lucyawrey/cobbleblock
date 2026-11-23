@@ -1,0 +1,59 @@
+[
+  {
+    "id": "dugtrio-1",
+    "habitat": "stone",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 1,
+    "level": "26-43",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "dugtrio-2",
+    "habitat": "cave",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 1,
+    "level": "26-43",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "dugtrio-alolan-1",
+    "habitat": "beach",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 1,
+    "level": "26-43",
+    "timeRange": "any",
+    "dark": true,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "alolan",
+    "signatureBlocks": []
+  }
+]

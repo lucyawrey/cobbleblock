@@ -1,0 +1,21 @@
+[
+  {
+    "id": "froslass-1",
+    "habitat": "snowy",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 0.32,
+    "level": "42-48",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "rain",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

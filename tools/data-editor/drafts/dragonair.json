@@ -1,0 +1,59 @@
+[
+  {
+    "id": "dragonair-1",
+    "habitat": "overworld",
+    "type": "surf",
+    "bucket": "rare",
+    "weight": 2.25,
+    "level": "30-42",
+    "timeRange": "any",
+    "dark": true,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "dragonair-2",
+    "habitat": "reef",
+    "type": "dive",
+    "bucket": "rare",
+    "weight": 2.25,
+    "level": "30-42",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "dragonair-3",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "rare",
+    "weight": 2.25,
+    "level": "30-42",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

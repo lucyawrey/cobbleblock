@@ -1,0 +1,59 @@
+[
+  {
+    "id": "squirtle-1",
+    "habitat": "beach",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 6,
+    "level": "5-31",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "squirtle-2",
+    "habitat": "beach",
+    "type": "dive",
+    "bucket": "ultra-rare",
+    "weight": 6,
+    "level": "5-31",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "squirtle-3",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "ultra-rare",
+    "weight": 6,
+    "level": "5-31",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

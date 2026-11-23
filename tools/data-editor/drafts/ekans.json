@@ -1,0 +1,135 @@
+[
+  {
+    "id": "ekans-snake-pattern-attack-1",
+    "habitat": "desert",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.27,
+    "level": "4-29",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "snake_pattern=attack",
+    "signatureBlocks": []
+  },
+  {
+    "id": "ekans-snake-pattern-classic-1",
+    "habitat": "desert",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 4.05,
+    "level": "4-29",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "snake_pattern=classic",
+    "signatureBlocks": []
+  },
+  {
+    "id": "ekans-snake-pattern-dark-1",
+    "habitat": "nether_soul",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "4-29",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "snake_pattern=dark",
+    "signatureBlocks": []
+  },
+  {
+    "id": "ekans-snake-pattern-elusive-1",
+    "habitat": "desert",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.27,
+    "level": "4-29",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "snake_pattern=elusive",
+    "signatureBlocks": []
+  },
+  {
+    "id": "ekans-snake-pattern-legacy-1",
+    "habitat": "desert",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.27,
+    "level": "4-29",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "snake_pattern=legacy",
+    "signatureBlocks": []
+  },
+  {
+    "id": "ekans-snake-pattern-sound-1",
+    "habitat": "desert",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.27,
+    "level": "4-29",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "snake_pattern=sound",
+    "signatureBlocks": []
+  },
+  {
+    "id": "ekans-snake-pattern-speed-1",
+    "habitat": "desert",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.27,
+    "level": "4-29",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "snake_pattern=speed",
+    "signatureBlocks": []
+  }
+]

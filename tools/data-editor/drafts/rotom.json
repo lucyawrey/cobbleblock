@@ -1,0 +1,24 @@
+[
+  {
+    "id": "rotom-1",
+    "habitat": "pokemon_center",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 10,
+    "level": "20-75",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "cobblemon:restoration_tank",
+      "cobblemon:fossil_analyzer"
+    ]
+  }
+]

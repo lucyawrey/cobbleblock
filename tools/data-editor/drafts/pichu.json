@@ -1,0 +1,40 @@
+[
+  {
+    "id": "pichu-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 5.04,
+    "level": "1-21",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "pichu-region-bias-alola-1",
+    "habitat": "beach",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 1.68,
+    "level": "16-32",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "region_bias=alola",
+    "signatureBlocks": []
+  }
+]

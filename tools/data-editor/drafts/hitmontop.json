@@ -1,0 +1,40 @@
+[
+  {
+    "id": "hitmontop-1",
+    "habitat": "urban",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 0.32,
+    "level": "20-46",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "hitmontop-2",
+    "habitat": "building",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 0.32,
+    "level": "20-46",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

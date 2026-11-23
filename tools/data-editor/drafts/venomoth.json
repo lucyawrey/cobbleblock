@@ -1,0 +1,21 @@
+[
+  {
+    "id": "venomoth-1",
+    "habitat": "dark_forest",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.6,
+    "level": "31-45",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

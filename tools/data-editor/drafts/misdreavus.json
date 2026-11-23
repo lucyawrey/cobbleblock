@@ -1,0 +1,21 @@
+[
+  {
+    "id": "misdreavus-1",
+    "habitat": "dark_forest",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5.7,
+    "level": "19-44",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

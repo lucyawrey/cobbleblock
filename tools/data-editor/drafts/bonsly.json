@@ -1,0 +1,21 @@
+[
+  {
+    "id": "bonsly-1",
+    "habitat": "forest",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 5.04,
+    "level": "4-29",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "rampardos-1",
+    "habitat": "flower_field",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 4,
+    "level": "30-50",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

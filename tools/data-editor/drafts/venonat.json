@@ -1,0 +1,21 @@
+[
+  {
+    "id": "venonat-1",
+    "habitat": "dark_forest",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "6-31",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

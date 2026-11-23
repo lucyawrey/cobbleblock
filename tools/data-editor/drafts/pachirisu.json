@@ -1,0 +1,21 @@
+[
+  {
+    "id": "pachirisu-1",
+    "habitat": "forest",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 10,
+    "level": "16-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

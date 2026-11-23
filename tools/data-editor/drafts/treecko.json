@@ -1,0 +1,21 @@
+[
+  {
+    "id": "treecko-1",
+    "habitat": "jungle",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 6,
+    "level": "5-31",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

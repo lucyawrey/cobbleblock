@@ -1,0 +1,40 @@
+[
+  {
+    "id": "pidove-1",
+    "habitat": "stone",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 9,
+    "level": "1-26",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "pidove-2",
+    "habitat": "stone",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 9,
+    "level": "1-26",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

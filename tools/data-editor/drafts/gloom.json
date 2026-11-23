@@ -1,0 +1,88 @@
+[
+  {
+    "id": "gloom-1",
+    "habitat": "jungle",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.95,
+    "level": "21-40",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "gloom-2",
+    "habitat": "underground",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.95,
+    "level": "21-40",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "#minecraft:jungle_logs",
+      "minecraft:jungle_leaves",
+      "minecraft:vine",
+      "minecraft:podzol",
+      "minecraft:short_grass",
+      "minecraft:tall_grass"
+    ]
+  },
+  {
+    "id": "gloom-valencian-1",
+    "habitat": "savanna",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.19,
+    "level": "21-40",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "valencian",
+    "signatureBlocks": []
+  },
+  {
+    "id": "gloom-valencian-2",
+    "habitat": "underground",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 0.19,
+    "level": "21-40",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "valencian",
+    "signatureBlocks": [
+      "#minecraft:acacia_logs",
+      "minecraft:acacia_leaves"
+    ]
+  }
+]

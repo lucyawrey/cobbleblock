@@ -1,0 +1,21 @@
+[
+  {
+    "id": "masquerain-1",
+    "habitat": "overworld",
+    "type": "surf",
+    "bucket": "uncommon",
+    "weight": 0.96,
+    "level": "22-45",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

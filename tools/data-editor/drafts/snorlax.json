@@ -1,0 +1,23 @@
+[
+  {
+    "id": "snorlax-1",
+    "habitat": "farm",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 2.5,
+    "level": "34-54",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:cake"
+    ]
+  }
+]

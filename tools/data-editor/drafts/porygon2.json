@@ -1,0 +1,21 @@
+[
+  {
+    "id": "porygon2-1",
+    "habitat": "pokemon_center",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 0.15,
+    "level": "21-48",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

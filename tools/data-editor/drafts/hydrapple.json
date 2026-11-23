@@ -1,0 +1,21 @@
+[
+  {
+    "id": "hydrapple-1",
+    "habitat": "forest",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 1,
+    "level": "37-70",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

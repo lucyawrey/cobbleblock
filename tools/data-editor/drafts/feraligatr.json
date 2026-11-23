@@ -1,0 +1,59 @@
+[
+  {
+    "id": "feraligatr-1",
+    "habitat": "swamp",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 0.4,
+    "level": "30-53",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "feraligatr-2",
+    "habitat": "swamp",
+    "type": "dive",
+    "bucket": "ultra-rare",
+    "weight": 0.4,
+    "level": "30-53",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "feraligatr-3",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "ultra-rare",
+    "weight": 0.4,
+    "level": "30-53",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

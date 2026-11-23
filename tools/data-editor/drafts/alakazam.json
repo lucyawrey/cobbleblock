@@ -1,0 +1,21 @@
+[
+  {
+    "id": "alakazam-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 0.125,
+    "level": "35-50",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "illumise-1",
+    "habitat": "shore",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5,
+    "level": "18-43",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "illumise-2",
+    "habitat": "overworld",
+    "type": "surf",
+    "bucket": "common",
+    "weight": 5,
+    "level": "18-43",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "illumise-3",
+    "habitat": "shore",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 5,
+    "level": "18-43",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

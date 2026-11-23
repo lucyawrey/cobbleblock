@@ -1,0 +1,21 @@
+[
+  {
+    "id": "skitty-1",
+    "habitat": "desert",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 7,
+    "level": "1-35",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

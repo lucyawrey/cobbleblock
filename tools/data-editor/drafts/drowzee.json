@@ -1,0 +1,21 @@
+[
+  {
+    "id": "drowzee-1",
+    "habitat": "gemstones",
+    "type": "ground",
+    "bucket": "common",
+    "weight": 9,
+    "level": "8-33",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

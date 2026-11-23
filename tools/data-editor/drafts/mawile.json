@@ -1,0 +1,21 @@
+[
+  {
+    "id": "mawile-1",
+    "habitat": "deep_dark",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 6,
+    "level": "13-38",
+    "timeRange": "any",
+    "dark": true,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

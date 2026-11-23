@@ -1,0 +1,21 @@
+[
+  {
+    "id": "flygon-1",
+    "habitat": "desert",
+    "type": "ground",
+    "bucket": "rare",
+    "weight": 0.25,
+    "level": "45-52",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "rain",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

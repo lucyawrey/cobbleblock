@@ -1,0 +1,648 @@
+[
+  {
+    "id": "magikarp-1",
+    "habitat": "overworld",
+    "type": "dive",
+    "bucket": "common",
+    "weight": 9.9,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-2",
+    "habitat": "overworld",
+    "type": "surf",
+    "bucket": "common",
+    "weight": 9.9,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-3",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "common",
+    "weight": 9.9,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-apricot-stripes-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=apricot-stripes",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-apricot-tiger-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=apricot-tiger",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-apricot-zebra-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=apricot-zebra",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-black-forehead-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=black-forehead",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-black-mask-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=black-mask",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-blue-raindrops-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=blue-raindrops",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-blue-saucy-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=blue-saucy",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-brown-stripes-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=brown-stripes",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-brown-tiger-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=brown-tiger",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-brown-zebra-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=brown-zebra",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-calico-orange-gold-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=calico-orange-gold",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-calico-orange-white-black-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=calico-orange-white-black",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-calico-orange-white-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=calico-orange-white",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-calico-white-orange-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=calico-white-orange",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-gray-bubbles-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=gray-bubbles",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-gray-diamonds-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=gray-diamonds",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-gray-patches-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=gray-patches",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-orange-dapples-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=orange-dapples",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-orange-forehead-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=orange-forehead",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-orange-mask-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=orange-mask",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-orange-orca-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=orange-orca",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-orange-two-tone-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=orange-two-tone",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-pink-dapples-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=pink-dapples",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-pink-orca-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=pink-orca",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-pink-two-tone-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=pink-two-tone",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-purple-bubbles-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=purple-bubbles",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-purple-diamonds-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=purple-diamonds",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-purple-patches-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=purple-patches",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-skelly-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=skelly",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-violet-raindrops-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=violet-raindrops",
+    "signatureBlocks": []
+  },
+  {
+    "id": "magikarp-magikarp-jump-violet-saucy-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "bucket": "uncommon",
+    "weight": 2,
+    "level": "1-20",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "magikarp_jump=violet-saucy",
+    "signatureBlocks": []
+  }
+]

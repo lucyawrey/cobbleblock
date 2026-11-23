@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ponyta-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 5.04,
+    "level": "16-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:netherrack"
+    ]
+  },
+  {
+    "id": "ponyta-galarian-1",
+    "habitat": "flower_field",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 8.4,
+    "level": "16-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "galarian",
+    "signatureBlocks": []
+  }
+]

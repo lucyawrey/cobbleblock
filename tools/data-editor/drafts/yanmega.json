@@ -1,0 +1,40 @@
+[
+  {
+    "id": "yanmega-1",
+    "habitat": "overworld",
+    "type": "surf",
+    "bucket": "uncommon",
+    "weight": 0.96,
+    "level": "33-52",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  },
+  {
+    "id": "yanmega-2",
+    "habitat": "flower_field",
+    "type": "ground",
+    "bucket": "uncommon",
+    "weight": 0.96,
+    "level": "33-52",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]

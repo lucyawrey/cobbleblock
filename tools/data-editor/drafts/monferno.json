@@ -1,0 +1,23 @@
+[
+  {
+    "id": "monferno-1",
+    "habitat": "volcanic",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 3.6,
+    "level": "14-41",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": [
+      "minecraft:torch"
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "eevee-1",
+    "habitat": "taiga",
+    "type": "ground",
+    "bucket": "ultra-rare",
+    "weight": 4.8,
+    "level": "5-33",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "properties": "",
+    "signatureBlocks": []
+  }
+]
