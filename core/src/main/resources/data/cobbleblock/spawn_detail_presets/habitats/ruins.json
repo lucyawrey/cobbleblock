@@ -8,18 +8,14 @@
       "minecraft:mossy_cobblestone",
       "minecraft:chiseled_sandstone",
       "minecraft:cut_sandstone",
-      "minecraft:chiseled_tuff",
-      "minecraft:suspicious_sand",
-      "minecraft:suspicious_gravel"
+      "minecraft:chiseled_tuff"
     ],
     "neededBaseBlocks": [
       "#minecraft:stone_bricks",
       "minecraft:mossy_cobblestone",
       "minecraft:chiseled_sandstone",
       "minecraft:cut_sandstone",
-      "minecraft:chiseled_tuff",
-      "minecraft:suspicious_sand",
-      "minecraft:suspicious_gravel"
+      "minecraft:chiseled_tuff"
     ]
   }
 }
