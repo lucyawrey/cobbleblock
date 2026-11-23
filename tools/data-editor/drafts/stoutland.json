@@ -17,5 +17,24 @@
     ],
     "properties": "",
     "signatureBlocks": []
+  },
+  {
+    "id": "stoutland-2",
+    "habitat": "urban",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 0.48,
+    "level": "32-50",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

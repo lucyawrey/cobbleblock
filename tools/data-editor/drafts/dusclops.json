@@ -17,5 +17,24 @@
     ],
     "properties": "",
     "signatureBlocks": []
+  },
+  {
+    "id": "dusclops-2",
+    "habitat": "soul",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 9.5,
+    "level": "37-46",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

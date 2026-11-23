@@ -36,5 +36,24 @@
       1
     ],
     "signatureBlocks": []
+  },
+  {
+    "id": "hattrem-3",
+    "habitat": "dark_forest",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 0.9,
+    "level": "32-37",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

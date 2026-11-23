@@ -17,5 +17,24 @@
     ],
     "properties": "",
     "signatureBlocks": []
+  },
+  {
+    "id": "octillery-2",
+    "habitat": "reef",
+    "type": "seafloor",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 6,
+    "level": "25-48",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

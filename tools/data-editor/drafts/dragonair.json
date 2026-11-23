@@ -55,5 +55,24 @@
     ],
     "properties": "",
     "signatureBlocks": []
+  },
+  {
+    "id": "dragonair-4",
+    "habitat": "ruins",
+    "type": "dive",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 450,
+    "level": "30-42",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

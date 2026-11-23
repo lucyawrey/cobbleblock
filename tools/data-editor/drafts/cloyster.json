@@ -17,5 +17,24 @@
     ],
     "properties": "",
     "signatureBlocks": []
+  },
+  {
+    "id": "cloyster-2",
+    "habitat": "reef",
+    "type": "seafloor",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 0.5,
+    "level": "26-53",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

@@ -17,5 +17,24 @@
     ],
     "properties": "",
     "signatureBlocks": []
+  },
+  {
+    "id": "chimecho-2",
+    "habitat": "soul",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 37,
+    "level": "24-46",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

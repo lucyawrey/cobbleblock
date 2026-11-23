@@ -55,5 +55,24 @@
     ],
     "properties": "hisuian",
     "signatureBlocks": []
+  },
+  {
+    "id": "qwilfish-4",
+    "habitat": "reef",
+    "type": "dive",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 480,
+    "level": "19-44",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

@@ -74,5 +74,24 @@
       1
     ],
     "signatureBlocks": []
+  },
+  {
+    "id": "overqwil-5",
+    "habitat": "reef",
+    "type": "dive",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 48,
+    "level": "39-51",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

@@ -36,5 +36,24 @@
       1
     ],
     "signatureBlocks": []
+  },
+  {
+    "id": "stonjourner-3",
+    "habitat": "ruins",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 160,
+    "level": "22-47",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

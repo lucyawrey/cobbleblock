@@ -59,5 +59,24 @@
     ],
     "properties": "region_bias=galar",
     "signatureBlocks": []
+  },
+  {
+    "id": "koffing-4",
+    "habitat": "urban",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 14.4,
+    "level": "9-34",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

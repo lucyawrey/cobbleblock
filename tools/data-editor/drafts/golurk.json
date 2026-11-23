@@ -74,5 +74,24 @@
       1
     ],
     "signatureBlocks": []
+  },
+  {
+    "id": "golurk-5",
+    "habitat": "ruins",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "rare",
+    "weight": 40,
+    "level": "43-48",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

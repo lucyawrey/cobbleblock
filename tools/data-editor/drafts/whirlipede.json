@@ -74,5 +74,24 @@
       1
     ],
     "signatureBlocks": []
+  },
+  {
+    "id": "whirlipede-5",
+    "habitat": "swamp",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 1.8,
+    "level": "22-36",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

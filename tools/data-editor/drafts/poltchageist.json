@@ -1,0 +1,154 @@
+[
+  {
+    "id": "poltchageist-1",
+    "habitat": "urban",
+    "type": "ground",
+    "properties": "matcha_authenticity=counterfeit",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 72.864,
+    "level": "6-31",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "poltchageist-2",
+    "habitat": "urban",
+    "type": "ground",
+    "properties": "matcha_authenticity=artisan",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 0.736,
+    "level": "6-31",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "poltchageist-3",
+    "habitat": "urban",
+    "type": "ground",
+    "properties": "matcha_authenticity=counterfeit",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 72.864,
+    "level": "6-31",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "poltchageist-4",
+    "habitat": "urban",
+    "type": "ground",
+    "properties": "matcha_authenticity=artisan",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 0.736,
+    "level": "6-31",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "poltchageist-5",
+    "habitat": "dark_forest",
+    "type": "ground",
+    "properties": "matcha_authenticity=counterfeit",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 72.864,
+    "level": "6-31",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "poltchageist-6",
+    "habitat": "dark_forest",
+    "type": "ground",
+    "properties": "matcha_authenticity=artisan",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 0.736,
+    "level": "6-31",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "poltchageist-7",
+    "habitat": "dark_forest",
+    "type": "ground",
+    "properties": "matcha_authenticity=counterfeit",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 72.864,
+    "level": "6-31",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "poltchageist-8",
+    "habitat": "dark_forest",
+    "type": "ground",
+    "properties": "matcha_authenticity=artisan",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 0.736,
+    "level": "6-31",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

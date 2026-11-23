@@ -36,5 +36,24 @@
       1
     ],
     "signatureBlocks": []
+  },
+  {
+    "id": "pumpkaboo-3",
+    "habitat": "dark_forest",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 9.5,
+    "level": "9-34",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

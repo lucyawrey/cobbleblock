@@ -41,5 +41,24 @@
     "signatureBlocks": [
       "minecraft:netherrack"
     ]
+  },
+  {
+    "id": "growlithe-3",
+    "habitat": "urban",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 92,
+    "level": "10-35",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

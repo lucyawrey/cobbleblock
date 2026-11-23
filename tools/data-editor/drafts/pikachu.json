@@ -80,5 +80,43 @@
     ],
     "properties": "region_bias=alola",
     "signatureBlocks": []
+  },
+  {
+    "id": "pikachu-5",
+    "habitat": "urban",
+    "type": "ground",
+    "properties": "cosplay=rock_star",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 3.64,
+    "level": "16-32",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "pikachu-6",
+    "habitat": "urban",
+    "type": "ground",
+    "properties": "cosplay=pop_star",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 3.64,
+    "level": "16-32",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

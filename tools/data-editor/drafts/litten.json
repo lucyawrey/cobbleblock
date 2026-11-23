@@ -17,5 +17,24 @@
       1
     ],
     "signatureBlocks": []
+  },
+  {
+    "id": "litten-2",
+    "habitat": "dark_forest",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "rare",
+    "weight": 75,
+    "level": "5-32",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

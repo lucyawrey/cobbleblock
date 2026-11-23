@@ -41,5 +41,24 @@
     "signatureBlocks": [
       "minecraft:netherrack"
     ]
+  },
+  {
+    "id": "arcanine-3",
+    "habitat": "urban",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 6.4,
+    "level": "30-56",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

@@ -119,6 +119,10 @@
     "dive",
     "seafloor"
   ],
+  "ruins": [
+    "ground",
+    "dive"
+  ],
   "saccharine_forest": [
     "ground"
   ],

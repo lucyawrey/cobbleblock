@@ -93,5 +93,24 @@
       1
     ],
     "signatureBlocks": []
+  },
+  {
+    "id": "shiinotic-6",
+    "habitat": "swamp",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 1,
+    "level": "24-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

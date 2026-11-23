@@ -17,5 +17,24 @@
       1
     ],
     "signatureBlocks": []
+  },
+  {
+    "id": "mabosstiff-2",
+    "habitat": "dark_forest",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 80,
+    "level": "30-51",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

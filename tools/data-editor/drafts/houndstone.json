@@ -74,5 +74,24 @@
       1
     ],
     "signatureBlocks": []
+  },
+  {
+    "id": "houndstone-5",
+    "habitat": "soul",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 8,
+    "level": "30-49",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

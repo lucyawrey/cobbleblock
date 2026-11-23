@@ -36,5 +36,24 @@
       1
     ],
     "signatureBlocks": []
+  },
+  {
+    "id": "larvesta-3",
+    "habitat": "ruins",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 420,
+    "level": "11-36",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

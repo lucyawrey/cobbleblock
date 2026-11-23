@@ -36,5 +36,24 @@
       1
     ],
     "signatureBlocks": []
+  },
+  {
+    "id": "volcarona-3",
+    "habitat": "ruins",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 160,
+    "level": "59-64",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

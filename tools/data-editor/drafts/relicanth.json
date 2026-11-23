@@ -36,5 +36,24 @@
     ],
     "properties": "",
     "signatureBlocks": []
+  },
+  {
+    "id": "relicanth-3",
+    "habitat": "ruins",
+    "type": "dive",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 100,
+    "level": "24-49",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

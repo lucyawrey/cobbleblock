@@ -36,5 +36,24 @@
     ],
     "properties": "",
     "signatureBlocks": []
+  },
+  {
+    "id": "zubat-3",
+    "habitat": "soul",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 27,
+    "level": "1-25",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

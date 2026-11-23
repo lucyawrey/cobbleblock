@@ -1,7 +1,7 @@
 [
   {
     "id": "leafeon-1",
-    "habitat": "overworld",
+    "habitat": "ruins",
     "type": "ground",
     "bucket": "ultra-rare",
     "weight": 24,
@@ -16,9 +16,25 @@
       1
     ],
     "properties": "",
-    "signatureBlocks": [
-      "#c:cobblestones/mossy",
-      "minecraft:moss_block"
-    ]
+    "signatureBlocks": []
+  },
+  {
+    "id": "leafeon-2",
+    "habitat": "urban",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 0.16,
+    "level": "28-53",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

@@ -36,5 +36,24 @@
     ],
     "properties": "",
     "signatureBlocks": []
+  },
+  {
+    "id": "yanma-3",
+    "habitat": "swamp",
+    "type": "surf",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 13.44,
+    "level": "14-39",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

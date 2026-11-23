@@ -36,5 +36,24 @@
     ],
     "properties": "",
     "signatureBlocks": []
+  },
+  {
+    "id": "crobat-3",
+    "habitat": "soul",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 0.3,
+    "level": "41-54",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

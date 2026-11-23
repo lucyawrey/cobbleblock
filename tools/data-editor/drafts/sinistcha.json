@@ -1,0 +1,154 @@
+[
+  {
+    "id": "sinistcha-1",
+    "habitat": "urban",
+    "type": "ground",
+    "properties": "matcha_authenticity=unremarkable",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 6.336,
+    "level": "26-51",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "sinistcha-2",
+    "habitat": "urban",
+    "type": "ground",
+    "properties": "matcha_authenticity=masterpiece",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 0.064,
+    "level": "26-51",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "sinistcha-3",
+    "habitat": "urban",
+    "type": "ground",
+    "properties": "matcha_authenticity=unremarkable",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 6.336,
+    "level": "26-51",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "sinistcha-4",
+    "habitat": "urban",
+    "type": "ground",
+    "properties": "matcha_authenticity=masterpiece",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 0.064,
+    "level": "26-51",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "sinistcha-5",
+    "habitat": "dark_forest",
+    "type": "ground",
+    "properties": "matcha_authenticity=unremarkable",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 6.336,
+    "level": "26-51",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "sinistcha-6",
+    "habitat": "dark_forest",
+    "type": "ground",
+    "properties": "matcha_authenticity=masterpiece",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 0.064,
+    "level": "26-51",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "sinistcha-7",
+    "habitat": "dark_forest",
+    "type": "ground",
+    "properties": "matcha_authenticity=unremarkable",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 6.336,
+    "level": "26-51",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "sinistcha-8",
+    "habitat": "dark_forest",
+    "type": "ground",
+    "properties": "matcha_authenticity=masterpiece",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 0.064,
+    "level": "26-51",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

@@ -62,5 +62,24 @@
       "#cobblemon:apricorns",
       "minecraft:tnt"
     ]
+  },
+  {
+    "id": "electrode-4",
+    "habitat": "urban",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 1.6,
+    "level": "30-49",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

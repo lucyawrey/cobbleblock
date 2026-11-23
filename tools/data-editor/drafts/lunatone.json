@@ -20,5 +20,24 @@
       "cobblemon:moon_stone_block",
       "#cobblemon:moon_stone_ores"
     ]
+  },
+  {
+    "id": "lunatone-2",
+    "habitat": "ruins",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 200,
+    "level": "21-46",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]

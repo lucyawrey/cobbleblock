@@ -55,5 +55,24 @@
       1
     ],
     "signatureBlocks": []
+  },
+  {
+    "id": "hawlucha-4",
+    "habitat": "ruins",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 600,
+    "level": "25-50",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
   }
 ]
