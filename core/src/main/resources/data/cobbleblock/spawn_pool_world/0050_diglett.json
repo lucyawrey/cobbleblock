@@ -7,23 +7,16 @@
       "id": "diglett-1",
       "pokemon": "diglett",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:stone"
+      ],
       "bucket": "common",
-      "weight": 9,
       "level": "2-27",
-      "spawnablePositionType": "grounded",
+      "weight": 27,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "minecraft:stone",
-          "minecraft:dirt",
-          "minecraft:coarse_dirt"
+          "#minecraft:dirt"
         ]
       }
     },
@@ -31,23 +24,32 @@
       "id": "diglett-2",
       "pokemon": "diglett",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:cave"
+      ],
       "bucket": "common",
-      "weight": 9,
       "level": "2-27",
-      "spawnablePositionType": "grounded",
+      "weight": 27,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "canSeeSky": false,
         "neededNearbyBlocks": [
-          "minecraft:stone",
-          "minecraft:dirt",
-          "minecraft:coarse_dirt"
+          "#minecraft:dirt"
         ]
+      }
+    },
+    {
+      "id": "diglett-alolan-1",
+      "pokemon": "diglett alolan",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:beach"
+      ],
+      "bucket": "common",
+      "level": "2-27",
+      "weight": 27,
+      "condition": {
+        "maxLight": 7
       }
     }
   ]

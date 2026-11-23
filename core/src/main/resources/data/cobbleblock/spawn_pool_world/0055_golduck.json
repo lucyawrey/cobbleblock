@@ -7,65 +7,49 @@
       "id": "golduck-1",
       "pokemon": "golduck",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:beach"
+      ],
       "bucket": "common",
-      "weight": 0.6,
       "level": "33-50",
-      "spawnablePositionType": "grounded",
-      "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "neededNearbyBlocks": [
-          "minecraft:lily_pad",
-          "minecraft:vine",
-          "minecraft:water",
-          "#cobblemon:gemstones",
-          "minecraft:sand"
-        ]
-      }
+      "weight": 6
+    },
+    {
+      "id": "golduck-4",
+      "pokemon": "golduck",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:shore"
+      ],
+      "bucket": "common",
+      "level": "33-50",
+      "weight": 6
     },
     {
       "id": "golduck-2",
       "pokemon": "golduck",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:dive",
+        "cobbleblock:beach"
+      ],
       "bucket": "common",
-      "weight": 0.6,
       "level": "33-50",
-      "spawnablePositionType": "submerged",
-      "condition": {
-        "fluid": "#minecraft:water",
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "canSeeSky": true,
-        "neededNearbyBlocks": [
-          "minecraft:lily_pad",
-          "minecraft:vine",
-          "minecraft:water",
-          "#cobblemon:gemstones",
-          "minecraft:sand"
-        ]
-      }
+      "weight": 6
     },
     {
       "id": "golduck-3",
       "pokemon": "golduck",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:fishing",
+        "cobbleblock:overworld"
+      ],
       "bucket": "common",
-      "weight": 0.6,
       "level": "33-50",
-      "spawnablePositionType": "fishing",
-      "condition": {
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "canSeeSky": true
-      },
+      "weight": 2,
       "weightMultipliers": [
         {
           "multiplier": 3,

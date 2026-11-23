@@ -7,24 +7,55 @@
       "id": "vulpix-1",
       "pokemon": "vulpix",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:taiga"
+      ],
       "bucket": "uncommon",
-      "weight": 5.52,
       "level": "5-30",
-      "spawnablePositionType": "grounded",
+      "weight": 40,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "isRaining": false,
-        "isThundering": false,
-        "neededNearbyBlocks": [
-          "minecraft:fern",
-          "minecraft:large_fern",
-          "minecraft:sweet_berry_bush",
-          "#minecraft:spruce_logs",
-          "minecraft:spruce_leaves"
-        ]
+        "isRaining": false
       }
+    },
+    {
+      "id": "vulpix-2",
+      "pokemon": "vulpix",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:volcanic"
+      ],
+      "bucket": "uncommon",
+      "level": "5-30",
+      "weight": 40,
+      "condition": {
+        "isRaining": false
+      }
+    },
+    {
+      "id": "vulpix-alolan-1",
+      "pokemon": "vulpix alolan",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:taiga"
+      ],
+      "bucket": "uncommon",
+      "level": "5-30",
+      "weight": 24
+    },
+    {
+      "id": "vulpix-alolan-2",
+      "pokemon": "vulpix alolan",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:snowy"
+      ],
+      "bucket": "uncommon",
+      "level": "5-30",
+      "weight": 24
     }
   ]
 }

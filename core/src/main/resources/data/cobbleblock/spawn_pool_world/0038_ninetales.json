@@ -7,24 +7,55 @@
       "id": "ninetales-1",
       "pokemon": "ninetales",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:taiga"
+      ],
       "bucket": "uncommon",
-      "weight": 0.48,
       "level": "25-51",
-      "spawnablePositionType": "grounded",
+      "weight": 3.8,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "isRaining": false,
-        "isThundering": false,
-        "neededNearbyBlocks": [
-          "minecraft:fern",
-          "minecraft:large_fern",
-          "minecraft:sweet_berry_bush",
-          "#minecraft:spruce_logs",
-          "minecraft:spruce_leaves"
-        ]
+        "isRaining": false
       }
+    },
+    {
+      "id": "ninetales-alolan-1",
+      "pokemon": "ninetales alolan",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:taiga"
+      ],
+      "bucket": "uncommon",
+      "level": "25-51",
+      "weight": 2.4
+    },
+    {
+      "id": "ninetales-2",
+      "pokemon": "ninetales",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:volcanic"
+      ],
+      "bucket": "uncommon",
+      "level": "25-51",
+      "weight": 3.8,
+      "condition": {
+        "isRaining": false
+      }
+    },
+    {
+      "id": "ninetales-alolan-2",
+      "pokemon": "ninetales alolan",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:snowy"
+      ],
+      "bucket": "uncommon",
+      "level": "25-51",
+      "weight": 2.4
     }
   ]
 }

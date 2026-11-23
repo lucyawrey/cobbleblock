@@ -16,18 +16,6 @@
       "weight": 70
     },
     {
-      "id": "caterpie-2",
-      "pokemon": "caterpie",
-      "type": "pokemon",
-      "presets": [
-        "cobbleblock:ground",
-        "cobbleblock:forest"
-      ],
-      "bucket": "common",
-      "level": "1-20",
-      "weight": 70
-    },
-    {
       "id": "caterpie-valencian-1",
       "pokemon": "caterpie valencian",
       "type": "pokemon",

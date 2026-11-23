@@ -17,24 +17,5 @@
     ],
     "properties": "",
     "signatureBlocks": []
-  },
-  {
-    "id": "jumpluff-2",
-    "habitat": "grassland",
-    "type": "ground",
-    "bucket": "common",
-    "weight": 0.1,
-    "level": "27-46",
-    "timeRange": "any",
-    "dark": false,
-    "weather": "any",
-    "moonPhases": [],
-    "lureBoosts": [
-      1,
-      1,
-      1
-    ],
-    "properties": "",
-    "signatureBlocks": []
   }
 ]

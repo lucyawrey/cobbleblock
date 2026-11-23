@@ -21,27 +21,6 @@
     ]
   },
   {
-    "id": "weezing-2",
-    "habitat": "soul",
-    "type": "ground",
-    "bucket": "common",
-    "weight": 1.6,
-    "level": "35-49",
-    "timeRange": "any",
-    "dark": false,
-    "weather": "any",
-    "moonPhases": [],
-    "lureBoosts": [
-      1,
-      1,
-      1
-    ],
-    "properties": "",
-    "signatureBlocks": [
-      "minecraft:smoker"
-    ]
-  },
-  {
     "id": "weezing-galarian-1",
     "habitat": "gemstones",
     "type": "ground",

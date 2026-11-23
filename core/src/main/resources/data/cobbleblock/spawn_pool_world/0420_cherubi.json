@@ -7,29 +7,13 @@
       "id": "cherubi-1",
       "pokemon": "cherubi",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:cherry_forest"
+      ],
       "bucket": "common",
-      "weight": 9,
-      "level": "2-27",
-      "spawnablePositionType": "grounded",
-      "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "neededNearbyBlocks": [
-          "minecraft:fern",
-          "minecraft:large_fern",
-          "minecraft:sweet_berry_bush",
-          "#minecraft:spruce_logs",
-          "minecraft:spruce_leaves",
-          "#minecraft:cherry_logs",
-          "minecraft:cherry_leaves"
-        ]
-      }
+      "level": "3-28",
+      "weight": 27
     }
   ]
 }

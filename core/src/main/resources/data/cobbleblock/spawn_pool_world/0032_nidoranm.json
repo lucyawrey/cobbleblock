@@ -7,24 +7,25 @@
       "id": "nidoranm-1",
       "pokemon": "nidoranm",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:savanna"
+      ],
       "bucket": "uncommon",
-      "weight": 8.4,
       "level": "3-28",
-      "spawnablePositionType": "grounded",
-      "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "neededNearbyBlocks": [
-          "#minecraft:acacia_logs",
-          "minecraft:acacia_leaves"
-        ]
-      }
+      "weight": 8.4
+    },
+    {
+      "id": "nidoranm-2",
+      "pokemon": "nidoranm",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:desert"
+      ],
+      "bucket": "uncommon",
+      "level": "3-28",
+      "weight": 8.4
     }
   ]
 }

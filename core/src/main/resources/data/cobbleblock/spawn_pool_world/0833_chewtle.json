@@ -1,0 +1,55 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "chewtle-1",
+      "pokemon": "chewtle",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:shore"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "weight": 54
+    },
+    {
+      "id": "chewtle-2",
+      "pokemon": "chewtle",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:seafloor",
+        "cobbleblock:overworld"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "weight": 54
+    },
+    {
+      "id": "chewtle-3",
+      "pokemon": "chewtle",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:fishing",
+        "cobbleblock:overworld"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "weight": 90
+    },
+    {
+      "id": "chewtle-4",
+      "pokemon": "chewtle",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:fishing",
+        "cobbleblock:underground"
+      ],
+      "bucket": "common",
+      "level": "3-28",
+      "weight": 90
+    }
+  ]
+}

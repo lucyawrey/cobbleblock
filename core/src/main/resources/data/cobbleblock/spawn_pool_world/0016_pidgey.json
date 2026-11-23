@@ -7,25 +7,25 @@
       "id": "pidgey-1",
       "pokemon": "pidgey",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:forest"
+      ],
       "bucket": "common",
-      "weight": 9,
       "level": "1-25",
-      "spawnablePositionType": "grounded",
-      "condition": {
-        "neededBaseBlocks": [
-          "#minecraft:leaves",
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "neededNearbyBlocks": [
-          "#cobblemon:trees",
-          "#c:fences"
-        ]
-      }
+      "weight": 9
+    },
+    {
+      "id": "pidgey-2",
+      "pokemon": "pidgey",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:perch"
+      ],
+      "bucket": "common",
+      "level": "1-25",
+      "weight": 9
     }
   ]
 }

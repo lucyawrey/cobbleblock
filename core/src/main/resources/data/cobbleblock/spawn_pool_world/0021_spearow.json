@@ -7,29 +7,30 @@
       "id": "spearow-1",
       "pokemon": "spearow",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:savanna"
+      ],
       "bucket": "common",
-      "weight": 9,
       "level": "1-26",
-      "spawnablePositionType": "grounded",
+      "weight": 9,
       "condition": {
-        "neededBaseBlocks": [
-          "#minecraft:leaves",
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "timeRange": "day",
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "neededNearbyBlocks": [
-          "minecraft:red_sand",
-          "#minecraft:terracotta",
-          "minecraft:dead_bush",
-          "#minecraft:acacia_logs",
-          "minecraft:acacia_leaves",
-          "#c:fences"
-        ]
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "spearow-2",
+      "pokemon": "spearow",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:perch"
+      ],
+      "bucket": "common",
+      "level": "1-26",
+      "weight": 9,
+      "condition": {
+        "timeRange": "day"
       }
     }
   ]

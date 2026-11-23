@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "chesnaught-1",
+      "pokemon": "chesnaught",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:forest"
+      ],
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 1.2
+    }
+  ]
+}

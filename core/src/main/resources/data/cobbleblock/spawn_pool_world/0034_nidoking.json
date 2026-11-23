@@ -7,24 +7,25 @@
       "id": "nidoking-1",
       "pokemon": "nidoking",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:savanna"
+      ],
       "bucket": "uncommon",
-      "weight": 0.08,
       "level": "37-51",
-      "spawnablePositionType": "grounded",
-      "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "neededNearbyBlocks": [
-          "#minecraft:acacia_logs",
-          "minecraft:acacia_leaves"
-        ]
-      }
+      "weight": 0.08
+    },
+    {
+      "id": "nidoking-2",
+      "pokemon": "nidoking",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:desert"
+      ],
+      "bucket": "uncommon",
+      "level": "37-51",
+      "weight": 0.08
     }
   ]
 }

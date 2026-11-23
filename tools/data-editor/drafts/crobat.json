@@ -20,13 +20,13 @@
   },
   {
     "id": "crobat-2",
-    "habitat": "deep_dark",
+    "habitat": "cave",
     "type": "ground",
     "bucket": "common",
     "weight": 0.1,
     "level": "41-54",
     "timeRange": "any",
-    "dark": false,
+    "dark": true,
     "weather": "any",
     "moonPhases": [],
     "lureBoosts": [

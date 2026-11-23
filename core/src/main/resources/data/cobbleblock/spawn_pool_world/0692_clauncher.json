@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "clauncher-1",
+      "pokemon": "clauncher",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:seafloor",
+        "cobbleblock:beach"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 18
+    },
+    {
+      "id": "clauncher-2",
+      "pokemon": "clauncher",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:fishing",
+        "cobbleblock:overworld"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 18
+    },
+    {
+      "id": "clauncher-3",
+      "pokemon": "clauncher",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:fishing",
+        "cobbleblock:underground"
+      ],
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 18
+    }
+  ]
+}

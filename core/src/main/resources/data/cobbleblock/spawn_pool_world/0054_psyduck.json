@@ -7,65 +7,49 @@
       "id": "psyduck-1",
       "pokemon": "psyduck",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:beach"
+      ],
       "bucket": "common",
-      "weight": 5.4,
       "level": "7-32",
-      "spawnablePositionType": "grounded",
-      "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "neededNearbyBlocks": [
-          "minecraft:lily_pad",
-          "minecraft:vine",
-          "minecraft:water",
-          "#cobblemon:gemstones",
-          "minecraft:sand"
-        ]
-      }
+      "weight": 27
     },
     {
-      "id": "psyduck-2",
+      "id": "psyduck-4",
       "pokemon": "psyduck",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:dive",
+        "cobbleblock:beach"
+      ],
       "bucket": "common",
-      "weight": 5.4,
       "level": "7-32",
-      "spawnablePositionType": "submerged",
-      "condition": {
-        "fluid": "#minecraft:water",
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "canSeeSky": true,
-        "neededNearbyBlocks": [
-          "minecraft:lily_pad",
-          "minecraft:vine",
-          "minecraft:water",
-          "#cobblemon:gemstones",
-          "minecraft:sand"
-        ]
-      }
+      "weight": 27
     },
     {
       "id": "psyduck-3",
       "pokemon": "psyduck",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:shore"
+      ],
       "bucket": "common",
-      "weight": 5.4,
       "level": "7-32",
-      "spawnablePositionType": "fishing",
-      "condition": {
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "canSeeSky": true
-      },
+      "weight": 27
+    },
+    {
+      "id": "psyduck-2",
+      "pokemon": "psyduck",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:fishing",
+        "cobbleblock:overworld"
+      ],
+      "bucket": "common",
+      "level": "7-32",
+      "weight": 18,
       "weightMultipliers": [
         {
           "multiplier": 3,

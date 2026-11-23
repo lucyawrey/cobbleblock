@@ -7,28 +7,42 @@
       "id": "persian-1",
       "pokemon": "persian",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:taiga"
+      ],
       "bucket": "common",
-      "weight": 1,
       "level": "28-44",
-      "spawnablePositionType": "grounded",
+      "weight": 8
+    },
+    {
+      "id": "persian-alolan-1",
+      "pokemon": "persian alolan",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:beach"
+      ],
+      "bucket": "common",
+      "level": "28-44",
+      "weight": 48,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "neededNearbyBlocks": [
-          "#minecraft:sand",
-          "minecraft:dead_bush",
-          "minecraft:fern",
-          "minecraft:large_fern",
-          "minecraft:sweet_berry_bush",
-          "#minecraft:spruce_logs",
-          "minecraft:spruce_leaves"
-        ]
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "persian-2",
+      "pokemon": "persian",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:urban"
+      ],
+      "bucket": "common",
+      "level": "28-44",
+      "weight": 8,
+      "condition": {
+        "isRaining": false
       }
     }
   ]

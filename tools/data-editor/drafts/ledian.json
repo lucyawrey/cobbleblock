@@ -17,24 +17,5 @@
     ],
     "properties": "",
     "signatureBlocks": []
-  },
-  {
-    "id": "ledian-2",
-    "habitat": "taiga",
-    "type": "ground",
-    "bucket": "common",
-    "weight": 10,
-    "level": "18-39",
-    "timeRange": "night",
-    "dark": false,
-    "weather": "any",
-    "moonPhases": [],
-    "lureBoosts": [
-      1,
-      1,
-      1
-    ],
-    "properties": "",
-    "signatureBlocks": []
   }
 ]

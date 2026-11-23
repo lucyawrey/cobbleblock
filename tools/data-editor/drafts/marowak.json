@@ -21,47 +21,7 @@
     ]
   },
   {
-    "id": "marowak-2",
-    "habitat": "soul",
-    "type": "ground",
-    "bucket": "common",
-    "weight": 1.6,
-    "level": "28-43",
-    "timeRange": "any",
-    "dark": false,
-    "weather": "any",
-    "moonPhases": [],
-    "lureBoosts": [
-      1,
-      1,
-      1
-    ],
-    "properties": "",
-    "signatureBlocks": [
-      "minecraft:bone_block"
-    ]
-  },
-  {
     "id": "marowak-alolan-1",
-    "habitat": "volcanic",
-    "type": "ground",
-    "bucket": "common",
-    "weight": 4.8,
-    "level": "28-43",
-    "timeRange": "any",
-    "dark": false,
-    "weather": "any",
-    "moonPhases": [],
-    "lureBoosts": [
-      1,
-      1,
-      1
-    ],
-    "properties": "alolan",
-    "signatureBlocks": []
-  },
-  {
-    "id": "marowak-alolan-2",
     "habitat": "volcanic",
     "type": "ground",
     "bucket": "common",

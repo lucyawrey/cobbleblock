@@ -17,24 +17,5 @@
     ],
     "properties": "",
     "signatureBlocks": []
-  },
-  {
-    "id": "xatu-2",
-    "habitat": "savanna",
-    "type": "ground",
-    "bucket": "common",
-    "weight": 1,
-    "level": "25-47",
-    "timeRange": "day",
-    "dark": false,
-    "weather": "any",
-    "moonPhases": [],
-    "lureBoosts": [
-      1,
-      1,
-      1
-    ],
-    "properties": "",
-    "signatureBlocks": []
   }
 ]

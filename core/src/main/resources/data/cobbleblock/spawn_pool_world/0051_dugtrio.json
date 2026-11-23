@@ -7,23 +7,16 @@
       "id": "dugtrio-1",
       "pokemon": "dugtrio",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:stone"
+      ],
       "bucket": "common",
-      "weight": 1,
       "level": "26-43",
-      "spawnablePositionType": "grounded",
+      "weight": 3,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
         "neededNearbyBlocks": [
-          "minecraft:stone",
-          "minecraft:dirt",
-          "minecraft:coarse_dirt"
+          "#minecraft:dirt"
         ]
       }
     },
@@ -31,23 +24,32 @@
       "id": "dugtrio-2",
       "pokemon": "dugtrio",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:cave"
+      ],
       "bucket": "common",
-      "weight": 1,
       "level": "26-43",
-      "spawnablePositionType": "grounded",
+      "weight": 3,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "canSeeSky": false,
         "neededNearbyBlocks": [
-          "minecraft:stone",
-          "minecraft:dirt",
-          "minecraft:coarse_dirt"
+          "#minecraft:dirt"
         ]
+      }
+    },
+    {
+      "id": "dugtrio-alolan-1",
+      "pokemon": "dugtrio alolan",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:beach"
+      ],
+      "bucket": "common",
+      "level": "26-43",
+      "weight": 3,
+      "condition": {
+        "maxLight": 7
       }
     }
   ]

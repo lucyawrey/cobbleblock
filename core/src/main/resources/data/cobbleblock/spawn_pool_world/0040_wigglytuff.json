@@ -7,23 +7,25 @@
       "id": "wigglytuff-1",
       "pokemon": "wigglytuff",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:flower_field"
+      ],
       "bucket": "common",
-      "weight": 0.05,
       "level": "22-44",
-      "spawnablePositionType": "grounded",
-      "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "neededNearbyBlocks": [
-          "#minecraft:flowers"
-        ]
-      }
+      "weight": 0.8
+    },
+    {
+      "id": "wigglytuff-2",
+      "pokemon": "wigglytuff",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:music"
+      ],
+      "bucket": "common",
+      "level": "22-44",
+      "weight": 0.8
     }
   ]
 }

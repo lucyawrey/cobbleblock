@@ -7,25 +7,37 @@
       "id": "raichu-1",
       "pokemon": "raichu",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:grassland"
+      ],
       "bucket": "uncommon",
-      "weight": 0.048,
       "level": "27-49",
-      "spawnablePositionType": "grounded",
-      "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "neededNearbyBlocks": [
-          "minecraft:short_grass",
-          "minecraft:tall_grass",
-          "#cobblemon:redstone_blocks"
-        ]
-      }
+      "weight": 0.4
+    },
+    {
+      "id": "raichu-2",
+      "pokemon": "raichu",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:redstone"
+      ],
+      "bucket": "uncommon",
+      "level": "27-49",
+      "weight": 0.4
+    },
+    {
+      "id": "raichu-alolan-1",
+      "pokemon": "raichu alolan",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:beach"
+      ],
+      "bucket": "uncommon",
+      "level": "27-49",
+      "weight": 0.2
     }
   ]
 }

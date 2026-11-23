@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "minSkyLight": 8,
+    "maxSkyLight": 15,
+    "neededNearbyBlocks": [
+      "#minecraft:oak_logs",
+      "minecraft:oak_leaves"
+    ],
+    "neededBaseBlocks": [
+      "#minecraft:oak_logs",
+      "minecraft:oak_leaves"
+    ]
+  }
+}

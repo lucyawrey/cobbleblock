@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "chespin-1",
+      "pokemon": "chespin",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:forest"
+      ],
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 18
+    }
+  ]
+}

@@ -7,29 +7,15 @@
       "id": "venomoth-1",
       "pokemon": "venomoth",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:dark_forest"
+      ],
       "bucket": "common",
-      "weight": 0.6,
       "level": "31-45",
-      "spawnablePositionType": "grounded",
+      "weight": 6,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "timeRange": "night",
-        "canSeeSky": true,
-        "neededNearbyBlocks": [
-          "#minecraft:dark_oak_logs",
-          "minecraft:dark_oak_leaves",
-          "minecraft:peony",
-          "minecraft:lilac",
-          "minecraft:rose_bush",
-          "#cobblemon:mansion_blocks",
-          "minecraft:lily_pad",
-          "minecraft:vine"
-        ]
+        "timeRange": "night"
       }
     }
   ]

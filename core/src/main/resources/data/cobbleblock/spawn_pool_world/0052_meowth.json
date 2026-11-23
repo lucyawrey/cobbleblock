@@ -7,29 +7,67 @@
       "id": "meowth-1",
       "pokemon": "meowth",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:taiga"
+      ],
       "bucket": "common",
-      "weight": 9,
       "level": "4-29",
-      "spawnablePositionType": "grounded",
+      "weight": 72
+    },
+    {
+      "id": "meowth-alolan-1",
+      "pokemon": "meowth alolan",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:beach"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "weight": 432,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "neededNearbyBlocks": [
-          "#minecraft:sand",
-          "minecraft:dead_bush",
-          "minecraft:fern",
-          "minecraft:large_fern",
-          "minecraft:sweet_berry_bush",
-          "#minecraft:spruce_logs",
-          "minecraft:spruce_leaves"
-        ]
+        "timeRange": "night"
       }
+    },
+    {
+      "id": "meowth-galarian-1",
+      "pokemon": "meowth galarian",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:snowy"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "weight": 72
+    },
+    {
+      "id": "meowth-2",
+      "pokemon": "meowth",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:urban"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "weight": 72,
+      "condition": {
+        "isRaining": false
+      }
+    },
+    {
+      "id": "meowth-galarian-2",
+      "pokemon": "meowth galarian",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:urban"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "weight": 72
     }
   ]
 }

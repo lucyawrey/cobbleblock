@@ -6,10 +6,12 @@
     "minSkyLight": 0,
     "maxSkyLight": 7,
     "neededNearbyBlocks": [
-      "#c:stones"
+      "#c:stones",
+      "minecraft:sculk"
     ],
     "neededBaseBlocks": [
-      "#c:stones"
+      "#c:stones",
+      "minecraft:sculk"
     ]
   }
 }

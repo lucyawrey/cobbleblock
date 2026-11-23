@@ -17,24 +17,5 @@
     ],
     "properties": "",
     "signatureBlocks": []
-  },
-  {
-    "id": "natu-2",
-    "habitat": "savanna",
-    "type": "ground",
-    "bucket": "common",
-    "weight": 9,
-    "level": "7-32",
-    "timeRange": "day",
-    "dark": false,
-    "weather": "any",
-    "moonPhases": [],
-    "lureBoosts": [
-      1,
-      1,
-      1
-    ],
-    "properties": "",
-    "signatureBlocks": []
   }
 ]

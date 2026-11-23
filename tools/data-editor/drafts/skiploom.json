@@ -17,24 +17,5 @@
     ],
     "properties": "",
     "signatureBlocks": []
-  },
-  {
-    "id": "skiploom-2",
-    "habitat": "grassland",
-    "type": "ground",
-    "bucket": "common",
-    "weight": 0.9,
-    "level": "18-34",
-    "timeRange": "any",
-    "dark": false,
-    "weather": "any",
-    "moonPhases": [],
-    "lureBoosts": [
-      1,
-      1,
-      1
-    ],
-    "properties": "",
-    "signatureBlocks": []
   }
 ]

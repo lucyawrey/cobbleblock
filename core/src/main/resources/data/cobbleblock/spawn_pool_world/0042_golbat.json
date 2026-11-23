@@ -7,63 +7,46 @@
       "id": "golbat-1",
       "pokemon": "golbat",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:flower_field"
+      ],
       "bucket": "common",
-      "weight": 0.2,
       "level": "22-46",
-      "spawnablePositionType": "grounded",
+      "weight": 0.9,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "timeRange": "night",
-        "canSeeSky": true,
-        "neededNearbyBlocks": [
-          "#minecraft:dark_oak_logs",
-          "minecraft:dark_oak_leaves",
-          "minecraft:peony",
-          "minecraft:lilac",
-          "minecraft:rose_bush",
-          "minecraft:sculk",
-          "minecraft:sculk_vein",
-          "minecraft:sculk_catalyst",
-          "minecraft:sculk_sensor",
-          "minecraft:sculk_shrieker",
-          "minecraft:stone"
-        ]
+        "timeRange": "night"
       }
     },
     {
       "id": "golbat-2",
       "pokemon": "golbat",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:cave"
+      ],
       "bucket": "common",
-      "weight": 0.2,
       "level": "22-46",
-      "spawnablePositionType": "grounded",
+      "weight": 0.9,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "canSeeSky": false,
-        "neededNearbyBlocks": [
-          "#minecraft:dark_oak_logs",
-          "minecraft:dark_oak_leaves",
-          "minecraft:peony",
-          "minecraft:lilac",
-          "minecraft:rose_bush",
-          "minecraft:sculk",
-          "minecraft:sculk_vein",
-          "minecraft:sculk_catalyst",
-          "minecraft:sculk_sensor",
-          "minecraft:sculk_shrieker",
-          "minecraft:stone"
-        ]
+        "maxLight": 7
+      }
+    },
+    {
+      "id": "golbat-3",
+      "pokemon": "golbat",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:soul"
+      ],
+      "bucket": "common",
+      "level": "22-46",
+      "weight": 2.7,
+      "condition": {
+        "timeRange": "night",
+        "isRaining": false
       }
     }
   ]

@@ -7,24 +7,27 @@
       "id": "rattata-1",
       "pokemon": "rattata",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:grassland"
+      ],
       "bucket": "common",
-      "weight": 9,
       "level": "1-25",
-      "spawnablePositionType": "grounded",
+      "weight": 72
+    },
+    {
+      "id": "rattata-alolan-1",
+      "pokemon": "rattata alolan",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:grassland"
+      ],
+      "bucket": "common",
+      "level": "1-25",
+      "weight": 90,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "neededNearbyBlocks": [
-          "minecraft:grass_block",
-          "minecraft:short_grass",
-          "minecraft:tall_grass"
-        ]
+        "timeRange": "night"
       }
     }
   ]

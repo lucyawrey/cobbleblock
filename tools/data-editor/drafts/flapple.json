@@ -1,7 +1,7 @@
 [
   {
     "id": "flapple-1",
-    "habitat": "forest",
+    "habitat": "oak_forest",
     "type": "ground",
     "properties": "",
     "timeRange": "any",

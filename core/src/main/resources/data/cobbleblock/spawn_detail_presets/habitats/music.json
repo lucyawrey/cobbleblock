@@ -1,0 +1,15 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "neededNearbyBlocks": [
+      "minecraft:note_block",
+      "minecraft:jukebox"
+    ],
+    "neededBaseBlocks": [
+      "minecraft:note_block",
+      "minecraft:jukebox"
+    ]
+  }
+}

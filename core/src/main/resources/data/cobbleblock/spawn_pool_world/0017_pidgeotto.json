@@ -7,25 +7,30 @@
       "id": "pidgeotto-1",
       "pokemon": "pidgeotto",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:forest"
+      ],
       "bucket": "common",
-      "weight": 0.9,
       "level": "18-35",
-      "spawnablePositionType": "grounded",
+      "weight": 0.9,
       "condition": {
-        "neededBaseBlocks": [
-          "#minecraft:leaves",
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "timeRange": "day",
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "neededNearbyBlocks": [
-          "#cobblemon:trees",
-          "#c:fences"
-        ]
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "pidgeotto-2",
+      "pokemon": "pidgeotto",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:perch"
+      ],
+      "bucket": "common",
+      "level": "18-35",
+      "weight": 0.9,
+      "condition": {
+        "timeRange": "day"
       }
     }
   ]

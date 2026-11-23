@@ -1,0 +1,15 @@
+{
+  "condition": {
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "minSkyLight": 8,
+    "maxSkyLight": 15,
+    "neededNearbyBlocks": [
+      "#c:fences"
+    ],
+    "neededBaseBlocks": [
+      "#c:fences"
+    ]
+  }
+}

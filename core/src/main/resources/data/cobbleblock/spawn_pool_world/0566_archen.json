@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "archen-1",
+      "pokemon": "archen",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:lush_cave"
+      ],
+      "bucket": "ultra-rare",
+      "level": "15-40",
+      "weight": 60
+    }
+  ]
+}

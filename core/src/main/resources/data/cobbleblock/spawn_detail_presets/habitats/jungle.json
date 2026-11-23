@@ -3,8 +3,6 @@
     "dimensions": [
       "minecraft:overworld"
     ],
-    "minSkyLight": 8,
-    "maxSkyLight": 15,
     "neededNearbyBlocks": [
       "#minecraft:jungle_logs",
       "minecraft:jungle_leaves",

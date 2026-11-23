@@ -1,0 +1,91 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ekans-snake-pattern-attack-1",
+      "pokemon": "ekans snake_pattern=attack",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:desert"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "weight": 2.7
+    },
+    {
+      "id": "ekans-snake-pattern-classic-1",
+      "pokemon": "ekans snake_pattern=classic",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:desert"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "weight": 40.5
+    },
+    {
+      "id": "ekans-snake-pattern-dark-1",
+      "pokemon": "ekans snake_pattern=dark",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:nether_soul"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "weight": 54
+    },
+    {
+      "id": "ekans-snake-pattern-elusive-1",
+      "pokemon": "ekans snake_pattern=elusive",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:desert"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "weight": 2.7
+    },
+    {
+      "id": "ekans-snake-pattern-legacy-1",
+      "pokemon": "ekans snake_pattern=legacy",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:desert"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "weight": 2.7
+    },
+    {
+      "id": "ekans-snake-pattern-sound-1",
+      "pokemon": "ekans snake_pattern=sound",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:desert"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "weight": 2.7
+    },
+    {
+      "id": "ekans-snake-pattern-speed-1",
+      "pokemon": "ekans snake_pattern=speed",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:beach"
+      ],
+      "bucket": "common",
+      "level": "4-29",
+      "weight": 2.7
+    }
+  ]
+}

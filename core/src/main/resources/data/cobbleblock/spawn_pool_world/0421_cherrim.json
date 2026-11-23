@@ -7,28 +7,45 @@
       "id": "cherrim-1",
       "pokemon": "cherrim",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:cherry_forest"
+      ],
       "bucket": "common",
-      "weight": 0.25,
-      "level": "25-49",
-      "spawnablePositionType": "grounded",
+      "level": "25-45",
+      "weight": 3,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "timeRange": "night",
-        "canSeeSky": true,
-        "neededNearbyBlocks": [
-          "minecraft:fern",
-          "minecraft:large_fern",
-          "minecraft:sweet_berry_bush",
-          "#minecraft:spruce_logs",
-          "minecraft:spruce_leaves",
-          "#minecraft:cherry_logs",
-          "minecraft:cherry_leaves"
-        ]
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "cherrim-blossom-form-overcast-1",
+      "pokemon": "cherrim blossom_form=overcast",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:cherry_forest"
+      ],
+      "bucket": "common",
+      "level": "25-49",
+      "weight": 0.25,
+      "condition": {
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "cherrim-blossom-form-sunshine-1",
+      "pokemon": "cherrim blossom_form=sunshine",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:cherry_forest"
+      ],
+      "bucket": "common",
+      "level": "25-45",
+      "weight": 3,
+      "condition": {
+        "timeRange": "day"
       }
     }
   ]

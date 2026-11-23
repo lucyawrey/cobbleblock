@@ -7,23 +7,25 @@
       "id": "sandslash-1",
       "pokemon": "sandslash",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:desert"
+      ],
       "bucket": "common",
-      "weight": 1,
       "level": "22-45",
-      "spawnablePositionType": "grounded",
-      "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "neededNearbyBlocks": [
-          "#minecraft:sand",
-          "minecraft:dead_bush",
-          "minecraft:sandstone"
-        ]
-      }
+      "weight": 10
+    },
+    {
+      "id": "sandslash-alolan-1",
+      "pokemon": "sandslash alolan",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:snowy"
+      ],
+      "bucket": "common",
+      "level": "22-45",
+      "weight": 10
     }
   ]
 }

@@ -19,25 +19,6 @@
     "signatureBlocks": []
   },
   {
-    "id": "woobat-2",
-    "habitat": "forest",
-    "type": "ground",
-    "bucket": "common",
-    "weight": 27,
-    "level": "7-32",
-    "timeRange": "night",
-    "dark": false,
-    "weather": "any",
-    "moonPhases": [],
-    "lureBoosts": [
-      1,
-      1,
-      1
-    ],
-    "properties": "",
-    "signatureBlocks": []
-  },
-  {
     "id": "woobat-3",
     "habitat": "dripstone_cave",
     "type": "ground",

@@ -17,24 +17,5 @@
     ],
     "properties": "",
     "signatureBlocks": []
-  },
-  {
-    "id": "onix-2",
-    "habitat": "volcanic",
-    "type": "ground",
-    "bucket": "uncommon",
-    "weight": 55.2,
-    "level": "14-39",
-    "timeRange": "any",
-    "dark": false,
-    "weather": "any",
-    "moonPhases": [],
-    "lureBoosts": [
-      1,
-      1,
-      1
-    ],
-    "properties": "",
-    "signatureBlocks": []
   }
 ]

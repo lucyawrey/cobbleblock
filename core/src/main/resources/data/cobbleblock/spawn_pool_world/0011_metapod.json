@@ -16,18 +16,6 @@
       "weight": 20
     },
     {
-      "id": "metapod-2",
-      "pokemon": "metapod",
-      "type": "pokemon",
-      "presets": [
-        "cobbleblock:ground",
-        "cobbleblock:forest"
-      ],
-      "bucket": "common",
-      "level": "7-21",
-      "weight": 20
-    },
-    {
       "id": "metapod-valencian-1",
       "pokemon": "metapod valencian",
       "type": "pokemon",

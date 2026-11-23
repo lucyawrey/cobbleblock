@@ -17,24 +17,5 @@
     ],
     "properties": "",
     "signatureBlocks": []
-  },
-  {
-    "id": "tranquill-2",
-    "habitat": "stone",
-    "type": "ground",
-    "bucket": "common",
-    "weight": 0.9,
-    "level": "21-36",
-    "timeRange": "day",
-    "dark": false,
-    "weather": "any",
-    "moonPhases": [],
-    "lureBoosts": [
-      1,
-      1,
-      1
-    ],
-    "properties": "",
-    "signatureBlocks": []
   }
 ]

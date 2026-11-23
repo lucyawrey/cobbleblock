@@ -7,23 +7,25 @@
       "id": "sandshrew-1",
       "pokemon": "sandshrew",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:desert"
+      ],
       "bucket": "common",
-      "weight": 9,
       "level": "5-30",
-      "spawnablePositionType": "grounded",
-      "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "neededNearbyBlocks": [
-          "#minecraft:sand",
-          "minecraft:dead_bush",
-          "minecraft:sandstone"
-        ]
-      }
+      "weight": 90
+    },
+    {
+      "id": "sandshrew-alolan-1",
+      "pokemon": "sandshrew alolan",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:snowy"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 90
     }
   ]
 }

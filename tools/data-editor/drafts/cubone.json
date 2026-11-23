@@ -21,47 +21,7 @@
     ]
   },
   {
-    "id": "cubone-2",
-    "habitat": "soul",
-    "type": "ground",
-    "bucket": "common",
-    "weight": 14.4,
-    "level": "7-32",
-    "timeRange": "any",
-    "dark": false,
-    "weather": "any",
-    "moonPhases": [],
-    "lureBoosts": [
-      1,
-      1,
-      1
-    ],
-    "properties": "",
-    "signatureBlocks": [
-      "minecraft:bone_block"
-    ]
-  },
-  {
     "id": "cubone-region-bias-alola-1",
-    "habitat": "volcanic",
-    "type": "ground",
-    "bucket": "common",
-    "weight": 43.2,
-    "level": "7-32",
-    "timeRange": "any",
-    "dark": false,
-    "weather": "any",
-    "moonPhases": [],
-    "lureBoosts": [
-      1,
-      1,
-      1
-    ],
-    "properties": "region_bias=alola",
-    "signatureBlocks": []
-  },
-  {
-    "id": "cubone-region-bias-alola-2",
     "habitat": "volcanic",
     "type": "ground",
     "bucket": "common",

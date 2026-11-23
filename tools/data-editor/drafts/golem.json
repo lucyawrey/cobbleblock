@@ -19,45 +19,7 @@
     "signatureBlocks": []
   },
   {
-    "id": "golem-2",
-    "habitat": "metal",
-    "type": "ground",
-    "bucket": "common",
-    "weight": 0.5,
-    "level": "34-50",
-    "timeRange": "any",
-    "dark": false,
-    "weather": "any",
-    "moonPhases": [],
-    "lureBoosts": [
-      1,
-      1,
-      1
-    ],
-    "properties": "",
-    "signatureBlocks": []
-  },
-  {
     "id": "golem-alolan-1",
-    "habitat": "metal",
-    "type": "ground",
-    "bucket": "common",
-    "weight": 0.5,
-    "level": "34-50",
-    "timeRange": "any",
-    "dark": false,
-    "weather": "any",
-    "moonPhases": [],
-    "lureBoosts": [
-      1,
-      1,
-      1
-    ],
-    "properties": "alolan",
-    "signatureBlocks": []
-  },
-  {
-    "id": "golem-alolan-2",
     "habitat": "metal",
     "type": "ground",
     "bucket": "common",

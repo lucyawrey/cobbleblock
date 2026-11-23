@@ -21,27 +21,6 @@
     ]
   },
   {
-    "id": "farfetchd-2",
-    "habitat": "overworld",
-    "type": "ground",
-    "bucket": "common",
-    "weight": 10,
-    "level": "13-38",
-    "timeRange": "any",
-    "dark": false,
-    "weather": "any",
-    "moonPhases": [],
-    "lureBoosts": [
-      1,
-      1,
-      1
-    ],
-    "properties": "",
-    "signatureBlocks": [
-      "cobblemon:medicinal_leek"
-    ]
-  },
-  {
     "id": "farfetchd-galarian-1",
     "habitat": "forest",
     "type": "ground",

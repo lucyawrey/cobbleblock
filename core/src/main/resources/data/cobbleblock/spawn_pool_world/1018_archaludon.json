@@ -7,24 +7,13 @@
       "id": "archaludon-1",
       "pokemon": "archaludon",
       "type": "pokemon",
-      "bucket": "ultra-rare",
-      "weight": 1,
-      "level": "50-79",
-      "spawnablePositionType": "grounded",
-      "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "neededNearbyBlocks": [
-          "minecraft:iron_block",
-          "minecraft:iron_bars",
-          "#minecraft:iron_ores",
-          "minecraft:iron_door"
-        ]
-      }
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:metal"
+      ],
+      "bucket": "rare",
+      "level": "35-60",
+      "weight": 9
     }
   ]
 }

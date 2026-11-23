@@ -78,11 +78,11 @@
     "armaldo": "armaldo-2"
   },
   "appletun-19": {
+    "hydrapple": "hydrapple-1",
     "applin": "applin-1",
     "flapple": "flapple-1",
     "appletun": "appletun-1",
-    "dipplin": "dipplin-1",
-    "hydrapple": "hydrapple-1"
+    "dipplin": "dipplin-1"
   },
   "appletun-20": {
     "applin": "applin-2",
@@ -107,32 +107,32 @@
     "araquanid": "araquanid-4"
   },
   "arbok-25": {
-    "ekans": "ekans-snake-pattern-attack-1",
-    "arbok": "arbok-snake-pattern-attack-1"
+    "arbok": "arbok-snake-pattern-attack-1",
+    "ekans": "ekans-snake-pattern-attack-1"
   },
   "arbok-26": {
-    "ekans": "ekans-snake-pattern-classic-1",
-    "arbok": "arbok-snake-pattern-classic-1"
+    "arbok": "arbok-snake-pattern-classic-1",
+    "ekans": "ekans-snake-pattern-classic-1"
   },
   "arbok-27": {
-    "ekans": "ekans-snake-pattern-dark-1",
-    "arbok": "arbok-snake-pattern-dark-1"
+    "arbok": "arbok-snake-pattern-dark-1",
+    "ekans": "ekans-snake-pattern-dark-1"
   },
   "arbok-28": {
-    "ekans": "ekans-snake-pattern-elusive-1",
-    "arbok": "arbok-snake-pattern-elusive-1"
+    "arbok": "arbok-snake-pattern-elusive-1",
+    "ekans": "ekans-snake-pattern-elusive-1"
   },
   "arbok-29": {
-    "ekans": "ekans-snake-pattern-legacy-1",
-    "arbok": "arbok-snake-pattern-legacy-1"
+    "arbok": "arbok-snake-pattern-legacy-1",
+    "ekans": "ekans-snake-pattern-legacy-1"
   },
   "arbok-30": {
-    "ekans": "ekans-snake-pattern-sound-1",
-    "arbok": "arbok-snake-pattern-sound-1"
+    "arbok": "arbok-snake-pattern-sound-1",
+    "ekans": "ekans-snake-pattern-sound-1"
   },
   "arbok-31": {
-    "ekans": "ekans-snake-pattern-speed-1",
-    "arbok": "arbok-snake-pattern-speed-1"
+    "arbok": "arbok-snake-pattern-speed-1",
+    "ekans": "ekans-snake-pattern-speed-1"
   },
   "arboliva-32": {
     "smoliv": "smoliv-1",
@@ -152,8 +152,8 @@
     "archaludon": "archaludon-1"
   },
   "archen-36": {
-    "archen": "archen-1",
-    "archeops": "archeops-1"
+    "archeops": "archeops-1",
+    "archen": "archen-1"
   },
   "ariados-37": {
     "spinarak": "spinarak-1",
@@ -291,8 +291,8 @@
     "cascoon": "cascoon-1"
   },
   "kakuna-69": {
-    "weedle": "weedle-1",
-    "kakuna": "kakuna-1"
+    "kakuna": "kakuna-1",
+    "weedle": "weedle-1"
   },
   "beheeyem-70": {
     "elgyem": "elgyem-1",
@@ -568,9 +568,9 @@
     "vikavolt": "vikavolt-2"
   },
   "chesnaught-133": {
+    "chesnaught": "chesnaught-1",
     "chespin": "chespin-1",
-    "quilladin": "quilladin-1",
-    "chesnaught": "chesnaught-1"
+    "quilladin": "quilladin-1"
   },
   "chewtle-134": {
     "chewtle": "chewtle-1",
@@ -650,12 +650,12 @@
     "clawitzer": "clawitzer-4"
   },
   "clefable-152": {
-    "clefairy": "clefairy-1",
-    "clefable": "clefable-1"
+    "clefable": "clefable-1",
+    "clefairy": "clefairy-1"
   },
   "clefable-153": {
-    "clefairy": "clefairy-2",
     "clefable": "clefable-2",
+    "clefairy": "clefairy-2",
     "cleffa": "cleffa-2"
   },
   "clobbopus-154": {
@@ -740,18 +740,18 @@
     "toxicroak": "toxicroak-1"
   },
   "crobat-174": {
-    "zubat": "zubat-1",
     "golbat": "golbat-1",
+    "zubat": "zubat-1",
     "crobat": "crobat-1"
   },
   "crobat-175": {
-    "zubat": "zubat-2",
     "golbat": "golbat-2",
+    "zubat": "zubat-2",
     "crobat": "crobat-2"
   },
   "crobat-176": {
-    "zubat": "zubat-3",
     "golbat": "golbat-3",
+    "zubat": "zubat-3",
     "crobat": "crobat-3"
   },
   "crocalor-177": {
@@ -880,16 +880,16 @@
     "dewott": "dewott-region-bias-hisui-1"
   },
   "diglett-205": {
-    "diglett": "diglett-1",
-    "dugtrio": "dugtrio-1"
+    "dugtrio": "dugtrio-1",
+    "diglett": "diglett-1"
   },
   "diglett-206": {
-    "diglett": "diglett-2",
-    "dugtrio": "dugtrio-2"
+    "dugtrio": "dugtrio-2",
+    "diglett": "diglett-2"
   },
   "diglett-207": {
-    "diglett": "diglett-alolan-1",
-    "dugtrio": "dugtrio-alolan-1"
+    "dugtrio": "dugtrio-alolan-1",
+    "diglett": "diglett-alolan-1"
   },
   "dodrio-208": {
     "doduo": "doduo-1",
@@ -1111,8 +1111,8 @@
     "exploud": "exploud-1"
   },
   "fearow-255": {
-    "spearow": "spearow-1",
-    "fearow": "fearow-1"
+    "fearow": "fearow-1",
+    "spearow": "spearow-1"
   },
   "feebas-256": {
     "feebas": "feebas-1",
@@ -1336,12 +1336,8 @@
     "psyduck": "psyduck-1",
     "golduck": "golduck-1"
   },
-  "golduck-308": {
-    "psyduck": "psyduck-2",
-    "golduck": "golduck-2"
-  },
   "golduck-309": {
-    "psyduck": "psyduck-3",
+    "psyduck": "psyduck-2",
     "golduck": "golduck-3"
   },
   "golett-310": {
@@ -1590,8 +1586,8 @@
     "houndoom": "houndoom-1"
   },
   "igglybuff-367": {
-    "jigglypuff": "jigglypuff-1",
     "wigglytuff": "wigglytuff-1",
+    "jigglypuff": "jigglypuff-1",
     "igglybuff": "igglybuff-1"
   },
   "incineroar-368": {
@@ -1801,8 +1797,8 @@
     "mamoswine": "mamoswine-1"
   },
   "mankey-416": {
-    "mankey": "mankey-1",
-    "primeape": "primeape-1"
+    "primeape": "primeape-1",
+    "mankey": "mankey-1"
   },
   "mantine-417": {
     "mantine": "mantine-2",
@@ -1872,28 +1868,16 @@
     "medicham": "medicham-3"
   },
   "meowth-433": {
-    "meowth": "meowth-1",
-    "persian": "persian-1"
+    "persian": "persian-1",
+    "meowth": "meowth-1"
   },
   "meowth-434": {
-    "meowth": "meowth-alolan-1",
-    "persian": "persian-alolan-1"
+    "persian": "persian-alolan-1",
+    "meowth": "meowth-alolan-1"
   },
   "meowth-435": {
-    "meowth": "meowth-4",
-    "persian": "persian-3"
-  },
-  "meowth-436": {
-    "meowth": "meowth-5",
-    "persian": "persian-4"
-  },
-  "meowth-437": {
-    "meowth": "meowth-6",
-    "persian": "persian-5"
-  },
-  "meowth-438": {
-    "meowth": "meowth-7",
-    "persian": "persian-6"
+    "persian": "persian-2",
+    "meowth": "meowth-2"
   },
   "mightyena-439": {
     "poochyena": "poochyena-1",
@@ -1969,22 +1953,22 @@
     "thievul": "thievul-3"
   },
   "nidoking-457": {
-    "nidoranm": "nidoranm-1",
+    "nidoking": "nidoking-1",
     "nidorino": "nidorino-1",
-    "nidoking": "nidoking-1"
+    "nidoranm": "nidoranm-1"
   },
   "nidoqueen-458": {
-    "nidoranf": "nidoranf-1",
+    "nidoqueen": "nidoqueen-1",
     "nidorina": "nidorina-1",
-    "nidoqueen": "nidoqueen-1"
+    "nidoranf": "nidoranf-1"
   },
   "ninetales-459": {
-    "vulpix": "vulpix-1",
-    "ninetales": "ninetales-1"
+    "ninetales": "ninetales-1",
+    "vulpix": "vulpix-1"
   },
   "ninetales-460": {
-    "vulpix": "vulpix-alolan-1",
-    "ninetales": "ninetales-alolan-1"
+    "ninetales": "ninetales-alolan-1",
+    "vulpix": "vulpix-alolan-1"
   },
   "noibat-461": {
     "noibat": "noibat-1",
@@ -2091,12 +2075,12 @@
     "simisear": "simisear-1"
   },
   "paras-486": {
-    "paras": "paras-1",
-    "parasect": "parasect-1"
+    "parasect": "parasect-1",
+    "paras": "paras-1"
   },
   "paras-487": {
-    "paras": "paras-2",
-    "parasect": "parasect-2"
+    "parasect": "parasect-2",
+    "paras": "paras-2"
   },
   "patrat-488": {
     "patrat": "patrat-1",
@@ -2105,10 +2089,6 @@
   "pelipper-489": {
     "wingull": "wingull-1",
     "pelipper": "pelipper-1"
-  },
-  "meowth-490": {
-    "meowth": "meowth-5",
-    "perrserker": "perrserker-1"
   },
   "phantump-491": {
     "phantump": "phantump-1",
@@ -2132,8 +2112,8 @@
     "pichu": "pichu-region-bias-alola-1"
   },
   "pidgeot-496": {
-    "pidgeotto": "pidgeotto-1",
-    "pidgeot": "pidgeot-1"
+    "pidgeot": "pidgeot-1",
+    "pidgeotto": "pidgeotto-1"
   },
   "pidove-497": {
     "pidove": "pidove-1",
@@ -2241,12 +2221,12 @@
     "rabsca": "rabsca-1"
   },
   "raticate-520": {
-    "rattata": "rattata-1",
-    "raticate": "raticate-1"
+    "raticate": "raticate-1",
+    "rattata": "rattata-1"
   },
   "raticate-521": {
-    "rattata": "rattata-alolan-1",
-    "raticate": "raticate-alolan-1"
+    "raticate": "raticate-alolan-1",
+    "rattata": "rattata-alolan-1"
   },
   "revavroom-522": {
     "varoom": "varoom-1",
@@ -2270,12 +2250,12 @@
     "sandaconda": "sandaconda-1"
   },
   "sandshrew-527": {
-    "sandshrew": "sandshrew-1",
-    "sandslash": "sandslash-1"
+    "sandslash": "sandslash-1",
+    "sandshrew": "sandshrew-1"
   },
   "sandshrew-528": {
-    "sandshrew": "sandshrew-alolan-1",
-    "sandslash": "sandslash-alolan-1"
+    "sandslash": "sandslash-alolan-1",
+    "sandshrew": "sandshrew-alolan-1"
   },
   "scatterbug-529": {
     "scatterbug": "scatterbug-1",
@@ -2468,8 +2448,8 @@
     "vanilluxe": "vanilluxe-2"
   },
   "venomoth-572": {
-    "venonat": "venonat-1",
-    "venomoth": "venomoth-1"
+    "venomoth": "venomoth-1",
+    "venonat": "venonat-1"
   },
   "wailmer-573": {
     "wailmer": "wailmer-1",
@@ -2530,5 +2510,13 @@
   "teddiursa-4": {
     "teddiursa": "teddiursa-4",
     "ursaring": "ursaring-4"
+  },
+  "27fad250": {
+    "ninetales": "ninetales-2",
+    "vulpix": "vulpix-2"
+  },
+  "cf42854e": {
+    "ninetales": "ninetales-alolan-2",
+    "vulpix": "vulpix-alolan-2"
   }
 }

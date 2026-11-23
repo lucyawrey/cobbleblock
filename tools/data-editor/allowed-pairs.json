@@ -81,6 +81,9 @@
   "mushroom": [
     "ground"
   ],
+  "music": [
+    "ground"
+  ],
   "nether": [
     "ground",
     "surf",
@@ -99,6 +102,9 @@
   "nether_soul": [
     "ground"
   ],
+  "oak_forest": [
+    "ground"
+  ],
   "overworld": [
     "ground",
     "surf",
@@ -106,6 +112,9 @@
     "dive",
     "seafloor",
     "fishing"
+  ],
+  "perch": [
+    "ground"
   ],
   "pokemon_center": [
     "ground"

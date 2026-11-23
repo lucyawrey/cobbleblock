@@ -19,25 +19,6 @@
     "signatureBlocks": []
   },
   {
-    "id": "carnivine-2",
-    "habitat": "flower_field",
-    "type": "ground",
-    "bucket": "uncommon",
-    "weight": 100,
-    "level": "20-45",
-    "timeRange": "any",
-    "dark": false,
-    "weather": "any",
-    "moonPhases": [],
-    "lureBoosts": [
-      1,
-      1,
-      1
-    ],
-    "properties": "",
-    "signatureBlocks": []
-  },
-  {
     "id": "carnivine-3",
     "habitat": "swamp",
     "type": "ground",

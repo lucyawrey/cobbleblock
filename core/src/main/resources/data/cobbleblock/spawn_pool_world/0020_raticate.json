@@ -7,24 +7,27 @@
       "id": "raticate-1",
       "pokemon": "raticate",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:grassland"
+      ],
       "bucket": "common",
-      "weight": 1,
       "level": "20-41",
-      "spawnablePositionType": "grounded",
+      "weight": 8
+    },
+    {
+      "id": "raticate-alolan-1",
+      "pokemon": "raticate alolan",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:grassland"
+      ],
+      "bucket": "common",
+      "level": "20-41",
+      "weight": 1,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "neededNearbyBlocks": [
-          "minecraft:grass_block",
-          "minecraft:short_grass",
-          "minecraft:tall_grass"
-        ]
+        "timeRange": "night"
       }
     }
   ]
