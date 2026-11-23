@@ -1,0 +1,21 @@
+[
+  {
+    "id": "nincada-1",
+    "habitat": "underground",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 30,
+    "level": "2-27",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]
