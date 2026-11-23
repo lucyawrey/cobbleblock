@@ -9,11 +9,10 @@ export default defineEventHandler(async (event) => {
   if (habitat.id !== oldId && habitats.some(other => other.id === habitat.id)) {
     errors.push(fill(copy.server.habitatExists, { id: habitat.id }))
   }
-  if (habitat.id !== oldId && allSpawnRefs().some(spawn => spawn.habitat === oldId)) {
-    errors.push(fill(copy.server.habitatInUse, { id: oldId }))
-  }
   if (errors.length > 0) {
     throw createError({ statusCode: 400, statusMessage: errors.join('; ') })
   }
-  writeHabitat(habitat, habitats.some(other => other.id === oldId) ? oldId : undefined)
+  const renamed = habitat.id !== oldId && habitats.some(other => other.id === oldId)
+  writeHabitat(habitat, renamed ? oldId : undefined)
+  if (renamed) renameHabitatInSpawns(oldId, habitat.id)
 })

@@ -92,7 +92,6 @@ function updateMember(member: Species, spawnId: string | undefined, spawn: Edito
     id = `${member.id}-${n}`
     spawns.push({ ...spawn, id, link: undefined })
   }
-  if (status === 'draft' || status === 'old') writeJson(draftPath(member), spawns)
-  else writePack(member, spawns)
+  writeEditorSpawns(member, status, spawns)
   return id
 }

@@ -17,6 +17,20 @@ export function editorSpawns(species: Species): { status: PokemonStatus, spawns:
   return spawns.length === pack.length ? { status: 'new', spawns } : { status: 'old', spawns: [] }
 }
 
+// Pokémon with a draft, or with spawns in the old format, keep the change in their draft.
+export function writeEditorSpawns(species: Species, status: PokemonStatus, spawns: EditorSpawn[]) {
+  if (status === 'draft' || status === 'old') writeJson(draftPath(species), spawns)
+  else writePack(species, spawns)
+}
+
+export function renameHabitatInSpawns(oldId: string, newId: string) {
+  for (const species of allSpecies()) {
+    const { status, spawns } = editorSpawns(species)
+    if (!spawns.some(spawn => spawn.habitat === oldId)) continue
+    writeEditorSpawns(species, status, spawns.map(spawn => spawn.habitat === oldId ? { ...spawn, habitat: newId } : spawn))
+  }
+}
+
 export function findSpecies(id: string) {
   const species = allSpecies().find(species => species.id === id)
   if (!species) throw createError({ statusCode: 404, statusMessage: fill(copy.server.noPokemon, { id }) })

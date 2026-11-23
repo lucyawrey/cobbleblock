@@ -30,6 +30,9 @@ function useCount(id: string) {
 }
 
 const errors = computed(() => habitat.value ? habitatErrors(habitat.value) : [])
+const renamed = computed(() => habitat.value && selectedId.value && habitat.value.id !== selectedId.value
+  ? data.value?.spawns.filter(spawn => spawn.habitat === selectedId.value) ?? []
+  : [])
 const broken = computed(() => habitat.value && selectedId.value
   ? wouldBreak(data.value?.spawns.filter(spawn => spawn.habitat === selectedId.value) ?? [], { ...habitat.value, id: selectedId.value })
   : [])
@@ -152,6 +155,13 @@ async function save() {
         variant="subtle"
         :title="copy.habitats.breaksSpawns"
         :description="broken.map(spawn => `${spawn.id} (${spawn.type})`).join(', ')"
+      />
+      <UAlert
+        v-if="renamed.length > 0"
+        color="info"
+        variant="subtle"
+        :title="copy.habitats.renamesSpawns"
+        :description="renamed.map(spawn => spawn.id).join(', ')"
       />
     </main>
     <main

@@ -7,7 +7,7 @@
     "save": "Save",
     "saved": "Saved",
     "notSaved": "Not saved",
-    "cancel": "[button that closes a dialog without changes]",
+    "cancel": "Cancel",
     "any": "any"
   },
   "blockList": {
@@ -35,6 +35,7 @@
     "blocks": "Blocks",
     "blocksHelp": "Spawns need one of these nearby, and ground spawns can also stand on them. Leave empty for a habitat with no block check.",
     "breaksSpawns": "Saving this breaks these spawns",
+    "renamesSpawns": "[saving renames the habitat in these spawns]",
     "draft": "Draft",
     "empty": "Pick a habitat or make a new one."
   },
@@ -47,11 +48,11 @@
     "oldFormat": "The pack's file uses the old format. Add spawns here to replace it when you save.",
     "spawnId": "Spawn ID",
     "removeSpawn": "Remove spawn",
-    "duplicateSpawn": "[duplicate spawn]",
-    "linkSpawn": "[switch label: share this spawn with other members of the evolution family]",
-    "linkedWith": "[line under a spawn's header naming the other Pokémon it's linked with: {members}]",
-    "linkTitle": "[dialog title: pick which family members share this spawn]",
-    "linkConfirm": "[dialog button that links the spawn]",
+    "duplicateSpawn": "Duplicate",
+    "linkSpawn": "Link this spawn with evolution line",
+    "linkedWith": "Linked With:",
+    "linkTitle": "Pick Pokemon to link with",
+    "linkConfirm": "Confirm Link",
     "habitat": "Habitat",
     "spawnType": "Spawn type",
     "bucket": "Bucket",
@@ -93,7 +94,6 @@
   "server": {
     "noPokemon": "No Pokémon called {id}",
     "typeNotAllowed": "{spawn}: {habitat} doesn't allow {type}",
-    "habitatExists": "{id} already exists",
-    "habitatInUse": "spawns use {id}, so it can't be renamed"
+    "habitatExists": "{id} already exists"
   }
 }
