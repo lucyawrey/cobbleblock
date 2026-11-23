@@ -10,7 +10,8 @@
       "#minecraft:fire",
       "minecraft:polished_basalt",
       "minecraft:smooth_basalt",
-      "minecraft:blackstone"
+      "minecraft:blackstone",
+      "minecraft:netherrack"
     ],
     "neededBaseBlocks": [
       "minecraft:basalt",
@@ -18,7 +19,8 @@
       "#minecraft:fire",
       "minecraft:polished_basalt",
       "minecraft:smooth_basalt",
-      "minecraft:blackstone"
+      "minecraft:blackstone",
+      "minecraft:netherrack"
     ]
   }
 }

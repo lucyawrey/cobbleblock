@@ -7,24 +7,15 @@
       "id": "charmeleon-1",
       "pokemon": "charmeleon",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:volcanic"
+      ],
       "bucket": "ultra-rare",
-      "weight": 3.6,
-      "level": "16-40",
-      "spawnablePositionType": "grounded",
+      "level": "16-41",
+      "weight": 28.8,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "isRaining": false,
-        "isThundering": false,
-        "neededNearbyBlocks": [
-          "minecraft:basalt",
-          "minecraft:magma_block",
-          "minecraft:torch",
-          "minecraft:fire",
-          "minecraft:netherrack",
-          "#minecraft:campfires"
-        ]
+        "isRaining": false
       }
     }
   ]

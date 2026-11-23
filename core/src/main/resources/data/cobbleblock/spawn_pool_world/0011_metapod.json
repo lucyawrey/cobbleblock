@@ -7,46 +7,37 @@
       "id": "metapod-1",
       "pokemon": "metapod",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:forest"
+      ],
       "bucket": "common",
-      "weight": 2,
       "level": "7-21",
-      "spawnablePositionType": "grounded",
-      "condition": {
-        "neededBaseBlocks": [
-          "#minecraft:leaves",
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "neededNearbyBlocks": [
-          "#cobblemon:trees"
-        ]
-      }
+      "weight": 20
     },
     {
       "id": "metapod-2",
       "pokemon": "metapod",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:forest"
+      ],
       "bucket": "common",
-      "weight": 2,
       "level": "7-21",
-      "spawnablePositionType": "grounded",
-      "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "neededNearbyBlocks": [
-          "#cobblemon:trees"
-        ]
-      }
+      "weight": 20
+    },
+    {
+      "id": "metapod-valencian-1",
+      "pokemon": "metapod valencian",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:jungle"
+      ],
+      "bucket": "common",
+      "level": "7-21",
+      "weight": 20
     }
   ]
 }

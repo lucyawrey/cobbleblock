@@ -7,24 +7,15 @@
       "id": "charmander-1",
       "pokemon": "charmander",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:volcanic"
+      ],
       "bucket": "ultra-rare",
-      "weight": 6,
       "level": "5-31",
-      "spawnablePositionType": "grounded",
+      "weight": 60,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "isRaining": false,
-        "isThundering": false,
-        "neededNearbyBlocks": [
-          "minecraft:basalt",
-          "minecraft:magma_block",
-          "minecraft:torch",
-          "minecraft:fire",
-          "minecraft:netherrack",
-          "#minecraft:campfires"
-        ]
+        "isRaining": false
       }
     }
   ]

@@ -333,19 +333,19 @@
     "bibarel": "bibarel-3"
   },
   "blastoise-79": {
-    "squirtle": "squirtle-1",
+    "blastoise": "blastoise-1",
     "wartortle": "wartortle-1",
-    "blastoise": "blastoise-1"
+    "squirtle": "squirtle-1"
   },
   "blastoise-80": {
-    "squirtle": "squirtle-2",
+    "blastoise": "blastoise-2",
     "wartortle": "wartortle-2",
-    "blastoise": "blastoise-2"
+    "squirtle": "squirtle-2"
   },
   "blastoise-81": {
-    "squirtle": "squirtle-3",
+    "blastoise": "blastoise-3",
     "wartortle": "wartortle-3",
-    "blastoise": "blastoise-3"
+    "squirtle": "squirtle-3"
   },
   "blaziken-82": {
     "torchic": "torchic-1",
@@ -460,9 +460,9 @@
     "floatzel": "floatzel-4"
   },
   "bulbasaur-108": {
-    "bulbasaur": "bulbasaur-1",
+    "venusaur": "venusaur-1",
     "ivysaur": "ivysaur-1",
-    "venusaur": "venusaur-1"
+    "bulbasaur": "bulbasaur-1"
   },
   "buneary-109": {
     "buneary": "buneary-1",
@@ -481,12 +481,12 @@
     "wormadam": "wormadam-bagworm-cloak-trash-1"
   },
   "caterpie-113": {
-    "caterpie": "caterpie-1",
-    "metapod": "metapod-1"
+    "metapod": "metapod-1",
+    "caterpie": "caterpie-1"
   },
   "caterpie-114": {
-    "caterpie": "caterpie-valencian-1",
-    "metapod": "metapod-valencian-1"
+    "metapod": "metapod-valencian-1",
+    "caterpie": "caterpie-valencian-1"
   },
   "cacnea-115": {
     "cacnea": "cacnea-1",
@@ -553,9 +553,9 @@
     "chandelure": "chandelure-3"
   },
   "charizard-130": {
-    "charmander": "charmander-1",
+    "charizard": "charizard-1",
     "charmeleon": "charmeleon-1",
-    "charizard": "charizard-1"
+    "charmander": "charmander-1"
   },
   "charjabug-131": {
     "grubbin": "grubbin-1",
