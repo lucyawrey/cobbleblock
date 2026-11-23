@@ -1,0 +1,21 @@
+[
+  {
+    "id": "eldegoss-1",
+    "habitat": "flower_field",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 3,
+    "level": "20-46",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

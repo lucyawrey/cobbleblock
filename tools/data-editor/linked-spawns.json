@@ -8,1191 +8,2205 @@
     "kadabra": "kadabra-1",
     "alakazam": "alakazam-1"
   },
-  "aggron-3": {
+  "accelgor-3": {
+    "shelmet": "shelmet-1",
+    "accelgor": "accelgor-1"
+  },
+  "aegislash-4": {
+    "honedge": "honedge-1",
+    "doublade": "doublade-1",
+    "aegislash": "aegislash-1"
+  },
+  "aggron-5": {
     "aron": "aron-1",
     "lairon": "lairon-1",
     "aggron": "aggron-1"
   },
-  "aipom-4": {
+  "aipom-6": {
     "aipom": "aipom-1",
     "ambipom": "ambipom-1"
   },
-  "altaria-5": {
+  "alcremie-7": {
+    "milcery": "milcery-1",
+    "alcremie": "alcremie-1"
+  },
+  "alcremie-8": {
+    "milcery": "milcery-2",
+    "alcremie": "alcremie-2"
+  },
+  "alcremie-9": {
+    "milcery": "milcery-3",
+    "alcremie": "alcremie-3"
+  },
+  "altaria-10": {
     "swablu": "swablu-1",
     "altaria": "altaria-1"
   },
-  "amoonguss-6": {
+  "amaura-11": {
+    "amaura": "amaura-1",
+    "aurorus": "aurorus-1"
+  },
+  "amoonguss-12": {
     "foongus": "foongus-1",
     "amoonguss": "amoonguss-1"
   },
-  "ampharos-7": {
+  "ampharos-13": {
     "mareep": "mareep-1",
     "flaaffy": "flaaffy-1",
     "ampharos": "ampharos-1"
   },
-  "anorith-8": {
+  "anorith-14": {
     "anorith": "anorith-1",
     "armaldo": "armaldo-1"
   },
-  "anorith-9": {
+  "anorith-15": {
     "anorith": "anorith-2",
     "armaldo": "armaldo-2"
   },
-  "arbok-10": {
+  "appletun-16": {
+    "applin": "applin-1",
+    "flapple": "flapple-1",
+    "appletun": "appletun-1",
+    "dipplin": "dipplin-1",
+    "hydrapple": "hydrapple-1"
+  },
+  "appletun-17": {
+    "applin": "applin-2",
+    "flapple": "flapple-2",
+    "appletun": "appletun-2",
+    "dipplin": "dipplin-2"
+  },
+  "araquanid-18": {
+    "dewpider": "dewpider-1",
+    "araquanid": "araquanid-1"
+  },
+  "araquanid-19": {
+    "dewpider": "dewpider-2",
+    "araquanid": "araquanid-2"
+  },
+  "araquanid-20": {
+    "dewpider": "dewpider-3",
+    "araquanid": "araquanid-3"
+  },
+  "araquanid-21": {
+    "dewpider": "dewpider-4",
+    "araquanid": "araquanid-4"
+  },
+  "arbok-22": {
     "ekans": "ekans-snake-pattern-attack-1",
     "arbok": "arbok-snake-pattern-attack-1"
   },
-  "arbok-11": {
+  "arbok-23": {
     "ekans": "ekans-snake-pattern-classic-1",
     "arbok": "arbok-snake-pattern-classic-1"
   },
-  "arbok-12": {
+  "arbok-24": {
     "ekans": "ekans-snake-pattern-dark-1",
     "arbok": "arbok-snake-pattern-dark-1"
   },
-  "arbok-13": {
+  "arbok-25": {
     "ekans": "ekans-snake-pattern-elusive-1",
     "arbok": "arbok-snake-pattern-elusive-1"
   },
-  "arbok-14": {
+  "arbok-26": {
     "ekans": "ekans-snake-pattern-legacy-1",
     "arbok": "arbok-snake-pattern-legacy-1"
   },
-  "arbok-15": {
+  "arbok-27": {
     "ekans": "ekans-snake-pattern-sound-1",
     "arbok": "arbok-snake-pattern-sound-1"
   },
-  "arbok-16": {
+  "arbok-28": {
     "ekans": "ekans-snake-pattern-speed-1",
     "arbok": "arbok-snake-pattern-speed-1"
   },
-  "arcanine-17": {
+  "arboliva-29": {
+    "smoliv": "smoliv-1",
+    "dolliv": "dolliv-1",
+    "arboliva": "arboliva-1"
+  },
+  "arcanine-30": {
     "growlithe": "growlithe-hisuian-1",
     "arcanine": "arcanine-hisuian-1"
   },
-  "archaludon-18": {
+  "archaludon-31": {
     "duraludon": "duraludon-1",
     "archaludon": "archaludon-1"
   },
-  "ariados-19": {
+  "archen-32": {
+    "archen": "archen-1",
+    "archeops": "archeops-1"
+  },
+  "ariados-33": {
     "spinarak": "spinarak-1",
     "ariados": "ariados-1"
   },
-  "armarouge-20": {
+  "armarouge-34": {
+    "charcadet": "charcadet-1",
     "armarouge": "armarouge-1",
     "ceruledge": "ceruledge-1"
   },
-  "azumarill-21": {
+  "arrokuda-35": {
+    "arrokuda": "arrokuda-1",
+    "barraskewda": "barraskewda-1"
+  },
+  "arrokuda-36": {
+    "arrokuda": "arrokuda-2",
+    "barraskewda": "barraskewda-2"
+  },
+  "arrokuda-37": {
+    "arrokuda": "arrokuda-3",
+    "barraskewda": "barraskewda-3"
+  },
+  "arrokuda-38": {
+    "arrokuda": "arrokuda-4",
+    "barraskewda": "barraskewda-4"
+  },
+  "arrokuda-39": {
+    "arrokuda": "arrokuda-5",
+    "barraskewda": "barraskewda-5"
+  },
+  "avalugg-40": {
+    "bergmite": "bergmite-1",
+    "avalugg": "avalugg-1"
+  },
+  "avalugg-41": {
+    "bergmite": "bergmite-2",
+    "avalugg": "avalugg-2"
+  },
+  "avalugg-42": {
+    "bergmite": "bergmite-3",
+    "avalugg": "avalugg-3"
+  },
+  "avalugg-43": {
+    "bergmite": "bergmite-4",
+    "avalugg": "avalugg-4"
+  },
+  "avalugg-44": {
+    "bergmite": "bergmite-5",
+    "avalugg": "avalugg-5"
+  },
+  "axew-45": {
+    "axew": "axew-1",
+    "fraxure": "fraxure-1",
+    "haxorus": "haxorus-1"
+  },
+  "azumarill-46": {
     "marill": "marill-1",
     "azumarill": "azumarill-1",
     "azurill": "azurill-2"
   },
-  "azumarill-22": {
+  "azumarill-47": {
     "marill": "marill-2",
     "azumarill": "azumarill-2",
     "azurill": "azurill-3"
   },
-  "azumarill-23": {
+  "azumarill-48": {
     "marill": "marill-3",
     "azumarill": "azumarill-3",
     "azurill": "azurill-1"
   },
-  "bagon-24": {
+  "bagon-49": {
     "bagon": "bagon-1",
     "shelgon": "shelgon-1",
     "salamence": "salamence-1"
   },
-  "baltoy-25": {
+  "baltoy-50": {
     "baltoy": "baltoy-1",
     "claydol": "claydol-1"
   },
-  "banette-26": {
+  "banette-51": {
     "shuppet": "shuppet-1",
     "banette": "banette-1"
   },
-  "barboach-27": {
+  "barbaracle-52": {
+    "binacle": "binacle-1",
+    "barbaracle": "barbaracle-1"
+  },
+  "barbaracle-53": {
+    "binacle": "binacle-2",
+    "barbaracle": "barbaracle-2"
+  },
+  "barbaracle-54": {
+    "binacle": "binacle-3",
+    "barbaracle": "barbaracle-3"
+  },
+  "barboach-55": {
     "barboach": "barboach-1",
     "whiscash": "whiscash-1"
   },
-  "barboach-28": {
+  "barboach-56": {
     "barboach": "barboach-2",
     "whiscash": "whiscash-2"
   },
-  "bastiodon-29": {
+  "bastiodon-57": {
     "shieldon": "shieldon-1",
     "bastiodon": "bastiodon-1"
   },
-  "bayleef-30": {
+  "bayleef-58": {
     "chikorita": "chikorita-1",
     "bayleef": "bayleef-1",
     "meganium": "meganium-1"
   },
-  "cascoon-31": {
+  "beartic-59": {
+    "cubchoo": "cubchoo-1",
+    "beartic": "beartic-1"
+  },
+  "cascoon-60": {
     "silcoon": "silcoon-1",
     "cascoon": "cascoon-1"
   },
-  "kakuna-32": {
+  "kakuna-61": {
     "weedle": "weedle-1",
     "kakuna": "kakuna-1"
   },
-  "beldum-33": {
+  "beheeyem-62": {
+    "elgyem": "elgyem-1",
+    "beheeyem": "beheeyem-1"
+  },
+  "beldum-63": {
     "beldum": "beldum-1",
     "metang": "metang-1",
     "metagross": "metagross-1"
   },
-  "gloom-34": {
+  "gloom-64": {
     "oddish": "oddish-1",
     "gloom": "gloom-1"
   },
-  "gloom-35": {
+  "gloom-65": {
     "oddish": "oddish-valencian-1",
     "gloom": "gloom-valencian-1"
   },
-  "bellsprout-36": {
+  "bellsprout-66": {
     "bellsprout": "bellsprout-1",
     "weepinbell": "weepinbell-1",
     "victreebel": "victreebel-1"
   },
-  "bibarel-37": {
+  "bewear-67": {
+    "stufful": "stufful-1",
+    "bewear": "bewear-1"
+  },
+  "bibarel-68": {
     "bidoof": "bidoof-1",
     "bibarel": "bibarel-1"
   },
-  "bibarel-38": {
+  "bibarel-69": {
     "bidoof": "bidoof-2",
     "bibarel": "bibarel-2"
   },
-  "bibarel-39": {
+  "bibarel-70": {
     "bidoof": "bidoof-3",
     "bibarel": "bibarel-3"
   },
-  "blastoise-40": {
+  "blastoise-71": {
     "squirtle": "squirtle-1",
     "wartortle": "wartortle-1",
     "blastoise": "blastoise-1"
   },
-  "blastoise-41": {
+  "blastoise-72": {
     "squirtle": "squirtle-2",
     "wartortle": "wartortle-2",
     "blastoise": "blastoise-2"
   },
-  "blastoise-42": {
+  "blastoise-73": {
     "squirtle": "squirtle-3",
     "wartortle": "wartortle-3",
     "blastoise": "blastoise-3"
   },
-  "blaziken-43": {
+  "blaziken-74": {
     "torchic": "torchic-1",
     "combusken": "combusken-1",
     "blaziken": "blaziken-1"
   },
-  "blissey-44": {
+  "blissey-75": {
     "chansey": "chansey-1",
     "blissey": "blissey-1",
     "happiny": "happiny-1"
   },
-  "blitzle-45": {
+  "blitzle-76": {
     "blitzle": "blitzle-1",
     "zebstrika": "zebstrika-1"
   },
-  "boldore-46": {
+  "boldore-77": {
     "roggenrola": "roggenrola-1",
     "boldore": "boldore-1",
     "gigalith": "gigalith-1"
   },
-  "bonsly-47": {
+  "boltund-78": {
+    "yamper": "yamper-1",
+    "boltund": "boltund-1"
+  },
+  "bonsly-79": {
     "sudowoodo": "sudowoodo-1",
     "bonsly": "bonsly-1"
   },
-  "breloom-48": {
+  "bounsweet-80": {
+    "bounsweet": "bounsweet-1",
+    "steenee": "steenee-1",
+    "tsareena": "tsareena-1"
+  },
+  "brambleghast-81": {
+    "bramblin": "bramblin-1",
+    "brambleghast": "brambleghast-1"
+  },
+  "brambleghast-82": {
+    "bramblin": "bramblin-2",
+    "brambleghast": "brambleghast-2"
+  },
+  "brambleghast-83": {
+    "bramblin": "bramblin-3",
+    "brambleghast": "brambleghast-3"
+  },
+  "braviary-84": {
+    "rufflet": "rufflet-1",
+    "braviary": "braviary-1"
+  },
+  "braviary-85": {
+    "rufflet": "rufflet-2",
+    "braviary": "braviary-2"
+  },
+  "braviary-86": {
+    "rufflet": "rufflet-3",
+    "braviary": "braviary-3"
+  },
+  "breloom-87": {
     "shroomish": "shroomish-1",
     "breloom": "breloom-1"
   },
-  "bronzong-49": {
+  "brionne-88": {
+    "popplio": "popplio-1",
+    "brionne": "brionne-1",
+    "primarina": "primarina-1"
+  },
+  "brionne-89": {
+    "popplio": "popplio-2",
+    "brionne": "brionne-2",
+    "primarina": "primarina-2"
+  },
+  "brionne-90": {
+    "popplio": "popplio-3",
+    "brionne": "brionne-3",
+    "primarina": "primarina-3"
+  },
+  "brionne-91": {
+    "popplio": "popplio-4",
+    "brionne": "brionne-4",
+    "primarina": "primarina-4"
+  },
+  "bronzong-92": {
     "bronzor": "bronzor-1",
     "bronzong": "bronzong-1"
   },
-  "roselia-50": {
+  "roselia-93": {
     "roselia": "roselia-1",
     "roserade": "roserade-1"
   },
-  "buizel-51": {
+  "buizel-94": {
     "buizel": "buizel-1",
     "floatzel": "floatzel-1"
   },
-  "buizel-52": {
+  "buizel-95": {
     "buizel": "buizel-2",
     "floatzel": "floatzel-2"
   },
-  "buizel-53": {
+  "buizel-96": {
     "buizel": "buizel-3",
     "floatzel": "floatzel-3"
   },
-  "buizel-54": {
+  "buizel-97": {
     "buizel": "buizel-4",
     "floatzel": "floatzel-4"
   },
-  "bulbasaur-55": {
+  "bulbasaur-98": {
     "bulbasaur": "bulbasaur-1",
     "ivysaur": "ivysaur-1",
     "venusaur": "venusaur-1"
   },
-  "buneary-56": {
+  "buneary-99": {
     "buneary": "buneary-1",
     "lopunny": "lopunny-1"
   },
-  "burmy-57": {
+  "burmy-100": {
     "burmy": "burmy-bagworm-cloak-plant-1",
     "wormadam": "wormadam-bagworm-cloak-plant-1"
   },
-  "burmy-58": {
+  "burmy-101": {
     "burmy": "burmy-bagworm-cloak-sandy-1",
     "wormadam": "wormadam-bagworm-cloak-sandy-1"
   },
-  "burmy-59": {
+  "burmy-102": {
     "burmy": "burmy-bagworm-cloak-trash-1",
     "wormadam": "wormadam-bagworm-cloak-trash-1"
   },
-  "caterpie-60": {
+  "caterpie-103": {
     "caterpie": "caterpie-1",
     "metapod": "metapod-1"
   },
-  "caterpie-61": {
+  "caterpie-104": {
     "caterpie": "caterpie-valencian-1",
     "metapod": "metapod-valencian-1"
   },
-  "cacnea-62": {
+  "cacnea-105": {
     "cacnea": "cacnea-1",
     "cacturne": "cacturne-1"
   },
-  "camerupt-63": {
+  "camerupt-106": {
     "numel": "numel-1",
     "camerupt": "camerupt-1"
   },
-  "carvanha-64": {
+  "capsakid-107": {
+    "capsakid": "capsakid-1",
+    "scovillain": "scovillain-1"
+  },
+  "capsakid-108": {
+    "capsakid": "capsakid-2",
+    "scovillain": "scovillain-2"
+  },
+  "carkol-109": {
+    "rolycoly": "rolycoly-1",
+    "carkol": "carkol-1",
+    "coalossal": "coalossal-1"
+  },
+  "carracosta-110": {
+    "tirtouga": "tirtouga-1",
+    "carracosta": "carracosta-1"
+  },
+  "carracosta-111": {
+    "tirtouga": "tirtouga-2",
+    "carracosta": "carracosta-2"
+  },
+  "carvanha-112": {
     "carvanha": "carvanha-1",
     "sharpedo": "sharpedo-1"
   },
-  "carvanha-65": {
+  "carvanha-113": {
     "carvanha": "carvanha-2",
     "sharpedo": "sharpedo-2"
   },
-  "chandelure-66": {
+  "centiskorch-114": {
+    "sizzlipede": "sizzlipede-1",
+    "centiskorch": "centiskorch-1"
+  },
+  "centiskorch-115": {
+    "sizzlipede": "sizzlipede-2",
+    "centiskorch": "centiskorch-2"
+  },
+  "centiskorch-116": {
+    "sizzlipede": "sizzlipede-3",
+    "centiskorch": "centiskorch-3"
+  },
+  "chandelure-117": {
     "litwick": "litwick-1",
     "lampent": "lampent-1",
     "chandelure": "chandelure-1"
   },
-  "charizard-67": {
+  "charizard-118": {
     "charmander": "charmander-1",
     "charmeleon": "charmeleon-1",
     "charizard": "charizard-1"
   },
-  "chimchar-68": {
+  "charjabug-119": {
+    "grubbin": "grubbin-1",
+    "charjabug": "charjabug-1",
+    "vikavolt": "vikavolt-1"
+  },
+  "charjabug-120": {
+    "grubbin": "grubbin-2",
+    "charjabug": "charjabug-2",
+    "vikavolt": "vikavolt-2"
+  },
+  "chesnaught-121": {
+    "chespin": "chespin-1",
+    "quilladin": "quilladin-1",
+    "chesnaught": "chesnaught-1"
+  },
+  "chewtle-122": {
+    "chewtle": "chewtle-1",
+    "drednaw": "drednaw-1"
+  },
+  "chewtle-123": {
+    "chewtle": "chewtle-2",
+    "drednaw": "drednaw-2"
+  },
+  "chewtle-124": {
+    "chewtle": "chewtle-3",
+    "drednaw": "drednaw-3"
+  },
+  "chewtle-125": {
+    "chewtle": "chewtle-4",
+    "drednaw": "drednaw-4"
+  },
+  "chimchar-126": {
     "chimchar": "chimchar-1",
     "monferno": "monferno-1",
     "infernape": "infernape-1"
   },
-  "chimecho-69": {
+  "chimecho-127": {
     "chimecho": "chimecho-1",
     "chingling": "chingling-1"
   },
-  "chinchou-70": {
+  "chinchou-128": {
     "chinchou": "chinchou-1",
     "lanturn": "lanturn-1"
   },
-  "chinchou-71": {
+  "chinchou-129": {
     "chinchou": "chinchou-2",
     "lanturn": "lanturn-2"
   },
-  "clamperl-72": {
+  "cinccino-130": {
+    "minccino": "minccino-1",
+    "cinccino": "cinccino-1"
+  },
+  "cinccino-131": {
+    "minccino": "minccino-2",
+    "cinccino": "cinccino-2"
+  },
+  "cinccino-132": {
+    "minccino": "minccino-3",
+    "cinccino": "cinccino-3"
+  },
+  "cinderace-133": {
+    "scorbunny": "scorbunny-1",
+    "raboot": "raboot-1",
+    "cinderace": "cinderace-1"
+  },
+  "cinderace-134": {
+    "scorbunny": "scorbunny-2",
+    "raboot": "raboot-2",
+    "cinderace": "cinderace-2"
+  },
+  "clamperl-135": {
     "clamperl": "clamperl-1",
     "huntail": "huntail-2",
     "gorebyss": "gorebyss-2"
   },
-  "clamperl-73": {
+  "clamperl-136": {
     "clamperl": "clamperl-2",
     "huntail": "huntail-1",
     "gorebyss": "gorebyss-1"
   },
-  "clefable-74": {
+  "clauncher-137": {
+    "clauncher": "clauncher-2",
+    "clawitzer": "clawitzer-2"
+  },
+  "clauncher-138": {
+    "clauncher": "clauncher-3",
+    "clawitzer": "clawitzer-4"
+  },
+  "clefable-139": {
     "clefairy": "clefairy-1",
     "clefable": "clefable-1"
   },
-  "clefable-75": {
+  "clefable-140": {
     "clefairy": "clefairy-2",
     "clefable": "clefable-2",
     "cleffa": "cleffa-2"
   },
-  "cloyster-76": {
+  "clobbopus-141": {
+    "clobbopus": "clobbopus-1",
+    "grapploct": "grapploct-1"
+  },
+  "clobbopus-142": {
+    "clobbopus": "clobbopus-2",
+    "grapploct": "grapploct-2"
+  },
+  "clobbopus-143": {
+    "clobbopus": "clobbopus-3",
+    "grapploct": "grapploct-3"
+  },
+  "clobbopus-144": {
+    "clobbopus": "clobbopus-4",
+    "grapploct": "grapploct-4"
+  },
+  "clodsire-145": {
+    "wooper": "wooper-3",
+    "clodsire": "clodsire-5"
+  },
+  "cloyster-146": {
     "shellder": "shellder-1",
     "cloyster": "cloyster-1"
   },
-  "combee-77": {
+  "cofagrigus-147": {
+    "yamask": "yamask-1",
+    "cofagrigus": "cofagrigus-1"
+  },
+  "combee-148": {
     "combee": "combee-1",
     "vespiquen": "vespiquen-1"
   },
-  "conkeldurr-78": {
+  "conkeldurr-149": {
     "gurdurr": "gurdurr-1",
     "conkeldurr": "conkeldurr-1"
   },
-  "corphish-79": {
+  "corphish-150": {
     "corphish": "corphish-1",
     "crawdaunt": "crawdaunt-1"
   },
-  "corphish-80": {
+  "corphish-151": {
     "corphish": "corphish-2",
     "crawdaunt": "crawdaunt-2"
   },
-  "cottonee-81": {
+  "cottonee-152": {
     "cottonee": "cottonee-1",
     "whimsicott": "whimsicott-1"
   },
-  "cradily-82": {
+  "cradily-153": {
     "lileep": "lileep-1",
     "cradily": "cradily-1"
   },
-  "cranidos-83": {
+  "cranidos-154": {
     "cranidos": "cranidos-1",
     "rampardos": "rampardos-1"
   },
-  "croagunk-84": {
+  "croagunk-155": {
     "croagunk": "croagunk-1",
     "toxicroak": "toxicroak-1"
   },
-  "crobat-85": {
+  "crobat-156": {
     "zubat": "zubat-1",
     "golbat": "golbat-1",
     "crobat": "crobat-1"
   },
-  "crobat-86": {
+  "crobat-157": {
     "zubat": "zubat-2",
     "golbat": "golbat-2",
     "crobat": "crobat-2"
   },
-  "croconaw-87": {
+  "crocalor-158": {
+    "fuecoco": "fuecoco-1",
+    "crocalor": "crocalor-1",
+    "skeledirge": "skeledirge-1"
+  },
+  "crocalor-159": {
+    "fuecoco": "fuecoco-2",
+    "crocalor": "crocalor-2",
+    "skeledirge": "skeledirge-2"
+  },
+  "croconaw-160": {
     "totodile": "totodile-1",
     "croconaw": "croconaw-1",
     "feraligatr": "feraligatr-1"
   },
-  "croconaw-88": {
+  "croconaw-161": {
     "totodile": "totodile-2",
     "croconaw": "croconaw-2",
     "feraligatr": "feraligatr-2"
   },
-  "croconaw-89": {
+  "croconaw-162": {
     "totodile": "totodile-3",
     "croconaw": "croconaw-3",
     "feraligatr": "feraligatr-3"
   },
-  "cubone-90": {
+  "crustle-163": {
+    "dwebble": "dwebble-1",
+    "crustle": "crustle-1"
+  },
+  "cubone-164": {
     "cubone": "cubone-1",
     "marowak": "marowak-1"
   },
-  "cyndaquil-91": {
+  "corsola-165": {
+    "corsola": "corsola-1",
+    "cursola": "cursola-5"
+  },
+  "corsola-166": {
+    "corsola": "corsola-2",
+    "cursola": "cursola-2"
+  },
+  "cyndaquil-167": {
     "cyndaquil": "cyndaquil-1",
     "quilava": "quilava-1",
     "typhlosion": "typhlosion-1"
   },
-  "cyndaquil-92": {
+  "cyndaquil-168": {
     "cyndaquil": "cyndaquil-region-bias-hisui-1",
     "quilava": "quilava-region-bias-hisui-1"
   },
-  "delcatty-93": {
+  "dachsbun-169": {
+    "fidough": "fidough-1",
+    "dachsbun": "dachsbun-1"
+  },
+  "darmanitan-170": {
+    "darumaka": "darumaka-1",
+    "darmanitan": "darmanitan-1"
+  },
+  "darmanitan-171": {
+    "darumaka": "darumaka-2",
+    "darmanitan": "darmanitan-2"
+  },
+  "dartrix-172": {
+    "rowlet": "rowlet-1",
+    "dartrix": "dartrix-1",
+    "decidueye": "decidueye-1"
+  },
+  "dartrix-173": {
+    "rowlet": "rowlet-2",
+    "dartrix": "dartrix-2",
+    "decidueye": "decidueye-2"
+  },
+  "dartrix-174": {
+    "rowlet": "rowlet-3",
+    "dartrix": "dartrix-3"
+  },
+  "deino-175": {
+    "deino": "deino-1",
+    "zweilous": "zweilous-1",
+    "hydreigon": "hydreigon-1"
+  },
+  "deino-176": {
+    "deino": "deino-2",
+    "zweilous": "zweilous-2",
+    "hydreigon": "hydreigon-2"
+  },
+  "delcatty-177": {
     "skitty": "skitty-1",
     "delcatty": "delcatty-1"
   },
-  "dewgong-94": {
+  "dewgong-178": {
     "seel": "seel-1",
     "dewgong": "dewgong-3"
   },
-  "dewgong-95": {
+  "dewgong-179": {
     "seel": "seel-3",
     "dewgong": "dewgong-2"
   },
-  "dewott-96": {
+  "dewott-180": {
     "oshawott": "oshawott-1",
     "dewott": "dewott-1",
     "samurott": "samurott-1"
   },
-  "dewott-97": {
+  "dewott-181": {
     "oshawott": "oshawott-2",
     "dewott": "dewott-2",
     "samurott": "samurott-2"
   },
-  "dewott-98": {
+  "dewott-182": {
     "oshawott": "oshawott-3",
     "dewott": "dewott-3",
     "samurott": "samurott-3"
   },
-  "dewott-99": {
+  "dewott-183": {
     "oshawott": "oshawott-region-bias-hisui-1",
     "dewott": "dewott-region-bias-hisui-1"
   },
-  "diglett-100": {
+  "diglett-184": {
     "diglett": "diglett-1",
     "dugtrio": "dugtrio-1"
   },
-  "diglett-101": {
+  "diglett-185": {
     "diglett": "diglett-2",
     "dugtrio": "dugtrio-2"
   },
-  "diglett-102": {
+  "diglett-186": {
     "diglett": "diglett-alolan-1",
     "dugtrio": "dugtrio-alolan-1"
   },
-  "dodrio-103": {
+  "dodrio-187": {
     "doduo": "doduo-1",
     "dodrio": "dodrio-1"
   },
-  "donphan-104": {
+  "donphan-188": {
     "phanpy": "phanpy-1",
     "donphan": "donphan-1"
   },
-  "dragonair-105": {
+  "dragalge-189": {
+    "skrelp": "skrelp-1",
+    "dragalge": "dragalge-1"
+  },
+  "dragalge-190": {
+    "skrelp": "skrelp-2",
+    "dragalge": "dragalge-2"
+  },
+  "dragapult-191": {
+    "dreepy": "dreepy-1",
+    "drakloak": "drakloak-1",
+    "dragapult": "dragapult-1"
+  },
+  "dragapult-192": {
+    "dreepy": "dreepy-2",
+    "drakloak": "drakloak-2",
+    "dragapult": "dragapult-2"
+  },
+  "dragapult-193": {
+    "dreepy": "dreepy-3",
+    "drakloak": "drakloak-3",
+    "dragapult": "dragapult-3"
+  },
+  "dragapult-194": {
+    "dreepy": "dreepy-4",
+    "drakloak": "drakloak-4",
+    "dragapult": "dragapult-4"
+  },
+  "dragapult-195": {
+    "dreepy": "dreepy-5",
+    "drakloak": "drakloak-5",
+    "dragapult": "dragapult-5"
+  },
+  "dragonair-196": {
     "dratini": "dratini-1",
     "dragonair": "dragonair-1"
   },
-  "dragonair-106": {
+  "dragonair-197": {
     "dratini": "dratini-2",
     "dragonair": "dragonair-2",
     "dragonite": "dragonite-2"
   },
-  "dragonair-107": {
+  "dragonair-198": {
     "dratini": "dratini-3",
     "dragonair": "dragonair-3",
     "dragonite": "dragonite-3"
   },
-  "drapion-108": {
+  "drapion-199": {
     "skorupi": "skorupi-1",
     "drapion": "drapion-1"
   },
-  "drifblim-109": {
+  "drifblim-200": {
     "drifloon": "drifloon-1",
     "drifblim": "drifblim-1"
   },
-  "drilbur-110": {
+  "drilbur-201": {
     "drilbur": "drilbur-1",
     "excadrill": "excadrill-1"
   },
-  "drowzee-111": {
+  "drizzile-202": {
+    "sobble": "sobble-1",
+    "drizzile": "drizzile-1",
+    "inteleon": "inteleon-1"
+  },
+  "drizzile-203": {
+    "sobble": "sobble-2",
+    "drizzile": "drizzile-2",
+    "inteleon": "inteleon-2"
+  },
+  "drizzile-204": {
+    "sobble": "sobble-3",
+    "drizzile": "drizzile-3",
+    "inteleon": "inteleon-3"
+  },
+  "drizzile-205": {
+    "sobble": "sobble-4",
+    "drizzile": "drizzile-4",
+    "inteleon": "inteleon-4"
+  },
+  "drizzile-206": {
+    "sobble": "sobble-5",
+    "drizzile": "drizzile-5",
+    "inteleon": "inteleon-5"
+  },
+  "drowzee-207": {
     "drowzee": "drowzee-1",
     "hypno": "hypno-1"
   },
-  "dubwool-112": {
+  "dubwool-208": {
     "wooloo": "wooloo-1",
     "dubwool": "dubwool-1"
   },
-  "dusclops-113": {
+  "duosion-209": {
+    "solosis": "solosis-1",
+    "duosion": "duosion-1",
+    "reuniclus": "reuniclus-1"
+  },
+  "dusclops-210": {
     "duskull": "duskull-1",
     "dusclops": "dusclops-1",
     "dusknoir": "dusknoir-1"
   },
-  "espeon-114": {
+  "eelektrik-211": {
+    "tynamo": "tynamo-1",
+    "eelektrik": "eelektrik-1",
+    "eelektross": "eelektross-1"
+  },
+  "eelektrik-212": {
+    "tynamo": "tynamo-2",
+    "eelektrik": "eelektrik-2",
+    "eelektross": "eelektross-2"
+  },
+  "espeon-213": {
     "jolteon": "jolteon-1",
     "espeon": "espeon-1"
   },
-  "electabuzz-115": {
+  "eldegoss-214": {
+    "gossifleur": "gossifleur-1",
+    "eldegoss": "eldegoss-1"
+  },
+  "electabuzz-215": {
     "electabuzz": "electabuzz-1",
     "elekid": "elekid-1",
     "electivire": "electivire-1"
   },
-  "electrike-116": {
+  "electrike-216": {
     "electrike": "electrike-1",
     "manectric": "manectric-1"
   },
-  "electrode-117": {
+  "electrode-217": {
     "voltorb": "voltorb-1",
     "electrode": "electrode-1"
   },
-  "electrode-118": {
+  "electrode-218": {
     "voltorb": "voltorb-hisuian-1",
     "electrode": "electrode-hisuian-1"
   },
-  "emboar-119": {
+  "emboar-219": {
     "tepig": "tepig-1",
     "pignite": "pignite-1",
     "emboar": "emboar-1"
   },
-  "empoleon-120": {
+  "empoleon-220": {
     "piplup": "piplup-1",
     "prinplup": "prinplup-1",
     "empoleon": "empoleon-1"
   },
-  "empoleon-121": {
+  "empoleon-221": {
     "piplup": "piplup-2",
     "prinplup": "prinplup-2",
     "empoleon": "empoleon-2"
   },
-  "empoleon-122": {
+  "empoleon-222": {
     "piplup": "piplup-3",
     "prinplup": "prinplup-3",
     "empoleon": "empoleon-3"
   },
-  "exeggcute-123": {
+  "escavalier-223": {
+    "karrablast": "karrablast-1",
+    "escavalier": "escavalier-1"
+  },
+  "espurr-224": {
+    "espurr": "espurr-1",
+    "meowstic": "meowstic-1"
+  },
+  "espurr-225": {
+    "espurr": "espurr-2",
+    "meowstic": "meowstic-2"
+  },
+  "espurr-226": {
+    "espurr": "espurr-3",
+    "meowstic": "meowstic-3"
+  },
+  "exeggcute-227": {
     "exeggcute": "exeggcute-1",
     "exeggutor": "exeggutor-1"
   },
-  "exploud-124": {
+  "exploud-228": {
     "whismur": "whismur-1",
     "loudred": "loudred-1",
     "exploud": "exploud-1"
   },
-  "fearow-125": {
+  "fearow-229": {
     "spearow": "spearow-1",
     "fearow": "fearow-1"
   },
-  "feebas-126": {
+  "feebas-230": {
     "feebas": "feebas-1",
     "milotic": "milotic-1"
   },
-  "finneon-127": {
+  "ferroseed-231": {
+    "ferroseed": "ferroseed-1",
+    "ferrothorn": "ferrothorn-1"
+  },
+  "finizen-232": {
+    "finizen": "finizen-1",
+    "palafin": "palafin-1"
+  },
+  "finizen-233": {
+    "finizen": "finizen-2",
+    "palafin": "palafin-2"
+  },
+  "finneon-234": {
     "finneon": "finneon-1",
     "lumineon": "lumineon-1"
   },
-  "finneon-128": {
+  "finneon-235": {
     "finneon": "finneon-2",
     "lumineon": "lumineon-2"
   },
-  "flygon-129": {
+  "fletchinder-236": {
+    "fletchinder": "fletchinder-1",
+    "talonflame": "talonflame-1"
+  },
+  "fletchinder-237": {
+    "fletchinder": "fletchinder-2",
+    "talonflame": "talonflame-2"
+  },
+  "fletchinder-238": {
+    "fletchinder": "fletchinder-3",
+    "talonflame": "talonflame-3"
+  },
+  "fletchinder-239": {
+    "fletchinder": "fletchinder-4",
+    "talonflame": "talonflame-4"
+  },
+  "floragato-240": {
+    "sprigatito": "sprigatito-1",
+    "floragato": "floragato-1",
+    "meowscarada": "meowscarada-1"
+  },
+  "flygon-241": {
     "vibrava": "vibrava-1",
     "flygon": "flygon-1"
   },
-  "forretress-130": {
+  "fomantis-242": {
+    "fomantis": "fomantis-1",
+    "lurantis": "lurantis-1"
+  },
+  "fomantis-243": {
+    "fomantis": "fomantis-2",
+    "lurantis": "lurantis-2"
+  },
+  "forretress-244": {
     "pineco": "pineco-1",
     "forretress": "forretress-1"
   },
-  "glalie-131": {
+  "frillish-245": {
+    "frillish": "frillish-1",
+    "jellicent": "jellicent-1"
+  },
+  "frillish-246": {
+    "frillish": "frillish-2",
+    "jellicent": "jellicent-2"
+  },
+  "froakie-247": {
+    "froakie": "froakie-1",
+    "frogadier": "frogadier-1",
+    "greninja": "greninja-1"
+  },
+  "froakie-248": {
+    "froakie": "froakie-2",
+    "frogadier": "frogadier-2",
+    "greninja": "greninja-2"
+  },
+  "froakie-249": {
+    "froakie": "froakie-3",
+    "frogadier": "frogadier-3",
+    "greninja": "greninja-3"
+  },
+  "froakie-250": {
+    "froakie": "froakie-4",
+    "frogadier": "frogadier-4",
+    "greninja": "greninja-4"
+  },
+  "glalie-251": {
     "snorunt": "snorunt-1",
     "glalie": "glalie-1"
   },
-  "furret-132": {
+  "furret-252": {
     "sentret": "sentret-1",
     "furret": "furret-1"
   },
-  "gabite-133": {
+  "gabite-253": {
     "gible": "gible-1",
     "gabite": "gabite-1",
     "garchomp": "garchomp-1"
   },
-  "gabite-134": {
+  "gabite-254": {
     "gible": "gible-2",
     "gabite": "gabite-2",
     "garchomp": "garchomp-2"
   },
-  "gallade-135": {
+  "gallade-255": {
     "ralts": "ralts-1",
     "kirlia": "kirlia-1",
     "gardevoir": "gardevoir-1",
     "gallade": "gallade-1"
   },
-  "gastly-136": {
+  "galvantula-256": {
+    "joltik": "joltik-1",
+    "galvantula": "galvantula-1"
+  },
+  "galvantula-257": {
+    "joltik": "joltik-2",
+    "galvantula": "galvantula-2"
+  },
+  "galvantula-258": {
+    "joltik": "joltik-3",
+    "galvantula": "galvantula-3"
+  },
+  "galvantula-259": {
+    "joltik": "joltik-4",
+    "galvantula": "galvantula-4"
+  },
+  "galvantula-260": {
+    "joltik": "joltik-5",
+    "galvantula": "galvantula-5"
+  },
+  "garbodor-261": {
+    "trubbish": "trubbish-1",
+    "garbodor": "garbodor-1"
+  },
+  "garganacl-262": {
+    "nacli": "nacli-1",
+    "naclstack": "naclstack-1",
+    "garganacl": "garganacl-1"
+  },
+  "garganacl-263": {
+    "nacli": "nacli-2",
+    "naclstack": "naclstack-2",
+    "garganacl": "garganacl-2"
+  },
+  "gastly-264": {
     "gastly": "gastly-1",
     "haunter": "haunter-1",
     "gengar": "gengar-1"
   },
-  "gastrodon-137": {
+  "gastrodon-265": {
     "shellos": "shellos-1",
     "gastrodon": "gastrodon-1"
   },
-  "gastrodon-138": {
+  "gastrodon-266": {
     "shellos": "shellos-2",
     "gastrodon": "gastrodon-2"
   },
-  "gastrodon-139": {
+  "gastrodon-267": {
     "shellos": "shellos-sea-east-1",
     "gastrodon": "gastrodon-sea-east-1"
   },
-  "gastrodon-140": {
+  "gastrodon-268": {
     "shellos": "shellos-sea-west-1",
     "gastrodon": "gastrodon-sea-west-1"
   },
-  "golem-141": {
+  "golem-269": {
     "graveler": "graveler-1",
     "golem": "golem-1"
   },
-  "golem-142": {
+  "golem-270": {
     "graveler": "graveler-alolan-1",
     "golem": "golem-alolan-1"
   },
-  "glameow-143": {
+  "glameow-271": {
     "glameow": "glameow-1",
     "purugly": "purugly-1"
   },
-  "gligar-144": {
+  "gligar-272": {
     "gligar": "gligar-1",
     "gliscor": "gliscor-1"
   },
-  "goldeen-145": {
+  "glimmet-273": {
+    "glimmet": "glimmet-1",
+    "glimmora": "glimmora-1"
+  },
+  "glimmet-274": {
+    "glimmet": "glimmet-2",
+    "glimmora": "glimmora-2"
+  },
+  "goldeen-275": {
     "goldeen": "goldeen-1",
     "seaking": "seaking-1"
   },
-  "goldeen-146": {
+  "goldeen-276": {
     "goldeen": "goldeen-2",
     "seaking": "seaking-2"
   },
-  "golduck-147": {
+  "golduck-277": {
     "psyduck": "psyduck-1",
     "golduck": "golduck-1"
   },
-  "golduck-148": {
+  "golduck-278": {
     "psyduck": "psyduck-2",
     "golduck": "golduck-2"
   },
-  "golduck-149": {
+  "golduck-279": {
     "psyduck": "psyduck-3",
     "golduck": "golduck-3"
   },
-  "granbull-150": {
+  "golett-280": {
+    "golett": "golett-1",
+    "golurk": "golurk-1"
+  },
+  "golett-281": {
+    "golett": "golett-2",
+    "golurk": "golurk-2"
+  },
+  "golett-282": {
+    "golett": "golett-3",
+    "golurk": "golurk-3"
+  },
+  "golett-283": {
+    "golett": "golett-4",
+    "golurk": "golurk-4"
+  },
+  "golisopod-284": {
+    "wimpod": "wimpod-1",
+    "golisopod": "golisopod-1"
+  },
+  "golisopod-285": {
+    "wimpod": "wimpod-2",
+    "golisopod": "golisopod-2"
+  },
+  "golisopod-286": {
+    "wimpod": "wimpod-3",
+    "golisopod": "golisopod-3"
+  },
+  "golisopod-287": {
+    "wimpod": "wimpod-4",
+    "golisopod": "golisopod-4"
+  },
+  "golisopod-288": {
+    "wimpod": "wimpod-5",
+    "golisopod": "golisopod-5"
+  },
+  "goodra-289": {
+    "goomy": "goomy-1",
+    "sliggoo": "sliggoo-1",
+    "goodra": "goodra-1"
+  },
+  "goodra-290": {
+    "sliggoo": "sliggoo-2",
+    "goodra": "goodra-2"
+  },
+  "goodra-291": {
+    "sliggoo": "sliggoo-3",
+    "goodra": "goodra-3"
+  },
+  "goodra-292": {
+    "sliggoo": "sliggoo-4",
+    "goodra": "goodra-4"
+  },
+  "gothita-293": {
+    "gothita": "gothita-1",
+    "gothorita": "gothorita-1",
+    "gothitelle": "gothitelle-1"
+  },
+  "gourgeist-294": {
+    "pumpkaboo": "pumpkaboo-1",
+    "gourgeist": "gourgeist-1"
+  },
+  "gourgeist-295": {
+    "pumpkaboo": "pumpkaboo-2",
+    "gourgeist": "gourgeist-2"
+  },
+  "grafaiai-296": {
+    "shroodle": "shroodle-1",
+    "grafaiai": "grafaiai-1"
+  },
+  "granbull-297": {
     "snubbull": "snubbull-1",
     "granbull": "granbull-1"
   },
-  "grimer-151": {
+  "greavard-298": {
+    "greavard": "greavard-1",
+    "houndstone": "houndstone-1"
+  },
+  "greavard-299": {
+    "greavard": "greavard-2",
+    "houndstone": "houndstone-2"
+  },
+  "greavard-300": {
+    "greavard": "greavard-3",
+    "houndstone": "houndstone-3"
+  },
+  "greavard-301": {
+    "greavard": "greavard-4",
+    "houndstone": "houndstone-4"
+  },
+  "greedent-302": {
+    "skwovet": "skwovet-1",
+    "greedent": "greedent-1"
+  },
+  "greedent-303": {
+    "skwovet": "skwovet-2",
+    "greedent": "greedent-2"
+  },
+  "grimer-304": {
     "grimer": "grimer-1",
     "muk": "muk-1"
   },
-  "grimer-152": {
+  "grimer-305": {
     "grimer": "grimer-2",
     "muk": "muk-2"
   },
-  "grimer-153": {
+  "grimer-306": {
     "grimer": "grimer-3",
     "muk": "muk-3"
   },
-  "grimer-154": {
+  "grimer-307": {
     "grimer": "grimer-alolan-3",
     "muk": "muk-alolan-1"
   },
-  "grotle-155": {
+  "grookey-308": {
+    "grookey": "grookey-1",
+    "thwackey": "thwackey-1",
+    "rillaboom": "rillaboom-1"
+  },
+  "grotle-309": {
     "turtwig": "turtwig-1",
     "grotle": "grotle-1",
     "torterra": "torterra-1"
   },
-  "grovyle-156": {
+  "grovyle-310": {
     "treecko": "treecko-1",
     "grovyle": "grovyle-1",
     "sceptile": "sceptile-1"
   },
-  "grumpig-157": {
+  "grumpig-311": {
     "spoink": "spoink-1",
     "grumpig": "grumpig-1"
   },
-  "gulpin-158": {
+  "gulpin-312": {
     "gulpin": "gulpin-1",
     "swalot": "swalot-1"
   },
-  "gyarados-159": {
+  "gumshoos-313": {
+    "yungoos": "yungoos-1",
+    "gumshoos": "gumshoos-1"
+  },
+  "gyarados-314": {
     "magikarp": "magikarp-2",
     "gyarados": "gyarados-2"
   },
-  "gyarados-160": {
+  "gyarados-315": {
     "magikarp": "magikarp-3",
     "gyarados": "gyarados-3"
   },
-  "hariyama-161": {
+  "hariyama-316": {
     "makuhita": "makuhita-1",
     "hariyama": "hariyama-1"
   },
-  "herdier-162": {
+  "hatenna-317": {
+    "hatenna": "hatenna-1",
+    "hattrem": "hattrem-1",
+    "hatterene": "hatterene-1"
+  },
+  "hatenna-318": {
+    "hatenna": "hatenna-2",
+    "hattrem": "hattrem-2",
+    "hatterene": "hatterene-2"
+  },
+  "heliolisk-319": {
+    "helioptile": "helioptile-1",
+    "heliolisk": "heliolisk-1"
+  },
+  "heliolisk-320": {
+    "helioptile": "helioptile-2",
+    "heliolisk": "heliolisk-2"
+  },
+  "herdier-321": {
     "lillipup": "lillipup-1",
     "herdier": "herdier-1",
     "stoutland": "stoutland-1"
   },
-  "hippopotas-163": {
+  "hippopotas-322": {
     "hippopotas": "hippopotas-1",
     "hippowdon": "hippowdon-1"
   },
-  "hitmonchan-164": {
+  "hitmonchan-323": {
     "hitmonlee": "hitmonlee-1",
     "hitmonchan": "hitmonchan-1",
     "tyrogue": "tyrogue-1",
     "hitmontop": "hitmontop-1"
   },
-  "hitmonchan-165": {
+  "hitmonchan-324": {
     "hitmonlee": "hitmonlee-2",
     "hitmonchan": "hitmonchan-2",
     "tyrogue": "tyrogue-2",
     "hitmontop": "hitmontop-2"
   },
-  "hoothoot-166": {
+  "hoothoot-325": {
     "hoothoot": "hoothoot-1",
     "noctowl": "noctowl-1"
   },
-  "hoppip-167": {
+  "hoppip-326": {
     "hoppip": "hoppip-1",
     "skiploom": "skiploom-1",
     "jumpluff": "jumpluff-1"
   },
-  "horsea-168": {
+  "horsea-327": {
     "horsea": "horsea-1",
     "seadra": "seadra-1",
     "kingdra": "kingdra-1"
   },
-  "horsea-169": {
+  "horsea-328": {
     "horsea": "horsea-2",
     "seadra": "seadra-2",
     "kingdra": "kingdra-2"
   },
-  "houndoom-170": {
+  "houndoom-329": {
     "houndour": "houndour-1",
     "houndoom": "houndoom-1"
   },
-  "igglybuff-171": {
+  "igglybuff-330": {
     "jigglypuff": "jigglypuff-1",
     "wigglytuff": "wigglytuff-1",
     "igglybuff": "igglybuff-1"
   },
-  "jynx-172": {
+  "incineroar-331": {
+    "litten": "litten-1",
+    "torracat": "torracat-1",
+    "incineroar": "incineroar-1"
+  },
+  "inkay-332": {
+    "inkay": "inkay-1",
+    "malamar": "malamar-1"
+  },
+  "inkay-333": {
+    "inkay": "inkay-2",
+    "malamar": "malamar-2"
+  },
+  "jynx-334": {
     "jynx": "jynx-1",
     "smoochum": "smoochum-1"
   },
-  "kabuto-173": {
+  "kabuto-335": {
     "kabuto": "kabuto-1",
     "kabutops": "kabutops-1"
   },
-  "kabuto-174": {
+  "kabuto-336": {
     "kabuto": "kabuto-2",
     "kabutops": "kabutops-2"
   },
-  "kingler-175": {
+  "kilowattrel-337": {
+    "wattrel": "wattrel-2",
+    "kilowattrel": "kilowattrel-1"
+  },
+  "kingler-338": {
     "krabby": "krabby-1",
     "kingler": "kingler-1"
   },
-  "kingler-176": {
+  "kingler-339": {
     "krabby": "krabby-2",
     "kingler": "kingler-2"
   },
-  "klang-177": {
+  "klang-340": {
     "klink": "klink-1",
     "klang": "klang-1",
     "klinklang": "klinklang-1"
   },
-  "koffing-178": {
+  "scizor-341": {
+    "scyther": "scyther-1",
+    "scizor": "scizor-1"
+  },
+  "koffing-342": {
     "koffing": "koffing-1",
     "weezing": "weezing-1"
   },
-  "kricketot-179": {
+  "kricketot-343": {
     "kricketot": "kricketot-1",
     "kricketune": "kricketune-1"
   },
-  "larvitar-180": {
+  "krokorok-344": {
+    "sandile": "sandile-1",
+    "krokorok": "krokorok-1",
+    "krookodile": "krookodile-1"
+  },
+  "larvesta-345": {
+    "larvesta": "larvesta-1",
+    "volcarona": "volcarona-1"
+  },
+  "larvesta-346": {
+    "larvesta": "larvesta-2",
+    "volcarona": "volcarona-2"
+  },
+  "larvitar-347": {
     "larvitar": "larvitar-1",
     "pupitar": "pupitar-1",
     "tyranitar": "tyranitar-1"
   },
-  "lickilicky-181": {
+  "lechonk-348": {
+    "lechonk": "lechonk-1",
+    "oinkologne": "oinkologne-1"
+  },
+  "lechonk-349": {
+    "lechonk": "lechonk-2",
+    "oinkologne": "oinkologne-2"
+  },
+  "lechonk-350": {
+    "lechonk": "lechonk-3",
+    "oinkologne": "oinkologne-3"
+  },
+  "lechonk-351": {
+    "lechonk": "lechonk-4",
+    "oinkologne": "oinkologne-4"
+  },
+  "lickilicky-352": {
     "lickitung": "lickitung-1",
     "lickilicky": "lickilicky-1"
   },
-  "liepard-182": {
+  "liepard-353": {
     "purrloin": "purrloin-1",
     "liepard": "liepard-1"
   },
-  "linoone-183": {
+  "linoone-354": {
     "zigzagoon": "zigzagoon-1",
     "linoone": "linoone-1"
   },
-  "linoone-184": {
+  "linoone-355": {
     "zigzagoon": "zigzagoon-galarian-1",
     "linoone": "linoone-galarian-1"
   },
-  "lombre-185": {
+  "lokix-356": {
+    "nymble": "nymble-1",
+    "lokix": "lokix-1"
+  },
+  "lokix-357": {
+    "nymble": "nymble-2",
+    "lokix": "lokix-2"
+  },
+  "lombre-358": {
     "lotad": "lotad-1",
     "lombre": "lombre-1",
     "ludicolo": "ludicolo-1"
   },
-  "lombre-186": {
+  "lombre-359": {
     "lotad": "lotad-2",
     "lombre": "lombre-2",
     "ludicolo": "ludicolo-2"
   },
-  "lombre-187": {
+  "lombre-360": {
     "lotad": "lotad-3",
     "lombre": "lombre-3",
     "ludicolo": "ludicolo-3"
   },
-  "lucario-188": {
+  "lucario-361": {
     "riolu": "riolu-1",
     "lucario": "lucario-1"
   },
-  "luxio-189": {
+  "luxio-362": {
     "shinx": "shinx-1",
     "luxio": "luxio-1",
     "luxray": "luxray-1"
   },
-  "machamp-190": {
+  "mabosstiff-363": {
+    "maschiff": "maschiff-1",
+    "mabosstiff": "mabosstiff-1"
+  },
+  "machamp-364": {
     "machop": "machop-1",
     "machoke": "machoke-1",
     "machamp": "machamp-1"
   },
-  "machamp-191": {
+  "machamp-365": {
     "machop": "machop-2",
     "machoke": "machoke-2",
     "machamp": "machamp-2"
   },
-  "magby-192": {
+  "magby-366": {
     "magmar": "magmar-1",
     "magby": "magby-1",
     "magmortar": "magmortar-1"
   },
-  "magcargo-193": {
+  "magcargo-367": {
     "slugma": "slugma-1",
     "magcargo": "magcargo-1"
   },
-  "magcargo-194": {
+  "magcargo-368": {
     "slugma": "slugma-2",
     "magcargo": "magcargo-2"
   },
-  "magnemite-195": {
+  "magnemite-369": {
     "magnemite": "magnemite-1",
     "magneton": "magneton-1",
     "magnezone": "magnezone-1"
   },
-  "mamoswine-196": {
+  "mamoswine-370": {
     "swinub": "swinub-1",
     "piloswine": "piloswine-1",
     "mamoswine": "mamoswine-1"
   },
-  "mankey-197": {
+  "mankey-371": {
     "mankey": "mankey-1",
     "primeape": "primeape-1"
   },
-  "mantine-198": {
+  "mantine-372": {
     "mantine": "mantine-2",
     "mantyke": "mantyke-2"
   },
-  "marshtomp-199": {
+  "mareanie-373": {
+    "mareanie": "mareanie-1",
+    "toxapex": "toxapex-1"
+  },
+  "mareanie-374": {
+    "mareanie": "mareanie-2",
+    "toxapex": "toxapex-2"
+  },
+  "mareanie-375": {
+    "mareanie": "mareanie-3",
+    "toxapex": "toxapex-3"
+  },
+  "mareanie-376": {
+    "mareanie": "mareanie-4",
+    "toxapex": "toxapex-4"
+  },
+  "mareanie-377": {
+    "mareanie": "mareanie-5",
+    "toxapex": "toxapex-5"
+  },
+  "marshtomp-378": {
     "mudkip": "mudkip-1",
     "marshtomp": "marshtomp-1",
     "swampert": "swampert-1"
   },
-  "marshtomp-200": {
+  "marshtomp-379": {
     "mudkip": "mudkip-2",
     "marshtomp": "marshtomp-2",
     "swampert": "swampert-2"
   },
-  "marshtomp-201": {
+  "marshtomp-380": {
     "mudkip": "mudkip-3",
     "marshtomp": "marshtomp-3",
     "swampert": "swampert-3"
   },
-  "masquerain-202": {
+  "masquerain-381": {
     "surskit": "surskit-1",
     "masquerain": "masquerain-1"
   },
-  "medicham-203": {
+  "maushold-382": {
+    "tandemaus": "tandemaus-1",
+    "maushold": "maushold-1"
+  },
+  "maushold-383": {
+    "tandemaus": "tandemaus-2",
+    "maushold": "maushold-2"
+  },
+  "maushold-384": {
+    "tandemaus": "tandemaus-3",
+    "maushold": "maushold-3"
+  },
+  "medicham-385": {
     "meditite": "meditite-1",
     "medicham": "medicham-1"
   },
-  "medicham-204": {
+  "medicham-386": {
     "meditite": "meditite-2",
     "medicham": "medicham-2"
   },
-  "meowth-205": {
+  "meowth-387": {
     "meowth": "meowth-1",
     "persian": "persian-1"
   },
-  "meowth-206": {
+  "meowth-388": {
     "meowth": "meowth-alolan-1",
     "persian": "persian-alolan-1"
   },
-  "mightyena-207": {
+  "mightyena-389": {
     "poochyena": "poochyena-1",
     "mightyena": "mightyena-1"
   },
-  "mimejr-208": {
+  "mimejr-390": {
     "mrmime": "mrmime-1",
-    "mimejr": "mimejr-1"
+    "mimejr": "mimejr-1",
+    "mrrime": "mrrime-1"
   },
-  "misdreavus-209": {
+  "misdreavus-391": {
     "misdreavus": "misdreavus-1",
     "mismagius": "mismagius-1"
   },
-  "munchlax-210": {
+  "morelull-392": {
+    "morelull": "morelull-1",
+    "shiinotic": "shiinotic-1"
+  },
+  "morelull-393": {
+    "morelull": "morelull-2",
+    "shiinotic": "shiinotic-2"
+  },
+  "morelull-394": {
+    "morelull": "morelull-3",
+    "shiinotic": "shiinotic-3"
+  },
+  "morelull-395": {
+    "morelull": "morelull-4",
+    "shiinotic": "shiinotic-4"
+  },
+  "morelull-396": {
+    "morelull": "morelull-5",
+    "shiinotic": "shiinotic-5"
+  },
+  "munchlax-397": {
     "snorlax": "snorlax-1",
     "munchlax": "munchlax-1"
   },
-  "munna-211": {
+  "munna-398": {
     "munna": "munna-1",
     "musharna": "musharna-1"
   },
-  "natu-212": {
+  "natu-399": {
     "natu": "natu-1",
     "xatu": "xatu-1"
   },
-  "nidoking-213": {
+  "nickit-400": {
+    "nickit": "nickit-1",
+    "thievul": "thievul-1"
+  },
+  "nickit-401": {
+    "nickit": "nickit-2",
+    "thievul": "thievul-2"
+  },
+  "nickit-402": {
+    "nickit": "nickit-3",
+    "thievul": "thievul-3"
+  },
+  "nidoking-403": {
     "nidoranm": "nidoranm-1",
     "nidorino": "nidorino-1",
     "nidoking": "nidoking-1"
   },
-  "nidoqueen-214": {
+  "nidoqueen-404": {
     "nidoranf": "nidoranf-1",
     "nidorina": "nidorina-1",
     "nidoqueen": "nidoqueen-1"
   },
-  "ninetales-215": {
+  "ninetales-405": {
     "vulpix": "vulpix-1",
     "ninetales": "ninetales-1"
   },
-  "ninetales-216": {
+  "ninetales-406": {
     "vulpix": "vulpix-alolan-1",
     "ninetales": "ninetales-alolan-1"
   },
-  "nosepass-217": {
+  "noibat-407": {
+    "noibat": "noibat-1",
+    "noivern": "noivern-1"
+  },
+  "noibat-408": {
+    "noibat": "noibat-2",
+    "noivern": "noivern-2"
+  },
+  "nosepass-409": {
     "nosepass": "nosepass-1",
     "probopass": "probopass-1"
   },
-  "nuzleaf-218": {
+  "nuzleaf-410": {
     "seedot": "seedot-1",
     "nuzleaf": "nuzleaf-1",
     "shiftry": "shiftry-1"
   },
-  "octillery-219": {
+  "linoone-411": {
+    "zigzagoon": "zigzagoon-1",
+    "linoone": "linoone-1",
+    "obstagoon": "obstagoon-1"
+  },
+  "linoone-412": {
+    "zigzagoon": "zigzagoon-galarian-1",
+    "linoone": "linoone-galarian-1"
+  },
+  "octillery-413": {
     "remoraid": "remoraid-2",
     "octillery": "octillery-1"
   },
-  "omanyte-220": {
+  "omanyte-414": {
     "omanyte": "omanyte-1",
     "omastar": "omastar-1"
   },
-  "omanyte-221": {
+  "omanyte-415": {
     "omanyte": "omanyte-2",
     "omastar": "omastar-2"
   },
-  "onix-222": {
+  "onix-416": {
     "onix": "onix-1",
     "steelix": "steelix-1"
   },
-  "pancham-223": {
+  "overqwil-417": {
+    "qwilfish": "qwilfish-1",
+    "overqwil": "overqwil-1"
+  },
+  "overqwil-418": {
+    "qwilfish": "qwilfish-2",
+    "overqwil": "overqwil-2"
+  },
+  "palossand-419": {
+    "sandygast": "sandygast-1",
+    "palossand": "palossand-1"
+  },
+  "palpitoad-420": {
+    "tympole": "tympole-1",
+    "palpitoad": "palpitoad-6",
+    "seismitoad": "seismitoad-6"
+  },
+  "palpitoad-421": {
+    "tympole": "tympole-2",
+    "palpitoad": "palpitoad-7",
+    "seismitoad": "seismitoad-7"
+  },
+  "palpitoad-422": {
+    "palpitoad": "palpitoad-1",
+    "seismitoad": "seismitoad-1"
+  },
+  "palpitoad-423": {
+    "palpitoad": "palpitoad-2",
+    "seismitoad": "seismitoad-2"
+  },
+  "palpitoad-424": {
+    "palpitoad": "palpitoad-3",
+    "seismitoad": "seismitoad-3"
+  },
+  "palpitoad-425": {
+    "palpitoad": "palpitoad-4",
+    "seismitoad": "seismitoad-4"
+  },
+  "palpitoad-426": {
+    "palpitoad": "palpitoad-5",
+    "seismitoad": "seismitoad-5"
+  },
+  "pancham-427": {
     "pancham": "pancham-1",
     "pangoro": "pangoro-1"
   },
-  "panpour-224": {
+  "panpour-428": {
     "panpour": "panpour-1",
     "simipour": "simipour-1"
   },
-  "pansage-225": {
+  "pansage-429": {
     "pansage": "pansage-1",
     "simisage": "simisage-1"
   },
-  "pansear-226": {
+  "pansear-430": {
     "pansear": "pansear-1",
     "simisear": "simisear-1"
   },
-  "paras-227": {
+  "paras-431": {
     "paras": "paras-1",
     "parasect": "parasect-1"
   },
-  "patrat-228": {
+  "patrat-432": {
     "patrat": "patrat-1",
     "watchog": "watchog-1"
   },
-  "pelipper-229": {
+  "pelipper-433": {
     "wingull": "wingull-1",
     "pelipper": "pelipper-1"
   },
-  "pichu-230": {
+  "phantump-434": {
+    "phantump": "phantump-1",
+    "trevenant": "trevenant-1"
+  },
+  "phantump-435": {
+    "phantump": "phantump-2",
+    "trevenant": "trevenant-2"
+  },
+  "phantump-436": {
+    "phantump": "phantump-3",
+    "trevenant": "trevenant-3"
+  },
+  "pichu-437": {
     "pikachu": "pikachu-1",
     "raichu": "raichu-1",
     "pichu": "pichu-1"
   },
-  "pichu-231": {
+  "pichu-438": {
     "pikachu": "pikachu-region-bias-alola-1",
     "pichu": "pichu-region-bias-alola-1"
   },
-  "pidgeot-232": {
+  "pidgeot-439": {
     "pidgeotto": "pidgeotto-1",
     "pidgeot": "pidgeot-1"
   },
-  "pidove-233": {
+  "pidove-440": {
     "pidove": "pidove-1",
     "tranquill": "tranquill-1",
     "unfezant": "unfezant-1"
   },
-  "politoed-234": {
+  "politoed-441": {
     "poliwag": "poliwag-2",
     "poliwhirl": "poliwhirl-2",
     "poliwrath": "poliwrath-2",
     "politoed": "politoed-2"
   },
-  "politoed-235": {
+  "politoed-442": {
     "poliwhirl": "poliwhirl-1",
     "poliwrath": "poliwrath-1",
     "politoed": "politoed-1"
   },
-  "politoed-236": {
+  "politoed-443": {
     "poliwhirl": "poliwhirl-3",
     "poliwrath": "poliwrath-3",
     "politoed": "politoed-3"
   },
-  "ponyta-237": {
+  "polteageist-444": {
+    "sinistea": "sinistea-1",
+    "polteageist": "polteageist-1"
+  },
+  "ponyta-445": {
     "ponyta": "ponyta-1",
     "rapidash": "rapidash-1"
   },
-  "ponyta-238": {
+  "ponyta-446": {
     "ponyta": "ponyta-galarian-1",
     "rapidash": "rapidash-galarian-1"
   },
-  "porygon-239": {
+  "porygon-447": {
     "porygon": "porygon-1",
     "porygon2": "porygon2-1",
     "porygonz": "porygonz-1"
   },
-  "quagsire-240": {
+  "quagsire-448": {
     "wooper": "wooper-1",
     "quagsire": "quagsire-1"
   },
-  "quagsire-241": {
+  "quagsire-449": {
     "wooper": "wooper-2",
     "quagsire": "quagsire-2"
   },
-  "quagsire-242": {
+  "quagsire-450": {
     "wooper": "wooper-3",
     "quagsire": "quagsire-3"
   },
-  "raticate-243": {
+  "quaquaval-451": {
+    "quaxly": "quaxly-1",
+    "quaxwell": "quaxwell-1",
+    "quaquaval": "quaquaval-1"
+  },
+  "quaquaval-452": {
+    "quaxly": "quaxly-2",
+    "quaxwell": "quaxwell-2",
+    "quaquaval": "quaquaval-2"
+  },
+  "quaquaval-453": {
+    "quaxly": "quaxly-3",
+    "quaxwell": "quaxwell-3",
+    "quaquaval": "quaquaval-3"
+  },
+  "rabsca-454": {
+    "rellor": "rellor-1",
+    "rabsca": "rabsca-1"
+  },
+  "raticate-455": {
     "rattata": "rattata-1",
     "raticate": "raticate-1"
   },
-  "raticate-244": {
+  "raticate-456": {
     "rattata": "rattata-alolan-1",
     "raticate": "raticate-alolan-1"
   },
-  "rhydon-245": {
+  "revavroom-457": {
+    "varoom": "varoom-1",
+    "revavroom": "revavroom-1"
+  },
+  "revavroom-458": {
+    "varoom": "varoom-2",
+    "revavroom": "revavroom-2"
+  },
+  "rhydon-459": {
     "rhyhorn": "rhyhorn-1",
     "rhydon": "rhydon-1",
     "rhyperior": "rhyperior-1"
   },
-  "sandshrew-246": {
+  "sandaconda-460": {
+    "silicobra": "silicobra-1",
+    "sandaconda": "sandaconda-1"
+  },
+  "sandshrew-461": {
     "sandshrew": "sandshrew-1",
     "sandslash": "sandslash-1"
   },
-  "sandshrew-247": {
+  "sandshrew-462": {
     "sandshrew": "sandshrew-alolan-1",
     "sandslash": "sandslash-alolan-1"
   },
-  "scizor-248": {
-    "scyther": "scyther-1",
-    "scizor": "scizor-1"
+  "scatterbug-463": {
+    "scatterbug": "scatterbug-1",
+    "spewpa": "spewpa-1"
   },
-  "sealeo-249": {
+  "scatterbug-464": {
+    "scatterbug": "scatterbug-2",
+    "spewpa": "spewpa-2"
+  },
+  "scatterbug-465": {
+    "scatterbug": "scatterbug-3",
+    "spewpa": "spewpa-3"
+  },
+  "scolipede-466": {
+    "venipede": "venipede-1",
+    "whirlipede": "whirlipede-1",
+    "scolipede": "scolipede-1"
+  },
+  "scolipede-467": {
+    "venipede": "venipede-2",
+    "whirlipede": "whirlipede-2",
+    "scolipede": "scolipede-2"
+  },
+  "scolipede-468": {
+    "venipede": "venipede-3",
+    "whirlipede": "whirlipede-3",
+    "scolipede": "scolipede-3"
+  },
+  "scolipede-469": {
+    "venipede": "venipede-4",
+    "whirlipede": "whirlipede-4",
+    "scolipede": "scolipede-4"
+  },
+  "sealeo-470": {
     "spheal": "spheal-1",
     "sealeo": "sealeo-1",
     "walrein": "walrein-1"
   },
-  "sealeo-250": {
+  "sealeo-471": {
     "spheal": "spheal-2",
     "sealeo": "sealeo-2",
     "walrein": "walrein-2"
   },
-  "sealeo-251": {
+  "sealeo-472": {
     "spheal": "spheal-3",
     "sealeo": "sealeo-3",
     "walrein": "walrein-3"
   },
-  "serperior-252": {
+  "serperior-473": {
     "snivy": "snivy-1",
     "servine": "servine-1",
     "serperior": "serperior-1"
   },
-  "skuntank-253": {
+  "skuntank-474": {
     "stunky": "stunky-1",
     "skuntank": "skuntank-1"
   },
-  "slaking-254": {
+  "slaking-475": {
     "slakoth": "slakoth-1",
     "vigoroth": "vigoroth-1",
     "slaking": "slaking-1"
   },
-  "slowbro-255": {
+  "slowbro-476": {
     "slowpoke": "slowpoke-1",
     "slowbro": "slowbro-1",
     "slowking": "slowking-1"
   },
-  "slowbro-256": {
+  "slowbro-477": {
     "slowpoke": "slowpoke-2",
     "slowbro": "slowbro-2",
     "slowking": "slowking-2"
   },
-  "slowbro-257": {
+  "slowbro-478": {
     "slowpoke": "slowpoke-galarian-1",
     "slowbro": "slowbro-galarian-1",
     "slowking": "slowking-galarian-1"
   },
-  "sneasel-258": {
+  "slurpuff-479": {
+    "swirlix": "swirlix-1",
+    "slurpuff": "slurpuff-1"
+  },
+  "slurpuff-480": {
+    "swirlix": "swirlix-2",
+    "slurpuff": "slurpuff-2"
+  },
+  "slurpuff-481": {
+    "swirlix": "swirlix-3",
+    "slurpuff": "slurpuff-3"
+  },
+  "sneasel-482": {
     "sneasel": "sneasel-1",
     "weavile": "weavile-1"
   },
-  "staraptor-259": {
+  "spidops-483": {
+    "tarountula": "tarountula-1",
+    "spidops": "spidops-1"
+  },
+  "spidops-484": {
+    "tarountula": "tarountula-2",
+    "spidops": "spidops-2"
+  },
+  "spidops-485": {
+    "tarountula": "tarountula-3",
+    "spidops": "spidops-3"
+  },
+  "staraptor-486": {
     "starly": "starly-1",
     "staravia": "staravia-1",
     "staraptor": "staraptor-1"
   },
-  "starmie-260": {
+  "starmie-487": {
     "staryu": "staryu-1",
     "starmie": "starmie-1"
   },
-  "starmie-261": {
+  "starmie-488": {
     "staryu": "staryu-2",
     "starmie": "starmie-2"
   },
-  "starmie-262": {
+  "starmie-489": {
     "staryu": "staryu-3",
     "starmie": "starmie-3"
   },
-  "sunflora-263": {
+  "sunflora-490": {
     "sunkern": "sunkern-1",
     "sunflora": "sunflora-1"
   },
-  "swellow-264": {
+  "swellow-491": {
     "taillow": "taillow-1",
     "swellow": "swellow-1"
   },
-  "swoobat-265": {
+  "swoobat-492": {
     "woobat": "woobat-1",
     "swoobat": "swoobat-1"
   },
-  "swoobat-266": {
+  "swoobat-493": {
     "woobat": "woobat-3",
     "swoobat": "swoobat-3"
   },
-  "tentacool-267": {
+  "tentacool-494": {
     "tentacool": "tentacool-1",
     "tentacruel": "tentacruel-1"
   },
-  "tentacool-268": {
+  "tentacool-495": {
     "tentacool": "tentacool-2",
     "tentacruel": "tentacruel-2"
   },
-  "tentacool-269": {
+  "tentacool-496": {
     "tentacool": "tentacool-3",
     "tentacruel": "tentacruel-3"
   },
-  "togekiss-270": {
+  "toedscool-497": {
+    "toedscool": "toedscool-1",
+    "toedscruel": "toedscruel-1"
+  },
+  "toedscool-498": {
+    "toedscool": "toedscool-2",
+    "toedscruel": "toedscruel-2"
+  },
+  "togekiss-499": {
     "togepi": "togepi-1",
     "togetic": "togetic-1",
     "togekiss": "togekiss-1"
   },
-  "venomoth-271": {
+  "tyrantrum-500": {
+    "tyrunt": "tyrunt-1",
+    "tyrantrum": "tyrantrum-1"
+  },
+  "vanillish-501": {
+    "vanillite": "vanillite-1",
+    "vanillish": "vanillish-1",
+    "vanilluxe": "vanilluxe-1"
+  },
+  "vanillish-502": {
+    "vanillite": "vanillite-2",
+    "vanillish": "vanillish-2",
+    "vanilluxe": "vanilluxe-2"
+  },
+  "venomoth-503": {
     "venonat": "venonat-1",
     "venomoth": "venomoth-1"
   },
-  "wailmer-272": {
+  "wailmer-504": {
     "wailmer": "wailmer-1",
     "wailord": "wailord-1"
   },
-  "wailmer-273": {
+  "wailmer-505": {
     "wailmer": "wailmer-2",
     "wailord": "wailord-2"
   },
-  "wobbuffet-274": {
+  "wiglett-506": {
+    "wiglett": "wiglett-1",
+    "wugtrio": "wugtrio-1"
+  },
+  "wiglett-507": {
+    "wiglett": "wiglett-2",
+    "wugtrio": "wugtrio-2"
+  },
+  "wobbuffet-508": {
     "wobbuffet": "wobbuffet-1",
     "wynaut": "wynaut-1"
   },
-  "yanma-275": {
+  "yanma-509": {
     "yanma": "yanma-1",
     "yanmega": "yanmega-1"
   },
-  "yanma-276": {
+  "yanma-510": {
     "yanma": "yanma-2",
     "yanmega": "yanmega-2"
+  },
+  "zoroark-511": {
+    "zorua": "zorua-1",
+    "zoroark": "zoroark-1"
+  },
+  "zoroark-512": {
+    "zorua": "zorua-2",
+    "zoroark": "zoroark-2"
+  },
+  "zoroark-513": {
+    "zorua": "zorua-3",
+    "zoroark": "zoroark-3"
   }
 }

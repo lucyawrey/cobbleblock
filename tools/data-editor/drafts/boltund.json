@@ -1,0 +1,21 @@
+[
+  {
+    "id": "boltund-1",
+    "habitat": "urban",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 4.8,
+    "level": "25-49",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

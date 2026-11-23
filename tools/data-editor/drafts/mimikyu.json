@@ -1,0 +1,40 @@
+[
+  {
+    "id": "mimikyu-1",
+    "habitat": "dark_forest",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "rare",
+    "weight": 100,
+    "level": "23-48",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "mimikyu-2",
+    "habitat": "overworld",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 100,
+    "level": "23-48",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

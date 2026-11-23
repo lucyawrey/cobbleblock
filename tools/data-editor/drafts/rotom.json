@@ -4,7 +4,7 @@
     "habitat": "pokemon_center",
     "type": "ground",
     "bucket": "rare",
-    "weight": 10,
+    "weight": 100,
     "level": "20-75",
     "timeRange": "any",
     "dark": false,

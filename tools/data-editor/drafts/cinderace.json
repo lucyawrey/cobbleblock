@@ -1,0 +1,40 @@
+[
+  {
+    "id": "cinderace-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "ultra-rare",
+    "weight": 1.2,
+    "level": "35-53",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "cinderace-2",
+    "habitat": "snowy",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "ultra-rare",
+    "weight": 1.2,
+    "level": "35-53",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

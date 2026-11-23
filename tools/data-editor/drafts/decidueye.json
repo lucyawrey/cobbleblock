@@ -1,0 +1,59 @@
+[
+  {
+    "id": "decidueye-1",
+    "habitat": "forest",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "ultra-rare",
+    "weight": 4,
+    "level": "34-53",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "decidueye-2",
+    "habitat": "taiga",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "ultra-rare",
+    "weight": 4,
+    "level": "34-53",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "decidueye-3",
+    "habitat": "snowy",
+    "type": "ground",
+    "properties": "hisuian",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "ultra-rare",
+    "weight": 4,
+    "level": "34-53",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

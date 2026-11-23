@@ -1,0 +1,59 @@
+[
+  {
+    "id": "brambleghast-1",
+    "habitat": "badlands",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 8,
+    "level": "23-48",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "brambleghast-2",
+    "habitat": "desert",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 8,
+    "level": "23-48",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "brambleghast-3",
+    "habitat": "nether",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 8,
+    "level": "23-48",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

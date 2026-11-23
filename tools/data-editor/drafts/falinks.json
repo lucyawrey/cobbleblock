@@ -1,0 +1,21 @@
+[
+  {
+    "id": "falinks-1",
+    "habitat": "badlands",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 16,
+    "level": "22-47",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

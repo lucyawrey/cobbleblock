@@ -1,0 +1,78 @@
+[
+  {
+    "id": "primarina-1",
+    "habitat": "beach",
+    "type": "dive",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "ultra-rare",
+    "weight": 1.2,
+    "level": "34-53",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "primarina-2",
+    "habitat": "overworld",
+    "type": "fishing",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "ultra-rare",
+    "weight": 4,
+    "level": "34-53",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "primarina-3",
+    "habitat": "underground",
+    "type": "dive",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "ultra-rare",
+    "weight": 1.2,
+    "level": "34-53",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "primarina-4",
+    "habitat": "underground",
+    "type": "fishing",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "ultra-rare",
+    "weight": 4,
+    "level": "34-53",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

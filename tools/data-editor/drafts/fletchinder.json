@@ -1,0 +1,78 @@
+[
+  {
+    "id": "fletchinder-1",
+    "habitat": "forest",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "17-38",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "fletchinder-2",
+    "habitat": "overworld",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "17-38",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "fletchinder-3",
+    "habitat": "taiga",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "17-38",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "fletchinder-4",
+    "habitat": "nether_forest",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "17-38",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

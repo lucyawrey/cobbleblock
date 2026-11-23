@@ -1,0 +1,59 @@
+[
+  {
+    "id": "bruxish-1",
+    "habitat": "reef",
+    "type": "dive",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 50,
+    "level": "23-48",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "bruxish-2",
+    "habitat": "overworld",
+    "type": "fishing",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 100,
+    "level": "23-48",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "bruxish-3",
+    "habitat": "underground",
+    "type": "fishing",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 100,
+    "level": "23-48",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

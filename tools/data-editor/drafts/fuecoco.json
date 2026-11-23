@@ -1,0 +1,40 @@
+[
+  {
+    "id": "fuecoco-1",
+    "habitat": "badlands",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "ultra-rare",
+    "weight": 48,
+    "level": "5-31",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "fuecoco-2",
+    "habitat": "nether",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "ultra-rare",
+    "weight": 48,
+    "level": "5-31",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

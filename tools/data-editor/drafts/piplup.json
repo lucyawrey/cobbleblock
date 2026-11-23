@@ -42,7 +42,7 @@
     "habitat": "overworld",
     "type": "fishing",
     "bucket": "ultra-rare",
-    "weight": 6,
+    "weight": 60,
     "level": "5-31",
     "timeRange": "any",
     "dark": false,

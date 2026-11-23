@@ -1,0 +1,21 @@
+[
+  {
+    "id": "palossand-1",
+    "habitat": "beach",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 1.6,
+    "level": "42-48",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

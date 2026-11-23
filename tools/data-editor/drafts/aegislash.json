@@ -1,0 +1,21 @@
+[
+  {
+    "id": "aegislash-1",
+    "habitat": "overworld",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 8,
+    "level": "40-50",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

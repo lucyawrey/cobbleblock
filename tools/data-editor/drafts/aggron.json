@@ -4,7 +4,7 @@
     "habitat": "metal",
     "type": "ground",
     "bucket": "common",
-    "weight": 0.1,
+    "weight": 0.8,
     "level": "42-53",
     "timeRange": "any",
     "dark": false,

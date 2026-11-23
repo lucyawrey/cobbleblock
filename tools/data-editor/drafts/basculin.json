@@ -1,0 +1,264 @@
+[
+  {
+    "id": "basculin-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "properties": "striped=blue",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [
+      1,
+      2,
+      3
+    ],
+    "bucket": "common",
+    "weight": 100,
+    "level": "21-46",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "basculin-2",
+    "habitat": "overworld",
+    "type": "fishing",
+    "properties": "striped=blue",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [
+      0,
+      4
+    ],
+    "bucket": "common",
+    "weight": 50,
+    "level": "21-46",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "basculin-3",
+    "habitat": "underground",
+    "type": "fishing",
+    "properties": "striped=blue",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [
+      1,
+      2,
+      3
+    ],
+    "bucket": "common",
+    "weight": 100,
+    "level": "21-46",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "basculin-4",
+    "habitat": "underground",
+    "type": "fishing",
+    "properties": "striped=blue",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [
+      0,
+      4
+    ],
+    "bucket": "common",
+    "weight": 50,
+    "level": "21-46",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "basculin-5",
+    "habitat": "overworld",
+    "type": "fishing",
+    "properties": "striped=red",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [
+      5,
+      6,
+      7
+    ],
+    "bucket": "common",
+    "weight": 100,
+    "level": "21-46",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "basculin-6",
+    "habitat": "overworld",
+    "type": "fishing",
+    "properties": "striped=red",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [
+      0,
+      4
+    ],
+    "bucket": "common",
+    "weight": 50,
+    "level": "21-46",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "basculin-7",
+    "habitat": "underground",
+    "type": "fishing",
+    "properties": "striped=red",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [
+      5,
+      6,
+      7
+    ],
+    "bucket": "common",
+    "weight": 100,
+    "level": "21-46",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "basculin-8",
+    "habitat": "underground",
+    "type": "fishing",
+    "properties": "striped=red",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [
+      0,
+      4
+    ],
+    "bucket": "common",
+    "weight": 50,
+    "level": "21-46",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "basculin-9",
+    "habitat": "overworld",
+    "type": "fishing",
+    "properties": "striped=white",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [
+      0,
+      4
+    ],
+    "bucket": "common",
+    "weight": 18,
+    "level": "21-46",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "basculin-10",
+    "habitat": "overworld",
+    "type": "fishing",
+    "properties": "striped=white",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 90,
+    "level": "21-46",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "basculin-11",
+    "habitat": "underground",
+    "type": "fishing",
+    "properties": "striped=white",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [
+      0,
+      4
+    ],
+    "bucket": "common",
+    "weight": 18,
+    "level": "21-46",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "basculin-12",
+    "habitat": "underground",
+    "type": "fishing",
+    "properties": "striped=white",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 90,
+    "level": "21-46",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

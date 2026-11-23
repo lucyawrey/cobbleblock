@@ -1,0 +1,40 @@
+[
+  {
+    "id": "helioptile-1",
+    "habitat": "badlands",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 54,
+    "level": "4-29",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "helioptile-2",
+    "habitat": "desert",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 54,
+    "level": "4-29",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

@@ -4,7 +4,7 @@
     "habitat": "dark_forest",
     "type": "ground",
     "bucket": "common",
-    "weight": 1,
+    "weight": 6,
     "level": "37-46",
     "timeRange": "night",
     "dark": false,

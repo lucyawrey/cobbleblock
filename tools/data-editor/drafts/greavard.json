@@ -1,0 +1,78 @@
+[
+  {
+    "id": "greavard-1",
+    "habitat": "dark_forest",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 14.4,
+    "level": "4-29",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "greavard-2",
+    "habitat": "taiga",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 14.4,
+    "level": "4-29",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "greavard-3",
+    "habitat": "nether_soul",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 14.4,
+    "level": "4-29",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "greavard-4",
+    "habitat": "nether",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 72,
+    "level": "4-29",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

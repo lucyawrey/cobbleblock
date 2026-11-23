@@ -1,0 +1,21 @@
+[
+  {
+    "id": "tyrunt-1",
+    "habitat": "lush_cave",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "ultra-rare",
+    "weight": 60,
+    "level": "11-36",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

@@ -4,7 +4,7 @@
     "habitat": "lush_cave",
     "type": "ground",
     "bucket": "ultra-rare",
-    "weight": 10,
+    "weight": 100,
     "level": "27-52",
     "timeRange": "any",
     "dark": true,

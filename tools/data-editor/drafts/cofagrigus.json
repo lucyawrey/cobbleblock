@@ -1,0 +1,21 @@
+[
+  {
+    "id": "cofagrigus-1",
+    "habitat": "overworld",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 100,
+    "level": "34-48",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

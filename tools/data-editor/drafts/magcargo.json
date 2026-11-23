@@ -4,7 +4,7 @@
     "habitat": "volcanic",
     "type": "ground",
     "bucket": "common",
-    "weight": 0.6,
+    "weight": 8,
     "level": "38-43",
     "timeRange": "any",
     "dark": false,

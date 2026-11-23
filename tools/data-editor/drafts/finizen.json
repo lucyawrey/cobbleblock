@@ -1,0 +1,40 @@
+[
+  {
+    "id": "finizen-1",
+    "habitat": "overworld",
+    "type": "fishing",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 50.4,
+    "level": "7-32",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "finizen-2",
+    "habitat": "underground",
+    "type": "fishing",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 50.4,
+    "level": "7-32",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

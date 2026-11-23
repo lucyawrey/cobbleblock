@@ -1,0 +1,382 @@
+[
+  {
+    "id": "vivillon-1",
+    "habitat": "saccharine_forest",
+    "type": "ground",
+    "properties": "vivillon_wings=archipelago",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "vivillon-2",
+    "habitat": "saccharine_forest",
+    "type": "ground",
+    "properties": "vivillon_wings=continental",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "vivillon-3",
+    "habitat": "saccharine_forest",
+    "type": "ground",
+    "properties": "vivillon_wings=elegant",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "vivillon-4",
+    "habitat": "saccharine_forest",
+    "type": "ground",
+    "properties": "vivillon_wings=fancy",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "vivillon-5",
+    "habitat": "saccharine_forest",
+    "type": "ground",
+    "properties": "vivillon_wings=fancy",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "vivillon-6",
+    "habitat": "saccharine_forest",
+    "type": "ground",
+    "properties": "vivillon_wings=garden",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "vivillon-7",
+    "habitat": "saccharine_forest",
+    "type": "ground",
+    "properties": "vivillon_wings=high-plains",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "vivillon-8",
+    "habitat": "saccharine_forest",
+    "type": "ground",
+    "properties": "vivillon_wings=icy-snow",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "vivillon-9",
+    "habitat": "saccharine_forest",
+    "type": "ground",
+    "properties": "vivillon_wings=jungle",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "vivillon-10",
+    "habitat": "saccharine_forest",
+    "type": "ground",
+    "properties": "vivillon_wings=marine",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "vivillon-11",
+    "habitat": "saccharine_forest",
+    "type": "ground",
+    "properties": "vivillon_wings=meadow",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "vivillon-12",
+    "habitat": "urban",
+    "type": "ground",
+    "properties": "vivillon_wings=modern",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "vivillon-13",
+    "habitat": "saccharine_forest",
+    "type": "ground",
+    "properties": "vivillon_wings=monsoon",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "vivillon-14",
+    "habitat": "saccharine_forest",
+    "type": "ground",
+    "properties": "vivillon_wings=ocean",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "vivillon-15",
+    "habitat": "saccharine_forest",
+    "type": "ground",
+    "properties": "vivillon_wings=polar",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "vivillon-16",
+    "habitat": "shore",
+    "type": "ground",
+    "properties": "vivillon_wings=river",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "vivillon-17",
+    "habitat": "saccharine_forest",
+    "type": "ground",
+    "properties": "vivillon_wings=sandstorm",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "vivillon-18",
+    "habitat": "saccharine_forest",
+    "type": "ground",
+    "properties": "vivillon_wings=savanna",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "vivillon-19",
+    "habitat": "saccharine_forest",
+    "type": "ground",
+    "properties": "vivillon_wings=sun",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "vivillon-20",
+    "habitat": "saccharine_forest",
+    "type": "ground",
+    "properties": "vivillon_wings=tundra",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 16,
+    "level": "12-41",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

@@ -4,7 +4,7 @@
     "habitat": "taiga",
     "type": "ground",
     "bucket": "common",
-    "weight": 5.4,
+    "weight": 27,
     "level": "10-35",
     "timeRange": "any",
     "dark": false,

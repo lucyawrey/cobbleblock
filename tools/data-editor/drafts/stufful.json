@@ -1,0 +1,21 @@
+[
+  {
+    "id": "stufful-1",
+    "habitat": "bamboo_forest",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 90,
+    "level": "9-34",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

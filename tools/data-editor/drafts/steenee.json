@@ -1,0 +1,21 @@
+[
+  {
+    "id": "steenee-1",
+    "habitat": "jungle",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 0.9,
+    "level": "18-29",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

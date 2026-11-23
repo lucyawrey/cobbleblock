@@ -4,7 +4,7 @@
     "habitat": "gemstones",
     "type": "ground",
     "bucket": "common",
-    "weight": 9.5,
+    "weight": 95,
     "level": "4-29",
     "timeRange": "night",
     "dark": false,

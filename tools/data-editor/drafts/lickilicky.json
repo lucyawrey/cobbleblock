@@ -4,7 +4,7 @@
     "habitat": "grassland",
     "type": "ground",
     "bucket": "uncommon",
-    "weight": 0.32,
+    "weight": 3.2,
     "level": "34-52",
     "timeRange": "any",
     "dark": false,

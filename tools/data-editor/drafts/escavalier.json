@@ -1,0 +1,21 @@
+[
+  {
+    "id": "escavalier-1",
+    "habitat": "swamp",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 3,
+    "level": "27-50",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

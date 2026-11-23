@@ -1,0 +1,21 @@
+[
+  {
+    "id": "poipole-1",
+    "habitat": "forest",
+    "type": "ground",
+    "properties": "min_perfect_ivs=3",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "ultra-rare",
+    "weight": 8,
+    "level": "15-35",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

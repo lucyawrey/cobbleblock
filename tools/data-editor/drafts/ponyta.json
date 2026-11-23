@@ -25,7 +25,7 @@
     "habitat": "flower_field",
     "type": "ground",
     "bucket": "uncommon",
-    "weight": 8.4,
+    "weight": 42,
     "level": "16-41",
     "timeRange": "any",
     "dark": false,

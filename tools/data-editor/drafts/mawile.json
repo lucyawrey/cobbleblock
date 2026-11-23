@@ -4,7 +4,7 @@
     "habitat": "deep_dark",
     "type": "ground",
     "bucket": "uncommon",
-    "weight": 6,
+    "weight": 60,
     "level": "13-38",
     "timeRange": "any",
     "dark": true,

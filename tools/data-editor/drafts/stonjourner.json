@@ -1,0 +1,40 @@
+[
+  {
+    "id": "stonjourner-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "rare",
+    "weight": 16,
+    "level": "22-47",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "stonjourner-2",
+    "habitat": "grassland",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "dusk",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 80,
+    "level": "22-47",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

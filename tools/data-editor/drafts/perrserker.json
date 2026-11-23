@@ -1,0 +1,21 @@
+[
+  {
+    "id": "perrserker-1",
+    "habitat": "urban",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 10,
+    "level": "28-44",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

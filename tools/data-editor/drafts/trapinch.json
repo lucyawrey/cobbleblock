@@ -4,7 +4,7 @@
     "habitat": "desert",
     "type": "ground",
     "bucket": "rare",
-    "weight": 7.5,
+    "weight": 75,
     "level": "4-29",
     "timeRange": "any",
     "dark": false,

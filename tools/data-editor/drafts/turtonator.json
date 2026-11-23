@@ -1,0 +1,40 @@
+[
+  {
+    "id": "turtonator-1",
+    "habitat": "volcanic",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 100,
+    "level": "24-49",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "turtonator-2",
+    "habitat": "volcanic",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 60,
+    "level": "24-49",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

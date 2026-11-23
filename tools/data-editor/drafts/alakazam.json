@@ -4,7 +4,7 @@
     "habitat": "grassland",
     "type": "ground",
     "bucket": "rare",
-    "weight": 0.125,
+    "weight": 1.25,
     "level": "35-50",
     "timeRange": "night",
     "dark": false,

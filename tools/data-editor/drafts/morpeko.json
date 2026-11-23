@@ -1,0 +1,21 @@
+[
+  {
+    "id": "morpeko-1",
+    "habitat": "farm",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 80,
+    "level": "19-44",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

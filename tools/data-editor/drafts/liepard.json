@@ -4,7 +4,7 @@
     "habitat": "forest",
     "type": "ground",
     "bucket": "common",
-    "weight": 0.2,
+    "weight": 2,
     "level": "20-45",
     "timeRange": "night",
     "dark": false,

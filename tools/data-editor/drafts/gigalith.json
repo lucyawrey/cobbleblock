@@ -1,10 +1,10 @@
 [
   {
     "id": "gigalith-1",
-    "habitat": "overworld",
+    "habitat": "deep_dark",
     "type": "ground",
     "bucket": "common",
-    "weight": 0.05,
+    "weight": 0.5,
     "level": "34-52",
     "timeRange": "any",
     "dark": true,
@@ -16,12 +16,6 @@
       1
     ],
     "properties": "",
-    "signatureBlocks": [
-      "minecraft:sculk",
-      "minecraft:sculk_vein",
-      "minecraft:sculk_catalyst",
-      "minecraft:sculk_sensor",
-      "minecraft:sculk_shrieker"
-    ]
+    "signatureBlocks": []
   }
 ]

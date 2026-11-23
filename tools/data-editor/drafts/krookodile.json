@@ -1,0 +1,21 @@
+[
+  {
+    "id": "krookodile-1",
+    "habitat": "desert",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 0.1,
+    "level": "40-52",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "yungoos-1",
+    "habitat": "grassland",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 54,
+    "level": "1-25",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

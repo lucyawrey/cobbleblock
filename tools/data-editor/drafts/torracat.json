@@ -1,0 +1,21 @@
+[
+  {
+    "id": "torracat-1",
+    "habitat": "jungle",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "ultra-rare",
+    "weight": 28.8,
+    "level": "17-42",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

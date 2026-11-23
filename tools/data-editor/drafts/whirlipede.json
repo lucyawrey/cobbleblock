@@ -1,0 +1,78 @@
+[
+  {
+    "id": "whirlipede-1",
+    "habitat": "forest",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 1.8,
+    "level": "22-36",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "whirlipede-2",
+    "habitat": "jungle",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "22-36",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "whirlipede-3",
+    "habitat": "lush_cave",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 1.8,
+    "level": "22-36",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "whirlipede-4",
+    "habitat": "nether_forest",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 5.4,
+    "level": "22-36",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

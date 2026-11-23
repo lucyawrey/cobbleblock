@@ -1,0 +1,21 @@
+[
+  {
+    "id": "bellibolt-1",
+    "habitat": "shore",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 1,
+    "level": "22-50",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

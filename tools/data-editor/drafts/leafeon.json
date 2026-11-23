@@ -4,7 +4,7 @@
     "habitat": "overworld",
     "type": "ground",
     "bucket": "ultra-rare",
-    "weight": 1.2,
+    "weight": 24,
     "level": "28-53",
     "timeRange": "any",
     "dark": false,

@@ -4,7 +4,7 @@
     "habitat": "jungle",
     "type": "ground",
     "bucket": "common",
-    "weight": 7.6,
+    "weight": 76,
     "level": "15-27",
     "timeRange": "any",
     "dark": false,

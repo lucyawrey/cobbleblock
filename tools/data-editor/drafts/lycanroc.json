@@ -1,0 +1,116 @@
+[
+  {
+    "id": "lycanroc-1",
+    "habitat": "stone",
+    "type": "ground",
+    "properties": "wolf_form=midday",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 4.8,
+    "level": "25-49",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "lycanroc-2",
+    "habitat": "taiga",
+    "type": "ground",
+    "properties": "wolf_form=midday",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 4.8,
+    "level": "25-49",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "lycanroc-3",
+    "habitat": "stone",
+    "type": "ground",
+    "properties": "wolf_form=midnight",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 4.8,
+    "level": "25-49",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "lycanroc-4",
+    "habitat": "taiga",
+    "type": "ground",
+    "properties": "wolf_form=midnight",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 4.8,
+    "level": "25-49",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "lycanroc-5",
+    "habitat": "stone",
+    "type": "ground",
+    "properties": "wolf_form=dusk",
+    "timeRange": "dusk",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 1,
+    "level": "25-49",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "lycanroc-6",
+    "habitat": "taiga",
+    "type": "ground",
+    "properties": "wolf_form=dusk",
+    "timeRange": "dusk",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 1,
+    "level": "25-49",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

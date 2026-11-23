@@ -1,0 +1,97 @@
+[
+  {
+    "id": "braviary-1",
+    "habitat": "badlands",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 4.8,
+    "level": "54-59",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "braviary-2",
+    "habitat": "stone",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 4.8,
+    "level": "54-59",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "braviary-3",
+    "habitat": "overworld",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 3,
+    "level": "54-59",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "braviary-4",
+    "habitat": "stone",
+    "type": "ground",
+    "properties": "hisuian",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 4.8,
+    "level": "54-59",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "braviary-5",
+    "habitat": "overworld",
+    "type": "ground",
+    "properties": "hisuian",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 3,
+    "level": "54-59",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

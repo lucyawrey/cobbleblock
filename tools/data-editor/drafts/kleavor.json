@@ -1,0 +1,40 @@
+[
+  {
+    "id": "kleavor-1",
+    "habitat": "forest",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "rare",
+    "weight": 2.5,
+    "level": "45-50",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "kleavor-2",
+    "habitat": "stone",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "rare",
+    "weight": 2.5,
+    "level": "45-50",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

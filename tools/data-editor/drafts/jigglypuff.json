@@ -4,7 +4,7 @@
     "habitat": "flower_field",
     "type": "ground",
     "bucket": "common",
-    "weight": 0.95,
+    "weight": 63.2,
     "level": "16-27",
     "timeRange": "any",
     "dark": false,

@@ -1,10 +1,10 @@
 [
   {
     "id": "armarouge-1",
-    "habitat": "overworld",
+    "habitat": "nether_fortress",
     "type": "ground",
     "bucket": "uncommon",
-    "weight": 4,
+    "weight": 32,
     "level": "21-53",
     "timeRange": "any",
     "dark": false,
@@ -16,9 +16,6 @@
       1
     ],
     "properties": "",
-    "signatureBlocks": [
-      "minecraft:nether_bricks",
-      "minecraft:nether_brick_stairs"
-    ]
+    "signatureBlocks": []
   }
 ]

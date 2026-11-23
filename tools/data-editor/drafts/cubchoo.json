@@ -1,0 +1,21 @@
+[
+  {
+    "id": "cubchoo-1",
+    "habitat": "snowy",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 9,
+    "level": "6-31",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

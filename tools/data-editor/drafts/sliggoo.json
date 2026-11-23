@@ -1,0 +1,78 @@
+[
+  {
+    "id": "sliggoo-1",
+    "habitat": "swamp",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "rain",
+    "moonPhases": [],
+    "bucket": "rare",
+    "weight": 22.5,
+    "level": "40-45",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "sliggoo-2",
+    "habitat": "dripstone_cave",
+    "type": "ground",
+    "properties": "hisuian",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "rare",
+    "weight": 22.5,
+    "level": "40-45",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "sliggoo-3",
+    "habitat": "lush_cave",
+    "type": "ground",
+    "properties": "hisuian",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "rare",
+    "weight": 22.5,
+    "level": "40-45",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "sliggoo-4",
+    "habitat": "underground",
+    "type": "fishing",
+    "properties": "hisuian",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "rare",
+    "weight": 22.5,
+    "level": "40-45",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

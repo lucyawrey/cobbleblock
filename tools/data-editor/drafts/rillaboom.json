@@ -1,0 +1,21 @@
+[
+  {
+    "id": "rillaboom-1",
+    "habitat": "jungle",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "ultra-rare",
+    "weight": 1.2,
+    "level": "35-53",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

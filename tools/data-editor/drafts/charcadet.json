@@ -1,10 +1,10 @@
 [
   {
     "id": "charcadet-1",
-    "habitat": "overworld",
+    "habitat": "nether_fortress",
     "type": "ground",
     "bucket": "uncommon",
-    "weight": 92,
+    "weight": 736,
     "level": "1-26",
     "timeRange": "any",
     "dark": false,
@@ -16,10 +16,6 @@
       1
     ],
     "properties": "",
-    "signatureBlocks": [
-      "minecraft:netherrack",
-      "minecraft:nether_bricks",
-      "minecraft:nether_brick_stairs"
-    ]
+    "signatureBlocks": []
   }
 ]

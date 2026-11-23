@@ -1,0 +1,21 @@
+[
+  {
+    "id": "haxorus-1",
+    "habitat": "stone",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "ultra-rare",
+    "weight": 2,
+    "level": "48-54",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

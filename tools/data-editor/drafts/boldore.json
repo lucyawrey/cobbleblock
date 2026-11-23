@@ -1,10 +1,10 @@
 [
   {
     "id": "boldore-1",
-    "habitat": "overworld",
+    "habitat": "deep_dark",
     "type": "ground",
     "bucket": "common",
-    "weight": 0.95,
+    "weight": 9.5,
     "level": "25-39",
     "timeRange": "any",
     "dark": true,
@@ -16,12 +16,6 @@
       1
     ],
     "properties": "",
-    "signatureBlocks": [
-      "minecraft:sculk",
-      "minecraft:sculk_vein",
-      "minecraft:sculk_catalyst",
-      "minecraft:sculk_sensor",
-      "minecraft:sculk_shrieker"
-    ]
+    "signatureBlocks": []
   }
 ]

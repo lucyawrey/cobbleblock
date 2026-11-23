@@ -4,7 +4,7 @@
     "habitat": "mushroom",
     "type": "ground",
     "bucket": "common",
-    "weight": 7,
+    "weight": 27,
     "level": "4-29",
     "timeRange": "any",
     "dark": true,

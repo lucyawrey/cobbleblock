@@ -1,0 +1,21 @@
+[
+  {
+    "id": "floette-1",
+    "habitat": "flower_field",
+    "type": "ground",
+    "properties": "flower=eternal",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "rare",
+    "weight": 5,
+    "level": "35-65",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

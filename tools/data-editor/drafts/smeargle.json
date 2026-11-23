@@ -4,7 +4,7 @@
     "habitat": "urban",
     "type": "ground",
     "bucket": "rare",
-    "weight": 10,
+    "weight": 100,
     "level": "1-25",
     "timeRange": "any",
     "dark": false,

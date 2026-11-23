@@ -146,7 +146,8 @@
     "seafloor"
   ],
   "taiga": [
-    "ground"
+    "ground",
+    "dive"
   ],
   "underground": [
     "ground",

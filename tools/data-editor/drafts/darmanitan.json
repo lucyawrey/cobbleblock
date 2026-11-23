@@ -1,0 +1,40 @@
+[
+  {
+    "id": "darmanitan-1",
+    "habitat": "snowy",
+    "type": "ground",
+    "properties": "galarian",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "uncommon",
+    "weight": 15,
+    "level": "35-54",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "darmanitan-2",
+    "habitat": "nether",
+    "type": "ground",
+    "properties": "galarian",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 35,
+    "level": "35-54",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "heliolisk-1",
+    "habitat": "badlands",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 6,
+    "level": "24-48",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "heliolisk-2",
+    "habitat": "desert",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "day",
+    "dark": false,
+    "weather": "clear",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 6,
+    "level": "24-48",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

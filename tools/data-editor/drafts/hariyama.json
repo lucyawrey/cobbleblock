@@ -4,7 +4,7 @@
     "habitat": "stone",
     "type": "ground",
     "bucket": "common",
-    "weight": 0.2,
+    "weight": 1,
     "level": "24-47",
     "timeRange": "any",
     "dark": false,

@@ -1,10 +1,10 @@
 [
   {
     "id": "whismur-1",
-    "habitat": "overworld",
+    "habitat": "deep_dark",
     "type": "ground",
     "bucket": "uncommon",
-    "weight": 8.4,
+    "weight": 42,
     "level": "1-24",
     "timeRange": "any",
     "dark": true,
@@ -16,12 +16,6 @@
       1
     ],
     "properties": "",
-    "signatureBlocks": [
-      "minecraft:sculk",
-      "minecraft:sculk_vein",
-      "minecraft:sculk_catalyst",
-      "minecraft:sculk_sensor",
-      "minecraft:sculk_shrieker"
-    ]
+    "signatureBlocks": []
   }
 ]

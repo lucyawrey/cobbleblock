@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ursaluna-1",
+    "habitat": "saccharine_forest",
+    "type": "ground",
+    "properties": "",
+    "timeRange": "any",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "common",
+    "weight": 0.24,
+    "level": "45-55",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  },
+  {
+    "id": "ursaluna-2",
+    "habitat": "dark_forest",
+    "type": "ground",
+    "properties": "bloodmoon",
+    "timeRange": "night",
+    "dark": false,
+    "weather": "any",
+    "moonPhases": [],
+    "bucket": "rare",
+    "weight": 11.5,
+    "level": "50-65",
+    "lureBoosts": [
+      1,
+      1,
+      1
+    ],
+    "signatureBlocks": []
+  }
+]

@@ -4,7 +4,7 @@
     "habitat": "overworld",
     "type": "fishing",
     "bucket": "common",
-    "weight": 0.5,
+    "weight": 5,
     "level": "26-53",
     "timeRange": "any",
     "dark": false,

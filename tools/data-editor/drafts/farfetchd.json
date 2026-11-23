@@ -46,7 +46,7 @@
     "habitat": "forest",
     "type": "ground",
     "bucket": "rare",
-    "weight": 8.75,
+    "weight": 70,
     "level": "13-38",
     "timeRange": "any",
     "dark": false,
