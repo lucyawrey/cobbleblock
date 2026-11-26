@@ -7,61 +7,67 @@
       "id": "poliwhirl-1",
       "pokemon": "poliwhirl",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:jungle"
+      ],
       "bucket": "common",
-      "weight": 0.95,
       "level": "25-39",
-      "spawnablePositionType": "grounded",
+      "weight": 2.85,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "isRaining": true,
-        "neededNearbyBlocks": [
-          "minecraft:lily_pad",
-          "minecraft:vine"
-        ]
+        "isRaining": true
       }
     },
     {
       "id": "poliwhirl-2",
       "pokemon": "poliwhirl",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:dive",
+        "cobbleblock:jungle"
+      ],
       "bucket": "common",
-      "weight": 0.95,
       "level": "25-39",
-      "spawnablePositionType": "submerged",
-      "condition": {
-        "fluid": "#minecraft:water",
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "canSeeSky": true,
-        "neededNearbyBlocks": [
-          "minecraft:lily_pad",
-          "minecraft:vine"
-        ]
-      }
+      "weight": 2.85
     },
     {
       "id": "poliwhirl-3",
       "pokemon": "poliwhirl",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:fishing",
+        "cobbleblock:overworld"
+      ],
       "bucket": "common",
-      "weight": 0.95,
       "level": "25-39",
-      "spawnablePositionType": "fishing",
+      "weight": 9.5,
       "condition": {
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "canSeeSky": true,
         "isRaining": true
       }
+    },
+    {
+      "id": "poliwhirl-4",
+      "pokemon": "poliwhirl",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:swamp"
+      ],
+      "bucket": "common",
+      "level": "25-39",
+      "weight": 0.95
+    },
+    {
+      "id": "poliwhirl-5",
+      "pokemon": "poliwhirl",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:dive",
+        "cobbleblock:swamp"
+      ],
+      "bucket": "common",
+      "level": "25-39",
+      "weight": 2.85
     }
   ]
 }

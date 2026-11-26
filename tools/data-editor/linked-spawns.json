@@ -140,12 +140,12 @@
     "arboliva": "arboliva-1"
   },
   "arcanine-33": {
-    "growlithe": "growlithe-hisuian-1",
-    "arcanine": "arcanine-hisuian-1"
+    "arcanine": "arcanine-hisuian-1",
+    "growlithe": "growlithe-hisuian-1"
   },
   "arcanine-34": {
-    "growlithe": "growlithe-3",
-    "arcanine": "arcanine-3"
+    "arcanine": "arcanine-3",
+    "growlithe": "growlithe-3"
   },
   "archaludon-35": {
     "duraludon": "duraludon-1",
@@ -2121,31 +2121,31 @@
     "unfezant": "unfezant-1"
   },
   "politoed-498": {
-    "poliwag": "poliwag-2",
-    "poliwhirl": "poliwhirl-2",
     "poliwrath": "poliwrath-2",
+    "poliwhirl": "poliwhirl-2",
+    "poliwag": "poliwag-2",
     "politoed": "politoed-2"
   },
   "politoed-499": {
-    "poliwag": "poliwag-4",
-    "poliwhirl": "poliwhirl-4",
     "poliwrath": "poliwrath-4",
+    "poliwhirl": "poliwhirl-4",
+    "poliwag": "poliwag-4",
     "politoed": "politoed-4"
   },
   "politoed-500": {
-    "poliwag": "poliwag-5",
-    "poliwhirl": "poliwhirl-5",
     "poliwrath": "poliwrath-5",
+    "poliwhirl": "poliwhirl-5",
+    "poliwag": "poliwag-5",
     "politoed": "politoed-5"
   },
   "politoed-501": {
-    "poliwhirl": "poliwhirl-1",
     "poliwrath": "poliwrath-1",
+    "poliwhirl": "poliwhirl-1",
     "politoed": "politoed-1"
   },
   "politoed-502": {
-    "poliwhirl": "poliwhirl-3",
     "poliwrath": "poliwrath-3",
+    "poliwhirl": "poliwhirl-3",
     "politoed": "politoed-3"
   },
   "polteageist-503": {

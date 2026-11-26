@@ -7,61 +7,67 @@
       "id": "poliwrath-1",
       "pokemon": "poliwrath",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:jungle"
+      ],
       "bucket": "common",
-      "weight": 0.025,
       "level": "34-51",
-      "spawnablePositionType": "grounded",
+      "weight": 0.075,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "isRaining": true,
-        "neededNearbyBlocks": [
-          "minecraft:lily_pad",
-          "minecraft:vine"
-        ]
+        "isRaining": true
       }
     },
     {
       "id": "poliwrath-2",
       "pokemon": "poliwrath",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:dive",
+        "cobbleblock:jungle"
+      ],
       "bucket": "common",
-      "weight": 0.025,
       "level": "34-51",
-      "spawnablePositionType": "submerged",
-      "condition": {
-        "fluid": "#minecraft:water",
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "canSeeSky": true,
-        "neededNearbyBlocks": [
-          "minecraft:lily_pad",
-          "minecraft:vine"
-        ]
-      }
+      "weight": 0.075
     },
     {
       "id": "poliwrath-3",
       "pokemon": "poliwrath",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:fishing",
+        "cobbleblock:overworld"
+      ],
       "bucket": "common",
-      "weight": 0.025,
       "level": "34-51",
-      "spawnablePositionType": "fishing",
+      "weight": 0.25,
       "condition": {
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "canSeeSky": true,
         "isRaining": true
       }
+    },
+    {
+      "id": "poliwrath-4",
+      "pokemon": "poliwrath",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:swamp"
+      ],
+      "bucket": "common",
+      "level": "34-51",
+      "weight": 0.025
+    },
+    {
+      "id": "poliwrath-5",
+      "pokemon": "poliwrath",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:dive",
+        "cobbleblock:swamp"
+      ],
+      "bucket": "common",
+      "level": "34-51",
+      "weight": 0.075
     }
   ]
 }

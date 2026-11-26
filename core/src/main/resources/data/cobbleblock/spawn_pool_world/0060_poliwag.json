@@ -7,59 +7,61 @@
       "id": "poliwag-1",
       "pokemon": "poliwag",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:jungle"
+      ],
       "bucket": "common",
-      "weight": 9,
       "level": "5-30",
-      "spawnablePositionType": "grounded",
-      "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "neededNearbyBlocks": [
-          "minecraft:lily_pad",
-          "minecraft:vine"
-        ]
-      }
+      "weight": 27
     },
     {
       "id": "poliwag-2",
       "pokemon": "poliwag",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:dive",
+        "cobbleblock:jungle"
+      ],
       "bucket": "common",
-      "weight": 9,
       "level": "5-30",
-      "spawnablePositionType": "submerged",
-      "condition": {
-        "fluid": "#minecraft:water",
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "canSeeSky": true,
-        "neededNearbyBlocks": [
-          "minecraft:lily_pad",
-          "minecraft:vine"
-        ]
-      }
+      "weight": 27
     },
     {
       "id": "poliwag-3",
       "pokemon": "poliwag",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:fishing",
+        "cobbleblock:overworld"
+      ],
       "bucket": "common",
-      "weight": 9,
       "level": "5-30",
-      "spawnablePositionType": "fishing",
-      "condition": {
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "canSeeSky": true
-      }
+      "weight": 90
+    },
+    {
+      "id": "poliwag-4",
+      "pokemon": "poliwag",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:swamp"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 9
+    },
+    {
+      "id": "poliwag-5",
+      "pokemon": "poliwag",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:dive",
+        "cobbleblock:swamp"
+      ],
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 27
     }
   ]
 }

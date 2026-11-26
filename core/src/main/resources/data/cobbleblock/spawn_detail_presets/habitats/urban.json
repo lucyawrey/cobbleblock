@@ -3,6 +3,8 @@
     "dimensions": [
       "minecraft:overworld"
     ],
+    "minSkyLight": 8,
+    "maxSkyLight": 15,
     "neededNearbyBlocks": [
       "#minecraft:wool",
       "#cobblemon:concrete_blocks",

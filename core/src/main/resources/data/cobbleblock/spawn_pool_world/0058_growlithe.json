@@ -7,26 +7,46 @@
       "id": "growlithe-1",
       "pokemon": "growlithe",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:grassland"
+      ],
       "bucket": "uncommon",
-      "weight": 9.2,
       "level": "10-35",
-      "spawnablePositionType": "grounded",
+      "weight": 92,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
         "isRaining": false,
-        "isThundering": false,
         "neededNearbyBlocks": [
-          "minecraft:tall_grass",
-          "minecraft:short_grass",
-          "minecraft:fern",
-          "minecraft:torch",
-          "minecraft:fire",
-          "minecraft:netherrack",
-          "#minecraft:campfires"
+          "minecraft:netherrack"
         ]
       }
+    },
+    {
+      "id": "growlithe-hisuian-1",
+      "pokemon": "growlithe hisuian",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:stone"
+      ],
+      "bucket": "uncommon",
+      "level": "14-37",
+      "weight": 92,
+      "condition": {
+        "isRaining": false
+      }
+    },
+    {
+      "id": "growlithe-3",
+      "pokemon": "growlithe",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:urban"
+      ],
+      "bucket": "uncommon",
+      "level": "10-35",
+      "weight": 92
     }
   ]
 }

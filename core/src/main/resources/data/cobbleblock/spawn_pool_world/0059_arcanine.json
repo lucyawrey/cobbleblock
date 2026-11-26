@@ -7,23 +7,43 @@
       "id": "arcanine-1",
       "pokemon": "arcanine",
       "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:volcanic"
+      ],
       "bucket": "uncommon",
-      "weight": 0.8,
       "level": "30-56",
-      "spawnablePositionType": "grounded",
+      "weight": 6.4,
       "condition": {
-        "neededBaseBlocks": [
-          "#cobblemon:natural"
-        ],
-        "isRaining": false,
-        "isThundering": false,
-        "neededNearbyBlocks": [
-          "minecraft:torch",
-          "minecraft:fire",
-          "minecraft:netherrack",
-          "#minecraft:campfires"
-        ]
+        "isRaining": false
       }
+    },
+    {
+      "id": "arcanine-hisuian-1",
+      "pokemon": "arcanine hisuian",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:stone"
+      ],
+      "bucket": "uncommon",
+      "level": "30-56",
+      "weight": 6.4,
+      "condition": {
+        "isRaining": false
+      }
+    },
+    {
+      "id": "arcanine-3",
+      "pokemon": "arcanine",
+      "type": "pokemon",
+      "presets": [
+        "cobbleblock:ground",
+        "cobbleblock:urban"
+      ],
+      "bucket": "uncommon",
+      "level": "30-56",
+      "weight": 6.4
     }
   ]
 }
