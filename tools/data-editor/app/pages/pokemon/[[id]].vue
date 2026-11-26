@@ -54,11 +54,14 @@ function addSpawn() {
 }
 
 function duplicateSpawn(index: number) {
-  const { link: _, ...rest } = structuredClone(toRaw(spawns.value[index]!))
-  spawns.value.splice(index + 1, 0, { ...rest, id: freshId() })
+  const { link, ...rest } = structuredClone(toRaw(spawns.value[index]!))
+  const duplicate: EditorSpawn = { ...rest, id: freshId() }
+  if (link?.members.length) duplicate.link = { members: link.members, copyOf: link.id }
+  spawns.value.splice(index + 1, 0, duplicate)
 }
 
-const linking = ref<{ spawn: EditorSpawn, family: FamilyMember[], members: string[] }>()
+const newCopy = '+'
+const linking = ref<{ spawn: EditorSpawn, family: FamilyMember[], members: string[], join: Record<string, string> }>()
 
 function memberNames(spawn: EditorSpawn) {
   return spawn.link!.members.map(id => list.value?.find(pokemon => pokemon.id === id)?.name ?? id).join(', ')
@@ -69,13 +72,24 @@ async function setLinked(spawn: EditorSpawn, on: boolean) {
     spawn.link = spawn.link?.id ? { id: spawn.link.id, members: [] } : undefined
     return
   }
-  const family = await $fetch<FamilyMember[]>(`/api/pokemon/${selectedId.value}/family`, { query: { properties: spawn.properties } })
-  linking.value = { spawn, family, members: family.filter(member => member.hasSpawns && member.id !== selectedId.value).map(member => member.id) }
+  const family = (await $fetch<FamilyMember[]>(`/api/pokemon/${selectedId.value}/family`, { query: { properties: spawn.properties } }))
+    .filter(member => member.id !== selectedId.value)
+  const join = Object.fromEntries(family.map(member =>
+    [member.id, member.unlinkedSpawns.find(other => other.habitat === spawn.habitat && other.type === spawn.type)?.id ?? newCopy]))
+  linking.value = { spawn, family, members: family.filter(member => member.hasSpawns).map(member => member.id), join }
+}
+
+function joinOptions(member: FamilyMember) {
+  return [
+    { label: copy.pokemon.linkNewCopy, value: newCopy },
+    ...member.unlinkedSpawns.map(spawn => ({ label: `${spawn.id} · ${spawn.habitat}/${spawn.type}`, value: spawn.id }))
+  ]
 }
 
 function confirmLink() {
-  const { spawn, members } = linking.value!
-  spawn.link = { id: spawn.link?.id, members }
+  const { spawn, members, join } = linking.value!
+  const joined = Object.fromEntries(members.filter(member => join[member] !== newCopy).map(member => [member, join[member]!]))
+  spawn.link = { id: spawn.link?.id, members, join: joined }
   linking.value = undefined
 }
 
@@ -354,11 +368,28 @@ const sources = computed(() => {
         @update:open="linking = undefined"
       >
         <template #body>
-          <UCheckboxGroup
+          <div
             v-if="linking"
-            v-model="linking.members"
-            :items="linking.family.filter(member => member.id !== selectedId).map(member => ({ label: member.name, value: member.id }))"
-          />
+            class="flex flex-col gap-2"
+          >
+            <div
+              v-for="member in linking.family"
+              :key="member.id"
+              class="flex items-center justify-between gap-3"
+            >
+              <UCheckbox
+                :model-value="linking.members.includes(member.id)"
+                :label="member.name"
+                @update:model-value="linking.members = $event ? [...linking.members, member.id] : linking.members.filter(id => id !== member.id)"
+              />
+              <USelect
+                v-model="linking.join[member.id]"
+                :items="joinOptions(member)"
+                :disabled="!linking.members.includes(member.id)"
+                class="w-60"
+              />
+            </div>
+          </div>
         </template>
         <template #footer>
           <div class="flex w-full justify-end gap-2">

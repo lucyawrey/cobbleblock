@@ -53,6 +53,7 @@
     "linkedWith": "Linked With:",
     "linkTitle": "Pick Pokemon to link with",
     "linkConfirm": "Confirm Link",
+    "linkNewCopy": "[dropdown option that adds a new copy of the spawn instead of linking an existing one]",
     "habitat": "Habitat",
     "spawnType": "Spawn type",
     "bucket": "Bucket",

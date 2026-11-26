@@ -34,12 +34,17 @@ export interface EditorSpawn {
 export interface SpawnLink {
   id?: string
   members: string[]
+  // Member → its existing spawn to link instead of adding a copy.
+  join?: Record<string, string>
+  // A link this one duplicates: new copies start from each member's spawn in it.
+  copyOf?: string
 }
 
 export interface FamilyMember {
   id: string
   name: string
   hasSpawns: boolean
+  unlinkedSpawns: Pick<EditorSpawn, 'id' | 'habitat' | 'type'>[]
 }
 
 export type PokemonStatus = 'none' | 'old' | 'draft' | 'new'

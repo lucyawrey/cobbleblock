@@ -42,9 +42,19 @@ export function family(species: Species, properties: string): FamilyMember[] {
     queue.push(...(form.evolutions ?? file.evolutions ?? []).map(evolution => evolution.result), ...(pre ? [pre] : []))
   }
   const ids = new Set([...seen].map(node => node.split(' ')[0]))
+  const links = Object.values(readLinks())
   return allSpecies()
     .filter(member => ids.has(member.id))
-    .map(member => ({ id: member.id, name: member.name, hasSpawns: editorSpawns(member).status !== 'none' }))
+    .map((member) => {
+      const { status, spawns } = editorSpawns(member)
+      const linked = new Set(links.map(link => link[member.id]))
+      return {
+        id: member.id,
+        name: member.name,
+        hasSpawns: status !== 'none',
+        unlinkedSpawns: spawns.filter(spawn => !linked.has(spawn.id)).map(({ id, habitat, type }) => ({ id, habitat, type }))
+      }
+    })
 }
 
 function readLinks(): Links {
@@ -69,16 +79,20 @@ export function saveLinks(species: Species, spawns: EditorSpawn[]) {
     if (!spawn.link) continue
     const id = spawn.link.id ?? randomUUID().slice(0, 8)
     const old = links[id] ?? {}
+    const copyOf = links[spawn.link.copyOf ?? ''] ?? {}
     const link: Record<string, string> = { [species.id]: spawn.id }
-    for (const member of spawn.link.members) link[member] = updateMember(findSpecies(member), old[member], spawn)
+    for (const member of spawn.link.members) {
+      link[member] = updateMember(findSpecies(member), old[member] ?? spawn.link.join?.[member], spawn, copyOf[member])
+    }
     links[id] = link
   }
   writeJson(linksFile, Object.fromEntries(Object.entries(links).filter(([, link]) => Object.keys(link).length > 1)))
 }
 
 // Copies a linked spawn's shared fields to one member, adding the spawn if the member lacks it.
+// A new copy keeps the bucket, weight, level and lure boosts of the member's spawn `baseId`, if given.
 // Members with a draft, or with spawns in the old format, get the change in their draft.
-function updateMember(member: Species, spawnId: string | undefined, spawn: EditorSpawn) {
+function updateMember(member: Species, spawnId: string | undefined, spawn: EditorSpawn, baseId?: string) {
   const { status, spawns } = editorSpawns(member)
   const { id: _id, bucket: _bucket, weight: _weight, level: _level, lureBoosts: _lureBoosts, link: _link, ...shared } = spawn
   const existing = spawns.find(other => other.id === spawnId)
@@ -90,7 +104,8 @@ function updateMember(member: Species, spawnId: string | undefined, spawn: Edito
     let n = spawns.length + 1
     while (taken.has(`${member.id}-${n}`)) n++
     id = `${member.id}-${n}`
-    spawns.push({ ...spawn, id, link: undefined })
+    const base = spawns.find(other => other.id === baseId) ?? spawn
+    spawns.push({ ...spawn, id, bucket: base.bucket, weight: base.weight, level: base.level, lureBoosts: [...base.lureBoosts], link: undefined })
   }
   writeEditorSpawns(member, status, spawns)
   return id
