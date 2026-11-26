@@ -122,7 +122,7 @@ const sources = computed(() => {
 
 <template>
   <div class="flex flex-wrap">
-    <aside class="flex max-h-[calc(100vh-var(--ui-header-height))] w-72 flex-col gap-3 border-r border-default p-4">
+    <aside class="flex max-h-[calc(100vh-var(--ui-header-height))] w-72 flex-col gap-3 self-start border-r border-default p-4 lg:sticky lg:top-(--ui-header-height) lg:h-[calc(100vh-var(--ui-header-height))]">
       <UInput
         v-model="search"
         icon="i-lucide-search"

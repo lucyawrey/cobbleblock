@@ -61,7 +61,7 @@ async function save() {
 
 <template>
   <div class="flex flex-wrap">
-    <aside class="flex w-64 flex-col gap-3 border-r border-default p-4">
+    <aside class="flex max-h-[calc(100vh-var(--ui-header-height))] w-64 flex-col gap-3 self-start border-r border-default p-4 lg:sticky lg:top-(--ui-header-height) lg:h-[calc(100vh-var(--ui-header-height))]">
       <UButton
         :label="copy.habitats.new"
         icon="i-lucide-plus"
@@ -69,7 +69,7 @@ async function save() {
         variant="outline"
         @click="newHabitat"
       />
-      <nav class="-mx-2">
+      <nav class="-mx-2 flex-1 overflow-y-auto">
         <NuxtLink
           v-for="other in data?.habitats"
           :key="other.id"
